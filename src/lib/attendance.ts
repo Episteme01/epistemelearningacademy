@@ -74,3 +74,13 @@ export function tally(cats: Category[]): Counts {
   c.pct = denom > 0 ? Math.round((c.attended / denom) * 1000) / 10 : null;
   return c;
 }
+
+/**
+ * Attendance from opening the class link on this site. The record is written by the learner's own click, stamped with the
+ * server clock, and is allowed from 15 minutes before the start until the scheduled end.
+ */
+export const inLinkWindow = (nowMs: number, startMs: number, endMs: number) => nowMs >= startMs - CHECKIN_OPENS_MIN * 60_000 && nowMs <= endMs;
+/** The browser's best guess first, then the neighbours: the security rules recompute timing from the server clock, so a click right on a boundary can differ by a second. */
+export function timingCandidates(guess: AttTiming): AttTiming[] {
+  return guess === 'early' ? ['early', 'on_time', 'late'] : guess === 'on_time' ? ['on_time', 'early', 'late'] : ['late', 'on_time', 'early'];
+}
