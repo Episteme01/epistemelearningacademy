@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from 'react';
-import { useMathHtml } from '@/components/common/MathText';
 import { Link, useParams } from 'react-router-dom';
 import { addDoc, collection, serverTimestamp, where } from 'firebase/firestore';
 import { useForm } from 'react-hook-form';
@@ -40,8 +39,7 @@ const HOME_DEFAULTS: HomeCfg = {
 
 export function Rich({ html }: { html: string }) {
   const clean = useMemo(() => sanitizeHtml(html), [html]);
-  const shown = useMathHtml(clean);   // typesets $…$ / \(…\) / $$…$$ formulas after sanitising
-  return <div className="prose-ela" dangerouslySetInnerHTML={{ __html: shown }} />;
+  return <div className="prose-ela" dangerouslySetInnerHTML={{ __html: clean }} />;
 }
 
 function Section({ children, tone = 'white', className = '' }: { children: React.ReactNode; tone?: 'white' | 'cream' | 'forest'; className?: string }) {
