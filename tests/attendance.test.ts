@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { categoryOf, detailOf, effectiveTiming, minutesLate, tally, timingFrom } from '@/lib/attendance';
+import { categoryOf, detailOf, effectiveTiming, inLinkWindow, minutesLate, tally, timingCandidates, timingFrom } from '@/lib/attendance';
 
 const T = (hh: number, mm: number, ss = 0) => Date.UTC(2026, 10, 9, hh, mm, ss);   // class day, UTC clock
 const START = T(10, 0);
@@ -67,15 +67,23 @@ describe('report building', () => {
   it('months between', () => { expect(monthsBetween('2026-10-15', '2027-01-02')).toEqual(['2026-10-01', '2026-11-01', '2026-12-01', '2027-01-01']); });
 });
 
-describe('automatic link-click attendance record', () => {
-  const base = { startMs: START };
-  it('is final (not pending) and derives timing from the server check-in time', () => {
-    expect(categoryOf({ ...base, status: 'present', timing: '', checkInMs: T(9, 58) }, 5)).toBe('early');
-    expect(categoryOf({ ...base, status: 'present', timing: '', checkInMs: T(10, 3) }, 5)).toBe('on_time');
-    expect(categoryOf({ ...base, status: 'present', timing: '', checkInMs: T(10, 9) }, 5)).toBe('late');
+describe('attendance from the class link', () => {
+  const END = T(11, 0);
+  it('is allowed from 15 minutes before the start until the end, not outside', () => {
+    expect(inLinkWindow(T(9, 44), START, END)).toBe(false);
+    expect(inLinkWindow(T(9, 45), START, END)).toBe(true);
+    expect(inLinkWindow(T(10, 30), START, END)).toBe(true);
+    expect(inLinkWindow(END, START, END)).toBe(true);
+    expect(inLinkWindow(T(11, 0, 1), START, END)).toBe(false);
   });
-  it('counts toward the attendance percentage immediately', () => {
-    const c = tally(['on_time', 'late', 'absent']);
-    expect(c.attended).toBe(2); expect(c.pending).toBe(0);
+  it('tries the expected timing first, then its neighbours', () => {
+    expect(timingCandidates('on_time')).toEqual(['on_time', 'early', 'late']);
+    expect(timingCandidates('early')[0]).toBe('early');
+    expect(timingCandidates('late')[0]).toBe('late');
+  });
+  it('a link-click record counts as attended immediately (not pending)', () => {
+    const r = { status: 'present' as const, timing: 'late' as const, checkInMs: T(10, 12), startMs: START };
+    expect(categoryOf(r, 5)).toBe('late');
+    expect(tally([categoryOf(r, 5)]).attended).toBe(1);
   });
 });
