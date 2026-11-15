@@ -67,14 +67,14 @@ export function AttendancePanel({ session }: { session: WithId<Session> }) {
         {mine ? (
           <div className="space-y-1">
             <p className="flex flex-wrap items-center gap-2"><CategoryBadge c={categoryOf(asLike(mine), grace)} /> <span className="text-muted">{detailOf(asLike(mine), grace)}</span></p>
-            {mine.checkInAt != null && <p className="text-xs text-muted">{mine.method === 'link_click' ? 'Recorded automatically when you opened the meeting link' : 'Checked in'} {fmtDate(mine.checkInAt, true)}</p>}
+            {mine.checkInAt != null && <p className="text-xs text-muted">Checked in {fmtDate(mine.checkInAt, true)}</p>}
             {mine.status === 'pending_verification' && <p className="text-xs text-muted">Your teacher will confirm this.</p>}
             {mine.note && <p className="text-xs">Note: {mine.note}</p>}
           </div>
         ) : canCheckIn ? (
           <div className="space-y-2">
             <Button loading={busy} onClick={() => void run(() => selfCheckIn(session, { uid: uid!, name: profile?.displayName ?? '' }), 'Checked in. Your teacher will confirm it.')}>I am in class: check me in</Button>
-            <p className="text-xs text-muted">{session.online ? 'Opening the meeting from this page marks you present automatically. Use this button only if you joined another way.' : 'Only check in for yourself.'}</p>
+            <p className="text-xs text-muted">{session.online ? 'Opening the class link from this website records your attendance automatically. Use this button only if you cannot, or for classes with no online link.' : 'Only check in for yourself.'}</p>
           </div>
         ) : (
           <p className="flex items-center gap-1 text-muted"><Clock className="h-4 w-4" /> {now < start - OPEN_BEFORE ? 'Check-in opens 15 minutes before the class.' : session.status === 'completed' || now > end ? 'Check-in is closed. Ask your teacher if you attended.' : 'Not available.'}</p>
@@ -116,7 +116,7 @@ export function AttendancePanel({ session }: { session: WithId<Session> }) {
               <tr key={u}>
                 <Td>{nameOf(u)}</Td>
                 <Td><CategoryBadge c={cat} /></Td>
-                <Td className="text-xs text-muted">{r ? `${detailOf(asLike(r), grace)}${r.verifiedByName ? ` · by ${r.verifiedByName}` : ''}` : started ? 'Not recorded' : ''}{r?.note ? ` · ${r.note}` : ''}</Td>
+                <Td className="text-xs text-muted">{r ? `${detailOf(asLike(r), grace)}${r.method === 'link_click' ? ' · joined via class link' : ''}${r.verifiedByName ? ` · by ${r.verifiedByName}` : ''}` : started ? 'Not recorded' : ''}{r?.note ? ` · ${r.note}` : ''}</Td>
                 {manage && <Td><div className="flex gap-1">
                   {r?.status === 'pending_verification' && started && <Button size="sm" loading={busy} onClick={() => void run(() => confirmPending(session, r, grace, by), 'Confirmed')}>Confirm</Button>}
                   {started && <Button size="sm" variant="outline" onClick={() => setEdit({ uid: u, name: nameOf(u), status: r && r.status !== 'pending_verification' ? r.status : 'present', timing: (r?.timing as AttTiming | '') ?? '', reason: '' })}>{r && r.status !== 'pending_verification' ? 'Correct' : 'Mark'}</Button>}
