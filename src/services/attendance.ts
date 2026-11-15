@@ -1,10 +1,10 @@
-import { doc, serverTimestamp, setDoc, writeBatch, collection } from 'firebase/firestore';
+import { doc, getDoc, serverTimestamp, setDoc, writeBatch, collection } from 'firebase/firestore';
 import { db } from '@/config/firebase';
 import { C } from '@/config/collections';
 import { audit } from './audit';
 import { notifyUsers } from './notifications';
 import { clean } from './db';
-import { timingFrom } from '@/lib/attendance';
+import { DEFAULT_GRACE_MINUTES, inLinkWindow, timingCandidates, timingFrom } from '@/lib/attendance';
 import { toDate } from '@/lib/utils';
 import type { AttStatus, AttTiming, Session, SessionAttendance, WithId } from '@/types/models';
 
@@ -13,8 +13,7 @@ export interface Actor { uid: string; name: string; role: string }
 
 /**
  * Learner checks themselves in. The server stamps checkInAt (security rules require it to equal request.time),
- * and the record starts as "pending verification". This is the manual fallback (in-person classes, or a learner who joined without the link).
- * For online classes, opening the meeting link records attendance automatically: see recordLinkJoin().
+ * and the record starts as "pending verification". (Opening the class link from the website records attendance on its own: see recordLinkAttendance.)
  * A second attempt fails (create-only rule), so duplicates are impossible.
  */
 export async function selfCheckIn(session: WithId<Session>, student: { uid: string; name: string; studentId?: string }): Promise<void> {
@@ -27,32 +26,39 @@ export async function selfCheckIn(session: WithId<Session>, student: { uid: stri
   await setDoc(doc(db(), C.sessionAttendance, attendanceId(session.id, student.uid)), clean(data));
 }
 
+export type LinkAttendance = { recorded: true; timing: AttTiming } | { recorded: false; reason: 'exists' | 'outside_window' | 'not_in_class' | 'failed' };
+
 /**
- * Automatic attendance: called the moment a learner opens the meeting link from the website.
- * The record is final (present, no teacher verification needed). The server clock stamps checkInAt; early / on time / late
- * is derived from it (never chosen by the learner).
- * Returns 'recorded', 'already' (a record exists) or 'skipped' (outside the class window or not invited).
- * It never throws: joining the class must never be blocked by an attendance problem.
+ * Attendance is recorded automatically when a learner opens the class link from this site: present at once, no teacher
+ * verification needed. The server stamps the time and the security rules recompute early / on time / late from it.
+ * A record is created only once per learner per class (a second click changes nothing), and only for learners enrolled in the
+ * class and only from 15 minutes before the start until the scheduled end. The teacher can still correct any record (reason required).
+ * This function never throws: opening the meeting must not depend on it.
  */
-export async function recordLinkJoin(session: WithId<Session>, student: { uid: string; name: string; studentId?: string }, nowMs = Date.now()): Promise<'recorded' | 'already' | 'skipped'> {
-  const start = toDate(session.startAt)?.getTime(); const end = toDate(session.endAt)?.getTime();
-  if (start == null || end == null || session.status !== 'scheduled' || !session.studentUids.includes(student.uid)) return 'skipped';
-  if (nowMs < start - 15 * 60_000 || nowMs > end) return 'skipped';
-  const data = {
-    sessionId: session.id, seriesId: session.seriesId, studentUid: student.uid, studentId: student.studentId ?? '', studentName: (student.name || 'Learner').slice(0, 120),
-    parentUids: session.parentUids ?? [], teacherUid: session.teacherUid, courseId: session.courseId ?? '', classId: session.classId ?? '',
-    monthKey: session.monthKey, scheduledStart: session.startAt, scheduledEnd: session.endAt,
-    checkInAt: serverTimestamp(), status: 'present', method: 'link_click', verified: true,
-    verifiedBy: 'system', verifiedByName: 'Meeting link (automatic)', createdAt: serverTimestamp(),
-  };
+export async function recordLinkAttendance(session: WithId<Session>, student: { uid: string; name: string; studentId?: string }, nowMs = Date.now()): Promise<LinkAttendance> {
   try {
-    await setDoc(doc(db(), C.sessionAttendance, attendanceId(session.id, student.uid)), clean(data));
-    return 'recorded';
-  } catch (e) {
-    // A record already exists (create-only rule) or the window closed: not an error for the learner.
-    console.warn('automatic attendance not recorded', e);
-    return 'already';
-  }
+    if (!(session.studentUids ?? []).includes(student.uid)) return { recorded: false, reason: 'not_in_class' };
+    const startMs = toDate(session.startAt)?.getTime() ?? 0; const endMs = toDate(session.endAt)?.getTime() ?? 0;
+    if (session.status !== 'scheduled' || !inLinkWindow(nowMs, startMs, endMs)) return { recorded: false, reason: 'outside_window' };
+    const ref = doc(db(), C.sessionAttendance, attendanceId(session.id, student.uid));
+    if ((await getDoc(ref)).exists()) return { recorded: false, reason: 'exists' };
+    const g = Number((await getDoc(doc(db(), C.settings, 'attendance')).catch(() => null))?.data()?.onTimeGraceMinutes);
+    const grace = Number.isFinite(g) && g >= 0 && g <= 60 ? Math.round(g) : DEFAULT_GRACE_MINUTES;
+    for (const timing of timingCandidates(timingFrom(nowMs, startMs, grace))) {
+      try {
+        await setDoc(ref, clean({
+          sessionId: session.id, seriesId: session.seriesId, studentUid: student.uid, studentId: student.studentId ?? '', studentName: student.name || 'Learner',
+          parentUids: session.parentUids ?? [], teacherUid: session.teacherUid, courseId: session.courseId ?? '', classId: session.classId ?? '',
+          monthKey: session.monthKey, scheduledStart: session.startAt, scheduledEnd: session.endAt,
+          checkInAt: serverTimestamp(), status: 'present', timing, method: 'link_click', verified: false, createdAt: serverTimestamp(),
+        }));
+        return { recorded: true, timing };
+      } catch (e) {
+        if ((e as { code?: string }).code !== 'permission-denied') break;   // only a timing mismatch is worth retrying
+      }
+    }
+    return { recorded: false, reason: 'failed' };
+  } catch { return { recorded: false, reason: 'failed' }; }
 }
 
 export interface MarkInput {
