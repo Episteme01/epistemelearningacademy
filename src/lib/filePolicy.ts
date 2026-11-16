@@ -1,6 +1,6 @@
 // Client mirror of supabase/functions/files/policy.ts. The gateway is the real enforcement; this only gives
 // instant feedback in the browser. tests/files.test.ts fails if the two tables drift apart.
-export type Purpose = 'site_image' | 'staff_image' | 'media_public' | 'avatar' | 'student_photo' | 'submission' | 'resource';
+export type Purpose = 'site_image' | 'staff_image' | 'media_public' | 'avatar' | 'student_photo' | 'submission' | 'resource' | 'assignment_file';
 export type Kind = 'image' | 'audio' | 'document';
 const MB = 1024 * 1024;
 
@@ -16,6 +16,7 @@ export const PURPOSES: Record<Purpose, PurposeRule> = {
   student_photo: { provider: 'supabase',   target: 'avatars',   roles: ['super_admin', 'admin', 'principal', 'admissions'], limits: { image: 2 * MB }, needs: 'studentId' },
   submission:    { provider: 'supabase',   target: 'submissions', roles: ['student'], limits: { image: 10 * MB, document: 10 * MB }, needs: 'assignmentId' },
   resource:      { provider: 'supabase',   target: 'resources', roles: STAFF, limits: { image: 10 * MB, audio: 50 * MB, document: 25 * MB } },
+  assignment_file: { provider: 'supabase', target: 'resources', roles: STAFF, limits: { image: 10 * MB, audio: 20 * MB, document: 20 * MB } },
 };
 
 const IMAGE = /^image\/(jpeg|png|webp|gif)$/;
