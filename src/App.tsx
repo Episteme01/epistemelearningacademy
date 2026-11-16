@@ -34,6 +34,7 @@ import { CurriculumDetail, CurriculumList } from '@/features/curriculum/Curricul
 import { LessonList, LessonPage } from '@/features/lessons/Lessons';
 import { PresentationsPage } from '@/features/learning/Presentations';
 import { MonitorPage } from '@/features/learning/Monitor';
+import { PadPage } from '@/features/pad/PadPage';
 import { SpotlightPage } from '@/features/spotlight/Spotlight';
 import { PlayerProvider } from '@/features/Islamic/player';
 import { AlarmEngine } from '@/features/Islamic/alarms';
@@ -87,6 +88,7 @@ export function App() {
         <Route path="lms/curriculum" element={guard('/app/lms/curriculum', <CurriculumList />)} />
         <Route path="lms/curriculum/:id" element={guard('/app/lms/curriculum', <CurriculumDetail />)} />
         <Route path="lms/presentations" element={guard('/app/lms/presentations', <PresentationsPage />)} />
+        <Route path="pad" element={guard('/app/pad', <PadPage />)} />
         <Route path="lms/monitor" element={guard('/app/lms/monitor', <MonitorPage />)} />
         <Route path="lms/lessons" element={guard('/app/lms/lessons', <LessonList />)} />
         <Route path="lms/lessons/:id" element={guard('/app/lms/lessons', <LessonPage />)} />
