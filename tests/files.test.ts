@@ -47,6 +47,21 @@ describe('paths', () => {
     expect(buildPath('student_photo', 'staff1', { studentId: 'stu12345' }, 'a.png', 1, 'r')).toMatch(/^students\/stu12345\//);
   });
 });
+describe('assignment attachments', () => {
+  it('only staff can attach; limits and path', () => {
+    expect(checkUpload('assignment_file', ['teacher'], 'application/pdf', MB)).toBeNull();
+    expect(checkUpload('assignment_file', ['student'], 'application/pdf', MB)).toMatch(/role/);
+    expect(checkUpload('assignment_file', ['teacher'], 'application/pdf', 25 * MB)).toMatch(/too large/);
+    expect(buildPath('assignment_file', 'tch1', {}, 'Work sheet.pdf', 1, 'r')).toMatch(/^assignments\/tch1\//);
+  });
+  it('downloads are limited to the assignments folder; owner may delete own file', () => {
+    expect(pathAllowed('assignments', 'a1', 'assignments/tch1/x.pdf', {})).toBe(true);
+    expect(pathAllowed('assignments', 'a1', 'tch1/x.pdf', {})).toBe(false);
+    expect(pathAllowed('assignments', 'a1', 'assignments/../x', {})).toBe(false);
+    expect(canDeleteSupabase('resources', 'assignments/tch1/x.pdf', 'tch1', ['teacher'])).toBe(true);
+    expect(canDeleteSupabase('resources', 'assignments/tch1/x.pdf', 'tch2', ['teacher'])).toBe(false);
+  });
+});
 describe('download authorisation', () => {
   it('path must match the record owner, never a path someone else chose', () => {
     expect(pathAllowed('submissions', 'a_u1', 'u1/a/file.pdf', { uid: 'u1' })).toBe(true);
