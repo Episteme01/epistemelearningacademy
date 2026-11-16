@@ -143,15 +143,17 @@ async function handle(req: Request, b: any): Promise<unknown> {
   }
 
   if (action === 'sign-download' || action === 'sign-downloads') {
-    const items: { collection: string; docId: string }[] = action === 'sign-download' ? [b] : Array.isArray(b.items) ? b.items.slice(0, 50) : [];
+    const items: { collection: string; docId: string; index?: number }[] = action === 'sign-download' ? [b] : Array.isArray(b.items) ? b.items.slice(0, 50) : [];
     const out: Record<string, string | null> = {};
     await Promise.all(items.map(async (it) => {
-      const key = `${it.collection}/${it.docId}`;
+      const idx = Number.isInteger(it.index) && Number(it.index) >= 0 && Number(it.index) < 20 ? Number(it.index) : null;
+      const key = idx === null ? `${it.collection}/${it.docId}` : `${it.collection}/${it.docId}#${idx}`;
       try {
         const d = (DOWNLOADS as Record<string, (typeof DOWNLOADS)[DownloadCollection] | undefined>)[it.collection];
         if (!d || !/^[A-Za-z0-9_-]{4,128}$/.test(it.docId)) { out[key] = null; return; }
         const f = await readDoc(token, `${it.collection}/${it.docId}`);        // Firestore rules decide here
-        const ref = f?.[d.field]?.mapValue?.fields;
+        const raw = f?.[d.field];
+        const ref = idx === null ? raw?.mapValue?.fields : raw?.arrayValue?.values?.[idx]?.mapValue?.fields;
         if (!f || !ref || str(ref.provider) !== 'supabase') { out[key] = null; return; }
         const owner: Record<string, string> = { uid: str(f.uid), createdBy: str(f.createdBy) };
         const path = str(ref.path);

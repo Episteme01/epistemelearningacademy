@@ -1,7 +1,7 @@
 // Pure rules for the file gateway. No Deno or browser APIs here, so it can be unit-tested in Node.
 // KEEP IN SYNC with src/lib/filePolicy.ts (tests/files.test.ts fails if the two tables differ).
 
-export type Purpose = 'site_image' | 'staff_image' | 'media_public' | 'avatar' | 'student_photo' | 'submission' | 'resource';
+export type Purpose = 'site_image' | 'staff_image' | 'media_public' | 'avatar' | 'student_photo' | 'submission' | 'resource' | 'assignment_file';
 export type Kind = 'image' | 'audio' | 'document';
 const MB = 1024 * 1024;
 
@@ -28,6 +28,7 @@ export const PURPOSES: Record<Purpose, PurposeRule> = {
   student_photo: { provider: 'supabase',   target: 'avatars',   roles: ['super_admin', 'admin', 'principal', 'admissions'], limits: { image: 2 * MB }, needs: 'studentId' },
   submission:    { provider: 'supabase',   target: 'submissions', roles: ['student'], limits: { image: 10 * MB, document: 10 * MB }, needs: 'assignmentId' },
   resource:      { provider: 'supabase',   target: 'resources', roles: STAFF, limits: { image: 10 * MB, audio: 50 * MB, document: 25 * MB } },
+  assignment_file: { provider: 'supabase', target: 'resources', roles: STAFF, limits: { image: 10 * MB, audio: 20 * MB, document: 20 * MB } },
 };
 
 const IMAGE = /^image\/(jpeg|png|webp|gif)$/;
@@ -63,6 +64,7 @@ export function buildPath(purpose: Purpose, uid: string, ctx: { studentId?: stri
     case 'avatar': return `users/${uid}/${stamp}-${f}`;
     case 'student_photo': return `students/${ctx.studentId}/${stamp}-${f}`;
     case 'submission': return `${uid}/${ctx.assignmentId}/${stamp}-${f}`;
+    case 'assignment_file': return `assignments/${uid}/${stamp}-${f}`;
     default: return `${uid}/${stamp}-${f}`;
   }
 }
@@ -73,6 +75,8 @@ export const DOWNLOADS = {
   users:       { bucket: 'avatars',     field: 'photoRef', ownerPrefix: (docId: string) => `users/${docId}/` },
   submissions: { bucket: 'submissions', field: 'fileRef',  ownerPrefix: (_d: string, f: Record<string, string>) => `${f.uid ?? '\0'}/` },
   resources:   { bucket: 'resources',   field: 'fileRef',  ownerPrefix: (_d: string, f: Record<string, string>) => `${f.createdBy ?? '\0'}/` },
+  // Teacher's attached files live in the `attachments` array (pick one with `index`). Firestore rules decide who may read the assignment.
+  assignments: { bucket: 'resources',   field: 'attachments', ownerPrefix: () => 'assignments/' },
 } as const;
 export type DownloadCollection = keyof typeof DOWNLOADS;
 
@@ -88,7 +92,7 @@ export function canDeleteSupabase(bucket: string, path: string, uid: string, rol
   const has = (r: string[]) => r.some((x) => roles.includes(x));
   if (bucket === 'avatars') return path.startsWith(`users/${uid}/`) || (path.startsWith('students/') && has(['super_admin', 'admin', 'principal', 'admissions']));
   if (bucket === 'submissions') return path.startsWith(`${uid}/`) || has(['super_admin', 'admin', 'principal', 'teacher']);
-  if (bucket === 'resources') return path.startsWith(`${uid}/`) || has(['super_admin', 'admin', 'principal']);
+  if (bucket === 'resources') return path.startsWith(`${uid}/`) || path.startsWith(`assignments/${uid}/`) || has(['super_admin', 'admin', 'principal']);
   return false;
 }
 export function canDeleteCloudinary(publicId: string, roles: string[]): boolean {
