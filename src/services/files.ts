@@ -76,29 +76,29 @@ export async function deleteFileRef(ref?: FileRef | null): Promise<void> {
 }
 
 /* ------------------------------------------------------------------ signed downloads (private files) */
-export type PrivateCollection = 'students' | 'users' | 'submissions' | 'resources';
+export type PrivateCollection = 'students' | 'users' | 'submissions' | 'resources' | 'assignments';
 const cache = new Map<string, { url: string | null; exp: number }>();
 const TTL = 4 * 60_000;
-let queue: { key: string; collection: PrivateCollection; docId: string; res: (u: string | null) => void }[] = [];
+let queue: { key: string; collection: PrivateCollection; docId: string; index?: number; res: (u: string | null) => void }[] = [];
 let timer: ReturnType<typeof setTimeout> | null = null;
 
 async function flush() {
   const batch = queue; queue = []; timer = null;
   const uniq = [...new Map(batch.map((b) => [b.key, b])).values()];
   try {
-    const { urls } = await call<{ urls: Record<string, string | null> }>({ action: 'sign-downloads', items: uniq.map((u) => ({ collection: u.collection, docId: u.docId })) });
+    const { urls } = await call<{ urls: Record<string, string | null> }>({ action: 'sign-downloads', items: uniq.map((u) => ({ collection: u.collection, docId: u.docId, ...(u.index === undefined ? {} : { index: u.index }) })) });
     for (const u of uniq) cache.set(u.key, { url: urls[u.key] ?? null, exp: Date.now() + TTL });
     for (const b of batch) b.res(urls[b.key] ?? null);
   } catch { for (const b of batch) b.res(null); }
 }
 
 /** Short-lived link for a private file, authorised by the Firestore document that references it. Batched and cached. */
-export function signedUrlFor(collection: PrivateCollection, docId: string): Promise<string | null> {
-  const key = `${collection}/${docId}`;
+export function signedUrlFor(collection: PrivateCollection, docId: string, index?: number): Promise<string | null> {
+  const key = index === undefined ? `${collection}/${docId}` : `${collection}/${docId}#${index}`;
   const hit = cache.get(key);
   if (hit && hit.exp > Date.now()) return Promise.resolve(hit.url);
   return new Promise((res) => {
-    queue.push({ key, collection, docId, res });
+    queue.push({ key, collection, docId, index, res });
     if (queue.length >= 50) { if (timer) clearTimeout(timer); void flush(); } else if (!timer) timer = setTimeout(() => void flush(), 40);
   });
 }
