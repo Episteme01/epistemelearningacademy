@@ -2,14 +2,14 @@ import { useEffect, useRef, useState } from 'react';
 import { Download, ExternalLink, Maximize2, Minus, Plus } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/form';
-import { addPlayed, clampPage, googleSlidesEmbed, pdfSrc, presentationKind, stepZoom, unpackRanges, watchedPct, type Range } from '@/lib/learning';
+import { addPlayed, clampPage, canUseOnlineViewer, googleSlidesEmbed, googleViewerSrc, officeViewerSrc, pdfSrc, presentationKind, stepZoom, unpackRanges, watchedPct, type Range } from '@/lib/learning';
 import { parseVideoUrl } from '@/lib/spotlight';
 
 /** Opens a presentation. PDFs use the browser's own viewer; Google Slides are embedded; PowerPoint files are downloaded (browsers cannot display them). */
 export function PresentationViewer({ url, title, fileName, contentType }: { url: string; title: string; fileName?: string; contentType?: string }) {
   const kind = presentationKind({ url, fileName, contentType });
   const box = useRef<HTMLDivElement>(null);
-  const [page, setPage] = useState(1); const [zoom, setZoom] = useState(100);
+  const [page, setPage] = useState(1); const [zoom, setZoom] = useState(100); const [viewer, setViewer] = useState<'office' | 'google'>('office');
   const fullscreen = () => { void box.current?.requestFullscreen?.().catch(() => undefined); };
   if (kind === 'slides') {
     const src = googleSlidesEmbed(url)!;
@@ -39,11 +39,27 @@ export function PresentationViewer({ url, title, fileName, contentType }: { url:
       </div>
     );
   }
+  if (kind === 'pptx' && canUseOnlineViewer(url)) {
+    const src = viewer === 'office' ? officeViewerSrc(url) : googleViewerSrc(url);
+    return (
+      <div ref={box} className="space-y-2 bg-white">
+        <div className="aspect-[16/9] w-full overflow-hidden rounded-md border border-line bg-cream">
+          <iframe key={viewer} title={title} src={src} className="h-full w-full" allowFullScreen sandbox="allow-scripts allow-same-origin allow-popups allow-forms" />
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <Button size="sm" variant="outline" onClick={fullscreen}><Maximize2 className="h-4 w-4" /> Full screen</Button>
+          <Button size="sm" variant="outline" onClick={() => setViewer((v) => (v === 'office' ? 'google' : 'office'))}>Not showing? Try {viewer === 'office' ? 'Google viewer' : 'Microsoft viewer'}</Button>
+          <a href={url} target="_blank" rel="noopener noreferrer" download={fileName}><Button size="sm"><Download className="h-4 w-4" /> Download</Button></a>
+        </div>
+        <p className="text-xs text-muted">The slides are shown by a free online viewer, so you need an internet connection. Animations and some fonts may look different from PowerPoint. Download to see the original.</p>
+      </div>
+    );
+  }
   return (
     <div className="space-y-3 rounded-md border border-line bg-cream p-4 text-sm">
-      <p>{kind === 'pptx' ? 'PowerPoint files cannot be shown inside the browser. Download it to open in PowerPoint, Google Slides or LibreOffice.' : 'This file type cannot be previewed here.'}</p>
+      <p>{kind === 'pptx' ? 'This PowerPoint cannot be shown inside the page here. Download it to open in PowerPoint, Google Slides or LibreOffice.' : 'This file type cannot be previewed here.'}</p>
       <a href={url} target="_blank" rel="noopener noreferrer" download={fileName}><Button><Download className="h-4 w-4" /> Download {fileName || title}</Button></a>
-      {kind === 'pptx' && <p className="text-xs text-muted">Tip for teachers: export the deck as PDF, or share it as a Google Slides link, to give learners an in-page viewer.</p>}
+      {kind === 'pptx' && <p className="text-xs text-muted">Tip for teachers: export the deck as PDF, or share it as a Google Slides link, for the most reliable viewer.</p>}
     </div>
   );
 }
