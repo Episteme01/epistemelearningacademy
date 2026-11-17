@@ -179,7 +179,7 @@ async function classReminders(now: number, cfg: Awaited<ReturnType<typeof settin
     if (s.status !== 'scheduled') continue;
     for (const m of dueReminderOffsets(Number(s.startAt), now, cfg.minutes)) {
       if (!(await createOnce('reminderLog', `session_${s.id}_${m}`, { kind: 'session', refId: s.id, minutes: m, at: new Date(now) }))) continue;   // already sent
-      const t = reminderText(String(s.title), Number(s.startAt), m);
+      const t = reminderText(`${String(s.title)}${s.className ? ` (${String(s.className)})` : ''}`, Number(s.startAt), m);
       const people = [String(s.teacherUid ?? ''), ...((s.studentUids as string[]) ?? []), ...((s.parentUids as string[]) ?? [])];
       await deliver(people, { ...t, link: '/app/schedule' }, st, { email: cfg.email, push: cfg.push }); sent += 1;
     }
