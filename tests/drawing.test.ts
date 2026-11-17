@@ -96,3 +96,46 @@ describe('assignment attachments', () => {
   });
   it('size labels', () => { expect(fileSizeLabel(500)).toBe('1 KB'); expect(fileSizeLabel(2048)).toBe('2 KB'); expect(fileSizeLabel(3 * 1024 * 1024)).toBe('3.0 MB'); });
 });
+
+import { hasLearner, withLearner, withoutLearner } from '@/lib/schedule/audienceSync';
+import { canUseOnlineViewer, googleViewerSrc, officeViewerSrc } from '@/lib/learning';
+
+describe('class change keeps the timetable audience right', () => {
+  const kids: Record<string, string[]> = { a: ['pa'], b: ['pb'], sib1: ['pshared'], sib2: ['pshared'] };
+  const parentsOf = (u: string) => kids[u] ?? [];
+  it('removes only the learner and their own parents', () => {
+    const aud = { studentUids: ['a', 'b'], parentUids: ['pa', 'pb'] };
+    const out = withoutLearner(aud, { id: 's1', uid: 'a', parentUids: ['pa'] }, parentsOf);
+    expect(out.studentUids).toEqual(['b']); expect(out.parentUids).toEqual(['pb']);
+    expect(hasLearner(out, 'a')).toBe(false);
+  });
+  it('keeps a parent who still has another child in the class', () => {
+    const aud = { studentUids: ['sib1', 'sib2'], parentUids: ['pshared'] };
+    const out = withoutLearner(aud, { id: 's1', uid: 'sib1', parentUids: ['pshared'] }, parentsOf);
+    expect(out.studentUids).toEqual(['sib2']); expect(out.parentUids).toEqual(['pshared']);
+  });
+  it('adds the learner once, with their parents, and does not touch anyone else', () => {
+    const aud = { studentUids: ['b'], parentUids: ['pb'] };
+    const out = withLearner(withLearner(aud, { id: 's1', uid: 'a', parentUids: ['pa'] }), { id: 's1', uid: 'a', parentUids: ['pa'] });
+    expect(out.studentUids).toEqual(['b', 'a']); expect(out.parentUids).toEqual(['pb', 'pa']);
+  });
+  it('keeps other fields (teacher etc.)', () => {
+    const out = withoutLearner({ studentUids: ['a'], parentUids: [], teacherUid: 't1' }, { id: 's', uid: 'a', parentUids: [] }, parentsOf);
+    expect(out.teacherUid).toBe('t1');
+  });
+});
+
+describe('in-page PowerPoint viewers', () => {
+  const u = 'https://abc.supabase.co/storage/v1/object/sign/resources/x/a b.pptx?token=t1&x=2';
+  it('encodes the file address', () => {
+    expect(officeViewerSrc(u).startsWith('https://view.officeapps.live.com/op/embed.aspx?src=https%3A%2F%2Fabc.supabase.co')).toBe(true);
+    expect(googleViewerSrc(u).startsWith('https://docs.google.com/gview?embedded=1&url=https%3A%2F%2F')).toBe(true);
+    expect(officeViewerSrc(u).includes('token%3Dt1%26x%3D2')).toBe(true);
+  });
+  it('only public https links can be shown by an online viewer', () => {
+    expect(canUseOnlineViewer(u)).toBe(true);
+    expect(canUseOnlineViewer('http://example.com/a.pptx')).toBe(false);
+    expect(canUseOnlineViewer('https://localhost/a.pptx')).toBe(false);
+    expect(canUseOnlineViewer('blob:https://x/1')).toBe(false);
+  });
+});
