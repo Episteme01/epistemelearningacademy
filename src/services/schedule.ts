@@ -75,7 +75,7 @@ export async function createSeries(input: SeriesInput, by: Actor): Promise<{ ser
   await batchSet(ops.slice(1));
   void audit('timetable.create', `timetableSeries/${seriesId}`, `${input.title}: ${dates.length} session(s) from ${dates[0]}`);
   if (input.notify) {
-    void notifyUsers(viewers.filter((u) => u !== by.uid), { title: `New class: ${input.title}`, body: `${dates.length > 1 ? `${dates.length} sessions starting` : 'Scheduled for'} ${dates[0]} at ${input.startTime}.`, link: '/app/schedule' });
+    void notifyUsers(viewers.filter((u) => u !== by.uid), { title: `New class: ${input.title}${input.className ? ` (${input.className})` : ''}`, body: `${dates.length > 1 ? `${dates.length} sessions starting` : 'Scheduled for'} ${dates[0]} at ${input.startTime}.`, link: '/app/schedule' });
   }
   return { seriesId, count: dates.length };
 }
@@ -129,7 +129,7 @@ export async function editSessions(base: WithId<Session>, scope: Scope, ch: Edit
   void audit('timetable.edit', `timetableSeries/${base.seriesId}`, `${scope}: ${rows.length} session(s) — ${ch.title}`);
   if (notify) {
     const all = rows.flatMap((r) => r.viewers);
-    void notifyUsers(uniq(all).filter((u) => u !== by.uid), { title: `Class updated: ${ch.title}`, body: scope === 'one' ? `Details for ${base.localDate} changed.` : `${rows.length} upcoming sessions were updated.`, link: '/app/schedule' });
+    void notifyUsers(uniq(all).filter((u) => u !== by.uid), { title: `Class updated: ${ch.title}${base.className ? ` (${base.className})` : ''}`, body: scope === 'one' ? `Details for ${base.localDate} changed.` : `${rows.length} upcoming sessions were updated.`, link: '/app/schedule' });
   }
   return rows.length;
 }
@@ -142,7 +142,7 @@ export async function cancelSessions(base: WithId<Session>, scope: Scope, reason
   void audit('session.cancel', `timetableSeries/${base.seriesId}`, `${scope}: ${rows.length} — ${reason.trim()}`);
   if (notify) {
     void notifyUsers(uniq(rows.flatMap((r) => r.viewers)).filter((u) => u !== by.uid), {
-      title: `Class cancelled: ${base.title}`, body: `${scope === 'one' ? base.localDate : `${rows.length} sessions`} — ${reason.trim()}`, link: '/app/schedule',
+      title: `Class cancelled: ${base.title}${base.className ? ` (${base.className})` : ''}`, body: `${scope === 'one' ? base.localDate : `${rows.length} sessions`} — ${reason.trim()}`, link: '/app/schedule',
     });
   }
   return rows.length;
@@ -157,7 +157,7 @@ export async function rescheduleSession(s: WithId<Session>, date: string, start:
     startAt, endAt, localDate: date, monthKey: monthKeyOf(date), status: 'scheduled' as SessionStatus, cancelReason: '', rescheduledFrom: s.rescheduledFrom ?? s.startAt, overridden: true, updatedBy: by.uid, updatedByName: by.name,
   } }]);
   void audit('session.reschedule', `sessions/${s.id}`, `${s.localDate} ${utcToZoned(toDate(s.startAt)!, s.timezone).time} → ${date} ${start}${reason ? ` — ${reason}` : ''}`);
-  if (notify) void notifyUsers(s.viewers.filter((u) => u !== by.uid), { title: `Class rescheduled: ${s.title}`, body: `Now ${date} at ${start}.${reason ? ` ${reason}` : ''}`, link: '/app/schedule' });
+  if (notify) void notifyUsers(s.viewers.filter((u) => u !== by.uid), { title: `Class rescheduled: ${s.title}${s.className ? ` (${s.className})` : ''}`, body: `Now ${date} at ${start}.${reason ? ` ${reason}` : ''}`, link: '/app/schedule' });
 }
 
 export async function markCompleted(s: WithId<Session>, by: Actor): Promise<void> {

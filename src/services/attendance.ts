@@ -1,4 +1,4 @@
-import { doc, getDoc, serverTimestamp, setDoc, writeBatch, collection } from 'firebase/firestore';
+import { doc, getDoc, getDocs, query, where, serverTimestamp, setDoc, writeBatch, collection } from 'firebase/firestore';
 import { db } from '@/config/firebase';
 import { C } from '@/config/collections';
 import { audit } from './audit';
@@ -26,7 +26,7 @@ export async function selfCheckIn(session: WithId<Session>, student: { uid: stri
   await setDoc(doc(db(), C.sessionAttendance, attendanceId(session.id, student.uid)), clean(data));
 }
 
-export type LinkAttendance = { recorded: true; timing: AttTiming } | { recorded: false; reason: 'exists' | 'outside_window' | 'not_in_class' | 'failed' };
+export type LinkAttendance = { recorded: true; timing: AttTiming } | { recorded: false; reason: 'exists' | 'outside_window' | 'not_in_class' | 'failed'; code?: string };
 
 /**
  * Attendance is recorded automatically when a learner opens the class link from this site: present at once, no teacher
@@ -41,9 +41,13 @@ export async function recordLinkAttendance(session: WithId<Session>, student: { 
     const startMs = toDate(session.startAt)?.getTime() ?? 0; const endMs = toDate(session.endAt)?.getTime() ?? 0;
     if (session.status !== 'scheduled' || !inLinkWindow(nowMs, startMs, endMs)) return { recorded: false, reason: 'outside_window' };
     const ref = doc(db(), C.sessionAttendance, attendanceId(session.id, student.uid));
-    if ((await getDoc(ref)).exists()) return { recorded: false, reason: 'exists' };
+    // NOT getDoc(ref): reading a record that does not exist yet is refused by the security rules (they inspect resource.data).
+    // A query that carries the learner's own uid is allowed, and answers the same question.
+    const prior = await getDocs(query(collection(db(), C.sessionAttendance), where('studentUid', '==', student.uid), where('sessionId', '==', session.id)));
+    if (!prior.empty) return { recorded: false, reason: 'exists' };
     const g = Number((await getDoc(doc(db(), C.settings, 'attendance')).catch(() => null))?.data()?.onTimeGraceMinutes);
     const grace = Number.isFinite(g) && g >= 0 && g <= 60 ? Math.round(g) : DEFAULT_GRACE_MINUTES;
+    let lastCode = 'error';
     for (const timing of timingCandidates(timingFrom(nowMs, startMs, grace))) {
       try {
         await setDoc(ref, clean({
@@ -54,11 +58,12 @@ export async function recordLinkAttendance(session: WithId<Session>, student: { 
         }));
         return { recorded: true, timing };
       } catch (e) {
-        if ((e as { code?: string }).code !== 'permission-denied') break;   // only a timing mismatch is worth retrying
+        lastCode = (e as { code?: string }).code ?? 'error';
+        if (lastCode !== 'permission-denied') break;   // only a timing mismatch is worth retrying
       }
     }
-    return { recorded: false, reason: 'failed' };
-  } catch { return { recorded: false, reason: 'failed' }; }
+    return { recorded: false, reason: 'failed', code: lastCode };
+  } catch (e) { return { recorded: false, reason: 'failed', code: (e as { code?: string }).code ?? 'error' }; }
 }
 
 export interface MarkInput {

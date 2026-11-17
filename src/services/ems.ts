@@ -4,6 +4,7 @@ import { C } from '@/config/collections';
 import { batchSet, clean, getById, listDocs, patchDoc } from './db';
 import { nextInvoiceNo, nextReceiptNo } from './counters';
 import { notifyUsers } from './notifications';
+import { syncLearnerClass } from './sessionSync';
 import { audit } from './audit';
 import { alreadyInvoiced, applyPayment, invoiceStatus, invoiceTotal, planCreditApplication, round2, validMoney, type CreditLike } from '@/lib/finance';
 import { computeSubjectResult, rankPositions, summarise, type GradingScale } from '@/lib/assessment';
@@ -49,12 +50,22 @@ export async function addStudentHistory(studentId: string, text: string, by: str
   await addDoc(collection(db(), `${C.students}/${studentId}/history`), { text, by, at: serverTimestamp() });
 }
 
-/** Promote learners to another class (records history; keeps the login's classId in sync). */
-export async function promoteStudents(students: WithId<Student>[], toClassId: string, toClassName: string, by: string) {
+/** Tells ONLY this learner and their own parents that the class changed (nobody else is ever sent this). */
+export function notifyClassChange(s: { firstName?: string; lastName?: string; studentUid?: string; parentUids?: string[] }, toClassName: string) {
+  const name = `${s.firstName ?? ''} ${s.lastName ?? ''}`.trim() || 'Your child';
+  if (s.studentUid) void notifyUsers([s.studentUid], { title: `You are now in ${toClassName}`, body: 'Your timetable now shows your new class.', link: '/app/schedule' });
+  if (s.parentUids?.length) void notifyUsers(s.parentUids, { title: `${name} has moved to ${toClassName}`, body: 'Open the timetable to see the new class.', link: '/app/schedule' });
+}
+
+/** Promote learners to another class (records history; keeps the login's classId and the upcoming timetable in sync). Returns false if the timetable could not be updated. */
+export async function promoteStudents(students: WithId<Student>[], toClassId: string, toClassName: string, by: string): Promise<boolean> {
   await batchSet(students.map((s) => ({ col: C.students, id: s.id, data: { classId: toClassId, className: toClassName } })));
   await batchSet(students.filter((s) => s.studentUid).map((s) => ({ col: C.users, id: s.studentUid, data: { classId: toClassId } })));
   for (const s of students) await addStudentHistory(s.id, `Promoted from ${s.className ?? '—'} to ${toClassName}`, by);
+  let synced = true;
+  for (const s of students) { if (!(await syncLearnerClass(s, s.classId, toClassId))) synced = false; notifyClassChange(s, toClassName); }
   void audit('students.promote', `classes/${toClassId}`, `${students.length} learners`);
+  return synced;
 }
 
 /**
