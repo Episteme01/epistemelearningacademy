@@ -157,6 +157,13 @@ function StaffAssignments() {
   const [attach, setAttach] = useState<Row | null>(null);
   const subs = useCollection<Row>(C.submissions, () => (open ? [where('assignmentId', '==', open.id)] : null), open?.id ?? '');
   const [grade, setGrade] = useState<Record<string, { score: string; feedback: string }>>({});
+  // every submission, live, so each assignment row can show how many learners have handed in and how many still need marking
+  const allSubs = useCollection<Row>(C.submissions, () => [], 'all');
+  const tally = useMemo(() => {
+    const m = new Map<string, { done: number; toMark: number }>();
+    for (const x of allSubs.data) { const k = String(x.assignmentId); const t = m.get(k) ?? { done: 0, toMark: 0 }; t.done += 1; if (x.status !== 'graded') t.toMark += 1; m.set(k, t); }
+    return m;
+  }, [allSubs.data]);
   const manage = can(role, 'lms.manage');
   const config: CrudConfig<Row> = {
     collection: C.assignments, singular: 'Assignment', plural: 'Assignments', description: 'Create assignments, receive submissions and grade with feedback.', canCreate: manage, canEdit: manage, canDelete: manage, auditActions: true,
@@ -167,6 +174,7 @@ function StaffAssignments() {
       { name: 'dueAt', label: 'Deadline', type: 'datetime', required: true }, { name: 'maxScore', label: 'Maximum score', type: 'number', required: true, min: 1, defaultValue: 100 },
       { name: 'kind', label: 'Type', type: 'select', options: [{ value: 'homework', label: 'Homework' }, { value: 'classwork', label: 'Classwork' }, { value: 'project', label: 'Project' }], defaultValue: 'homework' },
       { name: 'allowLate', label: 'Accept late submissions (marked LATE)', type: 'checkbox', defaultValue: true },
+      { name: 'attachments', label: 'Files for learners (worksheet, PDF, picture…)', type: 'files' },
       { name: 'allowText', label: 'Allow text submission', type: 'checkbox', defaultValue: true }, { name: 'allowFile', label: 'Allow file submission', type: 'checkbox', defaultValue: true },
     ],
     beforeSave: async (p, e) => {
@@ -174,9 +182,10 @@ function StaffAssignments() {
       const aud = await resolveAudience({ classId: String(p.classId ?? ''), courseId: String(p.courseId ?? '') }).catch(() => ({ studentUids: [], parentViewers: [] }));
       return e ? { ...p, ...aud } : { ...p, ...aud, teacherUid: uid ?? '', teacherName: profile?.displayName ?? '' };
     },
-    columns: [{ key: 't', header: 'Assignment', primary: true, cell: (r) => <span className="font-medium">{String(r.title)}</span> }, { key: 'd', header: 'Deadline', cell: (r) => fmtDate(r.dueAt, true) }, { key: 'm', header: 'Max', cell: (r) => String(r.maxScore) }],
+    columns: [{ key: 't', header: 'Assignment', primary: true, cell: (r) => <span className="font-medium">{String(r.title)}</span> }, { key: 'd', header: 'Deadline', cell: (r) => fmtDate(r.dueAt, true) }, { key: 'm', header: 'Max', cell: (r) => String(r.maxScore) },
+      { key: 'h', header: 'Handed in', cell: (r) => { const t = tally.get(r.id); const total = Array.isArray(r.studentUids) ? r.studentUids.length : 0; return <span>{t?.done ?? 0}{total ? ` / ${total}` : ''}{t && t.toMark > 0 ? <Badge tone="warn" className="ml-2">{t.toMark} to mark</Badge> : null}</span>; } }],
     searchKeys: ['title'], sort: (a, b) => (toDate(b.dueAt)?.getTime() ?? 0) - (toDate(a.dueAt)?.getTime() ?? 0),
-    rowActions: (r) => <><Button size="sm" variant="outline" onClick={() => setOpen(r)}>Submissions</Button><Button size="sm" variant="outline" onClick={() => setAttach(r)}>Files{Array.isArray(r.attachments) && r.attachments.length ? ` (${r.attachments.length})` : ''}</Button><Button size="sm" variant="ghost" onClick={() => void refreshAudience(r)}>Refresh audience</Button></>,
+    rowActions: (r) => <><Button size="sm" variant="outline" onClick={() => setOpen(r)}>Submissions{tally.get(r.id)?.done ? ` (${tally.get(r.id)!.done})` : ''}</Button><Button size="sm" variant="outline" onClick={() => setAttach(r)}>Files{Array.isArray(r.attachments) && r.attachments.length ? ` (${r.attachments.length})` : ''}</Button><Button size="sm" variant="ghost" onClick={() => void refreshAudience(r)}>Refresh audience</Button></>,
   };
   const refreshAudience = async (r: Row) => {
     try {
