@@ -59,7 +59,8 @@ export function SessionDialog({ session, tz, onClose, onEdit }: { session: WithI
     if (role === 'student' && uid) {
       void recordLinkAttendance(session, { uid, name: by.name }).then((r) => {
         if (r.recorded) toast.success(`Your attendance has been recorded (${r.timing === 'early' ? 'early' : r.timing === 'on_time' ? 'on time' : 'late'}).`);
-        else if (r.reason === 'failed') toast.error('Your attendance could not be recorded automatically. Use “check me in” on this class, or tell your teacher.');
+        else if (r.reason === 'not_in_class') toast.error('Your name is not on this class’s attendance list, so attendance was not recorded. Please tell your teacher.');
+        else if (r.reason === 'failed') toast.error(`Your attendance could not be recorded automatically${r.code ? ` (${r.code})` : ''}. Use “check me in” on this class, or tell your teacher.`);
       });
     }
     window.open(link.meetingUrl, '_blank', 'noopener,noreferrer');
