@@ -24,6 +24,11 @@ export function presentationKind(x: { url?: string; fileName?: string; contentTy
   return 'other';
 }
 
+/** In-page viewers for PowerPoint files. Both fetch the file themselves, so the link must be a public or signed https link. */
+export const officeViewerSrc = (fileUrl: string) => `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(fileUrl)}`;
+export const googleViewerSrc = (fileUrl: string) => `https://docs.google.com/gview?embedded=1&url=${encodeURIComponent(fileUrl)}`;
+export const canUseOnlineViewer = (fileUrl: string) => /^https:\/\//i.test(fileUrl) && !/^https:\/\/(localhost|127\.|192\.168\.|10\.)/i.test(fileUrl);
+
 export const ZOOMS = [50, 75, 100, 125, 150, 200] as const;
 export function stepZoom(z: number, dir: 1 | -1): number {
   const i = ZOOMS.findIndex((v) => v >= z);
