@@ -14,7 +14,8 @@ import { C } from '@/config/collections';
 import { can, rolesOf, ROLE_LABELS, type Role } from '@/config/permissions';
 import { createAccount, randomPassword } from '@/services/accounts';
 import { nextStaffNo } from '@/services/counters';
-import { addStudentHistory, attachParentUid, fullName, linkParent, linkTeacher, promoteStudents, unlinkParent, unlinkTeacher } from '@/services/ems';
+import { addStudentHistory, attachParentUid, fullName, linkParent, linkTeacher, notifyClassChange, promoteStudents, unlinkParent, unlinkTeacher } from '@/services/ems';
+import { repairTimetableAudiences, syncLearnerClass } from '@/services/sessionSync';
 import { kidPassword, makeUsername, STUDENT_EMAIL_DOMAIN } from '@/lib/studentLogin';
 import { getById, listDocs, patchDoc } from '@/services/db';
 import { resetStudentPassword } from '@/services/studentAdmin';
@@ -171,6 +172,11 @@ export function StudentsPage() {
   const toast = useToast();
   const write = can(role, 'students.write');
   const canPurge = role === 'super_admin' || role === 'admin';
+  const canRepair = role === 'super_admin' || role === 'admin' || role === 'principal';
+  const repairTimetable = async () => {
+    if (!window.confirm('Match every upcoming class timetable to learners’ CURRENT classes?\n\nLearners who are no longer in a class are removed from its upcoming sessions, and current members who are missing are added. Individual or mixed-group sessions are not touched.')) return;
+    try { const r = await repairTimetableAudiences(); toast.success(r.sessions ? `Updated ${r.sessions} upcoming sessions (${r.removed} removed, ${r.added} added).` : 'Timetables already match the classes.'); } catch (e) { toast.error(errorMessage(e)); }
+  };
   const parents = useCollection<Parent>(C.parents, () => [], 'all');
   const classes = useCollection<ClassRoom>(C.classes, () => [], 'all');
   const students = useCollection<Student>(C.students, () => [], 'all');
@@ -223,6 +229,10 @@ export function StudentsPage() {
       if (existing && (existing.classId !== p.classId || existing.status !== p.status)) {
         await addStudentHistory(id, `Updated: class ${existing.className ?? '—'} → ${String(p.className ?? '')}; status ${existing.status} → ${String(p.status)}`, profile?.displayName ?? '');
         if (existing.studentUid) await patchDoc(C.users, existing.studentUid, { classId: String(p.classId ?? '') }).catch(() => undefined);
+        // keep the upcoming timetable (and so the notices and reminders) matching the learner's current class
+        const ok = await syncLearnerClass({ ...existing, id, status: String(p.status) as typeof existing.status }, existing.classId, existing.status === 'active' && String(p.status) !== 'active' ? undefined : String(p.classId ?? ''));
+        if (existing.classId !== p.classId && String(p.status) === 'active') notifyClassChange(existing, String(p.className ?? ''));
+        if (!ok) toast.error('The learner was saved, but the timetable could not be updated. Ask an admin or principal to save the change.');
       } else if (!existing) await addStudentHistory(id, 'Registered', profile?.displayName ?? '');
     },
     rowActions: (r) => (
@@ -237,7 +247,7 @@ export function StudentsPage() {
         {canPurge && <PurgeButton kind="student" id={r.id} />}
       </>
     ),
-    headerActions: write ? <Button variant="outline" onClick={() => setPromote(true)}>Promote class</Button> : undefined,
+    headerActions: write ? <><Button variant="outline" onClick={() => setPromote(true)}>Promote class</Button>{canRepair && <Button variant="outline" onClick={() => void repairTimetable()}>Fix timetable lists</Button>}</> : undefined,
   }), [write, role, classes.data, profile, nav]);
 
   const doLink = async () => {
@@ -249,7 +259,7 @@ export function StudentsPage() {
     const toClass = classes.data.find((c) => c.id === to);
     const list = students.data.filter((s) => s.classId === from && s.status === 'active');
     if (!toClass || !from || list.length === 0) return toast.error('Choose a source class with active students and a destination class.');
-    try { await promoteStudents(list, toClass.id, toClass.name, profile?.displayName ?? ''); toast.success(`Promoted ${list.length} students to ${toClass.name}`); setPromote(false); } catch (e) { toast.error(errorMessage(e)); }
+    try { const ok = await promoteStudents(list, toClass.id, toClass.name, profile?.displayName ?? ''); if (!ok) toast.error('Learners were moved, but the timetable could not be fully updated. An admin or principal can fix it by saving each learner again.'); toast.success(`Promoted ${list.length} students to ${toClass.name}`); setPromote(false); } catch (e) { toast.error(errorMessage(e)); }
   };
 
   return (
