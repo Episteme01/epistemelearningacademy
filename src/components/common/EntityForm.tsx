@@ -8,6 +8,7 @@ import { buildSchema, fromFormValues, toFormValues, type FieldDef } from './crud
 import { RichTextEditor } from './RichTextEditor';
 import { ImageField } from './ImageField';
 import { PhotoControl } from './PhotoControl';
+import { FilesField } from './FilesField';
 import type { FileRef } from '@/lib/fileRef';
 import { cn } from '@/lib/utils';
 
@@ -80,7 +81,7 @@ export function EntityForm({ fields, initial, onSubmit, onCancel, submitLabel = 
   return (
     <form id={formId} onSubmit={(e) => { void submit(e); }} noValidate className="grid grid-cols-1 gap-4 sm:grid-cols-2">
       {visible.map((f) => {
-        const span = f.span === 2 || f.type === 'textarea' || f.type === 'richtext' || f.type === 'image' || f.type === 'list' || f.type === 'multiref' ? 'sm:col-span-2' : '';
+        const span = f.span === 2 || f.type === 'textarea' || f.type === 'richtext' || f.type === 'image' || f.type === 'list' || f.type === 'multiref' || f.type === 'files' ? 'sm:col-span-2' : '';
         if (f.type === 'checkbox') {
           return (
             <div key={f.name} className={cn(span, 'self-end pb-2')}>
@@ -121,6 +122,8 @@ export function EntityForm({ fields, initial, onSubmit, onCancel, submitLabel = 
                         onChange={(ids, labels) => { field.onChange(ids); if (f.ref?.labelField) setValue(f.ref.labelField, labels); }} />
                     )} />
                   );
+                case 'files':
+                  return <Controller control={control} name={f.name} render={({ field }) => <FilesField value={(Array.isArray(field.value) ? field.value : []) as FileRef[]} onChange={field.onChange} />} />;
                 case 'image':
                   return <Controller control={control} name={f.name} render={({ field }) => <ImageField id={a.id} value={String(field.value ?? '')} onChange={field.onChange} />} />;
                 case 'photo':
