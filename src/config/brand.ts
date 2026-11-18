@@ -6,11 +6,15 @@
  * from here. The CMS (Settings → Branding) can also override name/tagline/logo
  * at runtime via the Firestore `settings/site` document.
  */
+import { SELAR_URL } from './links';
+
 const BASE = import.meta.env.BASE_URL; // "/Episteme-Learning-Academy/" on GitHub Pages
 
 export const asset = (path: string) => `${BASE}${path.replace(/^\//, '')}`;
 
 export const BRAND = {
+  /** Our online store (courses, books and learning materials). Change it here only. */
+  selarUrl: SELAR_URL,
   name: 'Episteme Learning Academy',
   shortName: 'ELA',
   motto: 'Where Learning Meets Morality',
