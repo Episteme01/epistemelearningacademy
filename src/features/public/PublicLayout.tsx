@@ -93,7 +93,7 @@ export function PublicLayout() {
           <div><p className="font-heading text-sm font-semibold text-gold-300">Contact</p>
             <ul className="mt-3 space-y-2 text-sm"><li>{site.address}</li><li><a className="hover:text-white" href={`mailto:${site.email}`}>{site.email}</a></li>
               {site.phones.map((p) => <li key={p}><a className="hover:text-white" href={`tel:${p}`}>{p}</a></li>)}
-              <li><a className="hover:text-white" href={whatsappLink()} target="_blank" rel="noopener noreferrer">WhatsApp</a></li></ul></div>
+              <li><a className="hover:text-white" href={whatsappLink()} target="_blank" rel="noopener noreferrer">WhatsApp</a></li><li><a className="hover:text-white" href={BRAND.selarUrl} target="_blank" rel="noopener noreferrer">Our store on Selar</a></li></ul></div>
         </div>
         <div className="border-t border-white/10 py-4 text-center text-xs text-forest-300">
           © {new Date().getFullYear()} {site.name}. <Link to="/privacy-policy" className="underline">Privacy</Link> · <Link to="/terms" className="underline">Terms</Link>

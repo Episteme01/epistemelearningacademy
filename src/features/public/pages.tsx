@@ -19,6 +19,7 @@ import { ShareButton } from '@/features/Islamic/share';
 import { subscribeDoc, getById } from '@/services/db';
 import { sanitizeHtml, stripHtml } from '@/lib/sanitize';
 import { SpotlightSection } from '@/features/spotlight/Spotlight';
+import { SelarCta } from './SelarCta';
 import { errorMessage, fmtDate, toDate } from '@/lib/utils';
 import { CLASS_LEVELS, DEFAULT_FAQ, DEFAULT_PAGES, DEFAULT_PROGRAMMES, PROGRAMME_CHOICES } from './content';
 import { useSite } from './PublicLayout';
@@ -126,6 +127,8 @@ export function HomePage() {
           </div>
         </Section>
       )}
+
+      <SelarCta />
 
       <Section tone="forest">
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
@@ -369,7 +372,7 @@ export function ResourcesPage() {
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">{data.map((c) => (
           <Card key={c.id} className="overflow-hidden">{c.thumbnail && <img src={c.thumbnail} alt="" className="aspect-[16/9] w-full object-cover" loading="lazy" />}
             <div className="p-5"><p className="text-xs uppercase tracking-wide text-gold-600">{c.category}</p><h2 className="mt-1 text-lg font-semibold">{c.title}</h2><p className="mt-2 text-sm text-muted line-clamp-3">{c.description}</p>
-              <Link to="/login" className="mt-3 inline-block text-sm font-medium text-forest-500 underline underline-offset-4">Sign in to learn</Link></div></Card>))}</div>)}</Section></>
+              <Link to="/login" className="mt-3 inline-block text-sm font-medium text-forest-500 underline underline-offset-4">Sign in to learn</Link></div></Card>))}</div>)}<SelarCta strip /></Section></>
   );
 }
 
