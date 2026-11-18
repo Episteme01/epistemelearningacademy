@@ -551,9 +551,16 @@ export interface Resource {
   /** roles that may see it once published (staff academic roles always see everything) */
   visibleTo: ResourceAudience[];
   published: boolean;
+  /** learners and parents who may open it (kept in step with the work it is attached to; see services/resourceAccess.ts) */
+  viewerUids?: string[];
+  /** up to 3 courses whose lessons use it */
+  courseLinks?: string[];
   createdBy: string; createdByName?: string;
   createdAt?: TS; updatedAt?: TS;
 }
+
+/** A resource picked into a piece of work (title kept so lists need no extra reads). */
+export interface ResourceLite { id: string; title: string; fileKind?: string }
 
 /** Public Social Spotlight post (collection socialPosts). Media are links only; no video is stored in the app. */
 export interface SocialPost {
