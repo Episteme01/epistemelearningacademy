@@ -3,7 +3,7 @@ import { z } from 'zod';
 
 export type FieldType =
   | 'text' | 'textarea' | 'number' | 'email' | 'tel' | 'url' | 'date' | 'datetime'
-  | 'select' | 'ref' | 'multiref' | 'checkbox' | 'image' | 'photo' | 'richtext' | 'list' | 'files';
+  | 'select' | 'ref' | 'multiref' | 'checkbox' | 'image' | 'photo' | 'richtext' | 'list' | 'files' | 'resources';
 
 export interface Option { value: string; label: string }
 
@@ -59,6 +59,7 @@ export function buildSchema(fields: FieldDef[]) {
         s = z.array(z.string()).optional();
         break;
       case 'files':
+      case 'resources':
         s = z.array(z.any()).max(10).optional();
         break;
       default: {
@@ -76,7 +77,7 @@ export function defaultsFor(fields: FieldDef[]): Record<string, unknown> {
   for (const f of fields) {
     if (f.defaultValue !== undefined) out[f.name] = f.defaultValue;
     else if (f.type === 'checkbox') out[f.name] = false;
-    else if (f.type === 'multiref' || f.type === 'files') out[f.name] = [];
+    else if (f.type === 'multiref' || f.type === 'files' || f.type === 'resources') out[f.name] = [];
     else if (f.type === 'number') out[f.name] = undefined;
     else out[f.name] = '';
   }
