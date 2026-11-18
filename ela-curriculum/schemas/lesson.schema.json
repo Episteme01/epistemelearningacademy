@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://episteme01.github.io/ela-curriculum/lesson.schema.json",
+  "title": "ELA preschool daily lesson",
+  "type": "object",
+  "required": ["id", "title", "class", "subject", "term", "week", "day", "durationMin", "topic", "subtopic", "dayType", "objectives", "successCriteria", "previousKnowledge", "vocabulary", "resources", "starter", "teacherActivities", "learnerActivities", "presentation", "practical", "differentiation", "assessment", "expectedOutcomes", "conclusion", "homeConnection", "teacherReflection", "learnerFacing", "activities", "references", "version", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^ELA-PS-(TOD|N1|N2|REC)-(NUM|LIT|SCI|SOC)-T[1-3]-W(0[1-9]|10)-D0[1-5]$" },
+    "title": { "type": "string", "minLength": 5 },
+    "class": { "enum": ["Toddler", "Nursery 1", "Nursery 2", "Reception"] },
+    "subject": { "enum": ["Numeracy", "Literacy", "Science", "Social Habits"] },
+    "term": { "type": "integer", "minimum": 1, "maximum": 3 },
+    "week": { "type": "integer", "minimum": 1, "maximum": 10 },
+    "day": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "durationMin": { "type": "integer", "minimum": 10, "maximum": 60 },
+    "topic": { "type": "string", "minLength": 3 },
+    "subtopic": { "type": "string", "minLength": 3 },
+    "dayType": { "enum": ["introduce", "explore", "practise", "apply", "review-assess", "revision", "consolidate", "catch-up", "enrich", "assessment"] },
+    "objectives": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 10 } },
+    "successCriteria": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 8 } },
+    "previousKnowledge": { "type": "string", "minLength": 10 },
+    "vocabulary": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "resources": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 3 } },
+    "starter": { "type": "string", "minLength": 30 },
+    "teacherActivities": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 15 } },
+    "learnerActivities": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 15 } },
+    "presentation": { "type": "array", "minItems": 3, "items": { "type": "string", "minLength": 15 } },
+    "practical": {
+      "type": "object",
+      "required": ["title", "steps", "safety"],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string", "minLength": 3 },
+        "steps": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 10 } },
+        "safety": { "type": "string", "minLength": 15 }
+      }
+    },
+    "differentiation": {
+      "type": "object",
+      "required": ["support", "extension"],
+      "additionalProperties": false,
+      "properties": { "support": { "type": "string", "minLength": 15 }, "extension": { "type": "string", "minLength": 15 } }
+    },
+    "assessment": {
+      "type": "object",
+      "required": ["method", "questions"],
+      "additionalProperties": false,
+      "properties": {
+        "method": { "type": "string", "minLength": 10 },
+        "questions": {
+          "type": "array", "minItems": 2,
+          "items": { "type": "object", "required": ["question", "expected"], "additionalProperties": false, "properties": { "question": { "type": "string", "minLength": 5 }, "expected": { "type": "string", "minLength": 3 } } }
+        }
+      }
+    },
+    "expectedOutcomes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 10 } },
+    "conclusion": { "type": "string", "minLength": 15 },
+    "homeConnection": { "type": "string", "minLength": 15 },
+    "teacherReflection": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 10 } },
+    "learnerFacing": {
+      "type": "object",
+      "required": ["boardContent", "pictures"],
+      "additionalProperties": false,
+      "properties": {
+        "boardContent": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 3 } },
+        "pictures": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 5 } },
+        "songOrRhyme": { "type": "string" },
+        "story": { "type": "string" }
+      }
+    },
+    "activities": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 3 } },
+    "references": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^SRC-[A-Z0-9-]+$" } },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "status": { "enum": ["draft", "review", "approved", "published", "archived"] }
+  }
+}
