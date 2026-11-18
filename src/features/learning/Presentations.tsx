@@ -25,7 +25,7 @@ export function PresentationsPage() {
   const q = useCollection<Resource>(C.resources, () => {
     if (!uid) return null;
     if (readAll) return [];
-    if (viewerRole) return [where('published', '==', true), where('visibleTo', 'array-contains', viewerRole)];
+    if (viewerRole) return [where('published', '==', true), where('viewerUids', 'array-contains', uid)];
     return null;
   }, `${role}|${uid}`);
   const [search, setSearch] = useState(''); const [open, setOpen] = useState<WithId<Resource> | null>(null);
@@ -36,7 +36,7 @@ export function PresentationsPage() {
     .sort((a, b) => a.r.title.localeCompare(b.r.title)), [q.data, search]);
   return (
     <div>
-      <PageHeader title="Presentations" description="Slides and lesson decks shared by your teachers. PDFs and Google Slides open right here."
+      <PageHeader title="Presentations" description="Slides and lesson decks your teachers shared with you. PDFs, PowerPoint and Google Slides open right here."
         actions={manage ? <Link to="/app/resources"><Button variant="outline">Add in Resources</Button></Link> : undefined} />
       <div className="mb-3 max-w-sm"><Input aria-label="Search presentations" placeholder="Search by title, subject or class" value={search} onChange={(e) => setSearch(e.target.value)} /></div>
       {q.loading ? <Spinner /> : q.error ? <p className="text-sm text-danger">{q.error}</p> : rows.length === 0 ? <EmptyState title="No presentations yet" description={manage ? 'Upload a PDF or PowerPoint in Resources, or add a Google Slides link.' : 'Your teachers have not shared any yet.'} /> : (
