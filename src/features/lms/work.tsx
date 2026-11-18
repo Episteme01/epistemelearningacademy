@@ -24,6 +24,9 @@ import { UPLOADS_OFF_MESSAGE, deleteFileRef, signedUrlFor, uploadFor } from '@/s
 import { flags } from '@/config/env';
 import type { FileRef } from '@/lib/fileRef';
 import { AttachmentList, AttachmentsEditor } from './AssignmentFiles';
+import { ResourceLinks } from './ResourceLinks';
+import { rebuildResourceAccess } from '@/services/resourceAccess';
+import type { ResourceLite } from '@/types/models';
 import { DrawingPad, clearPadDraft } from '@/features/pad/DrawingPad';
 import { gradeAttempt, type AnswerKey, type PaperQuestion } from '@/lib/cbt/grade';
 import { errorMessage, fmtDate, toDate } from '@/lib/utils';
@@ -172,15 +175,30 @@ function StaffAssignments() {
       { name: 'title', label: 'Title', type: 'text', required: true, span: 2 }, { name: 'instructions', label: 'Instructions', type: 'textarea', required: true },
       { name: 'courseId', label: 'Course', type: 'ref', ref: { collection: C.courses, label: (r) => String(r.title) } }, { name: 'classId', label: 'Class (optional)', type: 'ref', ref: { collection: C.classes, label: (r) => String(r.name) } },
       { name: 'dueAt', label: 'Deadline', type: 'datetime', required: true }, { name: 'maxScore', label: 'Maximum score', type: 'number', required: true, min: 1, defaultValue: 100 },
-      { name: 'kind', label: 'Type', type: 'select', options: [{ value: 'homework', label: 'Homework' }, { value: 'classwork', label: 'Classwork' }, { value: 'project', label: 'Project' }], defaultValue: 'homework' },
+      { name: 'kind', label: 'Type', type: 'select', options: [{ value: 'homework', label: 'Homework' }, { value: 'classwork', label: 'Classwork' }, { value: 'project', label: 'Project' }, { value: 'presentation', label: 'Presentation (view only, nothing to hand in)' }], defaultValue: 'homework' },
       { name: 'allowLate', label: 'Accept late submissions (marked LATE)', type: 'checkbox', defaultValue: true },
+      { name: 'resources', label: 'Learning materials from Resources', type: 'resources' },
       { name: 'attachments', label: 'Files for learners (worksheet, PDF, picture…)', type: 'files' },
       { name: 'allowText', label: 'Allow text submission', type: 'checkbox', defaultValue: true }, { name: 'allowFile', label: 'Allow file submission', type: 'checkbox', defaultValue: true },
     ],
     beforeSave: async (p, e) => {
       if (!p.courseId && !p.classId) throw new Error('Choose a course or a class for this assignment.');
       const aud = await resolveAudience({ classId: String(p.classId ?? ''), courseId: String(p.courseId ?? '') }).catch(() => ({ studentUids: [], parentViewers: [] }));
-      return e ? { ...p, ...aud } : { ...p, ...aud, teacherUid: uid ?? '', teacherName: profile?.displayName ?? '' };
+      const resources = ((p.resources as ResourceLite[] | undefined) ?? []).filter((x) => x?.id);
+      const view = p.kind === 'presentation' ? { allowText: false, allowFile: false } : {};
+      const body = { ...p, ...aud, ...view, resources, resourceIds: resources.map((x) => x.id) };
+      return e ? body : { ...body, teacherUid: uid ?? '', teacherName: profile?.displayName ?? '' };
+    },
+    afterSave: async (_id, payload, existing) => {
+      // learners and parents of this work may now open exactly these resources (and no longer the ones that were removed)
+      const ids = [...((payload.resourceIds as string[] | undefined) ?? []), ...(((existing as Row | null)?.resourceIds as string[] | undefined) ?? [])];
+      if (ids.length && !(await rebuildResourceAccess(ids))) toast.error('Saved, but learners could not be given access to the materials. Ask an admin to press “Refresh who can see” on the Resources page.');
+    },
+    beforeDelete: async (r) => {
+      const ids = (r.resourceIds as string[] | undefined) ?? [];
+      if (!ids.length) return;
+      await patchDoc(C.assignments, r.id, { resourceIds: [] }).catch(() => undefined);
+      await rebuildResourceAccess(ids);
     },
     columns: [{ key: 't', header: 'Assignment', primary: true, cell: (r) => <span className="font-medium">{String(r.title)}</span> }, { key: 'd', header: 'Deadline', cell: (r) => fmtDate(r.dueAt, true) }, { key: 'm', header: 'Max', cell: (r) => String(r.maxScore) },
       { key: 'h', header: 'Handed in', cell: (r) => { const t = tally.get(r.id); const total = Array.isArray(r.studentUids) ? r.studentUids.length : 0; return <span>{t?.done ?? 0}{total ? ` / ${total}` : ''}{t && t.toMark > 0 ? <Badge tone="warn" className="ml-2">{t.toMark} to mark</Badge> : null}</span>; } }],
@@ -192,6 +210,7 @@ function StaffAssignments() {
       const aud = await resolveAudience({ classId: String(r.classId ?? ''), courseId: String(r.courseId ?? '') });
       await patchDoc(C.assignments, r.id, aud);
       void audit('assignment.audience', `assignments/${r.id}`, `${aud.studentUids.length} learners`);
+      if (Array.isArray(r.resourceIds) && r.resourceIds.length) await rebuildResourceAccess(r.resourceIds as string[]);
       toast.success(`Audience updated: ${aud.studentUids.length} learners, ${aud.parentViewers.length} parents`);
     } catch (e) { toast.error(errorMessage(e)); }
   };
@@ -258,11 +277,11 @@ function StudentAssignments() {
     <>
       <PageHeader title="Assignments" description="Submit work before the deadline and read your feedback." />
       {list.length === 0 ? <Card><EmptyState title="No assignments" description="Assignments from your classes and courses appear here." /></Card> : <div className="space-y-3">{list.map((a) => { const s = subOf(a.id); const late = toDate(a.dueAt) && toDate(a.dueAt)! < new Date(); const locked = !!late && (a as { allowLate?: boolean }).allowLate === false; return (
-        <Card key={a.id}><CardBody className="flex flex-wrap items-start justify-between gap-3"><div className="min-w-0"><p className="font-medium">{a.title}</p><p className="mt-1 text-sm text-muted line-clamp-2">{a.instructions}</p><AttachmentList assignmentId={a.id} files={a.attachments} /><p className="mt-1 text-xs text-muted">Due {fmtDate(a.dueAt, true)} {late && !s ? <Badge tone="danger">{locked ? 'closed' : 'overdue'}</Badge> : null}</p>
+        <Card key={a.id}><CardBody className="flex flex-wrap items-start justify-between gap-3"><div className="min-w-0"><p className="font-medium">{a.title}</p><p className="mt-1 text-sm text-muted line-clamp-2">{a.instructions}</p><AttachmentList assignmentId={a.id} files={a.attachments} /><ResourceLinks items={a.resources} /><p className="mt-1 text-xs text-muted">Due {fmtDate(a.dueAt, true)} {late && !s ? <Badge tone="danger">{locked ? 'closed' : 'overdue'}</Badge> : null}</p>
           {s?.status === 'graded' && <p className="mt-2 text-sm"><strong>{String(s.score)}</strong> / {a.maxScore} — {String(s.feedback ?? '')}</p>}</div>
-          <div className="flex items-center gap-2">{s && <StatusBadge status={String(s.status)} />}{(!s || s.status !== 'graded') && !locked && <Button size="sm" onClick={() => { setSel(a); setText(String(s?.text ?? '')); setFile(null); }}>{s ? 'Resubmit' : 'Submit'}</Button>}</div></CardBody></Card>); })}</div>}
+          <div className="flex items-center gap-2">{s && <StatusBadge status={String(s.status)} />}{a.kind !== 'presentation' && (!s || s.status !== 'graded') && !locked && <Button size="sm" onClick={() => { setSel(a); setText(String(s?.text ?? '')); setFile(null); }}>{s ? 'Resubmit' : 'Submit'}</Button>}</div></CardBody></Card>); })}</div>}
       <Dialog open={!!sel} onClose={() => setSel(null)} title={sel?.title ?? ''} description={`Due ${fmtDate(sel?.dueAt, true)}`} footer={<><Button variant="outline" onClick={() => setSel(null)}>Cancel</Button><Button loading={busy} onClick={() => void submit()}>Submit</Button></>}>
-        <p className="mb-4 whitespace-pre-wrap text-sm">{sel?.instructions}</p>{sel && <div className="mb-4"><AttachmentList assignmentId={sel.id} files={sel.attachments} /></div>}
+        <p className="mb-4 whitespace-pre-wrap text-sm">{sel?.instructions}</p>{sel && <div className="mb-4"><AttachmentList assignmentId={sel.id} files={sel.attachments} /><ResourceLinks items={sel.resources} /></div>}
         {sel?.allowText !== false && <Field label="Your answer">{(a) => <Textarea {...a} rows={6} value={text} onChange={(e) => setText(e.target.value)} />}</Field>}
         {sel?.allowFile !== false && <div className="mt-3 flex flex-wrap gap-2"><Button variant="outline" onClick={() => fileRef.current?.click()}>{file ? file.name : 'Attach a file'}</Button><Button variant="outline" onClick={() => setDrawing(true)}><PenTool className="h-4 w-4" /> Draw your answer</Button><input ref={fileRef} type="file" hidden onChange={(e) => setFile(e.target.files?.[0] ?? null)} /></div>}
       </Dialog>

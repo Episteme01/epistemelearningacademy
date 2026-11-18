@@ -1,3 +1,4 @@
+import { linkResourceToCourse } from '@/services/resourceAccess';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { where } from 'firebase/firestore';
@@ -109,6 +110,7 @@ export function CourseBuilder() {
               const { attachmentsText, ...rest } = p; void attachmentsText;
               const data = { ...rest, attachments, moduleId: lesDlg.moduleId, courseId: id };
               if (lesDlg.id) await patchDoc(C.lessons, lesDlg.id, data); else await createDoc(C.lessons, data);
+              if (typeof p.resourceId === 'string' && p.resourceId) void linkResourceToCourse(p.resourceId, id);   // enrolled learners may open it
               setLesDlg(null); toast.success('Lesson saved');
             } catch (e) { toast.error(errorMessage(e)); }
           }} />}

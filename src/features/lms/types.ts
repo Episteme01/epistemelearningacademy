@@ -1,3 +1,4 @@
+import type { ResourceLite } from '@/types/models';
 import type { FileRef } from '@/lib/fileRef';
 export type { Course, CourseEnrollment, LiveClass, Student, WithId } from '@/types/models';
-export interface Assignment_ { title: string; instructions: string; courseId?: string; classId?: string; dueAt: unknown; maxScore: number; allowText?: boolean; allowFile?: boolean; allowLate?: boolean; kind?: 'homework' | 'classwork' | 'project'; studentUids?: string[]; parentViewers?: string[]; teacherUid: string; attachments?: FileRef[] }
+export interface Assignment_ { title: string; instructions: string; courseId?: string; classId?: string; dueAt: unknown; maxScore: number; allowText?: boolean; allowFile?: boolean; allowLate?: boolean; kind?: 'homework' | 'classwork' | 'project' | 'presentation'; studentUids?: string[]; parentViewers?: string[]; teacherUid: string; attachments?: FileRef[]; resources?: ResourceLite[]; resourceIds?: string[]; }
