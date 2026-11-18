@@ -1,0 +1,9 @@
+{
+  "note": "Terms are defined by ELA's academic calendar in the LMS. The curriculum counts teaching weeks, not dates.",
+  "termsPerSession": 3,
+  "teachingWeeksPerTerm": 10,
+  "teachingDaysPerWeek": 5,
+  "plannedDaysPerSubjectPerClass": 150,
+  "sessionName": "configured in the LMS",
+  "flexibility": "Friday lessons and Week 10 of each term are for review, catch-up and assessment. If a week is lost to a holiday or event, use the next review day and move the unlearned lesson into that slot."
+}

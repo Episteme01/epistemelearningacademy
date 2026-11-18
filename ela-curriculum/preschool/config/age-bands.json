@@ -1,0 +1,16 @@
+{
+  "note": "Default planning assumptions only. They have not been validated against ELA's admissions policy. Administrators may edit the numbers; no lesson text depends on them.",
+  "unit": "months",
+  "validated": false,
+  "bands": [
+    { "class": "Toddler", "recommendedMinMonths": 24, "recommendedMaxMonths": 35 },
+    { "class": "Nursery 1", "recommendedMinMonths": 36, "recommendedMaxMonths": 47 },
+    { "class": "Nursery 2", "recommendedMinMonths": 48, "recommendedMaxMonths": 59 },
+    { "class": "Reception", "recommendedMinMonths": 60, "recommendedMaxMonths": 71 }
+  ],
+  "assumptions": [
+    "Age is measured on the first day of Term 1.",
+    "NERDC lists a One-Year Pre-Primary Education Curriculum for Age 5, so Reception is assumed to serve children who turn 5 during or just before the year (to be confirmed against the document).",
+    "Children develop at different rates. Placement follows ELA admissions policy and teacher judgement, not age alone."
+  ]
+}
