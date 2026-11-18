@@ -9,12 +9,13 @@ import { rolesOf } from '@/config/permissions';
 import { getById, listDocs } from '@/services/db';
 import { checkSchedule, createSeries, editSessions, type EditChanges, type Scope, type SeriesInput } from '@/services/schedule';
 import { MAX_OCCURRENCES, defaultRecurrence, type Recurrence } from '@/lib/schedule/recurrence';
+import { defaultWeekdays, effectiveRecurrence, planFor, termEndFor } from '@/lib/schedule/autoDays';
 import { DEFAULT_TZ, format12, utcToZoned } from '@/lib/schedule/tz';
 import { errorMessage, toDate } from '@/lib/utils';
 import { hasErrors, previewIssues, scopeTargets, type Issue } from '@/lib/schedule/validate';
 import { useLiveIssues } from './useLiveConflicts';
 import { where } from 'firebase/firestore';
-import type { ClassRoom, Session, Student, Subject, TimetableSeries, UserProfile, WithId } from '@/types/models';
+import type { ClassRoom, Session, Student, Subject, Term, TimetableSeries, UserProfile, WithId } from '@/types/models';
 
 const DAYS = [['Mon', 1], ['Tue', 2], ['Wed', 3], ['Thu', 4], ['Fri', 5], ['Sat', 6], ['Sun', 0]] as const;
 const PROVIDERS = [['google_meet', 'Google Meet'], ['zoom', 'Zoom'], ['teams', 'Microsoft Teams'], ['other', 'Other']] as const;
@@ -30,6 +31,8 @@ export function SessionForm({ open, onClose, session, initialDate, onDone }: {
 
   const classes = useCollection<ClassRoom>(C.classes, () => (open ? [] : null), open ? 'o' : 'c');
   const subjects = useCollection<Subject>(C.subjects, () => (open ? [] : null), open ? 'o' : 'c');
+  const terms = useCollection<Term>(C.terms, () => (open ? [] : null), open ? 'o' : 'c');
+  const [endAuto, setEndAuto] = useState(true);   // weekly classes run to the end of the term unless a count or date is chosen
   const courses = useCollection<Course>(C.courses, () => (open ? [] : null), open ? 'o' : 'c');
   const students = useCollection<Student>(C.students, () => (open ? [] : null), open ? 'o' : 'c');
   const users = useCollection<UserProfile>(C.users, () => (open && leader ? [] : null), open && leader ? 'o' : 'c');
@@ -77,6 +80,9 @@ export function SessionForm({ open, onClose, session, initialDate, onDone }: {
       excludedStudentIds: classMembers.filter((s) => !sel.has(s.id)).map((s) => s.id),
     };
   };
+  const term = useMemo(() => termEndFor(f.date, terms.data), [f.date, terms.data]);
+  const eff = useMemo(() => effectiveRecurrence(rec, endAuto, term), [rec, endAuto, term]);
+  const plan = useMemo(() => (editing || eff.freq === 'none' ? null : planFor(f.date, eff)), [editing, eff, f.date]);
   const noLogin = active.filter((s) => sel.has(s.id) && !s.studentUid).length;
 
   /* ---- live conflict preview: the same check Save runs, shown while the person is still choosing times ---- */
@@ -89,11 +95,11 @@ export function SessionForm({ open, onClose, session, initialDate, onDone }: {
       const t = scopeTargets(siblingsRef.current.rows.map((r) => ({ id: r.id, status: r.status, overridden: r.overridden, startMs: toDate(r.startAt)?.getTime() ?? 0, localDate: r.localDate, seriesIndex: r.seriesIndex })), session, scope, Date.now());
       dates = t.dates; exclude = t.exclude;
     }
-    const issues = await checkSchedule({ title: f.title, teacherUid: f.teacherUid, classId: editing ? (session?.classId || undefined) : (f.classId || undefined), subjectId: f.subjectId || undefined, courseId: f.courseId || undefined, startDate: f.date, startTime: f.start, endTime: f.end, recurrence: editing ? defaultRecurrence() : rec },
+    const issues = await checkSchedule({ title: f.title, teacherUid: f.teacherUid, classId: editing ? (session?.classId || undefined) : (f.classId || undefined), subjectId: f.subjectId || undefined, courseId: f.courseId || undefined, startDate: f.date, startTime: f.start, endTime: f.end, recurrence: editing ? defaultRecurrence() : eff },
       { leader, myUid: uid, excludeIds: exclude, dates });
     return previewIssues(issues);
-  }, [uid, editing, session, scope, f.title, f.teacherUid, f.classId, f.subjectId, f.courseId, f.date, f.start, f.end, rec, leader]);
-  const liveKey = JSON.stringify([session?.id ?? '', scope, f.teacherUid, f.classId, f.subjectId, f.courseId, f.date, f.start, f.end, editing ? '' : rec]);
+  }, [uid, editing, session, scope, f.title, f.teacherUid, f.classId, f.subjectId, f.courseId, f.date, f.start, f.end, eff, leader]);
+  const liveKey = JSON.stringify([session?.id ?? '', scope, f.teacherUid, f.classId, f.subjectId, f.courseId, f.date, f.start, f.end, editing ? '' : eff]);
   const live = useLiveIssues(previewCheck, liveKey, open && !!f.teacherUid && !!f.date && !!f.start && !!f.end);
   const liveErrors = live.issues.filter((i) => i.level === 'error'); const liveWarnings = live.issues.filter((i) => i.level === 'warning');
 
@@ -116,16 +122,17 @@ export function SessionForm({ open, onClose, session, initialDate, onDone }: {
         const t = scopeTargets(sib.map((r) => ({ id: r.id, status: r.status, overridden: r.overridden, startMs: toDate(r.startAt)?.getTime() ?? 0, localDate: r.localDate, seriesIndex: r.seriesIndex })), session!, scope, Date.now());
         dates = t.dates; exclude = t.exclude;
       }
-      const issues = await checkSchedule({ title: f.title, teacherUid: f.teacherUid, classId: editing ? (session!.classId || undefined) : (f.classId || undefined), subjectId: f.subjectId || undefined, courseId: f.courseId || undefined, startDate: f.date, startTime: f.start, endTime: f.end, recurrence: editing ? defaultRecurrence() : rec },
+      const issues = await checkSchedule({ title: f.title, teacherUid: f.teacherUid, classId: editing ? (session!.classId || undefined) : (f.classId || undefined), subjectId: f.subjectId || undefined, courseId: f.courseId || undefined, startDate: f.date, startTime: f.start, endTime: f.end, recurrence: editing ? defaultRecurrence() : eff },
         { leader, myUid: uid, excludeIds: exclude, dates });
       if (hasErrors(issues)) { toast.error(issues.filter((i) => i.level === 'error').map((i) => i.message).join(' ')); setBusy(false); return; }
       const warn = issues.filter((i) => i.level === 'warning');
       if (warn.length && !window.confirm(`${warn.map((i) => '• ' + i.message).join('\n')}\n\nSchedule anyway?`)) { setBusy(false); return; }
       if (!editing) {
-        if (rec.freq !== 'none' && rec.end.type === 'date' && rec.end.until < f.date) throw new Error('The end date must be on or after the first class.');
+        if (rec.freq === 'weekly' && endAuto && !term) throw new Error('The first class date is not inside any term, so the end cannot be set automatically. Choose a number of sessions or an end date.');
+        if (eff.freq !== 'none' && eff.end.type === 'date' && eff.end.until < f.date) throw new Error('The end date must be on or after the first class.');
         const a = audience();
         const input: SeriesInput = { title: f.title.trim(), description: f.description, courseId: f.courseId, courseName: course?.title ?? '', subjectId: f.subjectId, subjectName: subj?.name ?? '', classId: f.classId, className: cls?.name ?? '',
-          teacherUid: f.teacherUid, teacherName, location: f.location, link, startDate: f.date, startTime: f.start, endTime: f.end, timezone: DEFAULT_TZ, recurrence: rec, ...a, notify: f.notify };
+          teacherUid: f.teacherUid, teacherName, location: f.location, link, startDate: f.date, startTime: f.start, endTime: f.end, timezone: DEFAULT_TZ, recurrence: eff, ...a, notify: f.notify };
         const r = await createSeries(input, by);
         toast.success(`${r.count} session${r.count === 1 ? '' : 's'} scheduled`);
       } else {
@@ -188,15 +195,22 @@ export function SessionForm({ open, onClose, session, initialDate, onDone }: {
         </fieldset>
 
         {!editing && (
-          <fieldset className="space-y-3 rounded-md border border-line p-3"><legend className="px-1 text-sm font-medium">Repeat</legend>
+          <fieldset className="space-y-3 rounded-md border border-line p-3"><legend className="px-1 text-sm font-medium">Class days and repeat</legend>
             <div className="grid gap-3 sm:grid-cols-3">
-              <Field label="Repeats">{(a) => <Select {...a} value={rec.freq} onChange={(e) => setRec({ ...rec, freq: e.target.value as Recurrence['freq'] })}><option value="none">Does not repeat</option><option value="daily">Daily</option><option value="weekly">Weekly</option><option value="monthly">Monthly</option></Select>}</Field>
+              <Field label="Repeats">{(a) => <Select {...a} value={rec.freq} onChange={(e) => { const freq = e.target.value as Recurrence['freq']; setRec({ ...rec, freq, weekdays: freq === 'weekly' && rec.weekdays.length === 0 ? defaultWeekdays(f.date) : rec.weekdays }); setEndAuto(freq === 'weekly'); }}><option value="none">Does not repeat</option><option value="weekly">Weekly, on the days I choose</option><option value="daily">Daily</option><option value="monthly">Monthly</option></Select>}</Field>
               {rec.freq !== 'none' && <Field label={`Every (${rec.freq === 'daily' ? 'days' : rec.freq === 'weekly' ? 'weeks' : 'months'})`}>{(a) => <Input {...a} type="number" min={1} max={12} value={rec.interval} onChange={(e) => setRec({ ...rec, interval: Math.max(1, Number(e.target.value) || 1) })} />}</Field>}
-              {rec.freq !== 'none' && <Field label="Ends">{(a) => <Select {...a} value={rec.end.type} onChange={(e) => setRec({ ...rec, end: e.target.value === 'count' ? { type: 'count', count: 10 } : { type: 'date', until: f.date } })}><option value="count">After a number of sessions</option><option value="date">On a date</option></Select>}</Field>}
+              {rec.freq !== 'none' && <Field label="Ends">{(a) => <Select {...a} value={rec.freq === 'weekly' && endAuto ? 'term' : rec.end.type} onChange={(e) => { const v = e.target.value; if (v === 'term') { setEndAuto(true); return; } setEndAuto(false); setRec({ ...rec, end: v === 'count' ? { type: 'count', count: 10 } : { type: 'date', until: f.date } }); }}>{rec.freq === 'weekly' && <option value="term">Automatically, at the end of the term</option>}<option value="count">After a number of sessions</option><option value="date">On a date</option></Select>}</Field>}
             </div>
-            {rec.freq === 'weekly' && (<div><p className="mb-1 text-sm">On</p><div className="flex flex-wrap gap-1.5">{DAYS.map(([l, n]) => <button key={n} type="button" aria-pressed={rec.weekdays.includes(n)} onClick={() => setRec({ ...rec, weekdays: rec.weekdays.includes(n) ? rec.weekdays.filter((x) => x !== n) : [...rec.weekdays, n] })} className={`h-9 min-w-11 rounded border px-2 text-sm ${rec.weekdays.includes(n) ? 'border-forest-700 bg-forest-700 text-white' : 'border-line bg-white'}`}>{l}</button>)}</div><p className="mt-1 text-xs text-muted">None selected = the weekday of the first class.</p></div>)}
-            {rec.freq !== 'none' && rec.end.type === 'count' && <Field label="Number of sessions">{(a) => <Input {...a} type="number" min={1} max={MAX_OCCURRENCES} value={rec.end.type === 'count' ? rec.end.count : 1} onChange={(e) => setRec({ ...rec, end: { type: 'count', count: Math.min(MAX_OCCURRENCES, Math.max(1, Number(e.target.value) || 1)) } })} />}</Field>}
-            {rec.freq !== 'none' && rec.end.type === 'date' && <Field label="Last possible date">{(a) => <Input {...a} type="date" value={rec.end.type === 'date' ? rec.end.until : ''} onChange={(e) => setRec({ ...rec, end: { type: 'date', until: e.target.value } })} />}</Field>}
+            {rec.freq === 'weekly' && (<div><p className="mb-1 text-sm">Class days (tick every day this learner or class meets)</p><div className="flex flex-wrap gap-1.5">{DAYS.map(([l, n]) => <button key={n} type="button" aria-pressed={rec.weekdays.includes(n)} onClick={() => setRec({ ...rec, weekdays: rec.weekdays.includes(n) ? rec.weekdays.filter((x) => x !== n) : [...rec.weekdays, n] })} className={`h-9 min-w-11 rounded-md border px-2 text-sm ${rec.weekdays.includes(n) ? 'border-forest-700 bg-forest-700 text-white' : 'border-line bg-white'}`}>{l}</button>)}</div>
+              <p className="mt-1 text-xs text-muted">Pick the days once. The calendar creates every session on those days from the first class date{endAuto ? term ? ` to the end of ${term.name ?? 'the term'} (${term.endDate})` : ', but the first class date is not inside a term yet, so choose a count or a date' : ''}, and each one is checked for clashes.</p></div>)}
+            {rec.freq !== 'none' && rec.end.type === 'count' && !(rec.freq === 'weekly' && endAuto) && <Field label="Number of sessions">{(a) => <Input {...a} type="number" min={1} max={MAX_OCCURRENCES} value={rec.end.type === 'count' ? rec.end.count : 1} onChange={(e) => setRec({ ...rec, end: { type: 'count', count: Math.min(MAX_OCCURRENCES, Math.max(1, Number(e.target.value) || 1)) } })} />}</Field>}
+            {rec.freq !== 'none' && rec.end.type === 'date' && !(rec.freq === 'weekly' && endAuto) && <Field label="Last possible date">{(a) => <Input {...a} type="date" value={rec.end.type === 'date' ? rec.end.until : ''} onChange={(e) => setRec({ ...rec, end: { type: 'date', until: e.target.value } })} />}</Field>}
+            {plan && plan.count > 0 && (
+              <div className="rounded-md bg-cream p-3 text-sm" data-testid="plan-preview">
+                <p><strong>{plan.count}</strong> session{plan.count === 1 ? '' : 's'} will be created, from {plan.first} to {plan.last}.</p>
+                {plan.capped && <p className="mt-1 text-warn">A single schedule is limited to {MAX_OCCURRENCES} sessions. Run it again afterwards for the remaining dates.</p>}
+                <p className="mt-1 max-h-20 overflow-y-auto text-xs text-muted">{plan.dates.slice(0, 40).join(' · ')}{plan.dates.length > 40 ? ' …' : ''}</p>
+              </div>)}
           </fieldset>)}
 
         <fieldset className="space-y-3 rounded-md border border-line p-3"><legend className="px-1 text-sm font-medium">Who attends</legend>
