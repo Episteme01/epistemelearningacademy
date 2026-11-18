@@ -1,0 +1,16 @@
+name: Validate curriculum
+on:
+  push:
+    paths: ['ela-curriculum/**']
+  pull_request:
+    paths: ['ela-curriculum/**']
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: ela-curriculum } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm i --no-save ajv@6
+      - run: node tools/validate.mjs
