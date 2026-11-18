@@ -16,10 +16,11 @@ import { useSignedUrl } from '@/hooks/useSignedUrl';
 import { C } from '@/config/collections';
 import { flags } from '@/config/env';
 import { KIND_LABEL, filterResources, kindFromUrl, youtubeId } from '@/lib/resources';
+import { OTHERS, groupResources, type GroupBy } from '@/lib/resourceAccess';
+import { rebuildAllResourceAccess } from '@/services/resourceAccess';
 import { errorMessage, fmtDate, toDate } from '@/lib/utils';
-import type { ClassRoom, Course, MediaKind, Resource, ResourceAudience, WithId } from '@/types/models';
+import type { ClassRoom, Course, MediaKind, Resource, WithId } from '@/types/models';
 
-const AUDIENCES: { id: ResourceAudience; label: string }[] = [{ id: 'student', label: 'Students' }, { id: 'parent', label: 'Parents' }, { id: 'teacher', label: 'Teachers' }];
 const blank = (): ResourceInput => ({ title: '', description: '', kind: 'link', fileKind: 'link', url: '', subject: '', courseId: '', courseName: '', classId: '', className: '', tags: '', visibleTo: ['student', 'parent'], published: true });
 const sizeLabel = (n?: number) => (n == null ? '' : n > 1048576 ? `${(n / 1048576).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1024))} KB`);
 
@@ -35,7 +36,7 @@ export function ResourcesPage() {
   const res = useCollection<Resource>(C.resources, () => {
     if (!uid) return null;
     if (readAll) return [];
-    if (viewerRole) return [where('published', '==', true), where('visibleTo', 'array-contains', viewerRole)];
+    if (viewerRole) return [where('published', '==', true), where('viewerUids', 'array-contains', uid)];
     return null;
   }, `${role}|${uid}`);
   const classes = useCollection<ClassRoom>(C.classes, () => (manage ? [] : null), manage ? 'on' : 'off');
@@ -46,6 +47,8 @@ export function ResourcesPage() {
   const [view, setView] = useState<WithId<Resource> | null>(null);
   const [del, setDel] = useState<WithId<Resource> | null>(null);
   const [pick, setPick] = useState(false);
+  const [group, setGroup] = useState<GroupBy | 'all'>('all');
+  const [refreshing, setRefreshing] = useState(false);
   const [busy, setBusy] = useState(false); const [prog, setProg] = useState<number | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
 
@@ -56,6 +59,10 @@ export function ResourcesPage() {
   const canEdit = (r: Resource) => leader || (role === 'teacher' && r.createdBy === uid);
   const set = (p: Partial<ResourceInput>) => setForm((x) => (x ? { ...x, v: { ...x.v, ...p } } : x));
 
+  const refreshAccess = async () => {
+    setRefreshing(true);
+    try { const r = await rebuildAllResourceAccess(); toast.success(r.changed ? `Updated who can open ${r.changed} of ${r.checked} resources.` : 'Everything is already up to date.'); } catch (e) { toast.error(errorMessage(e)); } finally { setRefreshing(false); }
+  };
   const onFile = async (file?: File) => {
     if (!file || !form) return;
     if (!flags.uploads) return toast.error(UPLOADS_OFF_MESSAGE);
@@ -77,10 +84,31 @@ export function ResourcesPage() {
     } catch (e) { toast.error(errorMessage(e)); } finally { setBusy(false); }
   };
 
+  const sections = useMemo(() => (group === 'all' ? [{ name: OTHERS, rows: shown }] : groupResources(shown, group)), [shown, group]);
+  const renderCard = (r: WithId<Resource>) => (
+          <Card key={r.id} className="flex flex-col overflow-hidden">
+            <div className="flex flex-1 flex-col gap-2 p-4">
+              <div className="flex flex-wrap items-center gap-2"><Badge>{KIND_LABEL[r.fileKind]}</Badge>{manage && !r.published && <Badge tone="warn">Draft</Badge>}{r.subject && <Badge tone="info">{r.subject}</Badge>}{r.className && <Badge>{r.className}</Badge>}</div>
+              <h3 className="font-heading text-base">{r.title}</h3>
+              {r.description && <p className="line-clamp-3 text-sm text-muted">{r.description}</p>}
+              {r.tags.length > 0 && <p className="text-xs text-muted">#{r.tags.join(' #')}</p>}
+              <p className="mt-auto text-xs text-muted">{r.createdByName ? `${r.createdByName} · ` : ''}{fmtDate(r.createdAt)}{r.size ? ` · ${sizeLabel(r.size)}` : ''}</p>
+              {manage && <p className="text-xs text-muted">{(r.viewerUids ?? []).length ? `Shared through work with ${(r.viewerUids ?? []).length} learners and parents` : 'Not attached to any work yet: learners and parents cannot see it'}</p>}
+            </div>
+            <div className="flex flex-wrap items-center gap-2 border-t border-line p-3">
+              <Button size="sm" onClick={() => setView(r)}>Open</Button>
+              {canEdit(r) && <>
+                <Button size="sm" variant="outline" aria-label="Edit" onClick={() => setForm({ id: r.id, storagePath: r.storagePath, v: { title: r.title, description: r.description ?? '', kind: r.kind, fileKind: r.fileKind, url: r.url, fileRef: r.fileRef ?? null, storagePath: r.storagePath, contentType: r.contentType, size: r.size, fileName: r.fileName, subject: r.subject ?? '', courseId: r.courseId ?? '', courseName: r.courseName ?? '', classId: r.classId ?? '', className: r.className ?? '', tags: r.tags.join(', '), visibleTo: r.visibleTo, published: r.published } })}><Pencil className="h-4 w-4" /></Button>
+                <Button size="sm" variant="outline" aria-label={r.published ? 'Unpublish' : 'Publish'} onClick={() => void setPublished(r, !r.published).then(() => toast.success(r.published ? 'Unpublished' : 'Published')).catch((e) => toast.error(errorMessage(e)))}>{r.published ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}</Button>
+                <Button size="sm" variant="outline" aria-label="Delete" onClick={() => setDel(r)}><Trash2 className="h-4 w-4 text-danger" /></Button></>}
+            </div>
+          </Card>
+  );
+
   return (
     <>
       <PageHeader title="Resources" description={manage ? 'Share study materials, recordings, worksheets and links with learners and parents.' : 'Study materials shared by your teachers.'}
-        actions={manage ? <Button onClick={() => setForm({ v: blank() })}><Plus className="h-4 w-4" /> Add resource</Button> : undefined} />
+        actions={manage ? <div className="flex flex-wrap gap-2"><Button variant="outline" loading={refreshing} onClick={() => void refreshAccess()}>Refresh who can see</Button><Button onClick={() => setForm({ v: blank() })}><Plus className="h-4 w-4" /> Add resource</Button></div> : undefined} />
       <Card className="mb-4"><CardBody className="grid gap-2 md:grid-cols-5">
         <Input aria-label="Search" placeholder="Search resources" value={f.q} onChange={(e) => setF({ ...f, q: e.target.value })} />
         <Select aria-label="Type" value={f.kind} onChange={(e) => setF({ ...f, kind: e.target.value as MediaKind | '' })}><option value="">All types</option>{(['document', 'video', 'audio', 'image', 'link'] as MediaKind[]).map((k) => <option key={k} value={k}>{KIND_LABEL[k]}</option>)}</Select>
@@ -90,25 +118,16 @@ export function ResourcesPage() {
         {manage && <label className="flex items-center gap-2 text-sm md:col-span-5"><input type="checkbox" className="accent-forest-700" checked={f.mine} onChange={(e) => setF({ ...f, mine: e.target.checked })} /> Only my resources</label>}
       </CardBody></Card>
 
+      <div className="mb-4 flex flex-wrap gap-2" role="tablist" aria-label="Group resources">
+        {([['all', 'All'], ['class', 'Classes'], ['subject', 'Subjects'], ['course', 'Courses']] as const).map(([v, l]) => (
+          <button key={v} type="button" role="tab" aria-selected={group === v} onClick={() => setGroup(v)} className={`rounded-full border px-3 py-1 text-sm ${group === v ? 'border-forest-700 bg-forest-700 text-white' : 'border-line bg-white hover:bg-cream'}`}>{l}</button>))}
+      </div>
       {res.error ? <ErrorState message={res.error} /> : res.loading ? <Spinner /> : shown.length === 0 ? <Card><EmptyState title={res.data.length ? 'Nothing matches your filters' : 'No resources yet'} description={manage ? 'Use "Add resource" to share the first one.' : 'Your teachers have not shared anything with you yet.'} /></Card> : (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{shown.map((r) => (
-          <Card key={r.id} className="flex flex-col overflow-hidden">
-            <div className="flex flex-1 flex-col gap-2 p-4">
-              <div className="flex flex-wrap items-center gap-2"><Badge>{KIND_LABEL[r.fileKind]}</Badge>{manage && !r.published && <Badge tone="warn">Draft</Badge>}{r.subject && <Badge tone="info">{r.subject}</Badge>}{r.className && <Badge>{r.className}</Badge>}</div>
-              <h3 className="font-heading text-base">{r.title}</h3>
-              {r.description && <p className="line-clamp-3 text-sm text-muted">{r.description}</p>}
-              {r.tags.length > 0 && <p className="text-xs text-muted">#{r.tags.join(' #')}</p>}
-              <p className="mt-auto text-xs text-muted">{r.createdByName ? `${r.createdByName} · ` : ''}{fmtDate(r.createdAt)}{r.size ? ` · ${sizeLabel(r.size)}` : ''}</p>
-              {manage && <p className="text-xs text-muted">Visible to: {r.visibleTo.join(', ')}</p>}
-            </div>
-            <div className="flex flex-wrap items-center gap-2 border-t border-line p-3">
-              <Button size="sm" onClick={() => setView(r)}>Open</Button>
-              {canEdit(r) && <>
-                <Button size="sm" variant="outline" aria-label="Edit" onClick={() => setForm({ id: r.id, storagePath: r.storagePath, v: { title: r.title, description: r.description ?? '', kind: r.kind, fileKind: r.fileKind, url: r.url, fileRef: r.fileRef ?? null, storagePath: r.storagePath, contentType: r.contentType, size: r.size, fileName: r.fileName, subject: r.subject ?? '', courseId: r.courseId ?? '', courseName: r.courseName ?? '', classId: r.classId ?? '', className: r.className ?? '', tags: r.tags.join(', '), visibleTo: r.visibleTo, published: r.published } })}><Pencil className="h-4 w-4" /></Button>
-                <Button size="sm" variant="outline" aria-label={r.published ? 'Unpublish' : 'Publish'} onClick={() => void setPublished(r, !r.published).then(() => toast.success(r.published ? 'Unpublished' : 'Published')).catch((e) => toast.error(errorMessage(e)))}>{r.published ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}</Button>
-                <Button size="sm" variant="outline" aria-label="Delete" onClick={() => setDel(r)}><Trash2 className="h-4 w-4 text-danger" /></Button></>}
-            </div>
-          </Card>))}</div>)}
+        <div className="space-y-6">{sections.map((sec) => (
+          <section key={sec.name}>
+            {group !== 'all' && <h2 className="mb-2 font-heading text-lg text-forest-700">{sec.name} <span className="text-sm font-normal text-muted">({sec.rows.length})</span></h2>}
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{sec.rows.map((r) => renderCard(r))}</div>
+          </section>))}</div>)}
 
       <Dialog open={!!view} onClose={() => setView(null)} title={view?.title ?? ''} description={view ? `${KIND_LABEL[view.fileKind]}${view.subject ? ` · ${view.subject}` : ''}` : undefined} size="xl">
         {view && <ResourceViewer r={view} />}
@@ -132,14 +151,12 @@ export function ResourcesPage() {
           <Field label="Description">{(a) => <Textarea {...a} rows={3} value={form.v.description} onChange={(e) => set({ description: e.target.value })} />}</Field>
           <div className="grid gap-3 sm:grid-cols-3">
             <Field label="Subject">{(a) => <Input {...a} value={form.v.subject} onChange={(e) => set({ subject: e.target.value })} />}</Field>
-            <Field label="Class (optional)">{(a) => <Select {...a} value={form.v.classId} onChange={(e) => set({ classId: e.target.value })}><option value="">All classes</option>{classes.data.map((c) => <option key={c.id} value={c.id}>{c.name}</option>)}</Select>}</Field>
-            <Field label="Course (optional)">{(a) => <Select {...a} value={form.v.courseId} onChange={(e) => set({ courseId: e.target.value })}><option value="">Any</option>{courses.data.map((c) => <option key={c.id} value={c.id}>{c.title}</option>)}</Select>}</Field>
+            <Field label="Class (for grouping)">{(a) => <Select {...a} value={form.v.classId} onChange={(e) => set({ classId: e.target.value })}><option value="">None</option>{classes.data.map((c) => <option key={c.id} value={c.id}>{c.name}</option>)}</Select>}</Field>
+            <Field label="Course (for grouping)">{(a) => <Select {...a} value={form.v.courseId} onChange={(e) => set({ courseId: e.target.value })}><option value="">None</option>{courses.data.map((c) => <option key={c.id} value={c.id}>{c.title}</option>)}</Select>}</Field>
           </div>
           <Field label="Tags (comma separated)">{(a) => <Input {...a} value={Array.isArray(form.v.tags) ? form.v.tags.join(', ') : form.v.tags} onChange={(e) => set({ tags: e.target.value })} />}</Field>
-          <fieldset className="rounded-md border border-line p-3"><legend className="px-1 text-sm font-medium">Who can see it</legend>
-            <div className="flex flex-wrap gap-4">{AUDIENCES.map((a) => <Checkbox key={a.id} label={a.label} checked={form.v.visibleTo.includes(a.id)} onChange={(e) => set({ visibleTo: e.target.checked ? [...form.v.visibleTo, a.id] : form.v.visibleTo.filter((x) => x !== a.id) })} />)}</div>
-            <p className="mt-2 text-xs text-muted">Teachers and school leaders always see every resource. Class and course are labels for filtering; they do not restrict access.</p></fieldset>
-          <Checkbox label="Published (visible to the people selected above)" checked={form.v.published} onChange={(e) => set({ published: e.target.checked })} />
+          <p className="rounded-md border border-line bg-cream p-3 text-sm text-muted">Learners and parents see a resource only when you attach it to an assignment, homework, classwork, project or presentation (use “Pick from Resources” there), or use it in a course lesson. Teachers and school leaders see everything. Class, subject and course are used to group the library.</p>
+          <Checkbox label="Published (learners can open it once it is attached to their work)" checked={form.v.published} onChange={(e) => set({ published: e.target.checked })} />
         </div>}
       </Dialog>
       <MediaPickerDialog open={pick} onClose={() => setPick(false)} title="Pick from the media library" includeBundled={false}
