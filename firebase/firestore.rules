@@ -751,14 +751,22 @@ service cloud.firestore {
                             && d.fileRef.path.matches(d.createdBy + '/.*')))
         && (d.get('fileRef', null) == null || (d.fileRef.provider == 'supabase' && d.fileRef.path.matches(d.createdBy + '/.*')));
     }
+    // Learners and parents only see a resource once it is attached to work for them:
+    //  - viewerUids: students and parents of an assignment / homework / classwork / project / presentation that uses it
+    //  - courseLinks: courses whose lessons use it (enrolled learners). Up to 3 courses are checked.
+    function resCourseAccess(d) {
+      let c = d.get('courseLinks', []);
+      return (c.size() > 0 && enrolled(c[0])) || (c.size() > 1 && enrolled(c[1])) || (c.size() > 2 && enrolled(c[2]));
+    }
     match /resources/{id} {
       allow read: if resLeader() || inRoles(['director', 'teacher'])
-                  || (signedIn() && resource.data.published == true
-                      && ((isRole('student') && 'student' in resource.data.visibleTo)
-                          || (isRole('parent') && 'parent' in resource.data.visibleTo)));
+                  || (signedIn() && resource.data.published == true && (isRole('student') || isRole('parent'))
+                      && (uid() in resource.data.get('viewerUids', []) || (isRole('student') && resCourseAccess(resource.data))));
       allow create: if resMgr() && request.resource.data.createdBy == uid() && resOk(request.resource.data);
-      allow update: if (resLeader() || (isRole('teacher') && resource.data.createdBy == uid()))
-                    && request.resource.data.createdBy == resource.data.createdBy && resOk(request.resource.data);
+      allow update: if ((resLeader() || (isRole('teacher') && resource.data.createdBy == uid()))
+                        && request.resource.data.createdBy == resource.data.createdBy && resOk(request.resource.data))
+                    // any teacher or leader may attach a resource to their work (only the access lists change)
+                    || (isAcademicStaff() && onlyChanges(['viewerUids', 'courseLinks', 'updatedAt']));
       allow delete: if resLeader() || (isRole('teacher') && resource.data.createdBy == uid());
     }
 
