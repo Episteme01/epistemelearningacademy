@@ -1,0 +1,585 @@
+{
+  "id": "ELA-PS-TOD-NUM-T1-W04",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 4,
+  "title": "Sorting by size and kind",
+  "topic": "Sorting",
+  "subtopics": [
+    "Sorting big and small",
+    "Sorting by kind (food, clothes, toys)",
+    "Telling why: \"because they are fruits\""
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will sort objects by size into big and small groups.",
+    "Children will sort objects by kind and give a one-word reason with support."
+  ],
+  "vocabulary": [
+    "sort",
+    "group",
+    "kind",
+    "food",
+    "toys",
+    "clothes"
+  ],
+  "content": "Sorting objects by size and by kind, with a simple reason such as \"because they are fruits\".",
+  "teachingActivities": "Think aloud as you sort; ask \"Why does it go here?\"; offer the sentence \"because it is a fruit\" and accept gestures.",
+  "learnerActivities": "Sort big and small objects, sort fruits from toys and clothes, and give a one-word or gesture reason.",
+  "resources": [
+    "Big and small spoons, cups and balls",
+    "Toy or large real fruits (oranges, mango)",
+    "Toy animals and clothes",
+    "Three baskets and cloths"
+  ],
+  "assessment": "Check that each child can sort by size and by kind and note any reasons they give.",
+  "expectedOutcomes": [
+    "Sorts by size or by kind with growing accuracy.",
+    "Offers a word or gesture as a reason."
+  ],
+  "crossCurricular": [
+    "Science: living and non-living, fruit and food",
+    "Literacy: naming kinds of things",
+    "Social Habits: tidying into the right basket"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W04-D01",
+      "title": "Big things, small things",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Sorting",
+      "subtopic": "Sorting big and small",
+      "dayType": "explore",
+      "objectives": [
+        "Children will sort objects into a big group and a small group."
+      ],
+      "successCriteria": [
+        "Places a big object with the big group",
+        "Places a small object with the small group"
+      ],
+      "previousKnowledge": "Children can sort by colour with support and use some size words.",
+      "vocabulary": [
+        "sort",
+        "group",
+        "kind",
+        "food",
+        "toys",
+        "clothes"
+      ],
+      "resources": [
+        "Two baskets labelled BIG and SMALL with pictures",
+        "Eight pairs of big and small objects (spoons, cups, balls, blocks)",
+        "A mat"
+      ],
+      "starter": "Hold up a big spoon and a small spoon. Ask \"Which one goes in the big basket?\" and \"Which one goes in the small basket?\"",
+      "teacherActivities": [
+        "Sort a few objects while thinking aloud: \"A big ball. Big basket.\"",
+        "Hand a child an object and ask \"Is it big or small?\" before they place it.",
+        "Mix up the objects and sort again as a group, one child at a time."
+      ],
+      "learnerActivities": [
+        "Children watch and say \"big\" with you.",
+        "Child decides and places it in the right basket.",
+        "Each child sorts one object and others check by pointing."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sort a few objects while thinking aloud: \"A big ball. Big basket.\" Children: Children watch and say \"big\" with you.",
+        "Step 2. Teacher: Hand a child an object and ask \"Is it big or small?\" before they place it. Children: Child decides and places it in the right basket.",
+        "Step 3. Teacher: Mix up the objects and sort again as a group, one child at a time. Children: Each child sorts one object and others check by pointing."
+      ],
+      "practical": {
+        "title": "Big and small baskets",
+        "steps": [
+          "Spread the mixed objects on the mat.",
+          "Children sort them into the two baskets.",
+          "Teacher and children look at each basket and say \"big\" or \"small\"."
+        ],
+        "safety": "Use objects that are larger than a child’s fist. Supervise to keep objects out of mouths."
+      },
+      "differentiation": {
+        "support": "Offer one object at a time with clear size contrast.",
+        "extension": "Ask the child to choose a medium-sized object and decide which basket it fits best."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is this spoon big or small?",
+            "expected": "The correct size word."
+          },
+          {
+            "question": "Which basket does the small ball go in?",
+            "expected": "The small basket."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts objects by size",
+        "Uses big and small"
+      ],
+      "conclusion": "Look at the two baskets and say \"Big things, small things.\" Tidy together.",
+      "homeConnection": "Sort cups and plates into big and small piles at home.",
+      "teacherReflection": [
+        "Which children could show \"sort objects into a big group and a small group\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BIG things",
+          "SMALL things"
+        ],
+        "pictures": [
+          "A big basket and a small basket"
+        ]
+      },
+      "activities": [
+        "Big and small baskets"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W04-D02",
+      "title": "Fruits and toys",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Sorting",
+      "subtopic": "Sorting by kind (food, clothes, toys)",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will sort fruits and toys into two groups."
+      ],
+      "successCriteria": [
+        "Puts fruits in the fruit basket",
+        "Puts toys in the toy basket"
+      ],
+      "previousKnowledge": "Children can sort by colour with support and use some size words.",
+      "vocabulary": [
+        "sort",
+        "group",
+        "kind",
+        "food",
+        "toys",
+        "clothes"
+      ],
+      "resources": [
+        "Toy or large safe fruits (orange, mango, banana)",
+        "Toys (ball, block, car)",
+        "Two baskets with pictures"
+      ],
+      "starter": "Hold up a mango and a toy car. Say \"This is a fruit. This is a toy. They are different kinds.\"",
+      "teacherActivities": [
+        "Sort four objects aloud: \"Mango, fruit. Car, toy.\"",
+        "Let each child pick an object and say whether it is a fruit or a toy.",
+        "Ask \"Why is the orange in the fruit basket?\" and give the sentence \"because it is a fruit\"."
+      ],
+      "learnerActivities": [
+        "Children repeat \"fruit\" and \"toy\".",
+        "Child places it in the correct basket.",
+        "Child says \"fruit\" or points to the fruit picture."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sort four objects aloud: \"Mango, fruit. Car, toy.\" Children: Children repeat \"fruit\" and \"toy\".",
+        "Step 2. Teacher: Let each child pick an object and say whether it is a fruit or a toy. Children: Child places it in the correct basket.",
+        "Step 3. Teacher: Ask \"Why is the orange in the fruit basket?\" and give the sentence \"because it is a fruit\". Children: Child says \"fruit\" or points to the fruit picture."
+      ],
+      "practical": {
+        "title": "Fruit and toy basket",
+        "steps": [
+          "Mix fruits and toys.",
+          "Children take turns to sort.",
+          "Check each basket together."
+        ],
+        "safety": "Real fruit must be washed and not eaten unless offered as a snack. Use only large toys that cannot be swallowed."
+      },
+      "differentiation": {
+        "support": "Use two very different objects such as a ball and a banana.",
+        "extension": "Introduce a third group, clothes, and sort three kinds."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is this a fruit or a toy?",
+            "expected": "The correct kind."
+          },
+          {
+            "question": "Why does it go in this basket?",
+            "expected": "A word or gesture such as \"fruit\"."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts by kind",
+        "Gives a one-word reason with support"
+      ],
+      "conclusion": "Sing \"Fruits in the basket, toys on the shelf.\" Tidy up.",
+      "homeConnection": "Sort fruit and vegetables or toys and clothes at home.",
+      "teacherReflection": [
+        "Which children could show \"sort fruits and toys into two groups\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FRUITS",
+          "TOYS"
+        ],
+        "pictures": [
+          "A mango and a toy car"
+        ]
+      },
+      "activities": [
+        "Fruit and toy basket"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W04-D03",
+      "title": "Clothes, food and toys",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Sorting",
+      "subtopic": "Sorting by kind (food, clothes, toys)",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort objects into three kinds: clothes, food and toys."
+      ],
+      "successCriteria": [
+        "Sorts most objects correctly",
+        "Says or points to the kind"
+      ],
+      "previousKnowledge": "Children can sort by colour with support and use some size words.",
+      "vocabulary": [
+        "sort",
+        "group",
+        "kind",
+        "food",
+        "toys",
+        "clothes"
+      ],
+      "resources": [
+        "Three baskets labelled clothes, food and toys",
+        "Objects: sock, hat, orange, plantain, ball, block",
+        "A mat"
+      ],
+      "starter": "Hold a sock, an orange and a ball. Say \"Which one do we wear? Which one do we eat? Which one do we play with?\"",
+      "teacherActivities": [
+        "Sort three objects aloud using \"we wear, we eat, we play\".",
+        "Hand out objects and ask \"Where does it go?\"",
+        "Ask \"How do you know?\" Wait and accept gestures."
+      ],
+      "learnerActivities": [
+        "Children repeat the phrases and gestures.",
+        "Child places it in the right basket.",
+        "Child shows eating, wearing or playing."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sort three objects aloud using \"we wear, we eat, we play\". Children: Children repeat the phrases and gestures.",
+        "Step 2. Teacher: Hand out objects and ask \"Where does it go?\" Children: Child places it in the right basket.",
+        "Step 3. Teacher: Ask \"How do you know?\" Wait and accept gestures. Children: Child shows eating, wearing or playing."
+      ],
+      "practical": {
+        "title": "Wear, eat, play sort",
+        "steps": [
+          "Place the baskets in a row.",
+          "Children take an object and act out what it does.",
+          "They place it in the matching basket."
+        ],
+        "safety": "Real food must be fresh, washed and eaten only when the teacher offers it. Use clean clothes."
+      },
+      "differentiation": {
+        "support": "Use two kinds only.",
+        "extension": "Ask the child to think of another thing that goes in each basket."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Do we wear it, eat it or play with it?",
+            "expected": "The correct action or kind."
+          },
+          {
+            "question": "Which basket does the hat go in?",
+            "expected": "Clothes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts by kind",
+        "Acts out why"
+      ],
+      "conclusion": "Sing \"We wear, we eat, we play.\" Tidy up the baskets.",
+      "homeConnection": "At bedtime, sort clean clothes and toys into different places.",
+      "teacherReflection": [
+        "Which children could show \"sort objects into three kinds: clothes, food and toys\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "We wear",
+          "We eat",
+          "We play"
+        ],
+        "pictures": [
+          "A sock, an orange and a ball"
+        ]
+      },
+      "activities": [
+        "Wear, eat, play sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W04-D04",
+      "title": "Because they are fruits",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Sorting",
+      "subtopic": "Telling why: \"because they are fruits\"",
+      "dayType": "apply",
+      "objectives": [
+        "Children will give a simple reason for how they sorted."
+      ],
+      "successCriteria": [
+        "Says or shows why an object goes in a group",
+        "Uses a word like \"fruit\" or a gesture"
+      ],
+      "previousKnowledge": "Children can sort by colour with support and use some size words.",
+      "vocabulary": [
+        "sort",
+        "group",
+        "kind",
+        "food",
+        "toys",
+        "clothes"
+      ],
+      "resources": [
+        "Mixed objects from the week",
+        "Three baskets",
+        "Picture cards for reasons (apple, shirt, ball)"
+      ],
+      "starter": "Say \"A magic bag! Let us sort what comes out. Then I will ask you why.\"",
+      "teacherActivities": [
+        "Pull an object from the bag and sort it with a reason: \"It goes here because it is a fruit.\"",
+        "Let each child pull an object, decide where it goes and say why.",
+        "Ask \"What else goes here?\""
+      ],
+      "learnerActivities": [
+        "Children repeat \"because it is a fruit\".",
+        "Child sorts and gives a word or gesture.",
+        "Child names or finds another object."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pull an object from the bag and sort it with a reason: \"It goes here because it is a fruit.\" Children: Children repeat \"because it is a fruit\".",
+        "Step 2. Teacher: Let each child pull an object, decide where it goes and say why. Children: Child sorts and gives a word or gesture.",
+        "Step 3. Teacher: Ask \"What else goes here?\" Children: Child names or finds another object."
+      ],
+      "practical": {
+        "title": "Magic bag sorting",
+        "steps": [
+          "Put objects in a cloth bag.",
+          "Each child takes one and places it in the right basket.",
+          "They say one reason word."
+        ],
+        "safety": "Keep objects safe and large. Supervise to avoid mouthing."
+      },
+      "differentiation": {
+        "support": "Offer picture cards for the child to point to as a reason.",
+        "extension": "Ask the child to think of a new kind, such as animals, and sort."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Why does the orange go here?",
+            "expected": "Because it is a fruit."
+          },
+          {
+            "question": "What else goes in this basket?",
+            "expected": "A suitable item."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Gives a reason for sorting",
+        "Sorts with growing independence"
+      ],
+      "conclusion": "Clap a rhythm for each sorted basket. Say \"Because, because!\"",
+      "homeConnection": "Ask your child why they put things together when tidying.",
+      "teacherReflection": [
+        "Which children could show \"give a simple reason for how they sorted\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Because it is a fruit"
+        ],
+        "pictures": [
+          "A magic bag"
+        ]
+      },
+      "activities": [
+        "Magic bag sorting"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W04-D05",
+      "title": "Sorting stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Sorting",
+      "subtopic": "Telling why: \"because they are fruits\"",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will sort by size and kind at three stations."
+      ],
+      "successCriteria": [
+        "Sorts correctly by size and kind",
+        "Offers a word or gesture as a reason"
+      ],
+      "previousKnowledge": "Children can sort by colour with support and use some size words.",
+      "vocabulary": [
+        "sort",
+        "group",
+        "kind",
+        "food",
+        "toys",
+        "clothes"
+      ],
+      "resources": [
+        "Station 1: big and small",
+        "Station 2: fruits and toys",
+        "Station 3: clothes, food and toys",
+        "Class record sheet"
+      ],
+      "starter": "Sing \"Big and small, fruits and toys\" and show the stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask observed children to sort and say why.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children sort at each station.",
+        "Child sorts and gives a reason.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children sort at each station.",
+        "Step 2. Teacher: Ask observed children to sort and say why. Children: Child sorts and gives a reason.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Remove small items and supervise all stations."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner at each station.",
+        "extension": "Ask the child to lead a friend through sorting."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: sorts by size; sorts by kind; gives a reason.",
+        "questions": [
+          {
+            "question": "Where does it go?",
+            "expected": "The correct basket."
+          },
+          {
+            "question": "Why did you put it there?",
+            "expected": "A word or gesture reason."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Sorts and gives reasons"
+      ],
+      "conclusion": "Sing the sorting song and tidy up together.",
+      "homeConnection": "Let your child sort objects around the house this week.",
+      "teacherReflection": [
+        "Which children could show \"sort by size and kind at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Big, small, fruits, toys"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

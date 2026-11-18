@@ -1,0 +1,577 @@
+{
+  "id": "ELA-PS-TOD-NUM-T1-W05",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 5,
+  "title": "One and lots",
+  "topic": "Quantity",
+  "subtopics": [
+    "One",
+    "Lots and a few",
+    "None: all gone"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will take or show one when asked.",
+    "Children will tell one thing from lots of things."
+  ],
+  "vocabulary": [
+    "one",
+    "lots",
+    "few",
+    "none",
+    "all gone"
+  ],
+  "content": "The idea of one, lots, a few and none, using real objects and counting games.",
+  "teachingActivities": "Use \"one\" firmly in routines: give one cup, one biscuit; use \"lots\" when there are many; use \"all gone\" for none.",
+  "learnerActivities": "Take one object, show lots, give one to a friend, and say \"all gone\" when none are left.",
+  "resources": [
+    "Baskets of beads in large sizes (wooden blocks, large buttons)",
+    "Large plastic cups",
+    "Toy fruits",
+    "A shaker or drum"
+  ],
+  "assessment": "Observe whether each child can give or take one when asked and tell one from lots.",
+  "expectedOutcomes": [
+    "Gives exactly one object on request.",
+    "Uses the word one or lots."
+  ],
+  "crossCurricular": [
+    "Literacy: one, lots and all gone in rhymes",
+    "Social Habits: sharing and giving one to a friend",
+    "Physical Development: picking up and passing objects"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W05-D01",
+      "title": "Give me one",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 5,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Quantity",
+      "subtopic": "One",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will take one object when asked."
+      ],
+      "successCriteria": [
+        "Takes exactly one object on request",
+        "Says or shows \"one\""
+      ],
+      "previousKnowledge": "Children can sort and compare by size and say some words such as big, small and same.",
+      "vocabulary": [
+        "one",
+        "lots",
+        "few",
+        "none",
+        "all gone"
+      ],
+      "resources": [
+        "A basket of large blocks",
+        "A tray",
+        "Large plastic cups"
+      ],
+      "starter": "Hold up one finger and say \"One!\" Take one block from the basket and say \"I have one block.\"",
+      "teacherActivities": [
+        "Say \"Give me one block\" and hold out your hand.",
+        "Say \"Thank you. One block.\" Ask another child.",
+        "Show lots of blocks and ask \"Can you take one?\""
+      ],
+      "learnerActivities": [
+        "Child takes one block and gives it to you.",
+        "Each child takes one block and puts it on the tray.",
+        "Child takes one and keeps the others in the basket."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"Give me one block\" and hold out your hand. Children: Child takes one block and gives it to you.",
+        "Step 2. Teacher: Say \"Thank you. One block.\" Ask another child. Children: Each child takes one block and puts it on the tray.",
+        "Step 3. Teacher: Show lots of blocks and ask \"Can you take one?\" Children: Child takes one and keeps the others in the basket."
+      ],
+      "practical": {
+        "title": "One for the tray",
+        "steps": [
+          "Place a basket of blocks in front of the group.",
+          "Say \"Take one.\"",
+          "Each child puts one block on the tray."
+        ],
+        "safety": "Use large wooden or plastic blocks that cannot be swallowed. Supervise at all times."
+      },
+      "differentiation": {
+        "support": "Offer a basket of only two blocks and say \"one\" as you place the first.",
+        "extension": "Ask the child to take one block in each hand and say \"two\"."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you give me one?",
+            "expected": "Child gives exactly one object."
+          },
+          {
+            "question": "How many blocks did you take?",
+            "expected": "One."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Gives one when asked",
+        "Says the word one aloud"
+      ],
+      "conclusion": "Put all the single blocks into a line and say \"One, one, one.\" Clap.",
+      "homeConnection": "At snack time, ask your child to take one biscuit or one spoon.",
+      "teacherReflection": [
+        "Which children could show \"take one object when asked\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ONE (one block)"
+        ],
+        "pictures": [
+          "One block",
+          "A hand holding one finger"
+        ],
+        "songOrRhyme": "One finger, one finger, one finger up. One block, one block, one block up."
+      },
+      "activities": [
+        "One for the tray"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W05-D02",
+      "title": "Lots and a few",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 5,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Quantity",
+      "subtopic": "Lots and a few",
+      "dayType": "explore",
+      "objectives": [
+        "Children will tell lots from a few using real objects."
+      ],
+      "successCriteria": [
+        "Points to the group with lots",
+        "Says \"lots\" or \"few\""
+      ],
+      "previousKnowledge": "Children can sort and compare by size and say some words such as big, small and same.",
+      "vocabulary": [
+        "one",
+        "lots",
+        "few",
+        "none",
+        "all gone"
+      ],
+      "resources": [
+        "Two baskets: one with many large blocks, one with two or three",
+        "A mat"
+      ],
+      "starter": "Show a basket with lots of blocks and a basket with a few. Say \"Lots! A few!\" using different hand gestures.",
+      "teacherActivities": [
+        "Pour out lots of blocks and say \"Lots of blocks!\" Pour out a few and say \"A few.\"",
+        "Ask \"Which has lots?\" and \"Which has a few?\"",
+        "Let each child take a few and put the rest back."
+      ],
+      "learnerActivities": [
+        "Children point to each pile and say \"lots\" or \"few\".",
+        "Children point to the right pile.",
+        "Child takes two or three blocks."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pour out lots of blocks and say \"Lots of blocks!\" Pour out a few and say \"A few.\" Children: Children point to each pile and say \"lots\" or \"few\".",
+        "Step 2. Teacher: Ask \"Which has lots?\" and \"Which has a few?\" Children: Children point to the right pile.",
+        "Step 3. Teacher: Let each child take a few and put the rest back. Children: Child takes two or three blocks."
+      ],
+      "practical": {
+        "title": "Lots and few piles",
+        "steps": [
+          "Give each pair a tray.",
+          "Ask them to make a pile with lots and a pile with a few.",
+          "Check by pointing to each pile."
+        ],
+        "safety": "Use only large blocks and keep the area clear. Supervise to prevent mouthing."
+      },
+      "differentiation": {
+        "support": "Offer one block and a basket full of blocks, which is an obvious difference.",
+        "extension": "Ask the child to tell you how many are in the few pile by counting."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where are lots of blocks?",
+            "expected": "The bigger pile."
+          },
+          {
+            "question": "Where are a few blocks?",
+            "expected": "The smaller pile."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Tells lots from few",
+        "Uses the words"
+      ],
+      "conclusion": "Sweep the piles together and say \"Lots of blocks, tidy up!\"",
+      "homeConnection": "At home, show your child lots of spoons and a few spoons and talk about them.",
+      "teacherReflection": [
+        "Which children could show \"tell lots from a few using real objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LOTS",
+          "A FEW"
+        ],
+        "pictures": [
+          "A big pile and a small pile"
+        ]
+      },
+      "activities": [
+        "Lots and few piles"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W05-D03",
+      "title": "All gone!",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 5,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Quantity",
+      "subtopic": "None: all gone",
+      "dayType": "practise",
+      "objectives": [
+        "Children will say \"all gone\" when no objects are left."
+      ],
+      "successCriteria": [
+        "Notices when a container is empty",
+        "Says or signs \"all gone\""
+      ],
+      "previousKnowledge": "Children can sort and compare by size and say some words such as big, small and same.",
+      "vocabulary": [
+        "one",
+        "lots",
+        "few",
+        "none",
+        "all gone"
+      ],
+      "resources": [
+        "A basket of toy fruits",
+        "An empty basket",
+        "A cloth bag"
+      ],
+      "starter": "Pretend to eat toy fruits one by one. After each, say \"One, gobble!\" until the basket is empty. Say \"All gone!\" and show your empty hands.",
+      "teacherActivities": [
+        "Place a few fruits in a basket and let a child take them out one by one.",
+        "When the basket is empty, say \"All gone!\" and open your hands.",
+        "Hide a toy under a cloth and ask \"Is it there? All gone?\" Lift the cloth to reveal."
+      ],
+      "learnerActivities": [
+        "Child takes each fruit and puts it in the bag.",
+        "Children copy with open hands.",
+        "Children say \"all gone\" or \"there!\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Place a few fruits in a basket and let a child take them out one by one. Children: Child takes each fruit and puts it in the bag.",
+        "Step 2. Teacher: When the basket is empty, say \"All gone!\" and open your hands. Children: Children copy with open hands.",
+        "Step 3. Teacher: Hide a toy under a cloth and ask \"Is it there? All gone?\" Lift the cloth to reveal. Children: Children say \"all gone\" or \"there!\"."
+      ],
+      "practical": {
+        "title": "Fruit basket game",
+        "steps": [
+          "Each child has a small basket of three toy fruits.",
+          "They take them out one by one.",
+          "They say \"all gone\" when the basket is empty."
+        ],
+        "safety": "Use toy fruits larger than a child’s fist. Do not use real small fruits or sweets."
+      },
+      "differentiation": {
+        "support": "Use a basket with one object.",
+        "extension": "Ask the child to say how many were in the basket at the start."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is in the basket now?",
+            "expected": "Nothing or all gone."
+          },
+          {
+            "question": "Can you say all gone?",
+            "expected": "Child says or signs all gone."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Understands none",
+        "Says all gone"
+      ],
+      "conclusion": "Wave goodbye to the empty basket. Say \"All gone!\" together.",
+      "homeConnection": "Say \"all gone\" at mealtimes when the plate is empty.",
+      "teacherReflection": [
+        "Which children could show \"say \"all gone\" when no objects are left\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ALL GONE (empty basket)"
+        ],
+        "pictures": [
+          "An empty basket"
+        ]
+      },
+      "activities": [
+        "Fruit basket game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W05-D04",
+      "title": "One for you",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 5,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Quantity",
+      "subtopic": "One",
+      "dayType": "apply",
+      "objectives": [
+        "Children will give one object to a friend."
+      ],
+      "successCriteria": [
+        "Gives one object to a friend",
+        "Says \"one\" or \"for you\""
+      ],
+      "previousKnowledge": "Children can sort and compare by size and say some words such as big, small and same.",
+      "vocabulary": [
+        "one",
+        "lots",
+        "few",
+        "none",
+        "all gone"
+      ],
+      "resources": [
+        "A basket of large biscuits or toy biscuits",
+        "A tray",
+        "Two or three soft toys"
+      ],
+      "starter": "Say \"Teddy is hungry! Can you give Teddy one biscuit?\" Hold out the basket.",
+      "teacherActivities": [
+        "Give one toy biscuit to Teddy and say \"One biscuit for Teddy.\"",
+        "Invite a child to give one biscuit to each soft toy.",
+        "Say \"Now one for you\" and give each child one."
+      ],
+      "learnerActivities": [
+        "Children watch and say \"one\".",
+        "Child gives one biscuit and says \"one\".",
+        "Child takes one and says \"thank you\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Give one toy biscuit to Teddy and say \"One biscuit for Teddy.\" Children: Children watch and say \"one\".",
+        "Step 2. Teacher: Invite a child to give one biscuit to each soft toy. Children: Child gives one biscuit and says \"one\".",
+        "Step 3. Teacher: Say \"Now one for you\" and give each child one. Children: Child takes one and says \"thank you\"."
+      ],
+      "practical": {
+        "title": "One for the toys",
+        "steps": [
+          "Seat soft toys in a row.",
+          "Each child gives one toy biscuit to a toy.",
+          "Check that each toy has one."
+        ],
+        "safety": "Use toy biscuits or large safe items. If using real food, check for allergies and wash hands first."
+      },
+      "differentiation": {
+        "support": "Use one toy and one biscuit.",
+        "extension": "Ask the child to give one to each of three toys."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many biscuits does Teddy have?",
+            "expected": "One."
+          },
+          {
+            "question": "Who has no biscuit?",
+            "expected": "The toy without one."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Gives one to a friend",
+        "Says the word one aloud"
+      ],
+      "conclusion": "Sing \"One for you, one for me\" and tidy the toys away.",
+      "homeConnection": "At mealtimes, hand out one spoon or plate to each person.",
+      "teacherReflection": [
+        "Which children could show \"give one object to a friend\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "One for you"
+        ],
+        "pictures": [
+          "A teddy with one biscuit"
+        ]
+      },
+      "activities": [
+        "One for the toys"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W05-D05",
+      "title": "One and lots stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 5,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Quantity",
+      "subtopic": "None: all gone",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show one, lots and all gone at three stations."
+      ],
+      "successCriteria": [
+        "Takes one when asked",
+        "Tells lots from few and says all gone"
+      ],
+      "previousKnowledge": "Children can sort and compare by size and say some words such as big, small and same.",
+      "vocabulary": [
+        "one",
+        "lots",
+        "few",
+        "none",
+        "all gone"
+      ],
+      "resources": [
+        "Station 1: one block each",
+        "Station 2: lots and few piles",
+        "Station 3: all gone basket",
+        "Class record sheet"
+      ],
+      "starter": "Sing the \"One finger\" song and show the stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask observed children to take one, show lots and say all gone.",
+        "Record each child’s level and photograph."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child takes one, points to lots and says all gone.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask observed children to take one, show lots and say all gone. Children: Child takes one, points to lots and says all gone.",
+        "Step 3. Teacher: Record each child’s level and photograph. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Remove small items and supervise all stations."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask the child to lead a friend in the game."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: gives one; tells lots from few; says all gone.",
+        "questions": [
+          {
+            "question": "Can you take one?",
+            "expected": "Child takes one."
+          },
+          {
+            "question": "Which has lots?",
+            "expected": "Child points to the larger group."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Uses one and lots"
+      ],
+      "conclusion": "Sing the \"One finger\" song again and tidy up.",
+      "homeConnection": "Count one object a day at home and say \"one\".",
+      "teacherReflection": [
+        "Which children could show \"show one, lots and all gone at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "One, lots, all gone"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

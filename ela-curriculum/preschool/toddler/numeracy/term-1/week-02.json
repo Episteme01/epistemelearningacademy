@@ -1,0 +1,583 @@
+{
+  "id": "ELA-PS-TOD-NUM-T1-W02",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 2,
+  "title": "Same and different",
+  "topic": "Same and different",
+  "subtopics": [
+    "Matching identical pairs",
+    "Same colour, same kind",
+    "Finding the one that is different"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will match two identical objects.",
+    "Children will point to the one that is different in a group of three."
+  ],
+  "vocabulary": [
+    "same",
+    "different",
+    "match",
+    "pair",
+    "find"
+  ],
+  "content": "Matching identical objects, noticing when two things are the same colour or kind, and spotting the one that is different.",
+  "teachingActivities": "Lay out matched sets and play \"Find my twin\"; use the words same and different every time children match; give wait time before helping.",
+  "learnerActivities": "Match pairs of identical objects and pictures, find a friend’s same shoe or cup, and point to the one that is different.",
+  "resources": [
+    "Pairs of identical sandals, cups, spoons and socks",
+    "Pairs of picture cards (fruits, animals)",
+    "Three-object sets with one odd one out",
+    "A basket and a cloth bag"
+  ],
+  "assessment": "Observe who matches independently, who needs a prompt and who spots the odd one; record on the class sheet.",
+  "expectedOutcomes": [
+    "Matches a pair of identical objects independently.",
+    "Points to the odd one out with a prompt."
+  ],
+  "crossCurricular": [
+    "Literacy: picture matching and vocabulary",
+    "Science: noticing properties of objects",
+    "Social Habits: working beside a friend"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W02-D01",
+      "title": "Find my twin sandal",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 2,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Same and different",
+      "subtopic": "Matching identical pairs",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will match one sandal to its identical partner."
+      ],
+      "successCriteria": [
+        "Brings together two identical sandals",
+        "Says or shows \"same\""
+      ],
+      "previousKnowledge": "Children can sometimes choose the big or the small object and enjoy handling sandals, cups and balls.",
+      "vocabulary": [
+        "same",
+        "different",
+        "match",
+        "pair",
+        "find"
+      ],
+      "resources": [
+        "Three pairs of different sandals or slippers",
+        "A cloth bag",
+        "A mat"
+      ],
+      "starter": "Hold up one blue sandal and say \"I have lost my other sandal! It is the same as this one. Can you help me find it?\" Look around dramatically.",
+      "teacherActivities": [
+        "Lay out three pairs of sandals mixed on the mat. Hold up one sandal and say \"I need the same one.\"",
+        "Place the pair together and say \"Same! These two are the same.\" Clap the beat.",
+        "Pull a sandal from the cloth bag and ask each child in turn to find its twin."
+      ],
+      "learnerActivities": [
+        "Children look and one child points or brings the matching sandal.",
+        "Children say \"same\" and clap.",
+        "Child finds the twin and puts it beside the first."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Lay out three pairs of sandals mixed on the mat. Hold up one sandal and say \"I need the same one.\" Children: Children look and one child points or brings the matching sandal.",
+        "Step 2. Teacher: Place the pair together and say \"Same! These two are the same.\" Clap the beat. Children: Children say \"same\" and clap.",
+        "Step 3. Teacher: Pull a sandal from the cloth bag and ask each child in turn to find its twin. Children: Child finds the twin and puts it beside the first."
+      ],
+      "practical": {
+        "title": "Sandal pairs game",
+        "steps": [
+          "Give each child one sandal from a pair.",
+          "Children walk slowly to find the friend holding the same sandal.",
+          "They stand together and say \"same\"."
+        ],
+        "safety": "Children should walk, not run, and sandals must be clean and dry. Check the floor for obstacles."
+      },
+      "differentiation": {
+        "support": "Use pairs that differ strongly in colour and size, and sit beside the child to help look.",
+        "extension": "Mix sandals that look similar but differ in one small detail and ask \"Are these the same?\""
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you find the sandal that is the same?",
+            "expected": "Child brings or points to the matching sandal."
+          },
+          {
+            "question": "Are these two the same?",
+            "expected": "Child nods or says \"same\" when shown a true pair."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches a pair of sandals",
+        "Says or signs same"
+      ],
+      "conclusion": "Put all matched pairs in a line. Say together, \"Same, same, same!\" and clap.",
+      "homeConnection": "At home, pair up socks or slippers with your child and say \"same\" for each match.",
+      "teacherReflection": [
+        "Which children could show \"match one sandal to its identical partner\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAME (two matching sandals)"
+        ],
+        "pictures": [
+          "Three pairs of sandals",
+          "A mother and child matching socks"
+        ],
+        "songOrRhyme": "Same, same, same. Find the same. Same, same, same. Match the same."
+      },
+      "activities": [
+        "Sandal pairs game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W02-D02",
+      "title": "Same colour, same cup",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 2,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Same and different",
+      "subtopic": "Same colour, same kind",
+      "dayType": "explore",
+      "objectives": [
+        "Children will match objects that are the same colour or the same kind."
+      ],
+      "successCriteria": [
+        "Puts two cups of the same colour together",
+        "Says \"same\" or points to show"
+      ],
+      "previousKnowledge": "Children can sometimes choose the big or the small object and enjoy handling sandals, cups and balls.",
+      "vocabulary": [
+        "same",
+        "different",
+        "match",
+        "pair",
+        "find"
+      ],
+      "resources": [
+        "Six plastic cups in three colours (two each)",
+        "Matching coloured paper circles or cloths",
+        "A tray"
+      ],
+      "starter": "Hold a red cup and a red cloth. Say \"Red cup, red cloth. They are the same colour!\" Hold a blue cup beside the red cloth and say \"Different!\"",
+      "teacherActivities": [
+        "Show a red cup and ask \"Who can find another red thing?\" Lay the red cloth beside it.",
+        "Do the same for blue and yellow. Say \"same colour\" each time.",
+        "Show a red cup and a blue cup and say \"Different.\" Hold up two red cups and say \"Same.\""
+      ],
+      "learnerActivities": [
+        "Child finds a matching red object and puts it down.",
+        "Children match each cup to the cloth of the same colour.",
+        "Children say same or different for each pair you show."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a red cup and ask \"Who can find another red thing?\" Lay the red cloth beside it. Children: Child finds a matching red object and puts it down.",
+        "Step 2. Teacher: Do the same for blue and yellow. Say \"same colour\" each time. Children: Children match each cup to the cloth of the same colour.",
+        "Step 3. Teacher: Show a red cup and a blue cup and say \"Different.\" Hold up two red cups and say \"Same.\" Children: Children say same or different for each pair you show."
+      ],
+      "practical": {
+        "title": "Colour cup match",
+        "steps": [
+          "Place coloured cloths in a row.",
+          "Children put a cup on the cloth of the same colour.",
+          "Children check by lifting the cup and saying the colour."
+        ],
+        "safety": "Use unbreakable cups and large cloths. Make sure children sit and do not put cups in their mouths."
+      },
+      "differentiation": {
+        "support": "Use two colours only and point to the correct cloth with a gesture.",
+        "extension": "Ask the child to match two different kinds of object that share a colour, such as a red cup and a red ball."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which cup is the same colour as this cloth?",
+            "expected": "Child chooses the cup with the matching colour."
+          },
+          {
+            "question": "Are these two the same or different?",
+            "expected": "Child says the correct word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches objects by colour",
+        "Uses same and different with support"
+      ],
+      "conclusion": "Gather the cups and say a rhyme: \"Red with red, blue with blue, yellow with yellow, same, same, same.\"",
+      "homeConnection": "Ask your child to find two things in the kitchen that are the same colour.",
+      "teacherReflection": [
+        "Which children could show \"match objects that are the same colour or the same kind\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAME colour",
+          "DIFFERENT colour"
+        ],
+        "pictures": [
+          "Two red cups",
+          "A red cup and a blue cup"
+        ]
+      },
+      "activities": [
+        "Colour cup match"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W02-D03",
+      "title": "Which one is different?",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 2,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Same and different",
+      "subtopic": "Finding the one that is different",
+      "dayType": "practise",
+      "objectives": [
+        "Children will point to the one that is different in a group of three."
+      ],
+      "successCriteria": [
+        "Points to the odd one out in a group of three",
+        "Says \"different\" with support"
+      ],
+      "previousKnowledge": "Children can sometimes choose the big or the small object and enjoy handling sandals, cups and balls.",
+      "vocabulary": [
+        "same",
+        "different",
+        "match",
+        "pair",
+        "find"
+      ],
+      "resources": [
+        "Three small baskets each containing two identical objects and one different (two spoons and a cup; two balls and a block; two socks and a slipper)",
+        "A mat"
+      ],
+      "starter": "Show two spoons and one cup and sing \"One of these things is not like the others.\" Ask the children to look carefully and point to the one that does not belong.",
+      "teacherActivities": [
+        "Hold up three objects: two spoons and one cup. Say \"Look, which one is different?\" Give wait time.",
+        "Say \"Yes, the cup is different. The spoons are the same.\" Put the two spoons together.",
+        "Repeat with a new set. Let a child choose the next set."
+      ],
+      "learnerActivities": [
+        "Children look and point to the cup.",
+        "Children say \"different\" while pointing.",
+        "Child gives you a set to show the group, and others point to the odd one out."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold up three objects: two spoons and one cup. Say \"Look, which one is different?\" Give wait time. Children: Children look and point to the cup.",
+        "Step 2. Teacher: Say \"Yes, the cup is different. The spoons are the same.\" Put the two spoons together. Children: Children say \"different\" while pointing.",
+        "Step 3. Teacher: Repeat with a new set. Let a child choose the next set. Children: Child gives you a set to show the group, and others point to the odd one out."
+      ],
+      "practical": {
+        "title": "Odd one out baskets",
+        "steps": [
+          "Each pair of children takes a basket of three objects.",
+          "They find the one that is different and put it in the lid.",
+          "They tell the teacher \"different\"."
+        ],
+        "safety": "Use only large objects that cannot be swallowed. Supervise all baskets closely."
+      },
+      "differentiation": {
+        "support": "Use extremely clear differences such as a ball and two blocks.",
+        "extension": "Ask the child to explain why: \"It is different because it is round.\""
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Show me the one that is different.",
+            "expected": "Child points to the odd object."
+          },
+          {
+            "question": "Are the two spoons the same?",
+            "expected": "Yes, same."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Points to the odd one out",
+        "Uses same and different"
+      ],
+      "conclusion": "Put all the odd ones out in one basket and the pairs back in order. Say \"Same with same, different with different.\"",
+      "homeConnection": "At home, put two shoes and one hat on a table and ask your child which one is different.",
+      "teacherReflection": [
+        "Which children could show \"point to the one that is different in a group of three\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAME: two spoons",
+          "DIFFERENT: one cup"
+        ],
+        "pictures": [
+          "Two spoons and a cup",
+          "Three objects, one different"
+        ]
+      },
+      "activities": [
+        "Odd one out baskets"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W02-D04",
+      "title": "Same and different in the market basket",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 2,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Same and different",
+      "subtopic": "Same colour, same kind",
+      "dayType": "apply",
+      "objectives": [
+        "Children will find things that are the same in a pretend market."
+      ],
+      "successCriteria": [
+        "Finds two items that are the same kind",
+        "Says \"same\" or \"different\" in play"
+      ],
+      "previousKnowledge": "Children can sometimes choose the big or the small object and enjoy handling sandals, cups and balls.",
+      "vocabulary": [
+        "same",
+        "different",
+        "match",
+        "pair",
+        "find"
+      ],
+      "resources": [
+        "A play market stall with plastic or toy fruits and vegetables (two oranges, two tomatoes, one yam)",
+        "A basket",
+        "A cloth for the stall"
+      ],
+      "starter": "Set up a pretend market stall. Say \"Welcome to the market! I want two things that are the same. Can you help me find them?\"",
+      "teacherActivities": [
+        "Act as the customer. Ask a child to find two oranges that are the same and place them in the basket.",
+        "Say \"Now I want the one that is different.\" Show the yam with the oranges.",
+        "Let the children take turns to be the trader and the customer."
+      ],
+      "learnerActivities": [
+        "Child picks two oranges and shows them.",
+        "Child points to the yam.",
+        "Children ask for two things that are the same and hand them over."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Act as the customer. Ask a child to find two oranges that are the same and place them in the basket. Children: Child picks two oranges and shows them.",
+        "Step 2. Teacher: Say \"Now I want the one that is different.\" Show the yam with the oranges. Children: Child points to the yam.",
+        "Step 3. Teacher: Let the children take turns to be the trader and the customer. Children: Children ask for two things that are the same and hand them over."
+      ],
+      "practical": {
+        "title": "Market match",
+        "steps": [
+          "Spread the market items on the stall.",
+          "Each child fills a basket with a pair of the same fruit.",
+          "The class checks the baskets together and says \"same\"."
+        ],
+        "safety": "Use toy or large safe fruits that cannot be swallowed. Wash hands afterwards if real fruit is used."
+      },
+      "differentiation": {
+        "support": "Offer only two kinds of item and guide the child’s hand to the match.",
+        "extension": "Ask the child to find two pairs, each pair a different kind."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you give me two that are the same?",
+            "expected": "Child gives two identical items."
+          },
+          {
+            "question": "Which one is different here?",
+            "expected": "Child points to the odd item."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds pairs in a play context",
+        "Uses same and different in role play"
+      ],
+      "conclusion": "Count the baskets out loud and tidy the stall. Say \"Goodbye, market!\" together.",
+      "homeConnection": "When shopping or sorting laundry, ask your child to find two that are the same.",
+      "teacherReflection": [
+        "Which children could show \"find things that are the same in a pretend market\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Same: two oranges",
+          "Different: a yam"
+        ],
+        "pictures": [
+          "A market stall",
+          "Two oranges and a yam"
+        ]
+      },
+      "activities": [
+        "Market match"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W02-D05",
+      "title": "Same and different stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 2,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Same and different",
+      "subtopic": "Finding the one that is different",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will match and spot the odd one at three play stations."
+      ],
+      "successCriteria": [
+        "Matches a pair independently",
+        "Points to the odd one out"
+      ],
+      "previousKnowledge": "Children can sometimes choose the big or the small object and enjoy handling sandals, cups and balls.",
+      "vocabulary": [
+        "same",
+        "different",
+        "match",
+        "pair",
+        "find"
+      ],
+      "resources": [
+        "Station 1: sandal pairs",
+        "Station 2: coloured cups and cloths",
+        "Station 3: odd-one-out baskets",
+        "Class record sheet"
+      ],
+      "starter": "Sing the \"Same, same, same\" song and point to each station. Tell the children they will play with a friend at each one.",
+      "teacherActivities": [
+        "Rotate groups every four minutes while you observe one station closely.",
+        "Ask each observed child to show you a pair and then the odd one.",
+        "Make a note of each child’s level and take a photograph."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child shows a pair and points to the odd one.",
+        "Children continue and tidy up at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes while you observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask each observed child to show you a pair and then the odd one. Children: Child shows a pair and points to the odd one.",
+        "Step 3. Teacher: Make a note of each child’s level and take a photograph. Children: Children continue and tidy up at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations with enough items for four children each.",
+          "Children rotate on the signal.",
+          "Teacher observes and notes."
+        ],
+        "safety": "Check each station for small items and remove them. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner who points and says the word.",
+        "extension": "Let a child lead the class in the odd-one-out game."
+      },
+      "assessment": {
+        "method": "Observe each child and record Emerging, Developing, Secure or Exceeding for: matches an identical pair; points to the one that is different.",
+        "questions": [
+          {
+            "question": "Can you find the same one?",
+            "expected": "Child points to the matching object."
+          },
+          {
+            "question": "Which one is different?",
+            "expected": "Child points to the odd one."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Matches and spots the odd one with growing confidence"
+      ],
+      "conclusion": "Sing the \"Same, same, same\" song one last time and let children choose one pair to put back on the shelf.",
+      "homeConnection": "Please let your child match socks or spoons each day this week.",
+      "teacherReflection": [
+        "Which children could show \"match and spot the odd one at three play stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAME",
+          "DIFFERENT"
+        ],
+        "pictures": [
+          "Photos of the stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

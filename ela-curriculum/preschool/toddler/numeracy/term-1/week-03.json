@@ -1,0 +1,586 @@
+{
+  "id": "ELA-PS-TOD-NUM-T1-W03",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 3,
+  "title": "Sorting by colour",
+  "topic": "Sorting",
+  "subtopics": [
+    "Sorting into two colour groups",
+    "Sorting three colours",
+    "Saying the colour of a group"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will put objects of the same colour together.",
+    "Children will name or point to a group by its colour."
+  ],
+  "vocabulary": [
+    "sort",
+    "red",
+    "yellow",
+    "green",
+    "basket",
+    "together"
+  ],
+  "content": "Sorting familiar objects into groups by colour and saying the colour of a group.",
+  "teachingActivities": "Model sorting aloud (\"red goes here\"); give each child a basket and a sorting cloth; praise careful sorting; ask \"Why does it go here?\"",
+  "learnerActivities": "Pick up, sort and place objects of one colour together, name the colour or point to it, and tidy sorted objects away.",
+  "resources": [
+    "Coloured cloths or paper plates (red, yellow, green)",
+    "Large safe objects in red, yellow and green (tomato, plantain, leaf, plastic cups)",
+    "Baskets",
+    "A colour song"
+  ],
+  "assessment": "Note whether each child sorts without errors, whether they name a colour, and whether they need prompts.",
+  "expectedOutcomes": [
+    "Sorts into two colour groups with few errors.",
+    "Names at least one colour in a group."
+  ],
+  "crossCurricular": [
+    "Literacy: colour words and rhyme",
+    "Science: noticing the colour of fruits and leaves",
+    "Social Habits: tidying into baskets"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W03-D01",
+      "title": "Red things go here",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 3,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Sorting",
+      "subtopic": "Sorting into two colour groups",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will put red objects in one place and non-red objects in another."
+      ],
+      "successCriteria": [
+        "Places a red object in the red basket",
+        "Leaves other objects out"
+      ],
+      "previousKnowledge": "Children can match identical objects and sometimes say same or different.",
+      "vocabulary": [
+        "sort",
+        "red",
+        "yellow",
+        "green",
+        "basket",
+        "together"
+      ],
+      "resources": [
+        "Red basket or red cloth",
+        "Four red objects (red cup, red ball, red cloth, tomato) and four non-red objects",
+        "A mat"
+      ],
+      "starter": "Show a red tomato and say \"Red tomato. Red!\" Put on a red hat or hold a red cloth. Tell the children \"Today we will find red things.\"",
+      "teacherActivities": [
+        "Put the red cloth on the mat. Pick up a red cup and say \"Red cup goes on the red cloth.\"",
+        "Hold up a blue block and say \"Blue block. Does it go on red? No.\" Put it aside.",
+        "Invite each child to choose one object and decide whether it goes on the red cloth."
+      ],
+      "learnerActivities": [
+        "Children watch, then say \"red\".",
+        "Children shake their heads or say \"no\".",
+        "Child chooses an object and puts it on the red cloth if it is red."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the red cloth on the mat. Pick up a red cup and say \"Red cup goes on the red cloth.\" Children: Children watch, then say \"red\".",
+        "Step 2. Teacher: Hold up a blue block and say \"Blue block. Does it go on red? No.\" Put it aside. Children: Children shake their heads or say \"no\".",
+        "Step 3. Teacher: Invite each child to choose one object and decide whether it goes on the red cloth. Children: Child chooses an object and puts it on the red cloth if it is red."
+      ],
+      "practical": {
+        "title": "Find the reds",
+        "steps": [
+          "Spread eight objects on the mat.",
+          "Children take turns to put a red object in the red basket.",
+          "Ask the class to check by pointing and saying \"red\"."
+        ],
+        "safety": "Use only large objects that cannot be swallowed. A tomato should be firm and washed; do not let children eat it during the activity."
+      },
+      "differentiation": {
+        "support": "Use only red and blue objects and guide the child’s hand.",
+        "extension": "Ask the child to find a red thing in the room that is not on the mat."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which one is red?",
+            "expected": "Child points to a red object."
+          },
+          {
+            "question": "Does the blue block go here?",
+            "expected": "No, it is not red."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts red objects with support",
+        "Names the colour red"
+      ],
+      "conclusion": "Count how many red things are in the basket by pointing, without worrying about number. Say \"All red! Well done.\"",
+      "homeConnection": "At home, look for red objects such as a cup, a tomato or a cloth and say \"red\".",
+      "teacherReflection": [
+        "Which children could show \"put red objects in one place and non-red objects in another\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RED (basket of red things)",
+          "NOT RED"
+        ],
+        "pictures": [
+          "A red tomato",
+          "A basket of red objects"
+        ],
+        "songOrRhyme": "Red, red, red. Find the red. Red, red, red. Put it in the basket."
+      },
+      "activities": [
+        "Find the reds"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W03-D02",
+      "title": "Red and yellow baskets",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 3,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Sorting",
+      "subtopic": "Sorting into two colour groups",
+      "dayType": "explore",
+      "objectives": [
+        "Children will sort objects into a red basket and a yellow basket."
+      ],
+      "successCriteria": [
+        "Places objects in the correct colour basket",
+        "Names one colour"
+      ],
+      "previousKnowledge": "Children can match identical objects and sometimes say same or different.",
+      "vocabulary": [
+        "sort",
+        "red",
+        "yellow",
+        "green",
+        "basket",
+        "together"
+      ],
+      "resources": [
+        "A red and a yellow basket",
+        "Six red and six yellow objects (plastic cups, large blocks, cloths, ripe plantain toy)",
+        "A mat"
+      ],
+      "starter": "Hold up a yellow plantain (or toy) and a red tomato. Say \"Yellow plantain, red tomato.\" Ask \"Which one is yellow?\"",
+      "teacherActivities": [
+        "Place the two baskets side by side. Put one red and one yellow object in the correct baskets while thinking aloud.",
+        "Hand out one object to each child.",
+        "Pick up a mistake on purpose and ask \"Is this right?\""
+      ],
+      "learnerActivities": [
+        "Children watch and say the colour names with you.",
+        "Child decides which basket it belongs in and puts it there.",
+        "Children say \"no\" and move it to the correct basket."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Place the two baskets side by side. Put one red and one yellow object in the correct baskets while thinking aloud. Children: Children watch and say the colour names with you.",
+        "Step 2. Teacher: Hand out one object to each child. Children: Child decides which basket it belongs in and puts it there.",
+        "Step 3. Teacher: Pick up a mistake on purpose and ask \"Is this right?\" Children: Children say \"no\" and move it to the correct basket."
+      ],
+      "practical": {
+        "title": "Two-basket sort",
+        "steps": [
+          "Children sit around a tray of mixed red and yellow objects.",
+          "They take turns to sort one at a time.",
+          "The class checks each basket and says the colour."
+        ],
+        "safety": "Use blocks and cups larger than a child’s fist. Supervise to prevent mouthing."
+      },
+      "differentiation": {
+        "support": "Use only one object at a time and say the colour before the child places it.",
+        "extension": "Ask the child to count how many are in each basket by touching and say \"more\" or \"same\"."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does the yellow cup go?",
+            "expected": "In the yellow basket."
+          },
+          {
+            "question": "What colour is this basket?",
+            "expected": "Red or yellow depending on the basket."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts into two colour baskets",
+        "Notices and corrects a mistake"
+      ],
+      "conclusion": "Look at the two full baskets and say \"Red basket, yellow basket.\" Tidy by carrying them to the shelf.",
+      "homeConnection": "Sort fruit in a bowl: red tomatoes and yellow plantains or lemons. Talk about the colours.",
+      "teacherReflection": [
+        "Which children could show \"sort objects into a red basket and a yellow basket\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Red basket",
+          "Yellow basket"
+        ],
+        "pictures": [
+          "Two baskets, red and yellow",
+          "Tomatoes and plantains"
+        ]
+      },
+      "activities": [
+        "Two-basket sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W03-D03",
+      "title": "Three colour sort",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 3,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Sorting",
+      "subtopic": "Sorting three colours",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort objects into three colour groups with help."
+      ],
+      "successCriteria": [
+        "Places most objects in the correct group",
+        "Names or points to a colour on request"
+      ],
+      "previousKnowledge": "Children can match identical objects and sometimes say same or different.",
+      "vocabulary": [
+        "sort",
+        "red",
+        "yellow",
+        "green",
+        "basket",
+        "together"
+      ],
+      "resources": [
+        "Three coloured plates (red, yellow, green)",
+        "Nine objects in these colours (leaf, cloth, cup, block)",
+        "A mat"
+      ],
+      "starter": "Sing a rainbow song with the colours red, yellow and green. Show each plate and say the colour.",
+      "teacherActivities": [
+        "Introduce the green plate with a leaf. Say \"Green leaf goes on the green plate.\"",
+        "Give each child one object and ask them to find its plate.",
+        "Ask \"Which plate has the most?\" in a simple way, pointing to piles."
+      ],
+      "learnerActivities": [
+        "Children touch the leaf and say \"green\".",
+        "Child puts the object on the matching plate.",
+        "Children point to the biggest pile."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Introduce the green plate with a leaf. Say \"Green leaf goes on the green plate.\" Children: Children touch the leaf and say \"green\".",
+        "Step 2. Teacher: Give each child one object and ask them to find its plate. Children: Child puts the object on the matching plate.",
+        "Step 3. Teacher: Ask \"Which plate has the most?\" in a simple way, pointing to piles. Children: Children point to the biggest pile."
+      ],
+      "practical": {
+        "title": "Plate sort",
+        "steps": [
+          "Place three plates in a row.",
+          "Children take turns to take an object from a bag.",
+          "They place it on the matching plate and name the colour."
+        ],
+        "safety": "Use leaves that are clean and non-toxic or use paper leaves. Make sure all objects are too big to swallow."
+      },
+      "differentiation": {
+        "support": "Keep to two colours and only two objects in each pile.",
+        "extension": "Ask the child to find another green thing in the classroom."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What colour is the leaf?",
+            "expected": "Green."
+          },
+          {
+            "question": "Show me the yellow plate.",
+            "expected": "Child points to the yellow plate."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts into three groups",
+        "Names or points to red, yellow and green"
+      ],
+      "conclusion": "Sing the colour song and let each child place one object back in the bag.",
+      "homeConnection": "Look for red, yellow and green foods at home and name each colour.",
+      "teacherReflection": [
+        "Which children could show \"sort objects into three colour groups with help\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Red, yellow, green plates"
+        ],
+        "pictures": [
+          "Three coloured plates with objects"
+        ]
+      },
+      "activities": [
+        "Plate sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W03-D04",
+      "title": "Colour walk",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 3,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Sorting",
+      "subtopic": "Saying the colour of a group",
+      "dayType": "apply",
+      "objectives": [
+        "Children will find and sort colourful objects outdoors."
+      ],
+      "successCriteria": [
+        "Collects an object of a named colour",
+        "Names the colour of their collection"
+      ],
+      "previousKnowledge": "Children can match identical objects and sometimes say same or different.",
+      "vocabulary": [
+        "sort",
+        "red",
+        "yellow",
+        "green",
+        "basket",
+        "together"
+      ],
+      "resources": [
+        "Three baskets (red, yellow, green)",
+        "Colour cards",
+        "A safe outdoor area or a covered corridor"
+      ],
+      "starter": "Show the colour cards and say \"Today we are going on a colour walk! Can you find something green?\"",
+      "teacherActivities": [
+        "Walk with the children to a safe outdoor area. Name each colour card as you hold it up.",
+        "Let each child collect one leaf, flower petal or fallen item of the colour you name.",
+        "Ask each child to name the colour of their item."
+      ],
+      "learnerActivities": [
+        "Children look around and point to things of that colour.",
+        "Child brings the item and places it in the correct basket.",
+        "Child says the colour or points to a card."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Walk with the children to a safe outdoor area. Name each colour card as you hold it up. Children: Children look around and point to things of that colour.",
+        "Step 2. Teacher: Let each child collect one leaf, flower petal or fallen item of the colour you name. Children: Child brings the item and places it in the correct basket.",
+        "Step 3. Teacher: Ask each child to name the colour of their item. Children: Child says the colour or points to a card."
+      ],
+      "practical": {
+        "title": "Colour treasure hunt",
+        "steps": [
+          "Give each child a colour card.",
+          "They find an object that matches the card.",
+          "They bring it to the basket and say the colour."
+        ],
+        "safety": "Keep the walk within a fenced area. Do not pick unknown plants and keep hands out of mouths. Wash hands after outdoor collecting."
+      },
+      "differentiation": {
+        "support": "Walk beside the child and point to a suitable object.",
+        "extension": "Ask the child to find something that is two colours."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What colour did you find?",
+            "expected": "The colour of their item."
+          },
+          {
+            "question": "Which basket does it go in?",
+            "expected": "The basket of that colour."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds and names a colour outdoors",
+        "Sorts collected items"
+      ],
+      "conclusion": "Empty the baskets together and say \"Red, yellow, green. Well done!\" Wash hands.",
+      "homeConnection": "On the way home or at the market, spot something red, yellow and green.",
+      "teacherReflection": [
+        "Which children could show \"find and sort colourful objects outdoors\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Red, yellow, green"
+        ],
+        "pictures": [
+          "Leaves, flowers and cloths outdoors"
+        ]
+      },
+      "activities": [
+        "Colour treasure hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W03-D05",
+      "title": "Colour sorting stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 3,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Sorting",
+      "subtopic": "Saying the colour of a group",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can sort by colour at three stations."
+      ],
+      "successCriteria": [
+        "Sorts correctly into two or three groups",
+        "Names or points to a colour"
+      ],
+      "previousKnowledge": "Children can match identical objects and sometimes say same or different.",
+      "vocabulary": [
+        "sort",
+        "red",
+        "yellow",
+        "green",
+        "basket",
+        "together"
+      ],
+      "resources": [
+        "Station 1: red and yellow baskets",
+        "Station 2: three-colour plates",
+        "Station 3: colour cards and objects",
+        "Class record sheet"
+      ],
+      "starter": "Sing the colour song and show the stations. Remind children to sort carefully.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask each observed child to sort four objects and name one colour.",
+        "Note each child’s level and take a photograph."
+      ],
+      "learnerActivities": [
+        "Children sort at each station.",
+        "Child sorts and names a colour.",
+        "Children tidy their station when the signal sounds."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children sort at each station.",
+        "Step 2. Teacher: Ask each observed child to sort four objects and name one colour. Children: Child sorts and names a colour.",
+        "Step 3. Teacher: Note each child’s level and take a photograph. Children: Children tidy their station when the signal sounds."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Remove any small items and keep all objects larger than a child’s fist."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner at the station.",
+        "extension": "Ask the child to sort a mixed basket into three groups without help."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: sorts objects by colour; names or points to colours.",
+        "questions": [
+          {
+            "question": "Where does the green one go?",
+            "expected": "On the green plate or in the green basket."
+          },
+          {
+            "question": "What colour is this?",
+            "expected": "The correct colour name or a pointing response."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Sorts by colour with growing accuracy"
+      ],
+      "conclusion": "Sing the colour song and tidy the baskets together.",
+      "homeConnection": "Sort toys or fruit by colour with your child this week.",
+      "teacherReflection": [
+        "Which children could show \"show they can sort by colour at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Red, yellow, green"
+        ],
+        "pictures": [
+          "Photos of the stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
