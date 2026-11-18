@@ -1,0 +1,295 @@
+{
+  "generatedBy": "tools/validate.mjs",
+  "schemaValidation": "ajv-json-schema-draft-07",
+  "note": "Full JSON Schema validation ran.",
+  "expected": {
+    "programmes": 16,
+    "terms": 48,
+    "weeks": 480,
+    "lessons": 2400
+  },
+  "found": {
+    "programmesComplete": 0,
+    "weeks": 5,
+    "lessons": 25
+  },
+  "errorCount": 0,
+  "warningCount": 8,
+  "errors": [],
+  "warnings": [
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-03.json",
+      "message": "ELA-PS-TOD-NUM-T1-W03-D05: very short lesson presentation (382 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-04.json",
+      "message": "ELA-PS-TOD-NUM-T1-W04-D03: very short lesson presentation (366 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-04.json",
+      "message": "ELA-PS-TOD-NUM-T1-W04-D04: very short lesson presentation (398 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-04.json",
+      "message": "ELA-PS-TOD-NUM-T1-W04-D05: very short lesson presentation (337 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-05.json",
+      "message": "ELA-PS-TOD-NUM-T1-W05-D01: very short lesson presentation (384 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-05.json",
+      "message": "ELA-PS-TOD-NUM-T1-W05-D02: very short lesson presentation (396 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-05.json",
+      "message": "ELA-PS-TOD-NUM-T1-W05-D04: very short lesson presentation (369 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-05.json",
+      "message": "ELA-PS-TOD-NUM-T1-W05-D05: very short lesson presentation (370 characters)"
+    }
+  ],
+  "programmes": [
+    {
+      "id": "ELA-PS-TOD-NUM",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "status": "partial",
+      "frameworkJson": true,
+      "termWeeks": [
+        5,
+        0,
+        0
+      ],
+      "weeks": 5,
+      "lessons": 25,
+      "missingWeeks": 25
+    },
+    {
+      "id": "ELA-PS-TOD-LIT",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-TOD-SCI",
+      "class": "Toddler",
+      "subject": "Science",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-TOD-SOC",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-N1-NUM",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-N1-LIT",
+      "class": "Nursery 1",
+      "subject": "Literacy",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-N1-SCI",
+      "class": "Nursery 1",
+      "subject": "Science",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-N1-SOC",
+      "class": "Nursery 1",
+      "subject": "Social Habits",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-N2-NUM",
+      "class": "Nursery 2",
+      "subject": "Numeracy",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-N2-LIT",
+      "class": "Nursery 2",
+      "subject": "Literacy",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-N2-SCI",
+      "class": "Nursery 2",
+      "subject": "Science",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-N2-SOC",
+      "class": "Nursery 2",
+      "subject": "Social Habits",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-REC-NUM",
+      "class": "Reception",
+      "subject": "Numeracy",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-REC-LIT",
+      "class": "Reception",
+      "subject": "Literacy",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-REC-SCI",
+      "class": "Reception",
+      "subject": "Science",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    },
+    {
+      "id": "ELA-PS-REC-SOC",
+      "class": "Reception",
+      "subject": "Social Habits",
+      "status": "not-started",
+      "frameworkJson": false,
+      "termWeeks": [
+        0,
+        0,
+        0
+      ],
+      "weeks": 0,
+      "lessons": 0,
+      "missingWeeks": 30
+    }
+  ]
+}
