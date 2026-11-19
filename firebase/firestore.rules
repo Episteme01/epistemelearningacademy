@@ -631,6 +631,24 @@ service cloud.firestore {
       allow update, delete: if false;
     }
 
+    // ------------------------------------------------ ELA Live Classroom
+    // Written ONLY by the `live` Edge Function (service account, which bypasses these rules). The browser can read
+    // what it needs and can never write: nobody can start a room, change a room name, or edit join/leave facts.
+    // Learners are matched on studentUids (NOT viewers: that list also holds parents, who get no live-room access).
+    match /liveRooms/{id} {
+      allow get: if signedIn() && (schedLeader() || sess(id).teacherUid == uid() || uid() in sess(id).studentUids);
+      allow list, write: if false;
+    }
+    // Queries must carry an equality the rules can prove: uid == own uid, or teacherUid == own uid (leaders may list).
+    match /liveParticipation/{id} {
+      allow read: if signedIn() && (resource.data.uid == uid() || resource.data.teacherUid == uid() || schedLeader());
+      allow write: if false;
+    }
+    // Webhook de-duplication markers. Server only.
+    match /liveEvents/{id} {
+      allow read, write: if false;
+    }
+
 
     // ------------------------------------------------ live-class attendance (Phase 3)
     // Doc id = {sessionId}_{studentUid}: one record per learner per session, so duplicates are impossible.
