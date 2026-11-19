@@ -90,3 +90,6 @@ See `docs/PHASE4_MEDIA_RESOURCES.md` (media library, picker, Resources centre).
 ## Phase 5
 Notifications (email, phone, in-app), notices, homework with parent view, and analytics. Setup: `docs/PHASE5_NOTIFICATIONS_HOMEWORK_ANALYTICS.md`.
 - Paystack payments, class subjects, reports: `docs/PHASE6_7_PAYSTACK_AND_READINESS.md`.
+
+## ELA Live Classroom (in progress)
+LiveKit video classes inside the portal. Backend written, browser classroom not built yet: `docs/LIVE_CLASSROOM.md`.
