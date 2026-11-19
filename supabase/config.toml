@@ -10,3 +10,6 @@ verify_jwt = false
 
 [functions.records]
 verify_jwt = false
+
+[functions.live]
+verify_jwt = false
