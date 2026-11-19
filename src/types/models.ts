@@ -486,7 +486,7 @@ export interface SessionAccessLog { sessionId: string; teacherUid: string; uid: 
 /* ------------------------------------------------- Live-class attendance (Phase 3) */
 export type AttStatus = 'pending_verification' | 'present' | 'absent' | 'excused' | 'left_early';
 export type AttTiming = 'early' | 'on_time' | 'late';
-export type AttMethod = 'self_checkin' | 'link_click' | 'teacher_confirmed' | 'teacher_marked' | 'auto_finalised';
+export type AttMethod = 'self_checkin' | 'link_click' | 'teacher_confirmed' | 'teacher_marked' | 'auto_finalised' | 'live_webhook';
 
 /** One learner at one session. Document id = `${sessionId}_${studentUid}`, so duplicates are impossible. */
 export interface SessionAttendance {
@@ -597,4 +597,22 @@ export interface LessonActivity {
 export interface LearningFeedback {
   studentId: string; studentUid: string; studentName: string; parentUids: string[];
   courseId?: string; courseTitle?: string; message: string; teacherUid: string; teacherName: string; createdAt?: TS;
+}
+
+
+/* ------------------------------------------------- ELA Live Classroom (written by the `live` Edge Function only) */
+export type LiveRoomStatus = 'live' | 'ended';
+/** liveRooms/{sessionId}: one document per lesson. The room name is opaque and is only ever put inside access tokens. */
+export interface LiveRoom {
+  sessionId: string; roomName: string; status: LiveRoomStatus; generation: number;
+  teacherUid: string; startedBy: string; startedAt?: TS; endedAt?: TS | null; endedBy?: string;
+  endReason?: '' | 'host' | 'empty';
+  recordingEnabled: boolean; recordingStatus: string;
+}
+/** liveParticipation/{sessionId}_{identity}: verified join/leave facts from LiveKit webhooks. Read-only in the browser. */
+export interface LiveParticipation {
+  sessionId: string; uid: string; identity: string; role: 'host' | 'learner'; teacherUid: string; name: string;
+  connected?: boolean; firstJoinMs?: number | null; lastLeftMs?: number | null; totalSeconds?: number; joinCount?: number; reconnects?: number;
+  firstJoinAt?: TS | null; lastLeftAt?: TS | null;
+  blocked?: boolean; perm?: { screenShare?: boolean; publish?: boolean; data?: boolean };
 }
