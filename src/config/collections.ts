@@ -59,6 +59,9 @@ export const C = {
   sessions: 'sessions',
   sessionLinks: 'sessionLinks',
   sessionAccess: 'sessionAccess',
+  // ELA Live Classroom (server-written only; see docs/LIVE_CLASSROOM.md)
+  liveRooms: 'liveRooms',
+  liveParticipation: 'liveParticipation',
   // Live-class attendance (Phase 3)
   sessionAttendance: 'sessionAttendance',
   attendanceLog: 'attendanceLog',
