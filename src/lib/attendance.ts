@@ -84,3 +84,12 @@ export const inLinkWindow = (nowMs: number, startMs: number, endMs: number) => n
 export function timingCandidates(guess: AttTiming): AttTiming[] {
   return guess === 'early' ? ['early', 'on_time', 'late'] : guess === 'on_time' ? ['on_time', 'early', 'late'] : ['late', 'on_time', 'early'];
 }
+
+/** Plain-words summary of a learner's time in the ELA Live Classroom, from the server-written participation record. */
+export function liveDetail(p: { totalSeconds?: number; joinCount?: number; connected?: boolean } | undefined): string {
+  if (!p) return '';
+  const mins = Math.round((p.totalSeconds ?? 0) / 60);
+  const joins = p.joinCount ?? 0;
+  const parts = [p.connected ? 'in the room now' : '', `connected ${mins < 1 && (p.totalSeconds ?? 0) > 0 ? 'under 1' : mins} min`, joins > 1 ? `joined ${joins} times` : ''];
+  return parts.filter(Boolean).join(' · ');
+}
