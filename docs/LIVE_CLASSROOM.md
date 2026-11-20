@@ -81,6 +81,9 @@ Behaviour: learners wait (polling every 5 s) until the teacher starts the class;
 
 Setup extra: run `npm install` (new dependency). The function URL is derived from the existing files gateway; set `VITE_LIVE_GATEWAY_URL` only to override it.
 
+## Attendance display (Phase 4)
+In the session dialog, for ELA Live sessions: the learner sees "recorded automatically" instead of a manual check-in button; the teacher's roll call shows "joined the live classroom" with connected minutes, number of joins and whether the learner is in the room now (read from `liveParticipation`). Records are normal `sessionAttendance` rows, so the Attendance page, Analytics and reports already count them. Teachers can still correct any record. Files: `src/lib/attendance.ts` (`liveDetail`), `src/features/schedule/AttendancePanel.tsx`, `tests/liveAttendanceUi.test.ts` (4 tests passing with the stand-in runner).
+
 ## Verification status (read this)
 | Part | Status |
 |---|---|
@@ -102,4 +105,4 @@ Setup extra: run `npm install` (new dependency). The function URL is derived fro
 - LiveKit free plan: 5,000 participant-minutes a month, 100 concurrent participants.
 
 ## Next
-Phase 4: attendance labels, session history and reports for `live_webhook`. Phase 5: recording (storage, cost, consent). Phase 6: full device testing report.
+Phase 5: recording (storage, cost, consent). Phase 6: full device testing report.
