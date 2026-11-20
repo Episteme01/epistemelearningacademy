@@ -28,7 +28,9 @@ export interface Actor { uid: string; name: string }
 const uniq = (a: (string | undefined)[]) => [...new Set(a.filter((x): x is string => !!x))];
 export const viewersOf = (teacherUid: string, studentUids: string[], parentUids: string[]) => uniq([teacherUid, ...studentUids, ...parentUids]);
 
+export const ELA_LIVE = 'ela_live';
 const validLink = (l?: LinkInput | null) => {
+  if (l?.provider === ELA_LIVE) return { provider: ELA_LIVE, meetingUrl: '', meetingId: '', passcode: '' };   // the in-app classroom has no external link
   if (!l || !l.meetingUrl.trim()) return null;
   if (!/^https:\/\//i.test(l.meetingUrl.trim())) throw new Error('The meeting link must start with https://');
   return { provider: l.provider || 'other', meetingUrl: l.meetingUrl.trim(), meetingId: l.meetingId?.trim() ?? '', passcode: l.passcode?.trim() ?? '' };
@@ -69,7 +71,7 @@ export async function createSeries(input: SeriesInput, by: Actor): Promise<{ ser
   dates.forEach((d, i) => {
     const id = `${seriesId}_${i}`;
     ops.push({ col: C.sessions, id, data: sessionDoc(seriesId, i, d, { ...input, link }, by, !!link), merge: false });
-    if (link) ops.push({ col: C.sessionLinks, id, data: { ...link, updatedBy: by.uid }, merge: false });
+    if (link && link.provider !== ELA_LIVE) ops.push({ col: C.sessionLinks, id, data: { ...link, updatedBy: by.uid }, merge: false });
   });
   await batchSet(ops.slice(0, 1)); // series first (its own chunk)
   await batchSet(ops.slice(1));
@@ -115,7 +117,7 @@ export async function editSessions(base: WithId<Session>, scope: Scope, ch: Edit
       studentUids, parentUids, viewers: viewersOf(ch.teacherUid, studentUids, parentUids),
       overridden: scope === 'one' ? true : r.overridden, updatedBy: by.uid, updatedByName: by.name,
     } });
-    if (link) ops.push({ col: C.sessionLinks, id: r.id, merge: true, data: { ...link, updatedBy: by.uid } });
+    if (link && link.provider !== ELA_LIVE) ops.push({ col: C.sessionLinks, id: r.id, merge: true, data: { ...link, updatedBy: by.uid } });
   }
   await batchSet(ops);
   if (scope !== 'one') {
