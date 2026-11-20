@@ -1,0 +1,590 @@
+{
+  "id": "ELA-PS-TOD-NUM-T3-W04",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 4,
+  "title": "Up, down, in front and behind",
+  "topic": "Position",
+  "subtopics": [
+    "Up and down",
+    "In front and behind",
+    "Position games and obstacle courses"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will follow instructions using up, down, in front and behind.",
+    "Children will describe where they are using one position word."
+  ],
+  "vocabulary": [
+    "up",
+    "down",
+    "in front",
+    "behind",
+    "next to"
+  ],
+  "content": "Understanding and using up, down, in front and behind in movement games, hide and find and obstacle courses.",
+  "teachingActivities": "Say the position word as the child moves; use landmarks such as a chair or a tree; keep instructions to one at a time and then two.",
+  "learnerActivities": "Move up and down, stand in front and behind objects and friends, follow instructions on an obstacle course and say where they are.",
+  "resources": [
+    "A low bench or step",
+    "A chair, a box and a soft toy",
+    "Cones and a tunnel",
+    "A ball"
+  ],
+  "assessment": "Check whether each child follows position instructions and says where an object or friend is.",
+  "expectedOutcomes": [
+    "Moves to a position on request.",
+    "Says where an object is using one word."
+  ],
+  "crossCurricular": [
+    "Physical Development: balance and movement",
+    "Literacy: prepositions in talk",
+    "Social Habits: waiting and taking turns in a line"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W04-D01",
+      "title": "Up and down",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Position",
+      "subtopic": "Up and down",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will move their bodies and objects up and down on request."
+      ],
+      "successCriteria": [
+        "Raises and lowers an object when asked",
+        "Says up or down"
+      ],
+      "previousKnowledge": "Children can use in, on and under and follow simple one-step instructions in games.",
+      "vocabulary": [
+        "up",
+        "down",
+        "in front",
+        "behind",
+        "next to"
+      ],
+      "resources": [
+        "A ball",
+        "A balloon or soft scarf",
+        "A low step or bench"
+      ],
+      "starter": "Raise your arms and say \"Up!\" Lower them and say \"Down!\" Hold a scarf high and let it float down. Say \"Down it comes.\"",
+      "teacherActivities": [
+        "Do the actions: arms up, arms down, stand up, sit down. Say the words as you move.",
+        "Hold a ball high and say \"Up\". Lower it and say \"Down\". Let children try.",
+        "Let each child step up onto a low bench with help and step down.",
+        "Play \"Up and down\" with a scarf: toss it up and watch it float down."
+      ],
+      "learnerActivities": [
+        "Children copy the actions and say \"up\" and \"down\".",
+        "Children raise and lower the ball when asked.",
+        "Child steps up and down, saying the words.",
+        "Children toss the scarf up and say \"down\" as it lands."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Do the actions: arms up, arms down, stand up, sit down. Say the words as you move. Children: Children copy the actions and say \"up\" and \"down\".",
+        "Step 2. Teacher: Hold a ball high and say \"Up\". Lower it and say \"Down\". Let children try. Children: Children raise and lower the ball when asked.",
+        "Step 3. Teacher: Let each child step up onto a low bench with help and step down. Children: Child steps up and down, saying the words.",
+        "Step 4. Teacher: Play \"Up and down\" with a scarf: toss it up and watch it float down. Children: Children toss the scarf up and say \"down\" as it lands."
+      ],
+      "practical": {
+        "title": "Up and down game",
+        "steps": [
+          "Stand with space between children.",
+          "Call up or down and children move their bodies or objects.",
+          "Change the speed of the calls."
+        ],
+        "safety": "Use a low, stable bench with an adult beside each child; keep the floor clear; no jumping from the bench."
+      },
+      "differentiation": {
+        "support": "Move together with an adult and use one word at a time.",
+        "extension": "Ask the child to give \"up\" and \"down\" instructions to a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you put your hands up?",
+            "expected": "Child raises their hands."
+          },
+          {
+            "question": "Where is the ball now?",
+            "expected": "Up or down, depending on where it is."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows up and down instructions",
+        "Says up and down"
+      ],
+      "conclusion": "Lower arms slowly and say \"Down, down, sit down.\"",
+      "homeConnection": "Play \"up and down\" with a toy or a scarf at home.",
+      "teacherReflection": [
+        "Which children could show \"move their bodies and objects up and down on request\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "UP (arrow pointing up)",
+          "DOWN (arrow pointing down)"
+        ],
+        "pictures": [
+          "Children with arms up",
+          "A scarf floating down"
+        ],
+        "songOrRhyme": "Up, up, up, we stretch so high. Down, down, down, we sit on the ground."
+      },
+      "activities": [
+        "Up and down game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W04-D02",
+      "title": "In front and behind",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Position",
+      "subtopic": "In front and behind",
+      "dayType": "explore",
+      "objectives": [
+        "Children will stand in front of and behind a chair or a friend when asked."
+      ],
+      "successCriteria": [
+        "Moves in front of or behind an object",
+        "Says in front or behind with support"
+      ],
+      "previousKnowledge": "Children can use in, on and under and follow simple one-step instructions in games.",
+      "vocabulary": [
+        "up",
+        "down",
+        "in front",
+        "behind",
+        "next to"
+      ],
+      "resources": [
+        "A chair",
+        "A soft toy",
+        "A line of cones"
+      ],
+      "starter": "Put a soft toy on the floor in front of a chair and say \"Teddy is in front of the chair.\" Move it behind and say \"Teddy is behind the chair.\"",
+      "teacherActivities": [
+        "Stand in front of the chair and say \"I am in front.\" Walk behind it and say \"I am behind.\"",
+        "Ask each child to stand in front of the chair, then behind it.",
+        "Place the soft toy in front, behind and say \"Where is Teddy?\"",
+        "Line up in a queue and say \"Who is in front? Who is behind?\""
+      ],
+      "learnerActivities": [
+        "Children watch and copy the movements.",
+        "Child moves as instructed.",
+        "Children say \"in front\" or \"behind\".",
+        "Children point to the child in front or behind them."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Stand in front of the chair and say \"I am in front.\" Walk behind it and say \"I am behind.\" Children: Children watch and copy the movements.",
+        "Step 2. Teacher: Ask each child to stand in front of the chair, then behind it. Children: Child moves as instructed.",
+        "Step 3. Teacher: Place the soft toy in front, behind and say \"Where is Teddy?\" Children: Children say \"in front\" or \"behind\".",
+        "Step 4. Teacher: Line up in a queue and say \"Who is in front? Who is behind?\" Children: Children point to the child in front or behind them."
+      ],
+      "practical": {
+        "title": "Chair game",
+        "steps": [
+          "Place a chair in the middle.",
+          "Children take turns to stand in front of or behind it.",
+          "Say where they are."
+        ],
+        "safety": "Use a stable chair; children walk calmly; keep the area clear."
+      },
+      "differentiation": {
+        "support": "Use a large object and an adult to guide the movement.",
+        "extension": "Ask the child to put two toys in front and behind and describe."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is Teddy?",
+            "expected": "In front or behind."
+          },
+          {
+            "question": "Can you go behind the chair?",
+            "expected": "Child goes behind the chair."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Understands in front and behind",
+        "Uses the words with support"
+      ],
+      "conclusion": "Queue up and say \"Who is in front?\" before moving to the next activity.",
+      "homeConnection": "Use in front and behind when lining up shoes or toys.",
+      "teacherReflection": [
+        "Which children could show \"stand in front of and behind a chair or a friend when asked\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "IN FRONT",
+          "BEHIND"
+        ],
+        "pictures": [
+          "A toy in front of and behind a chair"
+        ]
+      },
+      "activities": [
+        "Chair game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W04-D03",
+      "title": "Obstacle course words",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Position",
+      "subtopic": "Position games and obstacle courses",
+      "dayType": "practise",
+      "objectives": [
+        "Children will follow position instructions on a simple obstacle course."
+      ],
+      "successCriteria": [
+        "Completes the course following the instructions",
+        "Uses a position word"
+      ],
+      "previousKnowledge": "Children can use in, on and under and follow simple one-step instructions in games.",
+      "vocabulary": [
+        "up",
+        "down",
+        "in front",
+        "behind",
+        "next to"
+      ],
+      "resources": [
+        "A tunnel, a low bench, cones, a mat",
+        "A soft toy to carry"
+      ],
+      "starter": "Show the obstacle course. Say \"Today we crawl through the tunnel, walk around the cone and step up on the bench.\"",
+      "teacherActivities": [
+        "Walk the course once yourself and say each position word: \"through\", \"around\", \"up\", \"down\".",
+        "Let each child try the course with an adult walking beside them.",
+        "Ask the child to say what they are doing: \"I am going up.\"",
+        "Change the course by moving a cone in front or behind and ask \"Where is the cone?\""
+      ],
+      "learnerActivities": [
+        "Children watch and say the words.",
+        "Child follows the course and hears the words.",
+        "Child says a position word.",
+        "Children say where the cone is."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Walk the course once yourself and say each position word: \"through\", \"around\", \"up\", \"down\". Children: Children watch and say the words.",
+        "Step 2. Teacher: Let each child try the course with an adult walking beside them. Children: Child follows the course and hears the words.",
+        "Step 3. Teacher: Ask the child to say what they are doing: \"I am going up.\" Children: Child says a position word.",
+        "Step 4. Teacher: Change the course by moving a cone in front or behind and ask \"Where is the cone?\" Children: Children say where the cone is."
+      ],
+      "practical": {
+        "title": "Position course",
+        "steps": [
+          "Set up a tunnel, cones and a bench in a line.",
+          "Each child goes through the course.",
+          "They say one position word."
+        ],
+        "safety": "Use low, stable equipment; crawl only; an adult stays at each obstacle; no running."
+      },
+      "differentiation": {
+        "support": "Take one obstacle at a time with an adult.",
+        "extension": "Ask the child to design and explain a course for a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where did you go?",
+            "expected": "Through the tunnel, up the bench."
+          },
+          {
+            "question": "Is the cone in front or behind you?",
+            "expected": "In front or behind."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows position instructions on a course",
+        "Uses position words"
+      ],
+      "conclusion": "Walk the course slowly together one more time and say each word.",
+      "homeConnection": "Make a small obstacle course with cushions and a chair at home.",
+      "teacherReflection": [
+        "Which children could show \"follow position instructions on a simple obstacle course\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Through, around, up, down"
+        ],
+        "pictures": [
+          "An obstacle course"
+        ]
+      },
+      "activities": [
+        "Position course"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W04-D04",
+      "title": "Follow the leader positions",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Position",
+      "subtopic": "Position games and obstacle courses",
+      "dayType": "apply",
+      "objectives": [
+        "Children will give and follow position instructions in a game."
+      ],
+      "successCriteria": [
+        "Follows a position instruction",
+        "Gives a position instruction"
+      ],
+      "previousKnowledge": "Children can use in, on and under and follow simple one-step instructions in games.",
+      "vocabulary": [
+        "up",
+        "down",
+        "in front",
+        "behind",
+        "next to"
+      ],
+      "resources": [
+        "A drum",
+        "Soft toys",
+        "A chair and a box"
+      ],
+      "starter": "Say \"Let us play follow the leader! I say where to go and you do it.\" Stand behind the chair and call \"Behind!\"",
+      "teacherActivities": [
+        "Call an instruction: \"Stand behind the chair.\" \"Put the toy in front of the box.\"",
+        "Choose a leader. Let the leader call \"Up\" or \"Down\" or \"In front\".",
+        "Change leaders every minute so everyone has a turn.",
+        "Finish with a calm game: \"Sit down, stand up, sit down.\""
+      ],
+      "learnerActivities": [
+        "Children follow the instruction.",
+        "Leader calls an instruction and the group follows.",
+        "Each child leads one instruction.",
+        "Children follow the slow instructions."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Call an instruction: \"Stand behind the chair.\" \"Put the toy in front of the box.\" Children: Children follow the instruction.",
+        "Step 2. Teacher: Choose a leader. Let the leader call \"Up\" or \"Down\" or \"In front\". Children: Leader calls an instruction and the group follows.",
+        "Step 3. Teacher: Change leaders every minute so everyone has a turn. Children: Each child leads one instruction.",
+        "Step 4. Teacher: Finish with a calm game: \"Sit down, stand up, sit down.\" Children: Children follow the slow instructions."
+      ],
+      "practical": {
+        "title": "Position follow the leader",
+        "steps": [
+          "Stand in a circle.",
+          "The leader gives one instruction at a time.",
+          "Swap leaders after each round."
+        ],
+        "safety": "Give children space; keep movements gentle; stop if the game becomes too boisterous."
+      },
+      "differentiation": {
+        "support": "Pair the child with an adult leader and use one word.",
+        "extension": "Ask the child to give two instructions in a row."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is the toy?",
+            "expected": "In front of or behind something."
+          },
+          {
+            "question": "What did the leader say?",
+            "expected": "The position word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Gives and follows position instructions",
+        "Takes turns as a leader"
+      ],
+      "conclusion": "Slow the game down and finish with \"Sit down together.\"",
+      "homeConnection": "Play follow the leader at home using up, down, in front and behind.",
+      "teacherReflection": [
+        "Which children could show \"give and follow position instructions in a game\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Up, down, in front, behind"
+        ],
+        "pictures": [
+          "Children playing follow the leader"
+        ]
+      },
+      "activities": [
+        "Position follow the leader"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W04-D05",
+      "title": "Position stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Position",
+      "subtopic": "Up and down",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they understand up, down, in front and behind at three stations."
+      ],
+      "successCriteria": [
+        "Follows position instructions",
+        "Says a position word"
+      ],
+      "previousKnowledge": "Children can use in, on and under and follow simple one-step instructions in games.",
+      "vocabulary": [
+        "up",
+        "down",
+        "in front",
+        "behind",
+        "next to"
+      ],
+      "resources": [
+        "Station 1: up and down with scarves",
+        "Station 2: chair and toy",
+        "Station 3: obstacle course",
+        "Class record sheet"
+      ],
+      "starter": "Sing the position song and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask \"Put the toy in front of the chair\" and \"Go up the bench.\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child follows the instruction.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask \"Put the toy in front of the chair\" and \"Go up the bench.\" Children: Child follows the instruction.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Use low equipment; supervise each station; keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask a confident child to run the obstacle course game for a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: follows up and down instructions; follows in front and behind instructions; says where an object is.",
+        "questions": [
+          {
+            "question": "Where is Teddy?",
+            "expected": "In front or behind the chair."
+          },
+          {
+            "question": "Can you go up?",
+            "expected": "Child moves up safely."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Uses position words with growing accuracy"
+      ],
+      "conclusion": "Sing the position song and tidy up together.",
+      "homeConnection": "Use position words in talk at home this week.",
+      "teacherReflection": [
+        "Which children could show \"show they understand up, down, in front and behind at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Position words"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

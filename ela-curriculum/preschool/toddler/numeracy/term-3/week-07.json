@@ -1,0 +1,590 @@
+{
+  "id": "ELA-PS-TOD-NUM-T3-W07",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 7,
+  "title": "How many? Counting with care",
+  "topic": "Counting",
+  "subtopics": [
+    "Counting without missing any",
+    "The last number tells how many",
+    "Checking our counting"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will count up to five objects without skipping any.",
+    "Children will check a count by counting again."
+  ],
+  "vocabulary": [
+    "count",
+    "again",
+    "check",
+    "how many",
+    "last"
+  ],
+  "content": "Counting up to five objects without skipping or repeating any, answering how many with the last number and checking the count.",
+  "teachingActivities": "Show how to move counted objects to a \"done\" tray; model a mistake and fix it; praise careful touching rather than speed.",
+  "learnerActivities": "Count scattered and lined-up objects, check by counting again, find mistakes and say how many.",
+  "resources": [
+    "Large blocks",
+    "Toy fruits",
+    "Two trays",
+    "A cloth",
+    "A teddy puppet who makes counting mistakes"
+  ],
+  "assessment": "Check one-to-one touching, order of number words and whether the child says how many with the last number.",
+  "expectedOutcomes": [
+    "Counts to three reliably and to five with growing accuracy.",
+    "Says the last number as the answer to how many."
+  ],
+  "crossCurricular": [
+    "Literacy: number words and questions",
+    "Social Habits: helping a friend",
+    "Physical Development: moving objects carefully"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W07-D01",
+      "title": "Count without missing any",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Counting without missing any",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will count up to five objects by moving each one from a \"to count\" tray to a \"done\" tray."
+      ],
+      "successCriteria": [
+        "Moves each object once",
+        "Says the numbers in order"
+      ],
+      "previousKnowledge": "Children can count to three reliably and to five with support, and add one more to a small group.",
+      "vocabulary": [
+        "count",
+        "again",
+        "check",
+        "how many",
+        "last"
+      ],
+      "resources": [
+        "Five blocks",
+        "Two trays labelled to count and done",
+        "A mat"
+      ],
+      "starter": "Spread five blocks on the mat and say \"Let me count them. I must not miss any!\" Count while pointing quickly and miss one. Say \"Oh no, I missed one!\"",
+      "teacherActivities": [
+        "Show the \"to count\" tray and the \"done\" tray. Move one block at a time, saying the number.",
+        "Say \"When all the blocks are in the done tray, the last number tells how many.\"",
+        "Let a child move the blocks while the group counts.",
+        "Try with three blocks and then four."
+      ],
+      "learnerActivities": [
+        "Children watch and say the numbers with you.",
+        "Children say \"five\" when the last block is moved.",
+        "Child moves each block and the group counts.",
+        "Children count each group carefully."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the \"to count\" tray and the \"done\" tray. Move one block at a time, saying the number. Children: Children watch and say the numbers with you.",
+        "Step 2. Teacher: Say \"When all the blocks are in the done tray, the last number tells how many.\" Children: Children say \"five\" when the last block is moved.",
+        "Step 3. Teacher: Let a child move the blocks while the group counts. Children: Child moves each block and the group counts.",
+        "Step 4. Teacher: Try with three blocks and then four. Children: Children count each group carefully."
+      ],
+      "practical": {
+        "title": "To count and done",
+        "steps": [
+          "Give each pair two trays and up to five blocks.",
+          "Move each block from one tray to the other while saying the numbers.",
+          "Say the last number as the answer."
+        ],
+        "safety": "Use blocks larger than a child’s fist; keep trays on the floor; supervise group play."
+      },
+      "differentiation": {
+        "support": "Count three blocks and move each one hand-over-hand.",
+        "extension": "Ask the child to count five blocks without the trays by pointing."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many blocks did you count?",
+            "expected": "The correct number, up to five."
+          },
+          {
+            "question": "Did you touch each one?",
+            "expected": "Child nods."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts without skipping objects",
+        "Says the last number as the answer"
+      ],
+      "conclusion": "Put all the blocks back and say \"Careful counting, well done.\"",
+      "homeConnection": "Count spoons or shoes at home by moving each one aside as you count.",
+      "teacherReflection": [
+        "Which children could show \"count up to five objects by moving each one from a \"to count\" tray to a \"done\" tray\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "To count",
+          "Done"
+        ],
+        "pictures": [
+          "Two trays and blocks"
+        ],
+        "songOrRhyme": "Touch one, move one, say the number. Touch two, move two, count with me."
+      },
+      "activities": [
+        "To count and done"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W07-D02",
+      "title": "Teddy makes a mistake",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Checking our counting",
+      "dayType": "explore",
+      "objectives": [
+        "Children will help Teddy find and fix counting mistakes."
+      ],
+      "successCriteria": [
+        "Spots a counting mistake",
+        "Helps to count again correctly"
+      ],
+      "previousKnowledge": "Children can count to three reliably and to five with support, and add one more to a small group.",
+      "vocabulary": [
+        "count",
+        "again",
+        "check",
+        "how many",
+        "last"
+      ],
+      "resources": [
+        "A teddy puppet",
+        "Five toy fruits",
+        "A tray"
+      ],
+      "starter": "Hold the teddy puppet and say \"Teddy is learning to count but he makes mistakes. Can you help him?\"",
+      "teacherActivities": [
+        "Teddy counts four fruits but says \"one, two, four\". Ask \"Is that right?\"",
+        "Ask \"What number did Teddy forget?\" and count again together.",
+        "Teddy touches one fruit twice. Ask children to spot the mistake.",
+        "Let a child be the teacher and show Teddy how to count."
+      ],
+      "learnerActivities": [
+        "Children shake their heads and say \"no\".",
+        "Children say \"three\" and count correctly.",
+        "Children point to the fruit counted twice.",
+        "Child counts and the group checks."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Teddy counts four fruits but says \"one, two, four\". Ask \"Is that right?\" Children: Children shake their heads and say \"no\".",
+        "Step 2. Teacher: Ask \"What number did Teddy forget?\" and count again together. Children: Children say \"three\" and count correctly.",
+        "Step 3. Teacher: Teddy touches one fruit twice. Ask children to spot the mistake. Children: Children point to the fruit counted twice.",
+        "Step 4. Teacher: Let a child be the teacher and show Teddy how to count. Children: Child counts and the group checks."
+      ],
+      "practical": {
+        "title": "Help Teddy count",
+        "steps": [
+          "Give each pair a teddy and a tray of fruits.",
+          "One child makes the teddy count with a mistake.",
+          "The partner spots and fixes it."
+        ],
+        "safety": "Use toy fruits larger than a fist; keep the tray on the table; supervise play."
+      },
+      "differentiation": {
+        "support": "Let the teddy make only one mistake, such as forgetting a number.",
+        "extension": "Ask the child to give the teddy a hint to count correctly."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Did Teddy count right?",
+            "expected": "No, he missed one."
+          },
+          {
+            "question": "How can we help Teddy?",
+            "expected": "Count again slowly and touch each one."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Spots and fixes counting mistakes",
+        "Counts again to check"
+      ],
+      "conclusion": "Thank Teddy for learning and wave goodbye.",
+      "homeConnection": "Count a set of objects at home and check by counting again.",
+      "teacherReflection": [
+        "Which children could show \"help Teddy find and fix counting mistakes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Check by counting again"
+        ],
+        "pictures": [
+          "A teddy puppet counting fruits"
+        ]
+      },
+      "activities": [
+        "Help Teddy count"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W07-D03",
+      "title": "Scattered or in a line?",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "The last number tells how many",
+      "dayType": "practise",
+      "objectives": [
+        "Children will count the same objects when they are scattered and when they are in a line and see the number stays the same."
+      ],
+      "successCriteria": [
+        "Counts scattered objects",
+        "Says the same number for a line"
+      ],
+      "previousKnowledge": "Children can count to three reliably and to five with support, and add one more to a small group.",
+      "vocabulary": [
+        "count",
+        "again",
+        "check",
+        "how many",
+        "last"
+      ],
+      "resources": [
+        "Five blocks",
+        "A mat",
+        "Two trays"
+      ],
+      "starter": "Spread five blocks randomly on the mat and ask \"How many?\" Count them together. Then line them up and ask \"How many now? Did the number change?\"",
+      "teacherActivities": [
+        "Count the blocks while they are scattered. Say \"Five.\"",
+        "Line them up and count again. Say \"Still five.\"",
+        "Spread them out wide and count again. Ask \"Is it still five?\"",
+        "Let each child spread and line up the blocks and count them."
+      ],
+      "learnerActivities": [
+        "Children touch and count to five.",
+        "Children count the line and say \"five\".",
+        "Children count and say \"still five\".",
+        "Child rearranges the blocks and counts to five."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Count the blocks while they are scattered. Say \"Five.\" Children: Children touch and count to five.",
+        "Step 2. Teacher: Line them up and count again. Say \"Still five.\" Children: Children count the line and say \"five\".",
+        "Step 3. Teacher: Spread them out wide and count again. Ask \"Is it still five?\" Children: Children count and say \"still five\".",
+        "Step 4. Teacher: Let each child spread and line up the blocks and count them. Children: Child rearranges the blocks and counts to five."
+      ],
+      "practical": {
+        "title": "Scatter and line",
+        "steps": [
+          "Give each child five blocks.",
+          "Scatter them, count, line them up, count again.",
+          "Compare the two counts."
+        ],
+        "safety": "Use large blocks; keep them on the mat; supervise."
+      },
+      "differentiation": {
+        "support": "Use three blocks and count them together before and after.",
+        "extension": "Ask the child to count seven objects with help and say how many."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many blocks?",
+            "expected": "Five, in both arrangements."
+          },
+          {
+            "question": "Did the number change?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts scattered and lined-up objects",
+        "Knows the number stays the same"
+      ],
+      "conclusion": "Put the blocks in the basket together saying the numbers.",
+      "homeConnection": "Count the same objects in different arrangements and see if the number changes.",
+      "teacherReflection": [
+        "Which children could show \"count the same objects when they are scattered and when they are in a line and see the number stays the same\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Still five"
+        ],
+        "pictures": [
+          "Five blocks scattered and in a line"
+        ]
+      },
+      "activities": [
+        "Scatter and line"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W07-D04",
+      "title": "Count the class",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "The last number tells how many",
+      "dayType": "apply",
+      "objectives": [
+        "Children will count friends, chairs and shoes in the room."
+      ],
+      "successCriteria": [
+        "Counts people or objects in the room",
+        "Says how many"
+      ],
+      "previousKnowledge": "Children can count to three reliably and to five with support, and add one more to a small group.",
+      "vocabulary": [
+        "count",
+        "again",
+        "check",
+        "how many",
+        "last"
+      ],
+      "resources": [
+        "Chairs",
+        "A mat",
+        "A clipboard or chart"
+      ],
+      "starter": "Say \"Today we count real things in our classroom. How many chairs? How many friends are sitting?\"",
+      "teacherActivities": [
+        "Count the chairs together and move each one to the side as you count.",
+        "Count the children sitting in a circle by tapping each shoulder.",
+        "Count the shoes in a pile by pairing them.",
+        "Ask \"Are there more chairs or more children?\""
+      ],
+      "learnerActivities": [
+        "Children count each chair.",
+        "Children count each friend.",
+        "Children count the shoes and say how many.",
+        "Children compare and say \"more\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Count the chairs together and move each one to the side as you count. Children: Children count each chair.",
+        "Step 2. Teacher: Count the children sitting in a circle by tapping each shoulder. Children: Children count each friend.",
+        "Step 3. Teacher: Count the shoes in a pile by pairing them. Children: Children count the shoes and say how many.",
+        "Step 4. Teacher: Ask \"Are there more chairs or more children?\" Children: Children compare and say \"more\"."
+      ],
+      "practical": {
+        "title": "Classroom counting",
+        "steps": [
+          "Count chairs, friends and shoes in the room.",
+          "Say each number aloud.",
+          "Compare which group is more."
+        ],
+        "safety": "Keep walkways clear; children count calmly; no pushing."
+      },
+      "differentiation": {
+        "support": "Count only up to three with an adult.",
+        "extension": "Ask the child to count items outdoors, such as leaves or stones too large to swallow."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many chairs?",
+            "expected": "The number of chairs, up to five."
+          },
+          {
+            "question": "Are there more chairs or friends?",
+            "expected": "The correct answer by comparison."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts real things in the room",
+        "Compares counts"
+      ],
+      "conclusion": "Count the whole class together and clap.",
+      "homeConnection": "Count people at the table or shoes at the door.",
+      "teacherReflection": [
+        "Which children could show \"count friends, chairs and shoes in the room\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Count chairs, friends, shoes"
+        ],
+        "pictures": [
+          "Children counting chairs"
+        ]
+      },
+      "activities": [
+        "Classroom counting"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W07-D05",
+      "title": "Careful counting stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Checking our counting",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can count up to five carefully at three stations."
+      ],
+      "successCriteria": [
+        "Counts up to five without skipping",
+        "Says how many"
+      ],
+      "previousKnowledge": "Children can count to three reliably and to five with support, and add one more to a small group.",
+      "vocabulary": [
+        "count",
+        "again",
+        "check",
+        "how many",
+        "last"
+      ],
+      "resources": [
+        "Station 1: to count and done trays",
+        "Station 2: Teddy mistakes",
+        "Station 3: scatter and line",
+        "Class record sheet"
+      ],
+      "starter": "Sing the counting song and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask \"How many?\" and \"Can you check?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child counts and checks.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask \"How many?\" and \"Can you check?\" Children: Child counts and checks.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Use large items only; supervise stations; keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask a confident child to count objects for a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: counts to three reliably and to five with growing accuracy; says how many with the last number; checks by counting again.",
+        "questions": [
+          {
+            "question": "How many are there?",
+            "expected": "The correct number up to five."
+          },
+          {
+            "question": "Can you count again to check?",
+            "expected": "Child recounts and gets the same."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Counts carefully to five"
+      ],
+      "conclusion": "Sing the counting song and tidy up together.",
+      "homeConnection": "Count things carefully at home this week.",
+      "teacherReflection": [
+        "Which children could show \"show they can count up to five carefully at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Count carefully"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

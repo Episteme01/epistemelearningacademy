@@ -1,0 +1,606 @@
+{
+  "id": "ELA-PS-TOD-NUM-T3-W01",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 1,
+  "title": "Full and empty",
+  "topic": "Measuring",
+  "subtopics": [
+    "Full and empty containers",
+    "Pouring water and sand",
+    "Nearly full, half full"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say whether a container is full or empty.",
+    "Children will pour to fill a container with support."
+  ],
+  "vocabulary": [
+    "full",
+    "empty",
+    "pour",
+    "fill",
+    "water",
+    "half"
+  ],
+  "content": "Comparing containers that are full, empty and nearly full, and pouring water or sand to fill them.",
+  "teachingActivities": "Pour slowly so children can see the level rise; use the words full and empty each time; let children pour with a jug while you hold the container.",
+  "learnerActivities": "Fill and empty cups and bowls, say full or empty, pour carefully and notice half full.",
+  "resources": [
+    "Plastic cups, bowls and jugs",
+    "A tray or large basin",
+    "Water or dry sand",
+    "Towels and a sponge",
+    "Two clear plastic bottles"
+  ],
+  "assessment": "Check whether each child says full or empty correctly and can fill a cup with support.",
+  "expectedOutcomes": [
+    "Identifies full and empty containers.",
+    "Fills a cup and says full."
+  ],
+  "crossCurricular": [
+    "Science: water and materials",
+    "Physical Development: pouring and carrying",
+    "Social Habits: cleaning up spills"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W01-D01",
+      "title": "Full cup, empty cup",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 1,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Full and empty containers",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will point to a full cup and an empty cup when asked."
+      ],
+      "successCriteria": [
+        "Points to the full container on request",
+        "Points to the empty container on request"
+      ],
+      "previousKnowledge": "Children can compare big and small, long and short, heavy and light, and count to five with support.",
+      "vocabulary": [
+        "full",
+        "empty",
+        "pour",
+        "fill",
+        "water",
+        "half"
+      ],
+      "resources": [
+        "Two clear plastic cups, one full of water and one empty",
+        "A tray",
+        "A towel"
+      ],
+      "starter": "Hold up a cup full of water and say \"Full! This cup is full of water.\" Turn the empty cup upside down and say \"Empty! Nothing inside.\"",
+      "teacherActivities": [
+        "Put the full and empty cups side by side on the tray. Say \"This one is full. This one is empty.\" Tilt each so children can see.",
+        "Ask \"Where is the full cup?\" Then \"Where is the empty cup?\" Swap the sides and ask again.",
+        "Pretend to drink from the full cup and say \"Glug, glug, all gone. Now it is empty.\"",
+        "Let each child look into the cups and choose one for you to carry to the table."
+      ],
+      "learnerActivities": [
+        "Children look closely and point to each cup when named.",
+        "Children point to the correct cup each time.",
+        "Children copy the drinking action and say \"empty\".",
+        "Child chooses a cup and says \"full\" or \"empty\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the full and empty cups side by side on the tray. Say \"This one is full. This one is empty.\" Tilt each so children can see. Children: Children look closely and point to each cup when named.",
+        "Step 2. Teacher: Ask \"Where is the full cup?\" Then \"Where is the empty cup?\" Swap the sides and ask again. Children: Children point to the correct cup each time.",
+        "Step 3. Teacher: Pretend to drink from the full cup and say \"Glug, glug, all gone. Now it is empty.\" Children: Children copy the drinking action and say \"empty\".",
+        "Step 4. Teacher: Let each child look into the cups and choose one for you to carry to the table. Children: Child chooses a cup and says \"full\" or \"empty\"."
+      ],
+      "practical": {
+        "title": "Full or empty?",
+        "steps": [
+          "Place four clear cups on a tray, some full of water and some empty.",
+          "Each child points to the full cups and the empty cups.",
+          "Move the full cups to one side of the tray and the empty cups to the other."
+        ],
+        "safety": "Use shatterproof plastic cups, water in a shallow tray, and a towel ready for spills. Wipe spills at once so no one slips."
+      },
+      "differentiation": {
+        "support": "Compare one very full cup and one empty cup and say the word with the child.",
+        "extension": "Ask the child to find a container in the room that is full or empty and tell a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which cup is full?",
+            "expected": "Child points to the cup with water."
+          },
+          {
+            "question": "Is this cup empty?",
+            "expected": "Yes if nothing is inside."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Identifies full and empty containers",
+        "Says full or empty with support"
+      ],
+      "conclusion": "Tip the water into the basin and say \"Empty, all gone.\" Dry the cups with a towel.",
+      "homeConnection": "At bath time, show your child a full cup and an empty cup and say full and empty.",
+      "teacherReflection": [
+        "Which children could show \"point to a full cup and an empty cup when asked\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FULL (a full cup)",
+          "EMPTY (an empty cup)"
+        ],
+        "pictures": [
+          "A full cup and an empty cup",
+          "A child looking into a cup"
+        ],
+        "songOrRhyme": "Full, full, full of water. Empty, empty, nothing inside."
+      },
+      "activities": [
+        "Full or empty?"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W01-D02",
+      "title": "Pouring and filling",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 1,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Pouring water and sand",
+      "dayType": "explore",
+      "objectives": [
+        "Children will pour water or sand into a cup until it is full."
+      ],
+      "successCriteria": [
+        "Pours from a jug into a cup",
+        "Says full when the cup is full"
+      ],
+      "previousKnowledge": "Children can compare big and small, long and short, heavy and light, and count to five with support.",
+      "vocabulary": [
+        "full",
+        "empty",
+        "pour",
+        "fill",
+        "water",
+        "half"
+      ],
+      "resources": [
+        "A shallow basin of water or sand",
+        "Small jugs and cups",
+        "Towels",
+        "A sponge"
+      ],
+      "starter": "Pour a little water into a cup and say \"Not full yet.\" Pour more and say \"Nearly full.\" Pour to the top and say \"Full!\" Invite the children to try.",
+      "teacherActivities": [
+        "Pour water slowly into a clear cup from a small jug. Stop at nearly full and say \"Nearly full.\"",
+        "Stop at full and say \"Full!\" Tip the cup out into the basin.",
+        "Let each child pour a cup from the jug while you hold the cup steady.",
+        "Compare a big cup and a small cup: ask \"Which holds more water?\""
+      ],
+      "learnerActivities": [
+        "Children watch the water rise and say \"more\" or \"stop\".",
+        "Children say \"full\" and watch the cup empty.",
+        "Child pours until the cup is full and says \"full\".",
+        "Children point to the bigger cup and say \"more\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pour water slowly into a clear cup from a small jug. Stop at nearly full and say \"Nearly full.\" Children: Children watch the water rise and say \"more\" or \"stop\".",
+        "Step 2. Teacher: Stop at full and say \"Full!\" Tip the cup out into the basin. Children: Children say \"full\" and watch the cup empty.",
+        "Step 3. Teacher: Let each child pour a cup from the jug while you hold the cup steady. Children: Child pours until the cup is full and says \"full\".",
+        "Step 4. Teacher: Compare a big cup and a small cup: ask \"Which holds more water?\" Children: Children point to the bigger cup and say \"more\"."
+      ],
+      "practical": {
+        "title": "Water play basin",
+        "steps": [
+          "Set up a basin with cups and jugs on a waterproof mat.",
+          "Children fill and empty cups for several minutes.",
+          "Name each cup as full, nearly full or empty."
+        ],
+        "safety": "Keep water shallow and always supervise water play. Use a waterproof apron, wipe spills at once, and wash hands afterwards."
+      },
+      "differentiation": {
+        "support": "Use a small cup and hold the jug together with the child.",
+        "extension": "Ask the child to fill two cups to the top and say which is the bigger cup."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the cup full yet?",
+            "expected": "Yes or not yet, with a word or gesture."
+          },
+          {
+            "question": "Which cup holds more?",
+            "expected": "The larger cup."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Fills a cup to the top with support",
+        "Says full, nearly full or empty"
+      ],
+      "conclusion": "Pour all the water back into the basin and say \"Empty. All done.\"",
+      "homeConnection": "Let your child fill a cup with water from a bucket outside and say when it is full.",
+      "teacherReflection": [
+        "Which children could show \"pour water or sand into a cup until it is full\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Full",
+          "Nearly full",
+          "Empty"
+        ],
+        "pictures": [
+          "A cup being filled with water"
+        ]
+      },
+      "activities": [
+        "Water play basin"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W01-D03",
+      "title": "Sand scoop",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 1,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Pouring water and sand",
+      "dayType": "practise",
+      "objectives": [
+        "Children will scoop sand into a bowl and say when it is full or empty."
+      ],
+      "successCriteria": [
+        "Scoops sand into a container",
+        "Says full or empty"
+      ],
+      "previousKnowledge": "Children can compare big and small, long and short, heavy and light, and count to five with support.",
+      "vocabulary": [
+        "full",
+        "empty",
+        "pour",
+        "fill",
+        "water",
+        "half"
+      ],
+      "resources": [
+        "A tray of dry sand",
+        "Scoops or cups",
+        "Two bowls, one big and one small",
+        "A brush"
+      ],
+      "starter": "Scoop sand into a small bowl and say \"How many scoops to fill this bowl?\" Count each scoop together.",
+      "teacherActivities": [
+        "Scoop sand into the small bowl while counting each scoop. Say \"Full!\" when it is full.",
+        "Pour the sand back and try the big bowl. Count the scoops again.",
+        "Let each child fill their own small bowl and tell a friend \"full\".",
+        "Tip out the sand and say \"empty\". Brush the tray clean."
+      ],
+      "learnerActivities": [
+        "Children count the scoops and say \"full\".",
+        "Children count again and say \"more scoops\".",
+        "Child fills a bowl and says \"full\".",
+        "Children say \"empty\" and help to brush."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Scoop sand into the small bowl while counting each scoop. Say \"Full!\" when it is full. Children: Children count the scoops and say \"full\".",
+        "Step 2. Teacher: Pour the sand back and try the big bowl. Count the scoops again. Children: Children count again and say \"more scoops\".",
+        "Step 3. Teacher: Let each child fill their own small bowl and tell a friend \"full\". Children: Child fills a bowl and says \"full\".",
+        "Step 4. Teacher: Tip out the sand and say \"empty\". Brush the tray clean. Children: Children say \"empty\" and help to brush."
+      ],
+      "practical": {
+        "title": "Scoop and fill",
+        "steps": [
+          "Give each child a bowl and a scoop.",
+          "Count scoops until the bowl is full.",
+          "Compare with a friend’s bowl."
+        ],
+        "safety": "Use clean, dry sand and tell children not to throw it or put it in their mouths. Wash hands afterwards and wipe the floor."
+      },
+      "differentiation": {
+        "support": "Use a small bowl and scoop together hand-over-hand.",
+        "extension": "Ask the child to guess how many scoops will fill the bowl and then check."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the bowl full?",
+            "expected": "Yes when it reaches the top."
+          },
+          {
+            "question": "How many scoops did we use?",
+            "expected": "The number counted, up to five."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Fills a bowl with sand",
+        "Uses full and empty with scoops"
+      ],
+      "conclusion": "Brush the sand into the tray together and say \"Empty trays, clean hands.\"",
+      "homeConnection": "Scoop rice or beans into a bowl at home with a grown-up and say full or empty.",
+      "teacherReflection": [
+        "Which children could show \"scoop sand into a bowl and say when it is full or empty\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Scoop 1, 2, 3"
+        ],
+        "pictures": [
+          "A bowl full of sand"
+        ]
+      },
+      "activities": [
+        "Scoop and fill"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W01-D04",
+      "title": "Half full and nearly full",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 1,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Nearly full, half full",
+      "dayType": "explore",
+      "objectives": [
+        "Children will notice a cup that is half full and nearly full."
+      ],
+      "successCriteria": [
+        "Points to a half-full cup",
+        "Says \"half\" or \"nearly full\" with support"
+      ],
+      "previousKnowledge": "Children can compare big and small, long and short, heavy and light, and count to five with support.",
+      "vocabulary": [
+        "full",
+        "empty",
+        "pour",
+        "fill",
+        "water",
+        "half"
+      ],
+      "resources": [
+        "Clear cups with water at different levels",
+        "A tray",
+        "A towel"
+      ],
+      "starter": "Hold up three cups: one full, one half full and one empty. Say \"These cups have different amounts of water. Let us look carefully.\"",
+      "teacherActivities": [
+        "Put the three cups in a row. Point to each and say \"full, half full, empty.\"",
+        "Ask \"Which cup is nearly full?\" and pour a cup to just below the top.",
+        "Let each child pour water to a line you have marked on the cup.",
+        "Put the cups in order from empty to full."
+      ],
+      "learnerActivities": [
+        "Children touch each cup and repeat the words.",
+        "Children point to the nearly full cup.",
+        "Child pours up to the mark and says \"half\".",
+        "Children help to line up the cups from empty to full."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the three cups in a row. Point to each and say \"full, half full, empty.\" Children: Children touch each cup and repeat the words.",
+        "Step 2. Teacher: Ask \"Which cup is nearly full?\" and pour a cup to just below the top. Children: Children point to the nearly full cup.",
+        "Step 3. Teacher: Let each child pour water to a line you have marked on the cup. Children: Child pours up to the mark and says \"half\".",
+        "Step 4. Teacher: Put the cups in order from empty to full. Children: Children help to line up the cups from empty to full."
+      ],
+      "practical": {
+        "title": "Cups in a row",
+        "steps": [
+          "Draw a line on clear cups with a marker.",
+          "Children pour water to the line.",
+          "Put the cups in order from empty to full."
+        ],
+        "safety": "Use shatterproof plastic cups; keep trays on a waterproof mat; wipe spills at once."
+      },
+      "differentiation": {
+        "support": "Compare only full and empty cups until the child is ready for half.",
+        "extension": "Ask the child to fill a cup halfway without a mark and check with a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which cup is half full?",
+            "expected": "The cup with water at the middle."
+          },
+          {
+            "question": "Can you make this cup nearly full?",
+            "expected": "Child pours up to near the top."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Recognises half full and nearly full",
+        "Orders cups by how full they are"
+      ],
+      "conclusion": "Pour the water out and say \"From full to empty.\" Dry the cups.",
+      "homeConnection": "At mealtimes, notice cups that are full, half full or empty.",
+      "teacherReflection": [
+        "Which children could show \"notice a cup that is half full and nearly full\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Empty",
+          "Half full",
+          "Full"
+        ],
+        "pictures": [
+          "Three cups with different water levels"
+        ]
+      },
+      "activities": [
+        "Cups in a row"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W01-D05",
+      "title": "Full and empty stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 1,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Full and empty containers",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can recognise and make full and empty containers at three stations."
+      ],
+      "successCriteria": [
+        "Identifies full and empty containers",
+        "Fills a cup with support"
+      ],
+      "previousKnowledge": "Children can compare big and small, long and short, heavy and light, and count to five with support.",
+      "vocabulary": [
+        "full",
+        "empty",
+        "pour",
+        "fill",
+        "water",
+        "half"
+      ],
+      "resources": [
+        "Station 1: full or empty cups",
+        "Station 2: water pouring basin",
+        "Station 3: sand scoop",
+        "Class record sheet"
+      ],
+      "starter": "Sing the full and empty song and show the three stations.",
+      "teacherActivities": [
+        "Divide the children into three groups and rotate every four minutes.",
+        "At the cup station ask \"Which is full? Which is empty?\"",
+        "At the pouring station ask \"Can you fill the cup?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child points to the full and empty cups.",
+        "Child fills the cup and says \"full\".",
+        "Children tidy their station at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Divide the children into three groups and rotate every four minutes. Children: Children play at each station.",
+        "Step 2. Teacher: At the cup station ask \"Which is full? Which is empty?\" Children: Child points to the full and empty cups.",
+        "Step 3. Teacher: At the pouring station ask \"Can you fill the cup?\" Children: Child fills the cup and says \"full\".",
+        "Step 4. Teacher: Record each child’s level and take photographs. Children: Children tidy their station at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations on waterproof mats.",
+          "Children rotate on the signal.",
+          "Teacher observes one station per round."
+        ],
+        "safety": "Supervise water and sand stations at all times; wipe spills immediately; wash hands afterwards."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner at each station.",
+        "extension": "Ask a confident child to teach a friend how to fill a cup."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: identifies full and empty; fills a container with support; uses the words full, half and empty.",
+        "questions": [
+          {
+            "question": "Is the cup full or empty?",
+            "expected": "The correct word."
+          },
+          {
+            "question": "Can you fill it?",
+            "expected": "Child fills the cup."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 1",
+        "Compares full and empty containers"
+      ],
+      "conclusion": "Sing the song and tidy up together.",
+      "homeConnection": "Notice full and empty containers at home this week.",
+      "teacherReflection": [
+        "Which children could show \"show they can recognise and make full and empty containers at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Full, empty"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

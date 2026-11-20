@@ -1,0 +1,592 @@
+{
+  "id": "ELA-PS-TOD-NUM-T3-W08",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 8,
+  "title": "Our class graph",
+  "topic": "Data",
+  "subtopics": [
+    "Choosing and standing in lines",
+    "Which line has more?",
+    "Counting a line"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will sort themselves or objects into groups by a simple choice.",
+    "Children will say which group has more."
+  ],
+  "vocabulary": [
+    "more",
+    "fewer",
+    "line",
+    "group",
+    "choose"
+  ],
+  "content": "Sorting children or objects by a simple choice, forming lines and saying which line has more.",
+  "teachingActivities": "Make real graphs with children and objects; line up neatly at one end; ask \"Which line has more?\" and count to check.",
+  "learnerActivities": "Choose between two things, stand or place objects in lines, compare lines and count a line.",
+  "resources": [
+    "Two baskets",
+    "Picture cards of two favourite fruits",
+    "Large blocks",
+    "A string line on the floor",
+    "Stickers or counters (large)"
+  ],
+  "assessment": "Check whether each child joins a group according to a choice and says which group has more.",
+  "expectedOutcomes": [
+    "Joins a group according to a choice.",
+    "Points to the group with more."
+  ],
+  "crossCurricular": [
+    "Social Habits: choosing and respecting differences",
+    "Literacy: asking and answering questions",
+    "Science: sorting and recording"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W08-D01",
+      "title": "Which fruit do you like?",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 8,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Data",
+      "subtopic": "Choosing and standing in lines",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will choose between two fruits and stand in the line for their choice."
+      ],
+      "successCriteria": [
+        "Chooses a fruit",
+        "Stands in the matching line"
+      ],
+      "previousKnowledge": "Children can sort objects, count to five with support and say more and fewer.",
+      "vocabulary": [
+        "more",
+        "fewer",
+        "line",
+        "group",
+        "choose"
+      ],
+      "resources": [
+        "Pictures of an orange and a mango",
+        "Two strings on the floor",
+        "A mat"
+      ],
+      "starter": "Show pictures of an orange and a mango. Say \"Which do you like? Orange or mango? Stand by the picture you like.\"",
+      "teacherActivities": [
+        "Put the two pictures at the end of two lines. Say \"If you like oranges, stand here.\"",
+        "Ask the children in each line to stand neatly one behind another.",
+        "Say \"Let us look at the lines. Which line is longer?\"",
+        "Count the children in each line together."
+      ],
+      "learnerActivities": [
+        "Children choose a picture and walk to it.",
+        "Children line up behind the picture.",
+        "Children look and point to the longer line.",
+        "Children count each line aloud."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the two pictures at the end of two lines. Say \"If you like oranges, stand here.\" Children: Children choose a picture and walk to it.",
+        "Step 2. Teacher: Ask the children in each line to stand neatly one behind another. Children: Children line up behind the picture.",
+        "Step 3. Teacher: Say \"Let us look at the lines. Which line is longer?\" Children: Children look and point to the longer line.",
+        "Step 4. Teacher: Count the children in each line together. Children: Children count each line aloud."
+      ],
+      "practical": {
+        "title": "Fruit lines",
+        "steps": [
+          "Make two lines on the floor.",
+          "Each child chooses a fruit and stands in a line.",
+          "Count each line."
+        ],
+        "safety": "Keep lines short with space between children; walk calmly; no pushing."
+      },
+      "differentiation": {
+        "support": "Choose with an adult and stand together.",
+        "extension": "Ask the child to guess which line will be longer before counting."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which fruit did you choose?",
+            "expected": "The fruit chosen."
+          },
+          {
+            "question": "Which line has more children?",
+            "expected": "The longer line."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Chooses and joins a line",
+        "Compares lines"
+      ],
+      "conclusion": "Count both lines and say \"More oranges\" or \"More mangoes.\"",
+      "homeConnection": "Ask family members which food they like and count how many choose each.",
+      "teacherReflection": [
+        "Which children could show \"choose between two fruits and stand in the line for their choice\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Orange line",
+          "Mango line"
+        ],
+        "pictures": [
+          "Two lines of children"
+        ]
+      },
+      "activities": [
+        "Fruit lines"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W08-D02",
+      "title": "Blocks in lines",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 8,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Data",
+      "subtopic": "Which line has more?",
+      "dayType": "explore",
+      "objectives": [
+        "Children will place blocks in two lines and say which line has more."
+      ],
+      "successCriteria": [
+        "Places blocks in lines",
+        "Says which has more"
+      ],
+      "previousKnowledge": "Children can sort objects, count to five with support and say more and fewer.",
+      "vocabulary": [
+        "more",
+        "fewer",
+        "line",
+        "group",
+        "choose"
+      ],
+      "resources": [
+        "Red and blue blocks",
+        "A mat",
+        "Two strings"
+      ],
+      "starter": "Show a pile of red and blue blocks and say \"Let us put the reds in one line and the blues in another line. Which will have more?\"",
+      "teacherActivities": [
+        "Sort the blocks by colour into two lines starting at the same end.",
+        "Look at the two lines. Say \"This line has more.\"",
+        "Count both lines and say the numbers.",
+        "Let children choose two colours and make their own lines."
+      ],
+      "learnerActivities": [
+        "Children sort the blocks into lines.",
+        "Children point to the longer line.",
+        "Children count and compare.",
+        "Pairs make lines and say which has more."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sort the blocks by colour into two lines starting at the same end. Children: Children sort the blocks into lines.",
+        "Step 2. Teacher: Look at the two lines. Say \"This line has more.\" Children: Children point to the longer line.",
+        "Step 3. Teacher: Count both lines and say the numbers. Children: Children count and compare.",
+        "Step 4. Teacher: Let children choose two colours and make their own lines. Children: Pairs make lines and say which has more."
+      ],
+      "practical": {
+        "title": "Block graph",
+        "steps": [
+          "Give each pair a pile of blocks in two colours.",
+          "Sort into two lines.",
+          "Compare and count."
+        ],
+        "safety": "Use large blocks only; keep them on the mat; supervise group play."
+      },
+      "differentiation": {
+        "support": "Sort two colours and compare lines with one block in each.",
+        "extension": "Ask the child to count each line and say how many more."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which line has more blocks?",
+            "expected": "The longer line."
+          },
+          {
+            "question": "How many red blocks?",
+            "expected": "The number counted."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes lines of objects",
+        "Says which has more"
+      ],
+      "conclusion": "Count both lines one more time and say \"More red\" or \"More blue.\"",
+      "homeConnection": "Sort spoons and cups into lines at home and compare.",
+      "teacherReflection": [
+        "Which children could show \"place blocks in two lines and say which line has more\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Red line",
+          "Blue line"
+        ],
+        "pictures": [
+          "Two lines of blocks"
+        ]
+      },
+      "activities": [
+        "Block graph"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W08-D03",
+      "title": "Our shoes graph",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 8,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Data",
+      "subtopic": "Counting a line",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort shoes into two groups and count each line."
+      ],
+      "successCriteria": [
+        "Sorts shoes by type",
+        "Counts a line of up to five"
+      ],
+      "previousKnowledge": "Children can sort objects, count to five with support and say more and fewer.",
+      "vocabulary": [
+        "more",
+        "fewer",
+        "line",
+        "group",
+        "choose"
+      ],
+      "resources": [
+        "Children’s shoes (sandals and closed shoes)",
+        "Two labelled mats",
+        "A mat"
+      ],
+      "starter": "Say \"Let us make a shoe graph. Who is wearing sandals? Who is wearing closed shoes?\" Ask children to take off one shoe.",
+      "teacherActivities": [
+        "Put the sandal picture and the closed shoe picture on the floor. Place your own shoe in a line.",
+        "Line up the shoes neatly one beside another. Say \"Let us count each line.\"",
+        "Ask \"Which line has more shoes?\"",
+        "Remove two shoes from one line and count again."
+      ],
+      "learnerActivities": [
+        "Children place their shoes under the matching picture.",
+        "Children count the shoes in each line.",
+        "Children point to the line with more.",
+        "Children count again and say the new number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the sandal picture and the closed shoe picture on the floor. Place your own shoe in a line. Children: Children place their shoes under the matching picture.",
+        "Step 2. Teacher: Line up the shoes neatly one beside another. Say \"Let us count each line.\" Children: Children count the shoes in each line.",
+        "Step 3. Teacher: Ask \"Which line has more shoes?\" Children: Children point to the line with more.",
+        "Step 4. Teacher: Remove two shoes from one line and count again. Children: Children count again and say the new number."
+      ],
+      "practical": {
+        "title": "Shoe lines",
+        "steps": [
+          "Children place one shoe in the correct line.",
+          "Count each line.",
+          "Say which has more."
+        ],
+        "safety": "Keep shoes in neat lines and away from walkways; children wash hands after handling shoes."
+      },
+      "differentiation": {
+        "support": "Count only the shorter line with an adult.",
+        "extension": "Ask the child to guess how many shoes are in each line and then count."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which line has more shoes?",
+            "expected": "The longer line."
+          },
+          {
+            "question": "How many sandals?",
+            "expected": "The number counted."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts and counts real objects",
+        "Compares two lines"
+      ],
+      "conclusion": "Put shoes back and say \"Sandals and shoes, all done.\"",
+      "homeConnection": "Sort shoes by type at the door and count each group.",
+      "teacherReflection": [
+        "Which children could show \"sort shoes into two groups and count each line\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Sandals",
+          "Closed shoes"
+        ],
+        "pictures": [
+          "Two lines of shoes"
+        ]
+      },
+      "activities": [
+        "Shoe lines"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W08-D04",
+      "title": "Our favourite game graph",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 8,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Data",
+      "subtopic": "Which line has more?",
+      "dayType": "apply",
+      "objectives": [
+        "Children will vote with a block for a favourite game and say which has more."
+      ],
+      "successCriteria": [
+        "Chooses a favourite",
+        "Places a block in the matching stack"
+      ],
+      "previousKnowledge": "Children can sort objects, count to five with support and say more and fewer.",
+      "vocabulary": [
+        "more",
+        "fewer",
+        "line",
+        "group",
+        "choose"
+      ],
+      "resources": [
+        "Two pictures of games (ball and dance)",
+        "Blocks",
+        "A mat"
+      ],
+      "starter": "Show pictures of ball play and dancing. Say \"Which game do you like best? Put a block on your favourite.\"",
+      "teacherActivities": [
+        "Give each child a block. Ask them to put it by their favourite picture.",
+        "Build a tall tower under each picture, one block at a time.",
+        "Ask \"Which tower is taller?\" and \"Which has more blocks?\"",
+        "Count the blocks in each tower."
+      ],
+      "learnerActivities": [
+        "Children place a block under a picture.",
+        "Children watch the towers grow.",
+        "Children point to the taller tower.",
+        "Children count and say the numbers."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Give each child a block. Ask them to put it by their favourite picture. Children: Children place a block under a picture.",
+        "Step 2. Teacher: Build a tall tower under each picture, one block at a time. Children: Children watch the towers grow.",
+        "Step 3. Teacher: Ask \"Which tower is taller?\" and \"Which has more blocks?\" Children: Children point to the taller tower.",
+        "Step 4. Teacher: Count the blocks in each tower. Children: Children count and say the numbers."
+      ],
+      "practical": {
+        "title": "Block vote",
+        "steps": [
+          "Give each child a block.",
+          "Place it in a stack for their favourite game.",
+          "Count both stacks."
+        ],
+        "safety": "Use large blocks; build towers on the floor; supervise group play."
+      },
+      "differentiation": {
+        "support": "Choose with an adult and place the block together.",
+        "extension": "Ask the child to say which game won and how they know."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which game has more blocks?",
+            "expected": "The taller stack."
+          },
+          {
+            "question": "How many chose dancing?",
+            "expected": "The number counted."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Votes with a block",
+        "Compares tall and short stacks"
+      ],
+      "conclusion": "Say \"More blocks, more friends like it\" and then play the winning game.",
+      "homeConnection": "Make a family graph of favourite foods using spoons or sticks held by an adult.",
+      "teacherReflection": [
+        "Which children could show \"vote with a block for a favourite game and say which has more\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Ball",
+          "Dance"
+        ],
+        "pictures": [
+          "Two towers of blocks"
+        ]
+      },
+      "activities": [
+        "Block vote"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W08-D05",
+      "title": "Graph stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 8,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Data",
+      "subtopic": "Which line has more?",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can sort, compare and count lines at three stations."
+      ],
+      "successCriteria": [
+        "Sorts into two groups",
+        "Says which group has more"
+      ],
+      "previousKnowledge": "Children can sort objects, count to five with support and say more and fewer.",
+      "vocabulary": [
+        "more",
+        "fewer",
+        "line",
+        "group",
+        "choose"
+      ],
+      "resources": [
+        "Station 1: block lines",
+        "Station 2: shoe lines",
+        "Station 3: favourite vote",
+        "Class record sheet"
+      ],
+      "starter": "Sing the sorting song and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask \"Which line has more?\" and \"How many are in this line?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child compares and counts.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask \"Which line has more?\" and \"How many are in this line?\" Children: Child compares and counts.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Use large items only; supervise stations; keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask a confident child to run a vote for a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: joins a group according to a choice; says which line has more; counts a short line.",
+        "questions": [
+          {
+            "question": "Which line has more?",
+            "expected": "The longer line."
+          },
+          {
+            "question": "How many in this line?",
+            "expected": "The number counted."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Compares groups with growing confidence"
+      ],
+      "conclusion": "Sing the sorting song and tidy up together.",
+      "homeConnection": "Make a simple graph at home with family members.",
+      "teacherReflection": [
+        "Which children could show \"show they can sort, compare and count lines at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "More, fewer"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

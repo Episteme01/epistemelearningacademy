@@ -1,0 +1,592 @@
+{
+  "id": "ELA-PS-TOD-NUM-T3-W06",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 6,
+  "title": "One more",
+  "topic": "Counting",
+  "subtopics": [
+    "Adding one more",
+    "One more game with fingers",
+    "One more in stories and songs"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will add one more object to a small group.",
+    "Children will say or show how many there are now, with support."
+  ],
+  "vocabulary": [
+    "one more",
+    "now",
+    "how many",
+    "add",
+    "altogether"
+  ],
+  "content": "Adding one more object to a small group and saying how many there are now, using objects, fingers and stories.",
+  "teachingActivities": "Count the group first, add one object slowly, say \"one more\", and recount from one; keep groups to one to four.",
+  "learnerActivities": "Add one more to a group, recount, show the new number on fingers and act out one more in songs and stories.",
+  "resources": [
+    "Large blocks",
+    "Toy fruits",
+    "Cups",
+    "Soft toys",
+    "A basket and a cloth"
+  ],
+  "assessment": "Check whether each child adds one more to a group of one to three and says or shows how many now.",
+  "expectedOutcomes": [
+    "Adds one more to a group of one to three.",
+    "Shows how many now with fingers."
+  ],
+  "crossCurricular": [
+    "Literacy: sentences with one more",
+    "Social Habits: asking politely for more",
+    "Physical Development: handling objects"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W06-D01",
+      "title": "One more block",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Adding one more",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will add one more block to a small group and say how many now."
+      ],
+      "successCriteria": [
+        "Adds exactly one block",
+        "Counts the new group"
+      ],
+      "previousKnowledge": "Children can count to five with support, give one to each friend and say more and same.",
+      "vocabulary": [
+        "one more",
+        "now",
+        "how many",
+        "add",
+        "altogether"
+      ],
+      "resources": [
+        "Large wooden blocks",
+        "A tray",
+        "A mat"
+      ],
+      "starter": "Put two blocks on the tray and ask \"How many?\" Add one block and say \"One more block. Now how many?\" Count together.",
+      "teacherActivities": [
+        "Start with one block and count it. Add one more and say \"One more. Now two.\"",
+        "Start with two blocks, add one more and say \"One more. Now three.\" Count again.",
+        "Ask a child to add one more to a group of three and say how many.",
+        "Play \"One more, please\" with the children asking for one more block."
+      ],
+      "learnerActivities": [
+        "Children count one, two with you.",
+        "Children count to three and say \"three\".",
+        "Child adds one block and counts to four with help.",
+        "Children say \"one more, please\" and add a block."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Start with one block and count it. Add one more and say \"One more. Now two.\" Children: Children count one, two with you.",
+        "Step 2. Teacher: Start with two blocks, add one more and say \"One more. Now three.\" Count again. Children: Children count to three and say \"three\".",
+        "Step 3. Teacher: Ask a child to add one more to a group of three and say how many. Children: Child adds one block and counts to four with help.",
+        "Step 4. Teacher: Play \"One more, please\" with the children asking for one more block. Children: Children say \"one more, please\" and add a block."
+      ],
+      "practical": {
+        "title": "One more tray",
+        "steps": [
+          "Give each pair a tray with two blocks.",
+          "Add one more and count.",
+          "Swap and try again with three blocks."
+        ],
+        "safety": "Use blocks larger than a child’s fist; keep trays on the floor; supervise group play."
+      },
+      "differentiation": {
+        "support": "Start with one block and add one more with hand-over-hand help.",
+        "extension": "Ask the child to add one more to four blocks and say how many."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many blocks now?",
+            "expected": "The correct number after adding one."
+          },
+          {
+            "question": "Can you add one more?",
+            "expected": "Child adds exactly one block."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Adds one more to a small group",
+        "Says how many now"
+      ],
+      "conclusion": "Count the final group aloud and say \"One more, one more, well done.\"",
+      "homeConnection": "Add one more spoon or one more shoe to a pile at home and count.",
+      "teacherReflection": [
+        "Which children could show \"add one more block to a small group and say how many now\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 + one more = 2",
+          "Add one more"
+        ],
+        "pictures": [
+          "A block added to a group"
+        ],
+        "songOrRhyme": "One more block, one more block, count them all, one more block."
+      },
+      "activities": [
+        "One more tray"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W06-D02",
+      "title": "One more finger",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "One more game with fingers",
+      "dayType": "explore",
+      "objectives": [
+        "Children will show one more finger and say the new number."
+      ],
+      "successCriteria": [
+        "Shows one more finger",
+        "Says the number"
+      ],
+      "previousKnowledge": "Children can count to five with support, give one to each friend and say more and same.",
+      "vocabulary": [
+        "one more",
+        "now",
+        "how many",
+        "add",
+        "altogether"
+      ],
+      "resources": [
+        "Finger picture cards",
+        "A drum",
+        "A mat"
+      ],
+      "starter": "Show one finger and say \"One.\" Raise another finger and say \"One more finger. Now two.\"",
+      "teacherActivities": [
+        "Hold up two fingers and say \"Two.\" Add one more finger and say \"Three.\"",
+        "Call \"Show me three.\" Then say \"Add one more\" and hold up four fingers.",
+        "Play \"one more\" game: show a number and ask for one more.",
+        "Ask pairs to take turns: one shows fingers, the other shows one more."
+      ],
+      "learnerActivities": [
+        "Children copy and say the numbers.",
+        "Children add one finger and say \"four\".",
+        "Children show one more finger and say the new number.",
+        "Pairs play and say the numbers."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold up two fingers and say \"Two.\" Add one more finger and say \"Three.\" Children: Children copy and say the numbers.",
+        "Step 2. Teacher: Call \"Show me three.\" Then say \"Add one more\" and hold up four fingers. Children: Children add one finger and say \"four\".",
+        "Step 3. Teacher: Play \"one more\" game: show a number and ask for one more. Children: Children show one more finger and say the new number.",
+        "Step 4. Teacher: Ask pairs to take turns: one shows fingers, the other shows one more. Children: Pairs play and say the numbers."
+      ],
+      "practical": {
+        "title": "Finger one more",
+        "steps": [
+          "Sit in pairs facing each other.",
+          "One shows two fingers; the partner shows one more.",
+          "Say the number together."
+        ],
+        "safety": "Keep hands away from faces; sit comfortably; the leader stops the game if it becomes loud."
+      },
+      "differentiation": {
+        "support": "Use one and two fingers only with an adult adding the finger.",
+        "extension": "Ask the child to show one more than four fingers using both hands."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is one more than two?",
+            "expected": "Three."
+          },
+          {
+            "question": "Show me one more finger.",
+            "expected": "Child shows one extra finger."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows one more with fingers",
+        "Says the next number"
+      ],
+      "conclusion": "Fold the fingers away and say \"One more, one more, sleep.\"",
+      "homeConnection": "Play \"one more\" with your child using fingers while waiting.",
+      "teacherReflection": [
+        "Which children could show \"show one more finger and say the new number\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "2, then one more is 3"
+        ],
+        "pictures": [
+          "Hands with two and three fingers"
+        ]
+      },
+      "activities": [
+        "Finger one more"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W06-D03",
+      "title": "One more fruit in the basket",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "One more in stories and songs",
+      "dayType": "practise",
+      "objectives": [
+        "Children will add one more toy fruit to a basket and count how many now."
+      ],
+      "successCriteria": [
+        "Adds one fruit",
+        "Recounts and says how many now"
+      ],
+      "previousKnowledge": "Children can count to five with support, give one to each friend and say more and same.",
+      "vocabulary": [
+        "one more",
+        "now",
+        "how many",
+        "add",
+        "altogether"
+      ],
+      "resources": [
+        "Toy fruits",
+        "A basket",
+        "A cloth"
+      ],
+      "starter": "Put two toy fruits in the basket and cover them with a cloth. Say \"Two fruits. One more fruit comes into the basket. Now how many?\"",
+      "teacherActivities": [
+        "Add one fruit while the children watch. Lift the cloth and count.",
+        "Cover the basket again and add another fruit. Ask \"How many now?\"",
+        "Give each child a turn to add one fruit to the basket.",
+        "Take one fruit away and ask \"Now how many?\""
+      ],
+      "learnerActivities": [
+        "Children count the fruits and say \"three\".",
+        "Children guess, then count to check.",
+        "Child adds one fruit and the group counts.",
+        "Children count and say the new number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Add one fruit while the children watch. Lift the cloth and count. Children: Children count the fruits and say \"three\".",
+        "Step 2. Teacher: Cover the basket again and add another fruit. Ask \"How many now?\" Children: Children guess, then count to check.",
+        "Step 3. Teacher: Give each child a turn to add one fruit to the basket. Children: Child adds one fruit and the group counts.",
+        "Step 4. Teacher: Take one fruit away and ask \"Now how many?\" Children: Children count and say the new number."
+      ],
+      "practical": {
+        "title": "Fruit basket one more",
+        "steps": [
+          "Start with two fruits in a basket.",
+          "Add one more and count.",
+          "Say the number aloud."
+        ],
+        "safety": "Use toy fruits larger than a child’s fist; keep baskets on the table."
+      },
+      "differentiation": {
+        "support": "Start with one fruit and add one more with the child.",
+        "extension": "Ask the child to add one more twice and say how many."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many fruits now?",
+            "expected": "The correct number after adding one."
+          },
+          {
+            "question": "What happens if I take one away?",
+            "expected": "There is one less."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Adds one more to a basket",
+        "Counts the new total"
+      ],
+      "conclusion": "Count the fruits in the basket one last time and say the number.",
+      "homeConnection": "Count items in a bowl and add one more each time.",
+      "teacherReflection": [
+        "Which children could show \"add one more toy fruit to a basket and count how many now\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "One more fruit"
+        ],
+        "pictures": [
+          "A basket of fruits"
+        ]
+      },
+      "activities": [
+        "Fruit basket one more"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W06-D04",
+      "title": "The hungry caterpillar friend",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "One more in stories and songs",
+      "dayType": "apply",
+      "objectives": [
+        "Children will listen to a story about adding one more and act it out."
+      ],
+      "successCriteria": [
+        "Says one more at the right moment",
+        "Acts out adding one more"
+      ],
+      "previousKnowledge": "Children can count to five with support, give one to each friend and say more and same.",
+      "vocabulary": [
+        "one more",
+        "now",
+        "how many",
+        "add",
+        "altogether"
+      ],
+      "resources": [
+        "A soft toy caterpillar or a green cloth",
+        "Three toy leaves",
+        "A basket"
+      ],
+      "starter": "Show the caterpillar toy and say \"Little Caterpillar is hungry. He eats one more leaf each day. Let us count his leaves.\"",
+      "teacherActivities": [
+        "Tell the first day and feed one leaf to the caterpillar. Say \"One leaf.\"",
+        "Feed one more leaf and ask \"How many now?\"",
+        "Feed another leaf and ask the same question.",
+        "Let each child feed the caterpillar one more leaf while the group says the number."
+      ],
+      "learnerActivities": [
+        "Children say \"one\" and munch.",
+        "Children count and say \"two\".",
+        "Children count and say \"three\".",
+        "Child feeds a leaf and says \"one more\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the first day and feed one leaf to the caterpillar. Say \"One leaf.\" Children: Children say \"one\" and munch.",
+        "Step 2. Teacher: Feed one more leaf and ask \"How many now?\" Children: Children count and say \"two\".",
+        "Step 3. Teacher: Feed another leaf and ask the same question. Children: Children count and say \"three\".",
+        "Step 4. Teacher: Let each child feed the caterpillar one more leaf while the group says the number. Children: Child feeds a leaf and says \"one more\"."
+      ],
+      "practical": {
+        "title": "Feed the caterpillar",
+        "steps": [
+          "Give each pair a caterpillar and three leaves.",
+          "Feed one leaf at a time.",
+          "Count after each leaf."
+        ],
+        "safety": "Use toy or paper leaves; keep them away from mouths; supervise group play."
+      },
+      "differentiation": {
+        "support": "Feed only two leaves and say the numbers with the child.",
+        "extension": "Ask the child to tell the story with four leaves."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many leaves did he eat on Tuesday?",
+            "expected": "Two altogether."
+          },
+          {
+            "question": "What did he say after the third leaf?",
+            "expected": "Three, and he was full."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Adds one more in a story",
+        "Says the new number"
+      ],
+      "conclusion": "Put the caterpillar to sleep under a cloth and say \"Goodnight.\"",
+      "homeConnection": "Tell the caterpillar story at home using beans or buttons for leaves, held by an adult.",
+      "teacherReflection": [
+        "Which children could show \"listen to a story about adding one more and act it out\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1, 2, 3 leaves"
+        ],
+        "pictures": [
+          "A caterpillar eating leaves"
+        ],
+        "songOrRhyme": "Munch, munch, munch, one more leaf. Munch, munch, munch, now we have two.",
+        "story": "Little Caterpillar was hungry. On Monday he ate one leaf. Munch! On Tuesday he ate one more leaf. Now he had eaten two. Munch, munch! On Wednesday he ate one more leaf. Now three! Munch, munch, munch! Little Caterpillar was full. He rolled up and went to sleep."
+      },
+      "activities": [
+        "Feed the caterpillar"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T3-W06-D05",
+      "title": "One more stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Adding one more",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can add one more at three stations."
+      ],
+      "successCriteria": [
+        "Adds one more to a group",
+        "Says how many now"
+      ],
+      "previousKnowledge": "Children can count to five with support, give one to each friend and say more and same.",
+      "vocabulary": [
+        "one more",
+        "now",
+        "how many",
+        "add",
+        "altogether"
+      ],
+      "resources": [
+        "Station 1: blocks and tray",
+        "Station 2: finger games",
+        "Station 3: fruit basket",
+        "Class record sheet"
+      ],
+      "starter": "Sing the one more song and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask \"Add one more\" and \"How many now?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child adds and says the number.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask \"Add one more\" and \"How many now?\" Children: Child adds and says the number.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Use large objects only; supervise stations; keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask a confident child to be the \"one more\" leader."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: adds one more to a group of one to three; says or shows how many now.",
+        "questions": [
+          {
+            "question": "How many now?",
+            "expected": "The correct number after adding one."
+          },
+          {
+            "question": "Can you add one more?",
+            "expected": "Child adds one object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Adds one more with support"
+      ],
+      "conclusion": "Sing the one more song and tidy up together.",
+      "homeConnection": "Practise one more at home with fruit or blocks.",
+      "teacherReflection": [
+        "Which children could show \"show they can add one more at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "One more"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
