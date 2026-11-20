@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-NUM-T1-W07",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 7,
+  "title": "Counting to three with real things",
+  "topic": "Counting",
+  "subtopics": [
+    "Touch and count one at a time",
+    "How many?",
+    "Counting steps, claps and jumps"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will touch each object once while saying the number words.",
+    "Children will say or show how many when there are up to three."
+  ],
+  "vocabulary": [
+    "count",
+    "how many",
+    "one",
+    "two",
+    "three",
+    "touch"
+  ],
+  "content": "Counting up to three real objects by touching each one once, and answering how many.",
+  "teachingActivities": "Count slowly aloud with a clear touch on each object; move counted objects to one side; repeat the last number as the answer.",
+  "learnerActivities": "Touch and move objects one at a time while saying the numbers; count steps, claps and jumps; answer how many.",
+  "resources": [
+    "Large wooden blocks",
+    "Three plastic cups",
+    "Toy fruits",
+    "Two trays",
+    "A basket of large toy vehicles"
+  ],
+  "assessment": "Check whether each child touches one object for each number word and says how many for groups up to three.",
+  "expectedOutcomes": [
+    "Counts up to three objects with one touch for each.",
+    "Answers how many with the last number word, with support."
+  ],
+  "crossCurricular": [
+    "Literacy: number words in rhymes and chants",
+    "Physical Development: moving objects one at a time",
+    "Social Habits: taking turns to count"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W07-D01",
+      "title": "Touch and say",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Touch and count one at a time",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will touch one object for each number word when counting up to three."
+      ],
+      "successCriteria": [
+        "Touches each object once",
+        "Says the number words in order"
+      ],
+      "previousKnowledge": "Children can join the rhyme one, two, three and show one, two or three fingers.",
+      "vocabulary": [
+        "count",
+        "how many",
+        "one",
+        "two",
+        "three",
+        "touch"
+      ],
+      "resources": [
+        "Three large wooden blocks",
+        "Two trays",
+        "A mat"
+      ],
+      "starter": "Put three blocks on the mat. Say \"I have some blocks. Let me count them. I touch, I say.\" Touch the first block slowly and wait for the children to watch.",
+      "teacherActivities": [
+        "Touch the first block and say \"one\". Slide it to the other tray. Touch the next and say \"two\", then \"three\".",
+        "Say \"I touched three blocks. There are three.\" Point to all three on the tray.",
+        "Invite a child to touch and slide each block while you say the numbers slowly.",
+        "Repeat with two blocks, then one block, so the numbers change."
+      ],
+      "learnerActivities": [
+        "Children watch and say the numbers with you.",
+        "Children say \"three\" and look at the blocks.",
+        "Child touches and slides one block for each number.",
+        "Children touch and say \"two\" or \"one\" as asked."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Touch the first block and say \"one\". Slide it to the other tray. Touch the next and say \"two\", then \"three\". Children: Children watch and say the numbers with you.",
+        "Step 2. Teacher: Say \"I touched three blocks. There are three.\" Point to all three on the tray. Children: Children say \"three\" and look at the blocks.",
+        "Step 3. Teacher: Invite a child to touch and slide each block while you say the numbers slowly. Children: Child touches and slides one block for each number.",
+        "Step 4. Teacher: Repeat with two blocks, then one block, so the numbers change. Children: Children touch and say \"two\" or \"one\" as asked."
+      ],
+      "practical": {
+        "title": "Block count",
+        "steps": [
+          "Give each pair a tray of three blocks and an empty tray.",
+          "Child one touches and slides each block while child two says the numbers.",
+          "Swap roles."
+        ],
+        "safety": "Use large blocks that do not fit in a child’s mouth. Seat children firmly on the floor."
+      },
+      "differentiation": {
+        "support": "Count only two blocks and guide the child’s finger with a hand-over-hand touch.",
+        "extension": "Count four blocks with help and say \"four\"."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many blocks did you count?",
+            "expected": "Three, or the number counted."
+          },
+          {
+            "question": "Can you touch each block once?",
+            "expected": "Child touches each block one time."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Touches one object for each number word",
+        "Says numbers one to three in order"
+      ],
+      "conclusion": "Slide all the blocks back into the first tray, saying \"one, two, three, all home.\"",
+      "homeConnection": "Count three spoons or three shoes at home by touching each one.",
+      "teacherReflection": [
+        "Which children could show \"touch one object for each number word when counting up to three\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Touch, say, slide",
+          "Three blocks"
+        ],
+        "pictures": [
+          "Three blocks and two trays",
+          "A finger touching a block"
+        ],
+        "songOrRhyme": "Touch one, touch two, touch three. Blocks and me."
+      },
+      "activities": [
+        "Block count"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W07-D02",
+      "title": "How many cups?",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "How many?",
+      "dayType": "explore",
+      "objectives": [
+        "Children will answer how many with the last number they say for up to three cups."
+      ],
+      "successCriteria": [
+        "Counts the cups",
+        "Says or shows the last number as the answer"
+      ],
+      "previousKnowledge": "Children can join the rhyme one, two, three and show one, two or three fingers.",
+      "vocabulary": [
+        "count",
+        "how many",
+        "one",
+        "two",
+        "three",
+        "touch"
+      ],
+      "resources": [
+        "Three plastic cups",
+        "A tray",
+        "A shaker"
+      ],
+      "starter": "Shake the shaker and say \"Listen! How many shakes?\" Shake three times and count them out. Say \"Now let us count something we can see.\"",
+      "teacherActivities": [
+        "Put one cup on the tray. Say \"How many cups? One.\" Add a second, then a third, asking each time.",
+        "Mix the cups on the tray and count them again by touching.",
+        "Say \"How many?\" and wait. Do not help unless needed.",
+        "Add or remove a cup and ask \"How many now?\""
+      ],
+      "learnerActivities": [
+        "Children answer \"one\", \"two\" and \"three\".",
+        "Children touch each cup and say the numbers.",
+        "Children say the last number or show it with fingers.",
+        "Children count again and say the new number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put one cup on the tray. Say \"How many cups? One.\" Add a second, then a third, asking each time. Children: Children answer \"one\", \"two\" and \"three\".",
+        "Step 2. Teacher: Mix the cups on the tray and count them again by touching. Children: Children touch each cup and say the numbers.",
+        "Step 3. Teacher: Say \"How many?\" and wait. Do not help unless needed. Children: Children say the last number or show it with fingers.",
+        "Step 4. Teacher: Add or remove a cup and ask \"How many now?\" Children: Children count again and say the new number."
+      ],
+      "practical": {
+        "title": "Cup count tray",
+        "steps": [
+          "Place one to three cups on a tray for each pair.",
+          "One child counts the cups, the other shows the number on fingers.",
+          "Swap and play again with a different number."
+        ],
+        "safety": "Use unbreakable cups only. Keep cups on the tray and off the floor to avoid slips."
+      },
+      "differentiation": {
+        "support": "Offer one or two cups only and say the number with the child.",
+        "extension": "Ask the child to count three cups and then give you exactly two."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many cups are on the tray?",
+            "expected": "The correct number, up to three."
+          },
+          {
+            "question": "Show me with your fingers.",
+            "expected": "Child shows the number of fingers."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Answers how many up to three",
+        "Counts by touching"
+      ],
+      "conclusion": "Stack the cups one by one while counting, then tip them back on the tray and say \"Three cups. Well done.\"",
+      "homeConnection": "Ask \"how many?\" when your child has biscuits, shoes or toys, up to three.",
+      "teacherReflection": [
+        "Which children could show \"answer how many with the last number they say for up to three cups\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "How many?",
+          "Cup, cup, cup"
+        ],
+        "pictures": [
+          "Three cups on a tray",
+          "A child counting cups"
+        ]
+      },
+      "activities": [
+        "Cup count tray"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W07-D03",
+      "title": "Counting steps, claps and jumps",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Counting steps, claps and jumps",
+      "dayType": "practise",
+      "objectives": [
+        "Children will count steps, claps or jumps up to three."
+      ],
+      "successCriteria": [
+        "Takes one step for each number",
+        "Stops at the number named"
+      ],
+      "previousKnowledge": "Children can join the rhyme one, two, three and show one, two or three fingers.",
+      "vocabulary": [
+        "count",
+        "how many",
+        "one",
+        "two",
+        "three",
+        "touch"
+      ],
+      "resources": [
+        "An open floor space",
+        "Three footprints cut from paper or card",
+        "A drum"
+      ],
+      "starter": "Walk three big steps across the floor and say \"One, two, three! I walked three steps.\" Ask \"Can you walk three steps?\"",
+      "teacherActivities": [
+        "Place three paper footprints on the floor in a line. Step on each one and say the numbers.",
+        "Call out \"Walk two steps\" and do it. Then \"Walk three steps\".",
+        "Change to clapping: \"Clap three.\" then to jumping: \"Jump two.\"",
+        "Let a child choose a number and call it for the group."
+      ],
+      "learnerActivities": [
+        "Children watch and say the numbers with you.",
+        "Children walk the number of steps called and stop.",
+        "Children clap or jump the number called.",
+        "Child calls a number from one to three and the group does it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Place three paper footprints on the floor in a line. Step on each one and say the numbers. Children: Children watch and say the numbers with you.",
+        "Step 2. Teacher: Call out \"Walk two steps\" and do it. Then \"Walk three steps\". Children: Children walk the number of steps called and stop.",
+        "Step 3. Teacher: Change to clapping: \"Clap three.\" then to jumping: \"Jump two.\" Children: Children clap or jump the number called.",
+        "Step 4. Teacher: Let a child choose a number and call it for the group. Children: Child calls a number from one to three and the group does it."
+      ],
+      "practical": {
+        "title": "Footprint walk",
+        "steps": [
+          "Lay three footprints in a line.",
+          "Each child steps on them while the group counts.",
+          "Repeat with two and then one footprint."
+        ],
+        "safety": "Fix paper footprints with tape so they do not slip. Children walk one at a time with an adult nearby."
+      },
+      "differentiation": {
+        "support": "Walk beside the child and touch the shoulder at each step.",
+        "extension": "Ask the child to do three claps and two jumps in a row."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many steps did you take?",
+            "expected": "The number of steps, up to three."
+          },
+          {
+            "question": "Can you clap two?",
+            "expected": "Child claps two times."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Moves the number of times called",
+        "Stops at the right number"
+      ],
+      "conclusion": "Take three slow steps to the sitting area and count them. Sit down together.",
+      "homeConnection": "Count steps to the door or the gate at home, one to three.",
+      "teacherReflection": [
+        "Which children could show \"count steps, claps or jumps up to three\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Step 1, step 2, step 3"
+        ],
+        "pictures": [
+          "Three footprints on the floor"
+        ]
+      },
+      "activities": [
+        "Footprint walk"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W07-D04",
+      "title": "Counting toy vehicles",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "How many?",
+      "dayType": "apply",
+      "objectives": [
+        "Children will count toy vehicles in play and answer how many."
+      ],
+      "successCriteria": [
+        "Counts vehicles by touching",
+        "Says how many in play"
+      ],
+      "previousKnowledge": "Children can join the rhyme one, two, three and show one, two or three fingers.",
+      "vocabulary": [
+        "count",
+        "how many",
+        "one",
+        "two",
+        "three",
+        "touch"
+      ],
+      "resources": [
+        "Toy vehicles (okada, bus, car)",
+        "A mat road or drawn road",
+        "A basket"
+      ],
+      "starter": "Push a toy car along the road and say \"Brum, brum, how many cars on the road? Let us count them.\"",
+      "teacherActivities": [
+        "Place one, two or three vehicles on the road. Ask \"How many vehicles?\" and touch each one as you count.",
+        "Say \"Park two vehicles.\" Move two vehicles to the car park.",
+        "Say \"How many are still on the road?\" Let children look and answer.",
+        "Pass the basket and ask each child to take three vehicles and count them."
+      ],
+      "learnerActivities": [
+        "Children count with you and say the last number.",
+        "Child moves two vehicles and counts them.",
+        "Children count the vehicles on the road.",
+        "Child takes vehicles and counts up to three."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Place one, two or three vehicles on the road. Ask \"How many vehicles?\" and touch each one as you count. Children: Children count with you and say the last number.",
+        "Step 2. Teacher: Say \"Park two vehicles.\" Move two vehicles to the car park. Children: Child moves two vehicles and counts them.",
+        "Step 3. Teacher: Say \"How many are still on the road?\" Let children look and answer. Children: Children count the vehicles on the road.",
+        "Step 4. Teacher: Pass the basket and ask each child to take three vehicles and count them. Children: Child takes vehicles and counts up to three."
+      ],
+      "practical": {
+        "title": "Road count",
+        "steps": [
+          "Put a road mat on the floor.",
+          "Children place up to three vehicles on the road and count them.",
+          "They tell a friend how many."
+        ],
+        "safety": "Toy vehicles must be too large to swallow and have no loose parts; keep them off the floor between turns."
+      },
+      "differentiation": {
+        "support": "Use only two vehicles and say each number as the child touches them.",
+        "extension": "Ask the child to put three vehicles on the road, take one away and say how many are left."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many vehicles on the road?",
+            "expected": "The correct number, up to three."
+          },
+          {
+            "question": "Can you park one vehicle?",
+            "expected": "Child moves one vehicle and counts it."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts toy vehicles to three",
+        "Answers how many in play"
+      ],
+      "conclusion": "Park all the vehicles in the basket while counting them aloud.",
+      "homeConnection": "Count cars or okadas you see on the road and say how many.",
+      "teacherReflection": [
+        "Which children could show \"count toy vehicles in play and answer how many\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "How many vehicles?"
+        ],
+        "pictures": [
+          "A road with three vehicles"
+        ]
+      },
+      "activities": [
+        "Road count"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W07-D05",
+      "title": "Counting stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "How many?",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can count up to three at three stations."
+      ],
+      "successCriteria": [
+        "Touches each object once",
+        "Says how many up to three"
+      ],
+      "previousKnowledge": "Children can join the rhyme one, two, three and show one, two or three fingers.",
+      "vocabulary": [
+        "count",
+        "how many",
+        "one",
+        "two",
+        "three",
+        "touch"
+      ],
+      "resources": [
+        "Station 1: blocks and trays",
+        "Station 2: cups and a tray",
+        "Station 3: footprints and drum",
+        "Class record sheet"
+      ],
+      "starter": "Show each station and say \"Count, count, count with me.\" Remind the children to touch each one.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "At each station ask \"How many?\" and watch whether each child touches one object for each number.",
+        "Note each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children count at each station.",
+        "Child counts and answers.",
+        "Children continue and tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children count at each station.",
+        "Step 2. Teacher: At each station ask \"How many?\" and watch whether each child touches one object for each number. Children: Child counts and answers.",
+        "Step 3. Teacher: Note each child’s level and take photographs. Children: Children continue and tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Remove small items and supervise each station closely."
+      },
+      "differentiation": {
+        "support": "Offer an adult partner at each station.",
+        "extension": "Ask a confident child to count objects for a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: touches one object for each number; says how many up to three; counts steps, claps or jumps.",
+        "questions": [
+          {
+            "question": "How many blocks?",
+            "expected": "The correct number, up to three."
+          },
+          {
+            "question": "Can you count the cups again?",
+            "expected": "Child counts again and gets the same number."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Counts up to three objects"
+      ],
+      "conclusion": "Count the children sitting on the mat together, up to three at a time.",
+      "homeConnection": "Count to three each day with a real object such as fruit or shoes.",
+      "teacherReflection": [
+        "Which children could show \"show they can count up to three at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Count to 3"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

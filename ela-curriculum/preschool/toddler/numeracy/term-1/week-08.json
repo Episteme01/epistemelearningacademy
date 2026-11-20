@@ -1,0 +1,593 @@
+{
+  "id": "ELA-PS-TOD-NUM-T1-W08",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 8,
+  "title": "Round things",
+  "topic": "Shape",
+  "subtopics": [
+    "Circles all around us",
+    "Rolling and not rolling",
+    "Drawing a circle in the air and in sand"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will find round things in the classroom and outdoors.",
+    "Children will name the circle with support."
+  ],
+  "vocabulary": [
+    "circle",
+    "round",
+    "roll",
+    "ball",
+    "wheel"
+  ],
+  "content": "Finding, handling and naming circles and round things such as balls, plates and wheels.",
+  "teachingActivities": "Hold round objects up and say \"round, circle\"; trace the edge slowly with a finger; let children roll and feel the objects before naming.",
+  "learnerActivities": "Find round things, roll and not-roll objects, trace circles with fingers and draw circles in sand or the air.",
+  "resources": [
+    "Balls, plates, plastic bowls, a toy wheel",
+    "Blocks and boxes that do not roll",
+    "A tray of sand or flour",
+    "Large paper circles",
+    "Chalk or a stick for outdoor drawing"
+  ],
+  "assessment": "Note who points to round objects when asked and who says circle or round.",
+  "expectedOutcomes": [
+    "Points to round objects when asked.",
+    "Says circle or round."
+  ],
+  "crossCurricular": [
+    "Science: rolling and not rolling",
+    "Literacy: shape names in a rhyme",
+    "Physical Development: tracing and arm movements"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W08-D01",
+      "title": "Round like a ball",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 8,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Shape",
+      "subtopic": "Circles all around us",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will point to round things and say round or circle with support."
+      ],
+      "successCriteria": [
+        "Points to a round object when asked",
+        "Says round or circle"
+      ],
+      "previousKnowledge": "Children can count to three with real things and sort by colour, size and kind.",
+      "vocabulary": [
+        "circle",
+        "round",
+        "roll",
+        "ball",
+        "wheel"
+      ],
+      "resources": [
+        "A ball, a plate, a bowl, a toy wheel",
+        "A block and a box",
+        "A basket"
+      ],
+      "starter": "Roll a ball slowly across the floor. Say \"Round, round, round!\" Show the other objects and let the children pick out which look like the ball.",
+      "teacherActivities": [
+        "Hold up the ball, plate and wheel and trace their edges with your finger. Say \"Round. A circle.\"",
+        "Hold up the block and the box. Say \"Not round. Not a circle.\"",
+        "Put all objects in the basket. Ask a child to pick one round object.",
+        "Place all round objects on one mat and the others on another mat."
+      ],
+      "learnerActivities": [
+        "Children trace the air with their fingers and say \"round\".",
+        "Children shake their heads or say \"no\".",
+        "Child chooses a round object and shows the group.",
+        "Children help to sort round from not round."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold up the ball, plate and wheel and trace their edges with your finger. Say \"Round. A circle.\" Children: Children trace the air with their fingers and say \"round\".",
+        "Step 2. Teacher: Hold up the block and the box. Say \"Not round. Not a circle.\" Children: Children shake their heads or say \"no\".",
+        "Step 3. Teacher: Put all objects in the basket. Ask a child to pick one round object. Children: Child chooses a round object and shows the group.",
+        "Step 4. Teacher: Place all round objects on one mat and the others on another mat. Children: Children help to sort round from not round."
+      ],
+      "practical": {
+        "title": "Round thing hunt",
+        "steps": [
+          "Set several objects around the room, round and not round.",
+          "Children find one round thing and bring it to the mat.",
+          "The group checks by tracing the edge."
+        ],
+        "safety": "Remove sharp or breakable objects; use plates and bowls made of plastic. Children carry one object at a time."
+      },
+      "differentiation": {
+        "support": "Offer two objects only, a ball and a box, and guide the child’s hand.",
+        "extension": "Ask the child to find three round things and name each one."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which one is round?",
+            "expected": "Child points to the ball, plate or wheel."
+          },
+          {
+            "question": "Is the block round?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Points to round objects",
+        "Says round or circle"
+      ],
+      "conclusion": "Sing the circle song and trace a big circle in the air with both arms.",
+      "homeConnection": "Find round things at home, such as plates, cups, clocks and coins held by an adult, and say \"round\".",
+      "teacherReflection": [
+        "Which children could show \"point to round things and say round or circle with support\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "A big circle",
+          "Round things: ball, plate, wheel"
+        ],
+        "pictures": [
+          "A ball, a plate and a wheel",
+          "A box and a block (not round)"
+        ],
+        "songOrRhyme": "Round, round, round, like a ball. Round, round, round, like a plate. Circle, circle, round and round."
+      },
+      "activities": [
+        "Round thing hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W08-D02",
+      "title": "Roll or not roll?",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 8,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Shape",
+      "subtopic": "Rolling and not rolling",
+      "dayType": "explore",
+      "objectives": [
+        "Children will test which objects roll and which do not."
+      ],
+      "successCriteria": [
+        "Pushes an object and watches",
+        "Says roll or stop with support"
+      ],
+      "previousKnowledge": "Children can count to three with real things and sort by colour, size and kind.",
+      "vocabulary": [
+        "circle",
+        "round",
+        "roll",
+        "ball",
+        "wheel"
+      ],
+      "resources": [
+        "A ball, a tin or round container, a block, a box",
+        "A gentle slope such as a tilted board",
+        "A mat"
+      ],
+      "starter": "Push a ball and a block together and ask \"Which one rolled? Which one stayed?\" Let the children watch.",
+      "teacherActivities": [
+        "Push the ball. Say \"It rolls!\" Push the block and say \"It does not roll.\"",
+        "Let children push each object in turn along the floor.",
+        "Set up a gentle slope and let the objects slide or roll down.",
+        "Sort the objects into \"rolls\" and \"does not roll\" baskets."
+      ],
+      "learnerActivities": [
+        "Children watch and say \"roll\" or \"no roll\".",
+        "Child pushes the object and watches it move or stay.",
+        "Children say \"roll\" when the object rolls.",
+        "Child places each object in the correct basket."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Push the ball. Say \"It rolls!\" Push the block and say \"It does not roll.\" Children: Children watch and say \"roll\" or \"no roll\".",
+        "Step 2. Teacher: Let children push each object in turn along the floor. Children: Child pushes the object and watches it move or stay.",
+        "Step 3. Teacher: Set up a gentle slope and let the objects slide or roll down. Children: Children say \"roll\" when the object rolls.",
+        "Step 4. Teacher: Sort the objects into \"rolls\" and \"does not roll\" baskets. Children: Child places each object in the correct basket."
+      ],
+      "practical": {
+        "title": "Roll test",
+        "steps": [
+          "Give each pair a ball and a block.",
+          "They push both and see which rolls.",
+          "They put the round one in the basket."
+        ],
+        "safety": "Use a gentle slope only; keep fingers away from the end of the board. Clear the floor so children do not trip over rolling objects."
+      },
+      "differentiation": {
+        "support": "Offer only the ball and block with an adult pushing alongside.",
+        "extension": "Ask the child to predict whether a new object will roll before pushing it."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the ball roll?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Does the block roll?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Tests roll and not roll",
+        "Links round with rolling"
+      ],
+      "conclusion": "Roll the ball one more time and say \"Round things roll.\"",
+      "homeConnection": "At home, test which objects roll along the floor: a ball, a tin and a box.",
+      "teacherReflection": [
+        "Which children could show \"test which objects roll and which do not\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Roll",
+          "No roll"
+        ],
+        "pictures": [
+          "A ball rolling",
+          "A block staying still"
+        ]
+      },
+      "activities": [
+        "Roll test"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W08-D03",
+      "title": "Drawing circles in sand",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 8,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Shape",
+      "subtopic": "Drawing a circle in the air and in sand",
+      "dayType": "practise",
+      "objectives": [
+        "Children will trace and draw a circle in sand or on a tray."
+      ],
+      "successCriteria": [
+        "Traces a round shape with a finger",
+        "Draws a circle-like shape in sand"
+      ],
+      "previousKnowledge": "Children can count to three with real things and sort by colour, size and kind.",
+      "vocabulary": [
+        "circle",
+        "round",
+        "roll",
+        "ball",
+        "wheel"
+      ],
+      "resources": [
+        "A tray of dry sand or flour",
+        "Large paper circles",
+        "Chalk or a stick for outdoor drawing"
+      ],
+      "starter": "Draw a big circle in the air with your finger. Say \"Round and round.\" Invite the children to draw circles in the air with you.",
+      "teacherActivities": [
+        "Draw a circle in the sand with your finger, slowly, and say \"round and round\".",
+        "Give each child a tray. Say \"Draw a round shape.\"",
+        "Show a paper circle and match it to the one in the sand.",
+        "Wipe the trays and try again with a bigger circle."
+      ],
+      "learnerActivities": [
+        "Children watch and trace the circle with their own fingers.",
+        "Child draws in the sand with a finger.",
+        "Child compares and points to the match.",
+        "Child draws a larger circle and shows a friend."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Draw a circle in the sand with your finger, slowly, and say \"round and round\". Children: Children watch and trace the circle with their own fingers.",
+        "Step 2. Teacher: Give each child a tray. Say \"Draw a round shape.\" Children: Child draws in the sand with a finger.",
+        "Step 3. Teacher: Show a paper circle and match it to the one in the sand. Children: Child compares and points to the match.",
+        "Step 4. Teacher: Wipe the trays and try again with a bigger circle. Children: Child draws a larger circle and shows a friend."
+      ],
+      "practical": {
+        "title": "Sand circle trays",
+        "steps": [
+          "Give each child a shallow tray of sand.",
+          "Draw round shapes with a finger.",
+          "Gently shake the tray to wipe it clean."
+        ],
+        "safety": "Use clean, dry sand or flour; tell children not to eat it or throw it. Wash hands afterwards."
+      },
+      "differentiation": {
+        "support": "Use hand-over-hand tracing around a paper circle.",
+        "extension": "Ask the child to draw two circles and say which is bigger."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you draw round?",
+            "expected": "Child draws a round shape."
+          },
+          {
+            "question": "What shape is this?",
+            "expected": "Circle or round."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Draws or traces a circle shape",
+        "Names the circle"
+      ],
+      "conclusion": "Wipe the sand smooth and say \"All gone circle. Goodbye.\"",
+      "homeConnection": "Trace around a plate or a cup with your child to make a circle.",
+      "teacherReflection": [
+        "Which children could show \"trace and draw a circle in sand or on a tray\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Circle (large)"
+        ],
+        "pictures": [
+          "A circle in sand"
+        ]
+      },
+      "activities": [
+        "Sand circle trays"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W08-D04",
+      "title": "Circles in the market",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 8,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Shape",
+      "subtopic": "Circles all around us",
+      "dayType": "apply",
+      "objectives": [
+        "Children will find circles in a pretend market and in the outdoor environment."
+      ],
+      "successCriteria": [
+        "Points to circles in a play market",
+        "Says circle or round in play"
+      ],
+      "previousKnowledge": "Children can count to three with real things and sort by colour, size and kind.",
+      "vocabulary": [
+        "circle",
+        "round",
+        "roll",
+        "ball",
+        "wheel"
+      ],
+      "resources": [
+        "Toy oranges, tomatoes, a round tray, a plate, a bowl",
+        "A play market stall",
+        "A basket"
+      ],
+      "starter": "Set up the market and say \"Today the market sells round things only. Can you help me find them?\"",
+      "teacherActivities": [
+        "Show an orange and a tomato. Say \"Round like a ball. A circle.\"",
+        "Ask a child to be the customer and buy something round from the stall.",
+        "Swap roles and let others buy round things and name them.",
+        "Take the group outdoors and point out round things such as a wheel or a tin."
+      ],
+      "learnerActivities": [
+        "Children touch the fruits and say \"round\".",
+        "Child picks a round object and gives it to the trader.",
+        "Children buy and say \"round\" or \"circle\".",
+        "Children find and name round things outside."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show an orange and a tomato. Say \"Round like a ball. A circle.\" Children: Children touch the fruits and say \"round\".",
+        "Step 2. Teacher: Ask a child to be the customer and buy something round from the stall. Children: Child picks a round object and gives it to the trader.",
+        "Step 3. Teacher: Swap roles and let others buy round things and name them. Children: Children buy and say \"round\" or \"circle\".",
+        "Step 4. Teacher: Take the group outdoors and point out round things such as a wheel or a tin. Children: Children find and name round things outside."
+      ],
+      "practical": {
+        "title": "Round market",
+        "steps": [
+          "Place a mix of round and not round objects on the stall.",
+          "Children buy only round things.",
+          "They tell the trader what they bought."
+        ],
+        "safety": "Use toy or washed fruits that cannot be swallowed. Hold the outdoor walk within a fenced, supervised area."
+      },
+      "differentiation": {
+        "support": "Offer only two items and guide the child to choose the round one.",
+        "extension": "Ask the child to sell something round to a friend and name it."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What round thing did you buy?",
+            "expected": "The name of the object."
+          },
+          {
+            "question": "Is this a circle?",
+            "expected": "Yes or no depending on the object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds circles in play",
+        "Uses round and circle"
+      ],
+      "conclusion": "Put all round things in the basket and say \"Circle, circle, round.\"",
+      "homeConnection": "Spot round things when you go to the market, such as oranges and wheels.",
+      "teacherReflection": [
+        "Which children could show \"find circles in a pretend market and in the outdoor environment\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Round market"
+        ],
+        "pictures": [
+          "A market stall with round things"
+        ]
+      },
+      "activities": [
+        "Round market"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W08-D05",
+      "title": "Round things stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 8,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Shape",
+      "subtopic": "Rolling and not rolling",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will find, roll and trace circles at three stations."
+      ],
+      "successCriteria": [
+        "Points to round things",
+        "Says round or circle"
+      ],
+      "previousKnowledge": "Children can count to three with real things and sort by colour, size and kind.",
+      "vocabulary": [
+        "circle",
+        "round",
+        "roll",
+        "ball",
+        "wheel"
+      ],
+      "resources": [
+        "Station 1: round hunt basket",
+        "Station 2: roll and not roll",
+        "Station 3: sand circle trays",
+        "Class record sheet"
+      ],
+      "starter": "Sing the circle song and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station.",
+        "Ask each observed child \"Which is round?\" and \"Does it roll?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child points and answers.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station. Children: Children play at each station.",
+        "Step 2. Teacher: Ask each observed child \"Which is round?\" and \"Does it roll?\" Children: Child points and answers.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Remove small items; supervise every station."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask the child to lead a friend in the roll test."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: points to round objects; says circle or round; tests roll and not roll.",
+        "questions": [
+          {
+            "question": "Show me something round.",
+            "expected": "Child points to a round object."
+          },
+          {
+            "question": "Does the box roll?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Names and finds circles"
+      ],
+      "conclusion": "Sing the circle song and draw a big circle in the air together.",
+      "homeConnection": "Look for round things on the way home and name them.",
+      "teacherReflection": [
+        "Which children could show \"find, roll and trace circles at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Circle"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

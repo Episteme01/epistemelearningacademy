@@ -1,0 +1,605 @@
+{
+  "id": "ELA-PS-TOD-NUM-T1-W06",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 6,
+  "title": "Number rhymes to three",
+  "topic": "Counting",
+  "subtopics": [
+    "One, two, three rhymes with actions",
+    "Fingers and toes counting",
+    "Number rhyme and movement"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will join in a counting rhyme to three with actions.",
+    "Children will show one, two and three fingers with help."
+  ],
+  "vocabulary": [
+    "one",
+    "two",
+    "three",
+    "count",
+    "fingers"
+  ],
+  "content": "Saying one, two, three in order inside rhymes and action games, and showing one, two or three fingers.",
+  "teachingActivities": "Lead each rhyme with big gestures and a steady beat; repeat each rhyme daily so children know it by heart; show fingers slowly as you say each number.",
+  "learnerActivities": "Say, clap, stamp and jump the numbers one to three; show fingers; join the rhyme with a friend.",
+  "resources": [
+    "Drum or shaker",
+    "Three soft toys",
+    "Three plastic cups",
+    "Picture cards of one, two and three fingers",
+    "A bag of large wooden blocks"
+  ],
+  "assessment": "Listen for who joins the rhyme and who shows fingers; note on the class record.",
+  "expectedOutcomes": [
+    "Joins in saying one, two, three in a rhyme.",
+    "Shows the number of fingers with support."
+  ],
+  "crossCurricular": [
+    "Literacy: rhyme, rhythm and voice play",
+    "Physical Development: clapping, stamping and jumping",
+    "Social Habits: joining a group song"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W06-D01",
+      "title": "One, two, three, clap with me",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "One, two, three rhymes with actions",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will join in saying one, two, three with a clap for each number."
+      ],
+      "successCriteria": [
+        "Claps once for each number word",
+        "Says or whispers at least one number word"
+      ],
+      "previousKnowledge": "Children can take one object, tell one from lots, and join in short songs with actions.",
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "count",
+        "fingers"
+      ],
+      "resources": [
+        "A drum",
+        "A mat",
+        "Three picture cards: one clap, two claps, three claps"
+      ],
+      "starter": "Beat the drum slowly, three beats, and whisper \"One, two, three.\" Smile and wait. Beat again and invite the children to whisper with you.",
+      "teacherActivities": [
+        "Say the rhyme slowly with a clap on each number: \"One, clap! Two, clap! Three, clap! Clap with me!\" Repeat it three times.",
+        "Hold up one finger on \"one\", two on \"two\", three on \"three\" as you say them again.",
+        "Beat the drum three times and stop. Ask \"Can you clap three?\" and wait.",
+        "Invite one child at a time to beat the drum while the group says the numbers."
+      ],
+      "learnerActivities": [
+        "Children watch, then clap with you and say the numbers they know.",
+        "Children copy the fingers, helped by a friend or adult if needed.",
+        "Children clap and say \"three\" or \"more\" if they want another turn.",
+        "Child beats one, two, three; the group says each number aloud."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say the rhyme slowly with a clap on each number: \"One, clap! Two, clap! Three, clap! Clap with me!\" Repeat it three times. Children: Children watch, then clap with you and say the numbers they know.",
+        "Step 2. Teacher: Hold up one finger on \"one\", two on \"two\", three on \"three\" as you say them again. Children: Children copy the fingers, helped by a friend or adult if needed.",
+        "Step 3. Teacher: Beat the drum three times and stop. Ask \"Can you clap three?\" and wait. Children: Children clap and say \"three\" or \"more\" if they want another turn.",
+        "Step 4. Teacher: Invite one child at a time to beat the drum while the group says the numbers. Children: Child beats one, two, three; the group says each number aloud."
+      ],
+      "practical": {
+        "title": "Clap and count circle",
+        "steps": [
+          "Sit in a circle with one drum.",
+          "Pass the drum; each child plays one, two or three beats as the group says the numbers.",
+          "Everyone claps the final \"three\"."
+        ],
+        "safety": "Use a soft-tipped drumstick or hands only; keep the volume gentle for children sensitive to noise."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hands and clap them gently on each number while saying it slowly.",
+        "extension": "Ask the child to beat the drum and say the numbers alone for the group."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you clap one, two, three?",
+            "expected": "Child claps three times, even if numbers are said with help."
+          },
+          {
+            "question": "Show me two fingers.",
+            "expected": "Child holds up two fingers or copies a friend."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Claps once for each number word",
+        "Joins in saying one, two, three"
+      ],
+      "conclusion": "Beat the drum three slow beats. Whisper \"One, two, three, goodbye.\" Children tiptoe to the next activity.",
+      "homeConnection": "Clap and say \"one, two, three\" with your child while waiting, walking or washing dishes together.",
+      "teacherReflection": [
+        "Which children could show \"join in saying one, two, three with a clap for each number\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 2 3 (three big dots)",
+          "Clap! Clap! Clap!"
+        ],
+        "pictures": [
+          "Children clapping in a circle",
+          "A hand with one, two and three fingers"
+        ],
+        "songOrRhyme": "One, clap! Two, clap! Three, clap! Clap with me! One, two, three, clap with me!"
+      },
+      "activities": [
+        "Clap and count circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W06-D02",
+      "title": "Three little fingers",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Fingers and toes counting",
+      "dayType": "explore",
+      "objectives": [
+        "Children will show one, two or three fingers when a number is called."
+      ],
+      "successCriteria": [
+        "Shows a finger or more on request",
+        "Looks at the teacher’s fingers to copy"
+      ],
+      "previousKnowledge": "Children can take one object, tell one from lots, and join in short songs with actions.",
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "count",
+        "fingers"
+      ],
+      "resources": [
+        "Picture cards of hands with one, two and three fingers",
+        "A mirror (optional)",
+        "A mat"
+      ],
+      "starter": "Wiggle one finger and say \"Hello, one finger!\" Add a second: \"Hello, two fingers!\" Add a third. Let the children wiggle their own.",
+      "teacherActivities": [
+        "Sing the finger rhyme slowly, holding up one finger at a time. Pause after each number.",
+        "Call \"Show me two!\" Hold up two fingers yourself, then hide them and ask again.",
+        "Show a picture card and ask \"How many fingers can you see?\"",
+        "Play the \"hide and show\" game: hide your hands behind your back, then show fingers while saying the number."
+      ],
+      "learnerActivities": [
+        "Children copy by holding up a finger at each number.",
+        "Children show two fingers and look at a friend to check.",
+        "Children point to the card and show the same number on their own hands.",
+        "Children shout the number or show it with their fingers."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing the finger rhyme slowly, holding up one finger at a time. Pause after each number. Children: Children copy by holding up a finger at each number.",
+        "Step 2. Teacher: Call \"Show me two!\" Hold up two fingers yourself, then hide them and ask again. Children: Children show two fingers and look at a friend to check.",
+        "Step 3. Teacher: Show a picture card and ask \"How many fingers can you see?\" Children: Children point to the card and show the same number on their own hands.",
+        "Step 4. Teacher: Play the \"hide and show\" game: hide your hands behind your back, then show fingers while saying the number. Children: Children shout the number or show it with their fingers."
+      ],
+      "practical": {
+        "title": "Finger show",
+        "steps": [
+          "Sit in pairs facing each other.",
+          "One child shows fingers; the partner copies.",
+          "Swap after three turns."
+        ],
+        "safety": "Check that children are seated comfortably and keep hands away from faces to avoid poking eyes."
+      },
+      "differentiation": {
+        "support": "Use only one and two fingers, and show them on the child’s hand while naming them.",
+        "extension": "Ask the child to show three fingers in two different ways, such as on one hand or on both hands."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Show me three fingers.",
+            "expected": "Child shows three fingers, possibly after copying."
+          },
+          {
+            "question": "How many fingers on the card?",
+            "expected": "Child says or shows the number."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows one, two or three fingers",
+        "Copies a partner’s fingers"
+      ],
+      "conclusion": "Fold all fingers away and wave them hello and goodbye. Say \"One, two, three, fingers sleep.\"",
+      "homeConnection": "Play \"show me two\" at the dinner table and take turns showing fingers.",
+      "teacherReflection": [
+        "Which children could show \"show one, two or three fingers when a number is called\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 finger",
+          "2 fingers",
+          "3 fingers (hand pictures)"
+        ],
+        "pictures": [
+          "Hands with one, two and three fingers",
+          "Two children copying fingers"
+        ],
+        "songOrRhyme": "One little finger wiggling up. Two little fingers say hello. Three little fingers, count with me, then sleep, sleep, sleep."
+      },
+      "activities": [
+        "Finger show"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W06-D03",
+      "title": "Jump, stamp, one, two, three",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Number rhyme and movement",
+      "dayType": "practise",
+      "objectives": [
+        "Children will jump or stamp once for each number as they say it in a rhyme."
+      ],
+      "successCriteria": [
+        "Moves their body once for each number",
+        "Stops at three"
+      ],
+      "previousKnowledge": "Children can take one object, tell one from lots, and join in short songs with actions.",
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "count",
+        "fingers"
+      ],
+      "resources": [
+        "An open floor space or a mat",
+        "A drum or shaker",
+        "Three cones or soft markers"
+      ],
+      "starter": "Stand in a big circle and stamp your foot once. Say \"One.\" Stamp twice and say \"One, two.\" Ask \"Can we stamp to three?\"",
+      "teacherActivities": [
+        "Teach the jump rhyme: \"Jump one, jump two, jump three, stop!\" Do it slowly with a small hop on each number and a freeze on \"stop\".",
+        "Change the action to stamp, clap and tiptoe. Keep the rhyme the same.",
+        "Place three cones in a line. Say \"Jump to one, jump to two, jump to three.\"",
+        "End with a calm action: \"Breathe one, breathe two, breathe three.\" Place a hand on your tummy."
+      ],
+      "learnerActivities": [
+        "Children jump gently and freeze with you.",
+        "Children use a different movement each round.",
+        "Children hop from cone to cone, saying the numbers.",
+        "Children breathe slowly and place hands on their tummies."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Teach the jump rhyme: \"Jump one, jump two, jump three, stop!\" Do it slowly with a small hop on each number and a freeze on \"stop\". Children: Children jump gently and freeze with you.",
+        "Step 2. Teacher: Change the action to stamp, clap and tiptoe. Keep the rhyme the same. Children: Children use a different movement each round.",
+        "Step 3. Teacher: Place three cones in a line. Say \"Jump to one, jump to two, jump to three.\" Children: Children hop from cone to cone, saying the numbers.",
+        "Step 4. Teacher: End with a calm action: \"Breathe one, breathe two, breathe three.\" Place a hand on your tummy. Children: Children breathe slowly and place hands on their tummies."
+      ],
+      "practical": {
+        "title": "Cone hop",
+        "steps": [
+          "Set three cones a child’s step apart.",
+          "One child at a time hops from cone to cone while the group says the numbers.",
+          "The child sits down at three."
+        ],
+        "safety": "Keep cones soft and well spaced; barefoot or non-slip footwear on a dry, clear floor. Walk children to the end of the line so no one runs."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and step together from cone to cone.",
+        "extension": "Ask the child to jump to three, then back to one, saying each number."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many jumps?",
+            "expected": "Child says or shows three."
+          },
+          {
+            "question": "Can you stop at three?",
+            "expected": "Child freezes after the third jump."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Moves once for each number word",
+        "Stops at three on request"
+      ],
+      "conclusion": "Do the calm breathing round, then sit. Whisper \"One, two, three, we are all sitting.\"",
+      "homeConnection": "On the way to the gate or market, take three big steps and say the numbers together.",
+      "teacherReflection": [
+        "Which children could show \"jump or stamp once for each number as they say it in a rhyme\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Jump 1, jump 2, jump 3, STOP"
+        ],
+        "pictures": [
+          "Three cones in a line",
+          "A child hopping"
+        ],
+        "songOrRhyme": "Jump one, jump two, jump three, stop! Stamp one, stamp two, stamp three, stop!"
+      },
+      "activities": [
+        "Cone hop"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W06-D04",
+      "title": "The three little goats",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "One, two, three rhymes with actions",
+      "dayType": "apply",
+      "objectives": [
+        "Children will listen to a story with three characters and say one, two, three as each appears."
+      ],
+      "successCriteria": [
+        "Says or shows a number as each goat appears",
+        "Joins in the chorus"
+      ],
+      "previousKnowledge": "Children can take one object, tell one from lots, and join in short songs with actions.",
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "count",
+        "fingers"
+      ],
+      "resources": [
+        "Three toy goats, or three puppets, or three picture cards of goats",
+        "A basket",
+        "A green cloth for grass"
+      ],
+      "starter": "Spread the green cloth. Cover the three toy goats with a second cloth and say \"What is hiding? Let us count them when they come out.\"",
+      "teacherActivities": [
+        "Reveal the first goat on \"One little goat.\" Move it across the cloth and say \"Maa, maa!\".",
+        "Bring the second goat on \"Two little goats came along\". Place it beside the first.",
+        "Bring the third goat for \"three little goats ate the grass\".",
+        "Put the goats to bed one by one: \"Goodnight, one. Goodnight, two. Goodnight, three.\""
+      ],
+      "learnerActivities": [
+        "Children say \"one\" and \"maa, maa\".",
+        "Children say \"two\" and make the goat sound.",
+        "Children say \"three\" and pretend to eat grass.",
+        "Children whisper each number and wave goodnight."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Reveal the first goat on \"One little goat.\" Move it across the cloth and say \"Maa, maa!\". Children: Children say \"one\" and \"maa, maa\".",
+        "Step 2. Teacher: Bring the second goat on \"Two little goats came along\". Place it beside the first. Children: Children say \"two\" and make the goat sound.",
+        "Step 3. Teacher: Bring the third goat for \"three little goats ate the grass\". Children: Children say \"three\" and pretend to eat grass.",
+        "Step 4. Teacher: Put the goats to bed one by one: \"Goodnight, one. Goodnight, two. Goodnight, three.\" Children: Children whisper each number and wave goodnight."
+      ],
+      "practical": {
+        "title": "Goat parade",
+        "steps": [
+          "Give each child one toy goat.",
+          "Ask \"Who has goat one?\" and let the groups stand together.",
+          "March around the room while saying the story chorus."
+        ],
+        "safety": "Use toy goats larger than a child’s fist. Walk in a line and keep a safe distance from walls and furniture."
+      },
+      "differentiation": {
+        "support": "Tell the story with only two goats and add the third later.",
+        "extension": "Ask the child to tell the story to a friend using the toy goats."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many goats ate the grass?",
+            "expected": "Three."
+          },
+          {
+            "question": "Which goat came first?",
+            "expected": "The first goat or one."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says or shows a number for each character",
+        "Joins in a story chorus"
+      ],
+      "conclusion": "Cover the goats with the cloth and whisper \"Goodnight, goats.\" Count them one last time as they go into the basket.",
+      "homeConnection": "Tell the goat story at bedtime using three spoons or three toys.",
+      "teacherReflection": [
+        "Which children could show \"listen to a story with three characters and say one, two, three as each appears\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Goat 1",
+          "Goat 2",
+          "Goat 3"
+        ],
+        "pictures": [
+          "Three goats on green grass",
+          "The goats at bedtime"
+        ],
+        "songOrRhyme": "Maa, maa, one little goat. Maa, maa, two little goats. Maa, maa, three little goats, goodnight.",
+        "story": "One little goat walked on the green grass. Maa, maa! Two little goats came along. Maa, maa! Three little goats ate the grass together. Maa, maa, maa! Then the sun went down and the three little goats went home to sleep. Goodnight, one. Goodnight, two. Goodnight, three."
+      },
+      "activities": [
+        "Goat parade"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W06-D05",
+      "title": "Number rhyme stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Fingers and toes counting",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can say, clap and show numbers one to three at three stations."
+      ],
+      "successCriteria": [
+        "Joins the rhyme at a station",
+        "Shows one, two or three fingers or claps"
+      ],
+      "previousKnowledge": "Children can take one object, tell one from lots, and join in short songs with actions.",
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "count",
+        "fingers"
+      ],
+      "resources": [
+        "Station 1: drum and clapping cards",
+        "Station 2: finger picture cards",
+        "Station 3: three toy goats and a green cloth",
+        "Class record sheet"
+      ],
+      "starter": "Sing \"One, clap! Two, clap! Three, clap!\" while walking to the first station. Say \"Today we play the number games with a friend.\"",
+      "teacherActivities": [
+        "Split the children into three groups. Spend four minutes at each station.",
+        "At the clapping station, ask \"Can you clap three?\" and note who counts the claps.",
+        "At the finger station, ask \"Show me two\" and \"Show me three\" and note who copies correctly.",
+        "At the goat station, ask \"How many goats?\" after you place goats on the cloth."
+      ],
+      "learnerActivities": [
+        "Children play at each station with a partner.",
+        "Child claps and says the numbers.",
+        "Child shows the numbers on fingers.",
+        "Child points to or counts the goats."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Split the children into three groups. Spend four minutes at each station. Children: Children play at each station with a partner.",
+        "Step 2. Teacher: At the clapping station, ask \"Can you clap three?\" and note who counts the claps. Children: Child claps and says the numbers.",
+        "Step 3. Teacher: At the finger station, ask \"Show me two\" and \"Show me three\" and note who copies correctly. Children: Child shows the numbers on fingers.",
+        "Step 4. Teacher: At the goat station, ask \"How many goats?\" after you place goats on the cloth. Children: Child points to or counts the goats."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations with everything ready.",
+          "Ring a soft bell to signal each move.",
+          "Teacher records at one station per round."
+        ],
+        "safety": "Keep walkways clear; the drum is played by one child at a time; supervise every station."
+      },
+      "differentiation": {
+        "support": "Keep a child at one station with an adult for the whole time if transitions are hard.",
+        "extension": "Ask a confident child to lead the clapping rhyme for the group."
+      },
+      "assessment": {
+        "method": "Observe each child at the stations. Record Emerging, Developing, Secure or Exceeding for: joins the number rhyme; shows one, two or three fingers; claps or moves once for each number.",
+        "questions": [
+          {
+            "question": "Can you clap three?",
+            "expected": "Child claps three times."
+          },
+          {
+            "question": "Show me two.",
+            "expected": "Child shows two fingers or claps two."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Joins counting rhymes to three"
+      ],
+      "conclusion": "Gather the group and sing the clapping rhyme together. Let each child choose a favourite action for the last verse.",
+      "homeConnection": "Send home the clapping rhyme text and ask families to clap one, two, three daily.",
+      "teacherReflection": [
+        "Which children could show \"show they can say, clap and show numbers one to three at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1, 2, 3"
+        ],
+        "pictures": [
+          "Photos of the three stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

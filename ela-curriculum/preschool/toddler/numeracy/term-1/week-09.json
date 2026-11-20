@@ -1,0 +1,601 @@
+{
+  "id": "ELA-PS-TOD-NUM-T1-W09",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 9,
+  "title": "Where is it?",
+  "topic": "Position",
+  "subtopics": [
+    "In and on",
+    "Under",
+    "Hide and find games"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will follow instructions using in, on and under.",
+    "Children will say where a hidden object is using one position word."
+  ],
+  "vocabulary": [
+    "in",
+    "on",
+    "under",
+    "where",
+    "hide",
+    "find"
+  ],
+  "content": "Understanding and using in, on and under in play, hide and find games and routines.",
+  "teachingActivities": "Say the position word as you place the object; always pair the word with a clear action; ask \"Where is it?\" and wait.",
+  "learnerActivities": "Put objects in, on and under; hide and find a toy; say where an object is with one word.",
+  "resources": [
+    "A box, a basket, a table or low bench, a cloth",
+    "Soft toys and a ball",
+    "Three cups",
+    "A tunnel or large cardboard box"
+  ],
+  "assessment": "Check whether children follow in, on and under instructions and use a position word to say where.",
+  "expectedOutcomes": [
+    "Places an object in, on or under on request.",
+    "Uses a position word to say where."
+  ],
+  "crossCurricular": [
+    "Literacy: simple phrases and questions",
+    "Physical Development: crawling and moving through spaces",
+    "Social Habits: giving and following instructions"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W09-D01",
+      "title": "In the box, on the box",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 9,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Position",
+      "subtopic": "In and on",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will put an object in or on a box on request."
+      ],
+      "successCriteria": [
+        "Places an object in the box",
+        "Places an object on the box"
+      ],
+      "previousKnowledge": "Children can follow simple instructions and name big, small, round and counting numbers to three.",
+      "vocabulary": [
+        "in",
+        "on",
+        "under",
+        "where",
+        "hide",
+        "find"
+      ],
+      "resources": [
+        "A large box",
+        "A ball and a soft toy",
+        "A mat"
+      ],
+      "starter": "Hold up a ball and a box. Say \"Where shall I put the ball?\" Put the ball in the box and say \"In!\" Then place it on top and say \"On!\"",
+      "teacherActivities": [
+        "Put the ball in the box and say \"In the box.\" Take it out and put it on the box, saying \"On the box.\"",
+        "Give a child the soft toy and say \"Put Teddy in the box.\"",
+        "Say \"Now put Teddy on the box.\"",
+        "Mix up the instructions: \"On, in, in, on.\""
+      ],
+      "learnerActivities": [
+        "Children watch and say \"in\" and \"on\".",
+        "Child places the toy in the box.",
+        "Child places the toy on the box.",
+        "Children follow each instruction in turn."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the ball in the box and say \"In the box.\" Take it out and put it on the box, saying \"On the box.\" Children: Children watch and say \"in\" and \"on\".",
+        "Step 2. Teacher: Give a child the soft toy and say \"Put Teddy in the box.\" Children: Child places the toy in the box.",
+        "Step 3. Teacher: Say \"Now put Teddy on the box.\" Children: Child places the toy on the box.",
+        "Step 4. Teacher: Mix up the instructions: \"On, in, in, on.\" Children: Children follow each instruction in turn."
+      ],
+      "practical": {
+        "title": "In and on game",
+        "steps": [
+          "Give each child a small soft toy.",
+          "Call \"in\" or \"on\" and children place the toy accordingly.",
+          "Swap toys with a friend."
+        ],
+        "safety": "Use a stable, low box that cannot tip. Keep children seated or standing near the box, not climbing on it."
+      },
+      "differentiation": {
+        "support": "Show with hand-over-hand and use only one word at a time.",
+        "extension": "Ask the child to give an in or on instruction to a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you put the ball in the box?",
+            "expected": "Child puts the ball inside."
+          },
+          {
+            "question": "Where is Teddy now?",
+            "expected": "On or in the box, said with a word or gesture."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows in and on instructions",
+        "Says in or on with prompting"
+      ],
+      "conclusion": "Tidy toys in the box saying \"In, in, in\" until the box is full.",
+      "homeConnection": "At tidy-up time, ask your child to put toys in the basket or on the shelf.",
+      "teacherReflection": [
+        "Which children could show \"put an object in or on a box on request\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "IN the box",
+          "ON the box"
+        ],
+        "pictures": [
+          "A ball in a box",
+          "A ball on a box"
+        ],
+        "songOrRhyme": "In the box, on the box, in, in, in. On the box, in the box, on, on, on."
+      },
+      "activities": [
+        "In and on game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W09-D02",
+      "title": "Hide under the cloth",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 9,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Position",
+      "subtopic": "Under",
+      "dayType": "explore",
+      "objectives": [
+        "Children will place and find objects under a cloth or cup."
+      ],
+      "successCriteria": [
+        "Puts an object under a cloth",
+        "Lifts the cloth and says where it is"
+      ],
+      "previousKnowledge": "Children can follow simple instructions and name big, small, round and counting numbers to three.",
+      "vocabulary": [
+        "in",
+        "on",
+        "under",
+        "where",
+        "hide",
+        "find"
+      ],
+      "resources": [
+        "A large cloth",
+        "Three plastic cups",
+        "A small soft toy",
+        "A mat"
+      ],
+      "starter": "Put a toy under a cloth. Say \"Where is the toy? It is under the cloth!\" Lift the cloth and say \"Here it is!\"",
+      "teacherActivities": [
+        "Hide a toy under a cup. Say \"Under the cup.\" Lift the cup to show.",
+        "Let a child hide a toy under one of three cups while others close their eyes.",
+        "Guess \"Where is the toy?\" and lift the right cup.",
+        "Hide the toy under a cloth and under a mat and ask again."
+      ],
+      "learnerActivities": [
+        "Children watch and say \"under\".",
+        "Child hides the toy and the others guess.",
+        "Children point to the cup and say \"under\".",
+        "Children say where it is."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hide a toy under a cup. Say \"Under the cup.\" Lift the cup to show. Children: Children watch and say \"under\".",
+        "Step 2. Teacher: Let a child hide a toy under one of three cups while others close their eyes. Children: Child hides the toy and the others guess.",
+        "Step 3. Teacher: Guess \"Where is the toy?\" and lift the right cup. Children: Children point to the cup and say \"under\".",
+        "Step 4. Teacher: Hide the toy under a cloth and under a mat and ask again. Children: Children say where it is."
+      ],
+      "practical": {
+        "title": "Under game",
+        "steps": [
+          "Use three cups and one toy.",
+          "One child hides the toy while the others cover their eyes.",
+          "They find it and say \"under\"."
+        ],
+        "safety": "Use cups with no sharp edges; keep the toy larger than a child’s fist; seat children on the mat."
+      },
+      "differentiation": {
+        "support": "Use one cup so the toy is easy to find.",
+        "extension": "Ask the child to hide two toys under two cups and say where each is."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is the toy?",
+            "expected": "Under the cup."
+          },
+          {
+            "question": "Can you put it under the cloth?",
+            "expected": "Child puts the toy under the cloth."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Understands under",
+        "Finds a hidden object"
+      ],
+      "conclusion": "Hide a toy under the cloth for the last time and say \"Goodbye, toy.\"",
+      "homeConnection": "Hide a toy under a cushion or a cloth and ask your child to find it.",
+      "teacherReflection": [
+        "Which children could show \"place and find objects under a cloth or cup\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "UNDER the cup"
+        ],
+        "pictures": [
+          "A toy under a cup"
+        ]
+      },
+      "activities": [
+        "Under game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W09-D03",
+      "title": "In, on, under tunnel and table",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 9,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Position",
+      "subtopic": "Hide and find games",
+      "dayType": "practise",
+      "objectives": [
+        "Children will move themselves and objects in, on and under to follow instructions."
+      ],
+      "successCriteria": [
+        "Follows in, on and under instructions",
+        "Uses a position word in response"
+      ],
+      "previousKnowledge": "Children can follow simple instructions and name big, small, round and counting numbers to three.",
+      "vocabulary": [
+        "in",
+        "on",
+        "under",
+        "where",
+        "hide",
+        "find"
+      ],
+      "resources": [
+        "A low table or bench",
+        "A large cardboard box or tunnel",
+        "A soft toy"
+      ],
+      "starter": "Say \"Teddy wants to play hide and find. Is Teddy in the tunnel, on the table, or under the table?\"",
+      "teacherActivities": [
+        "Place Teddy in the tunnel. Say \"Teddy is in the tunnel.\" Let children peek inside.",
+        "Move Teddy to the table. \"Teddy is on the table.\"",
+        "Move Teddy under the table. \"Teddy is under the table.\"",
+        "Give a child an instruction: \"Crawl under the table\" or \"Climb into the tunnel\"."
+      ],
+      "learnerActivities": [
+        "Children peek and say \"in\".",
+        "Children point and say \"on\".",
+        "Children crouch to look and say \"under\".",
+        "Child follows the instruction safely."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Place Teddy in the tunnel. Say \"Teddy is in the tunnel.\" Let children peek inside. Children: Children peek and say \"in\".",
+        "Step 2. Teacher: Move Teddy to the table. \"Teddy is on the table.\" Children: Children point and say \"on\".",
+        "Step 3. Teacher: Move Teddy under the table. \"Teddy is under the table.\" Children: Children crouch to look and say \"under\".",
+        "Step 4. Teacher: Give a child an instruction: \"Crawl under the table\" or \"Climb into the tunnel\". Children: Child follows the instruction safely."
+      ],
+      "practical": {
+        "title": "In, on, under circuit",
+        "steps": [
+          "Set up a tunnel, a bench and a table in a line.",
+          "Children follow the instruction to move in, on or under.",
+          "An adult stays beside each child."
+        ],
+        "safety": "Use a stable, low table; children crawl only, never climb on the table. Keep the tunnel open at both ends."
+      },
+      "differentiation": {
+        "support": "Use only the tunnel and say \"in\" each time.",
+        "extension": "Ask the child to give a friend an instruction using in, on or under."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is Teddy?",
+            "expected": "In, on or under, depending on where Teddy is."
+          },
+          {
+            "question": "Can you go under the table?",
+            "expected": "Child crawls under safely."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Moves in, on and under",
+        "Says one position word"
+      ],
+      "conclusion": "Put Teddy to bed on a cushion and say \"Goodnight, Teddy.\"",
+      "homeConnection": "Play \"where is the toy?\" at home using tables, chairs and baskets.",
+      "teacherReflection": [
+        "Which children could show \"move themselves and objects in, on and under to follow instructions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "IN the tunnel",
+          "ON the table",
+          "UNDER the table"
+        ],
+        "pictures": [
+          "A tunnel, a table and a toy"
+        ]
+      },
+      "activities": [
+        "In, on, under circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W09-D04",
+      "title": "Where is Teddy?",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 9,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Position",
+      "subtopic": "Hide and find games",
+      "dayType": "apply",
+      "objectives": [
+        "Children will say where a hidden object is using one position word."
+      ],
+      "successCriteria": [
+        "Uses one position word to say where",
+        "Finds a hidden object"
+      ],
+      "previousKnowledge": "Children can follow simple instructions and name big, small, round and counting numbers to three.",
+      "vocabulary": [
+        "in",
+        "on",
+        "under",
+        "where",
+        "hide",
+        "find"
+      ],
+      "resources": [
+        "A soft toy named Teddy",
+        "A box, a cloth and a table",
+        "A basket"
+      ],
+      "starter": "Hold Teddy and say \"Teddy is hiding. Who can find him?\" Hide Teddy while the children close their eyes.",
+      "teacherActivities": [
+        "Tell the story while hiding Teddy in each place. Pause and ask \"Where is Teddy?\"",
+        "Let each child hide Teddy while the others cover their eyes.",
+        "Ask \"Where is he?\" and accept one word or a gesture.",
+        "Play again with a different toy."
+      ],
+      "learnerActivities": [
+        "Children say \"in\", \"on\" or \"under\".",
+        "Child hides Teddy and the others look.",
+        "Child answers with a word or points.",
+        "Children hide and find the toy with a friend."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the story while hiding Teddy in each place. Pause and ask \"Where is Teddy?\" Children: Children say \"in\", \"on\" or \"under\".",
+        "Step 2. Teacher: Let each child hide Teddy while the others cover their eyes. Children: Child hides Teddy and the others look.",
+        "Step 3. Teacher: Ask \"Where is he?\" and accept one word or a gesture. Children: Child answers with a word or points.",
+        "Step 4. Teacher: Play again with a different toy. Children: Children hide and find the toy with a friend."
+      ],
+      "practical": {
+        "title": "Hide and find",
+        "steps": [
+          "One child hides a toy in, on or under something.",
+          "The others find it and say where.",
+          "Swap hiders and play again."
+        ],
+        "safety": "Keep hiding places low and safe, such as under a cloth or in a box; do not hide toys on high shelves."
+      },
+      "differentiation": {
+        "support": "Hide the toy in plain view and say the position word for the child.",
+        "extension": "Ask the child to give a clue: \"It is under something blue.\""
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is Teddy?",
+            "expected": "In the box, on the table or under the cloth."
+          },
+          {
+            "question": "Who can find him?",
+            "expected": "Child finds the toy."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says where an object is",
+        "Hides and finds in a game"
+      ],
+      "conclusion": "Sing \"Where is Teddy?\" and wave goodbye to him.",
+      "homeConnection": "Play hide and find at home and ask \"Where is it?\"",
+      "teacherReflection": [
+        "Which children could show \"say where a hidden object is using one position word\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Where is Teddy?"
+        ],
+        "pictures": [
+          "Teddy hiding in a box, on a table and under a cloth"
+        ],
+        "songOrRhyme": "Where, where is Teddy? In the box! Where, where is Teddy? On the table! Where, where is Teddy? Under the cloth!",
+        "story": "Teddy went to play hide and find. He hid in the box. Where is Teddy? In the box! Then Teddy hid on the table. Where is Teddy? On the table! Then Teddy hid under the cloth. Where is Teddy? Under the cloth! Teddy came out and said, \"Here I am!\""
+      },
+      "activities": [
+        "Hide and find"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W09-D05",
+      "title": "Position stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 9,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Position",
+      "subtopic": "Hide and find games",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will follow in, on and under instructions at three stations."
+      ],
+      "successCriteria": [
+        "Follows in, on and under instructions",
+        "Says where an object is"
+      ],
+      "previousKnowledge": "Children can follow simple instructions and name big, small, round and counting numbers to three.",
+      "vocabulary": [
+        "in",
+        "on",
+        "under",
+        "where",
+        "hide",
+        "find"
+      ],
+      "resources": [
+        "Station 1: box and toys",
+        "Station 2: cups and cloth",
+        "Station 3: tunnel and table",
+        "Class record sheet"
+      ],
+      "starter": "Sing \"Where is Teddy?\" and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station.",
+        "Ask each observed child to put an object in, on and under.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child follows each instruction.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station. Children: Children play at each station.",
+        "Step 2. Teacher: Ask each observed child to put an object in, on and under. Children: Child follows each instruction.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Remove small items and keep climbing off the furniture."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask the child to lead a friend in hide and find."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: follows in, on and under instructions; says where an object is.",
+        "questions": [
+          {
+            "question": "Put the ball under the cup.",
+            "expected": "Child places the ball under the cup."
+          },
+          {
+            "question": "Where is the ball?",
+            "expected": "Under the cup, said or pointed."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Uses in, on and under"
+      ],
+      "conclusion": "Sing the position song together.",
+      "homeConnection": "Use in, on and under at tidy time this week.",
+      "teacherReflection": [
+        "Which children could show \"follow in, on and under instructions at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "IN, ON, UNDER"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

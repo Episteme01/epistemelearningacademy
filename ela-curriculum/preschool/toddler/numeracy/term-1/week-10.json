@@ -1,0 +1,630 @@
+{
+  "id": "ELA-PS-TOD-NUM-T1-W10",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 10,
+  "title": "Show what we know",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising size, sorting and same and different",
+    "Revising counting to three",
+    "Revising circles and position"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show secure learning of Term 1 ideas through play stations.",
+    "Teachers will gather evidence for every child’s Term 1 record."
+  ],
+  "vocabulary": [
+    "big",
+    "small",
+    "same",
+    "sort",
+    "one",
+    "two",
+    "three",
+    "circle",
+    "in",
+    "on",
+    "under"
+  ],
+  "content": "Revising and showing Term 1 learning through play and gathering evidence for the term record.",
+  "teachingActivities": "Run relaxed play stations; observe and note without testing; offer help only when a child is stuck; celebrate effort.",
+  "learnerActivities": "Play familiar games, choose stations, show what they know to a friend and tidy up.",
+  "resources": [
+    "Materials from Weeks 1 to 9",
+    "Class record sheets",
+    "A camera or phone for evidence",
+    "A small certificate or sticker for each child"
+  ],
+  "assessment": "Use the term record to judge each strand: size, same and different, sorting, quantity, counting to three, shape and position. Use two or more occasions before recording Secure.",
+  "expectedOutcomes": [
+    "Completes familiar tasks with confidence at play stations.",
+    "Each child has an observation record for Term 1."
+  ],
+  "crossCurricular": [
+    "Literacy: songs and rhymes from the term",
+    "Social Habits: working with a friend and tidying up",
+    "Physical Development: movement games"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W10-D01",
+      "title": "Size, same and different games",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising size, sorting and same and different",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit big and small, same and different and sorting through games."
+      ],
+      "successCriteria": [
+        "Chooses the big or small object on request",
+        "Matches an identical pair or sorts a group"
+      ],
+      "previousKnowledge": "Children have met big and small, same and different, sorting, one and lots, counting to three, circles and in, on and under.",
+      "vocabulary": [
+        "big",
+        "small",
+        "same",
+        "sort",
+        "one",
+        "two",
+        "three",
+        "circle",
+        "in",
+        "on",
+        "under"
+      ],
+      "resources": [
+        "Big and small balls, cups and sandals",
+        "Colour baskets",
+        "Matching pairs",
+        "Class record sheet"
+      ],
+      "starter": "Sing \"Big, small\" and \"Same, same, same\". Say \"Today we play games we know. Show me what you can do!\"",
+      "teacherActivities": [
+        "Play \"Show me big\" and \"Show me small\" with a mixed basket of objects.",
+        "Play \"Find my twin\" with matching pairs, with children carrying objects to the right place.",
+        "Open the colour baskets and ask children to sort objects into groups.",
+        "Ask each child to show you one thing they can do well."
+      ],
+      "learnerActivities": [
+        "Children choose and show the correct object.",
+        "Children find matches and say \"same\".",
+        "Children sort by colour and size.",
+        "Child shows a skill and says a word if they can."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play \"Show me big\" and \"Show me small\" with a mixed basket of objects. Children: Children choose and show the correct object.",
+        "Step 2. Teacher: Play \"Find my twin\" with matching pairs, with children carrying objects to the right place. Children: Children find matches and say \"same\".",
+        "Step 3. Teacher: Open the colour baskets and ask children to sort objects into groups. Children: Children sort by colour and size.",
+        "Step 4. Teacher: Ask each child to show you one thing they can do well. Children: Child shows a skill and says a word if they can."
+      ],
+      "practical": {
+        "title": "Revision basket games",
+        "steps": [
+          "Set up three baskets: size, same, sort.",
+          "Children visit each basket with a friend.",
+          "Teacher observes and records."
+        ],
+        "safety": "Use large objects; keep the room tidy and walkways clear."
+      },
+      "differentiation": {
+        "support": "Offer one task at a time with an adult partner.",
+        "extension": "Ask the child to sort objects in a way of their own and explain it."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Show me the big one.",
+            "expected": "Child points to the larger object."
+          },
+          {
+            "question": "Which two are the same?",
+            "expected": "Child points to a matching pair."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Revisits size, same and different and sorting",
+        "Shows confident familiar skills"
+      ],
+      "conclusion": "Sing \"Big, small\" and tidy up together.",
+      "homeConnection": "Play \"big and small\" with kitchen items this weekend.",
+      "teacherReflection": [
+        "Which children could show \"revisit big and small, same and different and sorting through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Big, small, same, different, sort"
+        ],
+        "pictures": [
+          "Photos of Weeks 1 to 4 activities"
+        ]
+      },
+      "activities": [
+        "Revision basket games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W10-D02",
+      "title": "Counting and one games",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising counting to three",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit one, lots, rhymes and counting to three through games."
+      ],
+      "successCriteria": [
+        "Takes one on request",
+        "Counts up to three objects by touching"
+      ],
+      "previousKnowledge": "Children have met big and small, same and different, sorting, one and lots, counting to three, circles and in, on and under.",
+      "vocabulary": [
+        "big",
+        "small",
+        "same",
+        "sort",
+        "one",
+        "two",
+        "three",
+        "circle",
+        "in",
+        "on",
+        "under"
+      ],
+      "resources": [
+        "Blocks, cups and toy goats",
+        "A drum",
+        "Trays",
+        "Class record sheet"
+      ],
+      "starter": "Beat the drum three times and say \"One, two, three.\" Say \"Let us play the counting games.\"",
+      "teacherActivities": [
+        "Play \"Give me one\" and \"Give me three\" with blocks.",
+        "Repeat the rhyme \"One, clap! Two, clap! Three, clap!\"",
+        "Count cups by touching and sliding while the group says the numbers.",
+        "Play the goat story and count each goat in."
+      ],
+      "learnerActivities": [
+        "Children give one or three blocks.",
+        "Children join in with claps.",
+        "Children touch and count cups.",
+        "Children say the numbers one, two, three."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play \"Give me one\" and \"Give me three\" with blocks. Children: Children give one or three blocks.",
+        "Step 2. Teacher: Repeat the rhyme \"One, clap! Two, clap! Three, clap!\" Children: Children join in with claps.",
+        "Step 3. Teacher: Count cups by touching and sliding while the group says the numbers. Children: Children touch and count cups.",
+        "Step 4. Teacher: Play the goat story and count each goat in. Children: Children say the numbers one, two, three."
+      ],
+      "practical": {
+        "title": "Counting stations",
+        "steps": [
+          "Visit stations for blocks, cups and goats.",
+          "Count together at each station.",
+          "Teacher records at one station."
+        ],
+        "safety": "Use only large objects; supervise at every station."
+      },
+      "differentiation": {
+        "support": "Count only to two with the child.",
+        "extension": "Ask the child to count four objects with help and say four."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many cups?",
+            "expected": "The correct number up to three."
+          },
+          {
+            "question": "Can you give me one block?",
+            "expected": "Child gives one block."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts to three",
+        "Takes one on request"
+      ],
+      "conclusion": "Sing the clapping rhyme and tidy up together.",
+      "homeConnection": "Count to three at mealtimes with real objects.",
+      "teacherReflection": [
+        "Which children could show \"revisit one, lots, rhymes and counting to three through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1, 2, 3"
+        ],
+        "pictures": [
+          "Photos of Weeks 5 to 7 activities"
+        ]
+      },
+      "activities": [
+        "Counting stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W10-D03",
+      "title": "Shape and position games",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising circles and position",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will revisit circles and in, on and under through games."
+      ],
+      "successCriteria": [
+        "Points to circles",
+        "Follows in, on and under instructions"
+      ],
+      "previousKnowledge": "Children have met big and small, same and different, sorting, one and lots, counting to three, circles and in, on and under.",
+      "vocabulary": [
+        "big",
+        "small",
+        "same",
+        "sort",
+        "one",
+        "two",
+        "three",
+        "circle",
+        "in",
+        "on",
+        "under"
+      ],
+      "resources": [
+        "Round and not round objects",
+        "A box, a cloth and soft toys",
+        "A tunnel",
+        "Class record sheet"
+      ],
+      "starter": "Sing the circle song and \"Where is Teddy?\" Say \"Let us play shape and hide and find games.\"",
+      "teacherActivities": [
+        "Spread round and not round objects on the mat. Ask \"Show me the round one.\"",
+        "Roll a ball and a block and ask \"Which rolls?\"",
+        "Hide Teddy in, on and under and ask \"Where is Teddy?\"",
+        "Play follow the leader through the tunnel, on the bench and under the table."
+      ],
+      "learnerActivities": [
+        "Children pick the round objects.",
+        "Children point to the ball.",
+        "Children find Teddy and say where.",
+        "Children follow safely."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Spread round and not round objects on the mat. Ask \"Show me the round one.\" Children: Children pick the round objects.",
+        "Step 2. Teacher: Roll a ball and a block and ask \"Which rolls?\" Children: Children point to the ball.",
+        "Step 3. Teacher: Hide Teddy in, on and under and ask \"Where is Teddy?\" Children: Children find Teddy and say where.",
+        "Step 4. Teacher: Play follow the leader through the tunnel, on the bench and under the table. Children: Children follow safely."
+      ],
+      "practical": {
+        "title": "Shape and position circuit",
+        "steps": [
+          "Set up a round things basket and a position circuit.",
+          "Children visit each with a friend.",
+          "Teacher records."
+        ],
+        "safety": "Supervise the circuit closely; crawling only under tables."
+      },
+      "differentiation": {
+        "support": "Offer one task at a time with an adult.",
+        "extension": "Ask the child to give a friend a position instruction."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Show me a circle.",
+            "expected": "Child points to a round object."
+          },
+          {
+            "question": "Put Teddy under the cloth.",
+            "expected": "Child places Teddy under the cloth."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds circles and follows position instructions",
+        "Shows confident familiar skills"
+      ],
+      "conclusion": "Sing \"Where is Teddy?\" and say goodbye to Teddy.",
+      "homeConnection": "Look for round things and play hide and find at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit circles and in, on and under through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Circle",
+          "In, on, under"
+        ],
+        "pictures": [
+          "Photos of Weeks 8 and 9 activities"
+        ]
+      },
+      "activities": [
+        "Shape and position circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W10-D04",
+      "title": "Our maths party",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising counting to three",
+      "dayType": "apply",
+      "objectives": [
+        "Children will use Term 1 maths ideas in a pretend party."
+      ],
+      "successCriteria": [
+        "Counts or gives one, two or three items",
+        "Uses big, small, same or round in play"
+      ],
+      "previousKnowledge": "Children have met big and small, same and different, sorting, one and lots, counting to three, circles and in, on and under.",
+      "vocabulary": [
+        "big",
+        "small",
+        "same",
+        "sort",
+        "one",
+        "two",
+        "three",
+        "circle",
+        "in",
+        "on",
+        "under"
+      ],
+      "resources": [
+        "Plastic cups, plates and toy fruits",
+        "Soft toys as guests",
+        "A cloth for a party table"
+      ],
+      "starter": "Say \"Teddy is having a party! He needs help with the party table.\" Put out the cloth and the toys.",
+      "teacherActivities": [
+        "Ask children to set the table: \"Put one plate for each guest.\" and \"Put one cup on each plate.\"",
+        "Ask them to choose fruit: \"Give Teddy three oranges.\" and \"Give the small bear a small cup.\"",
+        "Ask \"Where is the cake? In the box! On the table!\" and \"Which one is round?\"",
+        "Sing a party song and clap one, two, three."
+      ],
+      "learnerActivities": [
+        "Children place one plate and one cup for each guest.",
+        "Children count and choose big or small items.",
+        "Children use position and shape words.",
+        "Children clap and sing together."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Ask children to set the table: \"Put one plate for each guest.\" and \"Put one cup on each plate.\" Children: Children place one plate and one cup for each guest.",
+        "Step 2. Teacher: Ask them to choose fruit: \"Give Teddy three oranges.\" and \"Give the small bear a small cup.\" Children: Children count and choose big or small items.",
+        "Step 3. Teacher: Ask \"Where is the cake? In the box! On the table!\" and \"Which one is round?\" Children: Children use position and shape words.",
+        "Step 4. Teacher: Sing a party song and clap one, two, three. Children: Children clap and sing together."
+      ],
+      "practical": {
+        "title": "Maths party table",
+        "steps": [
+          "Give each child a role such as server or guest.",
+          "Children set the table using plates, cups and fruits.",
+          "Everyone says what they have done."
+        ],
+        "safety": "Use toy or unbreakable items; keep real food out unless it is a planned snack with allergy checks."
+      },
+      "differentiation": {
+        "support": "Give one simple job such as \"put one cup on the table\".",
+        "extension": "Ask the child to set the table for three guests without help."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many cups on the table?",
+            "expected": "The correct number up to three."
+          },
+          {
+            "question": "Which plate is big?",
+            "expected": "The larger plate."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses number and shape words in play",
+        "Takes a role in a group game"
+      ],
+      "conclusion": "Say thank you to the guests and tidy the party table together.",
+      "homeConnection": "Help to lay the table at home: one plate for each person.",
+      "teacherReflection": [
+        "Which children could show \"use Term 1 maths ideas in a pretend party\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Party table"
+        ],
+        "pictures": [
+          "A table with plates, cups and fruit"
+        ]
+      },
+      "activities": [
+        "Maths party table"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T1-W10-D05",
+      "title": "Show and celebrate",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising circles and position",
+      "dayType": "assessment",
+      "objectives": [
+        "Children will show Term 1 learning in familiar games and celebrate their work."
+      ],
+      "successCriteria": [
+        "Takes part confidently in at least three familiar tasks",
+        "Shows or says one thing they have learned"
+      ],
+      "previousKnowledge": "Children have met big and small, same and different, sorting, one and lots, counting to three, circles and in, on and under.",
+      "vocabulary": [
+        "big",
+        "small",
+        "same",
+        "sort",
+        "one",
+        "two",
+        "three",
+        "circle",
+        "in",
+        "on",
+        "under"
+      ],
+      "resources": [
+        "Station materials from Weeks 1 to 9",
+        "Class record sheets",
+        "A camera or phone",
+        "Stickers or small certificates"
+      ],
+      "starter": "Sing a favourite song from the term. Say \"Today we show what we know and celebrate.\"",
+      "teacherActivities": [
+        "Set up six quick stations: size, same, sort, count, circle, position. Spend three minutes at each.",
+        "At each station ask a simple question and wait.",
+        "Take photographs of each child at work and record levels.",
+        "Give each child a sticker or certificate and say one thing they did well."
+      ],
+      "learnerActivities": [
+        "Children visit stations in pairs.",
+        "Child answers or shows the response.",
+        "Children continue playing.",
+        "Children receive their award and clap for friends."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six quick stations: size, same, sort, count, circle, position. Spend three minutes at each. Children: Children visit stations in pairs.",
+        "Step 2. Teacher: At each station ask a simple question and wait. Children: Child answers or shows the response.",
+        "Step 3. Teacher: Take photographs of each child at work and record levels. Children: Children continue playing.",
+        "Step 4. Teacher: Give each child a sticker or certificate and say one thing they did well. Children: Children receive their award and clap for friends."
+      ],
+      "practical": {
+        "title": "Celebration stations",
+        "steps": [
+          "Set up six stations.",
+          "Children visit each with a friend.",
+          "Teacher records evidence and takes photos."
+        ],
+        "safety": "Remove small items; supervise all stations; ensure no child feels compared."
+      },
+      "differentiation": {
+        "support": "Visit only three stations, with an adult partner at each.",
+        "extension": "Ask a confident child to be a station helper."
+      },
+      "assessment": {
+        "method": "Observe each child at the six stations and complete the Term 1 record. Record Emerging, Developing, Secure or Exceeding for each strand: size, same and different, sorting, quantity, counting to three, shape and position.",
+        "questions": [
+          {
+            "question": "Show me the big one.",
+            "expected": "Child points to the larger object."
+          },
+          {
+            "question": "How many blocks?",
+            "expected": "The correct number up to three."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a Term 1 observation record",
+        "Celebrates their own learning"
+      ],
+      "conclusion": "Clap for the whole class and sing the closing song. Send the term note home.",
+      "homeConnection": "Parents receive a Term 1 note with one strength, one next step and one home idea.",
+      "teacherReflection": [
+        "Which children could show \"show Term 1 learning in familiar games and celebrate their work\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done!"
+        ],
+        "pictures": [
+          "Photos of the celebration"
+        ]
+      },
+      "activities": [
+        "Celebration stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
