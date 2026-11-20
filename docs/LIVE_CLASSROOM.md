@@ -72,21 +72,34 @@ Room name: `ela-` + 128 random bits (no class/teacher/learner information). Part
 5. **Publish `firebase/firestore.rules`** again (new blocks `liveRooms`, `liveParticipation`, `liveEvents`).
 6. Run the tests: `npm test` (new file `tests/live.test.ts`).
 
+## Browser classroom (Phase 3)
+Route `/app/live/:sessionId` (lazy-loaded, signed-in roles only). In the schedule form choose provider **ELA Live Classroom (in the portal)**; the session dialog then shows a button that opens the room. For these sessions the button does **not** mark attendance; only LiveKit webhooks do.
+
+Files: `src/lib/live/protocol.ts` (chat, hands, whiteboard packets, validation, rate limit, tile priority), `src/features/live/` (`api.ts`, `useLiveRoom.ts`, `VideoTile.tsx`, `Whiteboard.tsx`, `Panels.tsx`, `Classroom.tsx`, `LiveClassroomPage.tsx`), `tests/liveProtocol.test.ts`. Edited: `package.json` (adds `livekit-client`), `src/App.tsx`, `src/services/schedule.ts`, `src/features/schedule/SessionForm.tsx`, `SessionDialog.tsx`, `vite.config.ts` (orientation any).
+
+Behaviour: learners wait (polling every 5 s) until the teacher starts the class; audio-only mode; reconnect with back-off; wake lock; chat, raise hand, whiteboard (pen, highlighter, eraser, line, rectangle, ellipse, undo, clear; learners draw only when the teacher allows); teacher can mute, remove, unblock and end the class.
+
+Setup extra: run `npm install` (new dependency). The function URL is derived from the existing files gateway; set `VITE_LIVE_GATEWAY_URL` only to override it.
+
 ## Verification status (read this)
 | Part | Status |
 |---|---|
-| Access rules, grants, names/identities, timing parity, participation reducer | **Unit tests written and passing** (28 tests, run with a stand-in for Vitest in a session without npm access; run `npm test` to confirm in your environment) |
-| `index.ts`, `livekit.ts` | Type-checked with stand-in Deno/jose types. **Never run.** Not tested against Firestore, Supabase or LiveKit |
-| LiveKit server API field names (`CreateRoom`, `UpdateParticipant`, `GetParticipant`, `MutePublishedTrack`, `RemoveParticipant`, `DeleteRoom`) and the webhook header format | Written from knowledge of the LiveKit API, **not checked against a live project** |
+| Access rules, grants, identities, participation reducer | Unit tests written, 28 passing with a stand-in for Vitest |
+| Classroom protocol (chat, hands, board, tiles) | 23 tests passing the same way. Run `npm test` to confirm |
+| `index.ts`, `livekit.ts` | Type-checked with stand-in types only. **Never run** |
+| React components, `useLiveRoom.ts`, livekit-client calls | Syntax-checked only. **Not type-checked** against real React/livekit-client types. Run `npm run typecheck` |
+| LiveKit server API field names and webhook format | Written from knowledge, **not checked against a live project** |
 | Firestore rules | Not run in the emulator |
-| Two devices in one room, Android Chrome, low bandwidth, attendance end to end | **Not tested** (needs your LiveKit project and real devices) |
+| Two devices, Android Chrome, low bandwidth, attendance end to end | **Not tested** |
 
 ## Known limits
-- Data-channel messages (chat, whiteboard, hands) cannot be authenticated beyond the sender's identity. Clients will enforce who may draw; the teacher can also switch a learner's data publishing off with `permit`.
-- A lesson ended with `end` becomes `completed` and cannot be re-opened by the host.
-- Webhook events for an earlier room of the same lesson (after a restart) are ignored, because only the latest room name is stored.
-- No per-learner admit/reject yet (decision 6). No recording yet (Phase 5: needs storage, cost and consent decisions).
-- LiveKit's free plan: 5,000 participant-minutes a month (about six 45-minute lessons with 15 learners), 100 concurrent participants.
+- Data-channel messages cannot be authenticated beyond sender identity; clients enforce who may draw, and the teacher can switch a learner's publishing off.
+- Android Chrome generally cannot share the screen (button hidden when unsupported).
+- Whiteboard: no text tool, no pages, not saved after class. No microphone picker.
+- A lesson ended with `end` becomes `completed` and cannot be re-opened.
+- Events from an earlier room of the same lesson are ignored.
+- No per-learner admit; no recording (Phase 5).
+- LiveKit free plan: 5,000 participant-minutes a month, 100 concurrent participants.
 
 ## Next
-Phase 3: lazy-loaded `/app/live/:sessionId` classroom (video grid, controls, participants, chat, hands, whiteboard reusing `src/lib/drawing.ts`), "ELA Live Classroom" as a provider in the session form, a Join button in the session dialog, and the manifest orientation change.
+Phase 4: attendance labels, session history and reports for `live_webhook`. Phase 5: recording (storage, cost, consent). Phase 6: full device testing report.
