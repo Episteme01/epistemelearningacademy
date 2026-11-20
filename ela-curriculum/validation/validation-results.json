@@ -9,12 +9,12 @@
     "lessons": 2400
   },
   "found": {
-    "programmesComplete": 0,
-    "weeks": 5,
-    "lessons": 25
+    "programmesComplete": 1,
+    "weeks": 30,
+    "lessons": 150
   },
   "errorCount": 0,
-  "warningCount": 8,
+  "warningCount": 24,
   "errors": [],
   "warnings": [
     {
@@ -48,6 +48,70 @@
     {
       "file": "preschool/toddler/numeracy/term-1/week-05.json",
       "message": "ELA-PS-TOD-NUM-T1-W05-D05: very short lesson presentation (370 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-07.json",
+      "message": "ELA-PS-TOD-NUM-T1-W07-D05: very short lesson presentation (399 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-08.json",
+      "message": "ELA-PS-TOD-NUM-T1-W08-D05: very short lesson presentation (346 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-1/week-09.json",
+      "message": "ELA-PS-TOD-NUM-T1-W09-D05: very short lesson presentation (345 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-2/week-05.json",
+      "message": "ELA-PS-TOD-NUM-T2-W05-D05: very short lesson presentation (357 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-2/week-06.json",
+      "message": "ELA-PS-TOD-NUM-T2-W06-D05: very short lesson presentation (364 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-2/week-07.json",
+      "message": "ELA-PS-TOD-NUM-T2-W07-D05: very short lesson presentation (362 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-2/week-08.json",
+      "message": "ELA-PS-TOD-NUM-T2-W08-D05: very short lesson presentation (358 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-2/week-09.json",
+      "message": "ELA-PS-TOD-NUM-T2-W09-D05: very short lesson presentation (352 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-3/week-02.json",
+      "message": "ELA-PS-TOD-NUM-T3-W02-D05: very short lesson presentation (349 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-3/week-03.json",
+      "message": "ELA-PS-TOD-NUM-T3-W03-D05: very short lesson presentation (351 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-3/week-04.json",
+      "message": "ELA-PS-TOD-NUM-T3-W04-D05: very short lesson presentation (360 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-3/week-05.json",
+      "message": "ELA-PS-TOD-NUM-T3-W05-D05: very short lesson presentation (344 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-3/week-06.json",
+      "message": "ELA-PS-TOD-NUM-T3-W06-D05: very short lesson presentation (337 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-3/week-07.json",
+      "message": "ELA-PS-TOD-NUM-T3-W07-D05: very short lesson presentation (328 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-3/week-08.json",
+      "message": "ELA-PS-TOD-NUM-T3-W08-D05: very short lesson presentation (353 characters)"
+    },
+    {
+      "file": "preschool/toddler/numeracy/term-3/week-09.json",
+      "message": "ELA-PS-TOD-NUM-T3-W09-D05: very short lesson presentation (345 characters)"
     }
   ],
   "programmes": [
@@ -55,16 +119,16 @@
       "id": "ELA-PS-TOD-NUM",
       "class": "Toddler",
       "subject": "Numeracy",
-      "status": "partial",
+      "status": "complete",
       "frameworkJson": true,
       "termWeeks": [
-        5,
-        0,
-        0
+        10,
+        10,
+        10
       ],
-      "weeks": 5,
-      "lessons": 25,
-      "missingWeeks": 25
+      "weeks": 30,
+      "lessons": 150,
+      "missingWeeks": 0
     },
     {
       "id": "ELA-PS-TOD-LIT",
