@@ -52,7 +52,7 @@ self.addEventListener('fetch', (e) => {
 `;
   const manifest = {
     id: base, name: 'Episteme Learning Academy', short_name: 'ELA', description: 'Where Learning Meets Morality',
-    start_url: base + 'app', scope: base, display: 'standalone', orientation: 'portrait-primary',
+    start_url: base + 'app', scope: base, display: 'standalone', orientation: 'any',
     theme_color: '#0B3D2E', background_color: '#FAF9F5',
     icons: [
       { src: base + 'icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
