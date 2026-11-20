@@ -1,0 +1,595 @@
+{
+  "id": "ELA-PS-TOD-NUM-T2-W07",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 7,
+  "title": "Heavy and light",
+  "topic": "Measuring",
+  "subtopics": [
+    "Holding and comparing weight",
+    "Heavy and light baskets",
+    "Guess, feel and check"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say which of two objects feels heavy and which feels light.",
+    "Children will predict which is heavy and check by holding."
+  ],
+  "vocabulary": [
+    "heavy",
+    "light",
+    "hold",
+    "feel",
+    "guess"
+  ],
+  "content": "Feeling and comparing the weight of two objects, and saying which is heavy and which is light.",
+  "teachingActivities": "Let children hold each object before naming it; use strong body language for heavy and gentle for light; ask them to guess, feel and check.",
+  "learnerActivities": "Hold, carry and compare objects, sort into heavy and light baskets, and make and check guesses.",
+  "resources": [
+    "A heavy basket (filled with large blocks) and a light basket (filled with scarves)",
+    "Balloons and stones too large to swallow",
+    "A bucket and a sponge",
+    "Two bags"
+  ],
+  "assessment": "Check whether each child identifies the heavier object when the difference is clear and makes and checks a guess.",
+  "expectedOutcomes": [
+    "Identifies the heavier object when the difference is clear.",
+    "Makes a prediction and checks it."
+  ],
+  "crossCurricular": [
+    "Science: forces and materials",
+    "Physical Development: lifting and carrying",
+    "Literacy: opposites"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W07-D01",
+      "title": "Feel heavy, feel light",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Holding and comparing weight",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will hold two objects and say which feels heavy and which feels light."
+      ],
+      "successCriteria": [
+        "Holds both objects",
+        "Points to the heavy one on request"
+      ],
+      "previousKnowledge": "Children can compare big and small and long and short and use words such as more and same.",
+      "vocabulary": [
+        "heavy",
+        "light",
+        "hold",
+        "feel",
+        "guess"
+      ],
+      "resources": [
+        "A large stone or a bag of sand and a balloon or scarf",
+        "Two baskets, one heavy and one light",
+        "A mat"
+      ],
+      "starter": "Pick up a heavy bag with a big groan and say \"Heavy!\" Pick up a scarf and float it and say \"Light!\" Let the children feel both.",
+      "teacherActivities": [
+        "Hold out the two baskets and let each child lift one in each hand.",
+        "Say \"This one is heavy. This one is light.\" Use a deep voice for heavy and a high voice for light.",
+        "Ask \"Which basket is heavy?\" and \"Which is light?\"",
+        "Swap the contents of the baskets without telling the children and ask again."
+      ],
+      "learnerActivities": [
+        "Children lift both baskets and feel the difference.",
+        "Children copy the voices and the words.",
+        "Children point to the correct basket.",
+        "Children lift and decide which is heavy now."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold out the two baskets and let each child lift one in each hand. Children: Children lift both baskets and feel the difference.",
+        "Step 2. Teacher: Say \"This one is heavy. This one is light.\" Use a deep voice for heavy and a high voice for light. Children: Children copy the voices and the words.",
+        "Step 3. Teacher: Ask \"Which basket is heavy?\" and \"Which is light?\" Children: Children point to the correct basket.",
+        "Step 4. Teacher: Swap the contents of the baskets without telling the children and ask again. Children: Children lift and decide which is heavy now."
+      ],
+      "practical": {
+        "title": "Heavy and light baskets",
+        "steps": [
+          "Place a heavy and a light basket on the floor.",
+          "Each child lifts both and says which is heavy.",
+          "Move the heavy basket with a friend."
+        ],
+        "safety": "Keep heavy items to a safe weight children can lift with both hands; bend the knees to lift; never carry a heavy item alone."
+      },
+      "differentiation": {
+        "support": "Use one very heavy and one very light item, and say the word as the child lifts.",
+        "extension": "Ask the child to find a third object that is heavier or lighter than both."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which basket is heavy?",
+            "expected": "The heavy basket."
+          },
+          {
+            "question": "Is the scarf heavy or light?",
+            "expected": "Light."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Identifies heavy and light",
+        "Says heavy or light with support"
+      ],
+      "conclusion": "Lift the heavy basket together and put it down gently. Then float the scarf and say \"Heavy, light.\"",
+      "homeConnection": "Let your child lift a full water bottle and an empty one and say which is heavy.",
+      "teacherReflection": [
+        "Which children could show \"hold two objects and say which feels heavy and which feels light\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HEAVY (a big stone)",
+          "LIGHT (a feather)"
+        ],
+        "pictures": [
+          "A stone and a feather",
+          "A child lifting a basket"
+        ],
+        "songOrRhyme": "Heavy, heavy, down we go. Light, light, up we float."
+      },
+      "activities": [
+        "Heavy and light baskets"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W07-D02",
+      "title": "Guess, feel, check",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Guess, feel and check",
+      "dayType": "explore",
+      "objectives": [
+        "Children will guess which of two objects is heavier and check by holding them."
+      ],
+      "successCriteria": [
+        "Makes a guess before lifting",
+        "Checks by holding both"
+      ],
+      "previousKnowledge": "Children can compare big and small and long and short and use words such as more and same.",
+      "vocabulary": [
+        "heavy",
+        "light",
+        "hold",
+        "feel",
+        "guess"
+      ],
+      "resources": [
+        "Pairs of objects: block and sponge, shoe and sock, bag of rice and empty bag",
+        "Two baskets",
+        "A mat"
+      ],
+      "starter": "Show a block and a sponge. Say \"Which do you think is heavy? Make a guess, then we will feel.\"",
+      "teacherActivities": [
+        "Say \"I think the block is heavy.\" Lift both and show your surprise or agreement.",
+        "Let a child guess and check with another pair, such as a shoe and a sock.",
+        "Ask \"Were you right?\" and accept a nod or \"yes\".",
+        "Place heavy objects in one basket and light in the other."
+      ],
+      "learnerActivities": [
+        "Children watch and say whether the guess was right.",
+        "Child guesses, lifts both and says which is heavy.",
+        "Child nods or says yes or no.",
+        "Children sort objects after lifting them."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"I think the block is heavy.\" Lift both and show your surprise or agreement. Children: Children watch and say whether the guess was right.",
+        "Step 2. Teacher: Let a child guess and check with another pair, such as a shoe and a sock. Children: Child guesses, lifts both and says which is heavy.",
+        "Step 3. Teacher: Ask \"Were you right?\" and accept a nod or \"yes\". Children: Child nods or says yes or no.",
+        "Step 4. Teacher: Place heavy objects in one basket and light in the other. Children: Children sort objects after lifting them."
+      ],
+      "practical": {
+        "title": "Guess and check pairs",
+        "steps": [
+          "Give each pair three pairs of objects.",
+          "They guess which is heavier, then lift and check.",
+          "They sort into heavy and light baskets."
+        ],
+        "safety": "Use only soft or lightweight objects and moderate weights; keep fingers clear when putting objects down."
+      },
+      "differentiation": {
+        "support": "Offer two objects with a very big weight difference and hold both for the child.",
+        "extension": "Ask the child to explain: \"The stone is heavy because it is big.\""
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which one do you think is heavy?",
+            "expected": "Child points to the one they guess."
+          },
+          {
+            "question": "Were you right?",
+            "expected": "Yes or no, with a nod."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes a guess and checks it",
+        "Sorts objects as heavy or light"
+      ],
+      "conclusion": "Count how many heavy and light things there are and say the words together.",
+      "homeConnection": "Guess which of two shopping items is heavy and lift them to check.",
+      "teacherReflection": [
+        "Which children could show \"guess which of two objects is heavier and check by holding them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Guess",
+          "Feel",
+          "Check"
+        ],
+        "pictures": [
+          "A block and a sponge"
+        ]
+      },
+      "activities": [
+        "Guess and check pairs"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W07-D03",
+      "title": "Heavy and light carriers",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Heavy and light baskets",
+      "dayType": "practise",
+      "objectives": [
+        "Children will carry heavy and light items from one place to another and say which was harder."
+      ],
+      "successCriteria": [
+        "Carries both items",
+        "Says heavy or light for each one"
+      ],
+      "previousKnowledge": "Children can compare big and small and long and short and use words such as more and same.",
+      "vocabulary": [
+        "heavy",
+        "light",
+        "hold",
+        "feel",
+        "guess"
+      ],
+      "resources": [
+        "Two bags, one heavy, one light",
+        "A small bucket",
+        "A path marked with cones"
+      ],
+      "starter": "Say \"Mama is carrying shopping from the market. She has a heavy bag and a light bag. Who can help her?\"",
+      "teacherActivities": [
+        "Show the two bags and ask a child to carry each to the table.",
+        "Ask \"Which bag was easy to carry? Which was hard?\"",
+        "Let children work in pairs to carry the heavy bag together.",
+        "Put the light bag on a high shelf and the heavy bag on the floor and ask why."
+      ],
+      "learnerActivities": [
+        "Child carries the light bag and the heavy bag and says which was heavy.",
+        "Child points to the light and heavy bags.",
+        "Pairs carry the heavy bag together and say \"heavy\".",
+        "Children say or gesture that the heavy bag is safer low."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the two bags and ask a child to carry each to the table. Children: Child carries the light bag and the heavy bag and says which was heavy.",
+        "Step 2. Teacher: Ask \"Which bag was easy to carry? Which was hard?\" Children: Child points to the light and heavy bags.",
+        "Step 3. Teacher: Let children work in pairs to carry the heavy bag together. Children: Pairs carry the heavy bag together and say \"heavy\".",
+        "Step 4. Teacher: Put the light bag on a high shelf and the heavy bag on the floor and ask why. Children: Children say or gesture that the heavy bag is safer low."
+      ],
+      "practical": {
+        "title": "Market carry",
+        "steps": [
+          "Mark a short path with cones.",
+          "Children carry a light bag then a heavy bag along the path.",
+          "Talk about which was harder."
+        ],
+        "safety": "Fill the heavy bag only with soft heavy things such as cloth and a little sand in a closed bag; children carry together and bend their knees; no running."
+      },
+      "differentiation": {
+        "support": "Carry the heavy bag with an adult.",
+        "extension": "Ask the child to guess which of two bags is heavy by looking, then check by lifting."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which bag is heavy?",
+            "expected": "The heavier bag."
+          },
+          {
+            "question": "Can two friends carry it?",
+            "expected": "Yes, together."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Carries and compares weights",
+        "Uses the words heavy and light in play"
+      ],
+      "conclusion": "Put both bags down gently and say \"Heavy, light, well done.\"",
+      "homeConnection": "Help carry a light and a heavy shopping bag at home with a grown-up.",
+      "teacherReflection": [
+        "Which children could show \"carry heavy and light items from one place to another and say which was harder\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Heavy bag",
+          "Light bag"
+        ],
+        "pictures": [
+          "A mother with a heavy bag at the market"
+        ]
+      },
+      "activities": [
+        "Market carry"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W07-D04",
+      "title": "Water bucket and sponge",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Heavy and light baskets",
+      "dayType": "apply",
+      "objectives": [
+        "Children will notice that a sponge or cloth is light dry and heavy when wet."
+      ],
+      "successCriteria": [
+        "Lifts a dry and a wet sponge",
+        "Says which one is heavy"
+      ],
+      "previousKnowledge": "Children can compare big and small and long and short and use words such as more and same.",
+      "vocabulary": [
+        "heavy",
+        "light",
+        "hold",
+        "feel",
+        "guess"
+      ],
+      "resources": [
+        "A bucket of water",
+        "Two sponges or cloths",
+        "A tray",
+        "Towels"
+      ],
+      "starter": "Hold a dry sponge and say \"Light!\" Squeeze water into a bowl and say \"Now it is heavy! Why?\"",
+      "teacherActivities": [
+        "Give each child a dry sponge to hold and say \"light\".",
+        "Let each child dip the sponge in the bucket and hold it up.",
+        "Squeeze the sponge over the tray and feel it become light again.",
+        "Ask \"Why was the wet sponge heavy?\" Accept answers such as \"water\"."
+      ],
+      "learnerActivities": [
+        "Children hold the dry sponge and say \"light\".",
+        "Children hold the wet sponge and say \"heavy\".",
+        "Children squeeze and feel it get lighter.",
+        "Children say \"water\" or gesture."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Give each child a dry sponge to hold and say \"light\". Children: Children hold the dry sponge and say \"light\".",
+        "Step 2. Teacher: Let each child dip the sponge in the bucket and hold it up. Children: Children hold the wet sponge and say \"heavy\".",
+        "Step 3. Teacher: Squeeze the sponge over the tray and feel it become light again. Children: Children squeeze and feel it get lighter.",
+        "Step 4. Teacher: Ask \"Why was the wet sponge heavy?\" Accept answers such as \"water\". Children: Children say \"water\" or gesture."
+      ],
+      "practical": {
+        "title": "Wet and dry sponge",
+        "steps": [
+          "Give each pair a bucket of shallow water and two sponges.",
+          "Hold a dry sponge and a wet sponge.",
+          "Say which is heavy."
+        ],
+        "safety": "Use only shallow water, under adult supervision; wipe spills at once; keep towels ready and wash hands after play."
+      },
+      "differentiation": {
+        "support": "Use one sponge and ask \"light or heavy?\" before and after wetting it.",
+        "extension": "Ask the child to guess how heavy a sponge will be when it is full of water."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which sponge is heavy?",
+            "expected": "The wet sponge."
+          },
+          {
+            "question": "What makes it heavy?",
+            "expected": "Water."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Notices that water makes a sponge heavy",
+        "Compares weights in play"
+      ],
+      "conclusion": "Dry hands with the towels and say \"Heavy water, light sponge.\"",
+      "homeConnection": "At home, lift a dry cloth and a wet cloth and say which is heavy.",
+      "teacherReflection": [
+        "Which children could show \"notice that a sponge or cloth is light dry and heavy when wet\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Dry: light",
+          "Wet: heavy"
+        ],
+        "pictures": [
+          "A wet sponge dripping"
+        ]
+      },
+      "activities": [
+        "Wet and dry sponge"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W07-D05",
+      "title": "Weight stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Guess, feel and check",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can compare weights at three stations."
+      ],
+      "successCriteria": [
+        "Identifies the heavier object",
+        "Makes a guess and checks it"
+      ],
+      "previousKnowledge": "Children can compare big and small and long and short and use words such as more and same.",
+      "vocabulary": [
+        "heavy",
+        "light",
+        "hold",
+        "feel",
+        "guess"
+      ],
+      "resources": [
+        "Station 1: heavy and light baskets",
+        "Station 2: guess and check pairs",
+        "Station 3: wet and dry sponges",
+        "Class record sheet"
+      ],
+      "starter": "Sing the heavy and light song and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask \"Which is heavy?\" and \"Can you guess before you lift?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child guesses and checks by lifting.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask \"Which is heavy?\" and \"Can you guess before you lift?\" Children: Child guesses and checks by lifting.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Use soft and light objects only; keep water supervised; wipe spills at once."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask a confident child to explain why one object is heavy."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: identifies the heavier object; makes a guess and checks it; uses heavy and light.",
+        "questions": [
+          {
+            "question": "Which is heavy?",
+            "expected": "The heavier object."
+          },
+          {
+            "question": "Can you find a light one?",
+            "expected": "Child finds a light object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Compares weight with growing confidence"
+      ],
+      "conclusion": "Sing the heavy and light song and tidy up.",
+      "homeConnection": "Ask your child to guess which of two things is heavier.",
+      "teacherReflection": [
+        "Which children could show \"show they can compare weights at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Heavy, light"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "id": "ELA-PS-TOD-NUM-T2-W02",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 2,
+  "title": "Number rhymes to five",
+  "topic": "Counting",
+  "subtopics": [
+    "Five little rhymes with fingers",
+    "Count down and count up",
+    "Jumping to five"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will join in counting rhymes to five.",
+    "Children will show up to five fingers with help."
+  ],
+  "vocabulary": [
+    "four",
+    "five",
+    "count",
+    "up",
+    "down",
+    "fingers"
+  ],
+  "content": "Saying one to five in order in action rhymes, showing up to five fingers, counting down and counting up.",
+  "teachingActivities": "Lead rhymes with a steady beat and finger actions; sing each rhyme slowly first, then faster; show each finger as it is named.",
+  "learnerActivities": "Say numbers to five with actions, show fingers, count down by lowering fingers, and jump to five.",
+  "resources": [
+    "A drum",
+    "Five plastic cups",
+    "Five toy birds or paper birds",
+    "A mango tree picture",
+    "Number picture cards with dots to five"
+  ],
+  "assessment": "Listen for who joins rhymes to five and who shows up to five fingers; note on the class record.",
+  "expectedOutcomes": [
+    "Says the numbers one to five in order with the group.",
+    "Shows five fingers with support."
+  ],
+  "crossCurricular": [
+    "Literacy: rhythm, rhyme and voice play",
+    "Science: birds and trees",
+    "Physical Development: finger and body movement"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W02-D01",
+      "title": "Five little fingers",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 2,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Five little rhymes with fingers",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will join in a finger rhyme to five and show each finger as it is named."
+      ],
+      "successCriteria": [
+        "Shows fingers one at a time as the rhyme goes",
+        "Says some of the numbers four and five"
+      ],
+      "previousKnowledge": "Children can say one, two, three in rhymes, show up to three fingers and take part in counting games.",
+      "vocabulary": [
+        "four",
+        "five",
+        "count",
+        "up",
+        "down",
+        "fingers"
+      ],
+      "resources": [
+        "A drum",
+        "A mat",
+        "Dot cards for four and five"
+      ],
+      "starter": "Wave one hand. Say \"I have fingers on my hand! Let us count them: one, two, three, four, five.\" Raise each finger slowly.",
+      "teacherActivities": [
+        "Teach the rhyme \"One finger, two fingers, three fingers, four, five fingers waving, waving, waving more.\" Lift each finger as it is named.",
+        "Say the rhyme again and invite the children to say the numbers they know.",
+        "Show the dot cards for four and five. Count the dots slowly with your finger.",
+        "Play \"freeze fingers\": call a number from one to five and children show that many fingers."
+      ],
+      "learnerActivities": [
+        "Children watch and copy the finger actions.",
+        "Children say the numbers one to three and listen for four and five.",
+        "Children touch the dots and say the numbers.",
+        "Children show the number of fingers called, looking at a friend to check."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Teach the rhyme \"One finger, two fingers, three fingers, four, five fingers waving, waving, waving more.\" Lift each finger as it is named. Children: Children watch and copy the finger actions.",
+        "Step 2. Teacher: Say the rhyme again and invite the children to say the numbers they know. Children: Children say the numbers one to three and listen for four and five.",
+        "Step 3. Teacher: Show the dot cards for four and five. Count the dots slowly with your finger. Children: Children touch the dots and say the numbers.",
+        "Step 4. Teacher: Play \"freeze fingers\": call a number from one to five and children show that many fingers. Children: Children show the number of fingers called, looking at a friend to check."
+      ],
+      "practical": {
+        "title": "Finger rhyme circle",
+        "steps": [
+          "Sit in a circle with hands ready.",
+          "Say the rhyme and lift a finger for each number.",
+          "Pass a drum and let each child beat once for each number."
+        ],
+        "safety": "Keep hands away from faces to avoid poking eyes; the drum is played softly."
+      },
+      "differentiation": {
+        "support": "Use only three fingers, and lift each finger for the child while saying the number.",
+        "extension": "Ask the child to say the rhyme alone and show the correct number of fingers."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Show me five fingers.",
+            "expected": "Child shows five fingers, possibly after copying."
+          },
+          {
+            "question": "What comes after three?",
+            "expected": "Four."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows up to five fingers",
+        "Joins the rhyme to five"
+      ],
+      "conclusion": "Close your fingers into a fist and say \"Five fingers sleep.\" Open and wiggle them to wake up.",
+      "homeConnection": "Say the finger rhyme at bath time or while waiting in the car.",
+      "teacherReflection": [
+        "Which children could show \"join in a finger rhyme to five and show each finger as it is named\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 2 3 4 5 (five dots in a row)",
+          "Five fingers (hand picture)"
+        ],
+        "pictures": [
+          "A hand with five fingers",
+          "Children in a circle showing fingers"
+        ],
+        "songOrRhyme": "One finger, two fingers, three fingers, four, five fingers waving, waving, waving more."
+      },
+      "activities": [
+        "Finger rhyme circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W02-D02",
+      "title": "Count up, count down",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 2,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Count down and count up",
+      "dayType": "explore",
+      "objectives": [
+        "Children will join in counting up from one to five and counting down from five."
+      ],
+      "successCriteria": [
+        "Joins counting up to five",
+        "Lowers a finger for each number when counting down"
+      ],
+      "previousKnowledge": "Children can say one, two, three in rhymes, show up to three fingers and take part in counting games.",
+      "vocabulary": [
+        "four",
+        "five",
+        "count",
+        "up",
+        "down",
+        "fingers"
+      ],
+      "resources": [
+        "Five plastic cups",
+        "A tray",
+        "A soft toy"
+      ],
+      "starter": "Build a tower of five cups slowly and count up: \"One, two, three, four, five!\" Then say \"Now let us knock the tower down and count backwards.\"",
+      "teacherActivities": [
+        "Stack the cups one at a time while saying each number aloud, holding the last cup high on \"five\".",
+        "Take cups away one at a time. Say \"Five, four, three, two, one, all gone!\"",
+        "Let a child stack the cups while the group counts up.",
+        "Let another child take them away while the group counts down."
+      ],
+      "learnerActivities": [
+        "Children say the numbers with you.",
+        "Children lower a finger for each number as the cups disappear.",
+        "Child stacks cups and the group says the numbers.",
+        "Child removes cups and the group counts down."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Stack the cups one at a time while saying each number aloud, holding the last cup high on \"five\". Children: Children say the numbers with you.",
+        "Step 2. Teacher: Take cups away one at a time. Say \"Five, four, three, two, one, all gone!\" Children: Children lower a finger for each number as the cups disappear.",
+        "Step 3. Teacher: Let a child stack the cups while the group counts up. Children: Child stacks cups and the group says the numbers.",
+        "Step 4. Teacher: Let another child take them away while the group counts down. Children: Child removes cups and the group counts down."
+      ],
+      "practical": {
+        "title": "Cup tower count",
+        "steps": [
+          "Give each pair five cups.",
+          "One child builds the tower while the partner counts up.",
+          "Then they take it apart while counting down."
+        ],
+        "safety": "Use unbreakable cups and build on a low surface on the floor. Keep cups out of mouths."
+      },
+      "differentiation": {
+        "support": "Count up and down only to three, and say the numbers with the child.",
+        "extension": "Ask the child to count down from five alone and say \"blast off\" at the end."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many cups are left?",
+            "expected": "The correct number as the tower is taken down."
+          },
+          {
+            "question": "What comes before three?",
+            "expected": "Two."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts up to five with a group",
+        "Joins counting down"
+      ],
+      "conclusion": "Hold the last cup and say \"All gone!\" Tidy the cups together.",
+      "homeConnection": "Count down from five at bedtime: \"Five more minutes, four, three, two, one.\"",
+      "teacherReflection": [
+        "Which children could show \"join in counting up from one to five and counting down from five\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Up: 1 2 3 4 5",
+          "Down: 5 4 3 2 1"
+        ],
+        "pictures": [
+          "A tower of five cups"
+        ],
+        "songOrRhyme": "Five, four, three, two, one, all gone! One, two, three, four, five, up again!"
+      },
+      "activities": [
+        "Cup tower count"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W02-D03",
+      "title": "Jump to five",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 2,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Jumping to five",
+      "dayType": "practise",
+      "objectives": [
+        "Children will jump or step once for each number up to five."
+      ],
+      "successCriteria": [
+        "Moves once for each number said",
+        "Stops at five"
+      ],
+      "previousKnowledge": "Children can say one, two, three in rhymes, show up to three fingers and take part in counting games.",
+      "vocabulary": [
+        "four",
+        "five",
+        "count",
+        "up",
+        "down",
+        "fingers"
+      ],
+      "resources": [
+        "An open floor space",
+        "Five paper footprints",
+        "A drum"
+      ],
+      "starter": "Jump one, two, three, four, five times with the children watching. Say \"Five jumps! Can you do it?\" Invite them to join.",
+      "teacherActivities": [
+        "Lay five paper footprints in a line. Step on each and say the number.",
+        "Beat the drum five times slowly. Say \"Jump with the drum.\"",
+        "Call \"Jump three!\" or \"Jump five!\" and show the number on your fingers.",
+        "Finish with a calm game: \"Tiptoe five steps to your seat.\""
+      ],
+      "learnerActivities": [
+        "Children watch, then step with you.",
+        "Children jump gently once for each beat.",
+        "Children jump the number called and then stop.",
+        "Children tiptoe five steps and sit down."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Lay five paper footprints in a line. Step on each and say the number. Children: Children watch, then step with you.",
+        "Step 2. Teacher: Beat the drum five times slowly. Say \"Jump with the drum.\" Children: Children jump gently once for each beat.",
+        "Step 3. Teacher: Call \"Jump three!\" or \"Jump five!\" and show the number on your fingers. Children: Children jump the number called and then stop.",
+        "Step 4. Teacher: Finish with a calm game: \"Tiptoe five steps to your seat.\" Children: Children tiptoe five steps and sit down."
+      ],
+      "practical": {
+        "title": "Footprint jumps",
+        "steps": [
+          "Tape five footprints in a line.",
+          "Each child steps on them while the group counts.",
+          "Repeat, stopping at a number called."
+        ],
+        "safety": "Tape footprints securely; check the floor is dry and clear; children go one at a time with an adult beside them."
+      },
+      "differentiation": {
+        "support": "Use three footprints and hold the child’s hand.",
+        "extension": "Ask the child to jump to five, then count back to one."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many jumps did you make?",
+            "expected": "Five, or the number called."
+          },
+          {
+            "question": "Can you stop at three?",
+            "expected": "Child stops after the third jump."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Moves once for each number up to five",
+        "Stops at a named number"
+      ],
+      "conclusion": "Tiptoe to the mat saying \"Five steps, sit down.\"",
+      "homeConnection": "Count five steps on the stairs or to the door at home.",
+      "teacherReflection": [
+        "Which children could show \"jump or step once for each number up to five\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Jump 1 2 3 4 5"
+        ],
+        "pictures": [
+          "Five footprints in a line"
+        ]
+      },
+      "activities": [
+        "Footprint jumps"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W02-D04",
+      "title": "Five birds on the mango tree",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 2,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Count down and count up",
+      "dayType": "apply",
+      "objectives": [
+        "Children will count five birds going up and down in a story with actions."
+      ],
+      "successCriteria": [
+        "Says a number for each bird",
+        "Joins in counting down"
+      ],
+      "previousKnowledge": "Children can say one, two, three in rhymes, show up to three fingers and take part in counting games.",
+      "vocabulary": [
+        "four",
+        "five",
+        "count",
+        "up",
+        "down",
+        "fingers"
+      ],
+      "resources": [
+        "Five toy or paper birds",
+        "A picture of a mango tree",
+        "Sticky tack or a flannel board"
+      ],
+      "starter": "Show the mango tree picture. Say \"Look! A big mango tree. Who lives in the tree? Birds! Let us count them.\"",
+      "teacherActivities": [
+        "Place five birds on the tree. Count them slowly: \"One, two, three, four, five.\"",
+        "Tell the story. Remove one bird at a time and ask \"How many birds now?\"",
+        "When no birds are left, ask \"Where are the birds?\" and wait.",
+        "Bring the birds back one at a time as you count up."
+      ],
+      "learnerActivities": [
+        "Children count the birds with you.",
+        "Children look and say the number of birds left.",
+        "Children say \"gone\" or \"all gone\".",
+        "Children count up and flap their arms like wings."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Place five birds on the tree. Count them slowly: \"One, two, three, four, five.\" Children: Children count the birds with you.",
+        "Step 2. Teacher: Tell the story. Remove one bird at a time and ask \"How many birds now?\" Children: Children look and say the number of birds left.",
+        "Step 3. Teacher: When no birds are left, ask \"Where are the birds?\" and wait. Children: Children say \"gone\" or \"all gone\".",
+        "Step 4. Teacher: Bring the birds back one at a time as you count up. Children: Children count up and flap their arms like wings."
+      ],
+      "practical": {
+        "title": "Bird tree counting",
+        "steps": [
+          "Give each pair a tree picture and five paper birds.",
+          "One child removes birds while the partner counts down.",
+          "Then they bring the birds back and count up."
+        ],
+        "safety": "Use large paper or card birds with rounded corners. Keep sticky tack away from mouths."
+      },
+      "differentiation": {
+        "support": "Use three birds only and count each one aloud with the child.",
+        "extension": "Ask the child to tell the story using fingers and hide one finger at a time."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many birds were on the tree at the start?",
+            "expected": "Five."
+          },
+          {
+            "question": "How many birds are left when two fly away from five?",
+            "expected": "Three, counted by looking."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts down from five in a story",
+        "Counts up to five again"
+      ],
+      "conclusion": "Wave goodbye to the birds and say \"Tweet tweet, goodnight.\" Place the birds in a basket.",
+      "homeConnection": "Count birds, trees or chickens in your compound and say the numbers.",
+      "teacherReflection": [
+        "Which children could show \"count five birds going up and down in a story with actions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "5 birds",
+          "4 birds",
+          "3 birds",
+          "2 birds",
+          "1 bird",
+          "No birds"
+        ],
+        "pictures": [
+          "A mango tree with five birds"
+        ],
+        "songOrRhyme": "Five little birds on the mango tree, tweet, tweet, tweet. One flew away, now there are four, tweet, tweet, tweet.",
+        "story": "Five little birds sat on the mango tree. Tweet, tweet! One flew away to find a worm. Now there were four. Tweet, tweet! Another flew to the river. Now there were three. Two flew home. Now there was one. Then the last bird flew away. No birds left! In the morning the birds came back. One, two, three, four, five. Tweet, tweet!"
+      },
+      "activities": [
+        "Bird tree counting"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W02-D05",
+      "title": "Rhyme stations to five",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 2,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Counting",
+      "subtopic": "Five little rhymes with fingers",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can say, show and count to five at three stations."
+      ],
+      "successCriteria": [
+        "Shows up to five fingers",
+        "Says numbers in order to five with support"
+      ],
+      "previousKnowledge": "Children can say one, two, three in rhymes, show up to three fingers and take part in counting games.",
+      "vocabulary": [
+        "four",
+        "five",
+        "count",
+        "up",
+        "down",
+        "fingers"
+      ],
+      "resources": [
+        "Station 1: finger rhyme cards",
+        "Station 2: cup tower",
+        "Station 3: five birds and tree",
+        "Class record sheet"
+      ],
+      "starter": "Sing the finger rhyme and show the three stations. Say \"At each station we say, show and count to five.\"",
+      "teacherActivities": [
+        "Divide the children into three groups and rotate every four minutes.",
+        "At the finger station, ask \"Show me five fingers\" and \"Show me four.\"",
+        "At the cup station, ask \"Can you count the cups up and down?\"",
+        "Record each child’s level and photograph their work."
+      ],
+      "learnerActivities": [
+        "Children play at each station with a partner.",
+        "Child shows the number of fingers called.",
+        "Child counts cups and says the numbers.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Divide the children into three groups and rotate every four minutes. Children: Children play at each station with a partner.",
+        "Step 2. Teacher: At the finger station, ask \"Show me five fingers\" and \"Show me four.\" Children: Child shows the number of fingers called.",
+        "Step 3. Teacher: At the cup station, ask \"Can you count the cups up and down?\" Children: Child counts cups and says the numbers.",
+        "Step 4. Teacher: Record each child’s level and photograph their work. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes one station per round."
+        ],
+        "safety": "Use unbreakable cups and large birds; supervise each station closely."
+      },
+      "differentiation": {
+        "support": "Keep the child at one station with an adult partner.",
+        "extension": "Ask a confident child to lead the count at the cup station."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: joins the rhyme to five; shows up to five fingers; counts down from five with support.",
+        "questions": [
+          {
+            "question": "Show me four fingers.",
+            "expected": "Child shows four fingers."
+          },
+          {
+            "question": "What comes after four?",
+            "expected": "Five."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Joins rhymes to five"
+      ],
+      "conclusion": "Sing the finger rhyme once more and tidy up together.",
+      "homeConnection": "Say the finger rhyme every day this week.",
+      "teacherReflection": [
+        "Which children could show \"show they can say, show and count to five at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 2 3 4 5"
+        ],
+        "pictures": [
+          "Photos of the stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

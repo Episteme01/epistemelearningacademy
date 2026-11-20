@@ -1,0 +1,598 @@
+{
+  "id": "ELA-PS-TOD-NUM-T2-W06",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 6,
+  "title": "Long and short",
+  "topic": "Measuring",
+  "subtopics": [
+    "Long and short objects",
+    "Comparing two lengths side by side",
+    "Long and short in stories and songs"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say which of two things is long or short.",
+    "Children will line up two objects at one end to compare them."
+  ],
+  "vocabulary": [
+    "long",
+    "short",
+    "longer",
+    "shorter",
+    "line up"
+  ],
+  "content": "Comparing the length of two objects and saying which is long and which is short, lining them up at one end.",
+  "teachingActivities": "Hold objects side by side with the ends lined up on the floor; say longer and shorter with a stretching gesture; model the line-up before children try.",
+  "learnerActivities": "Find long and short things, line up two objects to compare, make a long and a short snake, and sing about long and short.",
+  "resources": [
+    "Lengths of rope or cloth strips",
+    "Wooden sticks or rolled newspaper (large)",
+    "Two ribbons",
+    "Playdough",
+    "A toy snake"
+  ],
+  "assessment": "Check whether each child chooses the longer or shorter of two objects and lines up objects at one end.",
+  "expectedOutcomes": [
+    "Chooses the longer or shorter of two objects.",
+    "Begins to line up objects to compare."
+  ],
+  "crossCurricular": [
+    "Literacy: comparing words and rhymes",
+    "Physical Development: stretching and rolling",
+    "Science: measuring with hands and body"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W06-D01",
+      "title": "Long rope, short rope",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Long and short objects",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will point to the long rope and the short rope when asked."
+      ],
+      "successCriteria": [
+        "Points to the long one on request",
+        "Points to the short one on request"
+      ],
+      "previousKnowledge": "Children can compare big and small, count to five with support and match numerals 1 to 5.",
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "line up"
+      ],
+      "resources": [
+        "A long rope and a short rope",
+        "A long cloth strip and a short strip",
+        "A mat"
+      ],
+      "starter": "Stretch a long rope across the mat with your arms wide and say \"Long! This rope is long.\" Hold the short rope in one hand and say \"Short.\"",
+      "teacherActivities": [
+        "Lay the two ropes on the floor with the left ends lined up. Say \"This one is long. This one is short.\"",
+        "Ask \"Where is the long rope?\" Then \"Where is the short rope?\"",
+        "Swap the positions so the long rope is on the other side. Ask again.",
+        "Give each child a cloth strip. Ask them to find a friend with a longer or shorter strip."
+      ],
+      "learnerActivities": [
+        "Children look at both ropes and point to each when named.",
+        "Children point to the correct rope each time.",
+        "Children point and say \"long\" or \"short\".",
+        "Child compares strips with a friend and says long or short."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Lay the two ropes on the floor with the left ends lined up. Say \"This one is long. This one is short.\" Children: Children look at both ropes and point to each when named.",
+        "Step 2. Teacher: Ask \"Where is the long rope?\" Then \"Where is the short rope?\" Children: Children point to the correct rope each time.",
+        "Step 3. Teacher: Swap the positions so the long rope is on the other side. Ask again. Children: Children point and say \"long\" or \"short\".",
+        "Step 4. Teacher: Give each child a cloth strip. Ask them to find a friend with a longer or shorter strip. Children: Child compares strips with a friend and says long or short."
+      ],
+      "practical": {
+        "title": "Long and short parade",
+        "steps": [
+          "Give each child a strip of cloth.",
+          "Call \"Long\" and children hold up a strip that is long; call \"Short\" for short.",
+          "Swap strips with a friend."
+        ],
+        "safety": "Use soft cloth strips and ropes shorter than a child’s arm span to avoid tangles; never wrap rope around a neck or limb."
+      },
+      "differentiation": {
+        "support": "Offer one very long and one very short rope and put them far apart.",
+        "extension": "Ask the child to find a third rope that is longer than both."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Show me the long rope.",
+            "expected": "Child points to the longer rope."
+          },
+          {
+            "question": "Which one is short?",
+            "expected": "Child points to the shorter rope."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Chooses long or short on request",
+        "Says long or short with support"
+      ],
+      "conclusion": "Stretch the long rope between two children and say \"Long, long, long.\" Coil the short rope and say \"Short.\"",
+      "homeConnection": "Compare a long spoon and a short spoon or long and short shoes at home.",
+      "teacherReflection": [
+        "Which children could show \"point to the long rope and the short rope when asked\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LONG (a long rope)",
+          "SHORT (a short rope)"
+        ],
+        "pictures": [
+          "A long rope and a short rope",
+          "Children stretching arms wide"
+        ],
+        "songOrRhyme": "Long, long, long, stretch it out. Short, short, short, curl it in."
+      },
+      "activities": [
+        "Long and short parade"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W06-D02",
+      "title": "Line them up",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Comparing two lengths side by side",
+      "dayType": "explore",
+      "objectives": [
+        "Children will line up two objects at one end to see which is longer."
+      ],
+      "successCriteria": [
+        "Places two objects side by side",
+        "Lines up one end and says which is longer"
+      ],
+      "previousKnowledge": "Children can compare big and small, count to five with support and match numerals 1 to 5.",
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "line up"
+      ],
+      "resources": [
+        "Sticks or rolled newspaper of different lengths",
+        "A masking tape line on the floor",
+        "A mat"
+      ],
+      "starter": "Show two sticks and ask \"Which stick is longer? How can we be sure?\" Wait for ideas, then say \"We line them up at the start.\"",
+      "teacherActivities": [
+        "Place the two sticks on the tape line with the left ends at the tape. Say \"Start here.\"",
+        "Point to the end that goes further and say \"This one is longer.\"",
+        "Give each pair two sticks and let them line them up.",
+        "Compare three sticks and find the longest."
+      ],
+      "learnerActivities": [
+        "Children watch and look at the other ends.",
+        "Children point to the longer stick.",
+        "Pairs line up the sticks and choose the longer.",
+        "Children place all three at the line and point to the longest."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Place the two sticks on the tape line with the left ends at the tape. Say \"Start here.\" Children: Children watch and look at the other ends.",
+        "Step 2. Teacher: Point to the end that goes further and say \"This one is longer.\" Children: Children point to the longer stick.",
+        "Step 3. Teacher: Give each pair two sticks and let them line them up. Children: Pairs line up the sticks and choose the longer.",
+        "Step 4. Teacher: Compare three sticks and find the longest. Children: Children place all three at the line and point to the longest."
+      ],
+      "practical": {
+        "title": "Start line comparing",
+        "steps": [
+          "Lay a tape line on the floor.",
+          "Children place two sticks with one end on the line.",
+          "They point to the stick that goes further."
+        ],
+        "safety": "Use soft or rounded sticks, such as rolled newspaper, and make sure children do not swing them; keep the area clear."
+      },
+      "differentiation": {
+        "support": "Use two objects with a very big difference and hold the start end for the child.",
+        "extension": "Ask the child to put three objects in order from shortest to longest."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which is longer?",
+            "expected": "The stick that reaches further."
+          },
+          {
+            "question": "Where do we start?",
+            "expected": "At the line, with both ends together."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Lines up objects at one end",
+        "Chooses the longer of two"
+      ],
+      "conclusion": "Gather the sticks and say \"Long and short, tidy up.\"",
+      "homeConnection": "Line up two spoons or two pencils at home and see which is longer.",
+      "teacherReflection": [
+        "Which children could show \"line up two objects at one end to see which is longer\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Start line",
+          "Longer",
+          "Shorter"
+        ],
+        "pictures": [
+          "Two sticks lined up at a start line"
+        ]
+      },
+      "activities": [
+        "Start line comparing"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W06-D03",
+      "title": "Long and short snakes",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Long and short in stories and songs",
+      "dayType": "practise",
+      "objectives": [
+        "Children will make a long and a short snake from playdough and say which is longer."
+      ],
+      "successCriteria": [
+        "Rolls playdough into a snake",
+        "Says which snake is long and which is short"
+      ],
+      "previousKnowledge": "Children can compare big and small, count to five with support and match numerals 1 to 5.",
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "line up"
+      ],
+      "resources": [
+        "Playdough",
+        "Trays",
+        "A toy snake",
+        "Rolling boards"
+      ],
+      "starter": "Hold a toy snake and say \"Ssssss! This snake is very long. Let us make long and short snakes with playdough.\"",
+      "teacherActivities": [
+        "Roll a long snake and a short snake on the board. Hold them up and say \"long\" and \"short\".",
+        "Let each child roll two snakes, one longer than the other.",
+        "Ask \"Which is the long snake? Which is short?\"",
+        "Place snakes from different children side by side and find the longest."
+      ],
+      "learnerActivities": [
+        "Children watch and say the words.",
+        "Child makes two snakes of different lengths.",
+        "Child points to each snake.",
+        "Children compare snakes and point to the longest."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Roll a long snake and a short snake on the board. Hold them up and say \"long\" and \"short\". Children: Children watch and say the words.",
+        "Step 2. Teacher: Let each child roll two snakes, one longer than the other. Children: Child makes two snakes of different lengths.",
+        "Step 3. Teacher: Ask \"Which is the long snake? Which is short?\" Children: Child points to each snake.",
+        "Step 4. Teacher: Place snakes from different children side by side and find the longest. Children: Children compare snakes and point to the longest."
+      ],
+      "practical": {
+        "title": "Playdough snakes",
+        "steps": [
+          "Give each child playdough and a tray.",
+          "Roll one long and one short snake.",
+          "Line them up to compare."
+        ],
+        "safety": "Use non-toxic playdough; tell children not to eat it; wash hands after play and check for allergy to ingredients such as wheat."
+      },
+      "differentiation": {
+        "support": "Roll the snake together hand-over-hand and compare with one other snake.",
+        "extension": "Ask the child to make three snakes and order them from shortest to longest."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which snake is long?",
+            "expected": "The longer snake."
+          },
+          {
+            "question": "Can you make a short snake?",
+            "expected": "Child makes a short snake."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes long and short objects",
+        "Compares lengths"
+      ],
+      "conclusion": "Put all the snakes in a line from short to long and say \"A snake parade.\"",
+      "homeConnection": "Make long and short rolls with dough, clay or mud with your child.",
+      "teacherReflection": [
+        "Which children could show \"make a long and a short snake from playdough and say which is longer\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Long snake",
+          "Short snake"
+        ],
+        "pictures": [
+          "A long and a short playdough snake"
+        ]
+      },
+      "activities": [
+        "Playdough snakes"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W06-D04",
+      "title": "The long and short road",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Long and short in stories and songs",
+      "dayType": "apply",
+      "objectives": [
+        "Children will use long and short while listening to a story and playing a road game."
+      ],
+      "successCriteria": [
+        "Chooses a long or short road on request",
+        "Uses long or short in play"
+      ],
+      "previousKnowledge": "Children can compare big and small, count to five with support and match numerals 1 to 5.",
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "line up"
+      ],
+      "resources": [
+        "Two strips of paper or cloth for roads (long and short)",
+        "A toy bus and a toy car",
+        "A mat"
+      ],
+      "starter": "Lay out two road strips, one long and one short. Say \"Tunde and Amina have two roads to the market. Which one is longer?\"",
+      "teacherActivities": [
+        "Tell the story while moving a toy along each road. Pause on the words long and short.",
+        "Ask \"Which road is shorter?\" and \"Which will take more time?\"",
+        "Let each child drive a toy car along the long road and then the short road.",
+        "Walk along two taped roads, one long and one short, in the room."
+      ],
+      "learnerActivities": [
+        "Children say \"long\" and \"short\" as the toy travels.",
+        "Children point to the roads and answer.",
+        "Child drives and says which road is long and which is short.",
+        "Children walk both and say which took more steps."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the story while moving a toy along each road. Pause on the words long and short. Children: Children say \"long\" and \"short\" as the toy travels.",
+        "Step 2. Teacher: Ask \"Which road is shorter?\" and \"Which will take more time?\" Children: Children point to the roads and answer.",
+        "Step 3. Teacher: Let each child drive a toy car along the long road and then the short road. Children: Child drives and says which road is long and which is short.",
+        "Step 4. Teacher: Walk along two taped roads, one long and one short, in the room. Children: Children walk both and say which took more steps."
+      ],
+      "practical": {
+        "title": "Two roads",
+        "steps": [
+          "Tape a long road and a short road on the floor.",
+          "Children walk each and count steps up to five.",
+          "Say which was the long road."
+        ],
+        "safety": "Tape roads securely; keep walkways clear; children walk one at a time."
+      },
+      "differentiation": {
+        "support": "Use only the long road and say \"long\" while walking beside the child.",
+        "extension": "Ask the child to count how many steps for each road and say which had more."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which road is short?",
+            "expected": "The shorter road."
+          },
+          {
+            "question": "Which road did Tunde take going home?",
+            "expected": "The long road."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses long and short in a story",
+        "Compares two paths"
+      ],
+      "conclusion": "Sing \"Long road, short road\" and put the toy car away.",
+      "homeConnection": "Compare two paths in your compound and say which is longer.",
+      "teacherReflection": [
+        "Which children could show \"use long and short while listening to a story and playing a road game\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Long road",
+          "Short road"
+        ],
+        "pictures": [
+          "Two roads, one long and one short"
+        ],
+        "songOrRhyme": "Long road, short road, walk and sing. Long road, short road, we can go.",
+        "story": "Tunde and Amina went to the market. There were two roads. One road was long, long, long. One road was short, short, short. \"Let us take the short road,\" said Amina. They walked and walked and soon they reached the market. On the way home, Tunde said, \"Let us take the long road and sing.\" They sang all the way home."
+      },
+      "activities": [
+        "Two roads"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W06-D05",
+      "title": "Length stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Measuring",
+      "subtopic": "Comparing two lengths side by side",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can compare lengths at three stations."
+      ],
+      "successCriteria": [
+        "Chooses the longer or shorter object",
+        "Lines up two objects at one end"
+      ],
+      "previousKnowledge": "Children can compare big and small, count to five with support and match numerals 1 to 5.",
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "line up"
+      ],
+      "resources": [
+        "Station 1: ropes and cloth strips",
+        "Station 2: sticks and tape line",
+        "Station 3: playdough snakes",
+        "Class record sheet"
+      ],
+      "starter": "Sing \"Long, long, long\" and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask \"Which is longer?\" and \"Can you line them up?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child lines up objects and chooses the longer.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask \"Which is longer?\" and \"Can you line them up?\" Children: Child lines up objects and chooses the longer.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Use soft items only; supervise all stations; keep playdough away from mouths."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask the child to order three objects by length."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: chooses the longer or shorter of two objects; lines up objects at one end; uses long and short.",
+        "questions": [
+          {
+            "question": "Which one is longer?",
+            "expected": "The longer object."
+          },
+          {
+            "question": "Can you find a short one?",
+            "expected": "Child finds a shorter object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Compares length with growing confidence"
+      ],
+      "conclusion": "Sing the long and short song and tidy up together.",
+      "homeConnection": "Compare lengths of objects at home this week.",
+      "teacherReflection": [
+        "Which children could show \"show they can compare lengths at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Long, short"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

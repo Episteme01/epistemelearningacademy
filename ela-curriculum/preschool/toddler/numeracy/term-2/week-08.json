@@ -1,0 +1,588 @@
+{
+  "id": "ELA-PS-TOD-NUM-T2-W08",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 8,
+  "title": "Making patterns",
+  "topic": "Pattern",
+  "subtopics": [
+    "Sound and clap patterns",
+    "Colour patterns AB",
+    "What comes next?"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will copy a clap or movement pattern.",
+    "Children will continue a two-colour pattern with support."
+  ],
+  "vocabulary": [
+    "pattern",
+    "next",
+    "again",
+    "clap",
+    "stamp"
+  ],
+  "content": "Copying and continuing simple two-part patterns with claps, movements, colours and objects.",
+  "teachingActivities": "Say the pattern aloud as you make it, \"red, blue, red, blue\"; point to each item; pause before the next item and ask \"What comes next?\"",
+  "learnerActivities": "Copy clap and stamp patterns, continue a colour pattern, make an AB pattern with objects and dance a pattern.",
+  "resources": [
+    "Red and blue blocks or cups",
+    "Coloured cloths",
+    "A drum",
+    "Large wooden beads on a string with a knot (too large to swallow)",
+    "Leaves and stones too large to swallow"
+  ],
+  "assessment": "Check whether each child copies a two-part pattern and adds the next object with support.",
+  "expectedOutcomes": [
+    "Copies a two-part clap pattern.",
+    "Adds the next object to an AB pattern with support."
+  ],
+  "crossCurricular": [
+    "Literacy: rhythm and sequencing words",
+    "Physical Development: clapping and stamping",
+    "Expressive arts: dance and music"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W08-D01",
+      "title": "Clap, stamp, clap, stamp",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 8,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Pattern",
+      "subtopic": "Sound and clap patterns",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will copy a clap and stamp pattern."
+      ],
+      "successCriteria": [
+        "Copies the clap and stamp pattern",
+        "Keeps going for at least two repeats"
+      ],
+      "previousKnowledge": "Children can sort by colour, match, and copy clapping, counting and movement actions.",
+      "vocabulary": [
+        "pattern",
+        "next",
+        "again",
+        "clap",
+        "stamp"
+      ],
+      "resources": [
+        "A drum",
+        "An open floor space"
+      ],
+      "starter": "Clap and stamp in a steady beat: \"Clap, stamp, clap, stamp.\" Say \"I made a pattern. Can you do it with me?\"",
+      "teacherActivities": [
+        "Do the pattern slowly four times while saying \"clap, stamp\" and look at the children.",
+        "Stop and ask \"What comes next after clap?\"",
+        "Try a new pattern: pat knees, clap, pat knees, clap.",
+        "Let a child lead a pattern for the group."
+      ],
+      "learnerActivities": [
+        "Children watch and join in on clap and stamp.",
+        "Children stamp or say \"stamp\".",
+        "Children copy the new pattern.",
+        "Child makes a two-part pattern and the group copies."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Do the pattern slowly four times while saying \"clap, stamp\" and look at the children. Children: Children watch and join in on clap and stamp.",
+        "Step 2. Teacher: Stop and ask \"What comes next after clap?\" Children: Children stamp or say \"stamp\".",
+        "Step 3. Teacher: Try a new pattern: pat knees, clap, pat knees, clap. Children: Children copy the new pattern.",
+        "Step 4. Teacher: Let a child lead a pattern for the group. Children: Child makes a two-part pattern and the group copies."
+      ],
+      "practical": {
+        "title": "Pattern circle",
+        "steps": [
+          "Stand in a circle with space between children.",
+          "Make a clap and stamp pattern.",
+          "Pass the leader role around the circle."
+        ],
+        "safety": "Give children space to avoid bumping; stamp softly on a clear floor; stop if the group becomes too excited."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hands to clap, then guide the foot to stamp.",
+        "extension": "Ask the child to invent a new two-part pattern and lead the group."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "After clap, stamp, clap, what comes next?",
+            "expected": "Stamp."
+          },
+          {
+            "question": "Can you make a pattern?",
+            "expected": "Child makes a two-part pattern."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Copies a two-part clap pattern",
+        "Continues the pattern with support"
+      ],
+      "conclusion": "Beat a slow drum pattern and tiptoe away. Say \"Pattern finished.\"",
+      "homeConnection": "Make clap and tap patterns with your child on the table or a bucket.",
+      "teacherReflection": [
+        "Which children could show \"copy a clap and stamp pattern\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Clap, stamp, clap, stamp"
+        ],
+        "pictures": [
+          "Children clapping and stamping"
+        ],
+        "songOrRhyme": "Clap, stamp, clap, stamp, that is a pattern. Clap, stamp, clap, stamp, what comes next?"
+      },
+      "activities": [
+        "Pattern circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W08-D02",
+      "title": "Red, blue, red, blue",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 8,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Pattern",
+      "subtopic": "Colour patterns AB",
+      "dayType": "explore",
+      "objectives": [
+        "Children will continue a red and blue pattern with blocks or cups."
+      ],
+      "successCriteria": [
+        "Adds the next object in the pattern",
+        "Says the colours while building"
+      ],
+      "previousKnowledge": "Children can sort by colour, match, and copy clapping, counting and movement actions.",
+      "vocabulary": [
+        "pattern",
+        "next",
+        "again",
+        "clap",
+        "stamp"
+      ],
+      "resources": [
+        "Red and blue blocks or cups",
+        "A mat",
+        "A basket"
+      ],
+      "starter": "Lay out three objects: red, blue, red. Ask \"What comes next?\" and wait.",
+      "teacherActivities": [
+        "Make a pattern with blocks: red, blue, red, blue. Say each colour as you place it.",
+        "Stop and ask \"What comes next?\" Hold up a red block and a blue block.",
+        "Say the pattern from the start and point to each block.",
+        "Give each pair a basket of blocks and let them make a pattern."
+      ],
+      "learnerActivities": [
+        "Children say the colours with you.",
+        "Child chooses the correct block and places it.",
+        "Children say the pattern aloud.",
+        "Pairs make a red and blue pattern."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Make a pattern with blocks: red, blue, red, blue. Say each colour as you place it. Children: Children say the colours with you.",
+        "Step 2. Teacher: Stop and ask \"What comes next?\" Hold up a red block and a blue block. Children: Child chooses the correct block and places it.",
+        "Step 3. Teacher: Say the pattern from the start and point to each block. Children: Children say the pattern aloud.",
+        "Step 4. Teacher: Give each pair a basket of blocks and let them make a pattern. Children: Pairs make a red and blue pattern."
+      ],
+      "practical": {
+        "title": "Block patterns",
+        "steps": [
+          "Give each pair red and blue blocks.",
+          "One child starts the pattern with two blocks.",
+          "The partner adds the next blocks."
+        ],
+        "safety": "Use large blocks, not small ones; keep everything on the mat."
+      },
+      "differentiation": {
+        "support": "Start the pattern and leave only one block to add.",
+        "extension": "Ask the child to make a pattern with three colours."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes after red, blue, red?",
+            "expected": "Blue."
+          },
+          {
+            "question": "Can you make a pattern?",
+            "expected": "Child builds a red and blue pattern."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Continues a colour pattern",
+        "Says the colours in the pattern"
+      ],
+      "conclusion": "Say the pattern together from start to end and point to each block.",
+      "homeConnection": "Make a pattern with two kinds of socks or spoons.",
+      "teacherReflection": [
+        "Which children could show \"continue a red and blue pattern with blocks or cups\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Red, blue, red, blue"
+        ],
+        "pictures": [
+          "A red and blue block pattern"
+        ]
+      },
+      "activities": [
+        "Block patterns"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W08-D03",
+      "title": "What comes next?",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 8,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Pattern",
+      "subtopic": "What comes next?",
+      "dayType": "practise",
+      "objectives": [
+        "Children will find the missing object in a two-part pattern."
+      ],
+      "successCriteria": [
+        "Chooses the next object",
+        "Explains with a word or gesture"
+      ],
+      "previousKnowledge": "Children can sort by colour, match, and copy clapping, counting and movement actions.",
+      "vocabulary": [
+        "pattern",
+        "next",
+        "again",
+        "clap",
+        "stamp"
+      ],
+      "resources": [
+        "A pattern strip with cups or leaves",
+        "A basket of extra objects",
+        "A cloth"
+      ],
+      "starter": "Say \"I am hiding the next one. Can you guess what is under the cloth?\" Cover the last object in a pattern.",
+      "teacherActivities": [
+        "Make a pattern with cups: tall, short, tall, short. Cover the last one with a cloth.",
+        "Lift the cloth and check the guess.",
+        "Give each child a pattern strip with the last item missing.",
+        "Switch to a sound pattern and ask what comes next."
+      ],
+      "learnerActivities": [
+        "Children look at the pattern and guess what is under the cloth.",
+        "Children say \"yes\" or \"no\" and say the pattern aloud.",
+        "Child chooses the next object from a basket.",
+        "Children say or play the next sound."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Make a pattern with cups: tall, short, tall, short. Cover the last one with a cloth. Children: Children look at the pattern and guess what is under the cloth.",
+        "Step 2. Teacher: Lift the cloth and check the guess. Children: Children say \"yes\" or \"no\" and say the pattern aloud.",
+        "Step 3. Teacher: Give each child a pattern strip with the last item missing. Children: Child chooses the next object from a basket.",
+        "Step 4. Teacher: Switch to a sound pattern and ask what comes next. Children: Children say or play the next sound."
+      ],
+      "practical": {
+        "title": "Missing one",
+        "steps": [
+          "Lay out a pattern of five objects.",
+          "Cover the last one.",
+          "Children choose the right object to put there."
+        ],
+        "safety": "Use large objects only; supervise the basket; no small items."
+      },
+      "differentiation": {
+        "support": "Offer only the correct object and one clearly different one.",
+        "extension": "Ask the child to find a mistake in a pattern and fix it."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes next?",
+            "expected": "The object that continues the pattern."
+          },
+          {
+            "question": "Is this the same pattern?",
+            "expected": "Yes if repeating, no if not."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds the next item in a pattern",
+        "Explains with gestures"
+      ],
+      "conclusion": "Say the whole pattern aloud with the group and clap on the last item.",
+      "homeConnection": "Ask your child to guess what comes next in a row of fruit or spoons.",
+      "teacherReflection": [
+        "Which children could show \"find the missing object in a two-part pattern\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "What comes next?"
+        ],
+        "pictures": [
+          "A pattern with a hidden object"
+        ]
+      },
+      "activities": [
+        "Missing one"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W08-D04",
+      "title": "Pattern dance",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 8,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Pattern",
+      "subtopic": "Sound and clap patterns",
+      "dayType": "apply",
+      "objectives": [
+        "Children will make and follow patterns in a dance using movements and drums."
+      ],
+      "successCriteria": [
+        "Follows a movement pattern",
+        "Makes a pattern with a friend"
+      ],
+      "previousKnowledge": "Children can sort by colour, match, and copy clapping, counting and movement actions.",
+      "vocabulary": [
+        "pattern",
+        "next",
+        "again",
+        "clap",
+        "stamp"
+      ],
+      "resources": [
+        "A drum",
+        "Coloured scarves in two colours",
+        "An open floor space"
+      ],
+      "starter": "Beat the drum and say \"Let us dance a pattern!\" Hold up a red and a blue scarf alternately.",
+      "teacherActivities": [
+        "Dance a pattern: hop, spin, hop, spin. Say the actions aloud.",
+        "Hold up red then blue scarves. Say \"Wave red, wave blue.\" Pause.",
+        "Let each child make a two-move dance for a friend to copy.",
+        "Dance a pattern with the whole class to the drum."
+      ],
+      "learnerActivities": [
+        "Children copy the dance pattern.",
+        "Children wave the scarf that matches.",
+        "Child makes a pattern and the friend copies it.",
+        "Children dance and repeat the pattern."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Dance a pattern: hop, spin, hop, spin. Say the actions aloud. Children: Children copy the dance pattern.",
+        "Step 2. Teacher: Hold up red then blue scarves. Say \"Wave red, wave blue.\" Pause. Children: Children wave the scarf that matches.",
+        "Step 3. Teacher: Let each child make a two-move dance for a friend to copy. Children: Child makes a pattern and the friend copies it.",
+        "Step 4. Teacher: Dance a pattern with the whole class to the drum. Children: Children dance and repeat the pattern."
+      ],
+      "practical": {
+        "title": "Pattern dance",
+        "steps": [
+          "Give each child two scarves.",
+          "Follow the leader’s two-move pattern.",
+          "Change leader every minute."
+        ],
+        "safety": "Allow lots of space; use light scarves and keep them away from necks; no running."
+      },
+      "differentiation": {
+        "support": "Dance beside the child and copy their moves first.",
+        "extension": "Ask the child to make a three-move pattern."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is the pattern?",
+            "expected": "Child names or shows the two moves."
+          },
+          {
+            "question": "What comes after hop?",
+            "expected": "Spin, or the next move in the pattern."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows and makes a movement pattern",
+        "Works with a partner"
+      ],
+      "conclusion": "Slow the drum and finish with a calm pattern: \"sit, stand, sit, stand.\"",
+      "homeConnection": "Make a dance pattern with a family member and teach it to the family.",
+      "teacherReflection": [
+        "Which children could show \"make and follow patterns in a dance using movements and drums\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Hop, spin, hop, spin"
+        ],
+        "pictures": [
+          "Children dancing with scarves"
+        ]
+      },
+      "activities": [
+        "Pattern dance"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W08-D05",
+      "title": "Pattern stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 8,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Pattern",
+      "subtopic": "Colour patterns AB",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can copy and continue patterns at three stations."
+      ],
+      "successCriteria": [
+        "Copies a two-part pattern",
+        "Adds the next item with support"
+      ],
+      "previousKnowledge": "Children can sort by colour, match, and copy clapping, counting and movement actions.",
+      "vocabulary": [
+        "pattern",
+        "next",
+        "again",
+        "clap",
+        "stamp"
+      ],
+      "resources": [
+        "Station 1: clap and drum patterns",
+        "Station 2: block patterns",
+        "Station 3: missing one game",
+        "Class record sheet"
+      ],
+      "starter": "Sing the pattern song and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask \"What comes next?\" and watch for the child’s choice.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child chooses or says the next item.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask \"What comes next?\" and watch for the child’s choice. Children: Child chooses or says the next item.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Use large objects only; supervise stations; keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask a confident child to invent a new pattern and teach a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: copies a two-part clap or movement pattern; adds the next object to an AB pattern with support.",
+        "questions": [
+          {
+            "question": "What comes next?",
+            "expected": "The next item in the pattern."
+          },
+          {
+            "question": "Can you make a pattern?",
+            "expected": "Child makes a pattern."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Copies and continues patterns"
+      ],
+      "conclusion": "Sing the pattern song and tidy up together.",
+      "homeConnection": "Make patterns with objects at home this week.",
+      "teacherReflection": [
+        "Which children could show \"show they can copy and continue patterns at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Patterns"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

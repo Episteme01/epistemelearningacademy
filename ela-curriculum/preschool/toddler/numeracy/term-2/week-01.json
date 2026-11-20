@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-NUM-T2-W01",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 1,
+  "title": "More and the same",
+  "topic": "Comparing quantity",
+  "subtopics": [
+    "More",
+    "The same amount",
+    "No more, all gone"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will point to the group that has more.",
+    "Children will say more when they want another."
+  ],
+  "vocabulary": [
+    "more",
+    "same",
+    "all gone",
+    "again",
+    "please"
+  ],
+  "content": "Comparing two groups of real objects and saying which has more, which is the same, and when none are left.",
+  "teachingActivities": "Place groups side by side, lined up so the difference is obvious; use the words more and same every time; ask \"How do you know?\" and accept pointing.",
+  "learnerActivities": "Choose the group with more, make two groups the same, ask for more using the word, and say all gone.",
+  "resources": [
+    "Large wooden blocks",
+    "Toy biscuits and plates",
+    "Two trays or baskets",
+    "Toy oranges",
+    "Soft toys as guests"
+  ],
+  "assessment": "Note whether each child picks the group with more when the difference is clear and uses the word more in play.",
+  "expectedOutcomes": [
+    "Chooses the group with more when the difference is clear.",
+    "Uses the word more purposefully."
+  ],
+  "crossCurricular": [
+    "Literacy: asking politely with more please",
+    "Social Habits: fair sharing and saying please",
+    "Science: comparing amounts of water or sand"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W01-D01",
+      "title": "More biscuits, please",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 1,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Comparing quantity",
+      "subtopic": "More",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will ask for more using the word more and point to the plate with more."
+      ],
+      "successCriteria": [
+        "Says or signs more when they want another",
+        "Points to the plate that has more"
+      ],
+      "previousKnowledge": "Children can count to three with real things, say one and lots, and match same and different objects.",
+      "vocabulary": [
+        "more",
+        "same",
+        "all gone",
+        "again",
+        "please"
+      ],
+      "resources": [
+        "Two plates",
+        "Six toy biscuits",
+        "A soft toy named Teddy"
+      ],
+      "starter": "Hold up two plates, one with one biscuit and one with four. Say \"Teddy wants more biscuits. Which plate has more?\" Wait while the children look.",
+      "teacherActivities": [
+        "Put one biscuit on Teddy’s plate and four on yours. Say \"Teddy has one. I have more!\" Point to the larger pile.",
+        "Ask \"How can Teddy have more?\" and add a biscuit to his plate, saying \"More, please.\"",
+        "Let each child feed Teddy: \"Give Teddy more biscuits.\" Count only to three.",
+        "Pretend to eat the biscuits so the plate is empty. Say \"No more. All gone.\""
+      ],
+      "learnerActivities": [
+        "Children look at both plates and point to the one with more.",
+        "Children say or sign \"more\" and place a biscuit on the plate.",
+        "Child adds biscuits one at a time and says \"more\".",
+        "Children open their hands and say \"all gone\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put one biscuit on Teddy’s plate and four on yours. Say \"Teddy has one. I have more!\" Point to the larger pile. Children: Children look at both plates and point to the one with more.",
+        "Step 2. Teacher: Ask \"How can Teddy have more?\" and add a biscuit to his plate, saying \"More, please.\" Children: Children say or sign \"more\" and place a biscuit on the plate.",
+        "Step 3. Teacher: Let each child feed Teddy: \"Give Teddy more biscuits.\" Count only to three. Children: Child adds biscuits one at a time and says \"more\".",
+        "Step 4. Teacher: Pretend to eat the biscuits so the plate is empty. Say \"No more. All gone.\" Children: Children open their hands and say \"all gone\"."
+      ],
+      "practical": {
+        "title": "Feed Teddy",
+        "steps": [
+          "Give each pair a plate, a soft toy and some toy biscuits.",
+          "Child one asks \"more please\" and child two adds biscuits.",
+          "Swap roles after three turns."
+        ],
+        "safety": "Use toy biscuits larger than a child’s fist. Do not use real small sweets. Children sit while feeding the toy."
+      },
+      "differentiation": {
+        "support": "Use one biscuit and a full plate so the difference is huge, and say \"more\" with the child.",
+        "extension": "Ask the child to make Teddy’s plate have more than yours and explain with a gesture."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which plate has more?",
+            "expected": "Child points to the plate with the larger pile."
+          },
+          {
+            "question": "What do you say if you want another?",
+            "expected": "More, please, said or signed."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Points to the group with more",
+        "Asks for more using the word"
+      ],
+      "conclusion": "Wave goodbye to Teddy and say \"No more biscuits today. All gone.\" Tidy the plates together.",
+      "homeConnection": "At mealtimes, let your child say \"more please\" and point to the plate that has more food.",
+      "teacherReflection": [
+        "Which children could show \"ask for more using the word more and point to the plate with more\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MORE (a big pile)",
+          "Fewer (a small pile)"
+        ],
+        "pictures": [
+          "Two plates, one with many biscuits",
+          "Teddy eating biscuits"
+        ],
+        "songOrRhyme": "More, more, more, please. More, more, more, please. Teddy wants more biscuits, more, more, please."
+      },
+      "activities": [
+        "Feed Teddy"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W01-D02",
+      "title": "Which pile has more?",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 1,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Comparing quantity",
+      "subtopic": "More",
+      "dayType": "explore",
+      "objectives": [
+        "Children will compare two piles of blocks and point to the pile with more."
+      ],
+      "successCriteria": [
+        "Points to the larger pile",
+        "Says more with support"
+      ],
+      "previousKnowledge": "Children can count to three with real things, say one and lots, and match same and different objects.",
+      "vocabulary": [
+        "more",
+        "same",
+        "all gone",
+        "again",
+        "please"
+      ],
+      "resources": [
+        "Twelve large blocks",
+        "Two trays",
+        "A mat"
+      ],
+      "starter": "Make a tall pile of blocks and a short pile. Say \"Look at my blocks. This pile has lots. This pile has a few.\" Ask which pile they would choose to build with.",
+      "teacherActivities": [
+        "Build two piles on the mat, one with five blocks and one with two, with the blocks in neat lines.",
+        "Say \"This pile has more.\" Touch each block in the bigger pile as you count to five, then two.",
+        "Swap the piles so the side with more changes. Ask \"Which has more now?\"",
+        "Let a child make a pile for you with more than yours."
+      ],
+      "learnerActivities": [
+        "Children look at the two lines and point to the longer one.",
+        "Children touch the blocks and say the numbers with you.",
+        "Children point to the new side that has more.",
+        "Child builds a pile and says \"more\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Build two piles on the mat, one with five blocks and one with two, with the blocks in neat lines. Children: Children look at the two lines and point to the longer one.",
+        "Step 2. Teacher: Say \"This pile has more.\" Touch each block in the bigger pile as you count to five, then two. Children: Children touch the blocks and say the numbers with you.",
+        "Step 3. Teacher: Swap the piles so the side with more changes. Ask \"Which has more now?\" Children: Children point to the new side that has more.",
+        "Step 4. Teacher: Let a child make a pile for you with more than yours. Children: Child builds a pile and says \"more\"."
+      ],
+      "practical": {
+        "title": "Two pile game",
+        "steps": [
+          "Give each pair twelve blocks and two trays.",
+          "One child makes two piles, one bigger than the other.",
+          "The partner points to the pile with more."
+        ],
+        "safety": "Use blocks that are too large to swallow. Keep the building area on the floor, away from the edges of the mat."
+      },
+      "differentiation": {
+        "support": "Compare one block with a very large pile.",
+        "extension": "Make two piles that are close in size, three and four, and ask the child to count and decide."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which pile has more blocks?",
+            "expected": "The larger pile."
+          },
+          {
+            "question": "How do you know?",
+            "expected": "Child points, counts or gestures to show it is bigger."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Chooses the larger of two piles",
+        "Uses the word more"
+      ],
+      "conclusion": "Knock down the piles gently and tidy the blocks into the basket while counting.",
+      "homeConnection": "Make two piles of spoons or socks at home and ask which has more.",
+      "teacherReflection": [
+        "Which children could show \"compare two piles of blocks and point to the pile with more\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "More blocks",
+          "Fewer blocks"
+        ],
+        "pictures": [
+          "A big pile and a small pile of blocks"
+        ]
+      },
+      "activities": [
+        "Two pile game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W01-D03",
+      "title": "The same amount",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 1,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Comparing quantity",
+      "subtopic": "The same amount",
+      "dayType": "practise",
+      "objectives": [
+        "Children will make two groups that have the same amount, with one-to-one matching."
+      ],
+      "successCriteria": [
+        "Places one object for each object in the other group",
+        "Says same when the groups match"
+      ],
+      "previousKnowledge": "Children can count to three with real things, say one and lots, and match same and different objects.",
+      "vocabulary": [
+        "more",
+        "same",
+        "all gone",
+        "again",
+        "please"
+      ],
+      "resources": [
+        "Six toy oranges",
+        "Two baskets",
+        "Two cloths"
+      ],
+      "starter": "Show two baskets: one with three oranges, one with none. Say \"This basket has three. This basket has none. We need to make them the same.\"",
+      "teacherActivities": [
+        "Put an orange from the first basket into the second basket, one at a time, saying \"one for you, one for me\".",
+        "Stop when both have the same. Line up the oranges side by side and say \"Same! Look!\"",
+        "Remove one orange and ask \"Are they the same now?\"",
+        "Let each child make two groups the same with their own toy fruit."
+      ],
+      "learnerActivities": [
+        "Children watch and say \"one, one\" as each orange moves.",
+        "Children point to each orange in the lines and say \"same\".",
+        "Children say \"no\" and decide which side needs one more.",
+        "Child places fruit one by one to match and says \"same\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put an orange from the first basket into the second basket, one at a time, saying \"one for you, one for me\". Children: Children watch and say \"one, one\" as each orange moves.",
+        "Step 2. Teacher: Stop when both have the same. Line up the oranges side by side and say \"Same! Look!\" Children: Children point to each orange in the lines and say \"same\".",
+        "Step 3. Teacher: Remove one orange and ask \"Are they the same now?\" Children: Children say \"no\" and decide which side needs one more.",
+        "Step 4. Teacher: Let each child make two groups the same with their own toy fruit. Children: Child places fruit one by one to match and says \"same\"."
+      ],
+      "practical": {
+        "title": "Make them the same",
+        "steps": [
+          "Give each pair two baskets and four toy oranges.",
+          "They share the oranges one at a time.",
+          "They check by lining up and saying \"same\"."
+        ],
+        "safety": "Use toy oranges larger than a child’s fist. Keep real fruit for a snack with allergy checks and washed hands."
+      },
+      "differentiation": {
+        "support": "Match only two objects and place them side by side for the child.",
+        "extension": "Ask the child to make two groups the same, then add one more to one group and say which has more."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Are the two groups the same?",
+            "expected": "Yes if they match, no if they do not."
+          },
+          {
+            "question": "What can we do to make them the same?",
+            "expected": "Add or take away one object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes two groups the same",
+        "Says same and more"
+      ],
+      "conclusion": "Hold up the two matching baskets and say \"Same! Well done.\" Tidy together.",
+      "homeConnection": "When setting the table, give each person one spoon and say \"same\".",
+      "teacherReflection": [
+        "Which children could show \"make two groups that have the same amount, with one-to-one matching\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAME amount",
+          "Not the same"
+        ],
+        "pictures": [
+          "Two baskets with three oranges each"
+        ]
+      },
+      "activities": [
+        "Make them the same"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W01-D04",
+      "title": "Ade’s oranges",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 1,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Comparing quantity",
+      "subtopic": "No more, all gone",
+      "dayType": "apply",
+      "objectives": [
+        "Children will use more, same and all gone while listening to a story and acting it out."
+      ],
+      "successCriteria": [
+        "Says more, same or all gone at the right moment",
+        "Acts out the story with objects"
+      ],
+      "previousKnowledge": "Children can count to three with real things, say one and lots, and match same and different objects.",
+      "vocabulary": [
+        "more",
+        "same",
+        "all gone",
+        "again",
+        "please"
+      ],
+      "resources": [
+        "Four toy oranges",
+        "A basket",
+        "Two puppets named Ade and Bisi"
+      ],
+      "starter": "Show the basket of oranges and say \"This is a story about Ade and Bisi and their oranges. Listen for the words more, same and all gone.\"",
+      "teacherActivities": [
+        "Tell the first part with puppets, giving Ade one orange and Bisi three. Stop and ask \"Who has more?\"",
+        "Move one orange from Bisi to Ade and ask \"Do they have the same now?\"",
+        "Pretend to eat the oranges and move them out of the basket one at a time.",
+        "Let children retell the story with puppets and oranges in small groups."
+      ],
+      "learnerActivities": [
+        "Children point to Bisi and say \"more\".",
+        "Children count two and two and say \"same\".",
+        "Children say \"munch\" and \"all gone\" when none are left.",
+        "Children move the oranges and say more, same or all gone."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the first part with puppets, giving Ade one orange and Bisi three. Stop and ask \"Who has more?\" Children: Children point to Bisi and say \"more\".",
+        "Step 2. Teacher: Move one orange from Bisi to Ade and ask \"Do they have the same now?\" Children: Children count two and two and say \"same\".",
+        "Step 3. Teacher: Pretend to eat the oranges and move them out of the basket one at a time. Children: Children say \"munch\" and \"all gone\" when none are left.",
+        "Step 4. Teacher: Let children retell the story with puppets and oranges in small groups. Children: Children move the oranges and say more, same or all gone."
+      ],
+      "practical": {
+        "title": "Retell with puppets",
+        "steps": [
+          "Give each group two puppets and four oranges.",
+          "Act the story, changing who has more.",
+          "Finish with \"all gone\"."
+        ],
+        "safety": "Use toy oranges. Real fruit may be shared as a snack only after hand washing and allergy checks."
+      },
+      "differentiation": {
+        "support": "Act with one orange at a time and use only the word more.",
+        "extension": "Ask the child to change the story so Bisi has two and Ade has four, and say who has more."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who had more at the start?",
+            "expected": "Bisi."
+          },
+          {
+            "question": "What did they say when they had two each?",
+            "expected": "We have the same."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses more, same and all gone in a story",
+        "Retells with objects"
+      ],
+      "conclusion": "Say \"Thank you\" to the puppets and wave goodbye. Tidy the oranges into the basket.",
+      "homeConnection": "Retell the story with fruit at home and ask \"who has more?\"",
+      "teacherReflection": [
+        "Which children could show \"use more, same and all gone while listening to a story and acting it out\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "More",
+          "Same",
+          "All gone"
+        ],
+        "pictures": [
+          "Ade and Bisi with oranges"
+        ],
+        "songOrRhyme": "More, same, all gone. More, same, all gone. Oranges for Ade, oranges for Bisi, more, same, all gone.",
+        "story": "Ade had one orange. Bisi had three oranges. \"Bisi has more!\" said Ade. Bisi gave Ade one orange. Now Ade had two and Bisi had two. \"We have the same!\" said Ade. They ate the oranges one by one. Munch, munch. All gone! Ade and Bisi smiled and said, \"Thank you.\""
+      },
+      "activities": [
+        "Retell with puppets"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W01-D05",
+      "title": "More and same stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 1,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Comparing quantity",
+      "subtopic": "More",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can find more, make the same and say all gone at three stations."
+      ],
+      "successCriteria": [
+        "Points to the group with more",
+        "Makes two groups the same"
+      ],
+      "previousKnowledge": "Children can count to three with real things, say one and lots, and match same and different objects.",
+      "vocabulary": [
+        "more",
+        "same",
+        "all gone",
+        "again",
+        "please"
+      ],
+      "resources": [
+        "Station 1: biscuit plates and Teddy",
+        "Station 2: block piles",
+        "Station 3: orange baskets",
+        "Class record sheet"
+      ],
+      "starter": "Sing the more song and show the three stations. Remind children to look carefully before they choose.",
+      "teacherActivities": [
+        "Divide the children into three groups. Spend four minutes at each station.",
+        "At the biscuit station, ask \"Which plate has more?\" and \"Can Teddy have more?\"",
+        "At the orange station, ask \"Can you make them the same?\"",
+        "Record each child’s level and take a photograph."
+      ],
+      "learnerActivities": [
+        "Children play at each station with a partner.",
+        "Child points to the plate and adds a biscuit.",
+        "Child shares oranges one at a time and says \"same\".",
+        "Children tidy their station at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Divide the children into three groups. Spend four minutes at each station. Children: Children play at each station with a partner.",
+        "Step 2. Teacher: At the biscuit station, ask \"Which plate has more?\" and \"Can Teddy have more?\" Children: Child points to the plate and adds a biscuit.",
+        "Step 3. Teacher: At the orange station, ask \"Can you make them the same?\" Children: Child shares oranges one at a time and says \"same\".",
+        "Step 4. Teacher: Record each child’s level and take a photograph. Children: Children tidy their station at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations with everything ready.",
+          "Ring a soft bell for each move.",
+          "Teacher records at one station per round."
+        ],
+        "safety": "Use only large objects; supervise each station closely and remove anything small."
+      },
+      "differentiation": {
+        "support": "Keep the child at one station with an adult partner.",
+        "extension": "Ask a confident child to teach a friend how to make two groups the same."
+      },
+      "assessment": {
+        "method": "Observe each child at the stations. Record Emerging, Developing, Secure or Exceeding for: points to the group with more; makes two groups the same; uses more and same.",
+        "questions": [
+          {
+            "question": "Which pile has more?",
+            "expected": "The larger pile."
+          },
+          {
+            "question": "Are these the same?",
+            "expected": "Yes or no, with a reason or gesture."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 1",
+        "Compares groups with more and same"
+      ],
+      "conclusion": "Sing the more song again and tidy up together.",
+      "homeConnection": "Please ask your child \"which has more?\" at snack time this week.",
+      "teacherReflection": [
+        "Which children could show \"show they can find more, make the same and say all gone at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "More, same, all gone"
+        ],
+        "pictures": [
+          "Photos of the stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

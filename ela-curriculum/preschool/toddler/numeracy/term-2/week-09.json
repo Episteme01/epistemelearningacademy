@@ -1,0 +1,593 @@
+{
+  "id": "ELA-PS-TOD-NUM-T2-W09",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 9,
+  "title": "Squares and triangles",
+  "topic": "Shape",
+  "subtopics": [
+    "Squares in our world",
+    "Triangles in our world",
+    "Circle, square or triangle?"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will find squares and triangles around them.",
+    "Children will tell a circle from a square with support."
+  ],
+  "vocabulary": [
+    "square",
+    "triangle",
+    "circle",
+    "corner",
+    "side"
+  ],
+  "content": "Finding and naming squares and triangles in the environment and telling circle, square and triangle apart.",
+  "teachingActivities": "Trace each shape slowly with a finger; count corners and sides only for squares and triangles by touching; place shapes against real objects.",
+  "learnerActivities": "Find squares and triangles, trace the shapes, sort circle, square and triangle, and make shape pictures.",
+  "resources": [
+    "Large cardboard shapes (circle, square, triangle)",
+    "Boxes, tiles, triangle roof pictures, a slice of bread",
+    "Shape sorting trays",
+    "A shape bag"
+  ],
+  "assessment": "Check whether each child names or points to a square, triangle and circle with support.",
+  "expectedOutcomes": [
+    "Names or points to a square and a circle.",
+    "Points to a triangle when asked."
+  ],
+  "crossCurricular": [
+    "Literacy: shape words and descriptive talk",
+    "Physical Development: tracing and carrying shapes",
+    "Understanding the world: buildings and objects"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W09-D01",
+      "title": "Square things",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 9,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Shape",
+      "subtopic": "Squares in our world",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will find and name squares in the environment."
+      ],
+      "successCriteria": [
+        "Points to a square on request",
+        "Says square"
+      ],
+      "previousKnowledge": "Children can find circles and round things, make patterns and use position words.",
+      "vocabulary": [
+        "square",
+        "triangle",
+        "circle",
+        "corner",
+        "side"
+      ],
+      "resources": [
+        "A large cardboard square",
+        "A box, a floor tile and a window picture",
+        "A mat"
+      ],
+      "starter": "Hold up the cardboard square and say \"This is a square. It has four straight sides and four corners.\" Trace its edge with a finger.",
+      "teacherActivities": [
+        "Trace the square and count the four sides by touching each one. Count the corners.",
+        "Place the square against a box, a tile and a window picture. Say \"Look, a square!\"",
+        "Put a circle and a triangle beside the square and ask \"Which is the square?\"",
+        "Send children to find a square in the room."
+      ],
+      "learnerActivities": [
+        "Children touch each side and corner and count to four.",
+        "Children point to the square shapes.",
+        "Child points to the square.",
+        "Children find square objects and show a friend."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Trace the square and count the four sides by touching each one. Count the corners. Children: Children touch each side and corner and count to four.",
+        "Step 2. Teacher: Place the square against a box, a tile and a window picture. Say \"Look, a square!\" Children: Children point to the square shapes.",
+        "Step 3. Teacher: Put a circle and a triangle beside the square and ask \"Which is the square?\" Children: Child points to the square.",
+        "Step 4. Teacher: Send children to find a square in the room. Children: Children find square objects and show a friend."
+      ],
+      "practical": {
+        "title": "Square hunt",
+        "steps": [
+          "Give each pair a cardboard square.",
+          "Find things in the room that match its shape.",
+          "Bring one example back or point to it."
+        ],
+        "safety": "Use cardboard shapes with rounded corners; children walk and do not climb to reach objects."
+      },
+      "differentiation": {
+        "support": "Offer a square and a circle only and hold them near the objects.",
+        "extension": "Ask the child to find three squares in different places."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you find a square?",
+            "expected": "Child points to a square."
+          },
+          {
+            "question": "How many corners has a square?",
+            "expected": "Four, counted by touch."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names or points to a square",
+        "Finds squares in the room"
+      ],
+      "conclusion": "Hold up the square and say \"Square, square, square.\" Trace it in the air.",
+      "homeConnection": "Look for squares at home such as tiles, windows or boxes.",
+      "teacherReflection": [
+        "Which children could show \"find and name squares in the environment\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SQUARE (4 sides, 4 corners)"
+        ],
+        "pictures": [
+          "A square, a box and a tile"
+        ],
+        "songOrRhyme": "Square, square, four straight sides. Square, square, four corners."
+      },
+      "activities": [
+        "Square hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W09-D02",
+      "title": "Triangle things",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 9,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Shape",
+      "subtopic": "Triangles in our world",
+      "dayType": "explore",
+      "objectives": [
+        "Children will find and name triangles in the environment."
+      ],
+      "successCriteria": [
+        "Points to a triangle on request",
+        "Says triangle with support"
+      ],
+      "previousKnowledge": "Children can find circles and round things, make patterns and use position words.",
+      "vocabulary": [
+        "square",
+        "triangle",
+        "circle",
+        "corner",
+        "side"
+      ],
+      "resources": [
+        "A large cardboard triangle",
+        "A roof picture, a sandwich cut in half, a drum stand picture",
+        "A mat"
+      ],
+      "starter": "Hold up the triangle. Say \"This is a triangle. It has three straight sides and three corners.\" Trace its edge slowly.",
+      "teacherActivities": [
+        "Trace the triangle and count three sides and three corners with the children.",
+        "Show a roof picture and a bread slice cut in half. Say \"Triangle roof! Triangle bread!\"",
+        "Place the triangle beside a circle and a square. Ask \"Which is the triangle?\"",
+        "Walk around the room and find triangle shapes."
+      ],
+      "learnerActivities": [
+        "Children touch each side and corner and count to three.",
+        "Children point to the triangle shapes.",
+        "Child points to the triangle.",
+        "Children point to triangle shapes in the room."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Trace the triangle and count three sides and three corners with the children. Children: Children touch each side and corner and count to three.",
+        "Step 2. Teacher: Show a roof picture and a bread slice cut in half. Say \"Triangle roof! Triangle bread!\" Children: Children point to the triangle shapes.",
+        "Step 3. Teacher: Place the triangle beside a circle and a square. Ask \"Which is the triangle?\" Children: Child points to the triangle.",
+        "Step 4. Teacher: Walk around the room and find triangle shapes. Children: Children point to triangle shapes in the room."
+      ],
+      "practical": {
+        "title": "Triangle hunt",
+        "steps": [
+          "Give each pair a cardboard triangle.",
+          "Match it to roof shapes, slices and pictures.",
+          "Tell a friend what you found."
+        ],
+        "safety": "Use cardboard shapes with rounded corners; no real knives; slices of bread cut by an adult before the lesson."
+      },
+      "differentiation": {
+        "support": "Offer a triangle and a circle only.",
+        "extension": "Ask the child to find a triangle and a square and say how they are different."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you show me a triangle?",
+            "expected": "Child points to a triangle."
+          },
+          {
+            "question": "How many sides has a triangle?",
+            "expected": "Three, counted by touch."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names or points to a triangle",
+        "Finds triangles in pictures"
+      ],
+      "conclusion": "Trace a triangle in the air and say \"Triangle, triangle, three sides.\"",
+      "homeConnection": "Look for triangles on roofs, signs or sandwiches.",
+      "teacherReflection": [
+        "Which children could show \"find and name triangles in the environment\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TRIANGLE (3 sides, 3 corners)"
+        ],
+        "pictures": [
+          "A triangle roof",
+          "A sandwich cut in half"
+        ],
+        "songOrRhyme": "Triangle, triangle, three straight sides. Triangle, triangle, three sharp corners."
+      },
+      "activities": [
+        "Triangle hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W09-D03",
+      "title": "Circle, square or triangle?",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 9,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Shape",
+      "subtopic": "Circle, square or triangle?",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort circles, squares and triangles into three groups."
+      ],
+      "successCriteria": [
+        "Puts shapes in the right group",
+        "Names or points to each shape"
+      ],
+      "previousKnowledge": "Children can find circles and round things, make patterns and use position words.",
+      "vocabulary": [
+        "square",
+        "triangle",
+        "circle",
+        "corner",
+        "side"
+      ],
+      "resources": [
+        "Large cardboard shapes in several colours",
+        "Three trays labelled with a circle, a square and a triangle",
+        "A shape bag"
+      ],
+      "starter": "Pull a shape from the bag and say \"What shape is this? Let us find out.\" Feel it with your fingers first.",
+      "teacherActivities": [
+        "Pull out a shape, trace its edge and say its name, then place it on the matching tray.",
+        "Let each child pull a shape from the bag, feel it and decide where it goes.",
+        "Mix up the shapes on the mat. Ask \"Find all the circles.\"",
+        "Repeat for the squares and triangles."
+      ],
+      "learnerActivities": [
+        "Children watch and say the shape name.",
+        "Child places the shape on the correct tray.",
+        "Children collect all circles.",
+        "Children sort each group into its tray."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pull out a shape, trace its edge and say its name, then place it on the matching tray. Children: Children watch and say the shape name.",
+        "Step 2. Teacher: Let each child pull a shape from the bag, feel it and decide where it goes. Children: Child places the shape on the correct tray.",
+        "Step 3. Teacher: Mix up the shapes on the mat. Ask \"Find all the circles.\" Children: Children collect all circles.",
+        "Step 4. Teacher: Repeat for the squares and triangles. Children: Children sort each group into its tray."
+      ],
+      "practical": {
+        "title": "Shape sorting trays",
+        "steps": [
+          "Give each pair a bag of shapes and three trays.",
+          "Take turns to pull a shape and place it.",
+          "Check each tray together."
+        ],
+        "safety": "Use large cardboard or plastic shapes with smooth edges; keep them on the mat; supervise to avoid mouthing."
+      },
+      "differentiation": {
+        "support": "Use two shapes only, a circle and a square, with a clear tray for each.",
+        "extension": "Ask the child to sort shapes by shape and by colour and explain."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What shape is this?",
+            "expected": "Circle, square or triangle."
+          },
+          {
+            "question": "Which tray does it go in?",
+            "expected": "The tray with the same shape."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts three shapes",
+        "Names shapes with support"
+      ],
+      "conclusion": "Count the shapes in each tray together and say the shape name.",
+      "homeConnection": "Sort plates, tiles and slices of bread by shape.",
+      "teacherReflection": [
+        "Which children could show \"sort circles, squares and triangles into three groups\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Circle",
+          "Square",
+          "Triangle"
+        ],
+        "pictures": [
+          "Three trays with shapes"
+        ]
+      },
+      "activities": [
+        "Shape sorting trays"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W09-D04",
+      "title": "Shape pictures",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 9,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Shape",
+      "subtopic": "Circle, square or triangle?",
+      "dayType": "apply",
+      "objectives": [
+        "Children will make a simple picture using circles, squares and triangles."
+      ],
+      "successCriteria": [
+        "Uses at least two different shapes in a picture",
+        "Names a shape they used"
+      ],
+      "previousKnowledge": "Children can find circles and round things, make patterns and use position words.",
+      "vocabulary": [
+        "square",
+        "triangle",
+        "circle",
+        "corner",
+        "side"
+      ],
+      "resources": [
+        "Large cardboard shapes",
+        "A large sheet of paper",
+        "Glue sticks",
+        "Crayons"
+      ],
+      "starter": "Show a picture of a house made of shapes. Say \"This house has a square, a triangle roof and a round window. Let us make our own.\"",
+      "teacherActivities": [
+        "Build a house on the paper with a square and a triangle roof. Say the shape names.",
+        "Give each child a few shapes and ask them to make a house or a car.",
+        "Walk around and ask \"What shape is this?\" for each child.",
+        "Display the pictures on a table and let children look at each other’s pictures."
+      ],
+      "learnerActivities": [
+        "Children watch and point to the shapes.",
+        "Child places the shapes to make a picture.",
+        "Child names or points to a shape in their picture.",
+        "Children point to the shapes in a friend’s picture."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Build a house on the paper with a square and a triangle roof. Say the shape names. Children: Children watch and point to the shapes.",
+        "Step 2. Teacher: Give each child a few shapes and ask them to make a house or a car. Children: Child places the shapes to make a picture.",
+        "Step 3. Teacher: Walk around and ask \"What shape is this?\" for each child. Children: Child names or points to a shape in their picture.",
+        "Step 4. Teacher: Display the pictures on a table and let children look at each other’s pictures. Children: Children point to the shapes in a friend’s picture."
+      ],
+      "practical": {
+        "title": "Shape house pictures",
+        "steps": [
+          "Give each child a sheet of paper and shapes.",
+          "Arrange the shapes to make a house.",
+          "Glue them down if they wish."
+        ],
+        "safety": "Use non-toxic glue sticks; supervise glue use; keep shapes large; wash hands after."
+      },
+      "differentiation": {
+        "support": "Offer two shapes and show where to place them.",
+        "extension": "Ask the child to make a picture of a boat or a car and name the shapes."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What shape is the roof?",
+            "expected": "Triangle."
+          },
+          {
+            "question": "Can you find a square in your picture?",
+            "expected": "Child points to a square."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes a picture using shapes",
+        "Names shapes in the picture"
+      ],
+      "conclusion": "Put the pictures on a display and say \"Well done, shape builders.\"",
+      "homeConnection": "Make a picture with cut-out shapes from old cartons.",
+      "teacherReflection": [
+        "Which children could show \"make a simple picture using circles, squares and triangles\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "House: square and triangle"
+        ],
+        "pictures": [
+          "A house made of shapes"
+        ]
+      },
+      "activities": [
+        "Shape house pictures"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W09-D05",
+      "title": "Shape stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 9,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Shape",
+      "subtopic": "Circle, square or triangle?",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can find and name circles, squares and triangles at three stations."
+      ],
+      "successCriteria": [
+        "Points to a named shape",
+        "Sorts shapes into groups"
+      ],
+      "previousKnowledge": "Children can find circles and round things, make patterns and use position words.",
+      "vocabulary": [
+        "square",
+        "triangle",
+        "circle",
+        "corner",
+        "side"
+      ],
+      "resources": [
+        "Station 1: shape hunt cards",
+        "Station 2: sorting trays",
+        "Station 3: shape pictures",
+        "Class record sheet"
+      ],
+      "starter": "Sing the three shape songs and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask \"Show me a triangle\" and \"Which shape is this?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child points to or names a shape.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask \"Show me a triangle\" and \"Which shape is this?\" Children: Child points to or names a shape.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Use smooth large shapes only; supervise stations; keep glue supervised."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask a confident child to quiz a friend: \"Show me a square.\""
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names or points to a square and a circle; points to a triangle; sorts shapes.",
+        "questions": [
+          {
+            "question": "Show me the triangle.",
+            "expected": "Child points to the triangle."
+          },
+          {
+            "question": "What shape is this?",
+            "expected": "The shape name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Recognises circle, square and triangle with support"
+      ],
+      "conclusion": "Sing the shape songs and tidy up together.",
+      "homeConnection": "Look for shapes on the way home and name them.",
+      "teacherReflection": [
+        "Which children could show \"show they can find and name circles, squares and triangles at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Circle, square, triangle"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

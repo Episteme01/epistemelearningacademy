@@ -1,0 +1,618 @@
+{
+  "id": "ELA-PS-TOD-NUM-T2-W10",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 10,
+  "title": "Show what we know again",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising numerals and counting",
+    "Revising comparing and patterns",
+    "Revising shapes"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Term 2 learning through play stations.",
+    "Teachers will gather evidence for every child’s Term 2 record."
+  ],
+  "vocabulary": [
+    "count",
+    "numeral",
+    "long",
+    "short",
+    "heavy",
+    "light",
+    "pattern",
+    "square",
+    "triangle"
+  ],
+  "content": "Revising Term 2 learning through play stations and gathering evidence for the Term 2 record.",
+  "teachingActivities": "Keep stations relaxed; observe quietly; give help only when asked; praise effort and kindness.",
+  "learnerActivities": "Revisit familiar games, play with a friend and show what they know in many ways.",
+  "resources": [
+    "Materials from Weeks 1 to 9 of Term 2",
+    "Class record sheets",
+    "A camera or phone",
+    "Stickers"
+  ],
+  "assessment": "Use the term record to judge each strand: comparing quantity, counting to five, numerals, measures, patterns and shapes. Use two or more occasions before recording Secure.",
+  "expectedOutcomes": [
+    "Completes familiar tasks with growing independence.",
+    "Each child has an observation record for Term 2."
+  ],
+  "crossCurricular": [
+    "Literacy: songs and rhymes from the term",
+    "Social Habits: working with a friend and tidying up",
+    "Physical Development: movement games"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W10-D01",
+      "title": "Counting and numeral games",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising numerals and counting",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit counting to five and numerals 1 to 5 through games."
+      ],
+      "successCriteria": [
+        "Counts up to five objects by touching",
+        "Matches numerals 1 to 5 to groups with support"
+      ],
+      "previousKnowledge": "Children have met counting to five, numerals 1 to 5, long and short, heavy and light, patterns, squares and triangles.",
+      "vocabulary": [
+        "count",
+        "numeral",
+        "long",
+        "short",
+        "heavy",
+        "light",
+        "pattern",
+        "square",
+        "triangle"
+      ],
+      "resources": [
+        "Blocks and trays",
+        "Numeral cards 1 to 5",
+        "A drum",
+        "Class record sheet"
+      ],
+      "starter": "Beat the drum five times and say \"One, two, three, four, five.\" Say \"Let us play our counting games.\"",
+      "teacherActivities": [
+        "Play \"Count the blocks\" with a tray of up to five blocks.",
+        "Play \"Show me the numeral\" with cards 1 to 5.",
+        "Play \"Fill the tray\": show a numeral and ask children to count out that many blocks.",
+        "Sing the rhyme to five with finger actions."
+      ],
+      "learnerActivities": [
+        "Children touch and count the blocks.",
+        "Children point to the numeral called.",
+        "Child counts blocks to match the numeral.",
+        "Children sing and show fingers."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play \"Count the blocks\" with a tray of up to five blocks. Children: Children touch and count the blocks.",
+        "Step 2. Teacher: Play \"Show me the numeral\" with cards 1 to 5. Children: Children point to the numeral called.",
+        "Step 3. Teacher: Play \"Fill the tray\": show a numeral and ask children to count out that many blocks. Children: Child counts blocks to match the numeral.",
+        "Step 4. Teacher: Sing the rhyme to five with finger actions. Children: Children sing and show fingers."
+      ],
+      "practical": {
+        "title": "Counting stations",
+        "steps": [
+          "Set up counting and numeral stations.",
+          "Children play with a friend.",
+          "Teacher records at one station."
+        ],
+        "safety": "Use large blocks only; supervise stations; keep cards on the mat."
+      },
+      "differentiation": {
+        "support": "Count only to three and use numerals 1 to 3.",
+        "extension": "Ask the child to count to five and write or trace the numeral."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many blocks?",
+            "expected": "The correct number up to five."
+          },
+          {
+            "question": "Which numeral goes with this group?",
+            "expected": "The correct numeral."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts to five with support",
+        "Matches numerals to groups"
+      ],
+      "conclusion": "Sing the counting rhyme and tidy up together.",
+      "homeConnection": "Count to five at home with real objects.",
+      "teacherReflection": [
+        "Which children could show \"revisit counting to five and numerals 1 to 5 through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 2 3 4 5"
+        ],
+        "pictures": [
+          "Photos of counting activities"
+        ]
+      },
+      "activities": [
+        "Counting stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W10-D02",
+      "title": "Comparing games",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising comparing and patterns",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit more and same, long and short, and heavy and light through games."
+      ],
+      "successCriteria": [
+        "Chooses the group with more",
+        "Chooses the longer or heavier object"
+      ],
+      "previousKnowledge": "Children have met counting to five, numerals 1 to 5, long and short, heavy and light, patterns, squares and triangles.",
+      "vocabulary": [
+        "count",
+        "numeral",
+        "long",
+        "short",
+        "heavy",
+        "light",
+        "pattern",
+        "square",
+        "triangle"
+      ],
+      "resources": [
+        "Block piles",
+        "Ropes and sticks",
+        "Heavy and light baskets",
+        "Class record sheet"
+      ],
+      "starter": "Say \"Today we play games about more, long and heavy. Show me what you know!\" Show a big and a small pile of blocks.",
+      "teacherActivities": [
+        "Show two piles of blocks and ask \"Which has more?\"",
+        "Show two ropes and ask \"Which is longer?\" Line up the ends.",
+        "Show the two baskets and ask \"Which is heavy?\"",
+        "Let children play with a friend at each game."
+      ],
+      "learnerActivities": [
+        "Children point to the pile with more.",
+        "Children point to the longer rope.",
+        "Children lift and point to the heavy basket.",
+        "Pairs play and take turns to ask each other."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show two piles of blocks and ask \"Which has more?\" Children: Children point to the pile with more.",
+        "Step 2. Teacher: Show two ropes and ask \"Which is longer?\" Line up the ends. Children: Children point to the longer rope.",
+        "Step 3. Teacher: Show the two baskets and ask \"Which is heavy?\" Children: Children lift and point to the heavy basket.",
+        "Step 4. Teacher: Let children play with a friend at each game. Children: Pairs play and take turns to ask each other."
+      ],
+      "practical": {
+        "title": "Comparing stations",
+        "steps": [
+          "Set up three comparing stations.",
+          "Children play with a friend.",
+          "Teacher records at one station."
+        ],
+        "safety": "Use soft ropes and light objects; keep weights moderate; supervise stations."
+      },
+      "differentiation": {
+        "support": "Use only one comparison game at a time.",
+        "extension": "Ask the child to ask a friend questions such as \"Which is longer?\""
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which pile has more?",
+            "expected": "The larger pile."
+          },
+          {
+            "question": "Which rope is long?",
+            "expected": "The longer rope."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Compares quantity, length and weight",
+        "Uses comparison words"
+      ],
+      "conclusion": "Sing the long and short song and tidy up together.",
+      "homeConnection": "Compare things at home: which is heavier, longer, has more.",
+      "teacherReflection": [
+        "Which children could show \"revisit more and same, long and short, and heavy and light through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "More, long, heavy"
+        ],
+        "pictures": [
+          "Photos of comparing games"
+        ]
+      },
+      "activities": [
+        "Comparing stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W10-D03",
+      "title": "Pattern and shape games",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising shapes",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will revisit patterns and the shapes circle, square and triangle through games."
+      ],
+      "successCriteria": [
+        "Continues a two-part pattern",
+        "Names or points to circle, square and triangle"
+      ],
+      "previousKnowledge": "Children have met counting to five, numerals 1 to 5, long and short, heavy and light, patterns, squares and triangles.",
+      "vocabulary": [
+        "count",
+        "numeral",
+        "long",
+        "short",
+        "heavy",
+        "light",
+        "pattern",
+        "square",
+        "triangle"
+      ],
+      "resources": [
+        "Coloured blocks",
+        "Cardboard shapes",
+        "A drum",
+        "Class record sheet"
+      ],
+      "starter": "Beat a clap and stamp pattern and say \"What comes next?\" Show the three shapes and say \"Let us play pattern and shape games.\"",
+      "teacherActivities": [
+        "Play the clap and stamp pattern and ask children to continue it.",
+        "Make a red and blue block pattern and ask for the next block.",
+        "Show the shapes and ask \"Find the triangle\" and \"Find the square.\"",
+        "Make a shape pattern: circle, square, circle, square."
+      ],
+      "learnerActivities": [
+        "Children clap and stamp in the pattern.",
+        "Child places the next block.",
+        "Children find and name the shapes.",
+        "Children continue the shape pattern with support."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the clap and stamp pattern and ask children to continue it. Children: Children clap and stamp in the pattern.",
+        "Step 2. Teacher: Make a red and blue block pattern and ask for the next block. Children: Child places the next block.",
+        "Step 3. Teacher: Show the shapes and ask \"Find the triangle\" and \"Find the square.\" Children: Children find and name the shapes.",
+        "Step 4. Teacher: Make a shape pattern: circle, square, circle, square. Children: Children continue the shape pattern with support."
+      ],
+      "practical": {
+        "title": "Pattern and shape stations",
+        "steps": [
+          "Set up a pattern station and a shape station.",
+          "Children visit each with a friend.",
+          "Teacher records."
+        ],
+        "safety": "Use large cardboard shapes; supervise stations; keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Offer only one pattern and one shape at a time.",
+        "extension": "Ask the child to make their own shape pattern."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes next in this pattern?",
+            "expected": "The next item in the pattern."
+          },
+          {
+            "question": "Which shape is this?",
+            "expected": "Circle, square or triangle."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Continues patterns",
+        "Names shapes with support"
+      ],
+      "conclusion": "Sing the shape songs and tidy up together.",
+      "homeConnection": "Make shape patterns with cut-out paper at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit patterns and the shapes circle, square and triangle through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Pattern, shape"
+        ],
+        "pictures": [
+          "Photos of patterns and shapes"
+        ]
+      },
+      "activities": [
+        "Pattern and shape stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W10-D04",
+      "title": "Market counting game",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising numerals and counting",
+      "dayType": "apply",
+      "objectives": [
+        "Children will use counting to five, more and same, and shapes in a pretend market."
+      ],
+      "successCriteria": [
+        "Counts out up to five items",
+        "Uses more or same in play"
+      ],
+      "previousKnowledge": "Children have met counting to five, numerals 1 to 5, long and short, heavy and light, patterns, squares and triangles.",
+      "vocabulary": [
+        "count",
+        "numeral",
+        "long",
+        "short",
+        "heavy",
+        "light",
+        "pattern",
+        "square",
+        "triangle"
+      ],
+      "resources": [
+        "A play market stall",
+        "Toy fruits and vegetables",
+        "Baskets",
+        "Number cards 1 to 5"
+      ],
+      "starter": "Set up the market and say \"The market is open! Who wants to buy three oranges?\" Show a number card.",
+      "teacherActivities": [
+        "Act as a trader. Ask a child to buy the number of items on a card.",
+        "Ask \"Who has more? Who has the same?\" after two children buy.",
+        "Ask \"Find a round fruit\" and \"Find a square box.\"",
+        "Swap roles so each child is the trader and the customer."
+      ],
+      "learnerActivities": [
+        "Child counts out the items and puts them in a basket.",
+        "Children compare baskets and say more or same.",
+        "Children find shapes in the market.",
+        "Children take turns to sell and buy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Act as a trader. Ask a child to buy the number of items on a card. Children: Child counts out the items and puts them in a basket.",
+        "Step 2. Teacher: Ask \"Who has more? Who has the same?\" after two children buy. Children: Children compare baskets and say more or same.",
+        "Step 3. Teacher: Ask \"Find a round fruit\" and \"Find a square box.\" Children: Children find shapes in the market.",
+        "Step 4. Teacher: Swap roles so each child is the trader and the customer. Children: Children take turns to sell and buy."
+      ],
+      "practical": {
+        "title": "Number market",
+        "steps": [
+          "Give each customer a number card.",
+          "They count out that number of items.",
+          "The trader checks by counting."
+        ],
+        "safety": "Use toy items only; keep baskets on the table; supervise role play."
+      },
+      "differentiation": {
+        "support": "Use number cards 1 to 3 and ask for one item at a time.",
+        "extension": "Ask the child to buy five items and say how many they have."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many oranges did you buy?",
+            "expected": "The number on the card."
+          },
+          {
+            "question": "Who has more?",
+            "expected": "The basket with more."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts items in play",
+        "Uses number and comparison words"
+      ],
+      "conclusion": "Close the market and say \"Thank you, goodbye.\"",
+      "homeConnection": "Play shopping at home and count out items to a family member.",
+      "teacherReflection": [
+        "Which children could show \"use counting to five, more and same, and shapes in a pretend market\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Market: 1 to 5"
+        ],
+        "pictures": [
+          "A market stall with number cards"
+        ]
+      },
+      "activities": [
+        "Number market"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W10-D05",
+      "title": "Show and celebrate again",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising shapes",
+      "dayType": "assessment",
+      "objectives": [
+        "Children will show Term 2 learning in familiar games and celebrate their work."
+      ],
+      "successCriteria": [
+        "Takes part confidently in at least three familiar tasks",
+        "Shows or says one thing they have learned"
+      ],
+      "previousKnowledge": "Children have met counting to five, numerals 1 to 5, long and short, heavy and light, patterns, squares and triangles.",
+      "vocabulary": [
+        "count",
+        "numeral",
+        "long",
+        "short",
+        "heavy",
+        "light",
+        "pattern",
+        "square",
+        "triangle"
+      ],
+      "resources": [
+        "Station materials from Weeks 1 to 9",
+        "Class record sheets",
+        "A camera or phone",
+        "Stickers or small certificates"
+      ],
+      "starter": "Sing a favourite song from the term. Say \"Today we show what we know and celebrate.\"",
+      "teacherActivities": [
+        "Set up six quick stations: more and same, counting, numerals, length and weight, patterns, shapes. Spend three minutes at each.",
+        "At each station ask a simple question and wait.",
+        "Take photographs of each child at work and record levels.",
+        "Give each child a sticker or certificate and say one thing they did well."
+      ],
+      "learnerActivities": [
+        "Children visit stations in pairs.",
+        "Child answers or shows the response.",
+        "Children continue playing.",
+        "Children receive their award and clap for friends."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six quick stations: more and same, counting, numerals, length and weight, patterns, shapes. Spend three minutes at each. Children: Children visit stations in pairs.",
+        "Step 2. Teacher: At each station ask a simple question and wait. Children: Child answers or shows the response.",
+        "Step 3. Teacher: Take photographs of each child at work and record levels. Children: Children continue playing.",
+        "Step 4. Teacher: Give each child a sticker or certificate and say one thing they did well. Children: Children receive their award and clap for friends."
+      ],
+      "practical": {
+        "title": "Celebration stations",
+        "steps": [
+          "Set up six stations.",
+          "Children visit each with a friend.",
+          "Teacher records evidence and takes photos."
+        ],
+        "safety": "Remove small items; supervise all stations; never compare children aloud."
+      },
+      "differentiation": {
+        "support": "Visit only three stations, with an adult partner at each.",
+        "extension": "Ask a confident child to be a station helper."
+      },
+      "assessment": {
+        "method": "Observe each child at the six stations and complete the Term 2 record. Record Emerging, Developing, Secure or Exceeding for each strand: comparing quantity, counting to five, numerals 1 to 5, length and weight, patterns, shapes.",
+        "questions": [
+          {
+            "question": "Show me the number 4.",
+            "expected": "Child points to the numeral 4."
+          },
+          {
+            "question": "What comes next in this pattern?",
+            "expected": "The next item in the pattern."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a Term 2 observation record",
+        "Celebrates their own learning"
+      ],
+      "conclusion": "Clap for the whole class and sing the closing song. Send the term note home.",
+      "homeConnection": "Parents receive a Term 2 note with one strength, one next step and one home idea.",
+      "teacherReflection": [
+        "Which children could show \"show Term 2 learning in familiar games and celebrate their work\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done!"
+        ],
+        "pictures": [
+          "Photos of the celebration"
+        ]
+      },
+      "activities": [
+        "Celebration stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

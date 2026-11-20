@@ -1,0 +1,590 @@
+{
+  "id": "ELA-PS-TOD-NUM-T2-W05",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 5,
+  "title": "Numerals 1 to 5 in order",
+  "topic": "Numerals",
+  "subtopics": [
+    "Meeting 4 and 5",
+    "Putting numerals in order",
+    "Numeral and quantity games"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will recognise the numerals 4 and 5 with support.",
+    "Children will place numeral cards 1 to 5 in order with help."
+  ],
+  "vocabulary": [
+    "four",
+    "five",
+    "in order",
+    "next",
+    "number line"
+  ],
+  "content": "Meeting the numerals 4 and 5, matching numerals 1 to 5 to groups, and putting numeral cards in order.",
+  "teachingActivities": "Show each new numeral large and trace it in the air; always pair a numeral with a group; make the number line from left to right as children say the numbers.",
+  "learnerActivities": "Match numerals to groups to five, place cards in order, and play numeral and quantity games.",
+  "resources": [
+    "Numeral cards 1 to 5",
+    "Dot cards to five",
+    "Large blocks",
+    "A string or paper strip as a number line",
+    "Soft toys"
+  ],
+  "assessment": "Check numeral-to-group matching to five with support and ordering of numeral cards from one to five.",
+  "expectedOutcomes": [
+    "Matches numerals 1 to 5 to groups with support.",
+    "Orders 1 to 3 independently and 1 to 5 with help."
+  ],
+  "crossCurricular": [
+    "Literacy: left to right order and sequencing",
+    "Physical Development: carrying and placing cards",
+    "Social Habits: taking turns"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W05-D01",
+      "title": "Meet four and five",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 5,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Numerals",
+      "subtopic": "Meeting 4 and 5",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will recognise the numerals 4 and 5 and match them to groups of four and five."
+      ],
+      "successCriteria": [
+        "Points to the numeral 4 or 5 when asked",
+        "Matches a numeral to a group"
+      ],
+      "previousKnowledge": "Children can match numerals 1 to 3 to groups, count to five with support and trace numerals in sand.",
+      "vocabulary": [
+        "four",
+        "five",
+        "in order",
+        "next",
+        "number line"
+      ],
+      "resources": [
+        "Numeral cards 4 and 5",
+        "Dot cards for four and five",
+        "Large blocks"
+      ],
+      "starter": "Hold up four blocks and ask \"How many?\" Count them together. Show the numeral 4 and say \"This is how we write four.\"",
+      "teacherActivities": [
+        "Trace the numeral 4 in the air and say \"Down, across, down.\" Place four blocks beside the card.",
+        "Do the same for the numeral 5 with five blocks. Say \"Five. A straight line, a belly, a hat.\"",
+        "Mix the numeral cards 1 to 5 and ask a child to find the 4.",
+        "Show a dot card and ask \"Which numeral?\""
+      ],
+      "learnerActivities": [
+        "Children trace in the air and count the blocks.",
+        "Children trace the numeral 5 and count five blocks.",
+        "Child points to the numeral 4 and says \"four\".",
+        "Children match the dot card to the numeral card."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Trace the numeral 4 in the air and say \"Down, across, down.\" Place four blocks beside the card. Children: Children trace in the air and count the blocks.",
+        "Step 2. Teacher: Do the same for the numeral 5 with five blocks. Say \"Five. A straight line, a belly, a hat.\" Children: Children trace the numeral 5 and count five blocks.",
+        "Step 3. Teacher: Mix the numeral cards 1 to 5 and ask a child to find the 4. Children: Child points to the numeral 4 and says \"four\".",
+        "Step 4. Teacher: Show a dot card and ask \"Which numeral?\" Children: Children match the dot card to the numeral card."
+      ],
+      "practical": {
+        "title": "Four and five match",
+        "steps": [
+          "Give each pair numeral cards 4 and 5 and a basket of blocks.",
+          "One child takes a card; the partner counts out that number of blocks.",
+          "Swap and repeat."
+        ],
+        "safety": "Use blocks larger than a child’s fist. Keep cards and blocks on the mat."
+      },
+      "differentiation": {
+        "support": "Match numeral 4 only with a group of four lined up beside it.",
+        "extension": "Ask the child to find the numeral for a group chosen by a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you show me the number 5?",
+            "expected": "Child points to the numeral 5."
+          },
+          {
+            "question": "How many blocks go with the number 4?",
+            "expected": "Four."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Recognises numerals 4 and 5 with support",
+        "Matches numerals 4 and 5 to groups"
+      ],
+      "conclusion": "Hold up the numeral 5 and five fingers. Say \"Five!\" and clap five times.",
+      "homeConnection": "Find numbers four and five on a clock or a phone and say them.",
+      "teacherReflection": [
+        "Which children could show \"recognise the numerals 4 and 5 and match them to groups of four and five\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "4 (four dots)",
+          "5 (five dots)"
+        ],
+        "pictures": [
+          "Numeral cards 4 and 5 with dots"
+        ]
+      },
+      "activities": [
+        "Four and five match"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W05-D02",
+      "title": "Putting numbers in order",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 5,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Numerals",
+      "subtopic": "Putting numerals in order",
+      "dayType": "explore",
+      "objectives": [
+        "Children will put the numeral cards 1 to 3 in order and 1 to 5 with help."
+      ],
+      "successCriteria": [
+        "Places cards 1, 2 and 3 in order",
+        "Says the numbers as they place them"
+      ],
+      "previousKnowledge": "Children can match numerals 1 to 3 to groups, count to five with support and trace numerals in sand.",
+      "vocabulary": [
+        "four",
+        "five",
+        "in order",
+        "next",
+        "number line"
+      ],
+      "resources": [
+        "Numeral cards 1 to 5",
+        "A string number line on the floor",
+        "A basket"
+      ],
+      "starter": "Show the cards in a jumble and say \"Oh no, the numbers are mixed up! Can you help me put them in order?\"",
+      "teacherActivities": [
+        "Start the line by placing the numeral 1 at the left. Say \"One goes first.\"",
+        "Ask a child to find the next numeral, 2. Place it beside the 1.",
+        "Continue to 3, then 4 and 5, with children placing each card.",
+        "Mix the cards and let pairs build the number line again."
+      ],
+      "learnerActivities": [
+        "Children watch and say \"one\".",
+        "Child chooses the 2 and places it in the line.",
+        "Children place cards and say the numbers.",
+        "Pairs order the cards and check by counting."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Start the line by placing the numeral 1 at the left. Say \"One goes first.\" Children: Children watch and say \"one\".",
+        "Step 2. Teacher: Ask a child to find the next numeral, 2. Place it beside the 1. Children: Child chooses the 2 and places it in the line.",
+        "Step 3. Teacher: Continue to 3, then 4 and 5, with children placing each card. Children: Children place cards and say the numbers.",
+        "Step 4. Teacher: Mix the cards and let pairs build the number line again. Children: Pairs order the cards and check by counting."
+      ],
+      "practical": {
+        "title": "Number line build",
+        "steps": [
+          "Lay a string line on the floor.",
+          "Children take turns placing a numeral card in order.",
+          "They count along the line when finished."
+        ],
+        "safety": "Fix the string to the floor with tape so it does not trip anyone. Keep cards large and smooth."
+      },
+      "differentiation": {
+        "support": "Order only 1, 2 and 3 with the cards already near the line.",
+        "extension": "Ask the child to find a missing number after you remove one card."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What number comes after two?",
+            "expected": "Three."
+          },
+          {
+            "question": "Can you put the cards in order?",
+            "expected": "Child places cards one to three or five in order."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Orders numerals 1 to 3",
+        "Orders 1 to 5 with help"
+      ],
+      "conclusion": "Point along the number line and count from one to five together.",
+      "homeConnection": "Count along a row of items on the table or step on numbered stones.",
+      "teacherReflection": [
+        "Which children could show \"put the numeral cards 1 to 3 in order and 1 to 5 with help\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 2 3 4 5 (in a row)"
+        ],
+        "pictures": [
+          "A string number line with cards"
+        ]
+      },
+      "activities": [
+        "Number line build"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W05-D03",
+      "title": "Which numeral, which group?",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 5,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Numerals",
+      "subtopic": "Numeral and quantity games",
+      "dayType": "practise",
+      "objectives": [
+        "Children will match numerals 1 to 5 to groups of objects."
+      ],
+      "successCriteria": [
+        "Counts out the number shown on a numeral card",
+        "Matches a numeral to a group"
+      ],
+      "previousKnowledge": "Children can match numerals 1 to 3 to groups, count to five with support and trace numerals in sand.",
+      "vocabulary": [
+        "four",
+        "five",
+        "in order",
+        "next",
+        "number line"
+      ],
+      "resources": [
+        "Numeral cards 1 to 5",
+        "Large blocks",
+        "Five small trays"
+      ],
+      "starter": "Hold a numeral card behind your back and say \"I am thinking of a number. It tells how many blocks to take.\" Reveal the card.",
+      "teacherActivities": [
+        "Show the numeral 3 and count out three blocks into a tray.",
+        "Show the numeral 5 and let a child count out five blocks.",
+        "Show a tray with a group and ask \"Which numeral matches?\"",
+        "Play \"numeral and tray\": each child picks a card and fills a tray."
+      ],
+      "learnerActivities": [
+        "Children count with you and check.",
+        "Child counts five blocks into a tray.",
+        "Children point to the matching numeral.",
+        "Child counts out blocks to match their numeral."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the numeral 3 and count out three blocks into a tray. Children: Children count with you and check.",
+        "Step 2. Teacher: Show the numeral 5 and let a child count out five blocks. Children: Child counts five blocks into a tray.",
+        "Step 3. Teacher: Show a tray with a group and ask \"Which numeral matches?\" Children: Children point to the matching numeral.",
+        "Step 4. Teacher: Play \"numeral and tray\": each child picks a card and fills a tray. Children: Child counts out blocks to match their numeral."
+      ],
+      "practical": {
+        "title": "Fill the tray",
+        "steps": [
+          "Place numeral cards face down.",
+          "A child picks a card and fills a tray with that many blocks.",
+          "The partner checks by counting."
+        ],
+        "safety": "Use blocks that are too large to swallow; sit on the floor mat; supervise all trays."
+      },
+      "differentiation": {
+        "support": "Use only numerals 1 to 3 and place the blocks in a row beside the card.",
+        "extension": "Ask the child to find two different numerals that make the same group when added by counting on."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you put four blocks in the tray?",
+            "expected": "Child places four blocks."
+          },
+          {
+            "question": "Which numeral matches this tray?",
+            "expected": "The numeral for the group."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts out a group to match a numeral",
+        "Matches numerals 1 to 5 to groups with support"
+      ],
+      "conclusion": "Count each tray aloud and say \"The numbers match.\"",
+      "homeConnection": "Show your child a number and ask them to bring that many spoons.",
+      "teacherReflection": [
+        "Which children could show \"match numerals 1 to 5 to groups of objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Take 3",
+          "Take 5"
+        ],
+        "pictures": [
+          "A tray with five blocks beside the numeral 5"
+        ]
+      },
+      "activities": [
+        "Fill the tray"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W05-D04",
+      "title": "Numeral line walk",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 5,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Numerals",
+      "subtopic": "Putting numerals in order",
+      "dayType": "apply",
+      "objectives": [
+        "Children will walk along a floor number line saying the numbers from one to five."
+      ],
+      "successCriteria": [
+        "Steps on each numeral and says the number",
+        "Stops at the numeral called"
+      ],
+      "previousKnowledge": "Children can match numerals 1 to 3 to groups, count to five with support and trace numerals in sand.",
+      "vocabulary": [
+        "four",
+        "five",
+        "in order",
+        "next",
+        "number line"
+      ],
+      "resources": [
+        "Numeral cards 1 to 5 taped to the floor in a line",
+        "A drum",
+        "A soft toy"
+      ],
+      "starter": "Beat the drum and say \"A number path! Let us walk along it and say the numbers.\"",
+      "teacherActivities": [
+        "Walk slowly along the line stepping on each card and saying the number.",
+        "Call \"Stand on 3!\" and \"Stand on 5!\"",
+        "Place a soft toy on a numeral and ask \"Where is Teddy? On which number?\"",
+        "Let a child be the caller while the others stand on the numeral."
+      ],
+      "learnerActivities": [
+        "Children watch, then walk after you.",
+        "Children walk to the numeral called and stand on it.",
+        "Children say the number where the toy is.",
+        "Child calls a number and the group moves to it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Walk slowly along the line stepping on each card and saying the number. Children: Children watch, then walk after you.",
+        "Step 2. Teacher: Call \"Stand on 3!\" and \"Stand on 5!\" Children: Children walk to the numeral called and stand on it.",
+        "Step 3. Teacher: Place a soft toy on a numeral and ask \"Where is Teddy? On which number?\" Children: Children say the number where the toy is.",
+        "Step 4. Teacher: Let a child be the caller while the others stand on the numeral. Children: Child calls a number and the group moves to it."
+      ],
+      "practical": {
+        "title": "Number path game",
+        "steps": [
+          "Tape five numeral cards to the floor.",
+          "Children walk along them saying each number.",
+          "They stop at the numeral called by a friend."
+        ],
+        "safety": "Tape the cards securely and check the floor is dry; one child at a time on the line with an adult nearby."
+      },
+      "differentiation": {
+        "support": "Use only three numerals and walk beside the child.",
+        "extension": "Ask the child to walk backwards from five to one."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What number are you standing on?",
+            "expected": "The numeral on the card under the child."
+          },
+          {
+            "question": "Can you stand on number 4?",
+            "expected": "Child finds and stands on the numeral 4."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Walks along a number line saying numbers",
+        "Finds a named numeral"
+      ],
+      "conclusion": "Walk the line one last time saying \"one, two, three, four, five\" and sit down.",
+      "homeConnection": "Draw numbers with chalk on the ground and hop along them with your child.",
+      "teacherReflection": [
+        "Which children could show \"walk along a floor number line saying the numbers from one to five\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 2 3 4 5 (path)"
+        ],
+        "pictures": [
+          "A floor number path"
+        ]
+      },
+      "activities": [
+        "Number path game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W05-D05",
+      "title": "Numerals one to five stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 5,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Numerals",
+      "subtopic": "Numeral and quantity games",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can recognise, order and match numerals 1 to 5 at three stations."
+      ],
+      "successCriteria": [
+        "Matches numerals 1 to 5 to groups with support",
+        "Orders numerals 1 to 3 independently"
+      ],
+      "previousKnowledge": "Children can match numerals 1 to 3 to groups, count to five with support and trace numerals in sand.",
+      "vocabulary": [
+        "four",
+        "five",
+        "in order",
+        "next",
+        "number line"
+      ],
+      "resources": [
+        "Station 1: numeral and tray",
+        "Station 2: number line",
+        "Station 3: number path",
+        "Class record sheet"
+      ],
+      "starter": "Sing the numeral song and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask \"Which numeral goes here?\" and \"What comes next?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child answers by pointing or saying.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask \"Which numeral goes here?\" and \"What comes next?\" Children: Child answers by pointing or saying.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Remove small items; tape floor cards securely; supervise each station."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask a confident child to lead the number path game."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: matches numerals 1 to 5 to groups; orders 1 to 3 independently and 1 to 5 with help.",
+        "questions": [
+          {
+            "question": "What number comes after four?",
+            "expected": "Five."
+          },
+          {
+            "question": "Which numeral matches these blocks?",
+            "expected": "The correct numeral, up to five."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Recognises and orders numerals to five"
+      ],
+      "conclusion": "Sing the numeral song and tidy up together.",
+      "homeConnection": "Count numbers on a phone keypad with your child.",
+      "teacherReflection": [
+        "Which children could show \"show they can recognise, order and match numerals 1 to 5 at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 2 3 4 5"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "id": "ELA-PS-TOD-NUM-T2-W04",
+  "class": "Toddler",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 4,
+  "title": "Numerals 1, 2 and 3",
+  "topic": "Numerals",
+  "subtopics": [
+    "Finding numerals in our world",
+    "Matching numerals to groups",
+    "Feeling and tracing numerals"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will recognise the numerals 1, 2 and 3 with support.",
+    "Children will match a numeral card to a group of one, two or three objects."
+  ],
+  "vocabulary": [
+    "number",
+    "numeral",
+    "one",
+    "two",
+    "three",
+    "match"
+  ],
+  "content": "Seeing the numerals 1, 2 and 3 in the environment, matching them to groups of one, two and three, and tracing them with a finger.",
+  "teachingActivities": "Show the numeral and the group together; say the number while pointing to both; trace the numeral large in the air before the child traces; keep numerals big and clear.",
+  "learnerActivities": "Spot numerals around the room, match numeral cards to groups, trace numerals in sand and on cards.",
+  "resources": [
+    "Large numeral cards 1, 2 and 3",
+    "Dot cards for one, two and three",
+    "Large blocks",
+    "A tray of sand or flour",
+    "A calendar and a clock picture"
+  ],
+  "assessment": "Check whether children match a numeral to the right group of up to three and point to a named numeral from three.",
+  "expectedOutcomes": [
+    "Matches a numeral to the right group of up to three.",
+    "Points to a named numeral from three."
+  ],
+  "crossCurricular": [
+    "Literacy: print awareness; shapes of marks",
+    "Physical Development: tracing and arm movements",
+    "Social Habits: sharing materials"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W04-D01",
+      "title": "Numbers all around us",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Numerals",
+      "subtopic": "Finding numerals in our world",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will notice numerals in the environment and match 1, 2 and 3 to groups."
+      ],
+      "successCriteria": [
+        "Points to a numeral when asked",
+        "Says one, two or three while looking at a numeral"
+      ],
+      "previousKnowledge": "Children can count up to three reliably and to five with support, and say how many for small groups.",
+      "vocabulary": [
+        "number",
+        "numeral",
+        "one",
+        "two",
+        "three",
+        "match"
+      ],
+      "resources": [
+        "Large numeral cards 1, 2 and 3",
+        "A calendar",
+        "A picture of a clock",
+        "A house number card"
+      ],
+      "starter": "Hold up the house number card and say \"This is a number on a house. Numbers are everywhere! Let us look for numbers in our room.\"",
+      "teacherActivities": [
+        "Show the numerals 1, 2 and 3 on cards. Say each number and trace it in the air.",
+        "Point to the calendar and clock picture. Say \"These have numbers too.\"",
+        "Put one block beside the numeral 1, two beside the 2 and three beside the 3.",
+        "Hold up a numeral and ask \"Which group matches?\""
+      ],
+      "learnerActivities": [
+        "Children trace the numerals in the air with a finger.",
+        "Children look and point to a numeral they notice.",
+        "Children touch each block and say the number.",
+        "Children point to the group of blocks that matches the numeral."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the numerals 1, 2 and 3 on cards. Say each number and trace it in the air. Children: Children trace the numerals in the air with a finger.",
+        "Step 2. Teacher: Point to the calendar and clock picture. Say \"These have numbers too.\" Children: Children look and point to a numeral they notice.",
+        "Step 3. Teacher: Put one block beside the numeral 1, two beside the 2 and three beside the 3. Children: Children touch each block and say the number.",
+        "Step 4. Teacher: Hold up a numeral and ask \"Which group matches?\" Children: Children point to the group of blocks that matches the numeral."
+      ],
+      "practical": {
+        "title": "Numeral walk",
+        "steps": [
+          "Stick large numeral cards on the wall at child height.",
+          "Walk with a partner and find each numeral.",
+          "Say the number and touch the card."
+        ],
+        "safety": "Fix cards firmly at child height with no sharp edges; children walk, not run."
+      },
+      "differentiation": {
+        "support": "Use numerals 1 and 2 only with one and two blocks beside them.",
+        "extension": "Ask the child to find numerals at home or in the classroom and tell the group."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you show me the number 2?",
+            "expected": "Child points to the numeral 2."
+          },
+          {
+            "question": "How many blocks go with this number?",
+            "expected": "The correct number of blocks, up to three."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Notices numerals in the environment",
+        "Matches a numeral to a group"
+      ],
+      "conclusion": "Wave goodbye to the numerals and say \"One, two, three, goodbye.\"",
+      "homeConnection": "Spot numbers at home on a phone, a clock or a house door and say them.",
+      "teacherReflection": [
+        "Which children could show \"notice numerals in the environment and match 1, 2 and 3 to groups\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1  2  3 (large numerals)",
+          "One block, two blocks, three blocks"
+        ],
+        "pictures": [
+          "A house number",
+          "A calendar and a clock"
+        ],
+        "songOrRhyme": "One is a stick, two is a swan, three is two bumps, count with me."
+      },
+      "activities": [
+        "Numeral walk"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W04-D02",
+      "title": "Match the number to the dots",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Numerals",
+      "subtopic": "Matching numerals to groups",
+      "dayType": "explore",
+      "objectives": [
+        "Children will match numeral cards 1, 2 and 3 to dot cards or groups of objects."
+      ],
+      "successCriteria": [
+        "Places the numeral beside the right group",
+        "Says the number while matching"
+      ],
+      "previousKnowledge": "Children can count up to three reliably and to five with support, and say how many for small groups.",
+      "vocabulary": [
+        "number",
+        "numeral",
+        "one",
+        "two",
+        "three",
+        "match"
+      ],
+      "resources": [
+        "Numeral cards 1 to 3",
+        "Dot cards for one, two and three",
+        "Large blocks",
+        "A mat"
+      ],
+      "starter": "Place one dot card and ask \"How many dots?\" Lay the numeral 1 beside it. Say \"One dot, one numeral. They match.\"",
+      "teacherActivities": [
+        "Show the dot card with two dots. Count them. Place the numeral 2 beside it.",
+        "Mix the cards and ask a child to find the numeral for three dots.",
+        "Use blocks: put two blocks on the mat and ask \"Which numeral?\"",
+        "Let children make their own matches from a basket of cards and blocks."
+      ],
+      "learnerActivities": [
+        "Children count the dots and say \"two\".",
+        "Child matches the numeral 3 with the three dots.",
+        "Child places the numeral 2 beside the blocks.",
+        "Children match numerals and groups, saying the number each time."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the dot card with two dots. Count them. Place the numeral 2 beside it. Children: Children count the dots and say \"two\".",
+        "Step 2. Teacher: Mix the cards and ask a child to find the numeral for three dots. Children: Child matches the numeral 3 with the three dots.",
+        "Step 3. Teacher: Use blocks: put two blocks on the mat and ask \"Which numeral?\" Children: Child places the numeral 2 beside the blocks.",
+        "Step 4. Teacher: Let children make their own matches from a basket of cards and blocks. Children: Children match numerals and groups, saying the number each time."
+      ],
+      "practical": {
+        "title": "Numeral and dots match",
+        "steps": [
+          "Lay out three numeral cards in a row.",
+          "Children place the correct dot card or blocks under each numeral.",
+          "They check by counting aloud."
+        ],
+        "safety": "Use large, rounded cards and blocks larger than a child’s fist. Keep everything on the mat."
+      },
+      "differentiation": {
+        "support": "Match numerals 1 and 2 only, and use dot cards with large dots.",
+        "extension": "Ask the child to put the numerals in order and match groups to each."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which numeral goes with three dots?",
+            "expected": "The numeral 3."
+          },
+          {
+            "question": "How many blocks for the number 2?",
+            "expected": "Two."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches numerals 1 to 3 to groups",
+        "Says the numbers while matching"
+      ],
+      "conclusion": "Line up the matched pairs and say \"One, two, three. All matched.\"",
+      "homeConnection": "Show your child a number card and ask them to find that many spoons.",
+      "teacherReflection": [
+        "Which children could show \"match numeral cards 1, 2 and 3 to dot cards or groups of objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 (one dot)",
+          "2 (two dots)",
+          "3 (three dots)"
+        ],
+        "pictures": [
+          "Numeral cards with dot cards"
+        ]
+      },
+      "activities": [
+        "Numeral and dots match"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W04-D03",
+      "title": "Feel and trace the numbers",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Numerals",
+      "subtopic": "Feeling and tracing numerals",
+      "dayType": "practise",
+      "objectives": [
+        "Children will trace the numerals 1, 2 and 3 with a finger in sand or on textured cards."
+      ],
+      "successCriteria": [
+        "Traces the shape of a numeral",
+        "Says the number while tracing"
+      ],
+      "previousKnowledge": "Children can count up to three reliably and to five with support, and say how many for small groups.",
+      "vocabulary": [
+        "number",
+        "numeral",
+        "one",
+        "two",
+        "three",
+        "match"
+      ],
+      "resources": [
+        "A tray of dry sand or flour",
+        "Large sandpaper or textured numeral cards",
+        "Paper numerals"
+      ],
+      "starter": "Trace the numeral 1 in the air with a big arm movement and say \"One is a straight line.\" Invite the children to trace with you.",
+      "teacherActivities": [
+        "Draw the numeral 1 in the sand slowly with your finger. Say \"Down, one.\"",
+        "Draw the numeral 2 with a curve and a line along the bottom and say \"Curve and slide, two.\"",
+        "Draw the numeral 3 with two curves and say \"Bump, bump, three.\"",
+        "Place the numeral cards beside each tray and let children check their tracing."
+      ],
+      "learnerActivities": [
+        "Children trace the numeral on their own trays.",
+        "Children copy the movement in the sand.",
+        "Children trace the numeral 3 and say \"three\".",
+        "Child compares the traced numeral with the card."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Draw the numeral 1 in the sand slowly with your finger. Say \"Down, one.\" Children: Children trace the numeral on their own trays.",
+        "Step 2. Teacher: Draw the numeral 2 with a curve and a line along the bottom and say \"Curve and slide, two.\" Children: Children copy the movement in the sand.",
+        "Step 3. Teacher: Draw the numeral 3 with two curves and say \"Bump, bump, three.\" Children: Children trace the numeral 3 and say \"three\".",
+        "Step 4. Teacher: Place the numeral cards beside each tray and let children check their tracing. Children: Child compares the traced numeral with the card."
+      ],
+      "practical": {
+        "title": "Sand numerals",
+        "steps": [
+          "Give each child a shallow tray of sand.",
+          "Trace each numeral three times.",
+          "Shake the tray to wipe it smooth."
+        ],
+        "safety": "Use clean, dry sand or flour; tell children not to eat or throw it. Wash hands afterwards."
+      },
+      "differentiation": {
+        "support": "Use hand-over-hand tracing on textured cards.",
+        "extension": "Ask the child to trace the numeral and then place the matching number of blocks beside it."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you trace the number 3?",
+            "expected": "Child traces the numeral 3 in the sand."
+          },
+          {
+            "question": "What number is this?",
+            "expected": "The correct numeral name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Traces the numerals 1 to 3",
+        "Says the number while tracing"
+      ],
+      "conclusion": "Shake the trays to make the numerals disappear. Say \"All gone numbers. Goodbye.\"",
+      "homeConnection": "Trace numbers on a tray of flour or on your child’s back with a finger.",
+      "teacherReflection": [
+        "Which children could show \"trace the numerals 1, 2 and 3 with a finger in sand or on textured cards\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Trace: 1",
+          "Trace: 2",
+          "Trace: 3"
+        ],
+        "pictures": [
+          "A child tracing in sand",
+          "Numeral cards with arrows"
+        ]
+      },
+      "activities": [
+        "Sand numerals"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W04-D04",
+      "title": "Number hunt",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Numerals",
+      "subtopic": "Finding numerals in our world",
+      "dayType": "apply",
+      "objectives": [
+        "Children will find numerals in the room and outdoors and say the number."
+      ],
+      "successCriteria": [
+        "Finds a numeral 1, 2 or 3",
+        "Says the number"
+      ],
+      "previousKnowledge": "Children can count up to three reliably and to five with support, and say how many for small groups.",
+      "vocabulary": [
+        "number",
+        "numeral",
+        "one",
+        "two",
+        "three",
+        "match"
+      ],
+      "resources": [
+        "Numeral cards hidden around the room",
+        "A basket",
+        "Number cards for each child"
+      ],
+      "starter": "Say \"Some numbers are hiding in our room. Let us find them.\" Show a numeral card to remind the children what to look for.",
+      "teacherActivities": [
+        "Give each child a card with a numeral 1, 2 or 3. Say \"Find the same number.\"",
+        "When a child finds a match, say the number together and cheer.",
+        "Ask each child to find the group of blocks that matches their numeral.",
+        "Collect the cards and put them in order."
+      ],
+      "learnerActivities": [
+        "Children walk around and look for a matching numeral.",
+        "Child shows the numeral and says the number.",
+        "Child finds the matching group and counts it.",
+        "Children help place the cards in a row 1, 2, 3."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Give each child a card with a numeral 1, 2 or 3. Say \"Find the same number.\" Children: Children walk around and look for a matching numeral.",
+        "Step 2. Teacher: When a child finds a match, say the number together and cheer. Children: Child shows the numeral and says the number.",
+        "Step 3. Teacher: Ask each child to find the group of blocks that matches their numeral. Children: Child finds the matching group and counts it.",
+        "Step 4. Teacher: Collect the cards and put them in order. Children: Children help place the cards in a row 1, 2, 3."
+      ],
+      "practical": {
+        "title": "Hidden number hunt",
+        "steps": [
+          "Hide large numeral cards at low heights around the room.",
+          "Children find a card and bring it to the basket.",
+          "They say the number."
+        ],
+        "safety": "Hide cards only at child height, never on high shelves; keep the area clear of obstacles."
+      },
+      "differentiation": {
+        "support": "Hide cards in plain sight and walk with the child.",
+        "extension": "Ask the child to find all three numerals and put them in order."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What number did you find?",
+            "expected": "The correct numeral name."
+          },
+          {
+            "question": "Can you find a number 3?",
+            "expected": "Child finds the numeral 3."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds and names numerals 1 to 3",
+        "Matches a numeral with a group"
+      ],
+      "conclusion": "Put all numerals in a line on the floor and say \"One, two, three.\"",
+      "homeConnection": "Look for numbers on doors, clocks and phones with your child.",
+      "teacherReflection": [
+        "Which children could show \"find numerals in the room and outdoors and say the number\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Number hunt"
+        ],
+        "pictures": [
+          "Children hunting numerals"
+        ]
+      },
+      "activities": [
+        "Hidden number hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-NUM-T2-W04-D05",
+      "title": "Numeral stations",
+      "class": "Toddler",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Numerals",
+      "subtopic": "Matching numerals to groups",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will show they can recognise, match and trace the numerals 1, 2 and 3 at three stations."
+      ],
+      "successCriteria": [
+        "Matches a numeral to a group of up to three",
+        "Points to a named numeral"
+      ],
+      "previousKnowledge": "Children can count up to three reliably and to five with support, and say how many for small groups.",
+      "vocabulary": [
+        "number",
+        "numeral",
+        "one",
+        "two",
+        "three",
+        "match"
+      ],
+      "resources": [
+        "Station 1: numeral and dot match",
+        "Station 2: sand numerals",
+        "Station 3: number hunt cards",
+        "Class record sheet"
+      ],
+      "starter": "Sing the numeral song and show the three stations.",
+      "teacherActivities": [
+        "Rotate groups every four minutes and observe one station closely.",
+        "Ask \"Show me the number 2\" and \"Which numeral goes with these blocks?\"",
+        "Look at the traced numerals and talk about them with each child.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children play at each station.",
+        "Child points to numerals and matches them.",
+        "Child shows and names a traced numeral.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Rotate groups every four minutes and observe one station closely. Children: Children play at each station.",
+        "Step 2. Teacher: Ask \"Show me the number 2\" and \"Which numeral goes with these blocks?\" Children: Child points to numerals and matches them.",
+        "Step 3. Teacher: Look at the traced numerals and talk about them with each child. Children: Child shows and names a traced numeral.",
+        "Step 4. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Station circuit",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "Teacher observes and records."
+        ],
+        "safety": "Use clean sand or flour; supervise the sand tray; remove small items."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner.",
+        "extension": "Ask a child to quiz a friend: \"Show me the number 3.\""
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: points to a named numeral from three; matches numerals 1 to 3 to groups; traces numerals.",
+        "questions": [
+          {
+            "question": "Which numeral is this?",
+            "expected": "The correct number name."
+          },
+          {
+            "question": "Can you match the number to the blocks?",
+            "expected": "Child places the numeral beside the right group."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Recognises numerals 1 to 3 with support"
+      ],
+      "conclusion": "Sing the numeral song and tidy up together.",
+      "homeConnection": "Show your child numbers at home and ask \"what number is this?\"",
+      "teacherReflection": [
+        "Which children could show \"show they can recognise, match and trace the numerals 1, 2 and 3 at three stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "1 2 3"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Station circuit"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
