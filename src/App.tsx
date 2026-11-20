@@ -1,10 +1,11 @@
-import { type ReactNode } from 'react';
+import { Suspense, lazy, type ReactNode } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { firebaseConfigured } from '@/config/env';
 import { NAV } from '@/config/nav';
 import type { Role } from '@/config/permissions';
 import { PortalLayout } from '@/components/layout/PortalLayout';
 import { RequireAuth, RequireRole } from '@/features/auth/guards';
+import { Spinner } from '@/components/ui/data';
 import { LoginPage } from '@/features/auth/LoginPage';
 import { ProfilePage } from '@/features/auth/ProfilePage';
 import { SetupScreen } from '@/features/setup/SetupScreen';
@@ -39,6 +40,9 @@ import { SpotlightPage } from '@/features/spotlight/Spotlight';
 import { PlayerProvider } from '@/features/Islamic/player';
 import { AlarmEngine } from '@/features/Islamic/alarms';
 import { StorageInventory } from '@/features/media/StorageInventory';
+
+// The classroom (and the LiveKit library) loads only when someone opens a live class, so the rest of the app stays light.
+const LiveClassroomPage = lazy(() => import('@/features/live/LiveClassroomPage').then((m) => ({ default: m.LiveClassroomPage })));
 
 const STAFF_ACADEMIC: Role[] = ['super_admin', 'principal', 'admin', 'teacher'];
 
@@ -75,6 +79,7 @@ export function App() {
         <Route path="*" element={<P.NotFound />} />
       </Route>
 
+      <Route path="app/live/:sessionId" element={<RequireAuth><RequireRole roles={['super_admin', 'admin', 'principal', 'teacher', 'student']}><Suspense fallback={<Spinner className="min-h-dvh" label="Opening the classroom…" />}><LiveClassroomPage /></Suspense></RequireRole></RequireAuth>} />
       <Route path="app" element={<RequireAuth><PortalLayout /></RequireAuth>}>
         <Route index element={<Dashboard />} />
         <Route path="profile" element={<ProfilePage />} />
