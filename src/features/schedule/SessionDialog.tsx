@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { where } from 'firebase/firestore';
 import { Copy, ExternalLink, Video } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -22,6 +23,7 @@ const JOIN_AFTER = 30 * 60_000;
 export function SessionDialog({ session, tz, onClose, onEdit }: { session: WithId<Session> | null; tz: string; onClose: () => void; onEdit: (s: WithId<Session>) => void }) {
   const { uid, role, profile } = useAuth();
   const toast = useToast();
+  const navigate = useNavigate();
   const [link, setLink] = useState<SessionLink | null>(null);
   const [busy, setBusy] = useState(false);
   const [mode, setMode] = useState<'view' | 'reschedule' | 'cancel'>('view');
@@ -45,7 +47,9 @@ export function SessionDialog({ session, tz, onClose, onEdit }: { session: WithI
   const inWindow = now >= start - JOIN_BEFORE && now <= end + JOIN_AFTER;
   const audienceCanJoin = session.status === 'scheduled' && inWindow;
   const isAudience = !!uid && session.viewers.includes(uid);
-  const showJoin = session.online && (canManage || isAudience);
+  const isLive = session.provider === 'ela_live';          // held in the in-portal ELA Live Classroom (no external link)
+  const showJoin = session.online && !isLive && (canManage || isAudience);
+  const liveJoin = isLive && session.status === 'scheduled' && (canManage || (role === 'student' && isAudience));
 
   const reveal = async () => {
     setBusy(true);
@@ -82,6 +86,17 @@ export function SessionDialog({ session, tz, onClose, onEdit }: { session: WithI
             {canManage && <div><dt className="text-xs text-muted">Invited</dt><dd>{session.studentUids.length} learner login(s), {session.parentUids.length} parent(s)</dd></div>}
           </dl>
           {session.description && <p className="whitespace-pre-line">{session.description}</p>}
+
+          {isLive && session.status === 'scheduled' && (
+            <div className="rounded-md border border-line p-3">
+              <p className="mb-2 flex items-center gap-2 font-medium"><Video className="h-4 w-4" /> ELA Live Classroom</p>
+              {liveJoin ? (
+                <>
+                  <Button onClick={() => navigate(`/app/live/${session.id}`)}><Video className="h-4 w-4" /> {canManage ? 'Open the live classroom' : 'Join live class'}</Button>
+                  <p className="mt-2 text-xs text-muted">{canManage ? 'The room opens 15 minutes before the start. Learners can come in once you start the class.' : now < start - JOIN_BEFORE ? `The room opens at ${format12(utcToZoned(new Date(start - JOIN_BEFORE), tz).time)}, 15 minutes before the class.` : 'You can go in once your teacher has started the class. Your attendance is recorded automatically while you are connected.'}</p>
+                </>
+              ) : <p className="text-sm text-muted">This class is held in the ELA Live Classroom for enrolled learners.</p>}
+            </div>)}
 
           {showJoin && session.status === 'scheduled' && (
             <div className="rounded-md border border-line p-3">

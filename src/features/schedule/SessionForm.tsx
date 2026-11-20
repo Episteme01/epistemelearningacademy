@@ -18,7 +18,7 @@ import { where } from 'firebase/firestore';
 import type { ClassRoom, Session, Student, Subject, Term, TimetableSeries, UserProfile, WithId } from '@/types/models';
 
 const DAYS = [['Mon', 1], ['Tue', 2], ['Wed', 3], ['Thu', 4], ['Fri', 5], ['Sat', 6], ['Sun', 0]] as const;
-const PROVIDERS = [['google_meet', 'Google Meet'], ['zoom', 'Zoom'], ['teams', 'Microsoft Teams'], ['other', 'Other']] as const;
+const PROVIDERS = [['ela_live', 'ELA Live Classroom (in the portal)'], ['google_meet', 'Google Meet'], ['zoom', 'Zoom'], ['teams', 'Microsoft Teams'], ['other', 'Other']] as const;
 interface Course { title: string }
 
 export function SessionForm({ open, onClose, session, initialDate, onDone }: {
@@ -108,10 +108,10 @@ export function SessionForm({ open, onClose, session, initialDate, onDone }: {
     if (!f.title.trim()) return toast.error('Give the class a title.');
     if (!f.teacherUid) return toast.error('Choose the teacher.');
     if (f.end <= f.start) return toast.error('End time must be after the start time.');
-    if (f.online && !editing && !f.url.trim()) return toast.error('Enter the meeting link, or untick “Online class”.');
+    if (f.online && !editing && f.provider !== 'ela_live' && !f.url.trim()) return toast.error('Enter the meeting link, or untick “Online class”.');
     const teacherName = leader ? (teachers.find((t) => t.id === f.teacherUid)?.displayName ?? session?.teacherName ?? '') : (profile?.displayName ?? '');
     const course = courses.data.find((c) => c.id === f.courseId); const subj = subjects.data.find((s) => s.id === f.subjectId); const cls = classes.data.find((c) => c.id === f.classId);
-    const link = f.online && f.url.trim() ? { provider: f.provider, meetingUrl: f.url, meetingId: f.meetingId, passcode: f.passcode } : undefined;
+    const link = f.online && (f.provider === 'ela_live' || f.url.trim()) ? { provider: f.provider, meetingUrl: f.url, meetingId: f.meetingId, passcode: f.passcode } : undefined;
     const by = { uid, name: profile?.displayName ?? '' };
     setBusy(true);
     try {
@@ -187,10 +187,14 @@ export function SessionForm({ open, onClose, session, initialDate, onDone }: {
           <Checkbox label="This is an online class" checked={f.online} disabled={editing && !!session?.online} onChange={(e) => set('online', e.target.checked)} />
           {f.online && (<div className="grid gap-3 sm:grid-cols-2">
             <Field label="Provider">{(a) => <Select {...a} value={f.provider} onChange={(e) => set('provider', e.target.value)}>{PROVIDERS.map(([v, l]) => <option key={v} value={v}>{l}</option>)}</Select>}</Field>
+            {f.provider === 'ela_live'
+              ? <p className="text-xs text-muted sm:col-span-2">Held in the ELA Live Classroom. No link is needed: invited learners join from the timetable once you start the class. Parents are not admitted to live rooms.</p>
+              : (<>
             <Field label={editing ? 'Meeting link (leave blank to keep the current one)' : 'Meeting link (https://…)'}>{(a) => <Input {...a} type="url" inputMode="url" value={f.url} onChange={(e) => set('url', e.target.value)} />}</Field>
-            <Field label="Meeting ID (optional)">{(a) => <Input {...a} value={f.meetingId} onChange={(e) => set('meetingId', e.target.value)} />}</Field>
-            <Field label="Passcode (optional)">{(a) => <Input {...a} value={f.passcode} onChange={(e) => set('passcode', e.target.value)} autoComplete="off" />}</Field>
-            <p className="text-xs text-muted sm:col-span-2">The link is stored separately and is released by the database only to the invited audience, from 15 minutes before the start.</p>
+              <Field label="Meeting ID (optional)">{(a) => <Input {...a} value={f.meetingId} onChange={(e) => set('meetingId', e.target.value)} />}</Field>
+              <Field label="Passcode (optional)">{(a) => <Input {...a} value={f.passcode} onChange={(e) => set('passcode', e.target.value)} autoComplete="off" />}</Field>
+              <p className="text-xs text-muted sm:col-span-2">The link is stored separately and is released by the database only to the invited audience, from 15 minutes before the start.</p>
+            </>)}
           </div>)}
         </fieldset>
 
