@@ -9,10 +9,10 @@ import { useAuth } from '@/features/auth/AuthContext';
 import { useCollection } from '@/hooks/useFirestore';
 import { useGrace, useStudentNames } from '@/features/attendance/useAttendance';
 import { C } from '@/config/collections';
-import { CATEGORY_LABEL, categoryOf, detailOf, type Category } from '@/lib/attendance';
+import { CATEGORY_LABEL, categoryOf, detailOf, liveDetail, type Category } from '@/lib/attendance';
 import { confirmAll, confirmPending, finalise, selfCheckIn, staffMark } from '@/services/attendance';
 import { errorMessage, fmtDate, toDate } from '@/lib/utils';
-import type { AttendanceLog, AttStatus, AttTiming, Session, SessionAttendance, WithId } from '@/types/models';
+import type { AttendanceLog, LiveParticipation, AttStatus, AttTiming, Session, SessionAttendance, WithId } from '@/types/models';
 
 const TONE: Record<Category, 'ok' | 'info' | 'warn' | 'danger' | 'neutral'> = { early: 'ok', on_time: 'ok', late: 'warn', left_early: 'warn', absent: 'danger', excused: 'info', pending: 'warn', none: 'neutral' };
 export const CategoryBadge = ({ c }: { c: Category }) => <Badge tone={TONE[c]}>{CATEGORY_LABEL[c]}</Badge>;
@@ -47,6 +47,13 @@ export function AttendancePanel({ session }: { session: WithId<Session> }) {
   }, `${session.id}|${role}|${uid}`);
   const logs = useCollection<AttendanceLog>(C.attendanceLog, () => (manage || viewerOnly ? [where('sessionId', '==', session.id), ...(leader || viewerOnly ? [] : [where('teacherUid', '==', uid ?? '')])] : null), manage ? `${session.id}${role}` : '');
   const { names } = useStudentNames(manage || viewerOnly);
+  const isLiveClass = session.provider === 'ela_live';
+  const parts = useCollection<LiveParticipation>(C.liveParticipation, () => {
+    if (!uid || !isLiveClass || !(manage || viewerOnly)) return null;
+    const base = [where('sessionId', '==', session.id)];
+    return leader || viewerOnly ? base : [...base, where('teacherUid', '==', uid)];
+  }, isLiveClass && (manage || viewerOnly) ? `${session.id}|${role}|${uid}` : '');
+  const partOf = useMemo(() => { const m: Record<string, LiveParticipation> = {}; for (const x of parts.data) if (x.role === 'learner') m[x.uid] = x; return m; }, [parts.data]);
 
   const byStudent = useMemo(() => { const m: Record<string, WithId<SessionAttendance>> = {}; for (const r of recs.data) m[r.studentUid] = r; return m; }, [recs.data]);
   const asLike = (r: WithId<SessionAttendance> | undefined) => (r ? { status: r.status, timing: r.timing, checkInMs: toDate(r.checkInAt)?.getTime() ?? null, startMs: start } : null);
@@ -60,7 +67,7 @@ export function AttendancePanel({ session }: { session: WithId<Session> }) {
   /* -------------------------------------------------------------- learner */
   if (isLearner) {
     const mine = byStudent[uid!];
-    const canCheckIn = !mine && session.status === 'scheduled' && now >= start - OPEN_BEFORE && now <= end;
+    const canCheckIn = !mine && !isLiveClass && session.status === 'scheduled' && now >= start - OPEN_BEFORE && now <= end;
     return (
       <div className="rounded-md border border-line p-3 text-sm">
         <p className="mb-2 flex items-center gap-2 font-medium"><CheckCircle2 className="h-4 w-4" /> My attendance</p>
@@ -76,6 +83,8 @@ export function AttendancePanel({ session }: { session: WithId<Session> }) {
             <Button loading={busy} onClick={() => void run(() => selfCheckIn(session, { uid: uid!, name: profile?.displayName ?? '' }), 'Checked in. Your teacher will confirm it.')}>I am in class: check me in</Button>
             <p className="text-xs text-muted">{session.online ? 'Opening the class link from this website records your attendance automatically. Use this button only if you cannot, or for classes with no online link.' : 'Only check in for yourself.'}</p>
           </div>
+        ) : isLiveClass ? (
+          <p className="flex items-center gap-1 text-muted"><Clock className="h-4 w-4" /> Attendance is recorded automatically when you join the ELA Live Classroom.</p>
         ) : (
           <p className="flex items-center gap-1 text-muted"><Clock className="h-4 w-4" /> {now < start - OPEN_BEFORE ? 'Check-in opens 15 minutes before the class.' : session.status === 'completed' || now > end ? 'Check-in is closed. Ask your teacher if you attended.' : 'Not available.'}</p>
         )}
@@ -116,7 +125,7 @@ export function AttendancePanel({ session }: { session: WithId<Session> }) {
               <tr key={u}>
                 <Td>{nameOf(u)}</Td>
                 <Td><CategoryBadge c={cat} /></Td>
-                <Td className="text-xs text-muted">{r ? `${detailOf(asLike(r), grace)}${r.method === 'link_click' ? ' · joined via class link' : ''}${r.verifiedByName ? ` · by ${r.verifiedByName}` : ''}` : started ? 'Not recorded' : ''}{r?.note ? ` · ${r.note}` : ''}</Td>
+                <Td className="text-xs text-muted">{r ? `${detailOf(asLike(r), grace)}${r.method === 'link_click' ? ' · joined via class link' : ''}${r.method === 'live_webhook' ? ` · joined the live classroom${partOf[u] ? ` · ${liveDetail(partOf[u])}` : ''}` : ''}${r.verifiedByName ? ` · by ${r.verifiedByName}` : ''}` : started ? 'Not recorded' : ''}{r?.note ? ` · ${r.note}` : ''}</Td>
                 {manage && <Td><div className="flex gap-1">
                   {r?.status === 'pending_verification' && started && <Button size="sm" loading={busy} onClick={() => void run(() => confirmPending(session, r, grace, by), 'Confirmed')}>Confirm</Button>}
                   {started && <Button size="sm" variant="outline" onClick={() => setEdit({ uid: u, name: nameOf(u), status: r && r.status !== 'pending_verification' ? r.status : 'present', timing: (r?.timing as AttTiming | '') ?? '', reason: '' })}>{r && r.status !== 'pending_verification' ? 'Correct' : 'Mark'}</Button>}
