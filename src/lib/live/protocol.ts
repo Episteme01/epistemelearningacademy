@@ -9,7 +9,7 @@ import { MAX_POINTS, MAX_STROKES, PAD_H, PAD_W, TOOLS, type Tool } from '@/lib/d
 export type SenderRole = 'host' | 'learner';
 export interface Sender { identity: string; role: SenderRole | null }
 
-export const TOPIC = { chat: 'chat', hand: 'hand', board: 'board' } as const;
+export const TOPIC = { chat: 'chat', hand: 'hand', board: 'board', slides: 'slides', spot: 'spot', poll: 'poll' } as const;
 export const MAX_PACKET_BYTES = 12_000;
 export const MAX_CHAT_CHARS = 300;
 export const MAX_HANDS = 200;
@@ -252,3 +252,82 @@ export function pickTiles<T extends TilePerson>(people: T[], max: number): T[] {
   const score = (p: T) => (p.role === 'host' ? 0 : p.sharing ? 1 : p.speaking ? 2 : p.handUp ? 3 : p.isLocal ? 4 : 5);
   return [...people].sort((a, b) => score(a) - score(b) || a.name.localeCompare(b.name)).slice(0, Math.max(1, max));
 }
+
+
+/* ------------------------------------------------------------------ teacher tools: slides, spotlight, poll */
+// Every one of these is teacher-driven. "Host-only" messages are ignored from anyone whose server-issued role is not host.
+const cleanLine = (v: unknown, max: number): string => (typeof v === 'string' ? v.replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, max) : '');
+
+/** Slides: pictures the teacher uploaded for this lesson, shown to everyone at the same page. */
+export const MAX_SLIDES = 30;
+export interface SlidesState { urls: string[]; page: number }
+export type SlidesMsg = { t: 'show'; urls: string[]; page: number } | { t: 'page'; page: number } | { t: 'stop' };
+/** Only https pictures from the school's image host: a message can never point the room at some other site. */
+export const isSlideUrl = (v: unknown): v is string => typeof v === 'string' && v.length <= 300 && /^https:\/\/res\.cloudinary\.com\/[^\s"'<>\\]+$/.test(v);
+const clampPage = (n: unknown, len: number) => (typeof n === 'number' && Number.isInteger(n) ? Math.min(Math.max(0, n), Math.max(0, len - 1)) : 0);
+export function decodeSlides(bytes: Uint8Array): SlidesMsg | null {
+  const m = parse(bytes); if (!m) return null;
+  if (m.t === 'stop') return { t: 'stop' };
+  if (m.t === 'page') return typeof m.page === 'number' && Number.isInteger(m.page) && m.page >= 0 && m.page < MAX_SLIDES ? { t: 'page', page: m.page } : null;
+  if (m.t === 'show') {
+    if (!Array.isArray(m.urls) || m.urls.length < 1 || m.urls.length > MAX_SLIDES || !m.urls.every(isSlideUrl)) return null;
+    return { t: 'show', urls: m.urls as string[], page: clampPage(m.page, m.urls.length) };
+  }
+  return null;
+}
+export function slidesApply(prev: SlidesState | null, msg: SlidesMsg, from: Sender): SlidesState | null {
+  if (from.role !== 'host') return prev;
+  if (msg.t === 'stop') return null;
+  if (msg.t === 'show') return { urls: msg.urls, page: msg.page };
+  return prev ? { ...prev, page: clampPage(msg.page, prev.urls.length) } : prev;
+}
+
+/** Spotlight: the teacher puts one person on everyone's big screen ('' = back to normal). */
+export type SpotMsg = { t: 'spot'; who: string };
+export function decodeSpot(bytes: Uint8Array): SpotMsg | null {
+  const m = parse(bytes); return m && m.t === 'spot' && typeof m.who === 'string' && m.who.length <= 64 ? { t: 'spot', who: m.who } : null;
+}
+export const spotApply = (prev: string, msg: SpotMsg, from: Sender): string => (from.role === 'host' ? msg.who : prev);
+
+/** Quick poll: the teacher asks, learners pick one option, the teacher sees the counts. One vote per person; a vote can be changed until the poll closes. */
+export const MAX_POLL_OPTS = 6;
+export interface PollState { id: string; q: string; opts: string[]; open: boolean; counts: number[] }
+export type PollMsg =
+  | { t: 'open'; id: string; q: string; opts: string[] }
+  | { t: 'vote'; id: string; opt: number }
+  | { t: 'tally'; id: string; counts: number[]; open: boolean }
+  | { t: 'end'; id: string };
+export function decodePoll(bytes: Uint8Array): PollMsg | null {
+  const m = parse(bytes); if (!m || !isId(m.id)) return null;
+  if (m.t === 'end') return { t: 'end', id: m.id };
+  if (m.t === 'vote') return typeof m.opt === 'number' && Number.isInteger(m.opt) && m.opt >= 0 && m.opt < MAX_POLL_OPTS ? { t: 'vote', id: m.id, opt: m.opt } : null;
+  if (m.t === 'open') {
+    const q = cleanLine(m.q, 140); if (!q || !Array.isArray(m.opts)) return null;
+    const opts = m.opts.slice(0, MAX_POLL_OPTS).map((o) => cleanLine(o, 60)).filter(Boolean);
+    return opts.length >= 2 ? { t: 'open', id: m.id, q, opts } : null;
+  }
+  if (m.t === 'tally') {
+    if (!Array.isArray(m.counts) || m.counts.length < 2 || m.counts.length > MAX_POLL_OPTS || typeof m.open !== 'boolean') return null;
+    const counts = m.counts.map((c) => (typeof c === 'number' && Number.isInteger(c) && c >= 0 && c <= 100_000 ? c : 0));
+    return { t: 'tally', id: m.id, counts, open: m.open };
+  }
+  return null;
+}
+/** What everyone's screen shows. Only the host can open, update or end a poll. Votes are handled separately (the host counts them). */
+export function pollApply(prev: PollState | null, msg: PollMsg, from: Sender): PollState | null {
+  if (from.role !== 'host') return prev;
+  if (msg.t === 'open') return { id: msg.id, q: msg.q, opts: msg.opts, open: true, counts: msg.opts.map(() => 0) };
+  if (msg.t === 'end') return prev && prev.id === msg.id ? null : prev;
+  if (msg.t === 'tally') return prev && prev.id === msg.id && msg.counts.length === prev.opts.length ? { ...prev, counts: msg.counts, open: msg.open } : prev;
+  return prev;
+}
+/** The host's tally: identity -> option. Only learners vote, only while the poll is open, only for a real option; the latest vote from a person replaces their earlier one. */
+export function recordVote(votes: Record<string, number>, poll: PollState | null, msg: PollMsg, from: Sender): Record<string, number> {
+  if (msg.t !== 'vote' || !poll || !poll.open || msg.id !== poll.id || from.role !== 'learner' || msg.opt >= poll.opts.length) return votes;
+  return votes[from.identity] === msg.opt ? votes : { ...votes, [from.identity]: msg.opt };
+}
+export const countVotes = (votes: Record<string, number>, nOpts: number): number[] => {
+  const c = Array.from({ length: nOpts }, () => 0);
+  for (const v of Object.values(votes)) if (v >= 0 && v < nOpts) c[v]! += 1;
+  return c;
+};
