@@ -183,3 +183,82 @@ describe('which people get a video tile', () => {
     expect(pickTiles(people, 0)).toHaveLength(1);
   });
 });
+
+/* ------------------------------------------------------------------ slides, spotlight, poll */
+import { MAX_SLIDES, countVotes, decodePoll, decodeSlides, decodeSpot, isSlideUrl, pollApply, recordVote, slidesApply, spotApply, type PollState } from '@/lib/live/protocol';
+const raw = (o: unknown) => new TextEncoder().encode(JSON.stringify(o));
+const HOST_S = { identity: 'h', role: 'host' as const }; const LEARN_S = { identity: 'l1', role: 'learner' as const };
+const U1 = 'https://res.cloudinary.com/demo/image/upload/v1/ela/staff/a.jpg';
+const U2 = 'https://res.cloudinary.com/demo/image/upload/v1/ela/staff/b.jpg';
+
+describe('slides', () => {
+  it('only pictures from the school image host are accepted', () => {
+    expect(isSlideUrl(U1)).toBe(true);
+    for (const bad of ['http://res.cloudinary.com/a.jpg', 'https://evil.example/a.jpg', 'https://res.cloudinary.com.evil.example/a.jpg', 'javascript:alert(1)', 'https://res.cloudinary.com/a b.jpg', 42]) expect(isSlideUrl(bad)).toBe(false);
+  });
+  it('decodes show/page/stop and rejects bad input', () => {
+    expect(decodeSlides(raw({ t: 'show', urls: [U1, U2], page: 1 }))).toEqual({ t: 'show', urls: [U1, U2], page: 1 });
+    expect(decodeSlides(raw({ t: 'show', urls: [U1, 'https://evil.example/x.png'], page: 0 }))).toBeNull();
+    expect(decodeSlides(raw({ t: 'show', urls: [], page: 0 }))).toBeNull();
+    expect(decodeSlides(raw({ t: 'show', urls: Array(MAX_SLIDES + 1).fill(U1), page: 0 }))).toBeNull();
+    expect(decodeSlides(raw({ t: 'page', page: -1 }))).toBeNull();
+    expect(decodeSlides(raw({ t: 'stop' }))).toEqual({ t: 'stop' });
+  });
+  it('a bad page number is clamped into range', () => expect(decodeSlides(raw({ t: 'show', urls: [U1, U2], page: 99 }))).toMatchObject({ page: 1 }));
+  it('only the teacher can show, turn pages or stop', () => {
+    const shown = slidesApply(null, { t: 'show', urls: [U1, U2], page: 0 }, HOST_S)!;
+    expect(shown.page).toBe(0);
+    expect(slidesApply(null, { t: 'show', urls: [U1], page: 0 }, LEARN_S)).toBeNull();
+    expect(slidesApply(shown, { t: 'page', page: 1 }, LEARN_S)).toBe(shown);
+    expect(slidesApply(shown, { t: 'page', page: 1 }, HOST_S)!.page).toBe(1);
+    expect(slidesApply(shown, { t: 'page', page: 9 }, HOST_S)!.page).toBe(1);
+    expect(slidesApply(shown, { t: 'stop' }, LEARN_S)).toBe(shown);
+    expect(slidesApply(shown, { t: 'stop' }, HOST_S)).toBeNull();
+  });
+});
+
+describe('spotlight', () => {
+  it('only the teacher can spotlight', () => {
+    const m = decodeSpot(raw({ t: 'spot', who: 'abc' }))!;
+    expect(spotApply('', m, HOST_S)).toBe('abc');
+    expect(spotApply('', m, LEARN_S)).toBe('');
+    expect(spotApply('abc', { t: 'spot', who: '' }, HOST_S)).toBe('');
+  });
+  it('rejects a huge or non-text target', () => { expect(decodeSpot(raw({ t: 'spot', who: 'x'.repeat(65) }))).toBeNull(); expect(decodeSpot(raw({ t: 'spot', who: 5 }))).toBeNull(); });
+});
+
+describe('poll', () => {
+  const open = decodePoll(raw({ t: 'open', id: 'poll1', q: ' Which is right? ', opts: ['A', 'B', ' ', 'C'] }))!;
+  it('cleans the question, drops empty options, needs at least two', () => {
+    expect(open).toEqual({ t: 'open', id: 'poll1', q: 'Which is right?', opts: ['A', 'B', 'C'] });
+    expect(decodePoll(raw({ t: 'open', id: 'poll1', q: 'Q', opts: ['only one'] }))).toBeNull();
+    expect(decodePoll(raw({ t: 'open', id: 'poll1', q: '', opts: ['a', 'b'] }))).toBeNull();
+  });
+  it('only the teacher can open, update or end a poll', () => {
+    expect(pollApply(null, open, LEARN_S)).toBeNull();
+    const st = pollApply(null, open, HOST_S)!; expect(st.counts).toEqual([0, 0, 0]); expect(st.open).toBe(true);
+    expect(pollApply(st, { t: 'tally', id: 'poll1', counts: [3, 1, 0], open: true }, LEARN_S)).toBe(st);
+    expect(pollApply(st, { t: 'tally', id: 'poll1', counts: [3, 1, 0], open: false }, HOST_S)).toMatchObject({ counts: [3, 1, 0], open: false });
+    expect(pollApply(st, { t: 'tally', id: 'other', counts: [3, 1, 0], open: false }, HOST_S)).toBe(st);
+    expect(pollApply(st, { t: 'tally', id: 'poll1', counts: [3, 1], open: false }, HOST_S)).toBe(st);
+    expect(pollApply(st, { t: 'end', id: 'poll1' }, LEARN_S)).toBe(st);
+    expect(pollApply(st, { t: 'end', id: 'poll1' }, HOST_S)).toBeNull();
+  });
+  const st: PollState = { id: 'poll1', q: 'Q', opts: ['A', 'B', 'C'], open: true, counts: [0, 0, 0] };
+  it('counts one vote per learner and lets them change it', () => {
+    let v: Record<string, number> = {};
+    v = recordVote(v, st, { t: 'vote', id: 'poll1', opt: 0 }, LEARN_S);
+    v = recordVote(v, st, { t: 'vote', id: 'poll1', opt: 2 }, LEARN_S);
+    v = recordVote(v, st, { t: 'vote', id: 'poll1', opt: 2 }, { identity: 'l2', role: 'learner' });
+    expect(countVotes(v, 3)).toEqual([0, 0, 2]);
+  });
+  it('ignores votes from the teacher or unknown people, for another poll, a closed poll, or a missing option', () => {
+    const none: Record<string, number> = {};
+    expect(recordVote(none, st, { t: 'vote', id: 'poll1', opt: 0 }, HOST_S)).toBe(none);
+    expect(recordVote(none, st, { t: 'vote', id: 'poll1', opt: 0 }, { identity: 'x', role: null })).toBe(none);
+    expect(recordVote(none, st, { t: 'vote', id: 'nope', opt: 0 }, LEARN_S)).toBe(none);
+    expect(recordVote(none, { ...st, open: false }, { t: 'vote', id: 'poll1', opt: 0 }, LEARN_S)).toBe(none);
+    expect(recordVote(none, st, { t: 'vote', id: 'poll1', opt: 3 }, LEARN_S)).toBe(none);
+    expect(recordVote(none, null, { t: 'vote', id: 'poll1', opt: 0 }, LEARN_S)).toBe(none);
+  });
+});
