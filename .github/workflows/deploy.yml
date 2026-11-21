@@ -1,10 +1,8 @@
-
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -12,93 +10,59 @@ permissions:
   pages: write
   id-token: write
 
-# Queue deployments instead of cancelling an active deployment.
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     env:
+      # Set these under Settings → Secrets and variables → Actions → Variables.
+      # Firebase web config values are public identifiers, so Variables (not Secrets) are fine.
       VITE_FIREBASE_CONFIG_JSON: ${{ vars.VITE_FIREBASE_CONFIG_JSON }}
       VITE_FILES_GATEWAY_URL: ${{ vars.VITE_FILES_GATEWAY_URL }}
       VITE_USE_CLOUD_FUNCTIONS: ${{ vars.VITE_USE_CLOUD_FUNCTIONS }}
       VITE_SITE_URL: ${{ vars.VITE_SITE_URL }}
       VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH }}
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v5
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-
-      - name: Configure GitHub Pages base path
-        shell: bash
+      - name: Work out the site base path from the repository name
         run: |
           REPO="${GITHUB_REPOSITORY#*/}"
           OWNER="${GITHUB_REPOSITORY%%/*}"
-
-          if [ -n "$VITE_BASE_PATH" ]; then
-            BASE="$VITE_BASE_PATH"
-          elif [ "${REPO,,}" = "${OWNER,,}.github.io" ]; then
-            BASE="/"
-          else
-            BASE="/$REPO/"
-          fi
-
+          if [ -n "$VITE_BASE_PATH" ]; then BASE="$VITE_BASE_PATH"
+          elif [ "${REPO,,}" = "${OWNER,,}.github.io" ]; then BASE="/"
+          else BASE="/$REPO/"; fi
           echo "VITE_BASE_PATH=$BASE" >> "$GITHUB_ENV"
-
-          if [ "$BASE" = "/" ]; then
-            KEEP=0
-          else
-            KEEP=1
-          fi
-
+          # 404.html redirect trick: 0 path segments to keep on a root site, 1 on a project site
+          if [ "$BASE" = "/" ]; then KEEP=0; else KEEP=1; fi
           sed -i "s/var pathSegmentsToKeep = [0-9]*/var pathSegmentsToKeep = $KEEP/" public/404.html
-
-          echo "Base path: $BASE"
-          echo "Path segments to keep: $KEEP"
-
-      - name: Install dependencies
-        run: npm install --no-audit --no-fund
-
-      - name: TypeScript validation
-        run: npm run typecheck
-
-      - name: Run tests
-        run: npm test
-
-      - name: Build application
-        run: npm run build
-
-      - name: Make public routes directly accessible
-        shell: bash
+          echo "Base path: $BASE (segments to keep: $KEEP)"
+      - run: npm install --no-audit --no-fund
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - name: Make every public page open directly (no 404 hop)
         run: |
+          # GitHub Pages only knows real files. A copy of index.html in each public route folder means
+          # shared links such as /islamic?tab=hadith load straight away. Other paths still use 404.html.
           for r in islamic community spotlight blog programmes admissions resources contact faq search login about privacy-policy terms; do
-            mkdir -p "dist/$r"
-            cp dist/index.html "dist/$r/index.html"
+            mkdir -p "dist/$r" && cp dist/index.html "dist/$r/index.html"
           done
-
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
