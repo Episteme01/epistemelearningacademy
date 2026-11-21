@@ -589,7 +589,7 @@ service cloud.firestore {
                     && (schedLeader() || request.resource.data.teacherUid == uid())
                     && str(request.resource.data.title, 120);
       allow update: if schedLeader() || (ownsSession(resource.data) && request.resource.data.teacherUid == uid());
-      allow delete: if isSuper();
+      allow delete: if schedLeader() || ownsSession(resource.data);
     }
 
     match /sessions/{id} {
@@ -603,7 +603,8 @@ service cloud.firestore {
                     && request.resource.data.seriesId == resource.data.seriesId
                     && request.resource.data.status in ['scheduled', 'cancelled', 'completed']
                     && request.resource.data.viewers.size() <= 250;
-      allow delete: if isSuper();
+      // Deleting a class: leaders, or the class's own teacher. (The app refuses when attendance records exist.)
+      allow delete: if schedLeader() || ownsSession(resource.data);
     }
 
     // The secret. Audience members can read it only while the class is scheduled and
@@ -617,7 +618,7 @@ service cloud.firestore {
       allow create, update: if canSchedule() && (schedLeader() || sessAfter(id).teacherUid == uid())
                             && request.resource.data.keys().hasOnly(['provider', 'meetingUrl', 'meetingId', 'passcode', 'updatedBy', 'updatedAt'])
                             && str(request.resource.data.meetingUrl, 500) && request.resource.data.meetingUrl.matches('https://.*');
-      allow delete: if schedLeader();
+      allow delete: if schedLeader() || (signedIn() && sess(id).teacherUid == uid());
     }
 
     // Access history (append-only). The log itself is only history; attendance from a link click is the separate sessionAttendance record.
