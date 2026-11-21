@@ -1,10 +1,8 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { ChevronLeft, ChevronRight, ImagePlus, ListOrdered, Loader2, Megaphone, Plus, Presentation, Trash2, X } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { ChevronLeft, ChevronRight, ListOrdered, Loader2, Megaphone, Plus, Presentation, Trash2, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Dialog } from '@/components/ui/overlay';
-import { useAuth } from '@/features/auth/AuthContext';
-import { uploadFor } from '@/services/files';
-import { MAX_POLL_OPTS, MAX_SLIDES, type PollState, type SlidesState } from '@/lib/live/protocol';
+import { MAX_POLL_OPTS, type PollState, type SlidesState } from '@/lib/live/protocol';
 import { cn } from '@/lib/utils';
 
 /* ------------------------------------------------------------------ teacher tools menu */
@@ -15,8 +13,8 @@ export function ToolsDialog({ open, onClose, onPresent, onPoll, spotlighting, on
   return (
     <Dialog open={open} onClose={onClose} title="Teacher tools" size="sm" footer={<Button variant="outline" onClick={onClose}>Close</Button>}>
       <div className="space-y-2">
-        <button type="button" className={big} onClick={onPresent}><Presentation className="h-6 w-6 text-forest-700" aria-hidden /><span><span className="block font-medium">{slidesOn ? 'Change the pictures' : 'Show pictures to the class'}</span><span className="block text-xs text-muted">Lesson pictures or photos of pages, turned together for everyone.</span></span></button>
-        {slidesOn && <button type="button" className={big} onClick={onStopSlides}><X className="h-6 w-6 text-danger" aria-hidden /><span className="font-medium">Stop showing pictures</span></button>}
+        <button type="button" className={big} onClick={onPresent}><Presentation className="h-6 w-6 text-forest-700" aria-hidden /><span><span className="block font-medium">{slidesOn ? 'Change the slides' : 'Show slides to the class'}</span><span className="block text-xs text-muted">Lesson pictures or photos of pages, turned together for everyone.</span></span></button>
+        {slidesOn && <button type="button" className={big} onClick={onStopSlides}><X className="h-6 w-6 text-danger" aria-hidden /><span className="font-medium">Stop showing slides</span></button>}
         <button type="button" className={big} onClick={onPoll}><ListOrdered className="h-6 w-6 text-forest-700" aria-hidden /><span><span className="block font-medium">Ask a quick question</span><span className="block text-xs text-muted">Learners pick A, B, C or D. You see the counts.</span></span></button>
         {spotlighting && <button type="button" className={big} onClick={onClearSpot}><Megaphone className="h-6 w-6 text-gold-600" aria-hidden /><span className="font-medium">End the spotlight</span></button>}
         <p className="text-xs text-muted">To spotlight a learner, open People and tap Spotlight under their name.</p>
@@ -25,67 +23,7 @@ export function ToolsDialog({ open, onClose, onPresent, onPoll, spotlighting, on
   );
 }
 
-/* ------------------------------------------------------------------ slides */
-/** Makes a photo small enough for phones on weak data: longest side 1600 px, JPEG. Anything it cannot read is sent as it is. */
-async function shrink(file: File, maxEdge = 1600): Promise<File> {
-  if (!/^image\/(jpeg|png|webp)$/.test(file.type)) return file;
-  try {
-    const bmp = await createImageBitmap(file);
-    const k = Math.min(1, maxEdge / Math.max(bmp.width, bmp.height));
-    const w = Math.max(1, Math.round(bmp.width * k)); const h = Math.max(1, Math.round(bmp.height * k));
-    const c = document.createElement('canvas'); c.width = w; c.height = h;
-    const ctx = c.getContext('2d'); if (!ctx) { bmp.close(); return file; }
-    ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, w, h); ctx.drawImage(bmp, 0, 0, w, h); bmp.close();
-    const blob = await new Promise<Blob | null>((res) => c.toBlob(res, 'image/jpeg', 0.82));
-    return blob ? new File([blob], `${file.name.replace(/\.[^.]+$/, '') || 'slide'}.jpg`, { type: 'image/jpeg' }) : file;
-  } catch { return file; }
-}
-
-export function PresentDialog({ open, onClose, onShow }: { open: boolean; onClose: () => void; onShow: (urls: string[]) => boolean }) {
-  const { roles } = useAuth();
-  const [files, setFiles] = useState<File[]>([]);
-  const [busy, setBusy] = useState<{ done: number; total: number } | null>(null);
-  const [error, setError] = useState('');
-  const input = useRef<HTMLInputElement>(null);
-  const previews = useMemo(() => files.map((f) => URL.createObjectURL(f)), [files]);
-  useEffect(() => () => { for (const u of previews) URL.revokeObjectURL(u); }, [previews]);
-  useEffect(() => { if (!open) { setFiles([]); setError(''); setBusy(null); } }, [open]);
-
-  const add = (list: FileList | null) => { if (!list) return; setError(''); setFiles((cur) => [...cur, ...Array.from(list)].slice(0, MAX_SLIDES)); if (input.current) input.current.value = ''; };
-  const go = async () => {
-    setError(''); setBusy({ done: 0, total: files.length });
-    try {
-      const urls: string[] = [];
-      for (const f of files) {
-        const ref = await uploadFor('staff_image', await shrink(f), roles, {});
-        if (!ref.url) throw new Error('A picture could not be stored. Try again.');
-        urls.push(ref.url); setBusy({ done: urls.length, total: files.length });
-      }
-      if (onShow(urls)) onClose(); else setError('The pictures were uploaded but could not be shown. Try fewer pictures.');
-    } catch (e) { setError(e instanceof Error ? e.message : 'The upload failed. Check your connection and try again.'); } finally { setBusy(null); }
-  };
-  return (
-    <Dialog open={open} onClose={busy ? () => undefined : onClose} title="Show pictures to the class" size="md"
-      footer={<><Button variant="outline" onClick={onClose} disabled={!!busy}>Cancel</Button><Button onClick={() => void go()} loading={!!busy} disabled={files.length === 0}>{busy ? `Uploading ${busy.done}/${busy.total}` : `Show ${files.length || ''} to the class`}</Button></>}>
-      <div className="space-y-3 text-sm">
-        <p className="text-muted">Choose up to {MAX_SLIDES} pictures (photos of pages, slides saved as pictures). They are made smaller so they load quickly on phones, and you turn the pages for everyone.</p>
-        <input ref={input} type="file" accept="image/*" multiple className="hidden" onChange={(e) => add(e.target.files)} />
-        <Button variant="outline" onClick={() => input.current?.click()} disabled={!!busy || files.length >= MAX_SLIDES}><ImagePlus className="h-4 w-4" /> {files.length ? 'Add more pictures' : 'Choose pictures'}</Button>
-        {files.length > 0 && (
-          <ol className="grid grid-cols-3 gap-2 sm:grid-cols-4">
-            {files.map((f, i) => (
-              <li key={`${f.name}-${i}`} className="relative overflow-hidden rounded-md ring-1 ring-line">
-                <img src={previews[i]} alt={`Picture ${i + 1}`} className="aspect-[4/3] w-full object-cover" />
-                <span className="absolute left-1 top-1 rounded bg-black/60 px-1.5 text-[11px] text-white">{i + 1}</span>
-                {!busy && <button type="button" aria-label={`Remove picture ${i + 1}`} onClick={() => setFiles((cur) => cur.filter((_, j) => j !== i))} className="absolute right-1 top-1 rounded-full bg-black/60 p-1 text-white"><Trash2 className="h-3.5 w-3.5" /></button>}
-              </li>))}
-          </ol>)}
-        {error && <p role="alert" className="rounded-md bg-danger/10 p-2 text-danger">{error}</p>}
-      </div>
-    </Dialog>
-  );
-}
-
+/* ------------------------------------------------------------------ slides (the picker is in Present.tsx) */
 export function SlidesStage({ slides, isHost, onPage, onStop }: { slides: SlidesState; isHost: boolean; onPage: (n: number) => void; onStop: () => void }) {
   const n = slides.urls.length; const url = slides.urls[slides.page];
   const [loading, setLoading] = useState(true); const [failed, setFailed] = useState(false);
