@@ -49,10 +49,12 @@ export function AttendancePanel({ session }: { session: WithId<Session> }) {
   const { names } = useStudentNames(manage || viewerOnly);
   const isLiveClass = session.provider === 'ela_live';
   const parts = useCollection<LiveParticipation>(C.liveParticipation, () => {
-    if (!uid || !isLiveClass || !(manage || viewerOnly)) return null;
+    if (!uid || !isLiveClass) return null;
     const base = [where('sessionId', '==', session.id)];
+    if (isLearner) return [...base, where('uid', '==', uid)];
+    if (!(manage || viewerOnly)) return null;
     return leader || viewerOnly ? base : [...base, where('teacherUid', '==', uid)];
-  }, isLiveClass && (manage || viewerOnly) ? `${session.id}|${role}|${uid}` : '');
+  }, isLiveClass && (manage || viewerOnly || isLearner) ? `${session.id}|${role}|${uid}` : '');
   const partOf = useMemo(() => { const m: Record<string, LiveParticipation> = {}; for (const x of parts.data) if (x.role === 'learner') m[x.uid] = x; return m; }, [parts.data]);
 
   const byStudent = useMemo(() => { const m: Record<string, WithId<SessionAttendance>> = {}; for (const r of recs.data) m[r.studentUid] = r; return m; }, [recs.data]);
@@ -75,6 +77,7 @@ export function AttendancePanel({ session }: { session: WithId<Session> }) {
           <div className="space-y-1">
             <p className="flex flex-wrap items-center gap-2"><CategoryBadge c={categoryOf(asLike(mine), grace)} /> <span className="text-muted">{detailOf(asLike(mine), grace)}</span></p>
             {mine.checkInAt != null && <p className="text-xs text-muted">Checked in {fmtDate(mine.checkInAt, true)}</p>}
+            {isLiveClass && partOf[uid!] && <p className="text-xs text-muted">{liveDetail(partOf[uid!], session.timezone)}</p>}
             {mine.status === 'pending_verification' && <p className="text-xs text-muted">Your teacher will confirm this.</p>}
             {mine.note && <p className="text-xs">Note: {mine.note}</p>}
           </div>
@@ -125,7 +128,7 @@ export function AttendancePanel({ session }: { session: WithId<Session> }) {
               <tr key={u}>
                 <Td>{nameOf(u)}</Td>
                 <Td><CategoryBadge c={cat} /></Td>
-                <Td className="text-xs text-muted">{r ? `${detailOf(asLike(r), grace)}${r.method === 'link_click' ? ' · joined via class link' : ''}${r.method === 'live_webhook' ? ` · joined the live classroom${partOf[u] ? ` · ${liveDetail(partOf[u])}` : ''}` : ''}${r.verifiedByName ? ` · by ${r.verifiedByName}` : ''}` : started ? 'Not recorded' : ''}{r?.note ? ` · ${r.note}` : ''}</Td>
+                <Td className="text-xs text-muted">{r ? `${detailOf(asLike(r), grace)}${r.method === 'link_click' ? ' · joined via class link' : ''}${r.method === 'live_webhook' ? ` · joined the live classroom${partOf[u] ? ` · ${liveDetail(partOf[u], session.timezone)}` : ''}` : ''}${r.verifiedByName ? ` · by ${r.verifiedByName}` : ''}` : started ? 'Not recorded' : ''}{r?.note ? ` · ${r.note}` : ''}</Td>
                 {manage && <Td><div className="flex gap-1">
                   {r?.status === 'pending_verification' && started && <Button size="sm" loading={busy} onClick={() => void run(() => confirmPending(session, r, grace, by), 'Confirmed')}>Confirm</Button>}
                   {started && <Button size="sm" variant="outline" onClick={() => setEdit({ uid: u, name: nameOf(u), status: r && r.status !== 'pending_verification' ? r.status : 'present', timing: (r?.timing as AttTiming | '') ?? '', reason: '' })}>{r && r.status !== 'pending_verification' ? 'Correct' : 'Mark'}</Button>}

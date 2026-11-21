@@ -11,7 +11,7 @@ import { useCollection } from '@/hooks/useFirestore';
 import { C } from '@/config/collections';
 import { ROLE_LABELS } from '@/config/permissions';
 import { recordLinkAttendance } from '@/services/attendance';
-import { cancelSessions, logAccess, markCompleted, readLink, rescheduleSession, type Scope } from '@/services/schedule';
+import { cancelSessions, deleteSessions, logAccess, markCompleted, readLink, rescheduleSession, type Scope } from '@/services/schedule';
 import { format12, utcToZoned } from '@/lib/schedule/tz';
 import { errorMessage, fmtDate, toDate } from '@/lib/utils';
 import { AttendancePanel } from './AttendancePanel';
@@ -26,7 +26,7 @@ export function SessionDialog({ session, tz, onClose, onEdit }: { session: WithI
   const navigate = useNavigate();
   const [link, setLink] = useState<SessionLink | null>(null);
   const [busy, setBusy] = useState(false);
-  const [mode, setMode] = useState<'view' | 'reschedule' | 'cancel'>('view');
+  const [mode, setMode] = useState<'view' | 'reschedule' | 'cancel' | 'delete'>('view');
   const [rs, setRs] = useState({ date: '', start: '', end: '', reason: '' });
   const [cx, setCx] = useState<{ scope: Scope; reason: string }>({ scope: 'one', reason: '' });
   const [notify, setNotify] = useState(true);
@@ -76,7 +76,8 @@ export function SessionDialog({ session, tz, onClose, onEdit }: { session: WithI
       footer={mode === 'view' ? <Button variant="outline" onClick={onClose}>Close</Button> : <>
         <Button variant="outline" onClick={() => setMode('view')}>Back</Button>
         {mode === 'reschedule' && <Button loading={busy} onClick={() => void run(() => rescheduleSession(session, rs.date, rs.start, rs.end, rs.reason, by, notify), 'Class rescheduled')}>Reschedule</Button>}
-        {mode === 'cancel' && <Button variant="danger" loading={busy} onClick={() => void run(() => cancelSessions(session, cx.scope, cx.reason, by, leader, notify), 'Cancelled')}>Cancel class</Button>}</>}>
+        {mode === 'cancel' && <Button variant="danger" loading={busy} onClick={() => void run(() => cancelSessions(session, cx.scope, cx.reason, by, leader, notify), 'Cancelled')}>Cancel class</Button>}
+        {mode === 'delete' && <Button variant="danger" loading={busy} onClick={() => void run(() => deleteSessions(session, cx.scope, by, leader).then((n) => n), 'Deleted from the timetable')}>Delete permanently</Button>}</>}>
       {mode === 'view' && (
         <div className="space-y-4 text-sm">
           <div className="flex flex-wrap items-center gap-2"><StatusBadge status={session.status} />{session.online && <Badge tone="info">Online</Badge>}{session.rescheduledFrom != null && <Badge tone="warn">Rescheduled from {fmtDate(session.rescheduledFrom, true)}</Badge>}</div>
@@ -122,6 +123,7 @@ export function SessionDialog({ session, tz, onClose, onEdit }: { session: WithI
               {session.status !== 'completed' && <Button variant="outline" size="sm" onClick={() => { onEdit(session); }}>Edit</Button>}
               {session.status !== 'completed' && <Button variant="outline" size="sm" onClick={() => setMode('reschedule')}>Reschedule</Button>}
               {session.status === 'scheduled' && <Button variant="outline" size="sm" onClick={() => setMode('cancel')}>Cancel…</Button>}
+              <Button variant="outline" size="sm" onClick={() => setMode('delete')}>Delete…</Button>
               {session.status === 'scheduled' && now > start && <Button variant="outline" size="sm" loading={busy} onClick={() => void run(() => markCompleted(session, by), 'Marked completed')}>Mark completed</Button>}
             </div>)}
 
@@ -148,6 +150,14 @@ export function SessionDialog({ session, tz, onClose, onEdit }: { session: WithI
           <Field label="Reason" required>{(a) => <Textarea {...a} value={cx.reason} onChange={(e) => setCx({ ...cx, reason: e.target.value })} />}</Field>
           <label className="flex items-center gap-2 text-sm"><input type="checkbox" className="accent-forest-700" checked={notify} onChange={(e) => setNotify(e.target.checked)} /> Notify attendees</label>
           <p className="text-xs text-muted">Cancelled sessions stay in the history; nothing is deleted.</p>
+        </div>)}
+
+      {mode === 'delete' && (
+        <div className="space-y-4">
+          <fieldset className="rounded-md border border-line p-3"><legend className="px-1 text-sm font-medium">Delete</legend>
+            {([['one', 'This session only'], ['future', 'This and all later sessions'], ['all', 'The whole series (all upcoming sessions)']] as const).map(([v, l]) => <label key={v} className="flex items-center gap-2 py-1 text-sm"><input type="radio" name="dx" className="accent-forest-700" checked={cx.scope === v} onChange={() => setCx({ ...cx, scope: v })} />{l}</label>)}</fieldset>
+          <p className="rounded-md bg-danger/10 p-3 text-sm text-danger">Deleting removes the class from the timetable for everyone. It cannot be undone and attendees are not notified. Classes that already have attendance records cannot be deleted; cancel those instead.</p>
+          <p className="text-xs text-muted">With “later” or “whole series”, past, cancelled and individually edited sessions are kept.</p>
         </div>)}
     </Dialog>
   );
