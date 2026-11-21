@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   JOIN_AFTER_MS, JOIN_BEFORE_MS, LIVE_PROVIDER, applyEvent, attendanceId, canModerate, closeAt, decideAccess, displayName, emptyParticipation,
-  finalStatus, grantFor, identityFor, newRoomName, participationId, permissionForApi, roleIn, timingFrom, validId, validIdentity, type SessionFacts,
+  finalStatus, grantFor, syncPresence, identityFor, newRoomName, participationId, permissionForApi, roleIn, timingFrom, validId, validIdentity, type SessionFacts,
 } from '../supabase/functions/live/policy';
 import { timingFrom as clientTiming } from '@/lib/attendance';
 
@@ -155,5 +155,32 @@ describe('verified participation', () => {
     expect(finalStatus(23 * 60, START, END)).toBe('present');
     expect(finalStatus(45 * 60, START, END)).toBe('present');
     expect(finalStatus(0, START, END)).toBe('left_early');
+  });
+});
+
+describe('presence check (backup for missing webhooks)', () => {
+  const NOW = START + 20 * MIN;
+  it('someone LiveKit shows in the room becomes connected from LiveKit\'s own join time', () => {
+    const p = syncPresence(emptyParticipation(), { present: true, joinedAtMs: START + 2 * MIN, nowMs: NOW });
+    expect(p.firstJoinMs).toBe(START + 2 * MIN); expect(p.openSinceMs).toBe(START + 2 * MIN); expect(p.joinCount).toBe(1);
+  });
+  it('without a join time it uses now', () => expect(syncPresence(emptyParticipation(), { present: true, nowMs: NOW }).firstJoinMs).toBe(NOW));
+  it('a join time in the future is not trusted', () => expect(syncPresence(emptyParticipation(), { present: true, joinedAtMs: NOW + 5 * MIN, nowMs: NOW }).firstJoinMs).toBe(NOW));
+  it('checking again changes nothing', () => {
+    const a = syncPresence(emptyParticipation(), { present: true, joinedAtMs: START, nowMs: NOW });
+    expect(syncPresence(a, { present: true, joinedAtMs: START, nowMs: NOW + MIN })).toBe(a);
+  });
+  it('someone no longer in the room is closed at the time of the check and credited exactly that long', () => {
+    const a = syncPresence(emptyParticipation(), { present: true, joinedAtMs: START, nowMs: START + MIN });
+    const b = syncPresence(a, { present: false, nowMs: START + 10 * MIN });
+    expect(b.openSinceMs).toBeNull(); expect(b.totalSeconds).toBe(600); expect(b.lastLeftMs).toBe(START + 10 * MIN);
+  });
+  it('absent and never counted: nothing happens', () => {
+    const e = emptyParticipation(); expect(syncPresence(e, { present: false, nowMs: NOW })).toBe(e);
+  });
+  it('the webhook reporting the same join later is not counted twice', () => {
+    const a = syncPresence(emptyParticipation(), { present: true, joinedAtMs: START + 1000, nowMs: NOW });
+    const b = applyEvent(a, { type: 'joined', atMs: START + 2000 });
+    expect(b.joinCount).toBe(1); expect(b.reconnects).toBe(0);
   });
 });
