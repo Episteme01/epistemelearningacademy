@@ -84,6 +84,12 @@ Setup extra: run `npm install` (new dependency). The function URL is derived fro
 ## Attendance display (Phase 4)
 In the session dialog, for ELA Live sessions: the learner sees "recorded automatically" instead of a manual check-in button; the teacher's roll call shows "joined the live classroom" with connected minutes, number of joins and whether the learner is in the room now (read from `liveParticipation`). Records are normal `sessionAttendance` rows, so the Attendance page, Analytics and reports already count them. Teachers can still correct any record. Files: `src/lib/attendance.ts` (`liveDetail`), `src/features/schedule/AttendancePanel.tsx`, `tests/liveAttendanceUi.test.ts` (4 tests passing with the stand-in runner).
 
+## Backup presence check, time in class, deleting classes (update of 21 Nov 2026)
+- **Presence check (`sync` action).** If LiveKit's webhook is late or not set up, attendance used to stay empty. Now every connected browser asks the server about once a minute; the server asks LiveKit itself who is in the room and records joins and leaves from that (the browser's word is never used). The teacher's browser checks the whole room; ending the class checks it once more before the room closes. The teacher's People panel warns when no webhook report has arrived.
+- **Join and leave times** show in the roll call and in the learner's own view ("joined 9:05 AM, left 9:50 AM, connected 45 min").
+- **Time in class** shows as hours:minutes:seconds in the room header. It counts only while connected and is corrected from the server about once a minute, so a reload does not reset it.
+- **Deleting a class** (`Delete...` in the session dialog): one session, this and later, or the whole series. Allowed for administrators, principals and the class's own teacher. Refused while the class is live and when attendance records already exist (cancel those instead). Past/cancelled sessions are kept by "later" and "whole series". The server also removes the class's live-room records (`purge` action). Publish `firebase/firestore.rules` again (delete rules widened from super admin only).
+
 ## Verification status (read this)
 | Part | Status |
 |---|---|
@@ -93,6 +99,7 @@ In the session dialog, for ELA Live sessions: the learner sees "recorded automat
 | React components, `useLiveRoom.ts`, livekit-client calls | Syntax-checked only. **Not type-checked** against real React/livekit-client types. Run `npm run typecheck` |
 | LiveKit server API field names and webhook format | Written from knowledge, **not checked against a live project** |
 | Firestore rules | Not run in the emulator |
+| Presence check, time-in-class timer, delete class | Unit tests for the pure rules (35 + 6 + 23 tests pass with a stand-in runner); LiveKit `ListParticipants`/`GetParticipant` response field names written from knowledge, not yet checked live |
 | Two devices, Android Chrome, low bandwidth, attendance end to end | **Not tested** |
 
 ## Known limits
