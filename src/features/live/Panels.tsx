@@ -48,8 +48,8 @@ export function ChatPanel({ lines, isHost, onSend }: { lines: ChatLine[]; isHost
 /* ------------------------------------------------------------------ people */
 const QUALITY_LABEL: Record<Quality, string> = { excellent: 'Strong', good: 'Good', poor: 'Weak', lost: 'Lost', unknown: '' };
 
-export function PeoplePanel({ sessionId, people, hands, isHost, meIdentity, onAck, onClearHands, onEnd }: {
-  sessionId: string; people: Person[]; hands: HandEntry[]; isHost: boolean; meIdentity: string; onAck: (who: string) => void; onClearHands: () => void; onEnd: () => void;
+export function PeoplePanel({ sessionId, people, hands, isHost, meIdentity, spot, onSpot, onAck, onClearHands, onEnd }: {
+  sessionId: string; people: Person[]; hands: HandEntry[]; isHost: boolean; meIdentity: string; spot: string; onSpot: (who: string) => void; onAck: (who: string) => void; onClearHands: () => void; onEnd: () => void;
 }) {
   const toast = useToast();
   const [server, setServer] = useState<Record<string, ServerParticipant>>({});
@@ -103,6 +103,7 @@ export function PeoplePanel({ sessionId, people, hands, isHost, meIdentity, onAc
               </div>
               {target && (
                 <div className="mt-2 flex flex-wrap gap-1.5">
+                  <Button size="sm" variant={spot === p.identity ? 'primary' : 'outline'} onClick={() => onSpot(spot === p.identity ? '' : p.identity)}><Megaphone className="h-4 w-4" /> {spot === p.identity ? 'End spotlight' : 'Spotlight'}</Button>
                   <Button size="sm" variant="outline" loading={busy === `m${p.identity}`} onClick={() => void act(`m${p.identity}`, () => muteOne(sessionId, p.identity), `${p.name} was muted`)}><VolumeX className="h-4 w-4" /> Mute</Button>
                   <Button size="sm" variant="outline" loading={busy === `s${p.identity}`} onClick={() => void act(`s${p.identity}`, () => permitOne(sessionId, p.identity, { screenShare: !pm.screenShare }), pm.screenShare ? 'Screen sharing turned off' : 'Screen sharing allowed')}><MonitorUp className="h-4 w-4" /> {pm.screenShare ? 'Stop allowing share' : 'Allow share'}</Button>
                   <Button size="sm" variant="outline" loading={busy === `d${p.identity}`} onClick={() => void act(`d${p.identity}`, () => permitOne(sessionId, p.identity, { data: pm.data === false }), pm.data === false ? 'Chat and drawing allowed' : 'Chat and drawing turned off')}>{pm.data === false ? 'Allow chat' : 'Turn off chat'}</Button>

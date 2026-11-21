@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Hand, LogOut, MessageSquare, Mic, MicOff, MonitorUp, PenLine, RefreshCw, Users, Video, VideoOff, Volume2, WifiOff, X } from 'lucide-react';
+import { Hand, LogOut, MessageSquare, Mic, MicOff, MonitorUp, PenLine, Presentation, RefreshCw, Users, Video, VideoOff, Volume2, WifiOff, X } from 'lucide-react';
 import { Track } from 'livekit-client';
 import { Button } from '@/components/ui/button';
 import { Dialog, useToast } from '@/components/ui/overlay';
@@ -7,6 +7,7 @@ import { pickTiles } from '@/lib/live/protocol';
 import { cn } from '@/lib/utils';
 import { endClass } from './api';
 import { ChatPanel, PeoplePanel } from './Panels';
+import { PollCard, PollComposer, PresentDialog, SlidesStage, ToolsDialog } from './Tools';
 import { CallView } from './CallView';
 import { AudioSinks, VideoTile } from './VideoTile';
 import { Whiteboard } from './Whiteboard';
@@ -53,6 +54,9 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
   const [ending, setEnding] = useState(false);
   const [seen, setSeen] = useState(0);
   const [barHidden, setBarHidden] = useState(false);
+  const [tools, setTools] = useState<'menu' | 'present' | 'poll' | null>(null);
+  /** A dialog's own close event can arrive after another one has opened: only close the one that is still current. */
+  const closeTool = (which: 'menu' | 'present' | 'poll') => setTools((t) => (t === which ? null : t));
   const { people, me, phase } = room;
   const meId = me?.identity ?? '';
   const unread = panel === 'chat' ? 0 : Math.max(0, room.chat.filter((c) => !c.mine).length - seen);
@@ -60,7 +64,8 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
 
   const local = people.find((p) => p.isLocal);
   const sharer = people.find((p) => p.sharing);
-  const stage = sharer || showBoard;
+  const slides = room.slides;
+  const stage = sharer || showBoard || !!slides;
   const tiles = pickTiles(people, stage ? (small ? 3 : 6) : small ? 4 : 9);
   const poor = room.localQuality === 'poor' || room.localQuality === 'lost';
   const myHand = !!local?.handUp;
@@ -90,17 +95,19 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
         </div>)}
 
       <div className="flex min-h-0 flex-1 flex-col md:flex-row">
-        <main className="flex min-h-0 min-w-0 flex-1 flex-col gap-2 p-2">
+        <main className="relative flex min-h-0 min-w-0 flex-1 flex-col gap-2 p-2">
+          {room.poll && <PollCard poll={room.poll} isHost={isHost} myVote={room.myVote} onVote={room.castVote} onClose={room.closePoll} onDismiss={room.dismissPoll} />}
           {stage ? (
             <>
               <div className="min-h-0 flex-1">
-                {sharer && !showBoard ? <VideoTile person={sharer} source={Track.Source.ScreenShare} fit="contain" className="h-full w-full" />
-                  : <Whiteboard board={room.board} isHost={isHost} meIdentity={meId} send={room.sendBoard} />}
+                {showBoard ? <Whiteboard board={room.board} isHost={isHost} meIdentity={meId} send={room.sendBoard} />
+                  : sharer ? <VideoTile person={sharer} source={Track.Source.ScreenShare} fit="contain" className="h-full w-full" />
+                  : slides ? <SlidesStage slides={slides} isHost={isHost} onPage={room.setSlidePage} onStop={room.stopSlides} /> : null}
               </div>
               <div className="flex shrink-0 gap-2 overflow-x-auto">{tiles.map((p) => <VideoTile key={p.identity} person={p} className="h-24 w-36 shrink-0 sm:h-28 sm:w-44" />)}</div>
             </>
           ) : (
-            <CallView people={people} onStageTap={small ? () => setBarHidden((v) => !v) : undefined} />)}
+            <CallView people={people} spotlight={room.spot} onStageTap={small ? () => setBarHidden((v) => !v) : undefined} />)}
           {stage && people.length > tiles.length && <p className="shrink-0 text-center text-xs text-white/70">Showing {tiles.length} of {people.length}. Everyone is listed under People.</p>}
         </main>
 
@@ -111,7 +118,7 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
             <div className="min-h-0 flex-1">
               {panel === 'chat'
                 ? <ChatPanel lines={room.chat} isHost={isHost} onSend={room.sendChat} />
-                : <PeoplePanel sessionId={sessionId} people={people} hands={room.hands} isHost={isHost} meIdentity={meId} onAck={room.ackHand} onClearHands={room.clearHands} onEnd={() => setConfirmEnd('end')} />}
+                : <PeoplePanel sessionId={sessionId} people={people} hands={room.hands} isHost={isHost} meIdentity={meId} spot={room.spot} onSpot={room.setSpotlight} onAck={room.ackHand} onClearHands={room.clearHands} onEnd={() => setConfirmEnd('end')} />}
             </div>
           </aside>)}
       </div>
@@ -124,10 +131,18 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
         <Tb icon={<Hand />} label={isHost ? `Hands${room.hands.length ? ` (${room.hands.length})` : ''}` : myHand ? 'Lower' : 'Raise'} active={isHost ? false : myHand} badge={isHost ? room.hands.length : 0} onClick={isHost ? () => setPanel('people') : room.toggleHand} />
         <Tb icon={<MessageSquare />} label="Chat" active={panel === 'chat'} badge={unread} onClick={() => setPanel(panel === 'chat' ? null : 'chat')} />
         <Tb icon={<Users />} label="People" active={panel === 'people'} onClick={() => setPanel(panel === 'people' ? null : 'people')} />
+        {isHost && <Tb icon={<Presentation />} label="Tools" active={!!room.slides || !!room.poll} onClick={() => setTools('menu')} />}
         <Tb icon={<PenLine />} label="Board" active={showBoard} onClick={() => setShowBoard((v) => !v)} />
         <Tb icon={<LogOut />} label="Leave" danger onClick={() => setConfirmEnd('leave')} />
       </footer>
 
+      {isHost && (
+        <>
+          <ToolsDialog open={tools === 'menu'} onClose={() => closeTool('menu')} onPresent={() => setTools('present')} onPoll={() => setTools('poll')}
+            spotlighting={!!room.spot} onClearSpot={() => { room.setSpotlight(''); setTools(null); }} slidesOn={!!room.slides} onStopSlides={() => { room.stopSlides(); setTools(null); }} />
+          <PresentDialog open={tools === 'present'} onClose={() => closeTool('present')} onShow={room.presentSlides} />
+          <PollComposer open={tools === 'poll'} onClose={() => closeTool('poll')} onLaunch={room.launchPoll} />
+        </>)}
       <Dialog open={confirmEnd === 'leave'} onClose={() => setConfirmEnd(null)} title="Leave the class?" size="sm"
         footer={<><Button variant="outline" onClick={() => setConfirmEnd(null)}>Stay</Button><Button variant="danger" onClick={() => { setConfirmEnd(null); room.leave(); }}>Leave</Button></>}>
         <p className="text-sm">{isHost ? 'The class keeps running for everyone else. To close it for everyone, use “End class” under People.' : 'You can come back in while the class is still on.'}</p>

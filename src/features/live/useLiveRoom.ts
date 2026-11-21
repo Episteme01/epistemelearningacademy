@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ConnectionQuality, ConnectionState, Room, RoomEvent, Track, VideoPresets, type Participant } from 'livekit-client';
 import {
-  RateLimiter, SnapshotAssembler, TOPIC, boardApply, decodeBoard, decodeChat, decodeHand, emptyBoard, encode, handApply, handRemove, newId, roleOfMetadata, snapshotMessages,
-  type BoardMsg, type BoardState, type HandEntry, type HandMsg, type Sender, type SenderRole,
+  RateLimiter, SnapshotAssembler, TOPIC, boardApply, countVotes, decodeBoard, decodeChat, decodeHand, decodePoll, decodeSlides, decodeSpot, emptyBoard, encode, handApply, handRemove, newId, pollApply, recordVote, roleOfMetadata, slidesApply, snapshotMessages, spotApply,
+  type BoardMsg, type BoardState, type HandEntry, type HandMsg, type PollState, type Sender, type SenderRole, type SlidesMsg, type SlidesState,
 } from '@/lib/live/protocol';
 import { LiveApiError, getToken, startClass, syncPresence, type TokenResult } from './api';
 
@@ -43,6 +43,10 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   const [hands, setHands] = useState<HandEntry[]>([]);
   const [board, setBoard] = useState<BoardState>(emptyBoard());
   const [audioOnly, setAudioOnlyState] = useState(false);
+  const [slides, setSlides] = useState<SlidesState | null>(null);
+  const [spot, setSpot] = useState('');
+  const [poll, setPoll] = useState<PollState | null>(null);
+  const [myVote, setMyVote] = useState<number | null>(null);
 
   const roomRef = useRef<Room | null>(null);
   const meRef = useRef<{ identity: string; role: SenderRole } | null>(null);
@@ -51,6 +55,11 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   const handsRef = useRef<HandEntry[]>([]);
   const boardRef = useRef<BoardState>(emptyBoard());
   const audioOnlyRef = useRef(false);
+  const slidesRef = useRef<SlidesState | null>(null);
+  const spotRef = useRef('');
+  const pollRef = useRef<PollState | null>(null);
+  const votesRef = useRef<Record<string, number>>({});
+  const tallyTimer = useRef<number | null>(null);
   const facing = useRef<'user' | 'environment'>('user');
   const timers = useRef<number[]>([]);
   const assembler = useRef(new SnapshotAssembler());
@@ -68,7 +77,10 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
 
   const putHands = useCallback((h: HandEntry[]) => { handsRef.current = h; setHands(h); }, []);
   const putBoard = useCallback((b: BoardState) => { boardRef.current = b; setBoard(b); }, []);
-  const clearTimers = () => { for (const t of timers.current) window.clearTimeout(t); timers.current = []; };
+  const putSlides = useCallback((v: SlidesState | null) => { slidesRef.current = v; setSlides(v); }, []);
+  const putSpot = useCallback((v: string) => { spotRef.current = v; setSpot(v); }, []);
+  const putPoll = useCallback((v: PollState | null) => { pollRef.current = v; setPoll(v); }, []);
+  const clearTimers = () => { for (const t of timers.current) window.clearTimeout(t); timers.current = []; tallyTimer.current = null; };
 
   /** Sends a data message to everyone (or only `to`). */
   const publish = useCallback((topic: string, msg: unknown, to?: string[]): boolean => {
@@ -77,6 +89,15 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     room.localParticipant.publishData(bytes, { reliable: true, topic, ...(to ? { destinationIdentities: to } : {}) }).catch(() => setNotice('That could not be sent. The teacher may have turned it off for you.'));
     return true;
   }, []);
+
+  /** The teacher counts the votes and tells everyone the totals (batched, so a burst of answers is one message). */
+  const sendTally = useCallback(() => {
+    tallyTimer.current = null;
+    const p = pollRef.current; if (!p || meRef.current?.role !== 'host') return;
+    const counts = countVotes(votesRef.current, p.opts.length);
+    putPoll({ ...p, counts }); publish(TOPIC.poll, { t: 'tally', id: p.id, counts, open: p.open });
+  }, [publish, putPoll]);
+  const scheduleTally = useCallback(() => { if (tallyTimer.current == null) tallyTimer.current = window.setTimeout(sendTally, 400); }, [sendTally]);
 
   const onData = useCallback((payload: Uint8Array, p: Participant | undefined, topic: string | undefined) => {
     if (!p || p.isLocal) return;
@@ -94,14 +115,32 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
         if (meRef.current?.role !== 'host') return;                            // a teacher answers: board snapshot + raised hands
         for (const s of snapshotMessages(boardRef.current, newId())) publish(TOPIC.board, s, [from.identity]);
         if (handsRef.current.length) publish(TOPIC.hand, { t: 'state', up: handsRef.current } satisfies HandMsg, [from.identity]);
+        const sl = slidesRef.current; if (sl) publish(TOPIC.slides, { t: 'show', urls: sl.urls, page: sl.page } satisfies SlidesMsg, [from.identity]);
+        if (spotRef.current) publish(TOPIC.spot, { t: 'spot', who: spotRef.current }, [from.identity]);
+        const pl = pollRef.current; if (pl) { publish(TOPIC.poll, { t: 'open', id: pl.id, q: pl.q, opts: pl.opts }, [from.identity]); publish(TOPIC.poll, { t: 'tally', id: pl.id, counts: pl.counts, open: pl.open }, [from.identity]); }
       } else if (m.t === 'snap') {
         if (from.role !== 'host') return;
         const whole = assembler.current.add(m); if (whole) putBoard({ strokes: whole.strokes, open: whole.open });
       } else {
         const next = boardApply(boardRef.current, m, from); if (next !== boardRef.current) putBoard(next);
       }
+    } else if (topic === TOPIC.slides) {
+      const m = decodeSlides(payload); if (!m) return;
+      const next = slidesApply(slidesRef.current, m, from); if (next !== slidesRef.current) putSlides(next);
+    } else if (topic === TOPIC.spot) {
+      const m = decodeSpot(payload); if (m) putSpot(spotApply(spotRef.current, m, from));
+    } else if (topic === TOPIC.poll) {
+      const m = decodePoll(payload); if (!m) return;
+      if (m.t === 'vote') {
+        if (meRef.current?.role !== 'host' || !rx.current.allow(`v:${from.identity}`, now)) return;     // only a teacher counts votes
+        const v = recordVote(votesRef.current, pollRef.current, m, from);
+        if (v !== votesRef.current) { votesRef.current = v; scheduleTally(); }
+        return;
+      }
+      const next = pollApply(pollRef.current, m, from);
+      if (next !== pollRef.current) { if (m.t === 'open') { setMyVote(null); votesRef.current = {}; } putPoll(next); }
     }
-  }, [publish, putBoard, putHands]);
+  }, [publish, putBoard, putHands, putSlides, putSpot, putPoll, scheduleTally]);
 
   const applyAudioOnly = useCallback((room: Room, on: boolean) => {
     for (const rp of room.remoteParticipants.values()) for (const pub of rp.trackPublications.values()) if (pub.kind === Track.Kind.Video && pub.source === Track.Source.Camera) pub.setSubscribed(!on);
@@ -270,6 +309,43 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     putBoard(next); publish(TOPIC.board, msg);
   }, [publish, putBoard]);
 
+  /* ------------------------------------------------ teacher tools */
+  const hostSender = (): Sender | null => (meRef.current?.role === 'host' ? { identity: meRef.current.identity, role: 'host' } : null);
+  const presentSlides = useCallback((urls: string[]): boolean => {
+    const h = hostSender(); if (!h) return false;
+    const msg: SlidesMsg = { t: 'show', urls, page: 0 };
+    const ok = decodeSlides(encode(msg) ?? new Uint8Array());
+    if (!ok || !publish(TOPIC.slides, msg)) { setNotice('Those pictures could not be shown. Try fewer pictures.'); return false; }
+    putSlides(slidesApply(null, ok, h)); return true;
+  }, [publish, putSlides]);
+  const setSlidePage = useCallback((n: number) => {
+    const cur = slidesRef.current; if (!cur || !hostSender()) return;
+    const page = Math.min(Math.max(0, n), cur.urls.length - 1); if (page === cur.page) return;
+    publish(TOPIC.slides, { t: 'page', page }); putSlides({ ...cur, page });
+  }, [publish, putSlides]);
+  const stopSlides = useCallback(() => { if (!hostSender()) return; publish(TOPIC.slides, { t: 'stop' }); putSlides(null); }, [publish, putSlides]);
+  const setSpotlight = useCallback((who: string) => { if (!hostSender()) return; publish(TOPIC.spot, { t: 'spot', who }); putSpot(who); }, [publish, putSpot]);
+
+  const launchPoll = useCallback((q: string, opts: string[]): boolean => {
+    const h = hostSender(); if (!h) return false;
+    const clean = decodePoll(encode({ t: 'open', id: newId(), q, opts }) ?? new Uint8Array());
+    if (!clean || clean.t !== 'open') { setNotice('Write a question and at least two options.'); return false; }
+    publish(TOPIC.poll, clean); votesRef.current = {}; setMyVote(null); putPoll(pollApply(null, clean, h)); return true;
+  }, [publish, putPoll]);
+  const closePoll = useCallback(() => {
+    const p = pollRef.current; if (!p || !hostSender()) return;
+    const counts = countVotes(votesRef.current, p.opts.length);
+    putPoll({ ...p, counts, open: false }); publish(TOPIC.poll, { t: 'tally', id: p.id, counts, open: false });
+  }, [publish, putPoll]);
+  const dismissPoll = useCallback(() => { const p = pollRef.current; if (!p || !hostSender()) return; publish(TOPIC.poll, { t: 'end', id: p.id }); votesRef.current = {}; putPoll(null); }, [publish, putPoll]);
+  const castVote = useCallback((opt: number) => {
+    const p = pollRef.current; const room = roomRef.current;
+    if (!p || !p.open || !room || meRef.current?.role !== 'learner') return;
+    const hosts = [...room.remoteParticipants.values()].filter((x) => roleOfMetadata(x.metadata) === 'host').map((x) => x.identity);
+    if (hosts.length === 0) { setNotice('Your teacher is not connected right now.'); return; }
+    publish(TOPIC.poll, { t: 'vote', id: p.id, opt }, hosts); setMyVote(opt);
+  }, [publish]);
+
   /* ------------------------------------------------ derived */
   const people = useMemo<Person[]>(() => {
     const room = roomRef.current; if (!room) return [];
@@ -288,5 +364,6 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     join, leave, toggleMic, toggleCam, toggleShare, setAudioOnly, startAudio, sendChat, toggleHand, sendBoard,
     ackHand: (who: string) => sendHand({ t: 'ack', who }), clearHands: () => sendHand({ t: 'clear' }),
     canShare, flipCamera, rearCamera: facing.current === 'environment',
+    slides, spot, poll, myVote, presentSlides, setSlidePage, stopSlides, setSpotlight, launchPoll, closePoll, dismissPoll, castVote,
   };
 }

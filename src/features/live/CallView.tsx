@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { LayoutGrid, Pin, UserRound } from 'lucide-react';
+import { LayoutGrid, Megaphone, Pin, UserRound } from 'lucide-react';
 import { pickTiles } from '@/lib/live/protocol';
 import { cn } from '@/lib/utils';
 import { VideoTile } from './VideoTile';
@@ -13,7 +13,7 @@ const CORNER_CLASS: Record<Corner, string> = { tl: 'left-2 top-2', tr: 'right-2 
  * to any corner, everyone else in a strip you can scroll. Tap your small picture to swap it with the big one; tap anyone in the strip to
  * put them on the stage. Portrait: the strip runs along the bottom. Landscape (and wide screens): it runs down the right side.
  */
-export function CallView({ people, onStageTap }: { people: Person[]; onStageTap?: () => void }) {
+export function CallView({ people, spotlight = '', onStageTap }: { people: Person[]; spotlight?: string; onStageTap?: () => void }) {
   const box = useRef<HTMLDivElement>(null);
   const [pinned, setPinned] = useState<string | null>(null);
   const [selfOnStage, setSelfOnStage] = useState(false);
@@ -34,10 +34,12 @@ export function CallView({ people, onStageTap }: { people: Person[]; onStageTap?
   const auto = byId(pinned) ?? remotes.find((p) => p.role === 'host') ?? byId(lastSpeaker.current) ?? remotes.find((p) => p.handUp) ?? remotes[0];
 
   if (!local && !auto) return null;
-  const useSelf = (!auto || selfOnStage) && !!local;
-  const stage = useSelf ? local! : auto ?? local!;
-  const small = !auto ? null : useSelf ? auto : local ?? null;
-  const strip = pickTiles(remotes.filter((p) => p.identity !== auto?.identity), 12);
+  // The teacher's spotlight wins over everything else: everyone sees that person large.
+  const spotted = people.find((p) => p.identity === spotlight);
+  const useSelf = !spotted && (!auto || selfOnStage) && !!local;
+  const stage = spotted ?? (useSelf ? local! : auto ?? local!);
+  const small = spotted ? (spotted.isLocal ? auto ?? null : local ?? null) : !auto ? null : useSelf ? auto : local ?? null;
+  const strip = pickTiles(remotes.filter((p) => p.identity !== stage.identity && p.identity !== small?.identity), 12);
 
   if (grid && remotes.length > 0) {
     const tiles = pickTiles(people, 9);
@@ -69,7 +71,8 @@ export function CallView({ people, onStageTap }: { people: Person[]; onStageTap?
     <div className="flex min-h-0 flex-1 flex-col gap-2 landscape:flex-row">
       <div ref={box} className="relative min-h-0 min-w-0 flex-1">
         <VideoTile person={stage} className="h-full w-full" onClick={onStageTap} big />
-        {pinned && stage.identity === pinned && (
+        {spotted && <span className="absolute left-2 top-2 flex items-center gap-1 rounded-full bg-gold-400 px-3 py-1.5 text-xs font-semibold text-forest-900"><Megaphone className="h-3.5 w-3.5" aria-hidden /> Spotlight</span>}
+        {!spotted && pinned && stage.identity === pinned && (
           <button type="button" onClick={() => setPinned(null)} className="absolute left-2 top-2 flex items-center gap-1 rounded-full bg-black/55 px-3 py-1.5 text-xs font-medium text-white"><Pin className="h-3.5 w-3.5" aria-hidden /> Unpin</button>)}
         {remotes.length > 0 && (
           <button type="button" onClick={() => setGrid(true)} className="absolute right-2 top-2 flex items-center gap-1 rounded-full bg-black/55 px-3 py-1.5 text-xs font-medium text-white"><LayoutGrid className="h-3.5 w-3.5" aria-hidden /> Grid</button>)}
