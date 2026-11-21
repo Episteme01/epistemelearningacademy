@@ -90,6 +90,11 @@ In the session dialog, for ELA Live sessions: the learner sees "recorded automat
 - **Time in class** shows as hours:minutes:seconds in the room header. It counts only while connected and is corrected from the server about once a minute, so a reload does not reset it.
 - **Deleting a class** (`Delete...` in the session dialog): one session, this and later, or the whole series. Allowed for administrators, principals and the class's own teacher. Refused while the class is live and when attendance records already exist (cancel those instead). Past/cancelled sessions are kept by "later" and "whole series". The server also removes the class's live-room records (`purge` action). Publish `firebase/firestore.rules` again (delete rules widened from super admin only).
 
+## Call-style layout and screen sharing (update of 21 Nov 2026)
+- **Layout (`CallView.tsx`):** one person large on the stage (the teacher; for the teacher, whoever spoke last), you in a small floating picture that can be dragged to any corner, everyone else in a scrollable strip. Tap your small picture to swap it with the big one; tap anyone in the strip to pin them; "Grid" shows everyone at once. Portrait: strip at the bottom; landscape: strip on the right. On phones, tapping the big picture hides or shows the buttons.
+- **Flip (front/back camera)** on phones: show a book, a board or an experiment to the class.
+- **Screen sharing:** works where the browser allows it (computers; iPhone with iOS 27 or newer). **Android phone browsers (Chrome, Firefox, Samsung Internet) do not support screen capture at all** ([caniuse](https://caniuse.com/mdn-api_mediadevices_getdisplaymedia)), so no web page can share an Android screen. The Share button now explains this instead of disappearing. Sharing a phone screen on Android needs a native Android app (a later option).
+
 ## Verification status (read this)
 | Part | Status |
 |---|---|
