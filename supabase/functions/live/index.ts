@@ -147,6 +147,11 @@ async function commitOrThrow(writes: W[], what: string) {
   if (!r.ok) { console.error('commit failed', what, r.status); throw new HttpError(502, 'A database write failed. Try again.'); }
 }
 
+async function deleteAdmin(path: string): Promise<void> {
+  const r = await fetch(`${FS}/${path}`, { method: 'DELETE', headers: await H() });
+  if (!r.ok && r.status !== 404) throw new HttpError(502, `A database delete failed (${path.split('/')[0]}).`);
+}
+
 /* ------------------------------------------------------------------ people and lessons */
 async function profile(uid: string, token: string): Promise<{ roles: string[]; name: string }> {
   const f = await readAs(token, `users/${uid}`);
@@ -263,6 +268,61 @@ async function reconcile(sessionId: string, endMs: number) {
   return { updated };
 }
 
+/* ------------------------------------------------------------------ presence check (backup for the webhook) */
+/**
+ * Asks LiveKit who is in the room right now. `only` = one identity (GetParticipant), otherwise everyone (ListParticipants).
+ * Returns identity -> LiveKit's own join time (ms), or null when LiveKit could not be reached (then nothing is changed).
+ * This is verified by the LiveKit server, not by the browser, so it respects the rule "no attendance from a button press".
+ */
+async function livePresence(roomName: string, only?: string): Promise<Map<string, number | null> | null> {
+  // deno-lint-ignore no-explicit-any
+  const joinedMs = (p: any): number | null => { const ms = Number(p?.joinedAtMs); if (ms > 0) return ms; const sec = Number(p?.joinedAt); return sec > 0 ? sec * 1000 : null; };
+  try {
+    const out = new Map<string, number | null>();
+    if (only) {
+      // deno-lint-ignore no-explicit-any
+      const p = (await roomService(LK, roomName, 'GetParticipant', { room: roomName, identity: only }, [404])) as any;
+      if (p?.identity && p.state !== 'DISCONNECTED') out.set(String(p.identity), joinedMs(p));
+      return out;
+    }
+    // deno-lint-ignore no-explicit-any
+    const r = (await roomService(LK, roomName, 'ListParticipants', { room: roomName }, [404])) as { participants?: any[] };
+    for (const p of r.participants ?? []) if (p?.identity && p.state !== 'DISCONNECTED') out.set(String(p.identity), joinedMs(p));
+    return out;
+  } catch (e) { console.error('presence check failed', e instanceof Error ? e.message : e); return null; }
+}
+
+/** Applies a presence check to one person. Creates the learner's attendance the first time they are seen in the room. */
+async function syncParticipant(sessionId: string, identity: string, present: Map<string, number | null>, nowMs: number, session?: Doc | null): Promise<void> {
+  const pPath = `liveParticipation/${participationId(sessionId, identity)}`;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const cur = await getAdmin(pPath); if (!cur) return;
+    const before = stateOf(cur);
+    const after = syncPresence(before, { present: present.has(identity), joinedAtMs: present.get(identity) ?? null, nowMs });
+    if (after === before) return;                                             // nothing to change
+    const r = await commit([{ path: pPath, mask: [...STATE_MASK, 'lastEventAt'], times: ['lastEventAt'], data: stateData(after), pre: { updateTime: cur._updateTime } }]);
+    if (r.ok) {
+      if (cur.role === 'learner' && before.firstJoinMs == null && after.firstJoinMs != null) {
+        const sess = session ?? await getAdmin(`sessions/${sessionId}`);
+        if (sess) await createAttendance(sessionId, str(cur.uid), after.firstJoinMs, sess);
+      }
+      return;
+    }
+  }
+}
+
+/** Everyone in the lesson: those LiveKit shows as present are marked connected, those it no longer shows are closed. */
+async function syncAll(sessionId: string, room: Doc, nowMs: number): Promise<boolean> {
+  const present = await livePresence(str(room.roomName)); if (!present) return false;
+  const session = await getAdmin(`sessions/${sessionId}`);
+  for (const row of await queryAdmin('liveParticipation', 'sessionId', sessionId)) {
+    const identity = str(row.identity); if (!validIdentity(identity)) continue;
+    if (!present.has(identity) && row.connected !== true) continue;           // not in the room and not counted as connected: nothing to do
+    await syncParticipant(sessionId, identity, present, nowMs, session);
+  }
+  return true;
+}
+
 /* ------------------------------------------------------------------ webhook */
 // deno-lint-ignore no-explicit-any
 async function handleWebhook(e: any) {
@@ -325,6 +385,33 @@ async function handle(req: Request, b: any): Promise<unknown> {
     return await issueToken(sessionId, s, uid, d.as, p.name, room);
   }
 
+  if (action === 'purge') {
+    // Used when a class is deleted from the timetable: removes the live-room bookkeeping (room, join/leave records, webhook markers) for it.
+    const { uid, p, s, sessionId } = await hostContext(req, b);
+    mustHost(uid, p.roles, s, now, true);
+    const room = await getAdmin(`liveRooms/${sessionId}`);
+    if (room && room.status === 'live') throw new HttpError(409, 'The class is live right now. End it first.');
+    for (const r of await queryAdmin('liveParticipation', 'sessionId', sessionId)) await deleteAdmin(`liveParticipation/${r._id}`);
+    for (const r of await queryAdmin('liveEvents', 'sessionId', sessionId)) await deleteAdmin(`liveEvents/${r._id}`);
+    if (room) await deleteAdmin(`liveRooms/${sessionId}`);
+    return { ok: true };
+  }
+
+  if (action === 'sync') {
+    // Called by every connected browser about once a minute. Learners sync only themselves; the host syncs the whole room.
+    const { uid } = await verify(req); throttle(uid);
+    const sessionId = b.sessionId; if (!validId(sessionId)) throw new HttpError(400, 'Invalid class.');
+    const room = await getAdmin(`liveRooms/${sessionId}`);
+    if (!room || room.status !== 'live') return { live: false };
+    const identity = await identityFor(sessionId, uid, ID_SECRET);
+    const pPath = `liveParticipation/${participationId(sessionId, identity)}`;
+    const mine = await getAdmin(pPath); if (!mine) throw new HttpError(404, 'Join the class first.');
+    if (mine.role === 'host') await syncAll(sessionId, room, now);
+    else { const present = await livePresence(str(room.roomName), identity); if (present) await syncParticipant(sessionId, identity, present, now); }
+    const after = stateOf(await getAdmin(pPath));
+    return { live: true, totalSeconds: closeAt(after, now).totalSeconds, serverNowMs: now };
+  }
+
   if (action === 'start') {
     const { uid, p, s, sessionId } = await hostContext(req, b);
     mustHost(uid, p.roles, s, now);
@@ -347,6 +434,7 @@ async function handle(req: Request, b: any): Promise<unknown> {
     mustHost(uid, p.roles, s, now, true);
     const room = await getAdmin(`liveRooms/${sessionId}`);
     if (room && room.status === 'live') {
+      await syncAll(sessionId, room, now);                       // record who is in the room before it is closed
       await roomService(LK, str(room.roomName), 'DeleteRoom', { room: str(room.roomName) }, [404]);
       await commitOrThrow([
         { path: `liveRooms/${sessionId}`, mask: ['status', 'endedAt', 'endReason', 'endedBy'], times: ['endedAt'], data: { status: 'ended', endReason: 'host', endedBy: uid } },
@@ -365,8 +453,11 @@ async function handle(req: Request, b: any): Promise<unknown> {
   if (action === 'participants') {
     const { uid, p, s, sessionId } = await hostContext(req, b);
     mustHost(uid, p.roles, s, now, true);
+    const liveRoom = await getAdmin(`liveRooms/${sessionId}`);
+    if (liveRoom && liveRoom.status === 'live') await syncAll(sessionId, liveRoom, now);
+    const webhookEvents = (await queryAdmin('liveEvents', 'sessionId', sessionId, 3)).length;
     const rows = await queryAdmin('liveParticipation', 'sessionId', sessionId);
-    return { participants: rows.map((r) => ({ identity: str(r.identity), name: str(r.name), role: str(r.role), connected: r.connected === true, firstJoinAt: num(r.firstJoinMs), lastLeftAt: num(r.lastLeftMs), totalSeconds: closeAt(stateOf(r), now).totalSeconds, joinCount: num(r.joinCount) ?? 0, blocked: r.blocked === true, perm: permOf(r) })) };
+    return { webhookEvents, participants: rows.map((r) => ({ identity: str(r.identity), name: str(r.name), role: str(r.role), connected: r.connected === true, firstJoinAt: num(r.firstJoinMs), lastLeftAt: num(r.lastLeftMs), totalSeconds: closeAt(stateOf(r), now).totalSeconds, joinCount: num(r.joinCount) ?? 0, blocked: r.blocked === true, perm: permOf(r) })) };
   }
 
   if (action === 'mute' || action === 'remove' || action === 'unblock' || action === 'permit' || action === 'mute-all') {
@@ -592,6 +683,8 @@ export const emptyParticipation = (): Participation => ({ firstJoinMs: null, las
 export function applyEvent(prev: Participation, e: { type: 'joined' | 'left'; atMs: number }): Participation {
   const s = { ...prev };
   if (e.type === 'joined') {
+    // the same join reported twice, once by the webhook and once by a presence check: count it once
+    if (s.openSinceMs != null && Math.abs(e.atMs - s.openSinceMs) <= 3000) return prev;
     s.joinCount += 1;
     if (s.firstJoinMs != null) s.reconnects += 1;
     s.firstJoinMs = s.firstJoinMs == null ? e.atMs : Math.min(s.firstJoinMs, e.atMs);
@@ -614,6 +707,22 @@ export function applyEvent(prev: Participation, e: { type: 'joined' | 'left'; at
 export function closeAt(p: Participation, endMs: number): Participation {
   if (p.openSinceMs == null) return p;
   return { ...p, totalSeconds: p.totalSeconds + Math.max(0, Math.round((endMs - p.openSinceMs) / 1000)), openSinceMs: null, lastLeftMs: Math.max(p.lastLeftMs ?? 0, endMs) };
+}
+
+/**
+ * Brings a person's participation in line with what the LiveKit server says RIGHT NOW (used when webhooks are late or missing).
+ * present + not yet counted as connected  -> a join (at LiveKit's own join time when known)
+ * not present + counted as connected      -> a leave (at `nowMs`)
+ * anything else changes nothing, so calling this again and again is safe.
+ */
+export function syncPresence(prev: Participation, o: { present: boolean; joinedAtMs?: number | null; nowMs: number }): Participation {
+  if (o.present) {
+    if (prev.openSinceMs != null) return prev;
+    const at = o.joinedAtMs != null && o.joinedAtMs > 0 && o.joinedAtMs <= o.nowMs ? o.joinedAtMs : o.nowMs;
+    return applyEvent(prev, { type: 'joined', atMs: at });
+  }
+  if (prev.openSinceMs == null) return prev;
+  return applyEvent(prev, { type: 'left', atMs: o.nowMs });
 }
 
 export function finalStatus(totalSeconds: number, startMs: number, endMs: number): 'present' | 'left_early' {

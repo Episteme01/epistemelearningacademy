@@ -162,6 +162,8 @@ export const emptyParticipation = (): Participation => ({ firstJoinMs: null, las
 export function applyEvent(prev: Participation, e: { type: 'joined' | 'left'; atMs: number }): Participation {
   const s = { ...prev };
   if (e.type === 'joined') {
+    // the same join reported twice, once by the webhook and once by a presence check: count it once
+    if (s.openSinceMs != null && Math.abs(e.atMs - s.openSinceMs) <= 3000) return prev;
     s.joinCount += 1;
     if (s.firstJoinMs != null) s.reconnects += 1;
     s.firstJoinMs = s.firstJoinMs == null ? e.atMs : Math.min(s.firstJoinMs, e.atMs);
@@ -184,6 +186,22 @@ export function applyEvent(prev: Participation, e: { type: 'joined' | 'left'; at
 export function closeAt(p: Participation, endMs: number): Participation {
   if (p.openSinceMs == null) return p;
   return { ...p, totalSeconds: p.totalSeconds + Math.max(0, Math.round((endMs - p.openSinceMs) / 1000)), openSinceMs: null, lastLeftMs: Math.max(p.lastLeftMs ?? 0, endMs) };
+}
+
+/**
+ * Brings a person's participation in line with what the LiveKit server says RIGHT NOW (used when webhooks are late or missing).
+ * present + not yet counted as connected  -> a join (at LiveKit's own join time when known)
+ * not present + counted as connected      -> a leave (at `nowMs`)
+ * anything else changes nothing, so calling this again and again is safe.
+ */
+export function syncPresence(prev: Participation, o: { present: boolean; joinedAtMs?: number | null; nowMs: number }): Participation {
+  if (o.present) {
+    if (prev.openSinceMs != null) return prev;
+    const at = o.joinedAtMs != null && o.joinedAtMs > 0 && o.joinedAtMs <= o.nowMs ? o.joinedAtMs : o.nowMs;
+    return applyEvent(prev, { type: 'joined', atMs: at });
+  }
+  if (prev.openSinceMs == null) return prev;
+  return applyEvent(prev, { type: 'left', atMs: o.nowMs });
 }
 
 export function finalStatus(totalSeconds: number, startMs: number, endMs: number): 'present' | 'left_early' {
