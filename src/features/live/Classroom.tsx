@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Hand, LogOut, MessageSquare, Mic, MicOff, MonitorUp, PenLine, Users, Video, VideoOff, Volume2, WifiOff, X } from 'lucide-react';
+import { Hand, LogOut, MessageSquare, Mic, MicOff, MonitorUp, PenLine, RefreshCw, Users, Video, VideoOff, Volume2, WifiOff, X } from 'lucide-react';
 import { Track } from 'livekit-client';
 import { Button } from '@/components/ui/button';
 import { Dialog, useToast } from '@/components/ui/overlay';
@@ -7,6 +7,7 @@ import { pickTiles } from '@/lib/live/protocol';
 import { cn } from '@/lib/utils';
 import { endClass } from './api';
 import { ChatPanel, PeoplePanel } from './Panels';
+import { CallView } from './CallView';
 import { AudioSinks, VideoTile } from './VideoTile';
 import { Whiteboard } from './Whiteboard';
 import type { useLiveRoom } from './useLiveRoom';
@@ -32,7 +33,6 @@ function Tb({ icon, label, onClick, active, danger, badge, disabled }: { icon: R
   );
 }
 
-const GRID_COLS: Record<number, string> = { 1: 'grid-cols-1', 2: 'grid-cols-2', 3: 'grid-cols-2 sm:grid-cols-3', 4: 'grid-cols-2' };
 
 /** The live room: video, controls and the side panels. Everything it shows comes from `useLiveRoom`. */
 /** hours:minutes:seconds this person has been in the class so far (counts only while connected) */
@@ -52,6 +52,7 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
   const [confirmEnd, setConfirmEnd] = useState<'end' | 'leave' | null>(null);
   const [ending, setEnding] = useState(false);
   const [seen, setSeen] = useState(0);
+  const [barHidden, setBarHidden] = useState(false);
   const { people, me, phase } = room;
   const meId = me?.identity ?? '';
   const unread = panel === 'chat' ? 0 : Math.max(0, room.chat.filter((c) => !c.mine).length - seen);
@@ -99,10 +100,8 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
               <div className="flex shrink-0 gap-2 overflow-x-auto">{tiles.map((p) => <VideoTile key={p.identity} person={p} className="h-24 w-36 shrink-0 sm:h-28 sm:w-44" />)}</div>
             </>
           ) : (
-            <div className={cn('grid min-h-0 flex-1 auto-rows-fr gap-2', GRID_COLS[Math.min(tiles.length, 4)] ?? 'grid-cols-2 md:grid-cols-3')}>
-              {tiles.map((p) => <VideoTile key={p.identity} person={p} className="min-h-0" />)}
-            </div>)}
-          {people.length > tiles.length && <p className="shrink-0 text-center text-xs text-white/70">Showing {tiles.length} of {people.length}. Everyone is listed under People.</p>}
+            <CallView people={people} onStageTap={small ? () => setBarHidden((v) => !v) : undefined} />)}
+          {stage && people.length > tiles.length && <p className="shrink-0 text-center text-xs text-white/70">Showing {tiles.length} of {people.length}. Everyone is listed under People.</p>}
         </main>
 
         {panel && (
@@ -117,10 +116,11 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
           </aside>)}
       </div>
 
-      <footer className="flex flex-wrap items-center justify-center gap-2 px-2 pt-2" style={{ paddingBottom: 'max(0.5rem, env(safe-area-inset-bottom))' }}>
+      <footer className={cn('flex flex-wrap items-center justify-center gap-2 px-2 pt-2', small && barHidden && !panel && 'hidden')} style={{ paddingBottom: 'max(0.5rem, env(safe-area-inset-bottom))' }}>
         <Tb icon={local?.mic ? <Mic /> : <MicOff />} label={local?.mic ? 'Mute' : 'Unmute'} active={!!local?.mic} onClick={room.toggleMic} />
         <Tb icon={local?.cam ? <Video /> : <VideoOff />} label="Camera" active={!!local?.cam} onClick={room.toggleCam} disabled={room.audioOnly} />
-        {room.canShare && <Tb icon={<MonitorUp />} label={local?.sharing ? 'Stop' : 'Share'} active={!!local?.sharing} onClick={room.toggleShare} />}
+        {(room.canShare || isHost) && <Tb icon={<MonitorUp />} label={local?.sharing ? 'Stop' : 'Share'} active={!!local?.sharing} onClick={room.toggleShare} />}
+        {small && local?.cam && <Tb icon={<RefreshCw />} label={room.rearCamera ? 'Front' : 'Back'} onClick={room.flipCamera} />}
         <Tb icon={<Hand />} label={isHost ? `Hands${room.hands.length ? ` (${room.hands.length})` : ''}` : myHand ? 'Lower' : 'Raise'} active={isHost ? false : myHand} badge={isHost ? room.hands.length : 0} onClick={isHost ? () => setPanel('people') : room.toggleHand} />
         <Tb icon={<MessageSquare />} label="Chat" active={panel === 'chat'} badge={unread} onClick={() => setPanel(panel === 'chat' ? null : 'chat')} />
         <Tb icon={<Users />} label="People" active={panel === 'people'} onClick={() => setPanel(panel === 'people' ? null : 'people')} />

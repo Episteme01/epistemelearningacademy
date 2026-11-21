@@ -10,7 +10,7 @@ export type Phase = 'idle' | 'starting' | 'waiting' | 'connecting' | 'live' | 'r
 export type Quality = 'excellent' | 'good' | 'poor' | 'lost' | 'unknown';
 export interface Person {
   identity: string; name: string; role: SenderRole | null; isLocal: boolean; speaking: boolean; mic: boolean; cam: boolean; sharing: boolean;
-  quality: Quality; handUp: boolean; participant: Participant;
+  quality: Quality; handUp: boolean; mirror: boolean; participant: Participant;
 }
 export interface ChatLine { id: string; from: string; role: SenderRole | null; text: string; ann: boolean; at: number; mine: boolean }
 export interface JoinOptions { mic: boolean; cam: boolean; audioOnly: boolean }
@@ -51,6 +51,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   const handsRef = useRef<HandEntry[]>([]);
   const boardRef = useRef<BoardState>(emptyBoard());
   const audioOnlyRef = useRef(false);
+  const facing = useRef<'user' | 'environment'>('user');
   const timers = useRef<number[]>([]);
   const assembler = useRef(new SnapshotAssembler());
   const rx = useRef(new RateLimiter(8, 10_000));
@@ -222,7 +223,19 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     if (audioOnlyRef.current && !p.isCameraEnabled) { setNotice('You are in audio-only mode. Turn it off to use the camera.'); return; }
     void media('camera', () => p.setCameraEnabled(!p.isCameraEnabled));
   }, [media]);
-  const toggleShare = useCallback(() => { const p = lp(); if (p) void media('screen', () => p.setScreenShareEnabled(!p.isScreenShareEnabled, { audio: true })); }, [media]);
+  const canShare = typeof navigator !== 'undefined' && !!navigator.mediaDevices && typeof navigator.mediaDevices.getDisplayMedia === 'function';
+  const toggleShare = useCallback(() => {
+    const p = lp(); if (!p) return;
+    if (!canShare) { setNotice('This phone’s browser cannot share the screen (Android browsers do not allow it). Use Flip to show a page or the board with the back camera, or use the Whiteboard. Screen sharing works from a computer, a tablet with a supporting browser, or an iPhone with iOS 27 or newer.'); return; }
+    void media('screen', () => p.setScreenShareEnabled(!p.isScreenShareEnabled, { audio: true }));
+  }, [media, canShare]);
+  /** Switches between the front and back camera (show a book, a board or an experiment to the class). */
+  const flipCamera = useCallback(() => {
+    const t = lp()?.getTrackPublication(Track.Source.Camera)?.videoTrack;
+    if (!t) { setNotice('Turn the camera on first.'); return; }
+    const next = facing.current === 'user' ? 'environment' : 'user';
+    void media('camera', async () => { await t.restartTrack({ facingMode: next }); facing.current = next; });
+  }, [media]);
   const setAudioOnly = useCallback((on: boolean) => {
     audioOnlyRef.current = on; setAudioOnlyState(on);
     const room = roomRef.current; if (!room) return;
@@ -263,7 +276,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     const all: Participant[] = [room.localParticipant, ...room.remoteParticipants.values()];
     return all.map((p) => ({
       identity: p.identity, name: p.name || 'Participant', role: roleOfMetadata(p.metadata), isLocal: p.isLocal, speaking: p.isSpeaking, mic: p.isMicrophoneEnabled, cam: p.isCameraEnabled,
-      sharing: p.isScreenShareEnabled, quality: qualityOf(p.connectionQuality), handUp: hands.some((h) => h.identity === p.identity), participant: p,
+      sharing: p.isScreenShareEnabled, quality: qualityOf(p.connectionQuality), handUp: hands.some((h) => h.identity === p.identity), mirror: p.isLocal && facing.current === 'user', participant: p,
     }));
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tick, hands, phase]);
@@ -274,6 +287,6 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     spentSeconds, phase, error, notice, clearNotice: () => setNotice(null), me, people, chat, hands, board, audioOnly, localQuality, needsAudioTap,
     join, leave, toggleMic, toggleCam, toggleShare, setAudioOnly, startAudio, sendChat, toggleHand, sendBoard,
     ackHand: (who: string) => sendHand({ t: 'ack', who }), clearHands: () => sendHand({ t: 'clear' }),
-    canShare: typeof navigator !== 'undefined' && !!navigator.mediaDevices && typeof navigator.mediaDevices.getDisplayMedia === 'function',
+    canShare, flipCamera, rearCamera: facing.current === 'environment',
   };
 }
