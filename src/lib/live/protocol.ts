@@ -25,7 +25,7 @@ export function roleOfMetadata(meta: string | undefined | null): SenderRole | nu
 /* ------------------------------------------------------------------ packets */
 const enc = new TextEncoder();
 const dec = new TextDecoder();
-export function encode(msg: unknown): Uint8Array | null {
+export function encode(msg: unknown): Uint8Array<ArrayBuffer> | null {
   const bytes = enc.encode(JSON.stringify(msg));
   return bytes.length <= MAX_PACKET_BYTES ? bytes : null;
 }
