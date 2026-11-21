@@ -105,4 +105,5 @@ In the session dialog, for ELA Live sessions: the learner sees "recorded automat
 - LiveKit free plan: 5,000 participant-minutes a month, 100 concurrent participants.
 
 ## Next
+Test with `docs/LIVE_TEST_CHECKLIST.md` (Phase 6).
 Phase 5: recording (storage, cost, consent). Phase 6: full device testing report.
