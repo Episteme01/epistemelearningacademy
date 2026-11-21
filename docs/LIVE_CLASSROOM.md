@@ -95,6 +95,12 @@ In the session dialog, for ELA Live sessions: the learner sees "recorded automat
 - **Flip (front/back camera)** on phones: show a book, a board or an experiment to the class.
 - **Screen sharing:** works where the browser allows it (computers; iPhone with iOS 27 or newer). **Android phone browsers (Chrome, Firefox, Samsung Internet) do not support screen capture at all** ([caniuse](https://caniuse.com/mdn-api_mediadevices_getdisplaymedia)), so no web page can share an Android screen. The Share button now explains this instead of disappearing. Sharing a phone screen on Android needs a native Android app (a later option).
 
+## Teacher tools: pictures, spotlight, quick poll (update of 21 Nov 2026)
+Teacher opens **Tools** in the room. All three travel on the existing data channel; only messages from the teacher's server-issued role are accepted (`src/lib/live/protocol.ts`, 33 tests).
+- **Show pictures:** the teacher picks up to 30 pictures; each is shrunk in the browser (longest side 1600 px, JPEG) and uploaded through the existing image upload (`staff_image` purpose, Cloudinary folder `ela/staff`, no change to the `files` function). Everyone sees the same picture, the teacher turns the pages. Only `https://res.cloudinary.com/...` links are accepted by the room. Late joiners and reconnecting learners get the current page. **Limits:** pictures only (no PDF or PowerPoint yet: save pages as pictures first); pictures stay in Cloudinary after class (delete them there when not needed); if the teacher reloads the page, the room keeps showing the pictures but the teacher's own controls for them are lost (show them again).
+- **Spotlight:** in People, **Spotlight** under a learner puts that person large on everyone's screen; **End spotlight** restores the normal view.
+- **Quick poll:** question plus 2 to 6 choices (presets A B C D, True/False, Yes/No). One vote per learner, changeable until the teacher closes the question; learners see results only after it is closed; the teacher sees counts live, not names. Votes go only to the teacher's browser, which counts them (the server does not store polls).
+
 ## Verification status (read this)
 | Part | Status |
 |---|---|
