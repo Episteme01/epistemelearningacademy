@@ -58,7 +58,6 @@ export function LiveClassroomPage() {
       <p role="status" className="mt-4 flex items-center gap-2 rounded-md bg-forest-50 p-3 text-sm"><Loader2 className="h-4 w-4 animate-spin" aria-hidden /> Waiting for your teacher to start the class. You will go in automatically.</p>
       <Button variant="outline" className="mt-4 w-full" onClick={room.leave}>Not now</Button></Shell>);
 
-  const finished = phase === 'ended' || phase === 'left';
   return (
     <Shell>
       <p className="font-medium">{s.title}</p>
