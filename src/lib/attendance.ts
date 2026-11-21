@@ -86,10 +86,16 @@ export function timingCandidates(guess: AttTiming): AttTiming[] {
 }
 
 /** Plain-words summary of a learner's time in the ELA Live Classroom, from the server-written participation record. */
-export function liveDetail(p: { totalSeconds?: number; joinCount?: number; connected?: boolean } | undefined): string {
+export function liveDetail(p: { totalSeconds?: number; joinCount?: number; connected?: boolean; firstJoinMs?: number | null; lastLeftMs?: number | null } | undefined, tz?: string): string {
   if (!p) return '';
+  const at = (ms: number) => new Date(ms).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', ...(tz ? { timeZone: tz } : {}) });
   const mins = Math.round((p.totalSeconds ?? 0) / 60);
   const joins = p.joinCount ?? 0;
-  const parts = [p.connected ? 'in the room now' : '', `connected ${mins < 1 && (p.totalSeconds ?? 0) > 0 ? 'under 1' : mins} min`, joins > 1 ? `joined ${joins} times` : ''];
+  const parts = [
+    p.firstJoinMs ? `joined ${at(p.firstJoinMs)}` : '',
+    p.connected ? 'in the room now' : p.lastLeftMs ? `left ${at(p.lastLeftMs)}` : '',
+    `connected ${mins < 1 && (p.totalSeconds ?? 0) > 0 ? 'under 1' : mins} min`,
+    joins > 1 ? `joined ${joins} times` : '',
+  ];
   return parts.filter(Boolean).join(' · ');
 }
