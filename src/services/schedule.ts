@@ -3,13 +3,14 @@ import { db } from '@/config/firebase';
 import { C } from '@/config/collections';
 import { generateDates, type Recurrence } from '@/lib/schedule/recurrence';
 import { monthKeyOf, utcToZoned, zonedToUtc } from '@/lib/schedule/tz';
-import { batchSet, listDocs } from './db';
+import { batchDelete, batchSet, listDocs } from './db';
 import { audit } from './audit';
 import { notifyUsers } from './notifications';
 import { validateSchedule, type Candidate, type ExistingSlot, type Issue } from '@/lib/schedule/validate';
 import type { ClassRoom, TeacherAssignment } from '@/types/models';
-import type { Session, SessionAccessLog, SessionLink, SessionStatus, TimetableSeries, WithId } from '@/types/models';
+import type { Session, SessionAccessLog, SessionAttendance, SessionLink, SessionStatus, TimetableSeries, WithId } from '@/types/models';
 import { toDate } from '@/lib/utils';
+import { purgeClass } from '@/features/live/api';
 
 export interface LinkInput { provider: string; meetingUrl: string; meetingId?: string; passcode?: string }
 
@@ -133,6 +134,39 @@ export async function editSessions(base: WithId<Session>, scope: Scope, ch: Edit
     const all = rows.flatMap((r) => r.viewers);
     void notifyUsers(uniq(all).filter((u) => u !== by.uid), { title: `Class updated: ${ch.title}${base.className ? ` (${base.className})` : ''}`, body: scope === 'one' ? `Details for ${base.localDate} changed.` : `${rows.length} upcoming sessions were updated.`, link: '/app/schedule' });
   }
+  return rows.length;
+}
+
+/**
+ * Permanently deletes classes from the timetable (cancelling keeps them as history; this does not).
+ * Refused when a class is live right now or already has attendance records: those are history and stay (cancel the class instead).
+ * Past and cancelled sessions are not touched by "later" / "whole series", only the one you opened.
+ */
+export async function deleteSessions(base: WithId<Session>, scope: Scope, by: Actor, canSeeAll: boolean): Promise<number> {
+  const rows = await select(base, scope, canSeeAll, by.uid);
+  if (rows.length === 0) return 0;
+  // 1. attendance is history: never delete a class that has it
+  for (let i = 0; i < rows.length; i += 30) {
+    const ids = rows.slice(i, i + 30).map((r) => r.id);
+    const att = await listDocs<SessionAttendance>(C.sessionAttendance, [where('sessionId', 'in', ids), ...(canSeeAll ? [] : [where('teacherUid', '==', by.uid)])]);
+    if (att.length > 0) throw new Error('This class already has attendance records, so it cannot be deleted. Cancel it instead to keep the history.');
+  }
+  // 2. a live room must be ended first
+  for (const r of rows.filter((x) => x.provider === ELA_LIVE)) {
+    const room = await getDoc(doc(db(), C.liveRooms, r.id)).catch(() => null);
+    if (room?.exists() && (room.data() as { status?: string }).status === 'live') throw new Error('A class in this selection is live right now. End it before deleting.');
+  }
+  // 3. clean up the live-room records on the server (best effort), then remove the timetable entries
+  for (const r of rows.filter((x) => x.provider === ELA_LIVE)) await purgeClass(r.id).catch(() => undefined);
+  const ops: { col: string; id: string }[] = [];
+  for (const r of rows) { ops.push({ col: C.sessions, id: r.id }); if (r.online && r.provider !== ELA_LIVE) ops.push({ col: C.sessionLinks, id: r.id }); }
+  await batchDelete(ops);
+  // the series goes too once none of its sessions are left
+  try {
+    const left = await listDocs<Session>(C.sessions, [where('seriesId', '==', base.seriesId), ...(canSeeAll ? [] : [where('viewers', 'array-contains', by.uid)])]);
+    if (left.length === 0) await batchDelete([{ col: C.timetableSeries, id: base.seriesId }]);
+  } catch { /* the series record may stay: harmless */ }
+  void audit('session.delete', `timetableSeries/${base.seriesId}`, `${scope}: ${rows.length} session(s) — ${base.title}`);
   return rows.length;
 }
 
