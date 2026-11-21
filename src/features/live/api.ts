@@ -42,4 +42,8 @@ export const muteAll = (sessionId: string) => call<{ ok: true; muted: number }>(
 export const removeOne = (sessionId: string, identity: string) => call<{ ok: true }>({ action: 'remove', sessionId, identity });
 export const unblockOne = (sessionId: string, identity: string) => call<{ ok: true }>({ action: 'unblock', sessionId, identity });
 export const permitOne = (sessionId: string, identity: string, p: PermState) => call<{ ok: true; perm: PermState }>({ action: 'permit', sessionId, identity, ...p });
-export const listParticipants = (sessionId: string) => call<{ participants: ServerParticipant[] }>({ action: 'participants', sessionId });
+export const listParticipants = (sessionId: string) => call<{ participants: ServerParticipant[]; webhookEvents?: number }>({ action: 'participants', sessionId });
+/** About once a minute while connected: the server checks with LiveKit who is in the room (backup for the webhook) and returns this person's connected seconds. */
+export const syncPresence = (sessionId: string) => call<{ live: boolean; totalSeconds?: number; serverNowMs?: number }>({ action: 'sync', sessionId });
+/** Removes a deleted class's live-room records on the server (the class must not be live). */
+export const purgeClass = (sessionId: string) => call<{ ok: true }>({ action: 'purge', sessionId });

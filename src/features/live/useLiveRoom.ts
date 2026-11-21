@@ -4,7 +4,7 @@ import {
   RateLimiter, SnapshotAssembler, TOPIC, boardApply, decodeBoard, decodeChat, decodeHand, emptyBoard, encode, handApply, handRemove, newId, roleOfMetadata, snapshotMessages,
   type BoardMsg, type BoardState, type HandEntry, type HandMsg, type Sender, type SenderRole,
 } from '@/lib/live/protocol';
-import { LiveApiError, getToken, startClass, type TokenResult } from './api';
+import { LiveApiError, getToken, startClass, syncPresence, type TokenResult } from './api';
 
 export type Phase = 'idle' | 'starting' | 'waiting' | 'connecting' | 'live' | 'reconnecting' | 'left' | 'ended' | 'error';
 export type Quality = 'excellent' | 'good' | 'poor' | 'lost' | 'unknown';
@@ -18,6 +18,7 @@ export interface JoinOptions { mic: boolean; cam: boolean; audioOnly: boolean }
 const qualityOf = (q: ConnectionQuality): Quality => (q === ConnectionQuality.Excellent ? 'excellent' : q === ConnectionQuality.Good ? 'good' : q === ConnectionQuality.Poor ? 'poor' : q === ConnectionQuality.Lost ? 'lost' : 'unknown');
 const RETRY_DELAYS_MS = [2000, 4000, 8000, 12000, 16000];
 const POLL_MS = 5000;
+const SYNC_MS = 60_000;
 
 /** A message a person can act on, whatever the browser threw. */
 export function deviceMessage(e: unknown, what: 'camera' | 'microphone' | 'screen'): string {
@@ -56,6 +57,13 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   const tx = useRef(new RateLimiter(5, 10_000));
   const wake = useRef<{ release(): Promise<void> } | null>(null);
   const bump = useCallback(() => setTick((t) => t + 1), []);
+
+  /* Time spent in class: seconds already banked + the stretch since the connection last came up. Seeded by the server so a reload does not reset it. */
+  const bank = useRef(0);
+  const since = useRef<number | null>(null);
+  const markLive = useCallback(() => { if (since.current == null) since.current = Date.now(); }, []);
+  const markDown = useCallback(() => { if (since.current != null) { bank.current += (Date.now() - since.current) / 1000; since.current = null; } }, []);
+  const spentSeconds = useCallback(() => Math.floor(bank.current + (since.current != null ? (Date.now() - since.current) / 1000 : 0)), []);
 
   const putHands = useCallback((h: HandEntry[]) => { handsRef.current = h; setHands(h); }, []);
   const putBoard = useCallback((b: BoardState) => { boardRef.current = b; setBoard(b); }, []);
@@ -127,12 +135,12 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     room.on(RoomEvent.AudioPlaybackStatusChanged, bump);
     room.on(RoomEvent.DataReceived, (payload, p, _kind, topic) => onData(payload, p, topic));
     room.on(RoomEvent.MediaDevicesError, (e) => setNotice(deviceMessage(e, 'camera')));
-    room.on(RoomEvent.ConnectionStateChanged, (s) => { if (s === ConnectionState.Reconnecting) setPhase('reconnecting'); else if (s === ConnectionState.Connected) setPhase('live'); bump(); });
-    room.on(RoomEvent.Disconnected, () => { if (!leftRef.current) void recoverRef.current(); });
+    room.on(RoomEvent.ConnectionStateChanged, (s) => { if (s === ConnectionState.Reconnecting) { markDown(); setPhase('reconnecting'); } else if (s === ConnectionState.Connected) { markLive(); setPhase('live'); } bump(); });
+    room.on(RoomEvent.Disconnected, () => { markDown(); if (!leftRef.current) void recoverRef.current(); });
 
     setPhase('connecting');
     await room.connect(r.url, r.token);
-    setPhase('live'); setError(null);
+    markLive(); setPhase('live'); setError(null);
     try { wake.current = await (navigator as Navigator & { wakeLock?: { request(t: 'screen'): Promise<{ release(): Promise<void> }> } }).wakeLock?.request('screen') ?? null; } catch { /* optional */ }
     if (first) {
       const o = joinOpts.current;
@@ -143,7 +151,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     publish(TOPIC.board, { t: 'req' });                                          // late joiners / reconnects ask the teacher for the current board
     bump();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [bump, media, onData, publish, putHands, applyAudioOnly]);
+  }, [bump, media, onData, publish, putHands, applyAudioOnly, markDown, markLive]);
 
   const fetchToken = useCallback(() => (isHost ? startClass(sessionId) : getToken(sessionId)), [isHost, sessionId]);
   const failWith = useCallback((e: unknown) => {
@@ -183,12 +191,28 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   }, [enter, isHost]);
 
   const leave = useCallback(() => {
-    leftRef.current = true; clearTimers();
+    leftRef.current = true; clearTimers(); markDown();
     roomRef.current?.removeAllListeners(); void roomRef.current?.disconnect(); roomRef.current = null;
     void wake.current?.release().catch(() => {}); wake.current = null;
     setPhase('left');
-  }, []);
+  }, [markDown]);
   useEffect(() => () => { leftRef.current = true; clearTimers(); void roomRef.current?.disconnect(); void wake.current?.release().catch(() => {}); }, []);
+
+  /* Backup attendance check + time seed: while connected, ask the server about once a minute (it verifies with LiveKit, not with this browser). */
+  useEffect(() => {
+    if (phase !== 'live') return;
+    let stop = false;
+    const beat = () => {
+      void syncPresence(sessionId).then((r) => {
+        if (stop || !r.live || r.totalSeconds == null) return;
+        const local = spentSeconds();
+        if (r.totalSeconds > local) { bank.current = r.totalSeconds; since.current = Date.now(); }   // the server knows more (e.g. after a reload)
+      }).catch(() => { /* the class carries on; the next beat tries again */ });
+    };
+    beat();
+    const t = window.setInterval(beat, SYNC_MS);
+    return () => { stop = true; window.clearInterval(t); };
+  }, [phase, sessionId, spentSeconds]);
 
   /* ------------------------------------------------ controls */
   const lp = () => roomRef.current?.localParticipant;
@@ -247,7 +271,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   const needsAudioTap = !!roomRef.current && !roomRef.current.canPlaybackAudio;
 
   return {
-    phase, error, notice, clearNotice: () => setNotice(null), me, people, chat, hands, board, audioOnly, localQuality, needsAudioTap,
+    spentSeconds, phase, error, notice, clearNotice: () => setNotice(null), me, people, chat, hands, board, audioOnly, localQuality, needsAudioTap,
     join, leave, toggleMic, toggleCam, toggleShare, setAudioOnly, startAudio, sendChat, toggleHand, sendBoard,
     ackHand: (who: string) => sendHand({ t: 'ack', who }), clearHands: () => sendHand({ t: 'clear' }),
     canShare: typeof navigator !== 'undefined' && !!navigator.mediaDevices && typeof navigator.mediaDevices.getDisplayMedia === 'function',

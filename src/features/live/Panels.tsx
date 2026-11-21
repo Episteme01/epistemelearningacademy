@@ -53,10 +53,11 @@ export function PeoplePanel({ sessionId, people, hands, isHost, meIdentity, onAc
 }) {
   const toast = useToast();
   const [server, setServer] = useState<Record<string, ServerParticipant>>({});
+  const [hooks, setHooks] = useState<number | null>(null);
   const [busy, setBusy] = useState('');
   const refresh = useCallback(async () => {
     if (!isHost) return;
-    try { const r = await listParticipants(sessionId); setServer(Object.fromEntries(r.participants.map((p) => [p.identity, p]))); } catch { /* the live list still works without it */ }
+    try { const r = await listParticipants(sessionId); setServer(Object.fromEntries(r.participants.map((p) => [p.identity, p]))); setHooks(r.webhookEvents ?? null); } catch { /* the live list still works without it */ }
   }, [isHost, sessionId]);
   useEffect(() => { void refresh(); }, [refresh, people.length]);
 
@@ -110,6 +111,10 @@ export function PeoplePanel({ sessionId, people, hands, isHost, meIdentity, onAc
             </li>);
         })}
       </ul>
+
+      {isHost && hooks === 0 && people.length > 1 && (
+        <p role="status" className="mt-4 rounded-md bg-amber-100 p-2 text-xs text-amber-900">LiveKit has not sent any join/leave reports for this class yet. Attendance is still recorded by checking the room directly, but leave times are less exact. Check that the webhook is set up in LiveKit (Settings, Webhooks).</p>
+      )}
 
       {isHost && removed.length > 0 && (
         <section className="mt-4"><h3 className="mb-2 text-sm font-semibold">Removed ({removed.length})</h3>
