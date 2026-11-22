@@ -40,9 +40,9 @@ export function LobbyBar({ sessionId, onError }: { sessionId: string; onError: (
           </ul>
           {waiting.length > 6 && <p className="mt-1 text-xs">and {waiting.length - 6} more…</p>}
         </div>)}
-      <button type="button" disabled={busy} className="text-xs text-white/70 underline underline-offset-2" onClick={() => void run(() => setAutoAdmit(sessionId, !auto))}>
+      {!sessionId.startsWith('m-') && <button type="button" disabled={busy} className="text-xs text-white/70 underline underline-offset-2" onClick={() => void run(() => setAutoAdmit(sessionId, !auto))}>
         {auto ? 'Everyone is let in automatically. Tap to approve each person instead.' : 'You approve each learner. Tap to let everyone in automatically.'}
-      </button>
+      </button>}
     </div>
   );
 }
