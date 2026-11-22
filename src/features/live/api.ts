@@ -16,13 +16,13 @@ export class LiveApiError extends Error {
   get final() { return this.status === 403 || this.status === 404 || this.status === 409; }
 }
 
-async function call<T>(body: Record<string, unknown>): Promise<T> {
+async function call<T>(body: Record<string, unknown>, signedIn = true): Promise<T> {
   if (!liveConfigured) throw new LiveApiError(503, 'The live classroom is not switched on yet. Ask the administrator.');
-  const u = auth().currentUser;
-  if (!u) throw new LiveApiError(401, 'Sign in to continue.');
+  const u = signedIn ? auth().currentUser : null;
+  if (signedIn && !u) throw new LiveApiError(401, 'Sign in to continue.');
   let r: Response;
   try {
-    r = await fetch(liveGatewayUrl, { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${await u.getIdToken()}` }, body: JSON.stringify(body) });
+    r = await fetch(liveGatewayUrl, { method: 'POST', headers: { 'Content-Type': 'application/json', ...(u ? { Authorization: `Bearer ${await u.getIdToken()}` } : {}) }, body: JSON.stringify(body) });
   } catch { throw new LiveApiError(0, 'Could not reach the live-class service. Check your connection.'); }
   const data = (await r.json().catch(() => ({}))) as { error?: string } & T;
   if (!r.ok) throw new LiveApiError(r.status, data.error || `Live-class service error (${r.status}).`);
@@ -30,9 +30,19 @@ async function call<T>(body: Record<string, unknown>): Promise<T> {
 }
 
 export type LiveRole = 'host' | 'learner';
-export type TokenResult = { status: 'waiting'; message: string } | { status: 'live'; token: string; url: string; identity: string; role: LiveRole; name: string; expiresInSeconds: number; startedAtMs?: number | null };
+export type TokenResult = { status: 'waiting'; message: string; lobby?: boolean } | { status: 'live'; token: string; url: string; identity: string; role: LiveRole; name: string; expiresInSeconds: number; startedAtMs?: number | null };
 export interface PermState { screenShare?: boolean; publish?: boolean; data?: boolean }
 export interface ServerParticipant { identity: string; name: string; role: string; connected: boolean; firstJoinAt: number | null; lastLeftAt: number | null; totalSeconds: number; joinCount: number; blocked: boolean; perm: PermState }
+
+/* ---- guest meetings: a link anyone can open without an account; the host admits each person ---- */
+export const MEETING_PREFIX = 'm-';
+export interface Meeting { code: string; title: string; createdAtMs: number | null; expiresAtMs: number | null }
+export const meetingCreate = (title: string, hours: number) => call<Meeting>({ action: 'meeting-create', title, hours });
+export const meetingList = () => call<{ meetings: Meeting[] }>({ action: 'meeting-list' });
+export const meetingExtend = (code: string, hours: number) => call<{ ok: true; expiresAtMs: number }>({ action: 'meeting-extend', code, hours });
+export const meetingClose = (code: string) => call<{ ok: true }>({ action: 'meeting-close', code });
+export interface GuestInfo { code: string; guestId: string; name: string }
+export const guestToken = (g: GuestInfo) => call<TokenResult>({ action: 'guest-token', code: g.code, guestId: g.guestId, name: g.name }, false);
 
 export const getToken = (sessionId: string) => call<TokenResult>({ action: 'token', sessionId });
 export const startClass = (sessionId: string) => call<Extract<TokenResult, { status: 'live' }>>({ action: 'start', sessionId });
@@ -42,6 +52,13 @@ export const muteAll = (sessionId: string) => call<{ ok: true; muted: number }>(
 export const removeOne = (sessionId: string, identity: string) => call<{ ok: true }>({ action: 'remove', sessionId, identity });
 export const unblockOne = (sessionId: string, identity: string) => call<{ ok: true }>({ action: 'unblock', sessionId, identity });
 export const permitOne = (sessionId: string, identity: string, p: PermState) => call<{ ok: true; perm: PermState }>({ action: 'permit', sessionId, identity, ...p });
+export interface LobbyEntry { identity: string; name: string; sinceMs: number | null }
+/** The waiting room: who is asking to come in, and whether people are let in automatically. */
+export const getLobby = (sessionId: string) => call<{ live: boolean; auto: boolean; waiting: LobbyEntry[] }>({ action: 'lobby', sessionId });
+export const admitOne = (sessionId: string, identity: string) => call<{ ok: true }>({ action: 'admit', sessionId, identity });
+export const admitAll = (sessionId: string) => call<{ ok: true; count: number }>({ action: 'admit', sessionId, all: true });
+export const denyOne = (sessionId: string, identity: string) => call<{ ok: true }>({ action: 'deny', sessionId, identity });
+export const setAutoAdmit = (sessionId: string, on: boolean) => call<{ ok: true; auto: boolean }>({ action: 'auto-admit', sessionId, on });
 export const listParticipants = (sessionId: string) => call<{ participants: ServerParticipant[]; webhookEvents?: number }>({ action: 'participants', sessionId });
 /** About once a minute while connected: the server checks with LiveKit who is in the room (backup for the webhook) and returns this person's connected seconds. */
 export const syncPresence = (sessionId: string) => call<{ live: boolean; totalSeconds?: number; serverNowMs?: number }>({ action: 'sync', sessionId });

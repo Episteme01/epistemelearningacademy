@@ -4,7 +4,7 @@ import {
   RateLimiter, SnapshotAssembler, TOPIC, boardApply, countVotes, decodeBoard, decodeChat, decodeHand, decodePoll, decodeSlides, decodeSpot, emptyBoard, encode, handApply, handRemove, newId, pollApply, recordVote, roleOfMetadata, slidesApply, snapshotMessages, spotApply,
   type BoardMsg, type BoardState, type HandEntry, type HandMsg, type PollState, type Sender, type SenderRole, type SlidesMsg, type SlidesState,
 } from '@/lib/live/protocol';
-import { LiveApiError, getToken, startClass, syncPresence, type TokenResult } from './api';
+import { LiveApiError, getToken, guestToken, startClass, syncPresence, type GuestInfo, type TokenResult } from './api';
 
 export type Phase = 'idle' | 'starting' | 'waiting' | 'connecting' | 'live' | 'reconnecting' | 'left' | 'ended' | 'error';
 export type Quality = 'excellent' | 'good' | 'poor' | 'lost' | 'unknown';
@@ -33,9 +33,10 @@ export function deviceMessage(e: unknown, what: 'camera' | 'microphone' | 'scree
  * Owns the LiveKit room for one lesson: joining (with a wait for the teacher), reconnecting, media controls, and the data channel
  * (chat, hands, whiteboard). All rules about who may do what live in src/lib/live/protocol.ts (unit-tested); the server decides who gets a token.
  */
-export function useLiveRoom(sessionId: string, isHost: boolean) {
+export function useLiveRoom(sessionId: string, isHost: boolean, guest?: GuestInfo | null) {
   const [phase, setPhase] = useState<Phase>('idle');
   const [error, setError] = useState<{ message: string; retry: boolean } | null>(null);
+  const [waitMessage, setWaitMessage] = useState('');
   const [notice, setNotice] = useState<string | null>(null);
   const [me, setMe] = useState<{ identity: string; role: SenderRole; name: string } | null>(null);
   const [tick, setTick] = useState(0);
@@ -75,12 +76,14 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   const classStart = useRef<number | null>(null);
   const endedRef = useRef<() => void>(() => {});
   const stoppedAt = useRef<number | null>(null);
-  const markLive = useCallback(() => { stoppedAt.current = null; if (since.current == null) since.current = Date.now(); }, []);
+  const joinedAt = useRef<number | null>(null);
+  const markLive = useCallback(() => { stoppedAt.current = null; if (since.current == null) since.current = Date.now(); if (joinedAt.current == null) joinedAt.current = Date.now(); }, []);
   const markDown = useCallback(() => { if (since.current != null) { bank.current += (Date.now() - since.current) / 1000; since.current = null; } }, []);
   const spentSeconds = useCallback(() => Math.floor(bank.current + (since.current != null ? (Date.now() - since.current) / 1000 : 0)), []);
   const classSeconds = useCallback(() => {
-    if (classStart.current == null) return spentSeconds();
-    return Math.max(0, Math.floor(((stoppedAt.current ?? Date.now()) - classStart.current) / 1000));
+    // no start time from the server (a class begun before this update): count from the moment you came in, never from older visits
+    const from = classStart.current ?? joinedAt.current; if (from == null) return 0;
+    return Math.max(0, Math.floor(((stoppedAt.current ?? Date.now()) - from) / 1000));
   }, [spentSeconds]);
   const stopClock = useCallback(() => { if (stoppedAt.current == null) stoppedAt.current = Date.now(); }, []);
 
@@ -208,7 +211,8 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [bump, media, onData, publish, putHands, applyAudioOnly, markDown, markLive]);
 
-  const fetchToken = useCallback(() => (isHost ? startClass(sessionId) : getToken(sessionId)), [isHost, sessionId]);
+  const guestKey = guest ? `${guest.code}|${guest.guestId}|${guest.name}` : '';
+  const fetchToken = useCallback(() => (guest ? guestToken(guest) : isHost ? startClass(sessionId) : getToken(sessionId)), [isHost, sessionId, guestKey]); // eslint-disable-line react-hooks/exhaustive-deps
   const failWith = useCallback((e: unknown) => {
     const err = e instanceof LiveApiError ? e : null;
     setError({ message: err?.message ?? (e instanceof Error ? e.message : 'Could not join the class.'), retry: !err?.final });
@@ -220,7 +224,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     try {
       const r = await fetchToken();
       if (leftRef.current) return;
-      if (r.status === 'waiting') { setPhase('waiting'); timers.current.push(window.setTimeout(() => { void enter(first); }, POLL_MS)); return; }
+      if (r.status === 'waiting') { setWaitMessage(r.message); setPhase('waiting'); timers.current.push(window.setTimeout(() => { void enter(first); }, POLL_MS)); return; }
       await connectWith(r, first);
     } catch (e) { if (!leftRef.current) failWith(e); }
   }, [connectWith, failWith, fetchToken]);
@@ -233,7 +237,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
       if (leftRef.current) return;
       try {
         const r = await fetchToken(); if (leftRef.current) return;
-        if (r.status === 'waiting') { setPhase('waiting'); timers.current.push(window.setTimeout(() => { void enter(false); }, POLL_MS)); return; }
+        if (r.status === 'waiting') { setWaitMessage(r.message); setPhase('waiting'); timers.current.push(window.setTimeout(() => { void enter(false); }, POLL_MS)); return; }
         await connectWith(r, false); return;
       } catch (e) { if (e instanceof LiveApiError && e.final) { failWith(e); return; } }
     }
@@ -256,14 +260,14 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     leftRef.current = true; clearTimers(); markDown(); stopClock();
     roomRef.current?.removeAllListeners(); roomRef.current = null;
     void wake.current?.release().catch(() => {}); wake.current = null;
-    setError({ message: 'The class has ended. Thank you for joining. Your attendance has been recorded.', retry: false });
+    setError({ message: guestKey ? 'The meeting has ended. Thank you for joining.' : 'The class has ended. Thank you for joining. Your attendance has been recorded.', retry: false });
     setPhase('ended');
   };
   useEffect(() => () => { leftRef.current = true; clearTimers(); void roomRef.current?.disconnect(); void wake.current?.release().catch(() => {}); }, []);
 
   /* Backup attendance check + time seed: while connected, ask the server about once a minute (it verifies with LiveKit, not with this browser). */
   useEffect(() => {
-    if (phase !== 'live') return;
+    if (phase !== 'live' || guestKey) return;             // guests have no attendance to keep
     let stop = false;
     const beat = () => {
       void syncPresence(sessionId).then((r) => {
@@ -275,7 +279,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     beat();
     const t = window.setInterval(beat, SYNC_MS);
     return () => { stop = true; window.clearInterval(t); };
-  }, [phase, sessionId, spentSeconds]);
+  }, [phase, sessionId, spentSeconds, guestKey]);
 
   /* ------------------------------------------------ controls */
   const lp = () => roomRef.current?.localParticipant;
@@ -390,7 +394,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   const needsAudioTap = !!roomRef.current && !roomRef.current.canPlaybackAudio;
 
   return {
-    spentSeconds, classSeconds, phase, error, notice, clearNotice: () => setNotice(null), me, people, chat, hands, board, audioOnly, localQuality, needsAudioTap,
+    spentSeconds, classSeconds, phase, error, waitMessage, notice, clearNotice: () => setNotice(null), me, people, chat, hands, board, audioOnly, localQuality, needsAudioTap,
     join, leave, toggleMic, toggleCam, toggleShare, setAudioOnly, startAudio, sendChat, toggleHand, sendBoard,
     ackHand: (who: string) => sendHand({ t: 'ack', who }), clearHands: () => sendHand({ t: 'clear' }),
     canShare, flipCamera, rearCamera: facing.current === 'environment',
