@@ -1,6 +1,6 @@
 import { where } from 'firebase/firestore';
 import { C } from '@/config/collections';
-import { listDocs } from '@/services/db';
+import { getById, listDocs } from '@/services/db';
 
 export interface Audience { studentUids: string[]; parentViewers: string[] }
 
@@ -12,8 +12,14 @@ interface EnrolLite { uid?: string; parentUids?: string[] }
  * security rules can let their parents read it. Stored on the assignment when it is saved.
  * A learner or parent linked later is picked up with "Refresh audience".
  */
-export async function resolveAudience(a: { classId?: string; courseId?: string }): Promise<Audience> {
+export async function resolveAudience(a: { classId?: string; courseId?: string; studentId?: string }): Promise<Audience> {
   const students = new Set<string>(); const parents = new Set<string>();
+  if (a.studentId) {
+    // one learner only: the class and course are ignored
+    const s = await getById<StudentLite>(C.students, a.studentId);
+    if (!s?.studentUid) throw new Error('This learner has no login yet, so work cannot be given to them alone. Create their login first.');
+    return { studentUids: [s.studentUid], parentViewers: (s.parentUids ?? []).slice(0, 500) };
+  }
   if (a.classId) {
     const rows = await listDocs<StudentLite>(C.students, [where('classId', '==', a.classId)]);
     for (const s of rows) {
