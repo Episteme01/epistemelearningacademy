@@ -407,7 +407,8 @@ service cloud.firestore {
     match /assignments/{id} {
       allow read: if isAcademicStaff()
                   || (isRole('student') && ((resource.data.get('courseId', '') != '' && enrolled(resource.data.courseId))
-                                            || resource.data.get('classId', '') == myClassId()))
+                                            || resource.data.get('classId', '') == myClassId()
+                                            || resource.data.get('studentUid', '') == uid()))
                   || (isRole('parent') && (uid() in resource.data.get('parentViewers', [])));
       allow create: if isAcademicLeader() || (isRole('teacher') && request.resource.data.teacherUid == uid());
       allow update, delete: if isAcademicLeader() || (isRole('teacher') && resource.data.teacherUid == uid());
