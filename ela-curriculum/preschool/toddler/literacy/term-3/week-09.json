@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-LIT-T3-W09",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 3,
+  "week": 9,
+  "title": "Making my own book",
+  "topic": "Stories",
+  "subtopics": [
+    "Choosing a topic",
+    "Making pages with pictures and marks",
+    "Sharing my book"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will make a simple book with pictures and marks.",
+    "Children will share their book with a friend."
+  ],
+  "vocabulary": [
+    "book",
+    "page",
+    "cover",
+    "picture",
+    "share",
+    "author"
+  ],
+  "content": "Choosing a topic, making pages with pictures and marks, and sharing the book with a friend.",
+  "teachingActivities": "Make a model book first; let children choose their own topic; accept any picture or mark as a page; write down what children say beside their pages; celebrate every book as a real book.",
+  "learnerActivities": "Make a simple book with pictures and marks and share it with a friend.",
+  "resources": [
+    "Folded paper booklets of four pages",
+    "Crayons and stickers",
+    "Magazine pictures",
+    "Glue sticks",
+    "A stapler for the teacher only",
+    "A model book"
+  ],
+  "assessment": "Observe whether each child makes a book with at least three pages and tells a friend about one page.",
+  "expectedOutcomes": [
+    "Makes a book with at least three pages.",
+    "Tells a friend about one page."
+  ],
+  "crossCurricular": [
+    "Creative Development: art",
+    "Understanding the World: favourite things",
+    "Social Habits: sharing"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W09-D01",
+      "title": "What is my book about?",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 9,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Choosing a topic",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will choose what their book is about."
+      ],
+      "successCriteria": [
+        "Chooses a topic",
+        "Says or points to their choice"
+      ],
+      "previousKnowledge": "Children can handle books, tell a story in order and make marks and pictures.",
+      "vocabulary": [
+        "book",
+        "page",
+        "cover",
+        "picture",
+        "share",
+        "author"
+      ],
+      "resources": [
+        "A model book called \"My Favourite Things\"",
+        "Picture cards: animals, food, family, toys"
+      ],
+      "starter": "Show the model book and say \"I made a book about my favourite things. What will your book be about?\"",
+      "teacherActivities": [
+        "Turn the pages of the model book and say what each page shows.",
+        "Show the topic cards and ask \"What is your book about?\"",
+        "Talk to each child about their topic.",
+        "Write each child’s topic on a card to put in their book."
+      ],
+      "learnerActivities": [
+        "Children look and name the pictures.",
+        "Child points to a topic card.",
+        "Child says a word about their topic.",
+        "Child watches and says the topic."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Turn the pages of the model book and say what each page shows. Children: Children look and name the pictures.",
+        "Step 2. Teacher: Show the topic cards and ask \"What is your book about?\" Children: Child points to a topic card.",
+        "Step 3. Teacher: Talk to each child about their topic. Children: Child says a word about their topic.",
+        "Step 4. Teacher: Write each child’s topic on a card to put in their book. Children: Child watches and says the topic."
+      ],
+      "practical": {
+        "title": "Choose a topic",
+        "steps": [
+          "Show the topic cards.",
+          "Each child chooses a topic.",
+          "Write the topic on a card."
+        ],
+        "safety": "Accept any choice and do not hurry. Keep cards flat and supervise sharing."
+      },
+      "differentiation": {
+        "support": "Offer two topics and say the words with the child.",
+        "extension": "Ask the child to tell what they will put in the book."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is your book about?",
+            "expected": "Animals, food, family or toys."
+          },
+          {
+            "question": "What do you like?",
+            "expected": "A favourite thing."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Chooses a topic for their book",
+        "Says a word about their topic"
+      ],
+      "conclusion": "Put the topic cards in a basket and say \"Tomorrow we make our books.\"",
+      "homeConnection": "Ask your child what their book will be about and look for pictures at home.",
+      "teacherReflection": [
+        "Which children could show \"choose what their book is about\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MY BOOK",
+          "ABOUT"
+        ],
+        "pictures": [
+          "A model book",
+          "Topic cards"
+        ]
+      },
+      "activities": [
+        "Choose a topic"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W09-D02",
+      "title": "Making the pages",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 9,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Making pages with pictures and marks",
+      "dayType": "explore",
+      "objectives": [
+        "Children will make pages for their book with pictures and marks."
+      ],
+      "successCriteria": [
+        "Makes at least two pages",
+        "Uses pictures or marks on each page"
+      ],
+      "previousKnowledge": "Children can handle books, tell a story in order and make marks and pictures.",
+      "vocabulary": [
+        "book",
+        "page",
+        "cover",
+        "picture",
+        "share",
+        "author"
+      ],
+      "resources": [
+        "Folded paper booklets",
+        "Crayons",
+        "Magazine pictures",
+        "Glue sticks"
+      ],
+      "starter": "Show a blank booklet and say \"Every page needs a picture. What will you put on page one?\"",
+      "teacherActivities": [
+        "Show the booklet and how to open it and turn the page.",
+        "Show how to glue a picture or draw on a page.",
+        "Ask \"Tell me about your page\" and write the words under it.",
+        "Let children make a second page."
+      ],
+      "learnerActivities": [
+        "Children look and turn a page.",
+        "Children glue or draw on page one.",
+        "Child tells about their page.",
+        "Child makes a second page."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the booklet and how to open it and turn the page. Children: Children look and turn a page.",
+        "Step 2. Teacher: Show how to glue a picture or draw on a page. Children: Children glue or draw on page one.",
+        "Step 3. Teacher: Ask \"Tell me about your page\" and write the words under it. Children: Child tells about their page.",
+        "Step 4. Teacher: Let children make a second page. Children: Child makes a second page."
+      ],
+      "practical": {
+        "title": "Page making",
+        "steps": [
+          "Give each child a booklet.",
+          "Glue or draw on page one.",
+          "Make a second page."
+        ],
+        "safety": "Use non-toxic glue and keep it off faces and mouths. Wash hands after."
+      },
+      "differentiation": {
+        "support": "Hold the paper steady and help to glue the picture.",
+        "extension": "Ask the child to make a cover with the title and a picture."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is on this page?",
+            "expected": "The name of the picture."
+          },
+          {
+            "question": "Can you make another page?",
+            "expected": "Child makes another page."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes pages with pictures or marks",
+        "Tells about a page"
+      ],
+      "conclusion": "Put the books on a table to dry and say \"Tomorrow more pages.\"",
+      "homeConnection": "Look at magazines or old cards at home and cut pictures for your child’s book.",
+      "teacherReflection": [
+        "Which children could show \"make pages for their book with pictures and marks\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PAGE",
+          "PICTURE"
+        ],
+        "pictures": [
+          "A booklet",
+          "A glued picture"
+        ]
+      },
+      "activities": [
+        "Page making"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W09-D03",
+      "title": "The cover and the pages",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 9,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Making pages with pictures and marks",
+      "dayType": "explore",
+      "objectives": [
+        "Children will finish a book with a cover and at least three pages."
+      ],
+      "successCriteria": [
+        "Makes a cover",
+        "Has at least three pages"
+      ],
+      "previousKnowledge": "Children can handle books, tell a story in order and make marks and pictures.",
+      "vocabulary": [
+        "book",
+        "page",
+        "cover",
+        "picture",
+        "share",
+        "author"
+      ],
+      "resources": [
+        "Booklets",
+        "Crayons",
+        "Stickers",
+        "Name cards"
+      ],
+      "starter": "Show the model book cover and say \"A book has a cover and a name on it. This is the cover.\"",
+      "teacherActivities": [
+        "Show how to draw on the cover and put a name on it.",
+        "Give each child their booklet and help them write or stick their name on the cover.",
+        "Finish pages two and three.",
+        "Check each book has three pages."
+      ],
+      "learnerActivities": [
+        "Children look at the cover.",
+        "Child decorates the cover.",
+        "Child adds pictures or marks.",
+        "Child counts or shows their pages."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to draw on the cover and put a name on it. Children: Children look at the cover.",
+        "Step 2. Teacher: Give each child their booklet and help them write or stick their name on the cover. Children: Child decorates the cover.",
+        "Step 3. Teacher: Finish pages two and three. Children: Child adds pictures or marks.",
+        "Step 4. Teacher: Check each book has three pages. Children: Child counts or shows their pages."
+      ],
+      "practical": {
+        "title": "Finishing the book",
+        "steps": [
+          "Give each child their booklet.",
+          "Make a cover and finish three pages.",
+          "Count the pages together."
+        ],
+        "safety": "Use non-toxic materials and supervise stickers. Keep glue sticks capped."
+      },
+      "differentiation": {
+        "support": "Stick a name label on the cover and let the child decorate.",
+        "extension": "Ask the child to make a fourth page."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is on the cover?",
+            "expected": "My name and a picture."
+          },
+          {
+            "question": "How many pages do you have?",
+            "expected": "Three or four."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes a book with a cover and three pages",
+        "Shows the pages"
+      ],
+      "conclusion": "Staple each book for the child and say \"You made a book.\"",
+      "homeConnection": "Look at your child’s book together and ask them to tell you about each page.",
+      "teacherReflection": [
+        "Which children could show \"finish a book with a cover and at least three pages\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "COVER",
+          "MY NAME"
+        ],
+        "pictures": [
+          "A book cover with a name"
+        ]
+      },
+      "activities": [
+        "Finishing the book"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W09-D04",
+      "title": "Sharing my book",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 9,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Sharing my book",
+      "dayType": "practise",
+      "objectives": [
+        "Children will share their book with a friend."
+      ],
+      "successCriteria": [
+        "Shows their book to a friend",
+        "Tells about one page"
+      ],
+      "previousKnowledge": "Children can handle books, tell a story in order and make marks and pictures.",
+      "vocabulary": [
+        "book",
+        "page",
+        "cover",
+        "picture",
+        "share",
+        "author"
+      ],
+      "resources": [
+        "The finished books",
+        "Cushions",
+        "A book corner"
+      ],
+      "starter": "Hold up a finished book and say \"I made this book. Would you like to see it?\"",
+      "teacherActivities": [
+        "Show how to share: open the book, turn a page and say \"This is my dog.\"",
+        "Pair the children and give them time to share.",
+        "Walk round and ask each child \"What is on this page?\"",
+        "Swap partners and share again."
+      ],
+      "learnerActivities": [
+        "Children look and listen.",
+        "Child shows their book to a friend.",
+        "Child tells about a page.",
+        "Child shares with a new friend."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to share: open the book, turn a page and say \"This is my dog.\" Children: Children look and listen.",
+        "Step 2. Teacher: Pair the children and give them time to share. Children: Child shows their book to a friend.",
+        "Step 3. Teacher: Walk round and ask each child \"What is on this page?\" Children: Child tells about a page.",
+        "Step 4. Teacher: Swap partners and share again. Children: Child shares with a new friend."
+      ],
+      "practical": {
+        "title": "Book sharing",
+        "steps": [
+          "Pair children on cushions.",
+          "Each child shares their book.",
+          "Swap books and look at a friend’s book."
+        ],
+        "safety": "Remind children to hold books gently and say thank you. Supervise sharing and keep the corner tidy."
+      },
+      "differentiation": {
+        "support": "Sit beside the child and point to the page together.",
+        "extension": "Ask the child to read their book to a younger friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is on this page?",
+            "expected": "The name of the picture."
+          },
+          {
+            "question": "Did you like your friend’s book?",
+            "expected": "Yes with a nod or word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shares their book with a friend",
+        "Tells about a page"
+      ],
+      "conclusion": "Say thank you to your friend and put the books in the book corner.",
+      "homeConnection": "Let your child read their book to you and to family members.",
+      "teacherReflection": [
+        "Which children could show \"share their book with a friend\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SHARE"
+        ],
+        "pictures": [
+          "Two children sharing a book"
+        ]
+      },
+      "activities": [
+        "Book sharing"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W09-D05",
+      "title": "Week 9 book check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 9,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Sharing my book",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child makes and shares a book."
+      ],
+      "successCriteria": [
+        "Makes a book with at least three pages",
+        "Tells a friend about one page"
+      ],
+      "previousKnowledge": "Children can handle books, tell a story in order and make marks and pictures.",
+      "vocabulary": [
+        "book",
+        "page",
+        "cover",
+        "picture",
+        "share",
+        "author"
+      ],
+      "resources": [
+        "The finished books",
+        "Class record sheet",
+        "A camera or notebook"
+      ],
+      "starter": "Say \"Show me your book\" and invite children to the book corner.",
+      "teacherActivities": [
+        "Invite each child to show their book and tell about one page.",
+        "Ask \"What did you make?\" and \"What is your favourite page?\"",
+        "Record each child’s level and photograph the book."
+      ],
+      "learnerActivities": [
+        "Child shows the book and tells about it.",
+        "Child answers with a word or point.",
+        "Children return books to the book corner."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Invite each child to show their book and tell about one page. Children: Child shows the book and tells about it.",
+        "Step 2. Teacher: Ask \"What did you make?\" and \"What is your favourite page?\" Children: Child answers with a word or point.",
+        "Step 3. Teacher: Record each child’s level and photograph the book. Children: Children return books to the book corner."
+      ],
+      "practical": {
+        "title": "Book showing",
+        "steps": [
+          "Invite children one at a time.",
+          "Each child shows their book.",
+          "The teacher records what they say."
+        ],
+        "safety": "Never force a child to speak. Accept pointing and show appreciation for every book."
+      },
+      "differentiation": {
+        "support": "Sit beside the child and point to the page together.",
+        "extension": "Ask a confident child to read their book to the group."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: makes pages; completes a cover; tells a friend about one page.",
+        "questions": [
+          {
+            "question": "What is on your page?",
+            "expected": "The name of the picture."
+          },
+          {
+            "question": "What is your favourite page?",
+            "expected": "A page they point to."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Makes and shares a book"
+      ],
+      "conclusion": "Put the books in a display and clap for all authors.",
+      "homeConnection": "Make small books at home from folded paper with your child.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child makes and shares a book\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Books"
+        ],
+        "pictures": [
+          "Photos of children’s books"
+        ]
+      },
+      "activities": [
+        "Book showing"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

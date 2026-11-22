@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-TOD-LIT-T3-W10",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 3,
+  "week": 10,
+  "title": "Our literacy celebration",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising listening, rhymes and sounds",
+    "Revising stories and books",
+    "Celebration and end-of-year record"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Year learning through games and stations.",
+    "Teachers will complete every child’s end-of-year record and transition note."
+  ],
+  "vocabulary": [
+    "listen",
+    "rhyme",
+    "sound",
+    "story",
+    "book",
+    "name"
+  ],
+  "content": "Revising listening, rhymes and sounds, stories and books, and celebrating the year with end-of-year records and a transition note.",
+  "teachingActivities": "Keep every activity familiar and joyful; observe quietly; record what children can do; invite parents to the celebration; complete the transition note honestly for the next teacher.",
+  "learnerActivities": "Show what they know through games and stations and enjoy a literacy celebration.",
+  "resources": [
+    "Songs and rhymes from the year",
+    "The four sound objects",
+    "Books, name cards and story boxes",
+    "Children’s own books",
+    "Certificates or stickers",
+    "End-of-year record sheets"
+  ],
+  "assessment": "Observe and record each child’s end-of-year literacy learning and complete the transition note.",
+  "expectedOutcomes": [
+    "Takes part confidently in familiar literacy games.",
+    "Each child has an end-of-year observation record."
+  ],
+  "crossCurricular": [
+    "Music: favourite songs",
+    "Understanding the World: our school",
+    "Social Habits: celebration and thanks"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W10-D01",
+      "title": "Revising listening, rhymes and sounds",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising listening, rhymes and sounds",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit sound games, rhymes and the four sounds s, a, t and p."
+      ],
+      "successCriteria": [
+        "Says at least two of the four sounds",
+        "Joins in a favourite rhyme"
+      ],
+      "previousKnowledge": "Children have worked on listening, speaking, rhymes, stories, early sounds, mark-making, names and books across the year.",
+      "vocabulary": [
+        "listen",
+        "rhyme",
+        "sound",
+        "story",
+        "book",
+        "name"
+      ],
+      "resources": [
+        "Sound objects",
+        "Rhyme cards",
+        "A drum",
+        "A bell"
+      ],
+      "starter": "Ring the bell and say \"Shh, listen.\" Say \"Today we play our favourite sound and rhyme games.\"",
+      "teacherActivities": [
+        "Play listening statues with the bell.",
+        "Sing a favourite rhyme and pause for the last word.",
+        "Play the sound sort game with sss, a, t and p.",
+        "Let each child choose a favourite game."
+      ],
+      "learnerActivities": [
+        "Children stop and listen.",
+        "Children finish the rhyme.",
+        "Children sort by first sound with support.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play listening statues with the bell. Children: Children stop and listen.",
+        "Step 2. Teacher: Sing a favourite rhyme and pause for the last word. Children: Children finish the rhyme.",
+        "Step 3. Teacher: Play the sound sort game with sss, a, t and p. Children: Children sort by first sound with support.",
+        "Step 4. Teacher: Let each child choose a favourite game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Sound and rhyme games",
+        "steps": [
+          "Set up three game spaces.",
+          "Children play each game for four minutes.",
+          "The teacher notes which sounds each child can say."
+        ],
+        "safety": "Keep sounds gentle and the floor clear. Supervise movement."
+      },
+      "differentiation": {
+        "support": "Play with the child and use two sounds.",
+        "extension": "Ask the child to lead a game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What sound does the snake make?",
+            "expected": "Sss."
+          },
+          {
+            "question": "What rhymes with cat?",
+            "expected": "Hat."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows listening and sound skills",
+        "Joins in rhymes"
+      ],
+      "conclusion": "Ring the bell and say \"Good listening.\"",
+      "homeConnection": "Play sound and rhyme games at home during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"revisit sound games, rhymes and the four sounds s, a, t and p\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SOUNDS",
+          "RHYMES"
+        ],
+        "pictures": [
+          "A bell",
+          "A snake and an ant"
+        ]
+      },
+      "activities": [
+        "Sound and rhyme games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W10-D02",
+      "title": "Revising stories and books",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising stories and books",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit stories, books and their own books."
+      ],
+      "successCriteria": [
+        "Retells part of a story",
+        "Shares a book with a friend"
+      ],
+      "previousKnowledge": "Children have worked on listening, speaking, rhymes, stories, early sounds, mark-making, names and books across the year.",
+      "vocabulary": [
+        "listen",
+        "rhyme",
+        "sound",
+        "story",
+        "book",
+        "name"
+      ],
+      "resources": [
+        "Story box",
+        "Books",
+        "Children’s own books",
+        "Picture cards"
+      ],
+      "starter": "Say \"Let us visit our stories and our books today.\" Open the story box.",
+      "teacherActivities": [
+        "Tell a favourite story with props.",
+        "Put three picture cards in order and tell the story.",
+        "Share the books they made.",
+        "Let each child choose a favourite book to look at."
+      ],
+      "learnerActivities": [
+        "Children join in and retell.",
+        "Child orders and tells.",
+        "Child shares their book with a friend.",
+        "Child chooses and turns pages."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell a favourite story with props. Children: Children join in and retell.",
+        "Step 2. Teacher: Put three picture cards in order and tell the story. Children: Child orders and tells.",
+        "Step 3. Teacher: Share the books they made. Children: Child shares their book with a friend.",
+        "Step 4. Teacher: Let each child choose a favourite book to look at. Children: Child chooses and turns pages."
+      ],
+      "practical": {
+        "title": "Story and book time",
+        "steps": [
+          "Set up the story box and book corner.",
+          "Children visit each in turn.",
+          "The teacher notes retelling and book handling."
+        ],
+        "safety": "Supervise props and books. Keep floors clear and cushions tidy."
+      },
+      "differentiation": {
+        "support": "Sit with the child and point to pictures.",
+        "extension": "Ask the child to tell a story to a younger friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What happened first?",
+            "expected": "The first event."
+          },
+          {
+            "question": "What is your favourite book?",
+            "expected": "A book they point to."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Retells part of a story",
+        "Shares a book"
+      ],
+      "conclusion": "Put the books away and say \"The end.\"",
+      "homeConnection": "Read together every day during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"revisit stories, books and their own books\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "STORY",
+          "BOOK"
+        ],
+        "pictures": [
+          "A story box",
+          "A book corner"
+        ]
+      },
+      "activities": [
+        "Story and book time"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W10-D03",
+      "title": "Play stations for the year",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising listening, rhymes and sounds",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s literacy learning across the year at play stations."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with confidence",
+        "Shows listening, speaking, sound and mark-making skills"
+      ],
+      "previousKnowledge": "Children have worked on listening, speaking, rhymes, stories, early sounds, mark-making, names and books across the year.",
+      "vocabulary": [
+        "listen",
+        "rhyme",
+        "sound",
+        "story",
+        "book",
+        "name"
+      ],
+      "resources": [
+        "Six station sets",
+        "End-of-year record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Sing the hello song and show six stations to the class.",
+      "teacherActivities": [
+        "Set up six stations: sounds, rhymes, stories, books, names and marks.",
+        "Observe each child at two stations and record what they can do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every three minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: sounds, rhymes, stories, books, names and marks. Children: Children rotate every three minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they can do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Six stations",
+        "steps": [
+          "Set up six stations with familiar materials.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep floors clear and materials large and soft."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: listens; says s, a, t and p; joins in rhymes; retells a story; finds their name; makes marks and lines.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite game.",
+            "expected": "Child chooses a station."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an end-of-year observation record",
+        "Shows familiar skills at stations"
+      ],
+      "conclusion": "Say well done to everyone and wave goodbye.",
+      "homeConnection": "Play a favourite game from this year at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s literacy learning across the year at play stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Six stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W10-D04",
+      "title": "Literacy celebration",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Celebration and end-of-year record",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate the year with songs, rhymes, stories and their own books."
+      ],
+      "successCriteria": [
+        "Joins in songs and rhymes",
+        "Shares their book with an adult"
+      ],
+      "previousKnowledge": "Children have worked on listening, speaking, rhymes, stories, early sounds, mark-making, names and books across the year.",
+      "vocabulary": [
+        "listen",
+        "rhyme",
+        "sound",
+        "story",
+        "book",
+        "name"
+      ],
+      "resources": [
+        "Favourite songs",
+        "The children’s own books",
+        "Certificates or stickers",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate everything we learned. Let us sing our favourite songs.\"",
+      "teacherActivities": [
+        "Sing favourite songs and rhymes with actions.",
+        "Invite children to show their book to a visitor or parent.",
+        "Give each child a sticker or certificate and say their name."
+      ],
+      "learnerActivities": [
+        "Children sing and do actions.",
+        "Child shares their book.",
+        "Child waves and says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite songs and rhymes with actions. Children: Children sing and do actions.",
+        "Step 2. Teacher: Invite children to show their book to a visitor or parent. Children: Child shares their book.",
+        "Step 3. Teacher: Give each child a sticker or certificate and say their name. Children: Child waves and says thank you."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle with visitors.",
+          "Sing, share books and say each name.",
+          "Hand out certificates or stickers."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Supervise visitors and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and share a book together.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s end-of-year literacy record from the year’s observations. Record the child’s strengths and a next step for Nursery 1.",
+        "questions": [
+          {
+            "question": "What is your favourite song?",
+            "expected": "Child sings or points."
+          },
+          {
+            "question": "What do you like about your book?",
+            "expected": "A word or a point."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed end-of-year record",
+        "Enjoys songs, rhymes, stories and books"
+      ],
+      "conclusion": "Wave goodbye and say \"See you in Nursery 1.\"",
+      "homeConnection": "Keep singing, sharing books and playing sound games during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"celebrate the year with songs, rhymes, stories and their own books\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE",
+          "THANK YOU"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W10-D05",
+      "title": "Transition note and records",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Celebration and end-of-year record",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will complete a transition note for each child for the Nursery 1 teacher."
+      ],
+      "successCriteria": [
+        "Records what each child can do",
+        "Records a next step"
+      ],
+      "previousKnowledge": "Children have worked on listening, speaking, rhymes, stories, early sounds, mark-making, names and books across the year.",
+      "vocabulary": [
+        "listen",
+        "rhyme",
+        "sound",
+        "story",
+        "book",
+        "name"
+      ],
+      "resources": [
+        "Transition note template",
+        "Term records",
+        "Children’s portfolios",
+        "A quiet table"
+      ],
+      "starter": "Today the children enjoy free play with familiar materials while the teacher completes the transition notes.",
+      "teacherActivities": [
+        "Set out free play with books, instruments, dough and puppets.",
+        "Review each child’s three term records and portfolio.",
+        "Complete the note: strengths, interests, language, sounds known and next steps."
+      ],
+      "learnerActivities": [
+        "Children play freely and happily.",
+        "Children play while the teacher reviews.",
+        "Children play and talk with the helper."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set out free play with books, instruments, dough and puppets. Children: Children play freely and happily.",
+        "Step 2. Teacher: Review each child’s three term records and portfolio. Children: Children play while the teacher reviews.",
+        "Step 3. Teacher: Complete the note: strengths, interests, language, sounds known and next steps. Children: Children play and talk with the helper."
+      ],
+      "practical": {
+        "title": "Free play and records",
+        "steps": [
+          "Set out four play areas with a helper.",
+          "The teacher reviews records at a quiet table.",
+          "The teacher completes each transition note."
+        ],
+        "safety": "A second adult must supervise play while the teacher completes the notes. Keep all areas safe and tidy."
+      },
+      "differentiation": {
+        "support": "Offer familiar toys and a helper nearby.",
+        "extension": "Ask a confident child to help a friend tidy up."
+      },
+      "assessment": {
+        "method": "Write for each child: what they can do in listening, speaking, rhymes, sounds, early reading and mark-making; their interests; any support needed; and a next step. Use the four-level scale and facts you have seen.",
+        "questions": [
+          {
+            "question": "What do you like to play?",
+            "expected": "A favourite game or toy."
+          },
+          {
+            "question": "What did you learn this year?",
+            "expected": "A word, sound or song."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a transition note for each child",
+        "Plays happily in familiar activities"
+      ],
+      "conclusion": "Tidy up together and say goodbye to the year.",
+      "homeConnection": "Share the end-of-year report with your child and keep reading together.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will complete a transition note for each child for the Nursery 1 teacher\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "THANK YOU"
+        ],
+        "pictures": [
+          "Children playing happily"
+        ]
+      },
+      "activities": [
+        "Free play and records"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-LIT-T3-W02",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 3,
+  "week": 2,
+  "title": "The sound /a/",
+  "topic": "First sounds",
+  "subtopics": [
+    "Listening for /a/",
+    "Things that start with /a/",
+    "The /a/ song"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will hear and say the sound /a/ at the start of words.",
+    "Children will find objects that start with /a/ with support."
+  ],
+  "vocabulary": [
+    "ant",
+    "apple",
+    "axe",
+    "sound",
+    "aaa"
+  ],
+  "content": "Listening for the sound /a/ at the start of words, finding things that start with /a/, and the /a/ song.",
+  "teachingActivities": "Say /a/ as a short, clear sound as in \"ant\", with no extra sound; show an open mouth; link the sound to an ant that wiggles; use real objects; children hear and say the sound only.",
+  "learnerActivities": "Hear and say the sound /a/ at the start of words and find objects that start with /a/ with support.",
+  "resources": [
+    "A toy ant or a picture of an ant",
+    "A toy apple",
+    "A toy axe or a picture",
+    "A mirror",
+    "A tray"
+  ],
+  "assessment": "Observe whether each child says /a/ clearly and points to an object that starts with /a/.",
+  "expectedOutcomes": [
+    "Says /a/ clearly.",
+    "Points to an object that starts with /a/."
+  ],
+  "crossCurricular": [
+    "Understanding the World: insects",
+    "Music: sound songs",
+    "Physical Development: mouth shapes"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W02-D01",
+      "title": "The ant says a, a, a",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 2,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Listening for /a/",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will hear and say the sound /a/ as the ant sound."
+      ],
+      "successCriteria": [
+        "Says the sound a when shown the ant",
+        "Watches the teacher’s mouth"
+      ],
+      "previousKnowledge": "Children can hear and say the sound /s/ and find objects that start with it.",
+      "vocabulary": [
+        "ant",
+        "apple",
+        "axe",
+        "sound",
+        "aaa"
+      ],
+      "resources": [
+        "A toy ant or a picture of an ant",
+        "A mirror",
+        "A mat"
+      ],
+      "starter": "Hold up the ant and say \"This is an ant. The ant says a, a, a. Tickle, tickle, tickle.\" Wiggle your fingers.",
+      "teacherActivities": [
+        "Say \"a, a, a\" in a short clear sound with your mouth open. Show how your mouth is open.",
+        "Say \"a, a, a\" together while the ant crawls on your arm.",
+        "Say \"a\" softly and loudly.",
+        "Let each child look in the mirror and say a."
+      ],
+      "learnerActivities": [
+        "Children watch your mouth and listen.",
+        "Children say \"a\" with you and wiggle their fingers.",
+        "Children copy a soft a and a loud a.",
+        "Child watches their mouth and says a."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"a, a, a\" in a short clear sound with your mouth open. Show how your mouth is open. Children: Children watch your mouth and listen.",
+        "Step 2. Teacher: Say \"a, a, a\" together while the ant crawls on your arm. Children: Children say \"a\" with you and wiggle their fingers.",
+        "Step 3. Teacher: Say \"a\" softly and loudly. Children: Children copy a soft a and a loud a.",
+        "Step 4. Teacher: Let each child look in the mirror and say a. Children: Child watches their mouth and says a."
+      ],
+      "practical": {
+        "title": "Ant sound",
+        "steps": [
+          "Give each child a pretend ant with their fingers.",
+          "Crawl the ant up your arm and say a, a, a.",
+          "Stop and listen quietly."
+        ],
+        "safety": "Tell children the ant is a toy. Keep the sound gentle and watch that no one touches a real ant."
+      },
+      "differentiation": {
+        "support": "Crawl the ant on the child’s arm and say a together.",
+        "extension": "Ask the child to tell a friend what the ant says."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does the ant say?",
+            "expected": "A, a, a."
+          },
+          {
+            "question": "Can you make the ant sound?",
+            "expected": "Child says a."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says the sound /a/ clearly",
+        "Links /a/ to the ant"
+      ],
+      "conclusion": "Put the ant to bed with a quiet a.",
+      "homeConnection": "Crawl fingers up your child’s arm and say a, a, a.",
+      "teacherReflection": [
+        "Which children could show \"hear and say the sound /a/ as the ant sound\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "A (an ant)"
+        ],
+        "pictures": [
+          "An ant",
+          "A child saying a"
+        ],
+        "songOrRhyme": "The ant says a, a, a. Tickle, tickle, tickle."
+      },
+      "activities": [
+        "Ant sound"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W02-D02",
+      "title": "Ant, apple and axe",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 2,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Things that start with /a/",
+      "dayType": "explore",
+      "objectives": [
+        "Children will hear that ant, apple and axe start with the sound /a/."
+      ],
+      "successCriteria": [
+        "Repeats the word and the first sound",
+        "Points to an object that starts with /a/"
+      ],
+      "previousKnowledge": "Children can hear and say the sound /s/ and find objects that start with it.",
+      "vocabulary": [
+        "ant",
+        "apple",
+        "axe",
+        "sound",
+        "aaa"
+      ],
+      "resources": [
+        "A toy ant, a toy apple, a picture of an axe",
+        "A tray",
+        "A bag"
+      ],
+      "starter": "Hold up the apple and say \"Apple. A-pple. It starts with a.\" Show the ant and say \"Ant. A-nt.\"",
+      "teacherActivities": [
+        "Say each word slowly and stress the first sound: a-nt, a-pple, a-xe.",
+        "Put the three things on a tray and say \"These all start with a.\"",
+        "Add a ball and ask \"Does ball start with a?\"",
+        "Let each child pick an a-object and say the word."
+      ],
+      "learnerActivities": [
+        "Children repeat the word and the first sound.",
+        "Children touch each and say a.",
+        "Child shakes head or says no.",
+        "Child picks and says the word and a."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say each word slowly and stress the first sound: a-nt, a-pple, a-xe. Children: Children repeat the word and the first sound.",
+        "Step 2. Teacher: Put the three things on a tray and say \"These all start with a.\" Children: Children touch each and say a.",
+        "Step 3. Teacher: Add a ball and ask \"Does ball start with a?\" Children: Child shakes head or says no.",
+        "Step 4. Teacher: Let each child pick an a-object and say the word. Children: Child picks and says the word and a."
+      ],
+      "practical": {
+        "title": "A tray",
+        "steps": [
+          "Put the ant, apple, axe picture and a ball on a tray.",
+          "Ask each child to take something that starts with a.",
+          "Say the word and the sound."
+        ],
+        "safety": "Use a toy apple and a picture for the axe. Never use a real axe. Keep objects clean and supervise handling."
+      },
+      "differentiation": {
+        "support": "Offer two things, one that starts with a, and say the sound first.",
+        "extension": "Ask the child to find another thing that starts with a."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What sound does apple start with?",
+            "expected": "The sound a."
+          },
+          {
+            "question": "Does ball start with a?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Hears /a/ at the start of words",
+        "Picks objects that start with /a/ with support"
+      ],
+      "conclusion": "Put the objects in the bag and say a.",
+      "homeConnection": "Look for things that start with a, such as an apple, and say the sound.",
+      "teacherReflection": [
+        "Which children could show \"hear that ant, apple and axe start with the sound /a/\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ANT",
+          "APPLE",
+          "AXE"
+        ],
+        "pictures": [
+          "An ant",
+          "An apple",
+          "An axe picture"
+        ]
+      },
+      "activities": [
+        "A tray"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W02-D03",
+      "title": "The a song",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 2,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "The /a/ song",
+      "dayType": "explore",
+      "objectives": [
+        "Children will sing a song about the sound /a/ with actions."
+      ],
+      "successCriteria": [
+        "Sings or hums the a song",
+        "Does the ant action"
+      ],
+      "previousKnowledge": "Children can hear and say the sound /s/ and find objects that start with it.",
+      "vocabulary": [
+        "ant",
+        "apple",
+        "axe",
+        "sound",
+        "aaa"
+      ],
+      "resources": [
+        "A toy ant",
+        "Picture cards: ant, apple, axe",
+        "A basket"
+      ],
+      "starter": "Crawl the ant up your arm and sing \"a, a, a\". Ask \"Who knows the ant song?\"",
+      "teacherActivities": [
+        "Sing the song slowly: \"A, a, a, ant and apple and axe. A, a, a, what can you pack?\" Show the cards.",
+        "Sing again and do the ant action.",
+        "Sing again and let children hold up a card at the right word.",
+        "Let a child lead the song with the ant."
+      ],
+      "learnerActivities": [
+        "Children listen and look at the cards.",
+        "Children do the ant action and say a.",
+        "Child holds up the ant, apple or axe card.",
+        "Child leads and friends sing."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing the song slowly: \"A, a, a, ant and apple and axe. A, a, a, what can you pack?\" Show the cards. Children: Children listen and look at the cards.",
+        "Step 2. Teacher: Sing again and do the ant action. Children: Children do the ant action and say a.",
+        "Step 3. Teacher: Sing again and let children hold up a card at the right word. Children: Child holds up the ant, apple or axe card.",
+        "Step 4. Teacher: Let a child lead the song with the ant. Children: Child leads and friends sing."
+      ],
+      "practical": {
+        "title": "Ant parade",
+        "steps": [
+          "Give each child a card from the song.",
+          "Sing the song and parade round the mat.",
+          "Hold up the card at the right word."
+        ],
+        "safety": "Clear the floor so children can walk freely. Keep the volume gentle and use soft cards."
+      },
+      "differentiation": {
+        "support": "Sing softly with the child and do the actions together.",
+        "extension": "Ask the child to sing the song to a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What sound do we sing?",
+            "expected": "The sound a."
+          },
+          {
+            "question": "Which things start with a?",
+            "expected": "Ant, apple and axe."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sings the a song with actions",
+        "Names ant, apple and axe"
+      ],
+      "conclusion": "Sing a quiet last verse and put the ant to bed.",
+      "homeConnection": "Sing the ant song at home with finger actions.",
+      "teacherReflection": [
+        "Which children could show \"sing a song about the sound /a/ with actions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ANT",
+          "APPLE",
+          "AXE"
+        ],
+        "pictures": [
+          "An ant",
+          "An apple",
+          "An axe picture"
+        ],
+        "songOrRhyme": "A, a, a, ant and apple and axe. A, a, a, what can you pack?"
+      },
+      "activities": [
+        "Ant parade"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W02-D04",
+      "title": "Find the a things",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 2,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Things that start with /a/",
+      "dayType": "practise",
+      "objectives": [
+        "Children will find objects that start with /a/ in a sound hunt."
+      ],
+      "successCriteria": [
+        "Finds an a-object with support",
+        "Says the word and the sound"
+      ],
+      "previousKnowledge": "Children can hear and say the sound /s/ and find objects that start with it.",
+      "vocabulary": [
+        "ant",
+        "apple",
+        "axe",
+        "sound",
+        "aaa"
+      ],
+      "resources": [
+        "Six objects, three starting with /a/ and three that do not",
+        "A basket",
+        "A bag"
+      ],
+      "starter": "Say \"Let us hunt for a things. A, a, a.\" Show the empty basket.",
+      "teacherActivities": [
+        "Hide the objects around the room in easy places.",
+        "Say \"Find an a thing\" and let each child look.",
+        "Ask \"Does it start with a?\" and say the word.",
+        "Put the a things in the basket and the others on the mat."
+      ],
+      "learnerActivities": [
+        "Children watch where you put the objects.",
+        "Child finds an object and brings it back.",
+        "Child says yes or no and the word.",
+        "Child sorts the objects."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hide the objects around the room in easy places. Children: Children watch where you put the objects.",
+        "Step 2. Teacher: Say \"Find an a thing\" and let each child look. Children: Child finds an object and brings it back.",
+        "Step 3. Teacher: Ask \"Does it start with a?\" and say the word. Children: Child says yes or no and the word.",
+        "Step 4. Teacher: Put the a things in the basket and the others on the mat. Children: Child sorts the objects."
+      ],
+      "practical": {
+        "title": "A hunt",
+        "steps": [
+          "Hide six objects in easy places in the room.",
+          "Children find objects and bring them to the mat.",
+          "Sort the a objects into the basket."
+        ],
+        "safety": "Hide objects only in clear, low places away from hazards. Supervise the search and keep children together."
+      },
+      "differentiation": {
+        "support": "Walk with the child and point to the object after saying the sound.",
+        "extension": "Ask the child to hide an a-object for a friend to find."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does apple start with a?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Does cup start with a?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds objects starting with /a/ with support",
+        "Says the word and sound"
+      ],
+      "conclusion": "Count the objects in the basket and say a.",
+      "homeConnection": "Play a sound hunt at home for things that start with a.",
+      "teacherReflection": [
+        "Which children could show \"find objects that start with /a/ in a sound hunt\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "A HUNT"
+        ],
+        "pictures": [
+          "Children searching",
+          "A basket of objects"
+        ]
+      },
+      "activities": [
+        "A hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W02-D05",
+      "title": "Week 2 a check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 2,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Things that start with /a/",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child hears and says /a/."
+      ],
+      "successCriteria": [
+        "Says /a/ clearly",
+        "Points to an object that starts with /a/"
+      ],
+      "previousKnowledge": "Children can hear and say the sound /s/ and find objects that start with it.",
+      "vocabulary": [
+        "ant",
+        "apple",
+        "axe",
+        "sound",
+        "aaa"
+      ],
+      "resources": [
+        "A-objects",
+        "Other objects",
+        "A toy ant",
+        "Class record sheet"
+      ],
+      "starter": "Crawl the ant and say \"a\". Show three stations.",
+      "teacherActivities": [
+        "Set up three stations: ant sound, a-objects and the song.",
+        "At each station ask \"What sound?\" and \"Which one starts with a?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child says a and points.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: ant sound, a-objects and the song. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What sound?\" and \"Which one starts with a?\" Children: Child says a and points.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Sound stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use large, clean objects."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two objects.",
+        "extension": "Ask a confident child to name two more a words."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says /a/ clearly; points to an object starting with /a/; joins in the song.",
+        "questions": [
+          {
+            "question": "What sound does the ant make?",
+            "expected": "The sound a."
+          },
+          {
+            "question": "Show me something that starts with a.",
+            "expected": "Ant, apple or axe."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Says /a/ clearly"
+      ],
+      "conclusion": "Wave goodbye to the ant with a soft a.",
+      "homeConnection": "Play sound games at home with the sound a.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child hears and says /a/\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Sound a"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Sound stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

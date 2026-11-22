@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-LIT-T3-W01",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 3,
+  "week": 1,
+  "title": "The sound /s/",
+  "topic": "First sounds",
+  "subtopics": [
+    "Listening for /s/",
+    "Things that start with /s/",
+    "The /s/ song"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will hear and say the sound /s/ at the start of words.",
+    "Children will find objects that start with /s/ with support."
+  ],
+  "vocabulary": [
+    "sun",
+    "sock",
+    "snake",
+    "sound",
+    "sss"
+  ],
+  "content": "Listening for the sound /s/ at the start of words, finding things that start with /s/, and the /s/ song.",
+  "teachingActivities": "Say /s/ as a pure sound, a long hiss \"sss\", with no vowel added; say \"the sound sss\" and never \"es\" or \"suh\"; show your mouth and teeth; use real objects; children hear and say sounds only, with no letter formation.",
+  "learnerActivities": "Hear and say the sound /s/ at the start of words and point to objects that start with /s/ with support.",
+  "resources": [
+    "A toy sun, a sock, a toy snake, a spoon",
+    "A tray",
+    "A bag",
+    "A picture of a snake",
+    "A mirror"
+  ],
+  "assessment": "Observe whether each child says /s/ clearly and points to an object that starts with /s/.",
+  "expectedOutcomes": [
+    "Says /s/ clearly.",
+    "Points to an object that starts with /s/."
+  ],
+  "crossCurricular": [
+    "Understanding the World: everyday objects",
+    "Music: sound songs",
+    "Physical Development: mouth movements"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W01-D01",
+      "title": "The snake says sss",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 1,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Listening for /s/",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will hear and say the sound /s/ as the snake sound."
+      ],
+      "successCriteria": [
+        "Says the sound sss when shown the snake",
+        "Watches the teacher’s mouth"
+      ],
+      "previousKnowledge": "Children can hear rhyming words, clap the beats in words and join in songs; they have not yet been taught any letter sounds.",
+      "vocabulary": [
+        "sun",
+        "sock",
+        "snake",
+        "sound",
+        "sss"
+      ],
+      "resources": [
+        "A toy snake or a picture of a snake",
+        "A mirror",
+        "A mat"
+      ],
+      "starter": "Wiggle the toy snake along the mat and say \"The snake goes sss.\" Hold a finger to your lips.",
+      "teacherActivities": [
+        "Say \"sss\" clearly, a long hissing sound. Show how your teeth come together and the air flows out.",
+        "Say \"sss\" together while the snake wiggles. Say \"the sound is sss\".",
+        "Make the snake go quiet and loud and say sss softly and loudly.",
+        "Let each child look in the mirror and say sss."
+      ],
+      "learnerActivities": [
+        "Children watch your mouth and listen.",
+        "Children say \"sss\" with you.",
+        "Children copy a soft sss and a loud sss.",
+        "Child watches their mouth and says sss."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"sss\" clearly, a long hissing sound. Show how your teeth come together and the air flows out. Children: Children watch your mouth and listen.",
+        "Step 2. Teacher: Say \"sss\" together while the snake wiggles. Say \"the sound is sss\". Children: Children say \"sss\" with you.",
+        "Step 3. Teacher: Make the snake go quiet and loud and say sss softly and loudly. Children: Children copy a soft sss and a loud sss.",
+        "Step 4. Teacher: Let each child look in the mirror and say sss. Children: Child watches their mouth and says sss."
+      ],
+      "practical": {
+        "title": "Snake sound",
+        "steps": [
+          "Give each child a pretend snake made from a scarf or a hand.",
+          "Wiggle the snake along the floor and say sss.",
+          "Stop the snake and listen quietly."
+        ],
+        "safety": "Use a soft toy snake and tell children it is a toy. Keep the sound gentle and do not let children blow hard to avoid dizziness."
+      },
+      "differentiation": {
+        "support": "Wiggle the snake with the child and say sss together.",
+        "extension": "Ask the child to tell a friend what the snake says."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does the snake say?",
+            "expected": "Sss."
+          },
+          {
+            "question": "Can you make a long sss?",
+            "expected": "Child makes a long hissing sound."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says the sound /s/ clearly",
+        "Links /s/ to the snake"
+      ],
+      "conclusion": "Settle the snake to sleep with a very quiet sss.",
+      "homeConnection": "Make a snake sound at home, a long sss, and wiggle a hand like a snake.",
+      "teacherReflection": [
+        "Which children could show \"hear and say the sound /s/ as the snake sound\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SSS (a snake)"
+        ],
+        "pictures": [
+          "A snake",
+          "A child saying sss"
+        ],
+        "songOrRhyme": "The snake says sss, sss, sss. The snake says sss, sss, sss."
+      },
+      "activities": [
+        "Snake sound"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W01-D02",
+      "title": "Sun, sock and spoon",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 1,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Things that start with /s/",
+      "dayType": "explore",
+      "objectives": [
+        "Children will hear that sun, sock and spoon start with the sound /s/."
+      ],
+      "successCriteria": [
+        "Repeats the word and the first sound",
+        "Points to an object that starts with /s/"
+      ],
+      "previousKnowledge": "Children can hear rhyming words, clap the beats in words and join in songs; they have not yet been taught any letter sounds.",
+      "vocabulary": [
+        "sun",
+        "sock",
+        "snake",
+        "sound",
+        "sss"
+      ],
+      "resources": [
+        "A toy sun, a sock, a spoon",
+        "A tray",
+        "A cloth bag"
+      ],
+      "starter": "Hold up the sun and say \"Sun. Sss-un. It starts with sss.\" Show the sock and say \"Sock. Sss-ock.\"",
+      "teacherActivities": [
+        "Say each word slowly and stress the first sound: sss-un, sss-ock, sss-poon.",
+        "Put the three objects on a tray and say \"These all start with sss.\"",
+        "Add a ball to the tray and ask \"Does ball start with sss?\"",
+        "Let each child pick an s-object and say the word."
+      ],
+      "learnerActivities": [
+        "Children repeat the word and the first sound.",
+        "Children touch each object and say sss.",
+        "Child shakes their head or says no.",
+        "Child picks and says sss and the word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say each word slowly and stress the first sound: sss-un, sss-ock, sss-poon. Children: Children repeat the word and the first sound.",
+        "Step 2. Teacher: Put the three objects on a tray and say \"These all start with sss.\" Children: Children touch each object and say sss.",
+        "Step 3. Teacher: Add a ball to the tray and ask \"Does ball start with sss?\" Children: Child shakes their head or says no.",
+        "Step 4. Teacher: Let each child pick an s-object and say the word. Children: Child picks and says sss and the word."
+      ],
+      "practical": {
+        "title": "S tray",
+        "steps": [
+          "Put the sun, sock, spoon and a ball on a tray.",
+          "Ask each child to take an object that starts with sss.",
+          "Say the word and the first sound."
+        ],
+        "safety": "Use large, clean objects. Keep the spoon plastic and blunt. Supervise handling."
+      },
+      "differentiation": {
+        "support": "Offer two objects, one that starts with sss, and say the sound first.",
+        "extension": "Ask the child to find another sss object in the classroom."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What sound does sun start with?",
+            "expected": "Sss."
+          },
+          {
+            "question": "Does ball start with sss?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Hears /s/ at the start of words",
+        "Picks objects that start with /s/ with support"
+      ],
+      "conclusion": "Put the objects in the bag and say sss.",
+      "homeConnection": "Look for things that start with sss, such as a sock or a spoon, and say the sound.",
+      "teacherReflection": [
+        "Which children could show \"hear that sun, sock and spoon start with the sound /s/\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SUN",
+          "SOCK",
+          "SPOON"
+        ],
+        "pictures": [
+          "A sun",
+          "A sock",
+          "A spoon"
+        ]
+      },
+      "activities": [
+        "S tray"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W01-D03",
+      "title": "The sss song",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 1,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "The /s/ song",
+      "dayType": "explore",
+      "objectives": [
+        "Children will sing a song about the sound /s/ with actions."
+      ],
+      "successCriteria": [
+        "Sings or hums the sss song",
+        "Does the snake action"
+      ],
+      "previousKnowledge": "Children can hear rhyming words, clap the beats in words and join in songs; they have not yet been taught any letter sounds.",
+      "vocabulary": [
+        "sun",
+        "sock",
+        "snake",
+        "sound",
+        "sss"
+      ],
+      "resources": [
+        "A toy snake",
+        "Picture cards: sun, sock, snake",
+        "A scarf"
+      ],
+      "starter": "Wiggle the snake and sing \"sss, sss, sss\". Ask \"Who knows the snake song?\"",
+      "teacherActivities": [
+        "Sing the song slowly: \"Sss, sss, sss, sun and sock and snake. Sss, sss, sss, what can you take?\" Show the cards.",
+        "Sing again and do the snake action with your arm.",
+        "Sing again and let children hold up a card at the right word.",
+        "Let a child lead the song with the snake."
+      ],
+      "learnerActivities": [
+        "Children listen and look at the cards.",
+        "Children copy the snake action and the sound.",
+        "Child holds up the sun, sock or snake card.",
+        "Child leads and friends sing."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing the song slowly: \"Sss, sss, sss, sun and sock and snake. Sss, sss, sss, what can you take?\" Show the cards. Children: Children listen and look at the cards.",
+        "Step 2. Teacher: Sing again and do the snake action with your arm. Children: Children copy the snake action and the sound.",
+        "Step 3. Teacher: Sing again and let children hold up a card at the right word. Children: Child holds up the sun, sock or snake card.",
+        "Step 4. Teacher: Let a child lead the song with the snake. Children: Child leads and friends sing."
+      ],
+      "practical": {
+        "title": "Sing and slither",
+        "steps": [
+          "Give each child a scarf snake.",
+          "Sing the song and move the scarf.",
+          "Hold up a picture card at each word."
+        ],
+        "safety": "Clear the floor so children can move freely. Keep the volume gentle."
+      },
+      "differentiation": {
+        "support": "Sing softly with the child and do the actions together.",
+        "extension": "Ask the child to sing the song to a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What sound do we sing?",
+            "expected": "Sss."
+          },
+          {
+            "question": "Which things start with sss?",
+            "expected": "Sun, sock and snake."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sings the sss song with actions",
+        "Names sun, sock and snake"
+      ],
+      "conclusion": "Sing a quiet last verse and put the snake to bed.",
+      "homeConnection": "Sing the sss song at home and wiggle like a snake.",
+      "teacherReflection": [
+        "Which children could show \"sing a song about the sound /s/ with actions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SUN",
+          "SOCK",
+          "SNAKE"
+        ],
+        "pictures": [
+          "A sun",
+          "A sock",
+          "A snake"
+        ],
+        "songOrRhyme": "Sss, sss, sss, sun and sock and snake. Sss, sss, sss, what can you take?"
+      },
+      "activities": [
+        "Sing and slither"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W01-D04",
+      "title": "Find the sss things",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 1,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Things that start with /s/",
+      "dayType": "practise",
+      "objectives": [
+        "Children will find objects that start with /s/ in a sound hunt."
+      ],
+      "successCriteria": [
+        "Finds an s-object with support",
+        "Says the word and the sound"
+      ],
+      "previousKnowledge": "Children can hear rhyming words, clap the beats in words and join in songs; they have not yet been taught any letter sounds.",
+      "vocabulary": [
+        "sun",
+        "sock",
+        "snake",
+        "sound",
+        "sss"
+      ],
+      "resources": [
+        "Six objects, three starting with /s/ and three that do not",
+        "A basket",
+        "A bag"
+      ],
+      "starter": "Say \"Let us hunt for sss things. Sss, sss, sss.\" Show the empty basket.",
+      "teacherActivities": [
+        "Hide the objects around the room in easy places.",
+        "Say \"Find a sss thing\" and let each child look.",
+        "Ask \"Does it start with sss?\" and say the word.",
+        "Put the sss things in the basket and the others on the mat."
+      ],
+      "learnerActivities": [
+        "Children watch where you put the objects.",
+        "Child finds an object and brings it back.",
+        "Child says yes or no and the word.",
+        "Child sorts the objects."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hide the objects around the room in easy places. Children: Children watch where you put the objects.",
+        "Step 2. Teacher: Say \"Find a sss thing\" and let each child look. Children: Child finds an object and brings it back.",
+        "Step 3. Teacher: Ask \"Does it start with sss?\" and say the word. Children: Child says yes or no and the word.",
+        "Step 4. Teacher: Put the sss things in the basket and the others on the mat. Children: Child sorts the objects."
+      ],
+      "practical": {
+        "title": "Sss hunt",
+        "steps": [
+          "Hide six objects in easy places in the room.",
+          "Children find objects and bring them to the mat.",
+          "Sort the sss objects into the basket."
+        ],
+        "safety": "Hide objects only in clear, low places away from hazards. Supervise the search and keep children together."
+      },
+      "differentiation": {
+        "support": "Walk with the child and point to the object after saying the sound.",
+        "extension": "Ask the child to hide an s-object for a friend to find."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does sock start with sss?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Does cup start with sss?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds objects starting with /s/ with support",
+        "Says the word and sound"
+      ],
+      "conclusion": "Count the objects in the basket and say sss.",
+      "homeConnection": "Play a sound hunt at home for things that start with sss.",
+      "teacherReflection": [
+        "Which children could show \"find objects that start with /s/ in a sound hunt\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SSS HUNT"
+        ],
+        "pictures": [
+          "Children searching",
+          "A basket of objects"
+        ]
+      },
+      "activities": [
+        "Sss hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W01-D05",
+      "title": "Week 1 sss check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 1,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Things that start with /s/",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child hears and says /s/."
+      ],
+      "successCriteria": [
+        "Says /s/ clearly",
+        "Points to an object that starts with /s/"
+      ],
+      "previousKnowledge": "Children can hear rhyming words, clap the beats in words and join in songs; they have not yet been taught any letter sounds.",
+      "vocabulary": [
+        "sun",
+        "sock",
+        "snake",
+        "sound",
+        "sss"
+      ],
+      "resources": [
+        "S-objects",
+        "Other objects",
+        "A toy snake",
+        "Class record sheet"
+      ],
+      "starter": "Wiggle the snake and say \"sss\". Show three stations.",
+      "teacherActivities": [
+        "Set up three stations: snake sound, s-objects and the song.",
+        "At each station ask \"What sound?\" and \"Which one starts with sss?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child says sss and points.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: snake sound, s-objects and the song. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What sound?\" and \"Which one starts with sss?\" Children: Child says sss and points.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Sound stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use large, clean objects."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two objects.",
+        "extension": "Ask a confident child to name two more sss words."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says /s/ clearly; points to an object starting with /s/; joins in the song.",
+        "questions": [
+          {
+            "question": "What sound does the snake make?",
+            "expected": "Sss."
+          },
+          {
+            "question": "Show me something that starts with sss.",
+            "expected": "Sun, sock or spoon."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 1",
+        "Says /s/ clearly"
+      ],
+      "conclusion": "Wave goodbye to the snake with a soft sss.",
+      "homeConnection": "Play sound games at home with the sound sss.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child hears and says /s/\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Sss"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Sound stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

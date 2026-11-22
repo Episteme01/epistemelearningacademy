@@ -1,0 +1,604 @@
+{
+  "id": "ELA-PS-TOD-LIT-T3-W03",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 3,
+  "week": 3,
+  "title": "The sounds /t/ and /p/",
+  "topic": "First sounds",
+  "subtopics": [
+    "Listening for /t/",
+    "Listening for /p/",
+    "Which sound do you hear first?"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will hear and say the sounds /t/ and /p/ at the start of words.",
+    "Children will tell /t/ from /p/ with support."
+  ],
+  "vocabulary": [
+    "tap",
+    "tin",
+    "pot",
+    "pan",
+    "sound",
+    "first"
+  ],
+  "content": "Listening for the sounds /t/ and /p/ at the start of words and telling which sound they hear first.",
+  "teachingActivities": "Say /t/ and /p/ as short, crisp sounds with no vowel added; /t/ is made with the tongue behind the teeth and /p/ with the lips; hold a tissue in front of your mouth to show the puff of /p/; keep the sounds clean and brief.",
+  "learnerActivities": "Hear and say /t/ and /p/ at the start of words and tell /t/ from /p/ with support.",
+  "resources": [
+    "A tap picture, a tin, a toy tiger",
+    "A pot, a pan, a pen",
+    "A tissue",
+    "Two baskets"
+  ],
+  "assessment": "Observe whether each child says /t/ and /p/ clearly and points to the correct picture for each sound.",
+  "expectedOutcomes": [
+    "Says /t/ and /p/ clearly.",
+    "Points to the right picture for /t/ or /p/."
+  ],
+  "crossCurricular": [
+    "Understanding the World: kitchen objects",
+    "Music: sound songs",
+    "Physical Development: lips and tongue"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W03-D01",
+      "title": "The tap says t, t, t",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 3,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Listening for /t/",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will hear and say the sound /t/ as the dripping tap sound."
+      ],
+      "successCriteria": [
+        "Says the sound t when shown the tap",
+        "Watches the teacher’s mouth"
+      ],
+      "previousKnowledge": "Children can hear and say /s/ and /a/ and find objects that start with them.",
+      "vocabulary": [
+        "tap",
+        "tin",
+        "pot",
+        "pan",
+        "sound",
+        "first"
+      ],
+      "resources": [
+        "A picture or toy tap",
+        "A cup of water",
+        "A mirror"
+      ],
+      "starter": "Hold up the tap picture and say \"A dripping tap goes t, t, t.\" Tap your finger softly in the air.",
+      "teacherActivities": [
+        "Say \"t, t, t\" in short crisp sounds with your tongue behind your teeth. Show your mouth.",
+        "Say \"t, t, t\" together while you tap the table gently.",
+        "Say \"t\" softly and quickly.",
+        "Let each child look in the mirror and say t."
+      ],
+      "learnerActivities": [
+        "Children watch your mouth and listen.",
+        "Children say \"t\" and tap their finger.",
+        "Children copy a soft quick t.",
+        "Child watches their mouth and says t."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"t, t, t\" in short crisp sounds with your tongue behind your teeth. Show your mouth. Children: Children watch your mouth and listen.",
+        "Step 2. Teacher: Say \"t, t, t\" together while you tap the table gently. Children: Children say \"t\" and tap their finger.",
+        "Step 3. Teacher: Say \"t\" softly and quickly. Children: Children copy a soft quick t.",
+        "Step 4. Teacher: Let each child look in the mirror and say t. Children: Child watches their mouth and says t."
+      ],
+      "practical": {
+        "title": "Dripping tap",
+        "steps": [
+          "Give each child a finger to tap on their hand.",
+          "Say t, t, t with each tap.",
+          "Stop and listen quietly."
+        ],
+        "safety": "Keep taps soft and do not let children tap hard on tables. Use a damp cloth for any water drips."
+      },
+      "differentiation": {
+        "support": "Tap the child’s hand softly and say t together.",
+        "extension": "Ask the child to tell a friend what the tap says."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does the tap say?",
+            "expected": "T, t, t."
+          },
+          {
+            "question": "Can you tap and say t?",
+            "expected": "Child taps and says t."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says the sound /t/ clearly",
+        "Links /t/ to the tap"
+      ],
+      "conclusion": "Turn off the pretend tap with a last quiet t.",
+      "homeConnection": "Listen to a dripping tap at home and say t, t, t.",
+      "teacherReflection": [
+        "Which children could show \"hear and say the sound /t/ as the dripping tap sound\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "T (a tap)"
+        ],
+        "pictures": [
+          "A tap",
+          "A child saying t"
+        ],
+        "songOrRhyme": "The tap says t, t, t. Drip, drip, drip."
+      },
+      "activities": [
+        "Dripping tap"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W03-D02",
+      "title": "The pot says p, p, p",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 3,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Listening for /p/",
+      "dayType": "explore",
+      "objectives": [
+        "Children will hear and say the sound /p/ as the popping sound."
+      ],
+      "successCriteria": [
+        "Says the sound p when shown the pot",
+        "Feels the puff of air on a hand"
+      ],
+      "previousKnowledge": "Children can hear and say /s/ and /a/ and find objects that start with them.",
+      "vocabulary": [
+        "tap",
+        "tin",
+        "pot",
+        "pan",
+        "sound",
+        "first"
+      ],
+      "resources": [
+        "A pot or a picture of a pot",
+        "A tissue",
+        "A mirror"
+      ],
+      "starter": "Hold up the pot and say \"Popcorn is popping in the pot. p, p, p.\" Make a popping sound with your lips.",
+      "teacherActivities": [
+        "Say \"p, p, p\" in short pops. Hold a tissue in front of your mouth and let it move.",
+        "Say \"p, p, p\" together and hold a hand in front of the mouth.",
+        "Say \"p\" softly and loudly.",
+        "Let each child look in the mirror and say p."
+      ],
+      "learnerActivities": [
+        "Children watch the tissue move.",
+        "Children feel a puff on their hand.",
+        "Children copy a soft p and a loud p.",
+        "Child watches their lips and says p."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"p, p, p\" in short pops. Hold a tissue in front of your mouth and let it move. Children: Children watch the tissue move.",
+        "Step 2. Teacher: Say \"p, p, p\" together and hold a hand in front of the mouth. Children: Children feel a puff on their hand.",
+        "Step 3. Teacher: Say \"p\" softly and loudly. Children: Children copy a soft p and a loud p.",
+        "Step 4. Teacher: Let each child look in the mirror and say p. Children: Child watches their lips and says p."
+      ],
+      "practical": {
+        "title": "Popping corn",
+        "steps": [
+          "Give each child a scarf to hold.",
+          "Pretend to be popcorn popping and say p, p, p.",
+          "Jump gently on each p."
+        ],
+        "safety": "Use only pretend popcorn and do not use real popcorn due to choking risk. Keep jumps small and soft."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and feel the puff with them.",
+        "extension": "Ask the child to pop a pretend popcorn and tell a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does the pot say?",
+            "expected": "P, p, p."
+          },
+          {
+            "question": "Can you feel the puff?",
+            "expected": "Child says yes or shows the hand."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says the sound /p/ clearly",
+        "Links /p/ to the pot"
+      ],
+      "conclusion": "Put the lid on the pot and say a last p.",
+      "homeConnection": "Pop pretend popcorn with your child and say p, p, p.",
+      "teacherReflection": [
+        "Which children could show \"hear and say the sound /p/ as the popping sound\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "P (a pot)"
+        ],
+        "pictures": [
+          "A pot with popcorn",
+          "A child saying p"
+        ],
+        "songOrRhyme": "The pot says p, p, p. Pop, pop, pop."
+      },
+      "activities": [
+        "Popping corn"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W03-D03",
+      "title": "Tin, tap, pot, pan",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 3,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Which sound do you hear first?",
+      "dayType": "explore",
+      "objectives": [
+        "Children will hear whether a word starts with t or p."
+      ],
+      "successCriteria": [
+        "Points to the t picture or the p picture",
+        "Says the first sound"
+      ],
+      "previousKnowledge": "Children can hear and say /s/ and /a/ and find objects that start with them.",
+      "vocabulary": [
+        "tap",
+        "tin",
+        "pot",
+        "pan",
+        "sound",
+        "first"
+      ],
+      "resources": [
+        "Picture cards: tin, tap, tiger, pot, pan, pen",
+        "Two baskets, one for t and one for p"
+      ],
+      "starter": "Show the two baskets and say \"One is for t and one is for p. Listen for the first sound.\"",
+      "teacherActivities": [
+        "Say \"tin\" and stress the first sound \"t-in\". Put the tin in the t basket.",
+        "Say \"pot\" and stress the first sound \"p-ot\". Put the pot in the p basket.",
+        "Say a word and let a child choose the basket.",
+        "Continue with all six cards."
+      ],
+      "learnerActivities": [
+        "Children listen and say t.",
+        "Children listen and say p.",
+        "Child chooses the t or p basket.",
+        "Children sort the cards with support."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"tin\" and stress the first sound \"t-in\". Put the tin in the t basket. Children: Children listen and say t.",
+        "Step 2. Teacher: Say \"pot\" and stress the first sound \"p-ot\". Put the pot in the p basket. Children: Children listen and say p.",
+        "Step 3. Teacher: Say a word and let a child choose the basket. Children: Child chooses the t or p basket.",
+        "Step 4. Teacher: Continue with all six cards. Children: Children sort the cards with support."
+      ],
+      "practical": {
+        "title": "T and p baskets",
+        "steps": [
+          "Put two baskets on the mat.",
+          "Each child picks a card and says the word.",
+          "Put the card in the t or the p basket."
+        ],
+        "safety": "Use large soft cards and supervise sorting. Make sure each child has a turn."
+      },
+      "differentiation": {
+        "support": "Say the first sound loudly and show the card for the child to place.",
+        "extension": "Ask the child to find a new t or p word in the room."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What sound does tin start with?",
+            "expected": "The sound t."
+          },
+          {
+            "question": "What sound does pot start with?",
+            "expected": "The sound p."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts pictures by first sound t or p with support",
+        "Says the first sound"
+      ],
+      "conclusion": "Count the cards in each basket and say t and p.",
+      "homeConnection": "Say a word and ask your child if it starts with t or p.",
+      "teacherReflection": [
+        "Which children could show \"hear whether a word starts with t or p\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TIN",
+          "TAP",
+          "POT",
+          "PAN"
+        ],
+        "pictures": [
+          "A tin",
+          "A tap",
+          "A pot",
+          "A pan"
+        ]
+      },
+      "activities": [
+        "T and p baskets"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W03-D04",
+      "title": "The t and p song",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 3,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Which sound do you hear first?",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sing a song about t and p and do the matching actions."
+      ],
+      "successCriteria": [
+        "Sings or hums the t and p song",
+        "Does tap or pop for each sound"
+      ],
+      "previousKnowledge": "Children can hear and say /s/ and /a/ and find objects that start with them.",
+      "vocabulary": [
+        "tap",
+        "tin",
+        "pot",
+        "pan",
+        "sound",
+        "first"
+      ],
+      "resources": [
+        "Picture cards: tap, pot",
+        "A drum",
+        "A scarf"
+      ],
+      "starter": "Say \"t, t, t\" and tap. Say \"p, p, p\" and pop. Ask \"Which one is it?\"",
+      "teacherActivities": [
+        "Sing \"Tap, tap, tap says t, t, t. Pop, pop, pop says p, p, p.\" Show the cards.",
+        "Sing again and do a tap action for t and a jump for p.",
+        "Say a sound and let children do the action.",
+        "Let a child lead and choose t or p."
+      ],
+      "learnerActivities": [
+        "Children listen and look at the cards.",
+        "Children copy the tap and the pop.",
+        "Child taps for t and pops for p.",
+        "Child leads and friends follow."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing \"Tap, tap, tap says t, t, t. Pop, pop, pop says p, p, p.\" Show the cards. Children: Children listen and look at the cards.",
+        "Step 2. Teacher: Sing again and do a tap action for t and a jump for p. Children: Children copy the tap and the pop.",
+        "Step 3. Teacher: Say a sound and let children do the action. Children: Child taps for t and pops for p.",
+        "Step 4. Teacher: Let a child lead and choose t or p. Children: Child leads and friends follow."
+      ],
+      "practical": {
+        "title": "Tap and pop game",
+        "steps": [
+          "Sit in a circle with the two picture cards.",
+          "Say t or p and children tap or pop.",
+          "Change the order faster each time."
+        ],
+        "safety": "Keep jumps small and soft. Clear the floor and rest if children are tired."
+      },
+      "differentiation": {
+        "support": "Do the action together and say the sound loudly.",
+        "extension": "Ask the child to choose a sound and lead the game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do for t?",
+            "expected": "Tap."
+          },
+          {
+            "question": "What do we do for p?",
+            "expected": "Pop."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Tells t from p with actions",
+        "Sings the song with actions"
+      ],
+      "conclusion": "Sing the song once quietly and wave goodbye.",
+      "homeConnection": "Play tap and pop at home: tap for t, pop for p.",
+      "teacherReflection": [
+        "Which children could show \"sing a song about t and p and do the matching actions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TAP – T",
+          "POP – P"
+        ],
+        "pictures": [
+          "A tap",
+          "A pot"
+        ],
+        "songOrRhyme": "Tap, tap, tap says t, t, t. Pop, pop, pop says p, p, p."
+      },
+      "activities": [
+        "Tap and pop game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W03-D05",
+      "title": "Week 3 t and p check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 3,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Which sound do you hear first?",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child hears and says /t/ and /p/."
+      ],
+      "successCriteria": [
+        "Says /t/ and /p/ clearly",
+        "Points to the right picture for t or p"
+      ],
+      "previousKnowledge": "Children can hear and say /s/ and /a/ and find objects that start with them.",
+      "vocabulary": [
+        "tap",
+        "tin",
+        "pot",
+        "pan",
+        "sound",
+        "first"
+      ],
+      "resources": [
+        "Picture cards",
+        "Two baskets",
+        "Class record sheet"
+      ],
+      "starter": "Say t and p and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: t sound, p sound and sorting.",
+        "At each station say a word and ask \"Is it t or p?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child says the sound or points.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: t sound, p sound and sorting. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station say a word and ask \"Is it t or p?\" Children: Child says the sound or points.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "T and p stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use large soft cards."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two pictures.",
+        "extension": "Ask a confident child to sort all six cards alone."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says /t/ clearly; says /p/ clearly; tells /t/ from /p/ with support.",
+        "questions": [
+          {
+            "question": "What sound does tap start with?",
+            "expected": "The sound t."
+          },
+          {
+            "question": "What sound does pan start with?",
+            "expected": "The sound p."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Says /t/ and /p/ clearly"
+      ],
+      "conclusion": "Wave goodbye with a t and a p.",
+      "homeConnection": "Play listening games with t and p at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child hears and says /t/ and /p/\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "T and P"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "T and p stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

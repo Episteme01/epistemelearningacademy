@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-TOD-LIT-T3-W08",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 3,
+  "week": 8,
+  "title": "My name and its first letter",
+  "topic": "Books and print",
+  "subtopics": [
+    "My name card",
+    "The first letter of my name",
+    "Names on things I own"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will recognise their name card and the first letter of their name.",
+    "Children will make marks to show their name with support."
+  ],
+  "vocabulary": [
+    "name",
+    "letter",
+    "first",
+    "mine",
+    "card",
+    "write"
+  ],
+  "content": "Recognising their name card and the first letter of their name, and making marks to show their name with support.",
+  "teachingActivities": "Always write names with a capital first letter and lower-case letters; use the child’s photo; point to the first letter and say its name and sound only for the four taught sounds; never ask a toddler to write their whole name; accept any mark as name-writing.",
+  "learnerActivities": "Recognise their name card and the first letter of their name and make marks to show their name with support.",
+  "resources": [
+    "Name cards with photos",
+    "Name labels for pegs and trays",
+    "A tray of sand",
+    "Crayons and paper",
+    "A mirror"
+  ],
+  "assessment": "Observe whether each child finds their name among several cards and points to the first letter with support.",
+  "expectedOutcomes": [
+    "Finds their name among several cards.",
+    "Points to the first letter of their name with support."
+  ],
+  "crossCurricular": [
+    "Personal, Social and Emotional Development: identity",
+    "Understanding the World: belongings",
+    "Physical Development: mark-making"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W08-D01",
+      "title": "Find my name",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 8,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Books and print",
+      "subtopic": "My name card",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will find their name card among several cards."
+      ],
+      "successCriteria": [
+        "Finds their own name card",
+        "Says their name"
+      ],
+      "previousKnowledge": "Children can find their name card, hear four sounds and make lines and circles.",
+      "vocabulary": [
+        "name",
+        "letter",
+        "first",
+        "mine",
+        "card",
+        "write"
+      ],
+      "resources": [
+        "Name cards with photos",
+        "A tray",
+        "A basket"
+      ],
+      "starter": "Hold up a name card and say \"Whose name is this?\" Let the children guess.",
+      "teacherActivities": [
+        "Show each name card and say the name. Point to the photo and the word.",
+        "Put five name cards on the floor and ask a child to find their own.",
+        "Take the photo away and ask again.",
+        "Let each child hold their card and say their name."
+      ],
+      "learnerActivities": [
+        "Children look and say the name.",
+        "Child finds their card.",
+        "Child finds their card by the word or first letter.",
+        "Child holds up the card and says the name."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each name card and say the name. Point to the photo and the word. Children: Children look and say the name.",
+        "Step 2. Teacher: Put five name cards on the floor and ask a child to find their own. Children: Child finds their card.",
+        "Step 3. Teacher: Take the photo away and ask again. Children: Child finds their card by the word or first letter.",
+        "Step 4. Teacher: Let each child hold their card and say their name. Children: Child holds up the card and says the name."
+      ],
+      "practical": {
+        "title": "Name hunt",
+        "steps": [
+          "Put five name cards on the floor.",
+          "Each child finds their own card.",
+          "Hold it up and say the name."
+        ],
+        "safety": "Keep the cards smooth and large. Return cards to the basket at the end."
+      },
+      "differentiation": {
+        "support": "Keep the photo and use only three cards.",
+        "extension": "Ask the child to find a friend’s name card without a photo."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is your name?",
+            "expected": "Child points to their card."
+          },
+          {
+            "question": "Whose name is this?",
+            "expected": "A friend’s name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds their own name card",
+        "Finds a friend’s name card with support"
+      ],
+      "conclusion": "Put the cards in the basket and say each name.",
+      "homeConnection": "Show your child their name written clearly and let them find it.",
+      "teacherReflection": [
+        "Which children could show \"find their name card among several cards\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MY NAME",
+          "Name card"
+        ],
+        "pictures": [
+          "A name card with a photo"
+        ]
+      },
+      "activities": [
+        "Name hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W08-D02",
+      "title": "The first letter",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 8,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Books and print",
+      "subtopic": "The first letter of my name",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will point to the first letter of their name."
+      ],
+      "successCriteria": [
+        "Points to the first letter of their name with support",
+        "Says that it is the start of their name"
+      ],
+      "previousKnowledge": "Children can find their name card, hear four sounds and make lines and circles.",
+      "vocabulary": [
+        "name",
+        "letter",
+        "first",
+        "mine",
+        "card",
+        "write"
+      ],
+      "resources": [
+        "Name cards",
+        "Counters",
+        "A pointer"
+      ],
+      "starter": "Say \"Look at the start of my name\" and point to the first letter on your name card.",
+      "teacherActivities": [
+        "Show a name card and put a counter under the first letter. Say \"This is where the name starts.\"",
+        "Give each child their card and put a counter under the first letter.",
+        "Ask \"Where does your name start?\"",
+        "For the taught sounds s, a, t and p say the sound if it matches."
+      ],
+      "learnerActivities": [
+        "Children look at the first letter.",
+        "Child touches the first letter.",
+        "Child points to the first letter.",
+        "Child says the sound."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a name card and put a counter under the first letter. Say \"This is where the name starts.\" Children: Children look at the first letter.",
+        "Step 2. Teacher: Give each child their card and put a counter under the first letter. Children: Child touches the first letter.",
+        "Step 3. Teacher: Ask \"Where does your name start?\" Children: Child points to the first letter.",
+        "Step 4. Teacher: For the taught sounds s, a, t and p say the sound if it matches. Children: Child says the sound."
+      ],
+      "practical": {
+        "title": "Where it starts",
+        "steps": [
+          "Give each child their name card.",
+          "Find the first letter with a pointer.",
+          "Put a counter under the first letter."
+        ],
+        "safety": "Use large counters that cannot be swallowed. Supervise counters and put them away after."
+      },
+      "differentiation": {
+        "support": "Put a counter under the letter and point together.",
+        "extension": "Ask the child to find a friend whose name starts with the same letter."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does your name start?",
+            "expected": "Child points to the first letter."
+          },
+          {
+            "question": "Is it a big letter?",
+            "expected": "Yes, with a nod."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Points to the first letter of their name",
+        "Knows it is where the name starts"
+      ],
+      "conclusion": "Put the counters away and say each name.",
+      "homeConnection": "Point to the first letter of your child’s name when you write it.",
+      "teacherReflection": [
+        "Which children could show \"point to the first letter of their name\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIRST LETTER"
+        ],
+        "pictures": [
+          "A name card with the first letter marked"
+        ]
+      },
+      "activities": [
+        "Where it starts"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W08-D03",
+      "title": "Names on my things",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 8,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Books and print",
+      "subtopic": "Names on things I own",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will find their name on their peg, tray and belongings."
+      ],
+      "successCriteria": [
+        "Finds their name on a peg or tray",
+        "Says that it belongs to them"
+      ],
+      "previousKnowledge": "Children can find their name card, hear four sounds and make lines and circles.",
+      "vocabulary": [
+        "name",
+        "letter",
+        "first",
+        "mine",
+        "card",
+        "write"
+      ],
+      "resources": [
+        "Name labels on pegs and trays",
+        "A bag and a water bottle with names",
+        "A basket"
+      ],
+      "starter": "Hold up a bag with a name label and say \"Whose bag is this? It has a name on it.\"",
+      "teacherActivities": [
+        "Show a peg with a name label and say \"This is Tola’s peg.\"",
+        "Ask each child to find their peg or tray.",
+        "Put names on cups and bags and ask \"Whose is this?\"",
+        "Let each child put their bag on their peg."
+      ],
+      "learnerActivities": [
+        "Children look at the label.",
+        "Child finds their peg.",
+        "Child says \"mine\" or the name.",
+        "Child puts their bag on their peg."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a peg with a name label and say \"This is Tola’s peg.\" Children: Children look at the label.",
+        "Step 2. Teacher: Ask each child to find their peg or tray. Children: Child finds their peg.",
+        "Step 3. Teacher: Put names on cups and bags and ask \"Whose is this?\" Children: Child says \"mine\" or the name.",
+        "Step 4. Teacher: Let each child put their bag on their peg. Children: Child puts their bag on their peg."
+      ],
+      "practical": {
+        "title": "My peg",
+        "steps": [
+          "Find your name on a peg.",
+          "Put your bag on your peg.",
+          "Find your name on your tray."
+        ],
+        "safety": "Make sure pegs are at child height and clear of sharp edges. Supervise movement."
+      },
+      "differentiation": {
+        "support": "Walk with the child to the peg and point to the name.",
+        "extension": "Ask the child to find a friend’s peg and say whose it is."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which is your peg?",
+            "expected": "Child points to their peg."
+          },
+          {
+            "question": "Whose bag is this?",
+            "expected": "A name or mine."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds their name on belongings",
+        "Says mine and the name"
+      ],
+      "conclusion": "Put all bags back on pegs and say each name.",
+      "homeConnection": "Label your child’s things at home with their name.",
+      "teacherReflection": [
+        "Which children could show \"find their name on their peg, tray and belongings\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MINE",
+          "MY PEG"
+        ],
+        "pictures": [
+          "A peg with a name label"
+        ]
+      },
+      "activities": [
+        "My peg"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W08-D04",
+      "title": "Marks for my name",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 8,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Books and print",
+      "subtopic": "The first letter of my name",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will make marks to show their name with support."
+      ],
+      "successCriteria": [
+        "Makes marks on paper to show their name",
+        "Shows their marks to a friend"
+      ],
+      "previousKnowledge": "Children can find their name card, hear four sounds and make lines and circles.",
+      "vocabulary": [
+        "name",
+        "letter",
+        "first",
+        "mine",
+        "card",
+        "write"
+      ],
+      "resources": [
+        "Large paper",
+        "Fat crayons",
+        "Name cards",
+        "A tray of sand"
+      ],
+      "starter": "Say \"We can make marks to show our names.\" Make a mark and say \"This is my name.\"",
+      "teacherActivities": [
+        "Show a name card and say \"I can make marks like my name.\"",
+        "Give each child paper and a crayon and say \"Make marks for your name.\"",
+        "Write the child’s name neatly beside their marks and say it.",
+        "Let the children show their marks to a friend."
+      ],
+      "learnerActivities": [
+        "Children look at the card.",
+        "Child makes marks on paper.",
+        "Child watches and says their name.",
+        "Child shows and says the name."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a name card and say \"I can make marks like my name.\" Children: Children look at the card.",
+        "Step 2. Teacher: Give each child paper and a crayon and say \"Make marks for your name.\" Children: Child makes marks on paper.",
+        "Step 3. Teacher: Write the child’s name neatly beside their marks and say it. Children: Child watches and says their name.",
+        "Step 4. Teacher: Let the children show their marks to a friend. Children: Child shows and says the name."
+      ],
+      "practical": {
+        "title": "Name marks",
+        "steps": [
+          "Give each child paper and a crayon.",
+          "Make marks for their name.",
+          "The teacher writes the name beside it."
+        ],
+        "safety": "Accept any mark as a name and do not correct. Keep crayons out of mouths and supervise sharing."
+      },
+      "differentiation": {
+        "support": "Hold the crayon together and make marks.",
+        "extension": "Ask the child to find the first letter on their name card and copy it with a finger."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What are your marks?",
+            "expected": "My name."
+          },
+          {
+            "question": "Can you show a friend?",
+            "expected": "Child shows their marks."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes marks to show their name",
+        "Shows their marks to a friend"
+      ],
+      "conclusion": "Display the name marks on the wall and say \"Well done.\"",
+      "homeConnection": "Let your child make marks to show their name on a card or a drawing.",
+      "teacherReflection": [
+        "Which children could show \"make marks to show their name with support\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MY MARKS"
+        ],
+        "pictures": [
+          "A child’s name marks"
+        ]
+      },
+      "activities": [
+        "Name marks"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W08-D05",
+      "title": "Week 8 name check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 8,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Books and print",
+      "subtopic": "My name card",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child finds and talks about their name."
+      ],
+      "successCriteria": [
+        "Finds their name among several cards",
+        "Points to the first letter with support"
+      ],
+      "previousKnowledge": "Children can find their name card, hear four sounds and make lines and circles.",
+      "vocabulary": [
+        "name",
+        "letter",
+        "first",
+        "mine",
+        "card",
+        "write"
+      ],
+      "resources": [
+        "Name cards",
+        "Pegs and labels",
+        "Crayons and paper",
+        "Class record sheet"
+      ],
+      "starter": "Say \"Where is your name?\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: name cards, pegs and name marks.",
+        "At each station ask the child to find their name.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child finds their name.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: name cards, pegs and name marks. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask the child to find their name. Children: Child finds their name.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Name stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use large cards and soft crayons."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and keep the photo.",
+        "extension": "Ask a confident child to find a friend’s name."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: finds their name among cards; points to the first letter; makes marks for their name.",
+        "questions": [
+          {
+            "question": "Where is your name?",
+            "expected": "Child points to their name."
+          },
+          {
+            "question": "Where does it start?",
+            "expected": "The first letter."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Finds their name among several cards"
+      ],
+      "conclusion": "Wave goodbye and say each child’s name.",
+      "homeConnection": "Let your child find their name at home on labels.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child finds and talks about their name\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Names"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Name stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

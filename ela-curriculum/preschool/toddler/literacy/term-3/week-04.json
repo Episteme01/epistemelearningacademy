@@ -1,0 +1,604 @@
+{
+  "id": "ELA-PS-TOD-LIT-T3-W04",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 3,
+  "week": 4,
+  "title": "Sound games with s, a, t, p",
+  "topic": "First sounds",
+  "subtopics": [
+    "Sound hunt",
+    "Sound sorting",
+    "Sound bingo"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will play games with the sounds /s/ /a/ /t/ /p/.",
+    "Children will sort objects by their first sound with support."
+  ],
+  "vocabulary": [
+    "sun",
+    "ant",
+    "tap",
+    "pot",
+    "sort",
+    "sound"
+  ],
+  "content": "Playing games with the four sounds: a sound hunt, sorting by first sound and sound bingo.",
+  "teachingActivities": "Keep every game playful; say the sound first before showing the picture; always use pure sounds; accept a point or a sound; keep the number of choices small for children who find it hard.",
+  "learnerActivities": "Play games with /s/ /a/ /t/ /p/ and sort objects by their first sound with support.",
+  "resources": [
+    "Objects and pictures for s, a, t and p",
+    "Four baskets labelled with a picture",
+    "Sound bingo cards",
+    "Counters"
+  ],
+  "assessment": "Observe whether each child says at least two of the four sounds and sorts by first sound with support.",
+  "expectedOutcomes": [
+    "Sorts pictures by first sound with support.",
+    "Says at least two of the four sounds."
+  ],
+  "crossCurricular": [
+    "Mathematics: sorting",
+    "Music: sound songs",
+    "Social Habits: taking turns in games"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W04-D01",
+      "title": "Four sounds hunt",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Sound hunt",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will find objects that start with the four sounds in a hunt."
+      ],
+      "successCriteria": [
+        "Finds an object and says its first sound",
+        "Names at least two of the sounds"
+      ],
+      "previousKnowledge": "Children can hear and say /s/, /a/, /t/ and /p/ and find objects that start with each.",
+      "vocabulary": [
+        "sun",
+        "ant",
+        "tap",
+        "pot",
+        "sort",
+        "sound"
+      ],
+      "resources": [
+        "Eight objects: sun, sock, ant, apple, tap, tin, pot, pan",
+        "Four baskets with picture labels",
+        "A bag"
+      ],
+      "starter": "Say \"sss, a, t, p. Four sounds. Let us hunt for things that start with them.\" Show the baskets.",
+      "teacherActivities": [
+        "Show each basket and say its sound: sss for the snake, a for the ant, t for the tap, p for the pot.",
+        "Hide the eight objects in easy places in the room.",
+        "Say \"Find something\" and let each child bring one object to the mat.",
+        "Say the word, then the first sound, then put it in the matching basket."
+      ],
+      "learnerActivities": [
+        "Children say each sound.",
+        "Children watch.",
+        "Child finds an object.",
+        "Child says the first sound and places it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each basket and say its sound: sss for the snake, a for the ant, t for the tap, p for the pot. Children: Children say each sound.",
+        "Step 2. Teacher: Hide the eight objects in easy places in the room. Children: Children watch.",
+        "Step 3. Teacher: Say \"Find something\" and let each child bring one object to the mat. Children: Child finds an object.",
+        "Step 4. Teacher: Say the word, then the first sound, then put it in the matching basket. Children: Child says the first sound and places it."
+      ],
+      "practical": {
+        "title": "Sound hunt",
+        "steps": [
+          "Hide eight objects in easy places.",
+          "Each child finds one object.",
+          "Say the first sound and put it in the right basket."
+        ],
+        "safety": "Hide objects in clear, low places away from hazards. Supervise the search and keep children together."
+      },
+      "differentiation": {
+        "support": "Use two baskets only and say the sound with the child.",
+        "extension": "Ask the child to find two objects for the same basket."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What sound does sun start with?",
+            "expected": "Sss."
+          },
+          {
+            "question": "Which basket does apple go in?",
+            "expected": "The a basket."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds and sorts objects by first sound with support",
+        "Says at least two of the sounds"
+      ],
+      "conclusion": "Count the objects in each basket and say the sounds.",
+      "homeConnection": "Hunt for things at home that start with sss, a, t or p.",
+      "teacherReflection": [
+        "Which children could show \"find objects that start with the four sounds in a hunt\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "S  A  T  P"
+        ],
+        "pictures": [
+          "A snake",
+          "An ant",
+          "A tap",
+          "A pot"
+        ]
+      },
+      "activities": [
+        "Sound hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W04-D02",
+      "title": "Sorting by sound",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Sound sorting",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will sort pictures by their first sound."
+      ],
+      "successCriteria": [
+        "Puts a picture in the right sound basket",
+        "Says the first sound"
+      ],
+      "previousKnowledge": "Children can hear and say /s/, /a/, /t/ and /p/ and find objects that start with each.",
+      "vocabulary": [
+        "sun",
+        "ant",
+        "tap",
+        "pot",
+        "sort",
+        "sound"
+      ],
+      "resources": [
+        "Picture cards for each of the four sounds",
+        "Four baskets",
+        "A mat"
+      ],
+      "starter": "Say \"I have pictures. Which sound do they start with? Let us sort them.\"",
+      "teacherActivities": [
+        "Pick a card, say the word and its first sound, and put it in the right basket.",
+        "Pick another card and ask \"Which basket?\"",
+        "Let each child pick a card and sort it.",
+        "Check each basket together by saying the words."
+      ],
+      "learnerActivities": [
+        "Children say the first sound.",
+        "Child points to the basket.",
+        "Child sorts the card and says the sound.",
+        "Children say the words and the sound."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pick a card, say the word and its first sound, and put it in the right basket. Children: Children say the first sound.",
+        "Step 2. Teacher: Pick another card and ask \"Which basket?\" Children: Child points to the basket.",
+        "Step 3. Teacher: Let each child pick a card and sort it. Children: Child sorts the card and says the sound.",
+        "Step 4. Teacher: Check each basket together by saying the words. Children: Children say the words and the sound."
+      ],
+      "practical": {
+        "title": "Sound sort",
+        "steps": [
+          "Put four baskets on the mat.",
+          "Each child picks a card and says its first sound.",
+          "Put it in the right basket."
+        ],
+        "safety": "Use large soft cards. Keep children seated with room to reach and supervise turns."
+      },
+      "differentiation": {
+        "support": "Offer two baskets and say the sound very clearly.",
+        "extension": "Ask the child to sort five cards without help."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which basket does tin go in?",
+            "expected": "The t basket."
+          },
+          {
+            "question": "What sound does pan start with?",
+            "expected": "The sound p."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts pictures by first sound with support",
+        "Says the first sound"
+      ],
+      "conclusion": "Put the cards away and say each sound.",
+      "homeConnection": "Sort toys by their first sound at home.",
+      "teacherReflection": [
+        "Which children could show \"sort pictures by their first sound\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SORT BY SOUND"
+        ],
+        "pictures": [
+          "Four baskets with pictures"
+        ]
+      },
+      "activities": [
+        "Sound sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W04-D03",
+      "title": "Sound bingo",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Sound bingo",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will play a simple bingo game with the four sounds."
+      ],
+      "successCriteria": [
+        "Listens to the sound",
+        "Covers the matching picture on the card"
+      ],
+      "previousKnowledge": "Children can hear and say /s/, /a/, /t/ and /p/ and find objects that start with each.",
+      "vocabulary": [
+        "sun",
+        "ant",
+        "tap",
+        "pot",
+        "sort",
+        "sound"
+      ],
+      "resources": [
+        "Bingo cards with four pictures each",
+        "Counters",
+        "Picture cards to call"
+      ],
+      "starter": "Show a bingo card and say \"I will say a sound. You cover the picture.\"",
+      "teacherActivities": [
+        "Say \"sss\" and ask the children to cover the snake picture with a counter.",
+        "Say \"a\" and ask them to cover the ant picture.",
+        "Continue with t and p.",
+        "Let a child say a sound and the others cover."
+      ],
+      "learnerActivities": [
+        "Children cover the picture.",
+        "Children cover the picture.",
+        "Children cover each picture as they hear the sound.",
+        "Child calls a sound and friends cover."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"sss\" and ask the children to cover the snake picture with a counter. Children: Children cover the picture.",
+        "Step 2. Teacher: Say \"a\" and ask them to cover the ant picture. Children: Children cover the picture.",
+        "Step 3. Teacher: Continue with t and p. Children: Children cover each picture as they hear the sound.",
+        "Step 4. Teacher: Let a child say a sound and the others cover. Children: Child calls a sound and friends cover."
+      ],
+      "practical": {
+        "title": "Sound bingo",
+        "steps": [
+          "Give each child a card and counters.",
+          "Say a sound and children cover the picture.",
+          "Play until the card is covered."
+        ],
+        "safety": "Use large counters that cannot be swallowed or use stickers. Supervise counters closely."
+      },
+      "differentiation": {
+        "support": "Use a card with two pictures and help cover the picture.",
+        "extension": "Ask the child to call the sounds for a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which picture do you cover for t?",
+            "expected": "The tap."
+          },
+          {
+            "question": "What sound is the ant?",
+            "expected": "The sound a."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches sounds to pictures in a game",
+        "Says some of the four sounds"
+      ],
+      "conclusion": "Count the covered pictures together and clap.",
+      "homeConnection": "Play bingo at home with pictures and the four sounds.",
+      "teacherReflection": [
+        "Which children could show \"play a simple bingo game with the four sounds\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BINGO",
+          "S  A  T  P"
+        ],
+        "pictures": [
+          "A bingo card"
+        ]
+      },
+      "activities": [
+        "Sound bingo"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W04-D04",
+      "title": "Sound song and actions",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Sound sorting",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will sing a song with all four sounds and their actions."
+      ],
+      "successCriteria": [
+        "Does the right action for each sound",
+        "Says at least two sounds"
+      ],
+      "previousKnowledge": "Children can hear and say /s/, /a/, /t/ and /p/ and find objects that start with each.",
+      "vocabulary": [
+        "sun",
+        "ant",
+        "tap",
+        "pot",
+        "sort",
+        "sound"
+      ],
+      "resources": [
+        "Picture cards: snake, ant, tap, pot",
+        "A scarf",
+        "A drum"
+      ],
+      "starter": "Show the four cards and say \"Sss for snake. A for ant. T for tap. P for pot.\"",
+      "teacherActivities": [
+        "Sing \"Sss for snake, a for ant, t for tap, p for pot\" and show each card.",
+        "Sing again and do each action: wiggle, crawl, tap, pop.",
+        "Say a sound and let children do the action.",
+        "Let a child choose a card and lead."
+      ],
+      "learnerActivities": [
+        "Children listen and look.",
+        "Children do each action.",
+        "Child does the matching action.",
+        "Child leads and friends follow."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing \"Sss for snake, a for ant, t for tap, p for pot\" and show each card. Children: Children listen and look.",
+        "Step 2. Teacher: Sing again and do each action: wiggle, crawl, tap, pop. Children: Children do each action.",
+        "Step 3. Teacher: Say a sound and let children do the action. Children: Child does the matching action.",
+        "Step 4. Teacher: Let a child choose a card and lead. Children: Child leads and friends follow."
+      ],
+      "practical": {
+        "title": "Four sounds game",
+        "steps": [
+          "Stand in a circle with space.",
+          "Say a sound and everyone does the action.",
+          "Increase the speed gently."
+        ],
+        "safety": "Clear the floor and keep movements small. Stop when children are tired."
+      },
+      "differentiation": {
+        "support": "Do the actions together and say the sound very clearly.",
+        "extension": "Ask the child to lead the game by choosing the next sound."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do for sss?",
+            "expected": "Wiggle like a snake."
+          },
+          {
+            "question": "What do we do for p?",
+            "expected": "Pop."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Links four sounds to actions",
+        "Sings the song with actions"
+      ],
+      "conclusion": "Sing quietly and wave goodbye to the four sounds.",
+      "homeConnection": "Do the four sound actions at home with your child.",
+      "teacherReflection": [
+        "Which children could show \"sing a song with all four sounds and their actions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SSS",
+          "ANT",
+          "TAP",
+          "POP"
+        ],
+        "pictures": [
+          "A snake",
+          "An ant",
+          "A tap",
+          "A pot"
+        ],
+        "songOrRhyme": "Sss for snake, a for ant, t for tap, p for pot."
+      },
+      "activities": [
+        "Four sounds game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W04-D05",
+      "title": "Week 4 four sounds check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "First sounds",
+      "subtopic": "Sound hunt",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child hears, says and sorts the four sounds."
+      ],
+      "successCriteria": [
+        "Says at least two of the four sounds",
+        "Sorts by first sound with support"
+      ],
+      "previousKnowledge": "Children can hear and say /s/, /a/, /t/ and /p/ and find objects that start with each.",
+      "vocabulary": [
+        "sun",
+        "ant",
+        "tap",
+        "pot",
+        "sort",
+        "sound"
+      ],
+      "resources": [
+        "Objects and pictures",
+        "Baskets",
+        "Bingo cards",
+        "Class record sheet"
+      ],
+      "starter": "Say \"sss, a, t, p\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: sort, bingo and hunt.",
+        "At each station ask \"What sound?\" and watch what the child can do.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child says the sound or points.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: sort, bingo and hunt. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What sound?\" and watch what the child can do. Children: Child says the sound or points.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Four sound stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use large soft cards and counters."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two sounds.",
+        "extension": "Ask a confident child to teach a friend a sound."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says /s/ /a/ /t/ /p/; sorts by first sound with support; plays the sound games.",
+        "questions": [
+          {
+            "question": "What sound does sun start with?",
+            "expected": "Sss."
+          },
+          {
+            "question": "What sound does pot start with?",
+            "expected": "The sound p."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Says at least two of the sounds"
+      ],
+      "conclusion": "Wave goodbye to the four sounds.",
+      "homeConnection": "Play sound games at home with sss, a, t and p.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child hears, says and sorts the four sounds\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "S A T P"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Four sound stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

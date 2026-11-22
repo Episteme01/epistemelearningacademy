@@ -1,0 +1,607 @@
+{
+  "id": "ELA-PS-TOD-LIT-T3-W05",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 3,
+  "week": 5,
+  "title": "Lines and patterns",
+  "topic": "Pre-writing",
+  "subtopics": [
+    "Straight lines up and down",
+    "Round and curly patterns",
+    "Zigzag and wave"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will make straight lines, circles and zigzags in sand, paint and on paper.",
+    "Children will copy a simple pattern with support."
+  ],
+  "vocabulary": [
+    "line",
+    "circle",
+    "zigzag",
+    "wave",
+    "up",
+    "down"
+  ],
+  "content": "Making straight lines up and down, round and curly patterns, and zigzag and wave patterns in sand, paint and on paper.",
+  "teachingActivities": "Draw big in the air first, then on large surfaces; say a rhyme for each pattern; never correct pencil grip or correct the direction; let children use whole arm movements; do not teach letter formation.",
+  "learnerActivities": "Make straight lines, circles and zigzags in sand, paint and on paper and copy a simple pattern with support.",
+  "resources": [
+    "A tray of sand or flour",
+    "Paint and large brushes",
+    "Large paper",
+    "Fat crayons",
+    "Chalk",
+    "Ribbon sticks"
+  ],
+  "assessment": "Observe whether each child makes straight and round marks on purpose and copies a simple pattern.",
+  "expectedOutcomes": [
+    "Makes straight and round marks on purpose.",
+    "Copies a simple pattern."
+  ],
+  "crossCurricular": [
+    "Creative Development: pattern and art",
+    "Physical Development: gross and fine motor",
+    "Mathematics: shape and pattern"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W05-D01",
+      "title": "Lines up and down",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 5,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Pre-writing",
+      "subtopic": "Straight lines up and down",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will make straight lines up and down and across."
+      ],
+      "successCriteria": [
+        "Makes a line up and down",
+        "Makes a line across"
+      ],
+      "previousKnowledge": "Children can make marks with fingers, chalk and crayons and have been listening to the sounds s, a, t and p.",
+      "vocabulary": [
+        "line",
+        "circle",
+        "zigzag",
+        "wave",
+        "up",
+        "down"
+      ],
+      "resources": [
+        "A tray of sand",
+        "A ribbon stick for each child",
+        "Large paper",
+        "Fat crayons"
+      ],
+      "starter": "Draw a straight line in the air from top to bottom and say \"Down, down, down.\" Draw across and say \"Across.\"",
+      "teacherActivities": [
+        "Draw a line in the air and say \"up\" and \"down\". Do it slowly.",
+        "Give each child a ribbon stick and draw lines in the air.",
+        "Draw lines in the sand: down, up and across.",
+        "Give crayons and large paper and let the children draw lines."
+      ],
+      "learnerActivities": [
+        "Children draw the line in the air with a finger.",
+        "Children make lines with the ribbon.",
+        "Child makes lines in the sand with a finger.",
+        "Child makes lines on paper."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Draw a line in the air and say \"up\" and \"down\". Do it slowly. Children: Children draw the line in the air with a finger.",
+        "Step 2. Teacher: Give each child a ribbon stick and draw lines in the air. Children: Children make lines with the ribbon.",
+        "Step 3. Teacher: Draw lines in the sand: down, up and across. Children: Child makes lines in the sand with a finger.",
+        "Step 4. Teacher: Give crayons and large paper and let the children draw lines. Children: Child makes lines on paper."
+      ],
+      "practical": {
+        "title": "Line drawing",
+        "steps": [
+          "Draw lines in the air with ribbons.",
+          "Make lines in the sand with a finger.",
+          "Draw lines on large paper with crayons."
+        ],
+        "safety": "Use ribbon sticks with soft ends and keep children apart. Supervise sand and crayons and wash hands after."
+      },
+      "differentiation": {
+        "support": "Move the child’s hand to make the line together.",
+        "extension": "Ask the child to draw five straight lines and count them."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you draw a line down?",
+            "expected": "Child draws a line down."
+          },
+          {
+            "question": "Can you draw a line across?",
+            "expected": "Child draws across."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes straight lines on purpose",
+        "Uses arm movement"
+      ],
+      "conclusion": "Smooth the sand and wipe hands.",
+      "homeConnection": "Draw lines in sand or flour with your child at home.",
+      "teacherReflection": [
+        "Which children could show \"make straight lines up and down and across\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DOWN",
+          "ACROSS",
+          "UP again"
+        ],
+        "pictures": [
+          "A line going down",
+          "A line across"
+        ],
+        "songOrRhyme": "Down, down, down, across, across, across."
+      },
+      "activities": [
+        "Line drawing"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W05-D02",
+      "title": "Circles and curls",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 5,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Pre-writing",
+      "subtopic": "Round and curly patterns",
+      "dayType": "explore",
+      "objectives": [
+        "Children will make round and curly patterns."
+      ],
+      "successCriteria": [
+        "Makes a circle shape",
+        "Makes a curly line"
+      ],
+      "previousKnowledge": "Children can make marks with fingers, chalk and crayons and have been listening to the sounds s, a, t and p.",
+      "vocabulary": [
+        "line",
+        "circle",
+        "zigzag",
+        "wave",
+        "up",
+        "down"
+      ],
+      "resources": [
+        "Paint and large brushes",
+        "Large paper",
+        "Chalk",
+        "A tray of flour"
+      ],
+      "starter": "Draw a big circle in the air and say \"Round and round.\" Draw a curl and say \"Curly, curly.\"",
+      "teacherActivities": [
+        "Draw big circles in the air with your arm and say \"Round and round\".",
+        "Draw a circle in the flour tray with a finger.",
+        "Give paint and brushes and let the children paint circles and curls.",
+        "Draw a spiral and say \"Round and round to the middle.\""
+      ],
+      "learnerActivities": [
+        "Children draw circles in the air.",
+        "Child draws a circle in the flour.",
+        "Child paints round shapes.",
+        "Child copies the spiral with a finger."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Draw big circles in the air with your arm and say \"Round and round\". Children: Children draw circles in the air.",
+        "Step 2. Teacher: Draw a circle in the flour tray with a finger. Children: Child draws a circle in the flour.",
+        "Step 3. Teacher: Give paint and brushes and let the children paint circles and curls. Children: Child paints round shapes.",
+        "Step 4. Teacher: Draw a spiral and say \"Round and round to the middle.\" Children: Child copies the spiral with a finger."
+      ],
+      "practical": {
+        "title": "Round and round",
+        "steps": [
+          "Draw circles in the air.",
+          "Draw circles in flour.",
+          "Paint circles on large paper."
+        ],
+        "safety": "Use washable paint and aprons and keep paint off faces. Supervise brushes and wash hands after."
+      },
+      "differentiation": {
+        "support": "Move the child’s hand in a circle together.",
+        "extension": "Ask the child to draw a spiral and a circle."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you draw a circle?",
+            "expected": "Child draws a round shape."
+          },
+          {
+            "question": "What shape is this?",
+            "expected": "A circle."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes round shapes on purpose",
+        "Makes curly lines"
+      ],
+      "conclusion": "Clean up the paint and look at the circles on the wall.",
+      "homeConnection": "Draw circles with a finger in sand or with a crayon at home.",
+      "teacherReflection": [
+        "Which children could show \"make round and curly patterns\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CIRCLE",
+          "CURL"
+        ],
+        "pictures": [
+          "A circle",
+          "A curl"
+        ]
+      },
+      "activities": [
+        "Round and round"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W05-D03",
+      "title": "Zigzag and wave",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 5,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Pre-writing",
+      "subtopic": "Zigzag and wave",
+      "dayType": "explore",
+      "objectives": [
+        "Children will make zigzag and wave patterns."
+      ],
+      "successCriteria": [
+        "Makes a zigzag line",
+        "Makes a wave line"
+      ],
+      "previousKnowledge": "Children can make marks with fingers, chalk and crayons and have been listening to the sounds s, a, t and p.",
+      "vocabulary": [
+        "line",
+        "circle",
+        "zigzag",
+        "wave",
+        "up",
+        "down"
+      ],
+      "resources": [
+        "Chalk",
+        "Fat crayons",
+        "Large paper",
+        "A scarf"
+      ],
+      "starter": "Draw a zigzag in the air and say \"Zig, zag, zig, zag.\" Draw a wave and say \"Up and down like the sea.\"",
+      "teacherActivities": [
+        "Draw a zigzag in the air and let children copy.",
+        "Draw a wave in the air and let children copy.",
+        "Draw zigzags and waves with chalk on the ground or on paper.",
+        "Wave a scarf like a sea wave and move to music."
+      ],
+      "learnerActivities": [
+        "Children draw zigzags in the air.",
+        "Children draw waves in the air.",
+        "Child draws zigzags and waves.",
+        "Children wave the scarf up and down."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Draw a zigzag in the air and let children copy. Children: Children draw zigzags in the air.",
+        "Step 2. Teacher: Draw a wave in the air and let children copy. Children: Children draw waves in the air.",
+        "Step 3. Teacher: Draw zigzags and waves with chalk on the ground or on paper. Children: Child draws zigzags and waves.",
+        "Step 4. Teacher: Wave a scarf like a sea wave and move to music. Children: Children wave the scarf up and down."
+      ],
+      "practical": {
+        "title": "Zig and wave",
+        "steps": [
+          "Draw zigzags and waves in the air.",
+          "Draw them with chalk on a safe surface.",
+          "Draw them on large paper with crayons."
+        ],
+        "safety": "Use chalk on a paved area away from roads and wash hands after. Keep scarves soft and children apart."
+      },
+      "differentiation": {
+        "support": "Move the child’s hand along the zigzag together.",
+        "extension": "Ask the child to draw a zigzag and a wave side by side."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you make a zigzag?",
+            "expected": "Child draws a zigzag."
+          },
+          {
+            "question": "What does a wave look like?",
+            "expected": "Up and down like the sea."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes zigzags and waves",
+        "Copies a pattern with support"
+      ],
+      "conclusion": "Wave the scarf slowly and put it away.",
+      "homeConnection": "Draw zigzags and waves in sand or with chalk at home.",
+      "teacherReflection": [
+        "Which children could show \"make zigzag and wave patterns\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ZIGZAG",
+          "WAVE"
+        ],
+        "pictures": [
+          "A zigzag line",
+          "A wave line"
+        ]
+      },
+      "activities": [
+        "Zig and wave"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W05-D04",
+      "title": "Copy my pattern",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 5,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Pre-writing",
+      "subtopic": "Round and curly patterns",
+      "dayType": "practise",
+      "objectives": [
+        "Children will copy a simple pattern made of lines and circles."
+      ],
+      "successCriteria": [
+        "Copies a line and circle pattern",
+        "Tells about their pattern"
+      ],
+      "previousKnowledge": "Children can make marks with fingers, chalk and crayons and have been listening to the sounds s, a, t and p.",
+      "vocabulary": [
+        "line",
+        "circle",
+        "zigzag",
+        "wave",
+        "up",
+        "down"
+      ],
+      "resources": [
+        "Large paper",
+        "Fat crayons",
+        "A pattern card with a line and a circle",
+        "Chalk"
+      ],
+      "starter": "Draw a line, a circle, a line, a circle. Say \"I made a pattern. Can you copy it?\"",
+      "teacherActivities": [
+        "Draw a pattern slowly: line, circle, line, circle.",
+        "Say \"Now you make it\" and give each child a crayon.",
+        "Ask \"Tell me about your pattern.\"",
+        "Display the patterns together."
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child draws a pattern on paper.",
+        "Child says a word or shows.",
+        "Child shows their pattern to a friend."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Draw a pattern slowly: line, circle, line, circle. Children: Children watch.",
+        "Step 2. Teacher: Say \"Now you make it\" and give each child a crayon. Children: Child draws a pattern on paper.",
+        "Step 3. Teacher: Ask \"Tell me about your pattern.\" Children: Child says a word or shows.",
+        "Step 4. Teacher: Display the patterns together. Children: Child shows their pattern to a friend."
+      ],
+      "practical": {
+        "title": "Pattern making",
+        "steps": [
+          "Show a simple pattern card.",
+          "Each child copies the pattern with a crayon.",
+          "Show the pattern to a friend."
+        ],
+        "safety": "Use non-toxic crayons and keep crayons out of mouths. Supervise sharing."
+      },
+      "differentiation": {
+        "support": "Draw the first part of the pattern and let the child continue.",
+        "extension": "Ask the child to make a new pattern with three shapes."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is in your pattern?",
+            "expected": "Lines and circles."
+          },
+          {
+            "question": "Can you make it again?",
+            "expected": "Child draws the pattern."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Copies a simple pattern with support",
+        "Talks about their pattern"
+      ],
+      "conclusion": "Hang the patterns on the wall and say \"Well done.\"",
+      "homeConnection": "Draw a simple pattern at home and let your child copy it.",
+      "teacherReflection": [
+        "Which children could show \"copy a simple pattern made of lines and circles\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PATTERN"
+        ],
+        "pictures": [
+          "A line and circle pattern"
+        ]
+      },
+      "activities": [
+        "Pattern making"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W05-D05",
+      "title": "Week 5 patterns check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 5,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Pre-writing",
+      "subtopic": "Round and curly patterns",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child makes lines and patterns."
+      ],
+      "successCriteria": [
+        "Makes straight and round marks on purpose",
+        "Copies a simple pattern"
+      ],
+      "previousKnowledge": "Children can make marks with fingers, chalk and crayons and have been listening to the sounds s, a, t and p.",
+      "vocabulary": [
+        "line",
+        "circle",
+        "zigzag",
+        "wave",
+        "up",
+        "down"
+      ],
+      "resources": [
+        "Sand tray",
+        "Paint and paper",
+        "Crayons",
+        "Class record sheet"
+      ],
+      "starter": "Draw a big line in the air and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: sand, paint and crayons.",
+        "At each station watch what marks the child makes.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child makes lines, circles and zigzags.",
+        "Children wash hands and tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: sand, paint and crayons. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station watch what marks the child makes. Children: Child makes lines, circles and zigzags.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy at the signal."
+      ],
+      "practical": {
+        "title": "Pattern stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise paint and sand closely. Use washable paint and wash hands after each station."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and offer one tool.",
+        "extension": "Ask a confident child to make a pattern for friends to copy."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: makes straight lines; makes circles; copies a simple pattern.",
+        "questions": [
+          {
+            "question": "Can you make a line?",
+            "expected": "Child makes a line."
+          },
+          {
+            "question": "Can you make a circle?",
+            "expected": "Child makes a circle."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Makes lines and circles on purpose"
+      ],
+      "conclusion": "Wash hands and say goodbye.",
+      "homeConnection": "Make patterns in sand or flour at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child makes lines and patterns\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Patterns"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Pattern stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

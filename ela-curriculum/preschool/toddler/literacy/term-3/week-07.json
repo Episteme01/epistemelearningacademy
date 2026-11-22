@@ -1,0 +1,603 @@
+{
+  "id": "ELA-PS-TOD-LIT-T3-W07",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 3,
+  "week": 7,
+  "title": "What happens first?",
+  "topic": "Stories",
+  "subtopics": [
+    "Three-picture stories",
+    "First, then, last",
+    "Telling the story back"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will put three pictures of a story in order.",
+    "Children will use first, then and last with support."
+  ],
+  "vocabulary": [
+    "first",
+    "then",
+    "last",
+    "story",
+    "picture",
+    "order"
+  ],
+  "content": "Putting three pictures of a story in order, using first, then and last, and telling the story back.",
+  "teachingActivities": "Use stories with clear everyday events such as getting dressed or planting a seed; place cards left to right as you speak; use the words first, then and last every time; accept actions and words.",
+  "learnerActivities": "Put three pictures of a story in order and use first, then and last with support.",
+  "resources": [
+    "Three-picture story sets: planting a seed, washing hands, going to sleep",
+    "A story box",
+    "A real seed, soil, a pot and water",
+    "Puppets"
+  ],
+  "assessment": "Observe whether each child orders three pictures and uses at least one sequencing word.",
+  "expectedOutcomes": [
+    "Orders three pictures.",
+    "Uses at least one sequencing word."
+  ],
+  "crossCurricular": [
+    "Science: growing",
+    "Social Habits: routines",
+    "Mathematics: ordering"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W07-D01",
+      "title": "Planting a seed",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Three-picture stories",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will put three pictures of planting a seed in order."
+      ],
+      "successCriteria": [
+        "Puts three pictures in order with support",
+        "Names what happens in each picture"
+      ],
+      "previousKnowledge": "Children can retell a short story with props, use words such as first, then and the end, and follow two-step instructions.",
+      "vocabulary": [
+        "first",
+        "then",
+        "last",
+        "story",
+        "picture",
+        "order"
+      ],
+      "resources": [
+        "Three picture cards: digging, planting a seed, watering",
+        "A pot, soil and a seed"
+      ],
+      "starter": "Show the pot, soil and seed and say \"First we put soil in the pot. Then we plant the seed. Then we water it.\"",
+      "teacherActivities": [
+        "Show the three picture cards in the right order and say first, then, last.",
+        "Mix the cards and ask \"What happens first?\"",
+        "Do the activity: put soil in the pot, plant a seed and water it.",
+        "Let the children put the cards in order."
+      ],
+      "learnerActivities": [
+        "Children look and say the words.",
+        "Child points to the digging card.",
+        "Children help with each step.",
+        "Child puts cards in order with support."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the three picture cards in the right order and say first, then, last. Children: Children look and say the words.",
+        "Step 2. Teacher: Mix the cards and ask \"What happens first?\" Children: Child points to the digging card.",
+        "Step 3. Teacher: Do the activity: put soil in the pot, plant a seed and water it. Children: Children help with each step.",
+        "Step 4. Teacher: Let the children put the cards in order. Children: Child puts cards in order with support."
+      ],
+      "practical": {
+        "title": "Plant a seed",
+        "steps": [
+          "Put soil in a pot.",
+          "Plant a seed and water it.",
+          "Put the three picture cards in order."
+        ],
+        "safety": "Use clean soil and wash hands after. Do not let children eat soil or seeds. Supervise water and wipe spills."
+      },
+      "differentiation": {
+        "support": "Hold the cards together and place them in order.",
+        "extension": "Ask the child to say what happens first, then and last."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What happens first?",
+            "expected": "We put soil in the pot."
+          },
+          {
+            "question": "What happens last?",
+            "expected": "We water the seed."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Orders three pictures with support",
+        "Uses first and last with support"
+      ],
+      "conclusion": "Put the pot in a sunny place and say \"We will watch it grow.\"",
+      "homeConnection": "Plant a seed with your child at home and talk about what happens first.",
+      "teacherReflection": [
+        "Which children could show \"put three pictures of planting a seed in order\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIRST",
+          "THEN",
+          "LAST"
+        ],
+        "pictures": [
+          "Soil in a pot",
+          "A seed being planted",
+          "Watering a seed"
+        ]
+      },
+      "activities": [
+        "Plant a seed"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W07-D02",
+      "title": "Washing hands",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "First, then, last",
+      "dayType": "explore",
+      "objectives": [
+        "Children will put the steps of washing hands in order."
+      ],
+      "successCriteria": [
+        "Puts three pictures in order",
+        "Uses first, then or last"
+      ],
+      "previousKnowledge": "Children can retell a short story with props, use words such as first, then and the end, and follow two-step instructions.",
+      "vocabulary": [
+        "first",
+        "then",
+        "last",
+        "story",
+        "picture",
+        "order"
+      ],
+      "resources": [
+        "Three picture cards: wet hands, soap, dry hands",
+        "A basin, soap and a towel"
+      ],
+      "starter": "Say \"First we wet our hands, then we use soap, last we dry them.\" Show the basin.",
+      "teacherActivities": [
+        "Show the three cards in order and say first, then, last.",
+        "Mix the cards and ask the children to order them.",
+        "Wash hands together and say each step as you do it.",
+        "Ask \"What did we do first?\" and \"What did we do last?\""
+      ],
+      "learnerActivities": [
+        "Children say the words.",
+        "Children put the cards in order.",
+        "Children wash hands in order.",
+        "Child points to the cards."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the three cards in order and say first, then, last. Children: Children say the words.",
+        "Step 2. Teacher: Mix the cards and ask the children to order them. Children: Children put the cards in order.",
+        "Step 3. Teacher: Wash hands together and say each step as you do it. Children: Children wash hands in order.",
+        "Step 4. Teacher: Ask \"What did we do first?\" and \"What did we do last?\" Children: Child points to the cards."
+      ],
+      "practical": {
+        "title": "Wash and order",
+        "steps": [
+          "Set up a basin with soap and a towel.",
+          "Wash hands in the right order.",
+          "Put the cards in order afterwards."
+        ],
+        "safety": "Use mild soap and a shallow basin. Supervise closely, wipe spills and make sure each child has a clean towel."
+      },
+      "differentiation": {
+        "support": "Do the steps together and name each one.",
+        "extension": "Ask the child to tell a friend how to wash hands."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do first?",
+            "expected": "Wet our hands."
+          },
+          {
+            "question": "What do we do last?",
+            "expected": "Dry our hands."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Orders the steps of washing hands",
+        "Uses sequencing words"
+      ],
+      "conclusion": "Dry hands and say \"First, then, last.\"",
+      "homeConnection": "Say first, then, last when washing hands at home.",
+      "teacherReflection": [
+        "Which children could show \"put the steps of washing hands in order\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WET",
+          "SOAP",
+          "DRY"
+        ],
+        "pictures": [
+          "Wet hands",
+          "Soap on hands",
+          "Drying hands"
+        ]
+      },
+      "activities": [
+        "Wash and order"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W07-D03",
+      "title": "Going to sleep",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "First, then, last",
+      "dayType": "explore",
+      "objectives": [
+        "Children will put three pictures about going to sleep in order."
+      ],
+      "successCriteria": [
+        "Orders three pictures",
+        "Tells what happens in each picture"
+      ],
+      "previousKnowledge": "Children can retell a short story with props, use words such as first, then and the end, and follow two-step instructions.",
+      "vocabulary": [
+        "first",
+        "then",
+        "last",
+        "story",
+        "picture",
+        "order"
+      ],
+      "resources": [
+        "Three picture cards: putting on pyjamas, a story, sleeping",
+        "A teddy and a blanket"
+      ],
+      "starter": "Hold the teddy and say \"Teddy is tired. First pyjamas, then a story, last sleep.\"",
+      "teacherActivities": [
+        "Show the three cards in order and say first, then, last.",
+        "Mix the cards and ask \"What does Teddy do first?\"",
+        "Act out the story with Teddy and the blanket.",
+        "Let each child place the cards in order."
+      ],
+      "learnerActivities": [
+        "Children say the words.",
+        "Child points to the pyjamas card.",
+        "Children pretend to put on pyjamas and sleep.",
+        "Child orders the cards."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the three cards in order and say first, then, last. Children: Children say the words.",
+        "Step 2. Teacher: Mix the cards and ask \"What does Teddy do first?\" Children: Child points to the pyjamas card.",
+        "Step 3. Teacher: Act out the story with Teddy and the blanket. Children: Children pretend to put on pyjamas and sleep.",
+        "Step 4. Teacher: Let each child place the cards in order. Children: Child orders the cards."
+      ],
+      "practical": {
+        "title": "Teddy’s bedtime",
+        "steps": [
+          "Put three cards on the mat.",
+          "Act out putting Teddy to bed.",
+          "Order the cards."
+        ],
+        "safety": "Keep the area calm and use a clean blanket. Supervise sharing of the teddy."
+      },
+      "differentiation": {
+        "support": "Act out the steps together and name them.",
+        "extension": "Ask the child to tell their own bedtime steps."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does Teddy do first?",
+            "expected": "Puts on pyjamas."
+          },
+          {
+            "question": "What happens last?",
+            "expected": "Teddy goes to sleep."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Orders a three-picture story",
+        "Uses first, then and last"
+      ],
+      "conclusion": "Tuck Teddy in and whisper goodnight.",
+      "homeConnection": "Talk about your child’s bedtime steps using first, then and last.",
+      "teacherReflection": [
+        "Which children could show \"put three pictures about going to sleep in order\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PYJAMAS",
+          "STORY",
+          "SLEEP"
+        ],
+        "pictures": [
+          "Putting on pyjamas",
+          "Reading a story",
+          "A child sleeping"
+        ]
+      },
+      "activities": [
+        "Teddy’s bedtime"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W07-D04",
+      "title": "Telling the story back",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Telling the story back",
+      "dayType": "practise",
+      "objectives": [
+        "Children will tell a three-picture story back using first, then and last."
+      ],
+      "successCriteria": [
+        "Tells what happens in order",
+        "Uses at least one sequencing word"
+      ],
+      "previousKnowledge": "Children can retell a short story with props, use words such as first, then and the end, and follow two-step instructions.",
+      "vocabulary": [
+        "first",
+        "then",
+        "last",
+        "story",
+        "picture",
+        "order"
+      ],
+      "resources": [
+        "Three picture card sets",
+        "Puppets",
+        "A cushion for the storyteller"
+      ],
+      "starter": "Show a set of three cards and say \"Who can tell what happens?\"",
+      "teacherActivities": [
+        "Choose a set and put the cards in order together.",
+        "Ask \"What happens first?\" and wait for the child to say it.",
+        "Ask \"What happens next?\" and \"What happens last?\"",
+        "Let each child tell the story with a puppet."
+      ],
+      "learnerActivities": [
+        "Child puts cards in order with support.",
+        "Child tells the first event.",
+        "Child tells the next events.",
+        "Child tells the story to the group."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Choose a set and put the cards in order together. Children: Child puts cards in order with support.",
+        "Step 2. Teacher: Ask \"What happens first?\" and wait for the child to say it. Children: Child tells the first event.",
+        "Step 3. Teacher: Ask \"What happens next?\" and \"What happens last?\" Children: Child tells the next events.",
+        "Step 4. Teacher: Let each child tell the story with a puppet. Children: Child tells the story to the group."
+      ],
+      "practical": {
+        "title": "Story telling",
+        "steps": [
+          "Put three cards in order on the floor.",
+          "Each child tells what happens.",
+          "Use a puppet to help."
+        ],
+        "safety": "Never make a child talk if they do not want to. Accept words, actions or pointing."
+      },
+      "differentiation": {
+        "support": "Point to each card and offer the first word.",
+        "extension": "Ask the child to tell the story without looking at the cards."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What happens first?",
+            "expected": "The first picture event."
+          },
+          {
+            "question": "What happens last?",
+            "expected": "The last picture event."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Tells a three-part story in order",
+        "Uses first, then or last"
+      ],
+      "conclusion": "Clap for all the storytellers.",
+      "homeConnection": "Ask your child to tell you what happened at school using first, then and last.",
+      "teacherReflection": [
+        "Which children could show \"tell a three-picture story back using first, then and last\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIRST",
+          "THEN",
+          "LAST"
+        ],
+        "pictures": [
+          "Three story cards"
+        ]
+      },
+      "activities": [
+        "Story telling"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W07-D05",
+      "title": "Week 7 order check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Three-picture stories",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child orders and tells a short story."
+      ],
+      "successCriteria": [
+        "Orders three pictures",
+        "Uses a sequencing word"
+      ],
+      "previousKnowledge": "Children can retell a short story with props, use words such as first, then and the end, and follow two-step instructions.",
+      "vocabulary": [
+        "first",
+        "then",
+        "last",
+        "story",
+        "picture",
+        "order"
+      ],
+      "resources": [
+        "Picture sets",
+        "Puppets",
+        "Class record sheet"
+      ],
+      "starter": "Say \"First, then, last\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: planting, washing and bedtime.",
+        "At each station ask the child to order the cards and tell the story.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child orders and tells.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: planting, washing and bedtime. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask the child to order the cards and tell the story. Children: Child orders and tells.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Story stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use large soft cards."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two pictures.",
+        "extension": "Ask a confident child to tell a four-picture story."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: orders three pictures; uses first, then or last; tells the story back.",
+        "questions": [
+          {
+            "question": "What happens first?",
+            "expected": "The first event."
+          },
+          {
+            "question": "What happens last?",
+            "expected": "The last event."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Orders three pictures"
+      ],
+      "conclusion": "Say \"The end\" and wave goodbye.",
+      "homeConnection": "Tell stories at home using first, then and last.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child orders and tells a short story\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Order"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Story stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

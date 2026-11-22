@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-LIT-T3-W06",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 3,
+  "week": 6,
+  "title": "Two-step instructions",
+  "topic": "Listening",
+  "subtopics": [
+    "One-step instructions",
+    "Two-step instructions",
+    "Giving an instruction to a friend"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will follow a two-part instruction.",
+    "Children will give a simple instruction to a friend."
+  ],
+  "vocabulary": [
+    "first",
+    "then",
+    "go",
+    "bring",
+    "put",
+    "listen"
+  ],
+  "content": "Following one-step and two-step instructions and giving a simple instruction to a friend.",
+  "teachingActivities": "Give one instruction at a time first; use the words first and then; show with actions and wait before repeating; use real objects; never rush a child who needs time to think.",
+  "learnerActivities": "Follow a two-part instruction and give a simple instruction to a friend.",
+  "resources": [
+    "A basket of toys",
+    "A box and a mat",
+    "A ball, a cup, a spoon and a teddy",
+    "A bell",
+    "Pictures of instructions"
+  ],
+  "assessment": "Observe whether each child follows a two-step instruction and gives a one-step instruction.",
+  "expectedOutcomes": [
+    "Follows a two-step instruction.",
+    "Gives a one-step instruction."
+  ],
+  "crossCurricular": [
+    "Social Habits: listening and following directions",
+    "Physical Development: movement",
+    "Mathematics: position words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W06-D01",
+      "title": "One thing at a time",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "One-step instructions",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will follow a one-step instruction such as \"Bring me the ball\"."
+      ],
+      "successCriteria": [
+        "Listens to the instruction",
+        "Does what the teacher asks"
+      ],
+      "previousKnowledge": "Children can follow one-step instructions, hear the sounds s, a, t and p and answer simple questions.",
+      "vocabulary": [
+        "first",
+        "then",
+        "go",
+        "bring",
+        "put",
+        "listen"
+      ],
+      "resources": [
+        "A ball, a cup, a spoon and a teddy",
+        "A basket",
+        "A mat"
+      ],
+      "starter": "Say \"Listen, then do. Bring me the ball.\" Wait and look at the children.",
+      "teacherActivities": [
+        "Say \"Bring me the ball\" and show a hand gesture. Wait for a child to bring it.",
+        "Say \"Put the cup in the basket.\" Show the basket.",
+        "Give instructions to each child with a different object.",
+        "Praise each child by saying what they did."
+      ],
+      "learnerActivities": [
+        "Child brings the ball.",
+        "Child puts the cup in the basket.",
+        "Child listens and does the action.",
+        "Child smiles and shows what they did."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"Bring me the ball\" and show a hand gesture. Wait for a child to bring it. Children: Child brings the ball.",
+        "Step 2. Teacher: Say \"Put the cup in the basket.\" Show the basket. Children: Child puts the cup in the basket.",
+        "Step 3. Teacher: Give instructions to each child with a different object. Children: Child listens and does the action.",
+        "Step 4. Teacher: Praise each child by saying what they did. Children: Child smiles and shows what they did."
+      ],
+      "practical": {
+        "title": "Listen and do",
+        "steps": [
+          "Put four objects on the mat.",
+          "Give each child a one-step instruction.",
+          "Say well done and put the object back."
+        ],
+        "safety": "Keep objects soft and safe and the floor clear. Do not rush the child and repeat the instruction once calmly."
+      },
+      "differentiation": {
+        "support": "Point to the object and say the instruction slowly.",
+        "extension": "Ask the child to give a friend an instruction."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you bring me the ball?",
+            "expected": "Child brings the ball."
+          },
+          {
+            "question": "Where did you put the cup?",
+            "expected": "In the basket."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows a one-step instruction",
+        "Listens before acting"
+      ],
+      "conclusion": "Put the objects away and say \"Good listening.\"",
+      "homeConnection": "Give your child one-step instructions at home such as \"Put your shoes here\".",
+      "teacherReflection": [
+        "Which children could show \"follow a one-step instruction such as \"Bring me the ball\"\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LISTEN",
+          "DO it"
+        ],
+        "pictures": [
+          "A child bringing a ball",
+          "A child putting a cup in a basket"
+        ]
+      },
+      "activities": [
+        "Listen and do"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W06-D02",
+      "title": "First and then",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Two-step instructions",
+      "dayType": "explore",
+      "objectives": [
+        "Children will follow a two-part instruction with first and then."
+      ],
+      "successCriteria": [
+        "Does both parts of the instruction",
+        "Understands first and then"
+      ],
+      "previousKnowledge": "Children can follow one-step instructions, hear the sounds s, a, t and p and answer simple questions.",
+      "vocabulary": [
+        "first",
+        "then",
+        "go",
+        "bring",
+        "put",
+        "listen"
+      ],
+      "resources": [
+        "A ball, a cup and a basket",
+        "A bell",
+        "A mat"
+      ],
+      "starter": "Say \"First clap, then stamp.\" Do it slowly and show the order with fingers: one, two.",
+      "teacherActivities": [
+        "Say \"First clap, then stamp\" and do the actions with the children.",
+        "Say \"First touch your head, then touch your toes.\"",
+        "Say \"First pick up the ball, then put it in the basket.\"",
+        "Let each child have a turn with a new instruction."
+      ],
+      "learnerActivities": [
+        "Children clap and then stamp.",
+        "Children touch their head, then their toes.",
+        "Child does both actions in order.",
+        "Child listens and does both parts."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"First clap, then stamp\" and do the actions with the children. Children: Children clap and then stamp.",
+        "Step 2. Teacher: Say \"First touch your head, then touch your toes.\" Children: Children touch their head, then their toes.",
+        "Step 3. Teacher: Say \"First pick up the ball, then put it in the basket.\" Children: Child does both actions in order.",
+        "Step 4. Teacher: Let each child have a turn with a new instruction. Children: Child listens and does both parts."
+      ],
+      "practical": {
+        "title": "Two things",
+        "steps": [
+          "Put a ball, a cup and a basket on the mat.",
+          "Say a two-part instruction.",
+          "The child does both parts in order."
+        ],
+        "safety": "Keep the instructions simple and the space clear. If the child forgets, repeat gently and help with a gesture."
+      },
+      "differentiation": {
+        "support": "Show the first action, wait, then show the second.",
+        "extension": "Ask the child to remember three things in order."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do you do first?",
+            "expected": "The first thing said."
+          },
+          {
+            "question": "What do you do then?",
+            "expected": "The second thing said."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows two-part instructions",
+        "Uses first and then"
+      ],
+      "conclusion": "Say \"First tidy up, then sit down\" and do it together.",
+      "homeConnection": "Give two-part instructions at home such as \"First wash hands, then eat\".",
+      "teacherReflection": [
+        "Which children could show \"follow a two-part instruction with first and then\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIRST",
+          "THEN"
+        ],
+        "pictures": [
+          "Two steps on a path"
+        ]
+      },
+      "activities": [
+        "Two things"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W06-D03",
+      "title": "Go and bring",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Two-step instructions",
+      "dayType": "explore",
+      "objectives": [
+        "Children will go to a place and bring back an object."
+      ],
+      "successCriteria": [
+        "Goes to the right place",
+        "Brings back the correct object"
+      ],
+      "previousKnowledge": "Children can follow one-step instructions, hear the sounds s, a, t and p and answer simple questions.",
+      "vocabulary": [
+        "first",
+        "then",
+        "go",
+        "bring",
+        "put",
+        "listen"
+      ],
+      "resources": [
+        "A box on a table",
+        "A teddy",
+        "A spoon",
+        "A cup"
+      ],
+      "starter": "Say \"Go to the box, then bring me the teddy.\" Point to the box.",
+      "teacherActivities": [
+        "Give the instruction and let one child try while others watch.",
+        "Change the instruction: \"Go to the table, then bring the spoon.\"",
+        "Let each child have a turn with a new instruction.",
+        "Praise each child by saying what they did."
+      ],
+      "learnerActivities": [
+        "Child goes to the box and brings the teddy.",
+        "Child goes to the table and brings the spoon.",
+        "Child goes and brings an object.",
+        "Child smiles and shows what they brought."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Give the instruction and let one child try while others watch. Children: Child goes to the box and brings the teddy.",
+        "Step 2. Teacher: Change the instruction: \"Go to the table, then bring the spoon.\" Children: Child goes to the table and brings the spoon.",
+        "Step 3. Teacher: Let each child have a turn with a new instruction. Children: Child goes and brings an object.",
+        "Step 4. Teacher: Praise each child by saying what they did. Children: Child smiles and shows what they brought."
+      ],
+      "practical": {
+        "title": "Fetch game",
+        "steps": [
+          "Put four objects in different places.",
+          "Give each child a go-and-bring instruction.",
+          "The child goes and brings the object back."
+        ],
+        "safety": "Keep the objects within easy reach and the path clear. Walk, do not run, and supervise movement."
+      },
+      "differentiation": {
+        "support": "Walk with the child and point at the object.",
+        "extension": "Ask the child to bring two objects in one trip."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where did you go?",
+            "expected": "To the box or the table."
+          },
+          {
+            "question": "What did you bring?",
+            "expected": "The teddy or spoon."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Goes and brings an object on instruction",
+        "Follows two-part instructions"
+      ],
+      "conclusion": "Put the objects back in the right places.",
+      "homeConnection": "Ask your child to go and bring something, such as \"Go to the kitchen and bring a spoon\".",
+      "teacherReflection": [
+        "Which children could show \"go to a place and bring back an object\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GO there",
+          "BRING back"
+        ],
+        "pictures": [
+          "A child going to a box",
+          "A child bringing a teddy"
+        ]
+      },
+      "activities": [
+        "Fetch game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W06-D04",
+      "title": "I am the leader",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Giving an instruction to a friend",
+      "dayType": "practise",
+      "objectives": [
+        "Children will give a simple instruction to a friend."
+      ],
+      "successCriteria": [
+        "Says an instruction to a friend",
+        "Waits for the friend to do it"
+      ],
+      "previousKnowledge": "Children can follow one-step instructions, hear the sounds s, a, t and p and answer simple questions.",
+      "vocabulary": [
+        "first",
+        "then",
+        "go",
+        "bring",
+        "put",
+        "listen"
+      ],
+      "resources": [
+        "A leader’s hat",
+        "A ball, a cup and a basket",
+        "A mat"
+      ],
+      "starter": "Put on the leader’s hat and say \"I am the leader. Bring me the cup.\" Give the hat to a child.",
+      "teacherActivities": [
+        "Show how to be a leader: say \"Clap\" and everyone claps.",
+        "Give the hat to a child and help them say an instruction.",
+        "Let the friend follow the instruction.",
+        "Swap the hat and let others be the leader."
+      ],
+      "learnerActivities": [
+        "Children clap on the instruction.",
+        "Child says an instruction such as \"clap\".",
+        "Friend does what the leader says.",
+        "Child leads and friends follow."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to be a leader: say \"Clap\" and everyone claps. Children: Children clap on the instruction.",
+        "Step 2. Teacher: Give the hat to a child and help them say an instruction. Children: Child says an instruction such as \"clap\".",
+        "Step 3. Teacher: Let the friend follow the instruction. Children: Friend does what the leader says.",
+        "Step 4. Teacher: Swap the hat and let others be the leader. Children: Child leads and friends follow."
+      ],
+      "practical": {
+        "title": "Leader game",
+        "steps": [
+          "Choose a leader with the hat.",
+          "The leader tells a friend what to do.",
+          "Swap the hat and play again."
+        ],
+        "safety": "Keep instructions kind and safe. Do not allow instructions that could hurt a friend and supervise each pair."
+      },
+      "differentiation": {
+        "support": "Whisper the instruction to the leader and let them say it.",
+        "extension": "Ask the leader to give a two-part instruction."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did the leader say?",
+            "expected": "The instruction given."
+          },
+          {
+            "question": "Can you be the leader?",
+            "expected": "Child gives an instruction."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Gives a simple instruction to a friend",
+        "Listens as a friend leads"
+      ],
+      "conclusion": "Give the hat back and say \"Well done, leaders.\"",
+      "homeConnection": "Let your child give you an instruction and follow it.",
+      "teacherReflection": [
+        "Which children could show \"give a simple instruction to a friend\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LEADER"
+        ],
+        "pictures": [
+          "A child wearing a hat"
+        ]
+      },
+      "activities": [
+        "Leader game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T3-W06-D05",
+      "title": "Week 6 instructions check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 3,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Two-step instructions",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child follows and gives instructions."
+      ],
+      "successCriteria": [
+        "Follows a two-step instruction",
+        "Gives a one-step instruction"
+      ],
+      "previousKnowledge": "Children can follow one-step instructions, hear the sounds s, a, t and p and answer simple questions.",
+      "vocabulary": [
+        "first",
+        "then",
+        "go",
+        "bring",
+        "put",
+        "listen"
+      ],
+      "resources": [
+        "Objects",
+        "A leader’s hat",
+        "Class record sheet"
+      ],
+      "starter": "Say \"First listen, then do\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: one-step, two-step and leader.",
+        "At each station give an instruction and watch.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child does the action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: one-step, two-step and leader. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station give an instruction and watch. Children: Child does the action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Instruction stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use soft objects only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one-step instructions.",
+        "extension": "Ask a confident child to give a two-step instruction."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: follows one-step instructions; follows two-step instructions; gives an instruction to a friend.",
+        "questions": [
+          {
+            "question": "What do you do first?",
+            "expected": "The first part of the instruction."
+          },
+          {
+            "question": "What do you do then?",
+            "expected": "The second part."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Follows two-step instructions"
+      ],
+      "conclusion": "Say \"Good listening\" and wave goodbye.",
+      "homeConnection": "Practise first and then at home with small tasks.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child follows and gives instructions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Listen"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Instruction stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
