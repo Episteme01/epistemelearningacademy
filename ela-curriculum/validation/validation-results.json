@@ -9,14 +9,146 @@
     "lessons": 2400
   },
   "found": {
-    "programmesComplete": 1,
-    "weeks": 30,
-    "lessons": 150
+    "programmesComplete": 2,
+    "weeks": 60,
+    "lessons": 300
   },
   "errorCount": 0,
-  "warningCount": 24,
+  "warningCount": 57,
   "errors": [],
   "warnings": [
+    {
+      "file": "preschool/toddler/literacy/term-1/week-03.json",
+      "message": "ELA-PS-TOD-LIT-T1-W03-D05: very short lesson presentation (379 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-1/week-04.json",
+      "message": "ELA-PS-TOD-LIT-T1-W04-D05: very short lesson presentation (366 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-1/week-05.json",
+      "message": "ELA-PS-TOD-LIT-T1-W05-D05: very short lesson presentation (381 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-1/week-06.json",
+      "message": "ELA-PS-TOD-LIT-T1-W06-D05: very short lesson presentation (377 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-1/week-07.json",
+      "message": "ELA-PS-TOD-LIT-T1-W07-D05: very short lesson presentation (376 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-1/week-08.json",
+      "message": "ELA-PS-TOD-LIT-T1-W08-D05: very short lesson presentation (345 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-1/week-09.json",
+      "message": "ELA-PS-TOD-LIT-T1-W09-D05: very short lesson presentation (358 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-1/week-10.json",
+      "message": "ELA-PS-TOD-LIT-T1-W10-D04: very short lesson presentation (351 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-1/week-10.json",
+      "message": "ELA-PS-TOD-LIT-T1-W10-D05: very short lesson presentation (337 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-01.json",
+      "message": "ELA-PS-TOD-LIT-T2-W01-D05: very short lesson presentation (375 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-02.json",
+      "message": "ELA-PS-TOD-LIT-T2-W02-D05: very short lesson presentation (333 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-03.json",
+      "message": "ELA-PS-TOD-LIT-T2-W03-D05: very short lesson presentation (379 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-04.json",
+      "message": "ELA-PS-TOD-LIT-T2-W04-D05: very short lesson presentation (342 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-05.json",
+      "message": "ELA-PS-TOD-LIT-T2-W05-D05: very short lesson presentation (359 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-06.json",
+      "message": "ELA-PS-TOD-LIT-T2-W06-D05: very short lesson presentation (340 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-07.json",
+      "message": "ELA-PS-TOD-LIT-T2-W07-D05: very short lesson presentation (335 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-08.json",
+      "message": "ELA-PS-TOD-LIT-T2-W08-D05: very short lesson presentation (335 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-09.json",
+      "message": "ELA-PS-TOD-LIT-T2-W09-D05: very short lesson presentation (327 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-10.json",
+      "message": "ELA-PS-TOD-LIT-T2-W10-D01: very short lesson presentation (382 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-10.json",
+      "message": "ELA-PS-TOD-LIT-T2-W10-D04: very short lesson presentation (346 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-2/week-10.json",
+      "message": "ELA-PS-TOD-LIT-T2-W10-D05: very short lesson presentation (310 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-01.json",
+      "message": "ELA-PS-TOD-LIT-T3-W01-D05: very short lesson presentation (359 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-02.json",
+      "message": "ELA-PS-TOD-LIT-T3-W02-D05: very short lesson presentation (353 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-03.json",
+      "message": "ELA-PS-TOD-LIT-T3-W03-D05: very short lesson presentation (339 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-04.json",
+      "message": "ELA-PS-TOD-LIT-T3-W04-D05: very short lesson presentation (347 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-05.json",
+      "message": "ELA-PS-TOD-LIT-T3-W05-D05: very short lesson presentation (354 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-06.json",
+      "message": "ELA-PS-TOD-LIT-T3-W06-D05: very short lesson presentation (325 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-07.json",
+      "message": "ELA-PS-TOD-LIT-T3-W07-D05: very short lesson presentation (348 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-08.json",
+      "message": "ELA-PS-TOD-LIT-T3-W08-D05: very short lesson presentation (331 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-09.json",
+      "message": "ELA-PS-TOD-LIT-T3-W09-D05: very short lesson presentation (384 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-10.json",
+      "message": "ELA-PS-TOD-LIT-T3-W10-D03: very short lesson presentation (348 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-10.json",
+      "message": "ELA-PS-TOD-LIT-T3-W10-D04: very short lesson presentation (341 characters)"
+    },
+    {
+      "file": "preschool/toddler/literacy/term-3/week-10.json",
+      "message": "ELA-PS-TOD-LIT-T3-W10-D05: very short lesson presentation (399 characters)"
+    },
     {
       "file": "preschool/toddler/numeracy/term-1/week-03.json",
       "message": "ELA-PS-TOD-NUM-T1-W03-D05: very short lesson presentation (382 characters)"
@@ -134,16 +266,16 @@
       "id": "ELA-PS-TOD-LIT",
       "class": "Toddler",
       "subject": "Literacy",
-      "status": "not-started",
-      "frameworkJson": false,
+      "status": "complete",
+      "frameworkJson": true,
       "termWeeks": [
-        0,
-        0,
-        0
+        10,
+        10,
+        10
       ],
-      "weeks": 0,
-      "lessons": 0,
-      "missingWeeks": 30
+      "weeks": 30,
+      "lessons": 150,
+      "missingWeeks": 0
     },
     {
       "id": "ELA-PS-TOD-SCI",
