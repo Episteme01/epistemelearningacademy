@@ -1,0 +1,590 @@
+{
+  "id": "ELA-PS-TOD-LIT-T1-W05",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 1,
+  "week": 5,
+  "title": "Greetings and names",
+  "topic": "Speaking",
+  "subtopics": [
+    "Good morning and goodbye",
+    "My name and my friends’ names",
+    "Please and thank you"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say or sign a greeting to an adult or friend.",
+    "Children will say or point to their own name and a friend’s name."
+  ],
+  "vocabulary": [
+    "hello",
+    "goodbye",
+    "name",
+    "please",
+    "thank you"
+  ],
+  "content": "Greeting adults and friends, learning names, and saying please and thank you.",
+  "teachingActivities": "Greet every child by name each morning; use a wave and a word together; model \"Good morning ma\" and \"Good morning sir\" as the school culture requires; praise every attempt.",
+  "learnerActivities": "Say or sign hello and goodbye, say or point to their own name and a friend’s, and use please and thank you.",
+  "resources": [
+    "A hello puppet",
+    "Name cards with photos",
+    "A basket of toys",
+    "A mirror"
+  ],
+  "assessment": "Observe whether each child greets someone, responds to their name and uses please or thank you with support.",
+  "expectedOutcomes": [
+    "Greets someone with a word or wave.",
+    "Responds to their own name."
+  ],
+  "crossCurricular": [
+    "Social Habits: greetings and manners",
+    "Personal, Social and Emotional Development: friendship",
+    "Understanding the World: me and my family"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W05-D01",
+      "title": "Hello and goodbye",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 5,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Speaking",
+      "subtopic": "Good morning and goodbye",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say or wave hello and goodbye."
+      ],
+      "successCriteria": [
+        "Waves or says hello",
+        "Waves or says goodbye"
+      ],
+      "previousKnowledge": "Children can listen, make sounds and copy rhythms; many use single words or gestures.",
+      "vocabulary": [
+        "hello",
+        "goodbye",
+        "name",
+        "please",
+        "thank you"
+      ],
+      "resources": [
+        "A hello puppet",
+        "A mat for circle time"
+      ],
+      "starter": "Wave the puppet and say \"Hello, hello!\" Wave and say \"Goodbye, goodbye!\" Ask the children to wave.",
+      "teacherActivities": [
+        "Have the puppet greet each child by name with a wave.",
+        "Say \"Good morning\" and wave. Say \"Goodbye\" and wave.",
+        "Greet the children as a group and ask \"Can you say hello?\"",
+        "Let each child take the puppet and say hello or goodbye to a friend."
+      ],
+      "learnerActivities": [
+        "Child waves or says hello back.",
+        "Children copy the words and wave.",
+        "Children say hello or wave.",
+        "Child greets a friend with a wave or a word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Have the puppet greet each child by name with a wave. Children: Child waves or says hello back.",
+        "Step 2. Teacher: Say \"Good morning\" and wave. Say \"Goodbye\" and wave. Children: Children copy the words and wave.",
+        "Step 3. Teacher: Greet the children as a group and ask \"Can you say hello?\" Children: Children say hello or wave.",
+        "Step 4. Teacher: Let each child take the puppet and say hello or goodbye to a friend. Children: Child greets a friend with a wave or a word."
+      ],
+      "practical": {
+        "title": "Greeting circle",
+        "steps": [
+          "Sit in a circle and pass the puppet.",
+          "The child holding the puppet greets the next child.",
+          "The next child greets back and passes it on."
+        ],
+        "safety": "Keep the circle wide enough for safe passing. Do not force a shy child to speak; accept a wave or a smile."
+      },
+      "differentiation": {
+        "support": "Wave with the child and say hello together.",
+        "extension": "Ask the child to greet the head teacher or visitor with a word."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say when we meet someone?",
+            "expected": "Hello or good morning."
+          },
+          {
+            "question": "What do we say when we go?",
+            "expected": "Goodbye."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Greets someone with a wave or word",
+        "Says goodbye with a wave or word"
+      ],
+      "conclusion": "Say goodbye to the puppet and wave to each other.",
+      "homeConnection": "Greet your child with \"Good morning\" each day and wait for a wave or word.",
+      "teacherReflection": [
+        "Which children could show \"say or wave hello and goodbye\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HELLO",
+          "GOODBYE"
+        ],
+        "pictures": [
+          "A child waving hello",
+          "A child waving goodbye"
+        ],
+        "songOrRhyme": "Hello, hello, how are you? Hello, hello, I am fine."
+      },
+      "activities": [
+        "Greeting circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W05-D02",
+      "title": "My name",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 5,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Speaking",
+      "subtopic": "My name and my friends’ names",
+      "dayType": "explore",
+      "objectives": [
+        "Children will respond to their name and point to their own name card."
+      ],
+      "successCriteria": [
+        "Looks or answers when their name is called",
+        "Points to their own name card with a photo"
+      ],
+      "previousKnowledge": "Children can listen, make sounds and copy rhythms; many use single words or gestures.",
+      "vocabulary": [
+        "hello",
+        "goodbye",
+        "name",
+        "please",
+        "thank you"
+      ],
+      "resources": [
+        "Name cards with photos",
+        "A basket",
+        "A mirror"
+      ],
+      "starter": "Say \"Hello, [child’s name]\" and wave. Look at each child and say their name with a smile.",
+      "teacherActivities": [
+        "Hold up each name card and say the name. Ask \"Who is this?\"",
+        "Look in the mirror together and say \"I am [name].\"",
+        "Put three name cards on the mat and ask the child to find theirs.",
+        "Say \"Hello\" to each child by name and wait for a response."
+      ],
+      "learnerActivities": [
+        "Children look and say or point to themselves.",
+        "Child looks and says or points to their name.",
+        "Child points to their card.",
+        "Child waves, smiles or says their name."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold up each name card and say the name. Ask \"Who is this?\" Children: Children look and say or point to themselves.",
+        "Step 2. Teacher: Look in the mirror together and say \"I am [name].\" Children: Child looks and says or points to their name.",
+        "Step 3. Teacher: Put three name cards on the mat and ask the child to find theirs. Children: Child points to their card.",
+        "Step 4. Teacher: Say \"Hello\" to each child by name and wait for a response. Children: Child waves, smiles or says their name."
+      ],
+      "practical": {
+        "title": "Name cards",
+        "steps": [
+          "Place three name cards on the mat.",
+          "Each child finds their own card and holds it up.",
+          "The group says the name together."
+        ],
+        "safety": "Keep cards smooth and large so they can be held safely. Handle cards gently and do not tear them."
+      },
+      "differentiation": {
+        "support": "Use a photo card and point to the child’s picture.",
+        "extension": "Ask the child to find a friend’s name card and say the name."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is your name?",
+            "expected": "Child says or points to their name."
+          },
+          {
+            "question": "Where is your card?",
+            "expected": "Child points to their card."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Responds to their own name",
+        "Finds their own name card with support"
+      ],
+      "conclusion": "Put the cards in the basket and wave goodbye to each name.",
+      "homeConnection": "Say your child’s name often and ask them to say it back to you.",
+      "teacherReflection": [
+        "Which children could show \"respond to their name and point to their own name card\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "My name card (with photo)"
+        ],
+        "pictures": [
+          "Photos of children"
+        ]
+      },
+      "activities": [
+        "Name cards"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W05-D03",
+      "title": "My friends",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 5,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Speaking",
+      "subtopic": "My name and my friends’ names",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say or point to a friend’s name."
+      ],
+      "successCriteria": [
+        "Points to a friend when the name is said",
+        "Says a friend’s name with support"
+      ],
+      "previousKnowledge": "Children can listen, make sounds and copy rhythms; many use single words or gestures.",
+      "vocabulary": [
+        "hello",
+        "goodbye",
+        "name",
+        "please",
+        "thank you"
+      ],
+      "resources": [
+        "Name cards with photos",
+        "A ball for rolling"
+      ],
+      "starter": "Roll the ball to a child and say \"Hello [name].\" Ask the child to roll it back.",
+      "teacherActivities": [
+        "Sit in a circle and roll the ball to a child, naming them. The child rolls it back.",
+        "Say a friend’s name and ask \"Where is [name]?\"",
+        "Show a photo card of a friend and ask \"Who is this?\"",
+        "Let each child roll the ball to a friend and say their name."
+      ],
+      "learnerActivities": [
+        "Child receives the ball and rolls it on.",
+        "Children point to the friend.",
+        "Child names or points to the friend.",
+        "Child names a friend and rolls the ball."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sit in a circle and roll the ball to a child, naming them. The child rolls it back. Children: Child receives the ball and rolls it on.",
+        "Step 2. Teacher: Say a friend’s name and ask \"Where is [name]?\" Children: Children point to the friend.",
+        "Step 3. Teacher: Show a photo card of a friend and ask \"Who is this?\" Children: Child names or points to the friend.",
+        "Step 4. Teacher: Let each child roll the ball to a friend and say their name. Children: Child names a friend and rolls the ball."
+      ],
+      "practical": {
+        "title": "Ball and names",
+        "steps": [
+          "Sit in a circle with space between children.",
+          "Roll the ball to a friend and say their name.",
+          "The friend says hello and rolls it on."
+        ],
+        "safety": "Roll the ball slowly along the floor and keep fingers clear. Sit children with legs apart so they are safe."
+      },
+      "differentiation": {
+        "support": "Roll the ball together and say the name with the child.",
+        "extension": "Ask the child to say a friend’s name and one thing the friend likes."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is this friend?",
+            "expected": "Child names or points to the friend."
+          },
+          {
+            "question": "Can you say hello to a friend?",
+            "expected": "Child says hello."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Points to a friend by name",
+        "Says a friend’s name with support"
+      ],
+      "conclusion": "Wave goodbye to each friend by name.",
+      "homeConnection": "Talk about your child’s friends by name and ask them to say hello.",
+      "teacherReflection": [
+        "Which children could show \"say or point to a friend’s name\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Friends"
+        ],
+        "pictures": [
+          "Photos of friends"
+        ]
+      },
+      "activities": [
+        "Ball and names"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W05-D04",
+      "title": "Please and thank you",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 5,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Speaking",
+      "subtopic": "Please and thank you",
+      "dayType": "practise",
+      "objectives": [
+        "Children will use please and thank you when asking for or receiving something."
+      ],
+      "successCriteria": [
+        "Says or signs please",
+        "Says or signs thank you"
+      ],
+      "previousKnowledge": "Children can listen, make sounds and copy rhythms; many use single words or gestures.",
+      "vocabulary": [
+        "hello",
+        "goodbye",
+        "name",
+        "please",
+        "thank you"
+      ],
+      "resources": [
+        "A basket of toys",
+        "A hello puppet",
+        "Snack pieces of fruit"
+      ],
+      "starter": "Hold a toy and say \"Please.\" Give it to the puppet and say \"Thank you.\" Ask \"What did I say?\"",
+      "teacherActivities": [
+        "Show that when you want a toy you say \"Please\" and when you get it you say \"Thank you\".",
+        "Hold out a toy and wait for the child to say or sign please.",
+        "Give the toy and say \"Thank you\" and wait.",
+        "Pass fruit slices and encourage please and thank you."
+      ],
+      "learnerActivities": [
+        "Children watch and repeat the words.",
+        "Child says please or makes the sign.",
+        "Child says thank you or signs.",
+        "Child says please and thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show that when you want a toy you say \"Please\" and when you get it you say \"Thank you\". Children: Children watch and repeat the words.",
+        "Step 2. Teacher: Hold out a toy and wait for the child to say or sign please. Children: Child says please or makes the sign.",
+        "Step 3. Teacher: Give the toy and say \"Thank you\" and wait. Children: Child says thank you or signs.",
+        "Step 4. Teacher: Pass fruit slices and encourage please and thank you. Children: Child says please and thank you."
+      ],
+      "practical": {
+        "title": "Toy shop",
+        "steps": [
+          "Set up a toy shop with a basket of toys.",
+          "Each child asks for a toy with please.",
+          "They say thank you when they get it."
+        ],
+        "safety": "Check for allergies before giving any food and use only washed fruit. Supervise sharing."
+      },
+      "differentiation": {
+        "support": "Use a sign for please and say it with the child.",
+        "extension": "Ask the child to be the shopkeeper and give toys to friends."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say when we ask?",
+            "expected": "Please."
+          },
+          {
+            "question": "What do we say when we get something?",
+            "expected": "Thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses please with support",
+        "Uses thank you with support"
+      ],
+      "conclusion": "Say \"Thank you\" together and wave.",
+      "homeConnection": "Model please and thank you at mealtimes and wait for your child to say them.",
+      "teacherReflection": [
+        "Which children could show \"use please and thank you when asking for or receiving something\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PLEASE",
+          "THANK YOU"
+        ],
+        "pictures": [
+          "A child asking politely",
+          "A child saying thank you"
+        ]
+      },
+      "activities": [
+        "Toy shop"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W05-D05",
+      "title": "Week 5 greetings check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 5,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Speaking",
+      "subtopic": "Good morning and goodbye",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child greets others and responds to their name."
+      ],
+      "successCriteria": [
+        "Greets someone with a word or wave",
+        "Responds to their own name"
+      ],
+      "previousKnowledge": "Children can listen, make sounds and copy rhythms; many use single words or gestures.",
+      "vocabulary": [
+        "hello",
+        "goodbye",
+        "name",
+        "please",
+        "thank you"
+      ],
+      "resources": [
+        "A hello puppet",
+        "Name cards with photos",
+        "Toys",
+        "Class record sheet"
+      ],
+      "starter": "Sing the hello song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: hello puppet, name cards and toy shop.",
+        "At each station greet the child and wait for a response. Ask \"What is your name?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child greets, responds or points.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: hello puppet, name cards and toy shop. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station greet the child and wait for a response. Ask \"What is your name?\" Children: Child greets, responds or points.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Greeting stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Use soft toys and large cards. Supervise each station and keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and accept gestures.",
+        "extension": "Ask a confident child to greet a visitor."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: greets with a word or wave; responds to their own name; says or signs please and thank you.",
+        "questions": [
+          {
+            "question": "What do you say when you meet someone?",
+            "expected": "Hello or good morning."
+          },
+          {
+            "question": "Where is your name card?",
+            "expected": "Child points to it."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Greets with a word or wave"
+      ],
+      "conclusion": "Sing the goodbye song and wave to everyone.",
+      "homeConnection": "Practise hello, goodbye, please and thank you at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child greets others and responds to their name\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Hello"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Greeting stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

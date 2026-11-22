@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-LIT-T1-W09",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 1,
+  "week": 9,
+  "title": "A story to share",
+  "topic": "Stories",
+  "subtopics": [
+    "Listening to a short story",
+    "Joining in with a repeated line",
+    "Acting the story"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will listen to a story with pictures and objects.",
+    "Children will join in with a repeated line and actions."
+  ],
+  "vocabulary": [
+    "story",
+    "once",
+    "then",
+    "the end",
+    "listen",
+    "act"
+  ],
+  "content": "Listening to a short story with pictures and objects, joining in with a repeated line, and acting the story.",
+  "teachingActivities": "Tell the same story all week using objects and a simple repeated line; use a different voice for each character; pause before the repeated line; let children act each part.",
+  "learnerActivities": "Listen to a short story, join in the repeated line and act the story with actions.",
+  "resources": [
+    "A story with a repeated line: \"The Hungry Goat\" written by the teacher",
+    "A toy goat, a basket, a leaf",
+    "Picture cards of the story",
+    "A scarf"
+  ],
+  "assessment": "Observe whether each child listens to the story and joins in the repeated line.",
+  "expectedOutcomes": [
+    "Listens to a short story.",
+    "Joins in with a repeated line."
+  ],
+  "crossCurricular": [
+    "Understanding the World: animals",
+    "Physical Development: acting",
+    "Social Habits: listening to others"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W09-D01",
+      "title": "The hungry goat",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 9,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Listening to a short story",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will listen to a short story with pictures and objects."
+      ],
+      "successCriteria": [
+        "Listens to the story for a short time",
+        "Points to a picture in the story"
+      ],
+      "previousKnowledge": "Children can name pictures and objects, join in rhymes and handle a book.",
+      "vocabulary": [
+        "story",
+        "once",
+        "then",
+        "the end",
+        "listen",
+        "act"
+      ],
+      "resources": [
+        "A toy goat",
+        "A basket of leaves",
+        "Three picture cards"
+      ],
+      "starter": "Hold up the toy goat and say \"This is Goat. Goat is hungry. Meh, meh, meh.\" Ask \"What does Goat want?\"",
+      "teacherActivities": [
+        "Tell the story: \"Goat was hungry. He looked for food. He found a leaf. Munch, munch. Goat was happy.\" Show a picture for each part.",
+        "Ask \"Who is hungry?\" and wait.",
+        "Ask \"What did Goat find?\"",
+        "Tell the story again with the toy goat and let a child feed the goat a leaf."
+      ],
+      "learnerActivities": [
+        "Children listen and look at the pictures.",
+        "Child points to Goat or says goat.",
+        "Child points to the leaf.",
+        "Child feeds the goat and says \"munch\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the story: \"Goat was hungry. He looked for food. He found a leaf. Munch, munch. Goat was happy.\" Show a picture for each part. Children: Children listen and look at the pictures.",
+        "Step 2. Teacher: Ask \"Who is hungry?\" and wait. Children: Child points to Goat or says goat.",
+        "Step 3. Teacher: Ask \"What did Goat find?\" Children: Child points to the leaf.",
+        "Step 4. Teacher: Tell the story again with the toy goat and let a child feed the goat a leaf. Children: Child feeds the goat and says \"munch\"."
+      ],
+      "practical": {
+        "title": "Feed the goat",
+        "steps": [
+          "Place the basket of leaves on the mat.",
+          "Each child feeds the toy goat a leaf.",
+          "Everyone says \"munch, munch\" together."
+        ],
+        "safety": "Use clean paper or washed leaves and make sure no child puts leaves in their mouth. Wash hands after."
+      },
+      "differentiation": {
+        "support": "Hold the goat together and point to each picture.",
+        "extension": "Ask the child to tell a friend what Goat found."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is in the story?",
+            "expected": "Goat."
+          },
+          {
+            "question": "What did Goat eat?",
+            "expected": "A leaf."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Listens to a short story",
+        "Points to the story pictures"
+      ],
+      "conclusion": "Put Goat to sleep and whisper \"Goodnight, Goat.\"",
+      "homeConnection": "Tell your child a short story at bedtime with a toy and point to the pictures.",
+      "teacherReflection": [
+        "Which children could show \"listen to a short story with pictures and objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GOAT",
+          "LEAF"
+        ],
+        "pictures": [
+          "A goat",
+          "A leaf",
+          "A happy goat"
+        ],
+        "story": "Goat was hungry. He looked for food. He found a leaf. Munch, munch. Goat was happy."
+      },
+      "activities": [
+        "Feed the goat"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W09-D02",
+      "title": "Munch, munch",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 9,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Joining in with a repeated line",
+      "dayType": "explore",
+      "objectives": [
+        "Children will join in the repeated line \"Munch, munch, munch\"."
+      ],
+      "successCriteria": [
+        "Says or mimes \"munch, munch\"",
+        "Joins in at the right time"
+      ],
+      "previousKnowledge": "Children can name pictures and objects, join in rhymes and handle a book.",
+      "vocabulary": [
+        "story",
+        "once",
+        "then",
+        "the end",
+        "listen",
+        "act"
+      ],
+      "resources": [
+        "A toy goat",
+        "Picture cards",
+        "A basket"
+      ],
+      "starter": "Hold up the goat and say \"Munch, munch, munch.\" Ask \"Can you munch like Goat?\"",
+      "teacherActivities": [
+        "Tell the story again and say the repeated line \"Munch, munch, munch\" at every page.",
+        "Tell the story and pause before the line.",
+        "Show each picture and wait for the line.",
+        "Let a child be Goat and say the line while the others join in."
+      ],
+      "learnerActivities": [
+        "Children listen for the line.",
+        "Children say \"munch, munch\" or mime chewing.",
+        "Children say the line at the right time.",
+        "Child leads and friends join in."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the story again and say the repeated line \"Munch, munch, munch\" at every page. Children: Children listen for the line.",
+        "Step 2. Teacher: Tell the story and pause before the line. Children: Children say \"munch, munch\" or mime chewing.",
+        "Step 3. Teacher: Show each picture and wait for the line. Children: Children say the line at the right time.",
+        "Step 4. Teacher: Let a child be Goat and say the line while the others join in. Children: Child leads and friends join in."
+      ],
+      "practical": {
+        "title": "Munch with Goat",
+        "steps": [
+          "Sit in a circle with a toy goat.",
+          "Say the story and wait for the repeated line.",
+          "Pass Goat round and everyone says \"munch\"."
+        ],
+        "safety": "Keep toys clean and large. Supervise turn-taking and do not allow children to put toys in their mouths."
+      },
+      "differentiation": {
+        "support": "Say the line together and mime chewing.",
+        "extension": "Ask the child to say the line in a quiet voice and a loud voice."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does Goat say?",
+            "expected": "Munch, munch, munch."
+          },
+          {
+            "question": "Can you munch?",
+            "expected": "Child mimes chewing."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins in the repeated line",
+        "Mimes the action"
+      ],
+      "conclusion": "Say the repeated line one last time and wave.",
+      "homeConnection": "Tell the story at home and ask your child to say \"munch, munch\".",
+      "teacherReflection": [
+        "Which children could show \"join in the repeated line \"Munch, munch, munch\"\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MUNCH, MUNCH"
+        ],
+        "pictures": [
+          "A goat eating"
+        ],
+        "story": "Goat was hungry. Munch, munch, munch. He found a leaf. Munch, munch, munch."
+      },
+      "activities": [
+        "Munch with Goat"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W09-D03",
+      "title": "Acting the story",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 9,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Acting the story",
+      "dayType": "explore",
+      "objectives": [
+        "Children will act out parts of the story."
+      ],
+      "successCriteria": [
+        "Acts as Goat",
+        "Does an action for part of the story"
+      ],
+      "previousKnowledge": "Children can name pictures and objects, join in rhymes and handle a book.",
+      "vocabulary": [
+        "story",
+        "once",
+        "then",
+        "the end",
+        "listen",
+        "act"
+      ],
+      "resources": [
+        "A toy goat",
+        "A scarf as a leaf",
+        "A clear space"
+      ],
+      "starter": "Say \"Let us be Goat. Walk like Goat. Meh, meh.\" Walk on all fours or use a gentle walk.",
+      "teacherActivities": [
+        "Tell the story and show actions for each part: look, find, munch, happy.",
+        "Tell the story again and let the children act at each part.",
+        "Ask one child to find the scarf leaf.",
+        "Let each child take a turn as Goat."
+      ],
+      "learnerActivities": [
+        "Children watch and copy the actions.",
+        "Children act as Goat.",
+        "Child finds the scarf and munches.",
+        "Child acts as Goat and friends say \"munch\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the story and show actions for each part: look, find, munch, happy. Children: Children watch and copy the actions.",
+        "Step 2. Teacher: Tell the story again and let the children act at each part. Children: Children act as Goat.",
+        "Step 3. Teacher: Ask one child to find the scarf leaf. Children: Child finds the scarf and munches.",
+        "Step 4. Teacher: Let each child take a turn as Goat. Children: Child acts as Goat and friends say \"munch\"."
+      ],
+      "practical": {
+        "title": "Be Goat",
+        "steps": [
+          "Clear a space on the mat.",
+          "Children walk like Goat, look for a leaf and munch.",
+          "Everyone says \"meh\" and \"munch\"."
+        ],
+        "safety": "Clear the floor and keep children apart so they do not bump. Use soft scarves only."
+      },
+      "differentiation": {
+        "support": "Act beside the child and hold hands if needed.",
+        "extension": "Ask the child to be the storyteller and say what Goat does."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does Goat do?",
+            "expected": "Looks, finds and munches."
+          },
+          {
+            "question": "Can you walk like Goat?",
+            "expected": "Child walks like Goat."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Acts parts of a story",
+        "Uses actions with the story words"
+      ],
+      "conclusion": "Settle Goat down and say \"The end.\"",
+      "homeConnection": "Act a short story at home with your child and use actions.",
+      "teacherReflection": [
+        "Which children could show \"act out parts of the story\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ACT",
+          "GOAT"
+        ],
+        "pictures": [
+          "Children acting as goats"
+        ]
+      },
+      "activities": [
+        "Be Goat"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W09-D04",
+      "title": "Retell with pictures",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 9,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Joining in with a repeated line",
+      "dayType": "practise",
+      "objectives": [
+        "Children will look at pictures and say words about the story."
+      ],
+      "successCriteria": [
+        "Points to a picture from the story",
+        "Says a word for what they see"
+      ],
+      "previousKnowledge": "Children can name pictures and objects, join in rhymes and handle a book.",
+      "vocabulary": [
+        "story",
+        "once",
+        "then",
+        "the end",
+        "listen",
+        "act"
+      ],
+      "resources": [
+        "Three picture cards: hungry goat, leaf, happy goat",
+        "A toy goat"
+      ],
+      "starter": "Show the three pictures and say \"Look at Goat’s story. What is happening?\"",
+      "teacherActivities": [
+        "Put the pictures on the floor and point to each.",
+        "Say \"Where is the hungry goat?\" and wait.",
+        "Say \"What did Goat find?\" and point.",
+        "Let each child tell a friend about a picture."
+      ],
+      "learnerActivities": [
+        "Children look and point.",
+        "Child points to the hungry goat.",
+        "Child says \"leaf\" or points.",
+        "Child says a word and the friend listens."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the pictures on the floor and point to each. Children: Children look and point.",
+        "Step 2. Teacher: Say \"Where is the hungry goat?\" and wait. Children: Child points to the hungry goat.",
+        "Step 3. Teacher: Say \"What did Goat find?\" and point. Children: Child says \"leaf\" or points.",
+        "Step 4. Teacher: Let each child tell a friend about a picture. Children: Child says a word and the friend listens."
+      ],
+      "practical": {
+        "title": "Picture talk",
+        "steps": [
+          "Lay three pictures on the mat.",
+          "Each child points to one and says a word.",
+          "The group says the repeated line together."
+        ],
+        "safety": "Use large pictures with no sharp corners. Supervise turn-taking."
+      },
+      "differentiation": {
+        "support": "Use two pictures and say the word with the child.",
+        "extension": "Ask the child to put the pictures in order and say first, then."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this picture?",
+            "expected": "Goat or leaf."
+          },
+          {
+            "question": "Is Goat happy?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names the pictures in the story",
+        "Says a word about the story"
+      ],
+      "conclusion": "Put the pictures in the basket and say \"The end.\"",
+      "homeConnection": "Ask your child to tell you what happened in the goat story.",
+      "teacherReflection": [
+        "Which children could show \"look at pictures and say words about the story\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HUNGRY",
+          "HAPPY"
+        ],
+        "pictures": [
+          "A hungry goat",
+          "A leaf",
+          "A happy goat"
+        ]
+      },
+      "activities": [
+        "Picture talk"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W09-D05",
+      "title": "Week 9 story check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 9,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Listening to a short story",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child listens to a story and joins in."
+      ],
+      "successCriteria": [
+        "Listens to a story",
+        "Joins in the repeated line"
+      ],
+      "previousKnowledge": "Children can name pictures and objects, join in rhymes and handle a book.",
+      "vocabulary": [
+        "story",
+        "once",
+        "then",
+        "the end",
+        "listen",
+        "act"
+      ],
+      "resources": [
+        "Toy goat",
+        "Picture cards",
+        "Class record sheet"
+      ],
+      "starter": "Say \"Munch, munch\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: story listening, acting and picture talk.",
+        "Tell a short story at each station and wait for the repeated line.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child joins in and acts.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: story listening, acting and picture talk. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: Tell a short story at each station and wait for the repeated line. Children: Child joins in and acts.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Story stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Use soft toys and large pictures. Supervise each station and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one picture.",
+        "extension": "Ask a confident child to tell the story to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: listens to a story; joins in the repeated line; acts a part.",
+        "questions": [
+          {
+            "question": "What does Goat say?",
+            "expected": "Munch, munch."
+          },
+          {
+            "question": "What happened?",
+            "expected": "Goat found a leaf."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Joins in a story"
+      ],
+      "conclusion": "Say \"The end\" and wave goodbye to Goat.",
+      "homeConnection": "Tell a short story every night and pause for your child to join in.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child listens to a story and joins in\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Story"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Story stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

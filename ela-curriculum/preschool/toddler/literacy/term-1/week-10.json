@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-LIT-T1-W10",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 1,
+  "week": 10,
+  "title": "Show what we know",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising listening and sound games",
+    "Revising rhymes and books",
+    "Revising words and names"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Term 1 learning through play stations.",
+    "Teachers will gather evidence for every child’s Term 1 record."
+  ],
+  "vocabulary": [
+    "listen",
+    "loud",
+    "quiet",
+    "rhyme",
+    "book",
+    "name"
+  ],
+  "content": "Revising listening and sound games, rhymes and books, and words and names through play stations and gathering Term 1 evidence.",
+  "teachingActivities": "Keep every activity familiar and playful; observe quietly and record without interrupting; offer help only when a child is stuck; celebrate what each child can do.",
+  "learnerActivities": "Show what they know about listening, rhymes, books, words and names through play.",
+  "resources": [
+    "Bell, rattle, drum and shakers",
+    "Rhyme picture cards",
+    "Board books",
+    "Name cards",
+    "Animal pictures",
+    "Class record sheets"
+  ],
+  "assessment": "Observe and record each child’s Term 1 literacy learning using the four-level scale.",
+  "expectedOutcomes": [
+    "Completes familiar tasks with confidence at play stations.",
+    "Each child has an observation record for Term 1."
+  ],
+  "crossCurricular": [
+    "Music: rhythm and singing",
+    "Understanding the World: family and animals",
+    "Social Habits: taking turns"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W10-D01",
+      "title": "Revising listening",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising listening and sound games",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit listening, loud and quiet, and guess the sound games."
+      ],
+      "successCriteria": [
+        "Stops to listen",
+        "Points to or names a sound source"
+      ],
+      "previousKnowledge": "Children have worked on listening, sounds, rhymes, books, words, names and a story this term.",
+      "vocabulary": [
+        "listen",
+        "loud",
+        "quiet",
+        "rhyme",
+        "book",
+        "name"
+      ],
+      "resources": [
+        "A bell, a rattle, a drum",
+        "Picture cards",
+        "A cloth bag"
+      ],
+      "starter": "Whisper \"Shh, listen\" and ring the bell. Say \"Today we play our favourite sound games.\"",
+      "teacherActivities": [
+        "Play listening statues with the bell.",
+        "Play loud and quiet with the drum.",
+        "Play guess the sound with the cloth bag.",
+        "Let each child choose a favourite game."
+      ],
+      "learnerActivities": [
+        "Children stop and listen on the signal.",
+        "Children match loud and quiet.",
+        "Children point to the matching picture.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play listening statues with the bell. Children: Children stop and listen on the signal.",
+        "Step 2. Teacher: Play loud and quiet with the drum. Children: Children match loud and quiet.",
+        "Step 3. Teacher: Play guess the sound with the cloth bag. Children: Children point to the matching picture.",
+        "Step 4. Teacher: Let each child choose a favourite game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Sound games",
+        "steps": [
+          "Set up three game spaces.",
+          "Children play each game for four minutes.",
+          "The teacher notes who stops and listens."
+        ],
+        "safety": "Keep sounds gentle and the floor clear. Stop a game if a child covers their ears."
+      },
+      "differentiation": {
+        "support": "Play with the child and use one sound.",
+        "extension": "Ask the child to lead a game for friends."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What can you hear?",
+            "expected": "Bell, drum or rattle."
+          },
+          {
+            "question": "Is it loud or quiet?",
+            "expected": "Child answers by word or action."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows listening skills",
+        "Names or points to sound sources"
+      ],
+      "conclusion": "Ring the bell once and whisper \"Good listening.\"",
+      "homeConnection": "Play a listening game at home and ask your child to point to the sound.",
+      "teacherReflection": [
+        "Which children could show \"revisit listening, loud and quiet, and guess the sound games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LISTEN",
+          "LOUD",
+          "QUIET"
+        ],
+        "pictures": [
+          "A bell",
+          "A drum"
+        ]
+      },
+      "activities": [
+        "Sound games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W10-D02",
+      "title": "Revising rhymes and books",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising rhymes and books",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit rhymes, songs and picture books."
+      ],
+      "successCriteria": [
+        "Joins in a rhyme",
+        "Holds a book and names a picture"
+      ],
+      "previousKnowledge": "Children have worked on listening, sounds, rhymes, books, words, names and a story this term.",
+      "vocabulary": [
+        "listen",
+        "loud",
+        "quiet",
+        "rhyme",
+        "book",
+        "name"
+      ],
+      "resources": [
+        "Rhyme cards",
+        "Board books",
+        "A hen puppet"
+      ],
+      "starter": "Sing \"Ten little fingers\" and say \"Let us sing our favourite rhymes.\"",
+      "teacherActivities": [
+        "Sing two favourite rhymes and pause for the last word.",
+        "Look at a book together and ask \"What is this?\"",
+        "Give each child a book to look at.",
+        "Let each child choose a rhyme to sing."
+      ],
+      "learnerActivities": [
+        "Children join in and fill in the word.",
+        "Child names a picture.",
+        "Child holds the book and turns pages.",
+        "Child chooses and sings."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing two favourite rhymes and pause for the last word. Children: Children join in and fill in the word.",
+        "Step 2. Teacher: Look at a book together and ask \"What is this?\" Children: Child names a picture.",
+        "Step 3. Teacher: Give each child a book to look at. Children: Child holds the book and turns pages.",
+        "Step 4. Teacher: Let each child choose a rhyme to sing. Children: Child chooses and sings."
+      ],
+      "practical": {
+        "title": "Rhyme and book time",
+        "steps": [
+          "Sit in a circle.",
+          "Sing a rhyme, then look at a book.",
+          "Repeat with a new rhyme and book."
+        ],
+        "safety": "Keep books safe on cushions. Handle books gently and supervise sharing."
+      },
+      "differentiation": {
+        "support": "Sing with the child and point to the pictures.",
+        "extension": "Ask the child to lead a rhyme."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you sing with me?",
+            "expected": "Child sings or does the actions."
+          },
+          {
+            "question": "What is this picture?",
+            "expected": "Child names it."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins in rhymes",
+        "Handles a book"
+      ],
+      "conclusion": "Sing a quiet goodbye rhyme.",
+      "homeConnection": "Sing a rhyme and share a book at home every day.",
+      "teacherReflection": [
+        "Which children could show \"revisit rhymes, songs and picture books\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RHYMES",
+          "BOOKS"
+        ],
+        "pictures": [
+          "Children singing",
+          "A book"
+        ]
+      },
+      "activities": [
+        "Rhyme and book time"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W10-D03",
+      "title": "Revising words and names",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising words and names",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit greetings, names, animals and familiar words."
+      ],
+      "successCriteria": [
+        "Greets someone",
+        "Names things and animals"
+      ],
+      "previousKnowledge": "Children have worked on listening, sounds, rhymes, books, words, names and a story this term.",
+      "vocabulary": [
+        "listen",
+        "loud",
+        "quiet",
+        "rhyme",
+        "book",
+        "name"
+      ],
+      "resources": [
+        "Name cards",
+        "Animal pictures",
+        "Toy foods"
+      ],
+      "starter": "Wave and say \"Hello, everyone. Let us say hello and name things.\"",
+      "teacherActivities": [
+        "Play the greeting circle with the puppet.",
+        "Hold up name cards and ask \"Whose card?\"",
+        "Show animal pictures and toy foods and ask \"What is this?\"",
+        "Let each child ask for something with please."
+      ],
+      "learnerActivities": [
+        "Children greet each other.",
+        "Child finds their card.",
+        "Child names the item.",
+        "Child asks with a word or phrase."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the greeting circle with the puppet. Children: Children greet each other.",
+        "Step 2. Teacher: Hold up name cards and ask \"Whose card?\" Children: Child finds their card.",
+        "Step 3. Teacher: Show animal pictures and toy foods and ask \"What is this?\" Children: Child names the item.",
+        "Step 4. Teacher: Let each child ask for something with please. Children: Child asks with a word or phrase."
+      ],
+      "practical": {
+        "title": "Words circle",
+        "steps": [
+          "Sit in a circle.",
+          "Pass a basket of objects and name them.",
+          "Greet each friend and say please and thank you."
+        ],
+        "safety": "Use only safe, large objects. Supervise passing and turn-taking."
+      },
+      "differentiation": {
+        "support": "Offer two choices and say the word with the child.",
+        "extension": "Ask the child to name five things."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is your name?",
+            "expected": "Child says or points to their name."
+          },
+          {
+            "question": "What is this?",
+            "expected": "Child names it."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names familiar things",
+        "Greets and uses polite words"
+      ],
+      "conclusion": "Wave goodbye to each friend by name.",
+      "homeConnection": "Name things at home and greet family members with your child.",
+      "teacherReflection": [
+        "Which children could show \"revisit greetings, names, animals and familiar words\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HELLO",
+          "NAME",
+          "PLEASE"
+        ],
+        "pictures": [
+          "Name cards",
+          "Animals"
+        ]
+      },
+      "activities": [
+        "Words circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W10-D04",
+      "title": "Play stations",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising listening and sound games",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s Term 1 literacy learning at play stations."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with confidence",
+        "Shows listening, speaking and book skills"
+      ],
+      "previousKnowledge": "Children have worked on listening, sounds, rhymes, books, words, names and a story this term.",
+      "vocabulary": [
+        "listen",
+        "loud",
+        "quiet",
+        "rhyme",
+        "book",
+        "name"
+      ],
+      "resources": [
+        "Six station sets",
+        "Class record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Sing the hello song and show six stations to the class.",
+      "teacherActivities": [
+        "Set up six stations: listening, rhymes, books, names, animals and story.",
+        "Observe each child at two stations and record what they can do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every three minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: listening, rhymes, books, names, animals and story. Children: Children rotate every three minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they can do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Six stations",
+        "steps": [
+          "Set up six stations with familiar materials.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep floors clear and materials large and soft."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: listens; joins in rhymes; handles a book; names things; greets and responds to name; joins in a story.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite game.",
+            "expected": "Child chooses a station."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a Term 1 observation record",
+        "Shows familiar skills at stations"
+      ],
+      "conclusion": "Say well done to everyone and wave goodbye.",
+      "homeConnection": "Look at the term report and play a favourite game from this term.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s Term 1 literacy learning at play stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Six stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W10-D05",
+      "title": "Term 1 celebration",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising words and names",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate Term 1 with songs, rhymes and a story, and teachers will complete their records."
+      ],
+      "successCriteria": [
+        "Joins in songs and rhymes",
+        "Shows what they enjoy"
+      ],
+      "previousKnowledge": "Children have worked on listening, sounds, rhymes, books, words, names and a story this term.",
+      "vocabulary": [
+        "listen",
+        "loud",
+        "quiet",
+        "rhyme",
+        "book",
+        "name"
+      ],
+      "resources": [
+        "Favourite songs and rhymes",
+        "A book and a toy goat",
+        "Stickers or a certificate",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate. Let us sing our favourite songs.\"",
+      "teacherActivities": [
+        "Sing favourite rhymes and songs with actions.",
+        "Tell the goat story and wait for \"munch, munch\".",
+        "Give each child a sticker or praise and say their name."
+      ],
+      "learnerActivities": [
+        "Children join in and choose a song.",
+        "Children join in the story.",
+        "Child waves and says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite rhymes and songs with actions. Children: Children join in and choose a song.",
+        "Step 2. Teacher: Tell the goat story and wait for \"munch, munch\". Children: Children join in the story.",
+        "Step 3. Teacher: Give each child a sticker or praise and say their name. Children: Child waves and says thank you."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle.",
+          "Sing, tell the story and say each name.",
+          "Hand out stickers or certificates."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and sing along.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s Term 1 literacy record using today’s observations and the week’s notes. Record a next step for Term 2.",
+        "questions": [
+          {
+            "question": "What is your favourite song?",
+            "expected": "Child sings or points."
+          },
+          {
+            "question": "Did you like the story?",
+            "expected": "Yes with a smile or word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed Term 1 record",
+        "Enjoys songs, rhymes and stories"
+      ],
+      "conclusion": "Wave goodbye and say \"See you in Term 2.\"",
+      "homeConnection": "Keep singing and sharing books during the holiday and say hello to people you meet.",
+      "teacherReflection": [
+        "Which children could show \"celebrate Term 1 with songs, rhymes and a story, and teachers will complete their records\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

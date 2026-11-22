@@ -1,0 +1,603 @@
+{
+  "id": "ELA-PS-TOD-LIT-T1-W01",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 1,
+  "week": 1,
+  "title": "Sounds around us",
+  "topic": "Listening",
+  "subtopics": [
+    "Listening walk",
+    "Inside and outside sounds",
+    "Guess the sound"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will stop, listen and say or show what they hear.",
+    "Children will match a sound to the thing that makes it with support."
+  ],
+  "vocabulary": [
+    "listen",
+    "hear",
+    "sound",
+    "quiet",
+    "noise"
+  ],
+  "content": "Stopping to listen, finding the sources of everyday sounds inside and outside, and guessing hidden sounds.",
+  "teachingActivities": "Model listening with a finger to your ear and a calm face; whisper the instruction \"Shh, listen\"; name each sound clearly and give children time to point.",
+  "learnerActivities": "Stop, listen, point to or name what they hear, and join a guess-the-sound game.",
+  "resources": [
+    "A bell, a spoon and a cup, a rattle",
+    "A cloth bag",
+    "Pictures of a door, a bird, a car and a tap",
+    "A small drum"
+  ],
+  "assessment": "Observe whether each child stops to listen, turns towards a sound and points to its source.",
+  "expectedOutcomes": [
+    "Stays still to listen for a short time.",
+    "Names or points to the source of a familiar sound."
+  ],
+  "crossCurricular": [
+    "Science: sounds in the environment",
+    "Social Habits: being quiet together",
+    "Physical Development: walking in a line"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W01-D01",
+      "title": "Shh, listen!",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 1,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Listening walk",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will stop and stay still to listen for a few seconds."
+      ],
+      "successCriteria": [
+        "Stops moving when the teacher says \"Shh, listen\"",
+        "Turns towards a sound"
+      ],
+      "previousKnowledge": "Children are new to the class; they may respond to their name, turn towards sounds and enjoy simple songs.",
+      "vocabulary": [
+        "listen",
+        "hear",
+        "sound",
+        "quiet",
+        "noise"
+      ],
+      "resources": [
+        "A small bell",
+        "A cloth to cover the bell",
+        "A carpet or mat for sitting"
+      ],
+      "starter": "Sit the children in a circle, put a finger to your ear and whisper \"Shh, listen.\" Ring the bell once and let the sound fade.",
+      "teacherActivities": [
+        "Whisper \"Shh, listen\" and ring the bell once. Hold still until the sound fades, then say \"I heard a bell.\"",
+        "Ring the bell behind your back. Ask \"What can you hear?\" and wait a few seconds.",
+        "Teach the listening action: finger to the ear, then say \"listen\" together.",
+        "Ring the bell again and let each child ring it once while the others listen."
+      ],
+      "learnerActivities": [
+        "Children stop, look at you and listen.",
+        "Children turn towards the sound or say or point to the bell.",
+        "Children copy the action and say \"listen\".",
+        "Each child rings gently and the others stay still to listen."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Whisper \"Shh, listen\" and ring the bell once. Hold still until the sound fades, then say \"I heard a bell.\" Children: Children stop, look at you and listen.",
+        "Step 2. Teacher: Ring the bell behind your back. Ask \"What can you hear?\" and wait a few seconds. Children: Children turn towards the sound or say or point to the bell.",
+        "Step 3. Teacher: Teach the listening action: finger to the ear, then say \"listen\" together. Children: Children copy the action and say \"listen\".",
+        "Step 4. Teacher: Ring the bell again and let each child ring it once while the others listen. Children: Each child rings gently and the others stay still to listen."
+      ],
+      "practical": {
+        "title": "Listening statues",
+        "steps": [
+          "Ask children to walk gently round the mat while you hum.",
+          "Ring the bell and say \"Shh, listen\". Everyone stands still like a statue.",
+          "When the sound fades, children wave and walk again. Repeat four times."
+        ],
+        "safety": "Clear the mat of toys and chairs so children can move safely. Keep the bell sound gentle so it does not startle anyone."
+      },
+      "differentiation": {
+        "support": "Sit the child on your lap and put a hand on theirs to show the listening action.",
+        "extension": "Ask the child to ring the bell for the group and tell friends to listen."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you listen?",
+            "expected": "Child stops and looks or points to the ear."
+          },
+          {
+            "question": "What did you hear?",
+            "expected": "Bell, or a pointing gesture towards it."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Stops to listen for a few seconds",
+        "Copies the listening action"
+      ],
+      "conclusion": "Whisper \"Shh, listen\" one last time and finish with a quiet clap. Say \"Good listening.\"",
+      "homeConnection": "At home, say \"Shh, listen\" and ask your child to point to the sound they hear, such as a fan or a car.",
+      "teacherReflection": [
+        "Which children could show \"stop and stay still to listen for a few seconds\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LISTEN (finger to ear)",
+          "A bell"
+        ],
+        "pictures": [
+          "A child with a finger to the ear",
+          "A bell"
+        ],
+        "songOrRhyme": "Listen, listen, shh, shh, shh. What can you hear? What can you hear?"
+      },
+      "activities": [
+        "Listening statues"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W01-D02",
+      "title": "Inside sounds",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 1,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Inside and outside sounds",
+      "dayType": "explore",
+      "objectives": [
+        "Children will point to the objects that make sounds in the classroom."
+      ],
+      "successCriteria": [
+        "Points to an object that makes a sound",
+        "Copies a sound with the voice"
+      ],
+      "previousKnowledge": "Children are new to the class; they may respond to their name, turn towards sounds and enjoy simple songs.",
+      "vocabulary": [
+        "listen",
+        "hear",
+        "sound",
+        "quiet",
+        "noise"
+      ],
+      "resources": [
+        "A spoon and a cup",
+        "A rattle",
+        "A door that can be closed",
+        "A tap or water jug"
+      ],
+      "starter": "Tap a spoon on a cup and say \"Tap, tap, tap. What is making the sound?\" Let children point to the spoon.",
+      "teacherActivities": [
+        "Make three sounds in turn: tap the cup, shake the rattle, close the door. Name each one.",
+        "Make a sound with your back turned and ask \"What was that?\"",
+        "Pour water from the jug into a basin. Say \"Splash, splash.\"",
+        "Give each child one object to make a sound while the others listen."
+      ],
+      "learnerActivities": [
+        "Children watch and point to each thing that made the sound.",
+        "Children point to the object or say the word.",
+        "Children listen and say \"splash\".",
+        "Child makes a sound; friends point to what they heard."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Make three sounds in turn: tap the cup, shake the rattle, close the door. Name each one. Children: Children watch and point to each thing that made the sound.",
+        "Step 2. Teacher: Make a sound with your back turned and ask \"What was that?\" Children: Children point to the object or say the word.",
+        "Step 3. Teacher: Pour water from the jug into a basin. Say \"Splash, splash.\" Children: Children listen and say \"splash\".",
+        "Step 4. Teacher: Give each child one object to make a sound while the others listen. Children: Child makes a sound; friends point to what they heard."
+      ],
+      "practical": {
+        "title": "Sound basket",
+        "steps": [
+          "Put four safe sound-makers in a basket.",
+          "Each child takes one out and makes its sound.",
+          "Everyone says the name of the object together."
+        ],
+        "safety": "Use only large, smooth objects that cannot be swallowed. Keep the rattle sound soft and watch that children do not put objects in their mouths."
+      },
+      "differentiation": {
+        "support": "Offer two objects only and let the child choose which to shake.",
+        "extension": "Ask the child to choose an object and make a sound for friends to name."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What makes this sound?",
+            "expected": "Child names or points to the object."
+          },
+          {
+            "question": "Can you tap like me?",
+            "expected": "Child taps with a spoon."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Points to the source of a classroom sound",
+        "Makes a sound with an object"
+      ],
+      "conclusion": "Put the objects back in the basket one at a time, saying each name together.",
+      "homeConnection": "Ask your child to find something at home that makes a sound, such as a spoon on a pot.",
+      "teacherReflection": [
+        "Which children could show \"point to the objects that make sounds in the classroom\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Cup and spoon",
+          "Rattle",
+          "Door"
+        ],
+        "pictures": [
+          "A cup and spoon",
+          "A rattle",
+          "A door"
+        ]
+      },
+      "activities": [
+        "Sound basket"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W01-D03",
+      "title": "Outside sounds",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 1,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Inside and outside sounds",
+      "dayType": "explore",
+      "objectives": [
+        "Children will listen outside and say or point to what they hear."
+      ],
+      "successCriteria": [
+        "Listens quietly outside",
+        "Points to or names a sound heard outside"
+      ],
+      "previousKnowledge": "Children are new to the class; they may respond to their name, turn towards sounds and enjoy simple songs.",
+      "vocabulary": [
+        "listen",
+        "hear",
+        "sound",
+        "quiet",
+        "noise"
+      ],
+      "resources": [
+        "Pictures of a bird, a car, a hen and the wind",
+        "A safe outdoor area",
+        "A hat for each child where needed"
+      ],
+      "starter": "Show the picture of a bird and say \"Tweet, tweet. We will listen for a bird outside.\" Hold a finger to your ear.",
+      "teacherActivities": [
+        "Walk the children in a line to the safe outdoor area, holding the rope or hands.",
+        "Stop, say \"Shh, listen\" and wait ten seconds. Say what you hear, such as a bird.",
+        "Show the four pictures. Ask \"Did we hear a bird? A car?\"",
+        "Walk to a second spot and listen again."
+      ],
+      "learnerActivities": [
+        "Children walk gently and hold their place in the line.",
+        "Children stop and listen, and some point or name a sound.",
+        "Children point to the picture of the sound they heard.",
+        "Children listen and say \"car\", \"bird\" or make the sound."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Walk the children in a line to the safe outdoor area, holding the rope or hands. Children: Children walk gently and hold their place in the line.",
+        "Step 2. Teacher: Stop, say \"Shh, listen\" and wait ten seconds. Say what you hear, such as a bird. Children: Children stop and listen, and some point or name a sound.",
+        "Step 3. Teacher: Show the four pictures. Ask \"Did we hear a bird? A car?\" Children: Children point to the picture of the sound they heard.",
+        "Step 4. Teacher: Walk to a second spot and listen again. Children: Children listen and say \"car\", \"bird\" or make the sound."
+      ],
+      "practical": {
+        "title": "Listening spots",
+        "steps": [
+          "Choose two spots outside, such as the gate and the tree.",
+          "At each spot, listen for ten seconds.",
+          "Point to the matching picture card."
+        ],
+        "safety": "Keep children in a line with an adult at the front and back, away from the road and the gate. Check the ground for sharp objects and use sun hats in strong sun."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and point to the thing that makes the sound.",
+        "extension": "Ask the child to tell a friend one sound they heard."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What can you hear?",
+            "expected": "Bird, car, wind or a sound made with the voice."
+          },
+          {
+            "question": "Is it loud or quiet?",
+            "expected": "Child answers loud or quiet by word or gesture."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Listens outside for ten seconds",
+        "Names or imitates one outside sound"
+      ],
+      "conclusion": "Walk back in a line and say \"We listened well outside.\"",
+      "homeConnection": "On the way home or at the compound, ask \"What can you hear?\" and wait for your child to point.",
+      "teacherReflection": [
+        "Which children could show \"listen outside and say or point to what they hear\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Bird",
+          "Car",
+          "Wind"
+        ],
+        "pictures": [
+          "A bird in a tree",
+          "A car",
+          "Leaves in the wind"
+        ],
+        "songOrRhyme": "Tweet, tweet, tweet, I hear a bird. Brum, brum, brum, I hear a car."
+      },
+      "activities": [
+        "Listening spots"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W01-D04",
+      "title": "Guess the sound",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 1,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Guess the sound",
+      "dayType": "practise",
+      "objectives": [
+        "Children will match a hidden sound to a picture of its source."
+      ],
+      "successCriteria": [
+        "Points to the picture that matches a sound",
+        "Waits quietly while the sound is made"
+      ],
+      "previousKnowledge": "Children are new to the class; they may respond to their name, turn towards sounds and enjoy simple songs.",
+      "vocabulary": [
+        "listen",
+        "hear",
+        "sound",
+        "quiet",
+        "noise"
+      ],
+      "resources": [
+        "A cloth bag",
+        "A bell, a rattle and a spoon with a cup",
+        "Three picture cards of the same objects"
+      ],
+      "starter": "Show the cloth bag and say \"I have a secret sound in my bag. Shh, listen.\" Shake it softly.",
+      "teacherActivities": [
+        "Put the bell in the bag, shake it and ask \"What is it?\" Take it out to show.",
+        "Lay the three picture cards on the mat. Make a sound behind a screen.",
+        "Repeat with the rattle and the spoon and cup.",
+        "Let a child choose a card and ask you to make that sound."
+      ],
+      "learnerActivities": [
+        "Children listen, guess by pointing or naming, and look at the reveal.",
+        "Children point to the matching picture.",
+        "Children point and say the object name.",
+        "Child points to a card and listens to the sound."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the bell in the bag, shake it and ask \"What is it?\" Take it out to show. Children: Children listen, guess by pointing or naming, and look at the reveal.",
+        "Step 2. Teacher: Lay the three picture cards on the mat. Make a sound behind a screen. Children: Children point to the matching picture.",
+        "Step 3. Teacher: Repeat with the rattle and the spoon and cup. Children: Children point and say the object name.",
+        "Step 4. Teacher: Let a child choose a card and ask you to make that sound. Children: Child points to a card and listens to the sound."
+      ],
+      "practical": {
+        "title": "Sound lotto",
+        "steps": [
+          "Place three picture cards on the mat.",
+          "Hide behind a screen and make one sound.",
+          "Children point to the matching card, and the teacher shows the object."
+        ],
+        "safety": "Use soft sounds only so no child is frightened. Keep objects large and out of mouths."
+      },
+      "differentiation": {
+        "support": "Offer two cards instead of three and make the sound twice.",
+        "extension": "Ask the child to hide behind the screen and make a sound for the group."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is the sound?",
+            "expected": "Child names or points to the matching picture."
+          },
+          {
+            "question": "Is it the bell?",
+            "expected": "Yes or no with a nod or word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches a sound to its picture with support",
+        "Waits quietly to listen"
+      ],
+      "conclusion": "Put the objects away and say \"Shh, listen\" for a last quiet moment.",
+      "homeConnection": "Play guess the sound at home with a spoon and a pot and ask your child to point to what made it.",
+      "teacherReflection": [
+        "Which children could show \"match a hidden sound to a picture of its source\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Bell",
+          "Rattle",
+          "Spoon and cup"
+        ],
+        "pictures": [
+          "A bell",
+          "A rattle",
+          "A spoon and cup"
+        ]
+      },
+      "activities": [
+        "Sound lotto"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W01-D05",
+      "title": "Week 1 listening check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 1,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Listening walk",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child listens and responds to sounds."
+      ],
+      "successCriteria": [
+        "Stops to listen when asked",
+        "Points to or names the source of one sound"
+      ],
+      "previousKnowledge": "Children are new to the class; they may respond to their name, turn towards sounds and enjoy simple songs.",
+      "vocabulary": [
+        "listen",
+        "hear",
+        "sound",
+        "quiet",
+        "noise"
+      ],
+      "resources": [
+        "A bell, a rattle, a spoon and cup",
+        "Three picture cards",
+        "Class record sheet"
+      ],
+      "starter": "Sing \"Listen, listen, shh, shh, shh\" and show the three listening stations.",
+      "teacherActivities": [
+        "Set up three stations and rotate groups every four minutes. Station 1: bell and rattle. Station 2: picture cards. Station 3: listening statues.",
+        "Make one sound at each station and ask \"What can you hear?\"",
+        "Record each child’s level and take a photograph for the portfolio."
+      ],
+      "learnerActivities": [
+        "Children play at each station and stop to listen on the signal.",
+        "Child points to or names the source.",
+        "Children play on and tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations and rotate groups every four minutes. Station 1: bell and rattle. Station 2: picture cards. Station 3: listening statues. Children: Children play at each station and stop to listen on the signal.",
+        "Step 2. Teacher: Make one sound at each station and ask \"What can you hear?\" Children: Child points to or names the source.",
+        "Step 3. Teacher: Record each child’s level and take a photograph for the portfolio. Children: Children play on and tidy at the signal."
+      ],
+      "practical": {
+        "title": "Listening stations",
+        "steps": [
+          "Set up three stations with soft sound-makers.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Use soft, large objects only and supervise every station. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one familiar sound.",
+        "extension": "Ask a confident child to ring the bell for friends to listen."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: stops to listen; turns towards a sound; points to or names a sound source.",
+        "questions": [
+          {
+            "question": "Can you listen?",
+            "expected": "Child stops and listens."
+          },
+          {
+            "question": "What made that sound?",
+            "expected": "Child names or points to the object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 1",
+        "Listens to a sound for a few seconds"
+      ],
+      "conclusion": "Whisper \"Good listening\" and wave goodbye to the sound-makers.",
+      "homeConnection": "Say \"Shh, listen\" at home and ask your child to point to the sound.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child listens and responds to sounds\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Listen"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Listening stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

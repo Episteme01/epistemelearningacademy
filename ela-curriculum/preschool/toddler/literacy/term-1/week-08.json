@@ -1,0 +1,614 @@
+{
+  "id": "ELA-PS-TOD-LIT-T1-W08",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 1,
+  "week": 8,
+  "title": "Naming things around us",
+  "topic": "Vocabulary",
+  "subtopics": [
+    "Family and people",
+    "Food we eat",
+    "Things in our classroom"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will name familiar people, foods and objects.",
+    "Children will say a word or two to ask for something."
+  ],
+  "vocabulary": [
+    "mummy",
+    "daddy",
+    "baby",
+    "rice",
+    "water",
+    "chair"
+  ],
+  "content": "Naming family, people, food and classroom objects, and using two words to ask for something.",
+  "teachingActivities": "Use real objects first and pictures second; name each item before asking for it; extend single words into two words, such as \"more rice\"; celebrate every word.",
+  "learnerActivities": "Name familiar people, foods and objects, and use two words together to ask for something.",
+  "resources": [
+    "Family photographs",
+    "Real foods or toy foods: rice, bread, banana, water",
+    "Classroom objects: chair, table, cup, ball",
+    "A basket"
+  ],
+  "assessment": "Observe whether each child names at least ten things and uses two words together to ask.",
+  "expectedOutcomes": [
+    "Names at least ten familiar things.",
+    "Uses two words together to ask for something."
+  ],
+  "crossCurricular": [
+    "Understanding the World: family and community",
+    "Social Habits: asking politely",
+    "Mathematics: sorting"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W08-D01",
+      "title": "Family and people",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 8,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Vocabulary",
+      "subtopic": "Family and people",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name familiar people in a family picture."
+      ],
+      "successCriteria": [
+        "Names or points to mummy, daddy and baby",
+        "Says a person’s name or a word for them"
+      ],
+      "previousKnowledge": "Children can name animals and pictures in books and say a few words with gestures.",
+      "vocabulary": [
+        "mummy",
+        "daddy",
+        "baby",
+        "rice",
+        "water",
+        "chair"
+      ],
+      "resources": [
+        "A family picture with mummy, daddy, baby and grandma",
+        "Family photographs from home if available",
+        "A basket"
+      ],
+      "starter": "Show the family picture and say \"This is mummy. This is daddy. This is baby.\" Point to each.",
+      "teacherActivities": [
+        "Point to each person and say the name. Ask \"Who is this?\"",
+        "Say \"Where is baby?\" and wait.",
+        "Show a photograph and ask \"Who is this?\"",
+        "Let each child hold a picture and show it to a friend."
+      ],
+      "learnerActivities": [
+        "Children point and say the name.",
+        "Child points to the baby.",
+        "Child says \"mummy\" or \"grandma\".",
+        "Child shows the picture and says the word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Point to each person and say the name. Ask \"Who is this?\" Children: Children point and say the name.",
+        "Step 2. Teacher: Say \"Where is baby?\" and wait. Children: Child points to the baby.",
+        "Step 3. Teacher: Show a photograph and ask \"Who is this?\" Children: Child says \"mummy\" or \"grandma\".",
+        "Step 4. Teacher: Let each child hold a picture and show it to a friend. Children: Child shows the picture and says the word."
+      ],
+      "practical": {
+        "title": "My family",
+        "steps": [
+          "Put family pictures on the mat.",
+          "Each child points to mummy, daddy and baby.",
+          "The group says the names together."
+        ],
+        "safety": "Handle photographs gently and return them at the end of the day. Be sensitive to children who live with relatives or one parent."
+      },
+      "differentiation": {
+        "support": "Point together and say the word before the child.",
+        "extension": "Ask the child to name more people, such as uncle and aunty."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is this?",
+            "expected": "Mummy, daddy, baby or grandma."
+          },
+          {
+            "question": "Where is baby?",
+            "expected": "Child points to baby."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names familiar people",
+        "Points to a named person"
+      ],
+      "conclusion": "Wave goodbye to the family pictures.",
+      "homeConnection": "Look at family photographs together and name each person.",
+      "teacherReflection": [
+        "Which children could show \"name familiar people in a family picture\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MUMMY",
+          "DADDY",
+          "BABY"
+        ],
+        "pictures": [
+          "A mummy",
+          "A daddy",
+          "A baby"
+        ],
+        "songOrRhyme": "Mummy, daddy, baby, me. We are a family."
+      },
+      "activities": [
+        "My family"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W08-D02",
+      "title": "Food we eat",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 8,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Vocabulary",
+      "subtopic": "Food we eat",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name foods they eat and say a word to ask for them."
+      ],
+      "successCriteria": [
+        "Names at least three foods",
+        "Asks for a food with a word or phrase"
+      ],
+      "previousKnowledge": "Children can name animals and pictures in books and say a few words with gestures.",
+      "vocabulary": [
+        "mummy",
+        "daddy",
+        "baby",
+        "rice",
+        "water",
+        "chair"
+      ],
+      "resources": [
+        "Toy foods or real washed fruit: rice, bread, banana, water",
+        "A tray",
+        "Napkins"
+      ],
+      "starter": "Put the foods on a tray and say \"Look! Rice, bread, banana.\" Ask \"What do you like?\"",
+      "teacherActivities": [
+        "Hold up each food and say its name clearly.",
+        "Say \"I want rice, please.\" Pretend to eat it.",
+        "Hold two foods and ask \"Rice or bread?\"",
+        "Let each child pick a food from the tray."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children copy \"rice, please\".",
+        "Child points or says the food name.",
+        "Child names the food and says please."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold up each food and say its name clearly. Children: Children look and say the names.",
+        "Step 2. Teacher: Say \"I want rice, please.\" Pretend to eat it. Children: Children copy \"rice, please\".",
+        "Step 3. Teacher: Hold two foods and ask \"Rice or bread?\" Children: Child points or says the food name.",
+        "Step 4. Teacher: Let each child pick a food from the tray. Children: Child names the food and says please."
+      ],
+      "practical": {
+        "title": "Pretend snack",
+        "steps": [
+          "Set up a pretend snack table with toy foods.",
+          "Each child asks for a food by name.",
+          "Say thank you together."
+        ],
+        "safety": "Use toy foods or check allergies before any real food is shared. Wash hands first and keep real food for supervised snack time only."
+      },
+      "differentiation": {
+        "support": "Offer two foods and say the name with the child.",
+        "extension": "Ask the child to name three foods they eat at home."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "Rice, bread, banana or water."
+          },
+          {
+            "question": "What do you want?",
+            "expected": "A food name with or without please."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names at least three foods",
+        "Asks for a food"
+      ],
+      "conclusion": "Put the foods away and say \"Thank you for the food.\"",
+      "homeConnection": "Name the foods at mealtime and ask your child \"What do you want?\"",
+      "teacherReflection": [
+        "Which children could show \"name foods they eat and say a word to ask for them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RICE",
+          "BREAD",
+          "BANANA",
+          "WATER"
+        ],
+        "pictures": [
+          "A plate of rice",
+          "Bread",
+          "A banana",
+          "A cup of water"
+        ]
+      },
+      "activities": [
+        "Pretend snack"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W08-D03",
+      "title": "Things in our classroom",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 8,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Vocabulary",
+      "subtopic": "Things in our classroom",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name objects in the classroom."
+      ],
+      "successCriteria": [
+        "Points to a chair, a table, a cup and a ball",
+        "Names an object"
+      ],
+      "previousKnowledge": "Children can name animals and pictures in books and say a few words with gestures.",
+      "vocabulary": [
+        "mummy",
+        "daddy",
+        "baby",
+        "rice",
+        "water",
+        "chair"
+      ],
+      "resources": [
+        "A chair, a table, a cup and a ball",
+        "A basket",
+        "A cloth"
+      ],
+      "starter": "Walk around the classroom and touch a chair. Say \"This is a chair.\" Ask \"What is this?\"",
+      "teacherActivities": [
+        "Walk around and name each object and let children touch it.",
+        "Say \"Bring me the ball\" and wait.",
+        "Hide an object under the cloth and ask \"What is it?\"",
+        "Let each child name an object and show a friend."
+      ],
+      "learnerActivities": [
+        "Children touch and say the name.",
+        "Child brings the ball.",
+        "Child feels or guesses and names it.",
+        "Child shows the object and says the word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Walk around and name each object and let children touch it. Children: Children touch and say the name.",
+        "Step 2. Teacher: Say \"Bring me the ball\" and wait. Children: Child brings the ball.",
+        "Step 3. Teacher: Hide an object under the cloth and ask \"What is it?\" Children: Child feels or guesses and names it.",
+        "Step 4. Teacher: Let each child name an object and show a friend. Children: Child shows the object and says the word."
+      ],
+      "practical": {
+        "title": "Classroom treasure hunt",
+        "steps": [
+          "Choose four classroom objects.",
+          "Ask each child to find one when you name it.",
+          "Bring them to the mat and name them together."
+        ],
+        "safety": "Make sure the objects are light and safe to carry. Keep the floor clear and supervise movement."
+      },
+      "differentiation": {
+        "support": "Walk with the child and point to the object.",
+        "extension": "Ask the child to find two objects when you name them."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "Chair, table, cup or ball."
+          },
+          {
+            "question": "Can you bring me the cup?",
+            "expected": "Child brings a cup."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names classroom objects",
+        "Follows a one-step request"
+      ],
+      "conclusion": "Return each object to its place and say its name.",
+      "homeConnection": "Name things at home and ask your child to fetch one by name.",
+      "teacherReflection": [
+        "Which children could show \"name objects in the classroom\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CHAIR",
+          "TABLE",
+          "CUP",
+          "BALL"
+        ],
+        "pictures": [
+          "A chair",
+          "A table",
+          "A cup",
+          "A ball"
+        ]
+      },
+      "activities": [
+        "Classroom treasure hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W08-D04",
+      "title": "Two words together",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 8,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Vocabulary",
+      "subtopic": "Food we eat",
+      "dayType": "practise",
+      "objectives": [
+        "Children will use two words together to ask for something."
+      ],
+      "successCriteria": [
+        "Says \"more rice\" or a similar phrase",
+        "Uses please with a request"
+      ],
+      "previousKnowledge": "Children can name animals and pictures in books and say a few words with gestures.",
+      "vocabulary": [
+        "mummy",
+        "daddy",
+        "baby",
+        "rice",
+        "water",
+        "chair"
+      ],
+      "resources": [
+        "Toy foods",
+        "A toy shop counter",
+        "Cups and plates"
+      ],
+      "starter": "Hold a plate and say \"More rice, please.\" Ask the children \"What do you want?\"",
+      "teacherActivities": [
+        "Model the phrases \"more rice\", \"my cup\" and \"big ball\".",
+        "Hold out the plate and wait for the child to ask.",
+        "Give the item and say \"Here you are.\" Wait for thank you.",
+        "Let each child be the shopkeeper and serve a friend."
+      ],
+      "learnerActivities": [
+        "Children repeat the phrases.",
+        "Child says \"more rice\" or \"rice, please\".",
+        "Child says thank you.",
+        "Child serves and the friend asks."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Model the phrases \"more rice\", \"my cup\" and \"big ball\". Children: Children repeat the phrases.",
+        "Step 2. Teacher: Hold out the plate and wait for the child to ask. Children: Child says \"more rice\" or \"rice, please\".",
+        "Step 3. Teacher: Give the item and say \"Here you are.\" Wait for thank you. Children: Child says thank you.",
+        "Step 4. Teacher: Let each child be the shopkeeper and serve a friend. Children: Child serves and the friend asks."
+      ],
+      "practical": {
+        "title": "Pretend shop",
+        "steps": [
+          "Set up a pretend shop with toy foods.",
+          "The customer asks with two words.",
+          "The shopkeeper serves and the customer says thank you."
+        ],
+        "safety": "Use toy foods and cups only. Keep the area clear and supervise turn-taking."
+      },
+      "differentiation": {
+        "support": "Say the first word and wait for the child to add the second.",
+        "extension": "Ask the child to ask for two things in a row."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do you want?",
+            "expected": "A two-word request such as \"more rice\"."
+          },
+          {
+            "question": "What do you say after you get it?",
+            "expected": "Thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses two words together",
+        "Uses please and thank you"
+      ],
+      "conclusion": "Close the shop and say goodbye to the customers.",
+      "homeConnection": "At mealtimes, wait for your child to ask with two words such as \"more water\".",
+      "teacherReflection": [
+        "Which children could show \"use two words together to ask for something\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MORE RICE",
+          "MY CUP",
+          "BIG BALL"
+        ],
+        "pictures": [
+          "A plate of rice",
+          "A cup",
+          "A big ball"
+        ]
+      },
+      "activities": [
+        "Pretend shop"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W08-D05",
+      "title": "Week 8 words check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 8,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Vocabulary",
+      "subtopic": "Things in our classroom",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how many words each child names and how they ask for things."
+      ],
+      "successCriteria": [
+        "Names at least ten things",
+        "Uses two words to ask"
+      ],
+      "previousKnowledge": "Children can name animals and pictures in books and say a few words with gestures.",
+      "vocabulary": [
+        "mummy",
+        "daddy",
+        "baby",
+        "rice",
+        "water",
+        "chair"
+      ],
+      "resources": [
+        "Family pictures",
+        "Toy foods",
+        "Classroom objects",
+        "Class record sheet"
+      ],
+      "starter": "Sing the \"What is this?\" song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: people, food and objects.",
+        "At each station ask \"What is this?\" and \"What do you want?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child names the item and asks.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: people, food and objects. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What is this?\" and \"What do you want?\" Children: Child names the item and asks.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Words stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Use toy foods and large pictures only. Supervise each station and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use real objects.",
+        "extension": "Ask a confident child to name things for a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names familiar things; uses two words together; asks with please.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "Child names the object."
+          },
+          {
+            "question": "What do you want?",
+            "expected": "Child says a word or phrase."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Names familiar things"
+      ],
+      "conclusion": "Say goodbye to each object.",
+      "homeConnection": "Name things at home and ask your child to ask for them with two words.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how many words each child names and how they ask for things\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Words"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Words stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

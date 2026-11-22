@@ -1,0 +1,604 @@
+{
+  "id": "ELA-PS-TOD-LIT-T1-W04",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 1,
+  "week": 4,
+  "title": "Instruments and body sounds",
+  "topic": "Rhythm",
+  "subtopics": [
+    "Drums and shakers",
+    "Clapping and stamping",
+    "Fast and slow"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will copy a short beat with an instrument or their body.",
+    "Children will say fast or slow with support."
+  ],
+  "vocabulary": [
+    "drum",
+    "shaker",
+    "clap",
+    "stamp",
+    "fast",
+    "slow"
+  ],
+  "content": "Playing drums and shakers gently, clapping and stamping beats, and fast and slow sounds.",
+  "teachingActivities": "Play two-beat patterns and wait for children to copy; show fast with quick hands and slow with big gentle hands; model gentle playing and put instruments away together.",
+  "learnerActivities": "Play drums and shakers, clap and stamp beats, copy a short pattern and say fast or slow.",
+  "resources": [
+    "Two drums",
+    "Shakers made from bottles and rice",
+    "Rhythm sticks",
+    "A tortoise and a rabbit picture",
+    "A scarf"
+  ],
+  "assessment": "Observe whether each child copies a two-beat pattern and plays an instrument gently.",
+  "expectedOutcomes": [
+    "Copies a two-beat pattern.",
+    "Plays an instrument gently."
+  ],
+  "crossCurricular": [
+    "Music: beat and rhythm",
+    "Physical Development: coordination",
+    "Social Habits: sharing instruments"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W04-D01",
+      "title": "Drums and shakers",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Rhythm",
+      "subtopic": "Drums and shakers",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will play a drum and a shaker gently."
+      ],
+      "successCriteria": [
+        "Plays a drum with a soft hand",
+        "Shakes a shaker gently"
+      ],
+      "previousKnowledge": "Children can name familiar animals, make animal sounds and change the loudness of their voices.",
+      "vocabulary": [
+        "drum",
+        "shaker",
+        "clap",
+        "stamp",
+        "fast",
+        "slow"
+      ],
+      "resources": [
+        "Two drums",
+        "Four shakers made from sealed bottles with rice",
+        "A basket"
+      ],
+      "starter": "Show a drum and say \"This is a drum. Boom, boom.\" Show a shaker and say \"This is a shaker. Shh, shh.\"",
+      "teacherActivities": [
+        "Play the drum with a soft hand and say \"Gentle hands.\" Shake the shaker and name it.",
+        "Give each child a shaker and say \"Shake, shake, shake\" and \"Stop\".",
+        "Pass the drum round the circle so each child plays once.",
+        "Say \"Put it back in the basket\" and collect each instrument."
+      ],
+      "learnerActivities": [
+        "Children watch and say \"drum\" and \"shaker\".",
+        "Children shake and stop on the signal.",
+        "Child plays the drum gently and passes it on.",
+        "Child puts the instrument in the basket."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the drum with a soft hand and say \"Gentle hands.\" Shake the shaker and name it. Children: Children watch and say \"drum\" and \"shaker\".",
+        "Step 2. Teacher: Give each child a shaker and say \"Shake, shake, shake\" and \"Stop\". Children: Children shake and stop on the signal.",
+        "Step 3. Teacher: Pass the drum round the circle so each child plays once. Children: Child plays the drum gently and passes it on.",
+        "Step 4. Teacher: Say \"Put it back in the basket\" and collect each instrument. Children: Child puts the instrument in the basket."
+      ],
+      "practical": {
+        "title": "Play and stop",
+        "steps": [
+          "Sit in a circle and give everyone a shaker.",
+          "Play music and shake along.",
+          "Stop the music and everyone holds still."
+        ],
+        "safety": "Check each shaker is sealed with tape and cannot be opened. Keep instruments out of mouths and the volume gentle."
+      },
+      "differentiation": {
+        "support": "Hold the shaker with the child and shake together.",
+        "extension": "Ask the child to be the leader and tell friends when to shake and when to stop."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "A drum or a shaker."
+          },
+          {
+            "question": "Can you play gently?",
+            "expected": "Child plays softly."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names a drum and a shaker",
+        "Plays an instrument gently"
+      ],
+      "conclusion": "Put the instruments in the basket and say \"Drum, shaker, goodbye.\"",
+      "homeConnection": "At home, make a shaker with a sealed bottle and a few beans and shake with your child.",
+      "teacherReflection": [
+        "Which children could show \"play a drum and a shaker gently\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DRUM",
+          "SHAKER"
+        ],
+        "pictures": [
+          "A drum",
+          "A shaker"
+        ],
+        "songOrRhyme": "Shake, shake, shake your shaker. Stop, stop, stop."
+      },
+      "activities": [
+        "Play and stop"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W04-D02",
+      "title": "Clap and stamp",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Rhythm",
+      "subtopic": "Clapping and stamping",
+      "dayType": "explore",
+      "objectives": [
+        "Children will copy a clap and a stamp."
+      ],
+      "successCriteria": [
+        "Claps on request",
+        "Stamps on request"
+      ],
+      "previousKnowledge": "Children can name familiar animals, make animal sounds and change the loudness of their voices.",
+      "vocabulary": [
+        "drum",
+        "shaker",
+        "clap",
+        "stamp",
+        "fast",
+        "slow"
+      ],
+      "resources": [
+        "A drum",
+        "A clear space on the mat",
+        "A scarf"
+      ],
+      "starter": "Clap twice and say \"Clap, clap.\" Stamp twice and say \"Stamp, stamp.\" Ask the children to copy.",
+      "teacherActivities": [
+        "Clap once and wait for the children to clap once. Stamp once and wait for them to stamp.",
+        "Play a two-beat pattern: clap, clap. Then stamp, stamp.",
+        "Mix the actions: clap, stamp.",
+        "Let a child choose clap or stamp and lead the group."
+      ],
+      "learnerActivities": [
+        "Children copy each action.",
+        "Children copy the pattern.",
+        "Children copy the mixed pattern with support.",
+        "Child leads and the group copies."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Clap once and wait for the children to clap once. Stamp once and wait for them to stamp. Children: Children copy each action.",
+        "Step 2. Teacher: Play a two-beat pattern: clap, clap. Then stamp, stamp. Children: Children copy the pattern.",
+        "Step 3. Teacher: Mix the actions: clap, stamp. Children: Children copy the mixed pattern with support.",
+        "Step 4. Teacher: Let a child choose clap or stamp and lead the group. Children: Child leads and the group copies."
+      ],
+      "practical": {
+        "title": "Echo clapping",
+        "steps": [
+          "Stand in a circle with room to move.",
+          "The teacher plays a short pattern.",
+          "Children echo the pattern back."
+        ],
+        "safety": "Leave space so children do not bump each other. Stamp gently on the floor and stop if anyone is tired."
+      },
+      "differentiation": {
+        "support": "Clap with the child’s hands and stamp beside them.",
+        "extension": "Ask the child to make a two-beat pattern for friends to copy."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you clap?",
+            "expected": "Child claps."
+          },
+          {
+            "question": "Show me stamp, stamp.",
+            "expected": "Child stamps twice."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Copies a clap and a stamp",
+        "Copies a two-beat pattern with support"
+      ],
+      "conclusion": "Finish with one big clap and a soft stamp.",
+      "homeConnection": "Clap a pattern at home and ask your child to clap it back.",
+      "teacherReflection": [
+        "Which children could show \"copy a clap and a stamp\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CLAP",
+          "STAMP"
+        ],
+        "pictures": [
+          "Hands clapping",
+          "Feet stamping"
+        ]
+      },
+      "activities": [
+        "Echo clapping"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W04-D03",
+      "title": "Fast and slow",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Rhythm",
+      "subtopic": "Fast and slow",
+      "dayType": "explore",
+      "objectives": [
+        "Children will clap or play fast and slow."
+      ],
+      "successCriteria": [
+        "Claps fast when asked",
+        "Claps slow when asked"
+      ],
+      "previousKnowledge": "Children can name familiar animals, make animal sounds and change the loudness of their voices.",
+      "vocabulary": [
+        "drum",
+        "shaker",
+        "clap",
+        "stamp",
+        "fast",
+        "slow"
+      ],
+      "resources": [
+        "Pictures of a rabbit and a tortoise",
+        "A drum",
+        "A scarf"
+      ],
+      "starter": "Show the rabbit and clap fast. Show the tortoise and clap slowly. Say \"Fast, slow.\"",
+      "teacherActivities": [
+        "Tap the drum fast for the rabbit and slow for the tortoise.",
+        "Show a card and ask the children to clap fast or slow to match.",
+        "Move the scarf fast or slowly and ask the children to move their hands the same way.",
+        "Let each child choose a card and play the drum."
+      ],
+      "learnerActivities": [
+        "Children watch and listen, then copy with their hands.",
+        "Children clap at the right speed.",
+        "Children match the scarf speed.",
+        "Child plays fast or slow."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tap the drum fast for the rabbit and slow for the tortoise. Children: Children watch and listen, then copy with their hands.",
+        "Step 2. Teacher: Show a card and ask the children to clap fast or slow to match. Children: Children clap at the right speed.",
+        "Step 3. Teacher: Move the scarf fast or slowly and ask the children to move their hands the same way. Children: Children match the scarf speed.",
+        "Step 4. Teacher: Let each child choose a card and play the drum. Children: Child plays fast or slow."
+      ],
+      "practical": {
+        "title": "Rabbit and tortoise",
+        "steps": [
+          "Place the two pictures on the floor.",
+          "Walk fast like a rabbit or slow like a tortoise.",
+          "Stop when the drum stops."
+        ],
+        "safety": "Keep an adult at the front and back and watch that children do not run into each other. Clear the floor first."
+      },
+      "differentiation": {
+        "support": "Use one card at a time and move with the child.",
+        "extension": "Ask the child to say fast or slow and lead the movement."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the rabbit fast or slow?",
+            "expected": "Fast."
+          },
+          {
+            "question": "Show me slow.",
+            "expected": "Child moves or claps slowly."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Claps fast and slow on request",
+        "Says fast or slow with support"
+      ],
+      "conclusion": "Slow down your clapping until it stops, and whisper \"slow\".",
+      "homeConnection": "Play fast and slow with a spoon on a pot at home.",
+      "teacherReflection": [
+        "Which children could show \"clap or play fast and slow\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FAST (rabbit)",
+          "SLOW (tortoise)"
+        ],
+        "pictures": [
+          "A rabbit",
+          "A tortoise"
+        ],
+        "songOrRhyme": "Rabbit goes fast, fast, fast. Tortoise goes slow, slow, slow."
+      },
+      "activities": [
+        "Rabbit and tortoise"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W04-D04",
+      "title": "Our little band",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Rhythm",
+      "subtopic": "Drums and shakers",
+      "dayType": "apply",
+      "objectives": [
+        "Children will play together in a small band and follow the leader."
+      ],
+      "successCriteria": [
+        "Plays an instrument with the group",
+        "Stops when the leader stops"
+      ],
+      "previousKnowledge": "Children can name familiar animals, make animal sounds and change the loudness of their voices.",
+      "vocabulary": [
+        "drum",
+        "shaker",
+        "clap",
+        "stamp",
+        "fast",
+        "slow"
+      ],
+      "resources": [
+        "Drums",
+        "Shakers",
+        "Rhythm sticks",
+        "A conductor’s scarf"
+      ],
+      "starter": "Wave the scarf and say \"I am the band leader. When the scarf goes up, we play. When it goes down, we stop.\"",
+      "teacherActivities": [
+        "Give each child an instrument. Wave the scarf up and children play, then down and they stop.",
+        "Show loud, then quiet with the scarf. Show fast, then slow.",
+        "Let two children take turns as the band leader.",
+        "Swap instruments and play again."
+      ],
+      "learnerActivities": [
+        "Children play and stop on the signal.",
+        "Children change their playing to match.",
+        "Leaders hold the scarf and the band follows.",
+        "Children play a different instrument."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Give each child an instrument. Wave the scarf up and children play, then down and they stop. Children: Children play and stop on the signal.",
+        "Step 2. Teacher: Show loud, then quiet with the scarf. Show fast, then slow. Children: Children change their playing to match.",
+        "Step 3. Teacher: Let two children take turns as the band leader. Children: Leaders hold the scarf and the band follows.",
+        "Step 4. Teacher: Swap instruments and play again. Children: Children play a different instrument."
+      ],
+      "practical": {
+        "title": "Little band",
+        "steps": [
+          "Give out the instruments.",
+          "The leader waves the scarf up and down.",
+          "Swap instruments and leaders after two rounds."
+        ],
+        "safety": "Check that instruments are safe and sealed. Keep the volume gentle and give quiet breaks."
+      },
+      "differentiation": {
+        "support": "Sit beside the child and play the same instrument.",
+        "extension": "Ask the child to be the band leader and show the group loud or quiet."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do when the scarf goes down?",
+            "expected": "Stop playing."
+          },
+          {
+            "question": "Can you play with your friends?",
+            "expected": "Child plays with the group."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays with a group",
+        "Follows the leader to start and stop"
+      ],
+      "conclusion": "Take a bow and put the instruments in the basket.",
+      "homeConnection": "Make a band with pots and spoons at home and stop when you say \"stop\".",
+      "teacherReflection": [
+        "Which children could show \"play together in a small band and follow the leader\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BAND",
+          "Play",
+          "Stop"
+        ],
+        "pictures": [
+          "Children playing drums and shakers"
+        ]
+      },
+      "activities": [
+        "Little band"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W04-D05",
+      "title": "Week 4 rhythm check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Rhythm",
+      "subtopic": "Clapping and stamping",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child copies beats and plays an instrument."
+      ],
+      "successCriteria": [
+        "Copies a two-beat pattern",
+        "Plays an instrument gently"
+      ],
+      "previousKnowledge": "Children can name familiar animals, make animal sounds and change the loudness of their voices.",
+      "vocabulary": [
+        "drum",
+        "shaker",
+        "clap",
+        "stamp",
+        "fast",
+        "slow"
+      ],
+      "resources": [
+        "Drums and shakers",
+        "Fast and slow picture cards",
+        "Class record sheet"
+      ],
+      "starter": "Play a short beat and say \"Can you copy me?\" Show the three stations.",
+      "teacherActivities": [
+        "Set up three stations: echo clapping, instruments and fast and slow.",
+        "Play a two-beat pattern at each station and ask the child to copy it.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child copies the pattern.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: echo clapping, instruments and fast and slow. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: Play a two-beat pattern at each station and ask the child to copy it. Children: Child copies the pattern.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Rhythm stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Use sealed shakers and soft drums only. Supervise each station and keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one-beat patterns.",
+        "extension": "Ask a confident child to make a pattern for friends to copy."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: copies a two-beat pattern; plays gently; says or shows fast and slow.",
+        "questions": [
+          {
+            "question": "Can you copy my clap?",
+            "expected": "Child claps the same pattern."
+          },
+          {
+            "question": "Is this fast or slow?",
+            "expected": "Child says or shows the speed."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Copies a short rhythm"
+      ],
+      "conclusion": "Take a bow and say goodbye to the instruments.",
+      "homeConnection": "Practise clap, clap and stamp, stamp at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child copies beats and plays an instrument\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Clap"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Rhythm stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

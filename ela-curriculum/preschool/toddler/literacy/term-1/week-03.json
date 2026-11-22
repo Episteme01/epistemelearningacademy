@@ -1,0 +1,609 @@
+{
+  "id": "ELA-PS-TOD-LIT-T1-W03",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 1,
+  "week": 3,
+  "title": "Animal sounds",
+  "topic": "Sounds in nature",
+  "subtopics": [
+    "Farm animals and their sounds",
+    "Birds and insects",
+    "Animal sound games"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will match animal pictures to sounds.",
+    "Children will make animal sounds and say the animal name."
+  ],
+  "vocabulary": [
+    "goat",
+    "hen",
+    "dog",
+    "cat",
+    "cow",
+    "bird"
+  ],
+  "content": "Farm animals and their sounds, birds and insects, and games that match animal pictures to sounds.",
+  "teachingActivities": "Use real familiar Nigerian animals such as goat, hen, dog, cat and cow; say the name first, then make the sound; let children make the sound before you show the picture.",
+  "learnerActivities": "Name animals, make animal sounds, match pictures to sounds and join animal sound games.",
+  "resources": [
+    "Large pictures of a goat, hen, dog, cat, cow and bird",
+    "Soft toy animals",
+    "A basket",
+    "A recording of animal sounds if available"
+  ],
+  "assessment": "Observe whether each child names at least three animals and makes at least one animal sound.",
+  "expectedOutcomes": [
+    "Names at least three animals.",
+    "Makes the sound of a familiar animal."
+  ],
+  "crossCurricular": [
+    "Science: animals and their homes",
+    "Social Habits: kindness to animals",
+    "Music: copying sounds"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W03-D01",
+      "title": "Farm friends",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 3,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Sounds in nature",
+      "subtopic": "Farm animals and their sounds",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name three farm animals and make their sounds."
+      ],
+      "successCriteria": [
+        "Names or points to a goat, a hen and a dog",
+        "Makes the sound of at least one animal"
+      ],
+      "previousKnowledge": "Children can make loud and quiet sounds and use their voices in play, such as brum for a car.",
+      "vocabulary": [
+        "goat",
+        "hen",
+        "dog",
+        "cat",
+        "cow",
+        "bird"
+      ],
+      "resources": [
+        "Large pictures of a goat, hen and dog",
+        "Soft toy animals if available",
+        "A basket"
+      ],
+      "starter": "Take the goat picture from the basket and say \"Meh, meh. This is a goat.\" Ask \"What does the goat say?\"",
+      "teacherActivities": [
+        "Show the goat picture, say its name and make its sound. Repeat with the hen (\"cluck\") and the dog (\"woof\").",
+        "Say a sound and ask \"Which animal is it?\"",
+        "Say an animal name and ask the children to make its sound.",
+        "Give each child a picture to hold and call out the sound."
+      ],
+      "learnerActivities": [
+        "Children look, point and copy each sound.",
+        "Children point to the matching picture.",
+        "Children make the sound.",
+        "Child holds up the animal when they hear the sound."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the goat picture, say its name and make its sound. Repeat with the hen (\"cluck\") and the dog (\"woof\"). Children: Children look, point and copy each sound.",
+        "Step 2. Teacher: Say a sound and ask \"Which animal is it?\" Children: Children point to the matching picture.",
+        "Step 3. Teacher: Say an animal name and ask the children to make its sound. Children: Children make the sound.",
+        "Step 4. Teacher: Give each child a picture to hold and call out the sound. Children: Child holds up the animal when they hear the sound."
+      ],
+      "practical": {
+        "title": "Animal baskets",
+        "steps": [
+          "Place three animal toys or pictures in a basket.",
+          "Each child picks one and says or shows its name.",
+          "The group makes the animal’s sound together."
+        ],
+        "safety": "Use clean toys and pictures. Remind children to be gentle with animals and to wash hands after real animals."
+      },
+      "differentiation": {
+        "support": "Offer two animals and make the sound with the child.",
+        "extension": "Ask the child to choose an animal and say what it eats."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does the goat say?",
+            "expected": "Meh meh."
+          },
+          {
+            "question": "Which animal says woof?",
+            "expected": "The dog."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names or points to three animals",
+        "Makes an animal sound"
+      ],
+      "conclusion": "Put each picture back in the basket and say its name and sound.",
+      "homeConnection": "Ask your child to make the sound of a goat, a hen or a dog at home or outside.",
+      "teacherReflection": [
+        "Which children could show \"name three farm animals and make their sounds\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GOAT (meh)",
+          "HEN (cluck)",
+          "DOG (woof)"
+        ],
+        "pictures": [
+          "A goat",
+          "A hen",
+          "A dog"
+        ],
+        "songOrRhyme": "The goat says meh, meh, meh. The hen says cluck, cluck, cluck."
+      },
+      "activities": [
+        "Animal baskets"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W03-D02",
+      "title": "Cat, cow and bird",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 3,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Sounds in nature",
+      "subtopic": "Birds and insects",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name a cat, a cow and a bird and make their sounds."
+      ],
+      "successCriteria": [
+        "Names or points to a cat, a cow and a bird",
+        "Makes a sound for each"
+      ],
+      "previousKnowledge": "Children can make loud and quiet sounds and use their voices in play, such as brum for a car.",
+      "vocabulary": [
+        "goat",
+        "hen",
+        "dog",
+        "cat",
+        "cow",
+        "bird"
+      ],
+      "resources": [
+        "Pictures of a cat, a cow and a bird",
+        "A basket",
+        "A soft toy cat"
+      ],
+      "starter": "Hold up the soft toy cat and stroke it gently. Say \"Meow, meow. What does the cat say?\"",
+      "teacherActivities": [
+        "Show the cat and say \"Meow\". Show the cow and say \"Moo\". Show the bird and say \"Tweet\".",
+        "Hide a picture behind your back and make its sound. Ask \"Which animal?\"",
+        "Say \"Fly like a bird\" and flap your arms. Say \"Walk like a cow.\"",
+        "Let each child pick a card and make the animal sound."
+      ],
+      "learnerActivities": [
+        "Children point and make each sound.",
+        "Children point to the picture they think it is.",
+        "Children move like each animal.",
+        "Child shows the card and makes the sound."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the cat and say \"Meow\". Show the cow and say \"Moo\". Show the bird and say \"Tweet\". Children: Children point and make each sound.",
+        "Step 2. Teacher: Hide a picture behind your back and make its sound. Ask \"Which animal?\" Children: Children point to the picture they think it is.",
+        "Step 3. Teacher: Say \"Fly like a bird\" and flap your arms. Say \"Walk like a cow.\" Children: Children move like each animal.",
+        "Step 4. Teacher: Let each child pick a card and make the animal sound. Children: Child shows the card and makes the sound."
+      ],
+      "practical": {
+        "title": "Move like an animal",
+        "steps": [
+          "Clear a space on the mat.",
+          "Call \"bird\", \"cat\" or \"cow\" and everyone moves like that animal.",
+          "Say \"freeze\" and listen for one sound."
+        ],
+        "safety": "Clear the floor of toys and keep children well apart. Stop the game if anyone looks tired."
+      },
+      "differentiation": {
+        "support": "Use two pictures and move beside the child.",
+        "extension": "Ask the child to lead the group in an animal move and sound."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does the cow say?",
+            "expected": "Moo."
+          },
+          {
+            "question": "How does a bird move?",
+            "expected": "It flies or flaps arms."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names three more animals",
+        "Moves and sounds like an animal"
+      ],
+      "conclusion": "Fold your wings and settle on the mat like a bird going to sleep.",
+      "homeConnection": "Look at pictures of animals in a book or outside and say each sound with your child.",
+      "teacherReflection": [
+        "Which children could show \"name a cat, a cow and a bird and make their sounds\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CAT (meow)",
+          "COW (moo)",
+          "BIRD (tweet)"
+        ],
+        "pictures": [
+          "A cat",
+          "A cow",
+          "A bird"
+        ]
+      },
+      "activities": [
+        "Move like an animal"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W03-D03",
+      "title": "Bees, ants and a story",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 3,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Sounds in nature",
+      "subtopic": "Birds and insects",
+      "dayType": "explore",
+      "objectives": [
+        "Children will listen for small animal sounds in a short story."
+      ],
+      "successCriteria": [
+        "Joins in the sound \"buzz\"",
+        "Points to the bee or the ant in a picture"
+      ],
+      "previousKnowledge": "Children can make loud and quiet sounds and use their voices in play, such as brum for a car.",
+      "vocabulary": [
+        "goat",
+        "hen",
+        "dog",
+        "cat",
+        "cow",
+        "bird"
+      ],
+      "resources": [
+        "A picture of a bee and an ant",
+        "A picture book with insects",
+        "A yellow scarf"
+      ],
+      "starter": "Wave the yellow scarf and say \"Bzzz. A bee is flying.\" Ask the children \"Can you buzz?\"",
+      "teacherActivities": [
+        "Show the bee picture and say \"Bzzz, bee\". Show the ant and say \"Tiny ant.\"",
+        "Tell a short story: \"A bee flew to a flower. Bzzz. The bee went home.\" Use the scarf.",
+        "Ask \"Where is the bee?\" and \"Where is the ant?\"",
+        "Give each child a turn to fly the scarf bee while others buzz."
+      ],
+      "learnerActivities": [
+        "Children buzz and hold up a finger for tiny.",
+        "Children buzz and follow the scarf with their eyes.",
+        "Children point to the pictures.",
+        "Child flies the scarf and friends buzz."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the bee picture and say \"Bzzz, bee\". Show the ant and say \"Tiny ant.\" Children: Children buzz and hold up a finger for tiny.",
+        "Step 2. Teacher: Tell a short story: \"A bee flew to a flower. Bzzz. The bee went home.\" Use the scarf. Children: Children buzz and follow the scarf with their eyes.",
+        "Step 3. Teacher: Ask \"Where is the bee?\" and \"Where is the ant?\" Children: Children point to the pictures.",
+        "Step 4. Teacher: Give each child a turn to fly the scarf bee while others buzz. Children: Child flies the scarf and friends buzz."
+      ],
+      "practical": {
+        "title": "Buzzing bees",
+        "steps": [
+          "Give each child a scarf or a paper bee.",
+          "Walk slowly around the mat buzzing like a bee.",
+          "When you say \"flower\", everyone sits and stops buzzing."
+        ],
+        "safety": "Keep an adult watching for falls and remove sharp items. Tell children that real bees and ants are looked at, not touched."
+      },
+      "differentiation": {
+        "support": "Hold the child’s scarf and buzz together.",
+        "extension": "Ask the child to tell a friend what the bee did in the story."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does the bee say?",
+            "expected": "Buzz."
+          },
+          {
+            "question": "Is the ant big or tiny?",
+            "expected": "Tiny."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins in animal sounds in a story",
+        "Points to a bee or an ant"
+      ],
+      "conclusion": "Let the bee fly home and say \"Goodnight bee.\"",
+      "homeConnection": "Look for an ant or a bird outside and say its name and sound with your child, without touching.",
+      "teacherReflection": [
+        "Which children could show \"listen for small animal sounds in a short story\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BEE (buzz)",
+          "ANT"
+        ],
+        "pictures": [
+          "A bee",
+          "An ant",
+          "A flower"
+        ]
+      },
+      "activities": [
+        "Buzzing bees"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W03-D04",
+      "title": "Animal sound games",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 3,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Sounds in nature",
+      "subtopic": "Animal sound games",
+      "dayType": "practise",
+      "objectives": [
+        "Children will match six animal pictures to their sounds in a game."
+      ],
+      "successCriteria": [
+        "Matches a sound to an animal picture",
+        "Names at least three animals"
+      ],
+      "previousKnowledge": "Children can make loud and quiet sounds and use their voices in play, such as brum for a car.",
+      "vocabulary": [
+        "goat",
+        "hen",
+        "dog",
+        "cat",
+        "cow",
+        "bird"
+      ],
+      "resources": [
+        "Six animal pictures: goat, hen, dog, cat, cow, bird",
+        "A basket",
+        "A cloth bag"
+      ],
+      "starter": "Say \"I am thinking of an animal. Meh, meh, meh. Who am I?\" Let the children point to the goat.",
+      "teacherActivities": [
+        "Lay out the six pictures. Make one sound and ask the children to point to the animal.",
+        "Say a name and ask the children to make the sound.",
+        "Play \"Which animal is missing?\" by hiding one picture.",
+        "Let each child hide a picture and play with a friend."
+      ],
+      "learnerActivities": [
+        "Children point to the matching picture.",
+        "Children make the sound.",
+        "Children look and point to the empty space or name the animal.",
+        "Child hides, friend guesses."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Lay out the six pictures. Make one sound and ask the children to point to the animal. Children: Children point to the matching picture.",
+        "Step 2. Teacher: Say a name and ask the children to make the sound. Children: Children make the sound.",
+        "Step 3. Teacher: Play \"Which animal is missing?\" by hiding one picture. Children: Children look and point to the empty space or name the animal.",
+        "Step 4. Teacher: Let each child hide a picture and play with a friend. Children: Child hides, friend guesses."
+      ],
+      "practical": {
+        "title": "Animal lotto",
+        "steps": [
+          "Place six pictures on the mat.",
+          "The teacher makes a sound.",
+          "Children take turns to touch the animal that makes the sound."
+        ],
+        "safety": "Use large pictures and keep small pieces away from mouths. Supervise sharing and turns."
+      },
+      "differentiation": {
+        "support": "Use three pictures and make the sound slowly.",
+        "extension": "Ask the child to make a sound for a friend to guess."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which animal says moo?",
+            "expected": "The cow."
+          },
+          {
+            "question": "What does a hen say?",
+            "expected": "Cluck."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches animal sounds to pictures",
+        "Names at least three animals"
+      ],
+      "conclusion": "Wave goodbye to each animal and say its name.",
+      "homeConnection": "Make an animal sound at home and ask your child to say which animal it is.",
+      "teacherReflection": [
+        "Which children could show \"match six animal pictures to their sounds in a game\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Goat",
+          "Hen",
+          "Dog",
+          "Cat",
+          "Cow",
+          "Bird"
+        ],
+        "pictures": [
+          "Six animal pictures"
+        ]
+      },
+      "activities": [
+        "Animal lotto"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W03-D05",
+      "title": "Week 3 animal check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 3,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Sounds in nature",
+      "subtopic": "Animal sound games",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe which animals each child can name and which sounds they can make."
+      ],
+      "successCriteria": [
+        "Names at least three animals",
+        "Makes at least one animal sound"
+      ],
+      "previousKnowledge": "Children can make loud and quiet sounds and use their voices in play, such as brum for a car.",
+      "vocabulary": [
+        "goat",
+        "hen",
+        "dog",
+        "cat",
+        "cow",
+        "bird"
+      ],
+      "resources": [
+        "Six animal pictures",
+        "Soft toy animals",
+        "Class record sheet"
+      ],
+      "starter": "Sing the animal song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: picture matching, animal toys and animal moves.",
+        "At each station ask \"What is this?\" and \"What does it say?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child names the animal or makes the sound.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: picture matching, animal toys and animal moves. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What is this?\" and \"What does it say?\" Children: Child names the animal or makes the sound.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Animal stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Use soft toys and large pictures only. Keep floors clear and supervise movement."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and offer two pictures.",
+        "extension": "Ask a confident child to choose an animal and teach a friend its sound."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names animals; makes animal sounds; matches a sound to a picture.",
+        "questions": [
+          {
+            "question": "What is this animal?",
+            "expected": "Goat, hen, dog, cat, cow or bird."
+          },
+          {
+            "question": "What does it say?",
+            "expected": "Its sound."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Names and makes sounds of familiar animals"
+      ],
+      "conclusion": "Sing \"The goat says meh\" and wave goodbye.",
+      "homeConnection": "Ask your child to name the animals they see at home or on the street.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe which animals each child can name and which sounds they can make\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Animals"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Animal stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

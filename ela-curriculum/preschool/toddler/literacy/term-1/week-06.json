@@ -1,0 +1,605 @@
+{
+  "id": "ELA-PS-TOD-LIT-T1-W06",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 1,
+  "week": 6,
+  "title": "Action rhymes",
+  "topic": "Rhymes and songs",
+  "subtopics": [
+    "Finger rhymes",
+    "Action songs",
+    "Rhymes with a story"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will join in actions and words of a short rhyme.",
+    "Children will fill in a missing word with support."
+  ],
+  "vocabulary": [
+    "rhyme",
+    "sing",
+    "clap",
+    "wave",
+    "finger",
+    "again"
+  ],
+  "content": "Finger rhymes, action songs and a rhyme with a small story, with children filling in missing words.",
+  "teachingActivities": "Say or sing each rhyme slowly with big actions; repeat it several times; pause before the last word of a line so children can fill it in; use the same rhymes all week.",
+  "learnerActivities": "Join in the actions and words of short rhymes and fill in a missing word with support.",
+  "resources": [
+    "A hand puppet",
+    "A basket of toy fish, a toy spider and a toy bus",
+    "Picture cards for each rhyme",
+    "A scarf"
+  ],
+  "assessment": "Observe whether each child joins in at least two rhymes with actions and says the last word when you pause.",
+  "expectedOutcomes": [
+    "Joins in at least two rhymes with actions.",
+    "Says the last word of a line when the teacher pauses."
+  ],
+  "crossCurricular": [
+    "Music: singing",
+    "Physical Development: finger control",
+    "Social Habits: taking turns"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W06-D01",
+      "title": "Two little hands",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Rhymes and songs",
+      "subtopic": "Finger rhymes",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will copy the finger actions of a short rhyme."
+      ],
+      "successCriteria": [
+        "Copies at least one finger action",
+        "Joins in with a word or sound"
+      ],
+      "previousKnowledge": "Children can listen, copy sounds and beats, greet others and respond to their names.",
+      "vocabulary": [
+        "rhyme",
+        "sing",
+        "clap",
+        "wave",
+        "finger",
+        "again"
+      ],
+      "resources": [
+        "A hand puppet",
+        "A mat for circle time"
+      ],
+      "starter": "Hold up both hands and wiggle your fingers. Say \"Wiggle, wiggle, wiggle. Can you wiggle too?\"",
+      "teacherActivities": [
+        "Say the rhyme \"Ten little fingers, wiggle, wiggle, wiggle. Hide them in your lap, giggle, giggle, giggle.\" Show the actions slowly.",
+        "Say the rhyme again and do the actions with the puppet.",
+        "Say the rhyme again and pause before the last word of each line.",
+        "Let one child lead with the puppet while the others do the actions."
+      ],
+      "learnerActivities": [
+        "Children watch and wiggle their fingers.",
+        "Children copy the wiggle and the hiding action.",
+        "Children say \"wiggle\" or \"giggle\" or make the sound.",
+        "Child leads and friends copy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say the rhyme \"Ten little fingers, wiggle, wiggle, wiggle. Hide them in your lap, giggle, giggle, giggle.\" Show the actions slowly. Children: Children watch and wiggle their fingers.",
+        "Step 2. Teacher: Say the rhyme again and do the actions with the puppet. Children: Children copy the wiggle and the hiding action.",
+        "Step 3. Teacher: Say the rhyme again and pause before the last word of each line. Children: Children say \"wiggle\" or \"giggle\" or make the sound.",
+        "Step 4. Teacher: Let one child lead with the puppet while the others do the actions. Children: Child leads and friends copy."
+      ],
+      "practical": {
+        "title": "Fingers play",
+        "steps": [
+          "Sit in a circle with space to move hands.",
+          "Say the rhyme and do the actions together.",
+          "Repeat three times, faster each time."
+        ],
+        "safety": "Keep hands away from faces and eyes. Stop the game if any child becomes upset or tired."
+      },
+      "differentiation": {
+        "support": "Move the child’s fingers gently for the actions and say the words with them.",
+        "extension": "Ask the child to teach the rhyme actions to a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you wiggle your fingers?",
+            "expected": "Child wiggles fingers."
+          },
+          {
+            "question": "What do we do at the end?",
+            "expected": "Hide hands and giggle."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Copies finger actions",
+        "Joins in with words or sounds"
+      ],
+      "conclusion": "Sing the rhyme once more very quietly and hide the hands.",
+      "homeConnection": "Sing \"Ten little fingers\" at bath time and do the actions with your child.",
+      "teacherReflection": [
+        "Which children could show \"copy the finger actions of a short rhyme\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Ten little fingers",
+          "Wiggle, wiggle"
+        ],
+        "pictures": [
+          "Ten fingers",
+          "A child giggling"
+        ],
+        "songOrRhyme": "Ten little fingers, wiggle, wiggle, wiggle. Hide them in your lap, giggle, giggle, giggle."
+      },
+      "activities": [
+        "Fingers play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W06-D02",
+      "title": "Five little fish",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Rhymes and songs",
+      "subtopic": "Finger rhymes",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will join in the actions of a counting rhyme with fish."
+      ],
+      "successCriteria": [
+        "Makes a swimming action",
+        "Says a word or the number in the rhyme"
+      ],
+      "previousKnowledge": "Children can listen, copy sounds and beats, greet others and respond to their names.",
+      "vocabulary": [
+        "rhyme",
+        "sing",
+        "clap",
+        "wave",
+        "finger",
+        "again"
+      ],
+      "resources": [
+        "Five toy fish or paper fish",
+        "A blue cloth for the water",
+        "A basket"
+      ],
+      "starter": "Spread the blue cloth and put five fish on it. Say \"Splash! The fish are swimming.\"",
+      "teacherActivities": [
+        "Say the rhyme \"Five little fish swimming in the sea. Splash, splash, splash, come to me.\" Show the swimming action with a hand.",
+        "Say the rhyme again and move one fish at a time to you on the word \"me\".",
+        "Pause before \"splash\" and wait.",
+        "Let each child pick a fish and swim it across the cloth."
+      ],
+      "learnerActivities": [
+        "Children watch and copy the hand swimming.",
+        "Children say \"splash\" and watch the fish.",
+        "Children say \"splash\" or clap.",
+        "Child swims the fish and says \"splash\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say the rhyme \"Five little fish swimming in the sea. Splash, splash, splash, come to me.\" Show the swimming action with a hand. Children: Children watch and copy the hand swimming.",
+        "Step 2. Teacher: Say the rhyme again and move one fish at a time to you on the word \"me\". Children: Children say \"splash\" and watch the fish.",
+        "Step 3. Teacher: Pause before \"splash\" and wait. Children: Children say \"splash\" or clap.",
+        "Step 4. Teacher: Let each child pick a fish and swim it across the cloth. Children: Child swims the fish and says \"splash\"."
+      ],
+      "practical": {
+        "title": "Fish in the sea",
+        "steps": [
+          "Spread a blue cloth on the floor.",
+          "Each child holds a paper fish and swims it across the cloth.",
+          "Everyone says \"splash\" together."
+        ],
+        "safety": "Use soft paper or cloth fish with no small parts. Keep the cloth flat so no one trips."
+      },
+      "differentiation": {
+        "support": "Hold the fish together and swim it with the child.",
+        "extension": "Ask the child to count the fish as they swim to the teacher."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where are the fish swimming?",
+            "expected": "In the sea."
+          },
+          {
+            "question": "What do the fish say?",
+            "expected": "Splash."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Copies the swimming action",
+        "Says splash with the group"
+      ],
+      "conclusion": "Put the fish to sleep under the cloth and whisper goodnight.",
+      "homeConnection": "Sing the fish rhyme at bath time and swim a toy in the water.",
+      "teacherReflection": [
+        "Which children could show \"join in the actions of a counting rhyme with fish\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Five little fish",
+          "Splash!"
+        ],
+        "pictures": [
+          "Five fish",
+          "The sea"
+        ],
+        "songOrRhyme": "Five little fish swimming in the sea. Splash, splash, splash, come to me."
+      },
+      "activities": [
+        "Fish in the sea"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W06-D03",
+      "title": "Spider and bus",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Rhymes and songs",
+      "subtopic": "Action songs",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will join in the actions of two action songs."
+      ],
+      "successCriteria": [
+        "Does at least two actions in a song",
+        "Sings or hums along"
+      ],
+      "previousKnowledge": "Children can listen, copy sounds and beats, greet others and respond to their names.",
+      "vocabulary": [
+        "rhyme",
+        "sing",
+        "clap",
+        "wave",
+        "finger",
+        "again"
+      ],
+      "resources": [
+        "A toy spider",
+        "A toy bus or a bus picture",
+        "A scarf"
+      ],
+      "starter": "Walk your fingers like a spider up your arm and say \"The spider is climbing up.\"",
+      "teacherActivities": [
+        "Sing \"The little spider climbs up, up, up. Down comes the rain, splash, splash. The spider climbs up again.\" Show climbing and rain actions.",
+        "Sing the song again and wait for the children to do the actions without help.",
+        "Sing \"The wheels on the bus go round and round\" with the wheel action.",
+        "Let each child choose spider or bus and lead the song."
+      ],
+      "learnerActivities": [
+        "Children copy the climbing and the falling rain.",
+        "Children do the actions on their own.",
+        "Children make circles with their arms.",
+        "Child chooses and sings with the group."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing \"The little spider climbs up, up, up. Down comes the rain, splash, splash. The spider climbs up again.\" Show climbing and rain actions. Children: Children copy the climbing and the falling rain.",
+        "Step 2. Teacher: Sing the song again and wait for the children to do the actions without help. Children: Children do the actions on their own.",
+        "Step 3. Teacher: Sing \"The wheels on the bus go round and round\" with the wheel action. Children: Children make circles with their arms.",
+        "Step 4. Teacher: Let each child choose spider or bus and lead the song. Children: Child chooses and sings with the group."
+      ],
+      "practical": {
+        "title": "Song choice",
+        "steps": [
+          "Show the spider and bus pictures.",
+          "A child picks one and the group sings it.",
+          "Repeat so each child has a turn."
+        ],
+        "safety": "Leave enough space for arm movements and keep children from bumping. Keep voices gentle."
+      },
+      "differentiation": {
+        "support": "Do the actions with the child and sing in their ear.",
+        "extension": "Ask the child to make up a new action for a line of the song."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What goes up?",
+            "expected": "The spider."
+          },
+          {
+            "question": "What goes round and round?",
+            "expected": "The wheels."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins in action songs",
+        "Does the correct action at the right time"
+      ],
+      "conclusion": "Wave goodbye to the spider and the bus.",
+      "homeConnection": "Sing \"The wheels on the bus\" at home and do the actions with your child.",
+      "teacherReflection": [
+        "Which children could show \"join in the actions of two action songs\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SPIDER",
+          "BUS"
+        ],
+        "pictures": [
+          "A spider",
+          "A bus"
+        ],
+        "songOrRhyme": "The wheels on the bus go round and round, round and round, round and round."
+      },
+      "activities": [
+        "Song choice"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W06-D04",
+      "title": "A rhyme with a story",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Rhymes and songs",
+      "subtopic": "Rhymes with a story",
+      "dayType": "apply",
+      "objectives": [
+        "Children will say the last word of a line in a story rhyme when the teacher pauses."
+      ],
+      "successCriteria": [
+        "Fills in a missing word with support",
+        "Does the actions of the rhyme"
+      ],
+      "previousKnowledge": "Children can listen, copy sounds and beats, greet others and respond to their names.",
+      "vocabulary": [
+        "rhyme",
+        "sing",
+        "clap",
+        "wave",
+        "finger",
+        "again"
+      ],
+      "resources": [
+        "A hen puppet",
+        "A basket",
+        "Picture cards of a hen, an egg and a chick"
+      ],
+      "starter": "Show the hen puppet and say \"Cluck, cluck. The hen has something in the basket.\"",
+      "teacherActivities": [
+        "Say the rhyme \"Little hen, little hen, what do you lay? An egg, an egg, every day.\" Show the picture cards.",
+        "Say it again and pause before \"egg\".",
+        "Say \"Little hen, little hen, what comes out? A chick, a chick, cheep, cheep, shout!\" and show the chick.",
+        "Let a child hold the hen puppet and lead the lines."
+      ],
+      "learnerActivities": [
+        "Children look and point to the egg.",
+        "Children say \"egg\".",
+        "Children say \"chick\" and \"cheep\".",
+        "Child leads and friends fill in the words."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say the rhyme \"Little hen, little hen, what do you lay? An egg, an egg, every day.\" Show the picture cards. Children: Children look and point to the egg.",
+        "Step 2. Teacher: Say it again and pause before \"egg\". Children: Children say \"egg\".",
+        "Step 3. Teacher: Say \"Little hen, little hen, what comes out? A chick, a chick, cheep, cheep, shout!\" and show the chick. Children: Children say \"chick\" and \"cheep\".",
+        "Step 4. Teacher: Let a child hold the hen puppet and lead the lines. Children: Child leads and friends fill in the words."
+      ],
+      "practical": {
+        "title": "Hen and chick",
+        "steps": [
+          "Hide an egg picture in the basket.",
+          "Say the rhyme and ask the children what the hen lays.",
+          "Show the egg, then the chick."
+        ],
+        "safety": "Keep pictures flat and clean and supervise sharing. Do not use real eggs."
+      },
+      "differentiation": {
+        "support": "Point to the egg picture before you say the word.",
+        "extension": "Ask the child to say the whole line \"An egg, an egg\" alone."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does the hen lay?",
+            "expected": "An egg."
+          },
+          {
+            "question": "What comes out of the egg?",
+            "expected": "A chick."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Fills in the last word with support",
+        "Does the hen and chick actions"
+      ],
+      "conclusion": "Put the hen to sleep and whisper \"Night, night, hen.\"",
+      "homeConnection": "Say the hen rhyme at home and pause for your child to say \"egg\".",
+      "teacherReflection": [
+        "Which children could show \"say the last word of a line in a story rhyme when the teacher pauses\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HEN",
+          "EGG",
+          "CHICK"
+        ],
+        "pictures": [
+          "A hen",
+          "An egg",
+          "A chick"
+        ],
+        "songOrRhyme": "Little hen, little hen, what do you lay? An egg, an egg, every day."
+      },
+      "activities": [
+        "Hen and chick"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W06-D05",
+      "title": "Week 6 rhyme check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Rhymes and songs",
+      "subtopic": "Action songs",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child joins in rhymes and fills in missing words."
+      ],
+      "successCriteria": [
+        "Joins in actions of a rhyme",
+        "Says a word at the pause"
+      ],
+      "previousKnowledge": "Children can listen, copy sounds and beats, greet others and respond to their names.",
+      "vocabulary": [
+        "rhyme",
+        "sing",
+        "clap",
+        "wave",
+        "finger",
+        "again"
+      ],
+      "resources": [
+        "A hand puppet",
+        "Rhyme picture cards",
+        "Class record sheet"
+      ],
+      "starter": "Sing the finger rhyme and show three rhyme stations.",
+      "teacherActivities": [
+        "Set up three stations: finger rhymes, action songs and a rhyme with a story.",
+        "At each station say a rhyme and pause for the last word.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child does the actions and says the word.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: finger rhymes, action songs and a rhyme with a story. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station say a rhyme and pause for the last word. Children: Child does the actions and says the word.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Rhyme stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Use soft toys and pictures. Supervise each station and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and repeat the rhyme twice.",
+        "extension": "Ask a confident child to lead a rhyme."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: joins in at least two rhymes with actions; fills in a missing word; sings or hums along.",
+        "questions": [
+          {
+            "question": "Can you do the actions?",
+            "expected": "Child does the actions."
+          },
+          {
+            "question": "What is the last word?",
+            "expected": "Child says the missing word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Joins in rhymes with actions"
+      ],
+      "conclusion": "Sing the goodbye song and wave.",
+      "homeConnection": "Sing two rhymes at home and pause for your child to fill in a word.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child joins in rhymes and fills in missing words\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Rhymes"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Rhyme stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

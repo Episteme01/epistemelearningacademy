@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-LIT-T1-W07",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 1,
+  "week": 7,
+  "title": "Sharing a picture book",
+  "topic": "Books",
+  "subtopics": [
+    "Holding a book and turning pages",
+    "Pointing to and naming pictures",
+    "A favourite book"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will hold a book the right way up and turn pages.",
+    "Children will point to and name pictures."
+  ],
+  "vocabulary": [
+    "book",
+    "page",
+    "picture",
+    "turn",
+    "look",
+    "read"
+  ],
+  "content": "Holding a book the right way up, turning pages, pointing to and naming pictures, and sharing a favourite book.",
+  "teachingActivities": "Hold the book so every child can see; run your finger under the pictures; name each picture and wait for the child to say it; let children turn pages with you.",
+  "learnerActivities": "Hold a book the right way up, turn pages one at a time, point to and name pictures.",
+  "resources": [
+    "Sturdy board books with large pictures",
+    "A book corner with cushions",
+    "A basket of books",
+    "A big book if available"
+  ],
+  "assessment": "Observe whether each child holds a book correctly, turns pages and names three pictures.",
+  "expectedOutcomes": [
+    "Turns pages one at a time with support.",
+    "Names three pictures in a book."
+  ],
+  "crossCurricular": [
+    "Understanding the World: looking at pictures",
+    "Social Habits: caring for books",
+    "Physical Development: fine motor"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W07-D01",
+      "title": "This is a book",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Books",
+      "subtopic": "Holding a book and turning pages",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will hold a book the right way up and say or show that it is a book."
+      ],
+      "successCriteria": [
+        "Holds a book the right way up",
+        "Says or signs book"
+      ],
+      "previousKnowledge": "Children can join in rhymes, name animals and greet others, and many point to pictures.",
+      "vocabulary": [
+        "book",
+        "page",
+        "picture",
+        "turn",
+        "look",
+        "read"
+      ],
+      "resources": [
+        "Board books",
+        "A cushion",
+        "A basket"
+      ],
+      "starter": "Hold up a book and say \"This is a book. Look at the front.\" Turn it upside down and say \"Oops!\" Turn it the right way and say \"Now we can see.\"",
+      "teacherActivities": [
+        "Show the front, the back and the spine. Say \"This is the front.\"",
+        "Give each child a book and say \"Hold it the right way up.\"",
+        "Show how to turn a page gently and say \"Turn the page\".",
+        "Walk round and say each child’s name and \"Well done holding your book\"."
+      ],
+      "learnerActivities": [
+        "Children look and point to the front.",
+        "Child holds the book the right way up with support.",
+        "Children copy turning a page.",
+        "Child smiles and shows their book."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the front, the back and the spine. Say \"This is the front.\" Children: Children look and point to the front.",
+        "Step 2. Teacher: Give each child a book and say \"Hold it the right way up.\" Children: Child holds the book the right way up with support.",
+        "Step 3. Teacher: Show how to turn a page gently and say \"Turn the page\". Children: Children copy turning a page.",
+        "Step 4. Teacher: Walk round and say each child’s name and \"Well done holding your book\". Children: Child smiles and shows their book."
+      ],
+      "practical": {
+        "title": "Book time",
+        "steps": [
+          "Give each child a board book and sit comfortably.",
+          "Children hold the book and turn pages.",
+          "Say \"page\" each time a page is turned."
+        ],
+        "safety": "Use sturdy board books with rounded corners. Keep books off the floor and do not allow chewing."
+      },
+      "differentiation": {
+        "support": "Hold the book together and turn each page with a hand over the child’s hand.",
+        "extension": "Ask the child to find the front of the book and show a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "A book."
+          },
+          {
+            "question": "Show me the front.",
+            "expected": "Child points to the cover."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Holds a book the right way up with support",
+        "Says or signs book"
+      ],
+      "conclusion": "Close the books and put them back in the basket together.",
+      "homeConnection": "Share a book at home every day and let your child turn the pages.",
+      "teacherReflection": [
+        "Which children could show \"hold a book the right way up and say or show that it is a book\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BOOK",
+          "FRONT"
+        ],
+        "pictures": [
+          "A book",
+          "A child holding a book"
+        ],
+        "songOrRhyme": "Open the book, turn the page. Look and see, look and see."
+      },
+      "activities": [
+        "Book time"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W07-D02",
+      "title": "Turning the pages",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Books",
+      "subtopic": "Holding a book and turning pages",
+      "dayType": "explore",
+      "objectives": [
+        "Children will turn the pages of a book one at a time."
+      ],
+      "successCriteria": [
+        "Turns one page at a time with support",
+        "Says \"page\" or \"more\""
+      ],
+      "previousKnowledge": "Children can join in rhymes, name animals and greet others, and many point to pictures.",
+      "vocabulary": [
+        "book",
+        "page",
+        "picture",
+        "turn",
+        "look",
+        "read"
+      ],
+      "resources": [
+        "A large picture board book",
+        "A cushion",
+        "A book corner"
+      ],
+      "starter": "Open the book slowly and say \"Open, open, what can we see?\" Turn a page and say \"Another page.\"",
+      "teacherActivities": [
+        "Show a page and say \"Turn the page\" while turning it.",
+        "Let each child come forward to turn a page of the big book.",
+        "Ask \"What is on this page?\" and wait.",
+        "Let the children turn the pages of their own books."
+      ],
+      "learnerActivities": [
+        "Children watch and say \"page\".",
+        "Child turns the page with support.",
+        "Child points to or names the picture.",
+        "Child turns pages one at a time."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a page and say \"Turn the page\" while turning it. Children: Children watch and say \"page\".",
+        "Step 2. Teacher: Let each child come forward to turn a page of the big book. Children: Child turns the page with support.",
+        "Step 3. Teacher: Ask \"What is on this page?\" and wait. Children: Child points to or names the picture.",
+        "Step 4. Teacher: Let the children turn the pages of their own books. Children: Child turns pages one at a time."
+      ],
+      "practical": {
+        "title": "Book corner",
+        "steps": [
+          "Set up cushions and board books.",
+          "Each child chooses a book and turns pages.",
+          "Name a picture on each page with a friend."
+        ],
+        "safety": "Keep the book corner uncluttered. Show children to sit with space between them and to handle books gently."
+      },
+      "differentiation": {
+        "support": "Use a book with thick pages and turn the pages together.",
+        "extension": "Ask the child to turn the pages for a friend and name the pictures."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you turn the page?",
+            "expected": "Child turns a page."
+          },
+          {
+            "question": "What is on this page?",
+            "expected": "Child names a picture."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Turns pages one at a time with support",
+        "Names a picture"
+      ],
+      "conclusion": "Close the book and say \"The end.\"",
+      "homeConnection": "Let your child turn the pages while you point to the pictures.",
+      "teacherReflection": [
+        "Which children could show \"turn the pages of a book one at a time\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TURN THE PAGE"
+        ],
+        "pictures": [
+          "A hand turning a page"
+        ]
+      },
+      "activities": [
+        "Book corner"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W07-D03",
+      "title": "Pointing to pictures",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Books",
+      "subtopic": "Pointing to and naming pictures",
+      "dayType": "explore",
+      "objectives": [
+        "Children will point to and name pictures in a book."
+      ],
+      "successCriteria": [
+        "Points to a named picture",
+        "Names a picture"
+      ],
+      "previousKnowledge": "Children can join in rhymes, name animals and greet others, and many point to pictures.",
+      "vocabulary": [
+        "book",
+        "page",
+        "picture",
+        "turn",
+        "look",
+        "read"
+      ],
+      "resources": [
+        "A picture book with clear pictures of a dog, a ball, a cup and a baby",
+        "A cushion"
+      ],
+      "starter": "Open the book and say \"Where is the dog? Point to the dog.\" Point yourself first.",
+      "teacherActivities": [
+        "Point to each picture and say its name clearly.",
+        "Say a name and ask \"Where is the ball?\"",
+        "Point to a picture and ask \"What is this?\" and wait.",
+        "Let each child point to a picture and ask \"What is this?\""
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children point to the ball.",
+        "Child names the picture or says a sound.",
+        "Child points and the group names it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Point to each picture and say its name clearly. Children: Children look and say the names.",
+        "Step 2. Teacher: Say a name and ask \"Where is the ball?\" Children: Children point to the ball.",
+        "Step 3. Teacher: Point to a picture and ask \"What is this?\" and wait. Children: Child names the picture or says a sound.",
+        "Step 4. Teacher: Let each child point to a picture and ask \"What is this?\" Children: Child points and the group names it."
+      ],
+      "practical": {
+        "title": "I spy a picture",
+        "steps": [
+          "Open a book to a page with four pictures.",
+          "Say \"I spy a dog.\"",
+          "Children point to the dog. Repeat for the other pictures."
+        ],
+        "safety": "Keep the book low so children can see. Remind children to touch pictures gently and not tear pages."
+      },
+      "differentiation": {
+        "support": "Point together and say the name before the child.",
+        "extension": "Ask the child to name three pictures in a row."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is the cup?",
+            "expected": "Child points to the cup."
+          },
+          {
+            "question": "What is this?",
+            "expected": "Child names the picture."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Points to named pictures",
+        "Names at least three pictures"
+      ],
+      "conclusion": "Close the book and say \"Goodbye, dog, ball, cup, baby.\"",
+      "homeConnection": "Point to pictures in a book at home and ask \"Where is the ball?\"",
+      "teacherReflection": [
+        "Which children could show \"point to and name pictures in a book\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DOG",
+          "BALL",
+          "CUP",
+          "BABY"
+        ],
+        "pictures": [
+          "A dog",
+          "A ball",
+          "A cup",
+          "A baby"
+        ]
+      },
+      "activities": [
+        "I spy a picture"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W07-D04",
+      "title": "My favourite book",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Books",
+      "subtopic": "A favourite book",
+      "dayType": "practise",
+      "objectives": [
+        "Children will choose a favourite book and share it with a friend."
+      ],
+      "successCriteria": [
+        "Chooses a book",
+        "Shows or tells a friend about a picture"
+      ],
+      "previousKnowledge": "Children can join in rhymes, name animals and greet others, and many point to pictures.",
+      "vocabulary": [
+        "book",
+        "page",
+        "picture",
+        "turn",
+        "look",
+        "read"
+      ],
+      "resources": [
+        "Four different board books",
+        "Cushions",
+        "A basket"
+      ],
+      "starter": "Put four books on the mat and say \"Which book do you like? Choose one.\"",
+      "teacherActivities": [
+        "Show each book front cover and say its name or topic.",
+        "Let each child pick a book and sit with a friend.",
+        "Ask each pair to look at the book together.",
+        "Walk round and ask \"What do you like?\""
+      ],
+      "learnerActivities": [
+        "Children look and point to the one they like.",
+        "Child chooses and sits with a friend.",
+        "Children turn pages and point to pictures.",
+        "Child shows a picture or says a word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each book front cover and say its name or topic. Children: Children look and point to the one they like.",
+        "Step 2. Teacher: Let each child pick a book and sit with a friend. Children: Child chooses and sits with a friend.",
+        "Step 3. Teacher: Ask each pair to look at the book together. Children: Children turn pages and point to pictures.",
+        "Step 4. Teacher: Walk round and ask \"What do you like?\" Children: Child shows a picture or says a word."
+      ],
+      "practical": {
+        "title": "Share with a friend",
+        "steps": [
+          "Set up cushions in pairs.",
+          "Each pair has one book.",
+          "Children take turns to turn pages and point."
+        ],
+        "safety": "Check that books have no loose parts. Sit friends with space so they do not squash the book."
+      },
+      "differentiation": {
+        "support": "Sit with the child and point to the pictures.",
+        "extension": "Ask the child to tell the friend about one page."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which book do you like?",
+            "expected": "Child points to a book."
+          },
+          {
+            "question": "What do you see?",
+            "expected": "Child names a picture."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Chooses a favourite book",
+        "Shares a picture with a friend"
+      ],
+      "conclusion": "Put the books in the basket and say \"Thank you, books.\"",
+      "homeConnection": "Let your child choose a book each night and share it with you.",
+      "teacherReflection": [
+        "Which children could show \"choose a favourite book and share it with a friend\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MY BOOK"
+        ],
+        "pictures": [
+          "Children sharing a book"
+        ]
+      },
+      "activities": [
+        "Share with a friend"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T1-W07-D05",
+      "title": "Week 7 book check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 1,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Books",
+      "subtopic": "Pointing to and naming pictures",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child handles a book and names pictures."
+      ],
+      "successCriteria": [
+        "Holds a book the right way up",
+        "Names pictures in a book"
+      ],
+      "previousKnowledge": "Children can join in rhymes, name animals and greet others, and many point to pictures.",
+      "vocabulary": [
+        "book",
+        "page",
+        "picture",
+        "turn",
+        "look",
+        "read"
+      ],
+      "resources": [
+        "Board books",
+        "Picture cards",
+        "Class record sheet"
+      ],
+      "starter": "Sing the book song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: book corner, picture cards and big book.",
+        "At each station ask \"What is this?\" and \"Can you turn the page?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child names the picture and turns a page.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: book corner, picture cards and big book. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What is this?\" and \"Can you turn the page?\" Children: Child names the picture and turns a page.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Book stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Use sturdy books and large cards. Supervise each station and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two pictures.",
+        "extension": "Ask a confident child to tell a friend a story from the pictures."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: holds a book the right way up; turns pages; names three pictures.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "Child names the picture."
+          },
+          {
+            "question": "Can you turn the page?",
+            "expected": "Child turns a page."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Handles a book correctly"
+      ],
+      "conclusion": "Close the books and say goodbye.",
+      "homeConnection": "Share a book every day and name the pictures together.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child handles a book and names pictures\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Book"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Book stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
