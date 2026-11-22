@@ -103,7 +103,7 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
               <div className="min-h-0 flex-1">
                 {showBoard ? <Whiteboard board={room.board} isHost={isHost} meIdentity={meId} send={room.sendBoard} />
                   : sharer ? <VideoTile person={sharer} source={Track.Source.ScreenShare} fit="contain" className="h-full w-full" />
-                  : slides ? <SlidesStage slides={slides} isHost={isHost} onPage={room.setSlidePage} onStop={room.stopSlides} /> : null}
+                  : slides ? <SlidesStage slides={slides} isHost={isHost} onPage={room.setSlidePage} onStop={room.stopSlides} board={room.board} meIdentity={meId} send={room.sendBoard} /> : null}
               </div>
               <div className="flex shrink-0 gap-2 overflow-x-auto">{tiles.map((p) => <VideoTile key={p.identity} person={p} className="h-24 w-36 shrink-0 sm:h-28 sm:w-44" />)}</div>
             </>
@@ -140,7 +140,7 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
       {isHost && (
         <>
           <ToolsDialog open={tools === 'menu'} onClose={() => closeTool('menu')} onPresent={() => setTools('present')} onPoll={() => setTools('poll')}
-            spotlighting={!!room.spot} onClearSpot={() => { room.setSpotlight(''); setTools(null); }} slidesOn={!!room.slides} onStopSlides={() => { room.stopSlides(); setTools(null); }} />
+            spotlighting={!!room.spot} onClearSpot={() => { room.setSpotlight(''); setTools(null); }} slidesOn={!!room.slides} onStopSlides={() => { room.stopSlides(); setTools(null); }} writing={!!room.slides?.write} onWrite={(on) => { room.setSlideWrite(on); setTools(null); }} />
           <PresentDialog open={tools === 'present'} onClose={() => closeTool('present')} onShow={room.presentSlides} />
           <PollComposer open={tools === 'poll'} onClose={() => closeTool('poll')} onLaunch={room.launchPoll} />
         </>)}

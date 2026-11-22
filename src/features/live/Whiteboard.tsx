@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Circle, Eraser, Highlighter, Lock, Minus, Pencil, Redo2, Square, Trash2, Undo2 } from 'lucide-react';
+import { Circle, Eraser, Hand, Highlighter, Lock, Minus, Pencil, Redo2, Square, Trash2, Undo2, ZoomIn, ZoomOut } from 'lucide-react';
 import { COLORS, PAD_H, PAD_W, SIZES, TOOLS, type Tool } from '@/lib/drawing';
 import { createStrokeSender, newId, thin, type BStroke, type BoardMsg, type BoardState } from '@/lib/live/protocol';
 import { cn } from '@/lib/utils';
@@ -8,10 +8,10 @@ const ICON: Record<Tool, typeof Pencil> = { pen: Pencil, highlighter: Highlighte
 const FLUSH_MS = 70;      // pointer movement is sent about 14 times a second, not once per pixel
 
 type Draw = Pick<BStroke, 'tool' | 'color' | 'size' | 'pts'>;
-function paint(ctx: CanvasRenderingContext2D, s: Draw) {
+function paint(ctx: CanvasRenderingContext2D, s: Draw, cut = false) {
   const p = s.pts; if (p.length < 2) return;
   ctx.save(); ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.strokeStyle = s.color; ctx.fillStyle = s.color; ctx.lineWidth = s.size;
-  if (s.tool === 'eraser') { ctx.strokeStyle = '#FFFFFF'; ctx.fillStyle = '#FFFFFF'; ctx.lineWidth = s.size * 3; }
+  if (s.tool === 'eraser') { ctx.strokeStyle = '#FFFFFF'; ctx.fillStyle = '#FFFFFF'; ctx.lineWidth = s.size * 3; if (cut) ctx.globalCompositeOperation = 'destination-out'; }
   else if (s.tool === 'highlighter') { ctx.globalAlpha = 0.35; ctx.lineWidth = s.size * 3; ctx.lineCap = 'butt'; }
   if (s.tool === 'line' || s.tool === 'rect' || s.tool === 'ellipse') {
     if (p.length >= 4) {
@@ -35,7 +35,7 @@ function paint(ctx: CanvasRenderingContext2D, s: Draw) {
  * The shared board. What is drawn is exactly what the protocol accepted (board state), so a learner who is not allowed to draw
  * cannot even show a stroke on their own screen. Text and extra pages are not part of this version.
  */
-export function Whiteboard({ board, isHost, meIdentity, send }: { board: BoardState; isHost: boolean; meIdentity: string; send: (m: BoardMsg) => void }) {
+export function Whiteboard({ board, isHost, meIdentity, send, bg }: { board: BoardState; isHost: boolean; meIdentity: string; send: (m: BoardMsg) => void; bg?: string }) {
   const main = useRef<HTMLCanvasElement>(null);
   const over = useRef<HTMLCanvasElement>(null);
   const [tool, setTool] = useState<Tool>('pen');
@@ -44,12 +44,24 @@ export function Whiteboard({ board, isHost, meIdentity, send }: { board: BoardSt
   const redo = useRef<Draw[]>([]);
   const live = useRef<{ sender: ReturnType<typeof createStrokeSender>; timer: number; pts: number[]; draw: Draw } | null>(null);
   const canDraw = isHost || board.open;
+  const [hand, setHand] = useState(false); const [zoom, setZoom] = useState(1);
+  const penSeen = useRef(false);
+  const [pic, setPic] = useState<HTMLImageElement | null>(null);
+  useEffect(() => {                         // a worksheet picture behind the writing (slides you can write on)
+    setPic(null); if (!bg) return;
+    let alive = true; const im = new Image();
+    im.onload = () => { if (alive) setPic(im); }; im.src = bg;
+    return () => { alive = false; };
+  }, [bg]);
 
   useEffect(() => {
     const c = main.current; const ctx = c?.getContext('2d'); if (!c || !ctx) return;
     ctx.fillStyle = '#FFFFFF'; ctx.fillRect(0, 0, PAD_W, PAD_H);
-    for (const s of board.strokes) paint(ctx, s);
-  }, [board]);
+    if (!bg) { for (const s of board.strokes) paint(ctx, s); return; }
+    if (pic) { const k = Math.min(PAD_W / pic.naturalWidth, PAD_H / pic.naturalHeight); const w = pic.naturalWidth * k, h = pic.naturalHeight * k; ctx.drawImage(pic, (PAD_W - w) / 2, (PAD_H - h) / 2, w, h); }
+    const ink = document.createElement('canvas'); ink.width = PAD_W; ink.height = PAD_H;     // own layer so the eraser removes writing, not the picture
+    const ictx = ink.getContext('2d'); if (ictx) { for (const s of board.strokes) paint(ictx, s, true); ctx.drawImage(ink, 0, 0); }
+  }, [board, bg, pic]);
 
   const at = (e: React.PointerEvent) => { const r = over.current!.getBoundingClientRect(); return [Math.round(((e.clientX - r.left) * PAD_W) / r.width), Math.round(((e.clientY - r.top) * PAD_H) / r.height)] as const; };
   const clearOver = () => over.current?.getContext('2d')?.clearRect(0, 0, PAD_W, PAD_H);
@@ -58,7 +70,9 @@ export function Whiteboard({ board, isHost, meIdentity, send }: { board: BoardSt
   useEffect(() => { if (!canDraw) stop(); }, [canDraw, stop]);
 
   const down = (e: React.PointerEvent) => {
-    if (!canDraw || live.current) return;
+    if (!canDraw || hand || live.current) return;
+    if (e.pointerType === 'pen') penSeen.current = true;
+    if (e.pointerType === 'touch' && penSeen.current) return;       // palm resting while the pencil writes
     e.currentTarget.setPointerCapture(e.pointerId);
     const ink = tool === 'eraser' ? '#FFFFFF' : color; const [x, y] = at(e);
     const draw: Draw = { tool, color: ink, size, pts: [x, y] };
@@ -99,14 +113,18 @@ export function Whiteboard({ board, isHost, meIdentity, send }: { board: BoardSt
         <span className="mx-1 h-6 w-px bg-line" aria-hidden />
         <button type="button" aria-label="Undo my last stroke" disabled={!canDraw || !mine()} onClick={undo} className={btn}><Undo2 className="h-5 w-5" /></button>
         <button type="button" aria-label="Redo" disabled={!canDraw} onClick={redoOne} className={btn}><Redo2 className="h-5 w-5" /></button>
+        {bg && <><span className="mx-1 h-6 w-px bg-line" aria-hidden />
+          <button type="button" aria-label="Move and zoom the page" aria-pressed={hand} onClick={() => setHand((m) => !m)} className={cn(btn, hand && 'border-gold-500 bg-gold-100 ring-2 ring-gold-500/40')}><Hand className="h-5 w-5" /></button>
+          <button type="button" aria-label="Zoom out" disabled={zoom <= 1} onClick={() => setZoom((z) => Math.max(1, z - 0.5))} className={btn}><ZoomOut className="h-5 w-5" /></button>
+          <button type="button" aria-label="Zoom in" disabled={zoom >= 3} onClick={() => setZoom((z) => Math.min(3, z + 0.5))} className={btn}><ZoomIn className="h-5 w-5" /></button></>}
         {isHost && <button type="button" aria-label="Clear the board for everyone" onClick={() => { if (window.confirm('Clear the whole board for everyone?')) send({ t: 'clear' }); }} className={btn}><Trash2 className="h-5 w-5" /></button>}
         {isHost && <label className="ml-auto flex min-h-11 items-center gap-2 px-2 text-sm"><input type="checkbox" className="h-5 w-5" checked={board.open} onChange={(e) => send({ t: 'open', open: e.target.checked })} /> Learners can draw</label>}
         {!canDraw && <p className="ml-auto flex items-center gap-1.5 px-2 text-sm text-muted"><Lock className="h-4 w-4" aria-hidden /> Only the teacher can draw right now</p>}
       </div>
       <div className="relative min-h-0 flex-1 overflow-auto rounded-lg bg-white">
-        <div className="relative mx-auto w-full max-w-full" style={{ aspectRatio: `${PAD_W} / ${PAD_H}`, maxHeight: '100%' }}>
+        <div className={cn('relative max-w-full', zoom === 1 && 'mx-auto')} style={{ width: `${zoom * 100}%`, aspectRatio: `${PAD_W} / ${PAD_H}`, maxHeight: zoom === 1 ? '100%' : undefined }}>
           <canvas ref={main} width={PAD_W} height={PAD_H} className="absolute inset-0 h-full w-full" aria-label="Shared whiteboard" role="img" />
-          <canvas ref={over} width={PAD_W} height={PAD_H} className={cn('absolute inset-0 h-full w-full touch-none', canDraw ? 'cursor-crosshair' : 'cursor-not-allowed')}
+          <canvas ref={over} width={PAD_W} height={PAD_H} style={{ touchAction: hand || !canDraw ? 'auto' : 'none' }} className={cn('absolute inset-0 h-full w-full', hand ? 'cursor-grab' : canDraw ? 'cursor-crosshair' : 'cursor-not-allowed')}
             onPointerDown={down} onPointerMove={move} onPointerUp={stop} onPointerCancel={stop} onPointerLeave={stop} />
         </div>
       </div>

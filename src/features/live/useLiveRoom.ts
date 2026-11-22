@@ -115,7 +115,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
         if (meRef.current?.role !== 'host') return;                            // a teacher answers: board snapshot + raised hands
         for (const s of snapshotMessages(boardRef.current, newId())) publish(TOPIC.board, s, [from.identity]);
         if (handsRef.current.length) publish(TOPIC.hand, { t: 'state', up: handsRef.current } satisfies HandMsg, [from.identity]);
-        const sl = slidesRef.current; if (sl) publish(TOPIC.slides, { t: 'show', urls: sl.urls, page: sl.page } satisfies SlidesMsg, [from.identity]);
+        const sl = slidesRef.current; if (sl) publish(TOPIC.slides, { t: 'show', urls: sl.urls, page: sl.page, write: sl.write } satisfies SlidesMsg, [from.identity]);
         if (spotRef.current) publish(TOPIC.spot, { t: 'spot', who: spotRef.current }, [from.identity]);
         const pl = pollRef.current; if (pl) { publish(TOPIC.poll, { t: 'open', id: pl.id, q: pl.q, opts: pl.opts }, [from.identity]); publish(TOPIC.poll, { t: 'tally', id: pl.id, counts: pl.counts, open: pl.open }, [from.identity]); }
       } else if (m.t === 'snap') {
@@ -322,8 +322,15 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   const setSlidePage = useCallback((n: number) => {
     const cur = slidesRef.current; if (!cur || !hostSender()) return;
     const page = Math.min(Math.max(0, n), cur.urls.length - 1); if (page === cur.page) return;
+    if (cur.write) sendBoard({ t: 'clear' });                                   // writing belongs to the page it was written on
     publish(TOPIC.slides, { t: 'page', page }); putSlides({ ...cur, page });
-  }, [publish, putSlides]);
+  }, [publish, putSlides, sendBoard]);
+  /** Turn on writing on the page being shown: the board is cleared, opened to learners, and shown over the picture. */
+  const setSlideWrite = useCallback((on: boolean) => {
+    const cur = slidesRef.current; if (!cur || !hostSender() || cur.write === on) return;
+    if (on) { sendBoard({ t: 'clear' }); sendBoard({ t: 'open', open: true }); }
+    publish(TOPIC.slides, { t: 'write', on }); putSlides({ ...cur, write: on });
+  }, [publish, putSlides, sendBoard]);
   const stopSlides = useCallback(() => { if (!hostSender()) return; publish(TOPIC.slides, { t: 'stop' }); putSlides(null); }, [publish, putSlides]);
   const setSpotlight = useCallback((who: string) => { if (!hostSender()) return; publish(TOPIC.spot, { t: 'spot', who }); putSpot(who); }, [publish, putSpot]);
 
@@ -365,6 +372,6 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     join, leave, toggleMic, toggleCam, toggleShare, setAudioOnly, startAudio, sendChat, toggleHand, sendBoard,
     ackHand: (who: string) => sendHand({ t: 'ack', who }), clearHands: () => sendHand({ t: 'clear' }),
     canShare, flipCamera, rearCamera: facing.current === 'environment',
-    slides, spot, poll, myVote, presentSlides, setSlidePage, stopSlides, setSpotlight, launchPoll, closePoll, dismissPoll, castVote,
+    slides, spot, poll, myVote, presentSlides, setSlidePage, setSlideWrite, stopSlides, setSpotlight, launchPoll, closePoll, dismissPoll, castVote,
   };
 }

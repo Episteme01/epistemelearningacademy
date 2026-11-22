@@ -5,10 +5,10 @@ import { Dialog } from '@/components/ui/overlay';
 import { useAuth } from '@/features/auth/AuthContext';
 import { C } from '@/config/collections';
 import { useCollection } from '@/hooks/useFirestore';
-import { publicUrl, refOf } from '@/lib/fileRef';
 import { MAX_SLIDES } from '@/lib/live/protocol';
 import { MAX_SOURCE_BYTES, OFFICE_HELP, OTHER_HELP, clampRange, defaultRange, pagesUsed, sourceKind, type SlideSource } from '@/lib/live/slideSources';
-import { signedUrlFor, uploadFor } from '@/services/files';
+import { uploadFor } from '@/services/files';
+import { fetchResourceFile } from '@/services/resourceFile';
 import type { Resource, WithId } from '@/types/models';
 import { openPdf, type PdfDoc } from './pdfPages';
 
@@ -25,18 +25,6 @@ async function shrink(file: File, maxEdge = 1600): Promise<File> {
     const blob = await new Promise<Blob | null>((res) => c.toBlob(res, 'image/jpeg', 0.82));
     return blob ? new File([blob], `${file.name.replace(/\.[^.]+$/, '') || 'slide'}.jpg`, { type: 'image/jpeg' }) : file;
   } catch { return file; }
-}
-
-/** Downloads the file behind a resource (private uploads through a short-lived link, library files by their public link). */
-async function fetchResourceFile(r: WithId<Resource>): Promise<{ blob: Blob; name: string; type: string }> {
-  const ref = refOf(r.fileRef, r.url);
-  const url = ref?.provider === 'supabase' ? await signedUrlFor('resources', r.id) : publicUrl(ref) ?? (r.url || null);
-  if (!url) throw new Error('This resource has no file that can be opened.');
-  let resp: Response;
-  try { resp = await fetch(url, { credentials: 'omit' }); } catch { throw new Error('This resource could not be downloaded here (its host does not allow it). Download it and add it from your device instead.'); }
-  if (!resp.ok) throw new Error('This resource could not be downloaded. Try again.');
-  const blob = await resp.blob();
-  return { blob, name: r.fileName ?? ref?.name ?? r.title, type: r.contentType ?? ref?.contentType ?? blob.type };
 }
 
 interface Src extends SlideSource { id: string; name: string; file?: File; pdf?: PdfDoc; thumb?: string }

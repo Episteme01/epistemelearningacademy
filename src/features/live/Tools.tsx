@@ -1,19 +1,21 @@
 import { useEffect, useState } from 'react';
-import { ChevronLeft, ChevronRight, ListOrdered, Loader2, Megaphone, Plus, Presentation, Trash2, X } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ListOrdered, Loader2, Megaphone, PenLine, Plus, Presentation, Trash2, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Dialog } from '@/components/ui/overlay';
-import { MAX_POLL_OPTS, type PollState, type SlidesState } from '@/lib/live/protocol';
+import { MAX_POLL_OPTS, type BoardMsg, type BoardState, type PollState, type SlidesState } from '@/lib/live/protocol';
+import { Whiteboard } from './Whiteboard';
 import { cn } from '@/lib/utils';
 
 /* ------------------------------------------------------------------ teacher tools menu */
-export function ToolsDialog({ open, onClose, onPresent, onPoll, spotlighting, onClearSpot, slidesOn, onStopSlides }: {
-  open: boolean; onClose: () => void; onPresent: () => void; onPoll: () => void; spotlighting: boolean; onClearSpot: () => void; slidesOn: boolean; onStopSlides: () => void;
+export function ToolsDialog({ open, onClose, onPresent, onPoll, spotlighting, onClearSpot, slidesOn, onStopSlides, writing, onWrite }: {
+  open: boolean; onClose: () => void; onPresent: () => void; onPoll: () => void; spotlighting: boolean; onClearSpot: () => void; slidesOn: boolean; onStopSlides: () => void; writing: boolean; onWrite: (on: boolean) => void;
 }) {
   const big = 'flex w-full items-center gap-3 rounded-xl bg-forest-50 p-4 text-left text-ink ring-1 ring-line hover:bg-forest-100';
   return (
     <Dialog open={open} onClose={onClose} title="Teacher tools" size="sm" footer={<Button variant="outline" onClick={onClose}>Close</Button>}>
       <div className="space-y-2">
         <button type="button" className={big} onClick={onPresent}><Presentation className="h-6 w-6 text-forest-700" aria-hidden /><span><span className="block font-medium">{slidesOn ? 'Change the slides' : 'Show slides to the class'}</span><span className="block text-xs text-muted">Lesson pictures or photos of pages, turned together for everyone.</span></span></button>
+        {slidesOn && <button type="button" className={big} onClick={() => onWrite(!writing)}><PenLine className="h-6 w-6 text-forest-700" aria-hidden /><span><span className="block font-medium">{writing ? 'Stop writing on the page' : 'Let everyone write on this page'}</span><span className="block text-xs text-muted">{writing ? 'Back to plain slides.' : 'You and the learners write on the picture together with a pen. Turning the page clears the writing.'}</span></span></button>}
         {slidesOn && <button type="button" className={big} onClick={onStopSlides}><X className="h-6 w-6 text-danger" aria-hidden /><span className="font-medium">Stop showing slides</span></button>}
         <button type="button" className={big} onClick={onPoll}><ListOrdered className="h-6 w-6 text-forest-700" aria-hidden /><span><span className="block font-medium">Ask a quick question</span><span className="block text-xs text-muted">Learners pick A, B, C or D. You see the counts.</span></span></button>
         {spotlighting && <button type="button" className={big} onClick={onClearSpot}><Megaphone className="h-6 w-6 text-gold-600" aria-hidden /><span className="font-medium">End the spotlight</span></button>}
@@ -24,7 +26,7 @@ export function ToolsDialog({ open, onClose, onPresent, onPoll, spotlighting, on
 }
 
 /* ------------------------------------------------------------------ slides (the picker is in Present.tsx) */
-export function SlidesStage({ slides, isHost, onPage, onStop }: { slides: SlidesState; isHost: boolean; onPage: (n: number) => void; onStop: () => void }) {
+export function SlidesStage({ slides, isHost, onPage, onStop, board, meIdentity, send }: { slides: SlidesState; isHost: boolean; onPage: (n: number) => void; onStop: () => void; board: BoardState; meIdentity: string; send: (m: BoardMsg) => void }) {
   const n = slides.urls.length; const url = slides.urls[slides.page];
   const [loading, setLoading] = useState(true); const [failed, setFailed] = useState(false);
   useEffect(() => { setLoading(true); setFailed(false); }, [url]);
@@ -32,11 +34,12 @@ export function SlidesStage({ slides, isHost, onPage, onStop }: { slides: Slides
   const nav = 'flex h-11 w-11 items-center justify-center rounded-full bg-white/15 text-white disabled:opacity-30';
   return (
     <div className="flex h-full min-h-0 flex-col overflow-hidden rounded-lg bg-black">
+      {slides.write && url ? <div className="min-h-0 flex-1"><Whiteboard board={board} isHost={isHost} meIdentity={meIdentity} send={send} bg={url} /></div> : (
       <div className="relative min-h-0 flex-1 overflow-auto" style={{ touchAction: 'pan-x pan-y pinch-zoom' }}>
         {url && <img key={url} src={url} alt={`Slide ${slides.page + 1} of ${n}`} onLoad={() => setLoading(false)} onError={() => { setLoading(false); setFailed(true); }} className="mx-auto h-full w-full object-contain" />}
         {loading && !failed && <div className="absolute inset-0 flex items-center justify-center text-white" role="status"><Loader2 className="h-6 w-6 animate-spin" aria-label="Loading picture" /></div>}
         {failed && <p role="alert" className="absolute inset-0 flex items-center justify-center p-6 text-center text-sm text-white">This picture could not be loaded. Check your connection.</p>}
-      </div>
+      </div>)}
       <div className="flex items-center justify-center gap-3 bg-black/70 px-3 py-2 text-white">
         {isHost ? <button type="button" className={nav} aria-label="Previous picture" disabled={slides.page === 0} onClick={() => onPage(slides.page - 1)}><ChevronLeft className="h-6 w-6" /></button> : null}
         <span className="min-w-16 text-center text-sm tabular-nums">{slides.page + 1} / {n}</span>
