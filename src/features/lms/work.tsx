@@ -28,6 +28,8 @@ import { ResourceLinks } from './ResourceLinks';
 import { rebuildResourceAccess } from '@/services/resourceAccess';
 import type { ResourceLite } from '@/types/models';
 import { DrawingPad, clearPadDraft } from '@/features/pad/DrawingPad';
+import { WorksheetWriter, type WorksheetSource } from '@/features/pad/WorksheetWriter';
+import { fetchAttachment, fetchResourceById } from '@/services/resourceFile';
 import { gradeAttempt, type AnswerKey, type PaperQuestion } from '@/lib/cbt/grade';
 import { errorMessage, fmtDate, toDate } from '@/lib/utils';
 import type { Assignment_, Course, CourseEnrollment, WithId } from './types';
@@ -249,6 +251,9 @@ function StudentAssignments() {
   const [sel, setSel] = useState<WithId<Assignment_> | null>(null);
   const [text, setText] = useState(''); const [file, setFile] = useState<File | null>(null); const [busy, setBusy] = useState(false); const [drawing, setDrawing] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
+  const sheetRef = useRef<HTMLInputElement>(null);
+  const [writer, setWriter] = useState<{ src: WorksheetSource; a: WithId<Assignment_> } | null>(null);
+  const openWriter = (a: WithId<Assignment_>, load: () => Promise<WorksheetSource>) => { toast.success('Opening the worksheet…'); load().then((src) => setWriter({ src, a })).catch((e) => toast.error(errorMessage(e))); };
   useEffect(() => {
     void (async () => {
       const lists = await Promise.all([
@@ -283,14 +288,16 @@ function StudentAssignments() {
     <>
       <PageHeader title="Assignments" description="Submit work before the deadline and read your feedback." />
       {list.length === 0 ? <Card><EmptyState title="No assignments" description="Assignments from your classes and courses appear here." /></Card> : <div className="space-y-3">{list.map((a) => { const s = subOf(a.id); const late = toDate(a.dueAt) && toDate(a.dueAt)! < new Date(); const locked = !!late && (a as { allowLate?: boolean }).allowLate === false; return (
-        <Card key={a.id}><CardBody className="flex flex-wrap items-start justify-between gap-3"><div className="min-w-0"><p className="font-medium">{a.title}</p><p className="mt-1 text-sm text-muted line-clamp-2">{a.instructions}</p><AttachmentList assignmentId={a.id} files={a.attachments} /><ResourceLinks items={a.resources} /><p className="mt-1 text-xs text-muted">Due {fmtDate(a.dueAt, true)} {late && !s ? <Badge tone="danger">{locked ? 'closed' : 'overdue'}</Badge> : null}</p>
+        <Card key={a.id}><CardBody className="flex flex-wrap items-start justify-between gap-3"><div className="min-w-0"><p className="font-medium">{a.title}</p><p className="mt-1 text-sm text-muted line-clamp-2">{a.instructions}</p><AttachmentList assignmentId={a.id} files={a.attachments} onWrite={(i, f) => openWriter(a, () => fetchAttachment(a.id, i, f))} /><ResourceLinks items={a.resources} onWrite={(r) => openWriter(a, () => fetchResourceById(r.id))} /><p className="mt-1 text-xs text-muted">Due {fmtDate(a.dueAt, true)} {late && !s ? <Badge tone="danger">{locked ? 'closed' : 'overdue'}</Badge> : null}</p>
           {s?.status === 'graded' && <p className="mt-2 text-sm"><strong>{String(s.score)}</strong> / {a.maxScore} — {String(s.feedback ?? '')}</p>}</div>
           <div className="flex items-center gap-2">{s && <StatusBadge status={String(s.status)} />}{a.kind !== 'presentation' && (!s || s.status !== 'graded') && !locked && <Button size="sm" onClick={() => { setSel(a); setText(String(s?.text ?? '')); setFile(null); }}>{s ? 'Resubmit' : 'Submit'}</Button>}</div></CardBody></Card>); })}</div>}
       <Dialog open={!!sel} onClose={() => setSel(null)} title={sel?.title ?? ''} description={`Due ${fmtDate(sel?.dueAt, true)}`} footer={<><Button variant="outline" onClick={() => setSel(null)}>Cancel</Button><Button loading={busy} onClick={() => void submit()}>Submit</Button></>}>
-        <p className="mb-4 whitespace-pre-wrap text-sm">{sel?.instructions}</p>{sel && <div className="mb-4"><AttachmentList assignmentId={sel.id} files={sel.attachments} /><ResourceLinks items={sel.resources} /></div>}
+        <p className="mb-4 whitespace-pre-wrap text-sm">{sel?.instructions}</p>{sel && <div className="mb-4"><AttachmentList assignmentId={sel.id} files={sel.attachments} onWrite={(i, f) => openWriter(sel, () => fetchAttachment(sel.id, i, f))} /><ResourceLinks items={sel.resources} onWrite={(r) => openWriter(sel, () => fetchResourceById(r.id))} /></div>}
         {sel?.allowText !== false && <Field label="Your answer">{(a) => <Textarea {...a} rows={6} value={text} onChange={(e) => setText(e.target.value)} />}</Field>}
-        {sel?.allowFile !== false && <div className="mt-3 flex flex-wrap gap-2"><Button variant="outline" onClick={() => fileRef.current?.click()}>{file ? file.name : 'Attach a file'}</Button><Button variant="outline" onClick={() => setDrawing(true)}><PenTool className="h-4 w-4" /> Draw your answer</Button><input ref={fileRef} type="file" hidden onChange={(e) => setFile(e.target.files?.[0] ?? null)} /></div>}
+        {sel?.allowFile !== false && <div className="mt-3 flex flex-wrap gap-2"><Button variant="outline" onClick={() => fileRef.current?.click()}>{file ? file.name : 'Attach a file'}</Button><Button variant="outline" onClick={() => setDrawing(true)}><PenTool className="h-4 w-4" /> Draw your answer</Button><Button variant="outline" onClick={() => sheetRef.current?.click()}><PenTool className="h-4 w-4" /> Write on a worksheet from my device</Button><input ref={sheetRef} type="file" accept="image/*,application/pdf" hidden onChange={(e) => { const f = e.target.files?.[0]; e.target.value = ''; if (f && sel) setWriter({ src: { blob: f, name: f.name, type: f.type }, a: sel }); }} /><input ref={fileRef} type="file" hidden onChange={(e) => setFile(e.target.files?.[0] ?? null)} /></div>}
       </Dialog>
+      <WorksheetWriter source={writer?.src ?? null} onClose={() => setWriter(null)}
+        onUse={writer && writer.a.kind !== 'presentation' ? (f) => { const a = writer.a; if (sel?.id !== a.id) { setSel(a); setText(String(subOf(a.id)?.text ?? '')); } setFile(f); setWriter(null); toast.success('Your written answer is attached. Press Submit to send it.'); } : undefined} />
       <Dialog open={drawing} onClose={() => setDrawing(false)} title="Draw your answer" description={sel?.title ?? ''} size="xl">
         {drawing && sel && <DrawingPad persistKey={`assignment-${sel.id}-${uid ?? ''}`} saveLabel="Use this drawing" onSave={(f) => { setFile(f); setDrawing(false); toast.success('Drawing attached. Press Submit to send it.'); }} />}
       </Dialog>

@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { FileText, Paperclip, Trash2, Upload } from 'lucide-react';
+import { FileText, Paperclip, Pencil, Trash2, Upload } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Dialog, useToast } from '@/components/ui/overlay';
 import { useAuth } from '@/features/auth/AuthContext';
@@ -13,7 +13,7 @@ import { MAX_ATTACHMENTS, fileSizeLabel, withAttachment, withoutAttachment } fro
 import { errorMessage } from '@/lib/utils';
 
 /** Teacher-attached files for one assignment. Each button fetches a short-lived signed link. */
-export function AttachmentList({ assignmentId, files }: { assignmentId: string; files?: FileRef[] }) {
+export function AttachmentList({ assignmentId, files, onWrite }: { assignmentId: string; files?: FileRef[]; onWrite?: (i: number, f: FileRef) => void }) {
   const toast = useToast();
   if (!files?.length) return null;
   const open = (i: number, f: FileRef) => {
@@ -26,8 +26,9 @@ export function AttachmentList({ assignmentId, files }: { assignmentId: string; 
       <p className="mb-1 flex items-center gap-1 text-xs font-medium uppercase tracking-wide text-muted"><Paperclip className="h-3.5 w-3.5" /> Files from your teacher</p>
       <ul className="flex flex-wrap gap-2">
         {files.map((f, i) => (
-          <li key={`${f.path ?? f.url}-${i}`}>
+          <li key={`${f.path ?? f.url}-${i}`} className="flex gap-1">
             <Button size="sm" variant="outline" onClick={() => open(i, f)}><FileText className="h-3.5 w-3.5" /> {f.name ?? 'File'}{f.size ? <span className="text-xs text-muted"> · {fileSizeLabel(f.size)}</span> : null}</Button>
+            {onWrite && <Button size="sm" variant="outline" aria-label={`Write on ${f.name ?? 'file'}`} onClick={() => onWrite(i, f)}><Pencil className="h-3.5 w-3.5" /> Write on it</Button>}
           </li>
         ))}
       </ul>
