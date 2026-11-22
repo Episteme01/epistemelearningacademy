@@ -29,7 +29,7 @@ export function Dialog({ open, onClose, title, description, children, footer, si
               <h2 className="text-lg font-semibold">{title}</h2>
               {description && <p className="mt-0.5 text-sm text-muted">{description}</p>}
             </div>
-            <button onClick={onClose} aria-label="Close dialog" className="rounded p-1 text-muted hover:bg-forest-50 hover:text-ink"><X className="h-5 w-5" /></button>
+            <button type="button" onClick={onClose} aria-label="Close dialog" className="rounded p-1 text-muted hover:bg-forest-50 hover:text-ink"><X className="h-5 w-5" /></button>
           </div>
           <div className="overflow-y-auto px-5 py-4">{children}</div>
           {footer && <div className="flex flex-wrap justify-end gap-2 border-t border-line bg-cream px-5 py-3">{footer}</div>}
