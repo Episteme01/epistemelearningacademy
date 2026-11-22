@@ -1,0 +1,605 @@
+{
+  "id": "ELA-PS-TOD-LIT-T2-W06",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 2,
+  "week": 6,
+  "title": "Songs with actions",
+  "topic": "Rhymes and songs",
+  "subtopics": [
+    "Head, shoulders and body songs",
+    "Songs about animals",
+    "Songs with counting"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will sing and do actions to a song.",
+    "Children will remember words of a favourite song."
+  ],
+  "vocabulary": [
+    "sing",
+    "song",
+    "head",
+    "hands",
+    "feet",
+    "jump"
+  ],
+  "content": "Body songs, animal songs and counting songs with actions, and remembering the words of a favourite song.",
+  "teachingActivities": "Teach one song at a time with the same actions each day; sing slowly first and then at a normal speed; let children choose the next song; sing in a comfortable voice and never test children on words.",
+  "learnerActivities": "Sing songs with actions, do the right action at the right word and remember a favourite song.",
+  "resources": [
+    "A hand puppet",
+    "A toy frog and a toy duck",
+    "Five paper stars",
+    "A scarf",
+    "Picture cards for each song"
+  ],
+  "assessment": "Observe whether each child sings along with several songs and does the right action at the right word.",
+  "expectedOutcomes": [
+    "Sings along with several songs.",
+    "Does the right action at the right word."
+  ],
+  "crossCurricular": [
+    "Music: singing",
+    "Physical Development: body awareness",
+    "Mathematics: counting in songs"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W06-D01",
+      "title": "Head, shoulders, knees and toes",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Rhymes and songs",
+      "subtopic": "Head, shoulders and body songs",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will touch the right body part as they sing a body song."
+      ],
+      "successCriteria": [
+        "Touches head, shoulders, knees and toes",
+        "Sings or hums along"
+      ],
+      "previousKnowledge": "Children know rhymes from Term 1 and can hear rhyming pairs; many can sing along with actions.",
+      "vocabulary": [
+        "sing",
+        "song",
+        "head",
+        "hands",
+        "feet",
+        "jump"
+      ],
+      "resources": [
+        "A mat for standing",
+        "A hand puppet",
+        "A body picture card"
+      ],
+      "starter": "Touch your head and say \"This is my head.\" Touch your knees and say \"These are my knees.\" Ask \"Where is your head?\"",
+      "teacherActivities": [
+        "Say each body part and touch it slowly: head, shoulders, knees, toes.",
+        "Sing the song slowly: \"Head, shoulders, knees and toes, knees and toes\" and do the actions.",
+        "Sing it a little faster and wait for the children to lead.",
+        "Let a child lead the song with the puppet."
+      ],
+      "learnerActivities": [
+        "Children touch each part as you say it.",
+        "Children touch the parts and sing or hum.",
+        "Children do the actions at the right word.",
+        "Child leads and friends follow."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say each body part and touch it slowly: head, shoulders, knees, toes. Children: Children touch each part as you say it.",
+        "Step 2. Teacher: Sing the song slowly: \"Head, shoulders, knees and toes, knees and toes\" and do the actions. Children: Children touch the parts and sing or hum.",
+        "Step 3. Teacher: Sing it a little faster and wait for the children to lead. Children: Children do the actions at the right word.",
+        "Step 4. Teacher: Let a child lead the song with the puppet. Children: Child leads and friends follow."
+      ],
+      "practical": {
+        "title": "Body song",
+        "steps": [
+          "Stand in a circle with space.",
+          "Sing the song and touch each part.",
+          "Sing it faster each time."
+        ],
+        "safety": "Leave space around each child so no one bumps. Stop when children look tired and sit down to rest."
+      },
+      "differentiation": {
+        "support": "Touch the child’s head, shoulders, knees and toes gently with the words.",
+        "extension": "Ask the child to sing it quietly and then loudly."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is your head?",
+            "expected": "Child touches their head."
+          },
+          {
+            "question": "Can you touch your toes?",
+            "expected": "Child touches their toes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Touches body parts as named",
+        "Sings or hums along"
+      ],
+      "conclusion": "Sing the song very slowly and sit down.",
+      "homeConnection": "Sing the song at bath time and touch each body part.",
+      "teacherReflection": [
+        "Which children could show \"touch the right body part as they sing a body song\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HEAD",
+          "SHOULDERS",
+          "KNEES",
+          "TOES"
+        ],
+        "pictures": [
+          "A child touching their head",
+          "A child touching their toes"
+        ],
+        "songOrRhyme": "Head, shoulders, knees and toes, knees and toes."
+      },
+      "activities": [
+        "Body song"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W06-D02",
+      "title": "Five little ducks",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Rhymes and songs",
+      "subtopic": "Songs with counting",
+      "dayType": "explore",
+      "objectives": [
+        "Children will join in the actions and words of a counting song about ducks."
+      ],
+      "successCriteria": [
+        "Holds up fingers or says a number",
+        "Says quack in the song"
+      ],
+      "previousKnowledge": "Children know rhymes from Term 1 and can hear rhyming pairs; many can sing along with actions.",
+      "vocabulary": [
+        "sing",
+        "song",
+        "head",
+        "hands",
+        "feet",
+        "jump"
+      ],
+      "resources": [
+        "A toy duck",
+        "Five paper ducks",
+        "A blue cloth"
+      ],
+      "starter": "Hold up the toy duck and say \"Quack, quack.\" Ask \"Can you quack?\"",
+      "teacherActivities": [
+        "Sing \"Five little ducks went swimming one day. Over the hill and far away.\" Show five ducks on the cloth.",
+        "Sing again and take one duck away each time.",
+        "Sing again and wait for the children to say \"quack\".",
+        "Let each child move a duck across the blue cloth."
+      ],
+      "learnerActivities": [
+        "Children watch the ducks and say \"quack\".",
+        "Children hold up fingers or point to the missing ducks.",
+        "Children say \"quack, quack\".",
+        "Child moves a duck and says quack."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing \"Five little ducks went swimming one day. Over the hill and far away.\" Show five ducks on the cloth. Children: Children watch the ducks and say \"quack\".",
+        "Step 2. Teacher: Sing again and take one duck away each time. Children: Children hold up fingers or point to the missing ducks.",
+        "Step 3. Teacher: Sing again and wait for the children to say \"quack\". Children: Children say \"quack, quack\".",
+        "Step 4. Teacher: Let each child move a duck across the blue cloth. Children: Child moves a duck and says quack."
+      ],
+      "practical": {
+        "title": "Ducks on the water",
+        "steps": [
+          "Spread a blue cloth on the floor.",
+          "Each child holds a paper duck.",
+          "Sing the song and move the ducks across the cloth."
+        ],
+        "safety": "Use paper or cloth ducks and keep the cloth flat to avoid tripping. Supervise movement."
+      },
+      "differentiation": {
+        "support": "Hold up the child’s fingers as you sing the numbers.",
+        "extension": "Ask the child to count the ducks that are left."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do the ducks say?",
+            "expected": "Quack."
+          },
+          {
+            "question": "How many ducks are left?",
+            "expected": "The number left, by fingers or word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins in a counting song",
+        "Says quack at the right time"
+      ],
+      "conclusion": "Wave goodbye to the ducks as they swim away.",
+      "homeConnection": "Sing \"Five little ducks\" at home and use fingers to count.",
+      "teacherReflection": [
+        "Which children could show \"join in the actions and words of a counting song about ducks\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIVE DUCKS",
+          "QUACK"
+        ],
+        "pictures": [
+          "Five ducks",
+          "A duck swimming"
+        ],
+        "songOrRhyme": "Five little ducks went swimming one day. Over the hill and far away."
+      },
+      "activities": [
+        "Ducks on the water"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W06-D03",
+      "title": "Frog on a log",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Rhymes and songs",
+      "subtopic": "Songs about animals",
+      "dayType": "explore",
+      "objectives": [
+        "Children will do the actions of a song about a frog and a log."
+      ],
+      "successCriteria": [
+        "Jumps like a frog on request",
+        "Joins in the words \"ribbit\""
+      ],
+      "previousKnowledge": "Children know rhymes from Term 1 and can hear rhyming pairs; many can sing along with actions.",
+      "vocabulary": [
+        "sing",
+        "song",
+        "head",
+        "hands",
+        "feet",
+        "jump"
+      ],
+      "resources": [
+        "A toy frog",
+        "A log or a bench",
+        "A green cloth"
+      ],
+      "starter": "Hop the toy frog along the mat and say \"Ribbit, ribbit. Frog is hopping.\"",
+      "teacherActivities": [
+        "Sing \"Little frog, little frog, hop, hop, hop. Sit on the log and stop, stop, stop.\"",
+        "Sing again and let children hop on the spot.",
+        "Wait for children to say \"hop\" and \"stop\".",
+        "Let each child be the frog and sit on a log."
+      ],
+      "learnerActivities": [
+        "Children listen and hop with their fingers.",
+        "Children hop on the spot on \"hop\" and sit on \"stop\".",
+        "Children say the words.",
+        "Child hops to the log and sits."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing \"Little frog, little frog, hop, hop, hop. Sit on the log and stop, stop, stop.\" Children: Children listen and hop with their fingers.",
+        "Step 2. Teacher: Sing again and let children hop on the spot. Children: Children hop on the spot on \"hop\" and sit on \"stop\".",
+        "Step 3. Teacher: Wait for children to say \"hop\" and \"stop\". Children: Children say the words.",
+        "Step 4. Teacher: Let each child be the frog and sit on a log. Children: Child hops to the log and sits."
+      ],
+      "practical": {
+        "title": "Hop to the log",
+        "steps": [
+          "Place a soft log or cushion on the floor.",
+          "Children hop towards it and sit when the song says stop.",
+          "Repeat with each child as frog."
+        ],
+        "safety": "Keep the area clear and hop on a soft mat. Limit the hopping to short bursts to avoid tiredness."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and hop together.",
+        "extension": "Ask the child to hop three times and then sit."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does the frog do?",
+            "expected": "Hops."
+          },
+          {
+            "question": "Where does it sit?",
+            "expected": "On the log."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Hops and stops on request",
+        "Joins in key words"
+      ],
+      "conclusion": "Settle like a sleeping frog on the log.",
+      "homeConnection": "Hop like a frog at home and sing the song with your child.",
+      "teacherReflection": [
+        "Which children could show \"do the actions of a song about a frog and a log\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FROG",
+          "LOG",
+          "HOP"
+        ],
+        "pictures": [
+          "A frog",
+          "A log"
+        ],
+        "songOrRhyme": "Little frog, little frog, hop, hop, hop. Sit on the log and stop, stop, stop."
+      },
+      "activities": [
+        "Hop to the log"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W06-D04",
+      "title": "Choose a song",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Rhymes and songs",
+      "subtopic": "Head, shoulders and body songs",
+      "dayType": "practise",
+      "objectives": [
+        "Children will choose and sing a favourite song with the group."
+      ],
+      "successCriteria": [
+        "Chooses a song",
+        "Sings or does actions along"
+      ],
+      "previousKnowledge": "Children know rhymes from Term 1 and can hear rhyming pairs; many can sing along with actions.",
+      "vocabulary": [
+        "sing",
+        "song",
+        "head",
+        "hands",
+        "feet",
+        "jump"
+      ],
+      "resources": [
+        "Picture cards for the body song, ducks and frog",
+        "A basket",
+        "A hand puppet"
+      ],
+      "starter": "Show the three picture cards and say \"Which song shall we sing?\" Let a child pick one.",
+      "teacherActivities": [
+        "Show the three cards and let a child pick one from the basket.",
+        "Sing the chosen song with the actions.",
+        "Pick another card and sing again.",
+        "Let each child hold the puppet as the singer."
+      ],
+      "learnerActivities": [
+        "Child chooses and the group sings.",
+        "Children sing and do the actions.",
+        "Children join in.",
+        "Child sings with the puppet."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the three cards and let a child pick one from the basket. Children: Child chooses and the group sings.",
+        "Step 2. Teacher: Sing the chosen song with the actions. Children: Children sing and do the actions.",
+        "Step 3. Teacher: Pick another card and sing again. Children: Children join in.",
+        "Step 4. Teacher: Let each child hold the puppet as the singer. Children: Child sings with the puppet."
+      ],
+      "practical": {
+        "title": "Song basket",
+        "steps": [
+          "Put three song cards in a basket.",
+          "Each child picks one and the group sings it.",
+          "Repeat until every child has chosen."
+        ],
+        "safety": "Keep voices gentle and give water if needed. Supervise passing the basket."
+      },
+      "differentiation": {
+        "support": "Sing softly in the child’s ear and do the actions together.",
+        "extension": "Ask the child to sing a verse alone or with a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which song do you like?",
+            "expected": "Child points to a card."
+          },
+          {
+            "question": "Can you do the actions?",
+            "expected": "Child does them."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Chooses a favourite song",
+        "Does the right action at the right word"
+      ],
+      "conclusion": "Sing the favourite song once more and wave goodbye.",
+      "homeConnection": "Let your child choose a song at home and sing it with you.",
+      "teacherReflection": [
+        "Which children could show \"choose and sing a favourite song with the group\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SONGS"
+        ],
+        "pictures": [
+          "Three song cards"
+        ]
+      },
+      "activities": [
+        "Song basket"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W06-D05",
+      "title": "Week 6 songs check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Rhymes and songs",
+      "subtopic": "Songs with counting",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child sings and does actions."
+      ],
+      "successCriteria": [
+        "Sings or hums along",
+        "Does the right action at the right word"
+      ],
+      "previousKnowledge": "Children know rhymes from Term 1 and can hear rhyming pairs; many can sing along with actions.",
+      "vocabulary": [
+        "sing",
+        "song",
+        "head",
+        "hands",
+        "feet",
+        "jump"
+      ],
+      "resources": [
+        "Song cards",
+        "Toy duck and frog",
+        "Class record sheet"
+      ],
+      "starter": "Sing the body song and show three song stations.",
+      "teacherActivities": [
+        "Set up three stations: body song, ducks and frog.",
+        "At each station sing a song and watch the child’s actions.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child sings and does actions.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: body song, ducks and frog. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station sing a song and watch the child’s actions. Children: Child sings and does actions.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Song stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep the floor clear. Use soft toys and paper props."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and sing the same song.",
+        "extension": "Ask a confident child to lead a song."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: sings along; does the right action at the right word; remembers the words of a favourite song.",
+        "questions": [
+          {
+            "question": "Can you sing with me?",
+            "expected": "Child sings or hums."
+          },
+          {
+            "question": "Can you do the action?",
+            "expected": "Child does the action."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Sings along with several songs"
+      ],
+      "conclusion": "Sing a quiet goodbye song and wave.",
+      "homeConnection": "Sing three songs at home each day with actions.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child sings and does actions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Songs"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Song stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

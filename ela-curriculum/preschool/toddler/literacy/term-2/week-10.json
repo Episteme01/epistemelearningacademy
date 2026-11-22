@@ -1,0 +1,601 @@
+{
+  "id": "ELA-PS-TOD-LIT-T2-W10",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 2,
+  "week": 10,
+  "title": "Show what we know again",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising rhyme and syllables",
+    "Revising marks and fingers",
+    "Revising vocabulary and stories"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Term 2 learning through play stations.",
+    "Teachers will gather evidence for every child’s Term 2 record."
+  ],
+  "vocabulary": [
+    "rhyme",
+    "clap",
+    "mark",
+    "story",
+    "name",
+    "book"
+  ],
+  "content": "Revising rhyme and syllables, marks and fingers, and vocabulary and stories through play stations and gathering Term 2 evidence.",
+  "teachingActivities": "Keep every activity familiar and playful; observe quietly and record without interrupting; offer help only when a child is stuck; celebrate what each child can do.",
+  "learnerActivities": "Show what they know about rhymes, beats, marks, words and stories through play.",
+  "resources": [
+    "Rhyme picture cards",
+    "A drum",
+    "Playdough and crayons",
+    "The story box",
+    "Market stall",
+    "Name cards",
+    "Class record sheets"
+  ],
+  "assessment": "Observe and record each child’s Term 2 literacy learning using the four-level scale.",
+  "expectedOutcomes": [
+    "Completes familiar tasks with growing independence.",
+    "Each child has an observation record for Term 2."
+  ],
+  "crossCurricular": [
+    "Music: rhythm and singing",
+    "Physical Development: fine motor",
+    "Understanding the World: market and print"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W10-D01",
+      "title": "Revising rhyme and beats",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising rhyme and syllables",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit rhyming pairs and clapping the beats in names and words."
+      ],
+      "successCriteria": [
+        "Finishes a familiar rhyme",
+        "Claps the beats in their name"
+      ],
+      "previousKnowledge": "Children have worked on rhymes, beats, fingers, marks, vocabulary, songs, stories, questions and print this term.",
+      "vocabulary": [
+        "rhyme",
+        "clap",
+        "mark",
+        "story",
+        "name",
+        "book"
+      ],
+      "resources": [
+        "Rhyme cards",
+        "A drum",
+        "Name cards"
+      ],
+      "starter": "Say \"cat, hat\" and clap. Say \"Today we play our favourite rhyme and clap games.\"",
+      "teacherActivities": [
+        "Play finish the rhyme with the cat and hat cards.",
+        "Clap the beats in names around the circle.",
+        "Play rhyme lotto with the six cards.",
+        "Let each child choose a game."
+      ],
+      "learnerActivities": [
+        "Children say the rhyming word.",
+        "Children clap their names.",
+        "Children match pairs.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play finish the rhyme with the cat and hat cards. Children: Children say the rhyming word.",
+        "Step 2. Teacher: Clap the beats in names around the circle. Children: Children clap their names.",
+        "Step 3. Teacher: Play rhyme lotto with the six cards. Children: Children match pairs.",
+        "Step 4. Teacher: Let each child choose a game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Rhyme and clap games",
+        "steps": [
+          "Set up two game spaces.",
+          "Children play rhyme lotto and name claps.",
+          "The teacher notes who finishes rhymes and claps beats."
+        ],
+        "safety": "Keep clapping gentle and supervise turn-taking. Clear the floor."
+      },
+      "differentiation": {
+        "support": "Play with the child and use two pairs only.",
+        "extension": "Ask the child to teach a friend a rhyme game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What rhymes with cat?",
+            "expected": "Hat."
+          },
+          {
+            "question": "Can you clap your name?",
+            "expected": "Child claps the beats."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finishes familiar rhymes",
+        "Claps the beats in names"
+      ],
+      "conclusion": "Clap goodbye and say \"Cat, hat\".",
+      "homeConnection": "Say rhyming pairs and clap names at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit rhyming pairs and clapping the beats in names and words\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RHYME",
+          "CLAP"
+        ],
+        "pictures": [
+          "A cat and a hat",
+          "Hands clapping"
+        ]
+      },
+      "activities": [
+        "Rhyme and clap games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W10-D02",
+      "title": "Revising marks and fingers",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising marks and fingers",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit squeezing, threading and mark-making."
+      ],
+      "successCriteria": [
+        "Squeezes and rolls dough",
+        "Makes marks with a crayon"
+      ],
+      "previousKnowledge": "Children have worked on rhymes, beats, fingers, marks, vocabulary, songs, stories, questions and print this term.",
+      "vocabulary": [
+        "rhyme",
+        "clap",
+        "mark",
+        "story",
+        "name",
+        "book"
+      ],
+      "resources": [
+        "Playdough",
+        "Beads and strings",
+        "Crayons and paper",
+        "A sand tray"
+      ],
+      "starter": "Wiggle your fingers and say \"Today our fingers play and make marks.\"",
+      "teacherActivities": [
+        "Set up playdough and bead threading tables.",
+        "Set up crayons and sand for marks.",
+        "Walk round and ask \"What did you make?\"",
+        "Let each child choose a favourite activity."
+      ],
+      "learnerActivities": [
+        "Children squeeze, roll and thread.",
+        "Children make marks and say a word.",
+        "Child shows and names their work.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up playdough and bead threading tables. Children: Children squeeze, roll and thread.",
+        "Step 2. Teacher: Set up crayons and sand for marks. Children: Children make marks and say a word.",
+        "Step 3. Teacher: Walk round and ask \"What did you make?\" Children: Child shows and names their work.",
+        "Step 4. Teacher: Let each child choose a favourite activity. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Fingers and marks",
+        "steps": [
+          "Set up four tables with different materials.",
+          "Children move between tables.",
+          "The teacher notes how each child holds and uses tools."
+        ],
+        "safety": "Supervise beads and water closely. Use non-toxic dough and crayons and wash hands after."
+      },
+      "differentiation": {
+        "support": "Work beside the child with one material.",
+        "extension": "Ask the child to make a pattern with beads or marks."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you make?",
+            "expected": "A name for their creation."
+          },
+          {
+            "question": "Can you thread a bead?",
+            "expected": "Child threads a bead."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses fingers with growing control",
+        "Makes marks and says what they show"
+      ],
+      "conclusion": "Wash hands and say goodbye to the materials.",
+      "homeConnection": "Let your child play with dough and crayons at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit squeezing, threading and mark-making\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SQUEEZE",
+          "MARKS"
+        ],
+        "pictures": [
+          "Playdough",
+          "Crayon marks"
+        ]
+      },
+      "activities": [
+        "Fingers and marks"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W10-D03",
+      "title": "Revising words and stories",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising vocabulary and stories",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit market words, songs, stories and questions."
+      ],
+      "successCriteria": [
+        "Names market items",
+        "Retells part of a story"
+      ],
+      "previousKnowledge": "Children have worked on rhymes, beats, fingers, marks, vocabulary, songs, stories, questions and print this term.",
+      "vocabulary": [
+        "rhyme",
+        "clap",
+        "mark",
+        "story",
+        "name",
+        "book"
+      ],
+      "resources": [
+        "The market stall",
+        "The story box",
+        "Name cards",
+        "A hand puppet"
+      ],
+      "starter": "Say \"Good morning, ma\" and say \"Today we visit the market and hear a story.\"",
+      "teacherActivities": [
+        "Play at the market stall with polite words.",
+        "Tell the little hen story with the story box.",
+        "Ask who, what and where questions about the story.",
+        "Find name cards and say whose they are."
+      ],
+      "learnerActivities": [
+        "Children ask for items with please.",
+        "Children join in and retell.",
+        "Children answer with words or gestures.",
+        "Child finds their card."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play at the market stall with polite words. Children: Children ask for items with please.",
+        "Step 2. Teacher: Tell the little hen story with the story box. Children: Children join in and retell.",
+        "Step 3. Teacher: Ask who, what and where questions about the story. Children: Children answer with words or gestures.",
+        "Step 4. Teacher: Find name cards and say whose they are. Children: Child finds their card."
+      ],
+      "practical": {
+        "title": "Market and story",
+        "steps": [
+          "Set up the market stall and the story box.",
+          "Children visit each in turn.",
+          "The teacher notes words and story retelling."
+        ],
+        "safety": "Supervise each space and keep floors clear. Use toy foods and large props."
+      },
+      "differentiation": {
+        "support": "Offer two choices and say the words with the child.",
+        "extension": "Ask the child to be the seller or the storyteller."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do you want?",
+            "expected": "A short phrase with please."
+          },
+          {
+            "question": "What happened first?",
+            "expected": "Hen sat on the nest."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names market items",
+        "Retells part of a story"
+      ],
+      "conclusion": "Close the market and say \"The end.\"",
+      "homeConnection": "Tell stories and play shop at home with your child.",
+      "teacherReflection": [
+        "Which children could show \"revisit market words, songs, stories and questions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MARKET",
+          "STORY"
+        ],
+        "pictures": [
+          "A market stall",
+          "A toy hen"
+        ]
+      },
+      "activities": [
+        "Market and story"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W10-D04",
+      "title": "Play stations again",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising rhyme and syllables",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s Term 2 literacy learning at play stations."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with growing independence",
+        "Shows rhyme, speaking, print and fine motor skills"
+      ],
+      "previousKnowledge": "Children have worked on rhymes, beats, fingers, marks, vocabulary, songs, stories, questions and print this term.",
+      "vocabulary": [
+        "rhyme",
+        "clap",
+        "mark",
+        "story",
+        "name",
+        "book"
+      ],
+      "resources": [
+        "Six station sets",
+        "Class record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Sing a favourite song and show six stations to the class.",
+      "teacherActivities": [
+        "Set up six stations: rhyme, beats, fingers, marks, story and print.",
+        "Observe each child at two stations and record what they can do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every three minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: rhyme, beats, fingers, marks, story and print. Children: Children rotate every three minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they can do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Six stations",
+        "steps": [
+          "Set up six stations with familiar materials.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep floors clear and materials large and soft."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: finishes rhymes; claps beats; uses fingers; makes marks; retells a story; finds their name card.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite game.",
+            "expected": "Child chooses a station."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a Term 2 observation record",
+        "Shows familiar skills at stations"
+      ],
+      "conclusion": "Say well done and wave goodbye.",
+      "homeConnection": "Play a favourite game from this term at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s Term 2 literacy learning at play stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Six stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W10-D05",
+      "title": "Term 2 celebration",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising vocabulary and stories",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate Term 2 with songs, stories and games, and teachers will complete their records."
+      ],
+      "successCriteria": [
+        "Joins in songs and rhymes",
+        "Shows what they enjoy"
+      ],
+      "previousKnowledge": "Children have worked on rhymes, beats, fingers, marks, vocabulary, songs, stories, questions and print this term.",
+      "vocabulary": [
+        "rhyme",
+        "clap",
+        "mark",
+        "story",
+        "name",
+        "book"
+      ],
+      "resources": [
+        "Favourite songs and rhymes",
+        "The story box",
+        "Stickers or a certificate",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate. Let us sing our favourite songs and tell our favourite story.\"",
+      "teacherActivities": [
+        "Sing favourite songs with actions.",
+        "Tell the hen story with the props.",
+        "Give each child a sticker or praise and say their name."
+      ],
+      "learnerActivities": [
+        "Children join in and choose a song.",
+        "Children retell with props.",
+        "Child waves and says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite songs with actions. Children: Children join in and choose a song.",
+        "Step 2. Teacher: Tell the hen story with the props. Children: Children retell with props.",
+        "Step 3. Teacher: Give each child a sticker or praise and say their name. Children: Child waves and says thank you."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle.",
+          "Sing, tell the story and say each name.",
+          "Hand out stickers or certificates."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and sing along.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s Term 2 literacy record using today’s observations and the week’s notes. Record a next step for Term 3.",
+        "questions": [
+          {
+            "question": "What is your favourite song?",
+            "expected": "Child sings or points."
+          },
+          {
+            "question": "Did you like the story?",
+            "expected": "Yes with a smile or word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed Term 2 record",
+        "Enjoys songs, rhymes and stories"
+      ],
+      "conclusion": "Wave goodbye and say \"See you in Term 3.\"",
+      "homeConnection": "Keep singing, telling stories and playing with sounds during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"celebrate Term 2 with songs, stories and games, and teachers will complete their records\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

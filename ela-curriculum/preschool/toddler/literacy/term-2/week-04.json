@@ -1,0 +1,603 @@
+{
+  "id": "ELA-PS-TOD-LIT-T2-W04",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 2,
+  "week": 4,
+  "title": "Making big marks",
+  "topic": "Mark-making",
+  "subtopics": [
+    "Marks in sand and flour",
+    "Chalk and water on the ground",
+    "Crayons on big paper"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will make marks with fingers, chalk and crayons.",
+    "Children will say what their marks show."
+  ],
+  "vocabulary": [
+    "mark",
+    "draw",
+    "chalk",
+    "crayon",
+    "sand",
+    "paper"
+  ],
+  "content": "Making marks in sand and flour, with chalk and water on the ground, and with crayons on big paper.",
+  "teachingActivities": "Let children move freely with big arm movements; never correct how they hold a tool; ask \"Tell me about your marks\" and write down what they say; use large surfaces.",
+  "learnerActivities": "Make marks with fingers, chalk and crayons and say what their marks show.",
+  "resources": [
+    "A tray of sand or flour",
+    "Chalk",
+    "A bucket of water and a brush",
+    "Large paper",
+    "Fat crayons",
+    "An apron or old shirt"
+  ],
+  "assessment": "Observe whether each child makes marks with a tool and says a word about their marks.",
+  "expectedOutcomes": [
+    "Makes marks with a tool.",
+    "Says a word about their marks."
+  ],
+  "crossCurricular": [
+    "Creative Development: art",
+    "Physical Development: arm movement",
+    "Understanding the World: materials"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W04-D01",
+      "title": "Marks in sand",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Mark-making",
+      "subtopic": "Marks in sand and flour",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will make marks in sand or flour with their fingers."
+      ],
+      "successCriteria": [
+        "Draws a line or a dot with a finger",
+        "Says a word about the mark"
+      ],
+      "previousKnowledge": "Children can squeeze, roll and thread and enjoy exploring materials with their hands.",
+      "vocabulary": [
+        "mark",
+        "draw",
+        "chalk",
+        "crayon",
+        "sand",
+        "paper"
+      ],
+      "resources": [
+        "A tray of dry sand or flour",
+        "A smoothing stick",
+        "A towel"
+      ],
+      "starter": "Draw a long line in the sand with your finger and say \"I made a line. Can you make a mark?\"",
+      "teacherActivities": [
+        "Smooth the sand flat and draw a line, a dot and a circle with your finger.",
+        "Say \"Now you make a mark.\" Give each child a turn.",
+        "Ask \"What is your mark?\" and wait.",
+        "Smooth the sand again and let the children make more marks."
+      ],
+      "learnerActivities": [
+        "Children watch and look at the marks.",
+        "Child makes a mark with a finger.",
+        "Child says a word or shows a gesture.",
+        "Child makes a new mark."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Smooth the sand flat and draw a line, a dot and a circle with your finger. Children: Children watch and look at the marks.",
+        "Step 2. Teacher: Say \"Now you make a mark.\" Give each child a turn. Children: Child makes a mark with a finger.",
+        "Step 3. Teacher: Ask \"What is your mark?\" and wait. Children: Child says a word or shows a gesture.",
+        "Step 4. Teacher: Smooth the sand again and let the children make more marks. Children: Child makes a new mark."
+      ],
+      "practical": {
+        "title": "Sand marks",
+        "steps": [
+          "Put a tray of sand on a table or mat.",
+          "Each child makes marks with a finger.",
+          "Smooth the sand and start again."
+        ],
+        "safety": "Keep sand away from eyes and mouths and wash hands after play. Use fine, clean sand and sweep up spills."
+      },
+      "differentiation": {
+        "support": "Move the child’s finger along the sand together.",
+        "extension": "Ask the child to make a line and a circle and tell a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What mark did you make?",
+            "expected": "Line, dot or circle."
+          },
+          {
+            "question": "Can you make a long line?",
+            "expected": "Child draws a long line."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes marks in sand with a finger",
+        "Says a word about the mark"
+      ],
+      "conclusion": "Smooth the sand flat and wash hands.",
+      "homeConnection": "Draw lines in sand or flour with your child at home.",
+      "teacherReflection": [
+        "Which children could show \"make marks in sand or flour with their fingers\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LINE",
+          "DOT",
+          "CIRCLE"
+        ],
+        "pictures": [
+          "A line in sand",
+          "Dots in sand",
+          "A circle in sand"
+        ]
+      },
+      "activities": [
+        "Sand marks"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W04-D02",
+      "title": "Chalk and water",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Mark-making",
+      "subtopic": "Chalk and water on the ground",
+      "dayType": "explore",
+      "objectives": [
+        "Children will make big marks with chalk and water on the ground."
+      ],
+      "successCriteria": [
+        "Uses chalk or a wet brush to make marks",
+        "Uses big arm movements"
+      ],
+      "previousKnowledge": "Children can squeeze, roll and thread and enjoy exploring materials with their hands.",
+      "vocabulary": [
+        "mark",
+        "draw",
+        "chalk",
+        "crayon",
+        "sand",
+        "paper"
+      ],
+      "resources": [
+        "Chalk",
+        "A bucket of water and a large brush",
+        "A paved outdoor area"
+      ],
+      "starter": "Dip the brush in water and paint a line on the ground. Say \"Look, a wet line. It will dry in the sun.\"",
+      "teacherActivities": [
+        "Make a big line with the brush. Draw a big circle with chalk.",
+        "Give each child a brush and let them paint on the ground.",
+        "Give each child chalk and let them draw big marks.",
+        "Ask \"What did you make?\""
+      ],
+      "learnerActivities": [
+        "Children watch and look at the marks.",
+        "Child paints a line or a shape.",
+        "Child draws marks with chalk.",
+        "Child says a word or points."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Make a big line with the brush. Draw a big circle with chalk. Children: Children watch and look at the marks.",
+        "Step 2. Teacher: Give each child a brush and let them paint on the ground. Children: Child paints a line or a shape.",
+        "Step 3. Teacher: Give each child chalk and let them draw big marks. Children: Child draws marks with chalk.",
+        "Step 4. Teacher: Ask \"What did you make?\" Children: Child says a word or points."
+      ],
+      "practical": {
+        "title": "Ground painting",
+        "steps": [
+          "Go to a safe paved area outside.",
+          "Paint with water and draw with chalk.",
+          "Watch the water marks dry in the sun."
+        ],
+        "safety": "Stay away from the road and check the ground for sharp objects. Use hats in strong sun and wash hands after chalk."
+      },
+      "differentiation": {
+        "support": "Hold the brush together and move across the ground.",
+        "extension": "Ask the child to draw a long line from one end to the other."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What are you making?",
+            "expected": "A line, a circle or a word."
+          },
+          {
+            "question": "Where did the water go?",
+            "expected": "It dried in the sun."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes big marks with chalk or water",
+        "Says a word about their marks"
+      ],
+      "conclusion": "Look at the marks together and wave goodbye to them.",
+      "homeConnection": "Draw on a path with chalk or paint with water at home.",
+      "teacherReflection": [
+        "Which children could show \"make big marks with chalk and water on the ground\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CHALK",
+          "WATER"
+        ],
+        "pictures": [
+          "Chalk marks",
+          "A wet line"
+        ]
+      },
+      "activities": [
+        "Ground painting"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W04-D03",
+      "title": "Crayons on big paper",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Mark-making",
+      "subtopic": "Crayons on big paper",
+      "dayType": "explore",
+      "objectives": [
+        "Children will make marks with fat crayons on big paper."
+      ],
+      "successCriteria": [
+        "Holds a crayon",
+        "Makes marks on paper"
+      ],
+      "previousKnowledge": "Children can squeeze, roll and thread and enjoy exploring materials with their hands.",
+      "vocabulary": [
+        "mark",
+        "draw",
+        "chalk",
+        "crayon",
+        "sand",
+        "paper"
+      ],
+      "resources": [
+        "Fat crayons",
+        "A long sheet of paper taped to the floor",
+        "Tape"
+      ],
+      "starter": "Tape a long sheet of paper on the floor and make a big scribble with a crayon. Say \"I made marks. You try.\"",
+      "teacherActivities": [
+        "Show how to hold a fat crayon in your fist. Make marks on the paper.",
+        "Let each child kneel at the paper and make marks.",
+        "Ask \"Tell me about your marks.\"",
+        "Write the child’s word beside their marks."
+      ],
+      "learnerActivities": [
+        "Children watch and hold their crayons.",
+        "Child makes marks with arm movements.",
+        "Child says a word or shows a gesture.",
+        "Child watches and says the word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to hold a fat crayon in your fist. Make marks on the paper. Children: Children watch and hold their crayons.",
+        "Step 2. Teacher: Let each child kneel at the paper and make marks. Children: Child makes marks with arm movements.",
+        "Step 3. Teacher: Ask \"Tell me about your marks.\" Children: Child says a word or shows a gesture.",
+        "Step 4. Teacher: Write the child’s word beside their marks. Children: Child watches and says the word."
+      ],
+      "practical": {
+        "title": "Big paper marks",
+        "steps": [
+          "Tape a long sheet of paper to the floor.",
+          "Children kneel and make marks with fat crayons.",
+          "Talk about the marks together."
+        ],
+        "safety": "Use non-toxic crayons and keep crayons out of mouths. Tape the paper down to prevent slipping."
+      },
+      "differentiation": {
+        "support": "Hold the crayon together and move it across the paper.",
+        "extension": "Ask the child to draw a line and a circle on the paper."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you draw?",
+            "expected": "A line, a circle or a name for the picture."
+          },
+          {
+            "question": "What colour is your crayon?",
+            "expected": "Child names or points to the colour."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes marks with a crayon",
+        "Says what the marks show"
+      ],
+      "conclusion": "Put the crayons back in the tin and look at the paper.",
+      "homeConnection": "Give your child a big sheet of paper and a fat crayon at home.",
+      "teacherReflection": [
+        "Which children could show \"make marks with fat crayons on big paper\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CRAYON",
+          "PAPER"
+        ],
+        "pictures": [
+          "A crayon",
+          "A big paper with marks"
+        ]
+      },
+      "activities": [
+        "Big paper marks"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W04-D04",
+      "title": "Tell me about my marks",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Mark-making",
+      "subtopic": "Crayons on big paper",
+      "dayType": "practise",
+      "objectives": [
+        "Children will talk about their marks and say what they show."
+      ],
+      "successCriteria": [
+        "Says a word about their marks",
+        "Points to a part of the picture"
+      ],
+      "previousKnowledge": "Children can squeeze, roll and thread and enjoy exploring materials with their hands.",
+      "vocabulary": [
+        "mark",
+        "draw",
+        "chalk",
+        "crayon",
+        "sand",
+        "paper"
+      ],
+      "resources": [
+        "Marks made earlier in the week",
+        "Paper and crayons",
+        "A basket"
+      ],
+      "starter": "Show a child’s paper from earlier and say \"Look at these marks. Tell me about them.\"",
+      "teacherActivities": [
+        "Sit with a child and look at their marks. Ask \"What did you make?\"",
+        "Repeat the child’s words and write them beside the marks.",
+        "Let the child make another picture and tell you about it.",
+        "Share a picture with the group."
+      ],
+      "learnerActivities": [
+        "Child says a word or points.",
+        "Child watches and nods.",
+        "Child draws and tells you.",
+        "Child shows and says a word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sit with a child and look at their marks. Ask \"What did you make?\" Children: Child says a word or points.",
+        "Step 2. Teacher: Repeat the child’s words and write them beside the marks. Children: Child watches and nods.",
+        "Step 3. Teacher: Let the child make another picture and tell you about it. Children: Child draws and tells you.",
+        "Step 4. Teacher: Share a picture with the group. Children: Child shows and says a word."
+      ],
+      "practical": {
+        "title": "Mark talk",
+        "steps": [
+          "Give each child paper and a crayon.",
+          "Make a picture and tell a friend about it.",
+          "Write a word beside each picture."
+        ],
+        "safety": "Keep crayons out of mouths and supervise sharing. Use non-toxic materials only."
+      },
+      "differentiation": {
+        "support": "Point to the marks and offer words for the child to choose.",
+        "extension": "Ask the child to tell you a short sentence about the picture."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "The child’s name for the picture."
+          },
+          {
+            "question": "What colour is it?",
+            "expected": "A colour name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says what marks show",
+        "Shows a picture to a friend"
+      ],
+      "conclusion": "Put the pictures on the wall and say \"Well done.\"",
+      "homeConnection": "Ask your child to tell you about their drawings and write what they say.",
+      "teacherReflection": [
+        "Which children could show \"talk about their marks and say what they show\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MY PICTURE"
+        ],
+        "pictures": [
+          "A child’s picture"
+        ]
+      },
+      "activities": [
+        "Mark talk"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W04-D05",
+      "title": "Week 4 marks check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Mark-making",
+      "subtopic": "Marks in sand and flour",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child makes marks and talks about them."
+      ],
+      "successCriteria": [
+        "Makes marks with a tool",
+        "Says a word about their marks"
+      ],
+      "previousKnowledge": "Children can squeeze, roll and thread and enjoy exploring materials with their hands.",
+      "vocabulary": [
+        "mark",
+        "draw",
+        "chalk",
+        "crayon",
+        "sand",
+        "paper"
+      ],
+      "resources": [
+        "Sand tray",
+        "Chalk and water",
+        "Crayons and paper",
+        "Class record sheet"
+      ],
+      "starter": "Show three mark-making stations and say \"Today we make marks.\"",
+      "teacherActivities": [
+        "Set up three stations: sand, chalk and crayons.",
+        "Watch each child make marks and ask \"What did you make?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child says a word.",
+        "Children wash hands and tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: sand, chalk and crayons. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: Watch each child make marks and ask \"What did you make?\" Children: Child says a word.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy at the signal."
+      ],
+      "practical": {
+        "title": "Mark stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise sand and water carefully. Use non-toxic chalk and crayons and wash hands."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and offer two tools.",
+        "extension": "Ask a confident child to draw a pattern."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: makes marks with a tool; uses big arm movements; says a word about their marks.",
+        "questions": [
+          {
+            "question": "What did you make?",
+            "expected": "A word or gesture."
+          },
+          {
+            "question": "Can you make a line?",
+            "expected": "Child makes a line."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Makes marks with different tools"
+      ],
+      "conclusion": "Wash hands and say goodbye.",
+      "homeConnection": "Make marks in sand, flour or on paper at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child makes marks and talks about them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Marks"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Mark stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

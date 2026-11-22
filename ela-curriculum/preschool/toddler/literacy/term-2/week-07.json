@@ -1,0 +1,601 @@
+{
+  "id": "ELA-PS-TOD-LIT-T2-W07",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 2,
+  "week": 7,
+  "title": "Retelling with props",
+  "topic": "Stories",
+  "subtopics": [
+    "A story with props",
+    "Retelling in my own words",
+    "Puppets and the story"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will retell a short story using props or puppets.",
+    "Children will use words such as first, then and the end."
+  ],
+  "vocabulary": [
+    "first",
+    "then",
+    "the end",
+    "puppet",
+    "story",
+    "tell"
+  ],
+  "content": "Telling a story with props, retelling it in their own words, and using puppets with the story.",
+  "teachingActivities": "Use the same story all week; place props in a story box; use first, then and the end naturally; give children props and let them tell the story their way; accept words, gestures and actions.",
+  "learnerActivities": "Retell a short story using props or puppets and use story words such as first, then and the end.",
+  "resources": [
+    "A story box with a toy hen, a toy egg, a toy chick and a toy cat",
+    "Puppets",
+    "Picture cards",
+    "A scarf"
+  ],
+  "assessment": "Observe whether each child retells part of a story with props and uses a story word.",
+  "expectedOutcomes": [
+    "Retells part of a story with props.",
+    "Uses a story word."
+  ],
+  "crossCurricular": [
+    "Understanding the World: animals",
+    "Creative Development: puppets",
+    "Social Habits: sharing props"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W07-D01",
+      "title": "The little hen story",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "A story with props",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will listen to a short story told with props."
+      ],
+      "successCriteria": [
+        "Listens to the story",
+        "Points to a prop when named"
+      ],
+      "previousKnowledge": "Children can listen to a short story and join in a repeated line; many can name pictures in a book.",
+      "vocabulary": [
+        "first",
+        "then",
+        "the end",
+        "puppet",
+        "story",
+        "tell"
+      ],
+      "resources": [
+        "A story box",
+        "A toy hen, egg, chick and cat",
+        "A cloth nest"
+      ],
+      "starter": "Take the hen from the story box and say \"This is Hen. Hen has a secret in her nest.\"",
+      "teacherActivities": [
+        "Tell the story: \"First, Hen sat on her nest. Then she laid an egg. Then crack! Out came a chick. The end.\" Use each prop as you tell it.",
+        "Ask \"Who sat on the nest?\" and \"What came out?\"",
+        "Tell the story again and let children help move the props.",
+        "Say \"The end\" together."
+      ],
+      "learnerActivities": [
+        "Children listen and watch the props.",
+        "Children point to the hen and the chick.",
+        "Child moves a prop at the right time.",
+        "Children say \"the end\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the story: \"First, Hen sat on her nest. Then she laid an egg. Then crack! Out came a chick. The end.\" Use each prop as you tell it. Children: Children listen and watch the props.",
+        "Step 2. Teacher: Ask \"Who sat on the nest?\" and \"What came out?\" Children: Children point to the hen and the chick.",
+        "Step 3. Teacher: Tell the story again and let children help move the props. Children: Child moves a prop at the right time.",
+        "Step 4. Teacher: Say \"The end\" together. Children: Children say \"the end\"."
+      ],
+      "practical": {
+        "title": "Story box",
+        "steps": [
+          "Put the props in a story box.",
+          "Take them out one at a time as you tell the story.",
+          "Pass the props round so each child holds one."
+        ],
+        "safety": "Use large soft props that cannot be swallowed. Supervise handling and do not allow children to put props in mouths."
+      },
+      "differentiation": {
+        "support": "Hold the prop together and move it in time with the story.",
+        "extension": "Ask the child to tell what happened first."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who sat on the nest?",
+            "expected": "Hen."
+          },
+          {
+            "question": "What came out of the egg?",
+            "expected": "A chick."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Listens to a story with props",
+        "Names or points to the props"
+      ],
+      "conclusion": "Put the props back in the box and say \"The end.\"",
+      "homeConnection": "Tell a short story at home with two toys and let your child move them.",
+      "teacherReflection": [
+        "Which children could show \"listen to a short story told with props\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HEN",
+          "EGG",
+          "CHICK"
+        ],
+        "pictures": [
+          "A hen on a nest",
+          "An egg",
+          "A chick"
+        ],
+        "story": "First, Hen sat on her nest. Then she laid an egg. Then crack! Out came a chick. The end."
+      },
+      "activities": [
+        "Story box"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W07-D02",
+      "title": "First, then, the end",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Retelling in my own words",
+      "dayType": "explore",
+      "objectives": [
+        "Children will use the words first, then and the end to retell the story."
+      ],
+      "successCriteria": [
+        "Says or signs first, then or the end",
+        "Points to the props in order"
+      ],
+      "previousKnowledge": "Children can listen to a short story and join in a repeated line; many can name pictures in a book.",
+      "vocabulary": [
+        "first",
+        "then",
+        "the end",
+        "puppet",
+        "story",
+        "tell"
+      ],
+      "resources": [
+        "The story box",
+        "Three picture cards in order",
+        "A cloth"
+      ],
+      "starter": "Hold up the three cards and say \"First, then, the end. This is the order of our story.\"",
+      "teacherActivities": [
+        "Put the three cards on the floor in order and point as you say first, then, the end.",
+        "Tell the story again with the cards and ask \"What came first?\"",
+        "Ask \"What happened then?\" and \"What happened at the end?\"",
+        "Let each child pick up a card and say its story word."
+      ],
+      "learnerActivities": [
+        "Children look and say the words.",
+        "Child points to the first card.",
+        "Child points to the cards.",
+        "Child holds up a card and says first, then or end."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the three cards on the floor in order and point as you say first, then, the end. Children: Children look and say the words.",
+        "Step 2. Teacher: Tell the story again with the cards and ask \"What came first?\" Children: Child points to the first card.",
+        "Step 3. Teacher: Ask \"What happened then?\" and \"What happened at the end?\" Children: Child points to the cards.",
+        "Step 4. Teacher: Let each child pick up a card and say its story word. Children: Child holds up a card and says first, then or end."
+      ],
+      "practical": {
+        "title": "Story steps",
+        "steps": [
+          "Put three cards on the floor in a row.",
+          "Children stand on each card as the story moves along.",
+          "Say first, then, the end together."
+        ],
+        "safety": "Use big soft cards on a clear floor. Keep children well apart and supervise movement."
+      },
+      "differentiation": {
+        "support": "Point to each card and say the word for the child to copy.",
+        "extension": "Ask the child to put the cards in order alone."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What came first?",
+            "expected": "Hen sat on the nest."
+          },
+          {
+            "question": "What happened at the end?",
+            "expected": "A chick came out."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses story words with support",
+        "Puts cards in order with support"
+      ],
+      "conclusion": "Say \"The end\" and clap.",
+      "homeConnection": "Use the words first, then and the end when you tell stories at home.",
+      "teacherReflection": [
+        "Which children could show \"use the words first, then and the end to retell the story\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIRST",
+          "THEN",
+          "THE END"
+        ],
+        "pictures": [
+          "Three story cards in order"
+        ]
+      },
+      "activities": [
+        "Story steps"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W07-D03",
+      "title": "Puppets tell the story",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Puppets and the story",
+      "dayType": "explore",
+      "objectives": [
+        "Children will use puppets to tell part of the story."
+      ],
+      "successCriteria": [
+        "Moves a puppet for the story",
+        "Says a word as the puppet speaks"
+      ],
+      "previousKnowledge": "Children can listen to a short story and join in a repeated line; many can name pictures in a book.",
+      "vocabulary": [
+        "first",
+        "then",
+        "the end",
+        "puppet",
+        "story",
+        "tell"
+      ],
+      "resources": [
+        "Hen and chick puppets",
+        "A cloth nest",
+        "A small table or stage"
+      ],
+      "starter": "Make the hen puppet say \"Cluck, cluck. I am Hen.\" Ask \"Who is this?\"",
+      "teacherActivities": [
+        "Use the hen puppet to tell the first part of the story.",
+        "Give the chick puppet to a child and ask them to make it say \"cheep\".",
+        "Retell the story together with two puppets.",
+        "Let pairs of children tell the story to each other."
+      ],
+      "learnerActivities": [
+        "Children watch and listen.",
+        "Child makes the chick say cheep.",
+        "Children move puppets and say words.",
+        "Child speaks for a puppet."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Use the hen puppet to tell the first part of the story. Children: Children watch and listen.",
+        "Step 2. Teacher: Give the chick puppet to a child and ask them to make it say \"cheep\". Children: Child makes the chick say cheep.",
+        "Step 3. Teacher: Retell the story together with two puppets. Children: Children move puppets and say words.",
+        "Step 4. Teacher: Let pairs of children tell the story to each other. Children: Child speaks for a puppet."
+      ],
+      "practical": {
+        "title": "Puppet show",
+        "steps": [
+          "Set up a small stage with a cloth nest.",
+          "Give each child a puppet.",
+          "Tell the story with the puppets together."
+        ],
+        "safety": "Check that puppets are clean and have no loose parts. Supervise sharing and keep puppets from mouths."
+      },
+      "differentiation": {
+        "support": "Move the puppet together and say the words with the child.",
+        "extension": "Ask the child to make up a new line for the puppet."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is this?",
+            "expected": "Hen or chick."
+          },
+          {
+            "question": "What does the chick say?",
+            "expected": "Cheep."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses puppets to retell part of a story",
+        "Speaks for a puppet with support"
+      ],
+      "conclusion": "Put the puppets to bed and say goodnight.",
+      "homeConnection": "Make a puppet from a sock at home and let your child tell a story with it.",
+      "teacherReflection": [
+        "Which children could show \"use puppets to tell part of the story\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PUPPET",
+          "STORY"
+        ],
+        "pictures": [
+          "A hen puppet",
+          "A chick puppet"
+        ]
+      },
+      "activities": [
+        "Puppet show"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W07-D04",
+      "title": "Tell it in my own way",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "Retelling in my own words",
+      "dayType": "practise",
+      "objectives": [
+        "Children will retell the story in their own words or actions."
+      ],
+      "successCriteria": [
+        "Retells at least one part of the story",
+        "Uses a prop or an action"
+      ],
+      "previousKnowledge": "Children can listen to a short story and join in a repeated line; many can name pictures in a book.",
+      "vocabulary": [
+        "first",
+        "then",
+        "the end",
+        "puppet",
+        "story",
+        "tell"
+      ],
+      "resources": [
+        "The story box",
+        "Puppets",
+        "A cushion for the storyteller"
+      ],
+      "starter": "Sit on the storyteller’s cushion and say \"Who can tell our hen story?\"",
+      "teacherActivities": [
+        "Invite a child to sit on the storyteller’s cushion and choose a prop.",
+        "Ask \"What happened first?\" and wait.",
+        "Add the child’s words to the story and tell it back to them.",
+        "Let two or three children each tell a part."
+      ],
+      "learnerActivities": [
+        "Child chooses a prop.",
+        "Child says a word or shows an action.",
+        "Child listens and nods.",
+        "Child tells a part and the group claps."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Invite a child to sit on the storyteller’s cushion and choose a prop. Children: Child chooses a prop.",
+        "Step 2. Teacher: Ask \"What happened first?\" and wait. Children: Child says a word or shows an action.",
+        "Step 3. Teacher: Add the child’s words to the story and tell it back to them. Children: Child listens and nods.",
+        "Step 4. Teacher: Let two or three children each tell a part. Children: Child tells a part and the group claps."
+      ],
+      "practical": {
+        "title": "Storyteller’s cushion",
+        "steps": [
+          "Place a cushion in the circle.",
+          "A child sits and tells part of the story with a prop.",
+          "The group claps and the next child sits."
+        ],
+        "safety": "Never make a child perform if they do not want to. Accept a gesture or a single word."
+      },
+      "differentiation": {
+        "support": "Hold the prop together and offer the first word.",
+        "extension": "Ask the child to tell the whole story with first, then and the end."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What happened in the story?",
+            "expected": "Any part of the story in words or actions."
+          },
+          {
+            "question": "Who is your favourite?",
+            "expected": "A character name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Retells part of a story",
+        "Uses props or actions"
+      ],
+      "conclusion": "Clap for all the storytellers and put the props away.",
+      "homeConnection": "Ask your child to tell you a story and listen.",
+      "teacherReflection": [
+        "Which children could show \"retell the story in their own words or actions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TELL THE STORY"
+        ],
+        "pictures": [
+          "A child holding a toy hen"
+        ]
+      },
+      "activities": [
+        "Storyteller’s cushion"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W07-D05",
+      "title": "Week 7 retelling check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Stories",
+      "subtopic": "A story with props",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child retells a story with props."
+      ],
+      "successCriteria": [
+        "Retells part of a story",
+        "Uses a story word"
+      ],
+      "previousKnowledge": "Children can listen to a short story and join in a repeated line; many can name pictures in a book.",
+      "vocabulary": [
+        "first",
+        "then",
+        "the end",
+        "puppet",
+        "story",
+        "tell"
+      ],
+      "resources": [
+        "The story box",
+        "Puppets",
+        "Class record sheet"
+      ],
+      "starter": "Show the story box and three stations.",
+      "teacherActivities": [
+        "Set up three stations: props, picture cards and puppets.",
+        "At each station ask \"What happened?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child retells with a prop or gesture.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: props, picture cards and puppets. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What happened?\" Children: Child retells with a prop or gesture.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Story stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise props closely and keep floors clear. Use large soft props only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and offer two props.",
+        "extension": "Ask a confident child to tell the story to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: retells part of the story; uses first, then or the end; speaks for a puppet.",
+        "questions": [
+          {
+            "question": "What happened first?",
+            "expected": "Hen sat on the nest."
+          },
+          {
+            "question": "What happened at the end?",
+            "expected": "A chick came out."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Retells part of a story with props"
+      ],
+      "conclusion": "Say \"The end\" and wave goodbye.",
+      "homeConnection": "Tell stories with toys at home and use the words first, then and the end.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child retells a story with props\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Story"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Story stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

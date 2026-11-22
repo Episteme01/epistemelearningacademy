@@ -1,0 +1,604 @@
+{
+  "id": "ELA-PS-TOD-LIT-T2-W03",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 2,
+  "week": 3,
+  "title": "Strong fingers",
+  "topic": "Fine motor",
+  "subtopics": [
+    "Squeezing and pinching",
+    "Threading large beads",
+    "Finger games with playdough"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will squeeze, pinch and poke playdough and sponges.",
+    "Children will thread large objects with support."
+  ],
+  "vocabulary": [
+    "squeeze",
+    "pinch",
+    "poke",
+    "roll",
+    "thread",
+    "fingers"
+  ],
+  "content": "Squeezing and pinching playdough and sponges, threading large beads, and finger games.",
+  "teachingActivities": "Show each movement slowly and let children feel it; work at a table with the children sitting comfortably; use big, soft materials; celebrate effort over neatness.",
+  "learnerActivities": "Squeeze, pinch, poke and roll playdough and sponges, and thread large beads with support.",
+  "resources": [
+    "Playdough",
+    "Sponges",
+    "Large wooden or plastic beads",
+    "Thick string with a stiff end",
+    "Trays",
+    "Wipes or a damp cloth"
+  ],
+  "assessment": "Observe whether each child squeezes and rolls playdough and threads at least one large bead.",
+  "expectedOutcomes": [
+    "Squeezes and rolls playdough.",
+    "Threads at least one large bead."
+  ],
+  "crossCurricular": [
+    "Physical Development: fine motor",
+    "Science: soft and hard",
+    "Social Habits: sharing materials"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W03-D01",
+      "title": "Squeeze and pinch",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 3,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Fine motor",
+      "subtopic": "Squeezing and pinching",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will squeeze and pinch playdough with their fingers."
+      ],
+      "successCriteria": [
+        "Squeezes playdough with the whole hand",
+        "Pinches playdough with fingers"
+      ],
+      "previousKnowledge": "Children can clap beats, do finger rhymes and hold a book; many are still developing hand strength.",
+      "vocabulary": [
+        "squeeze",
+        "pinch",
+        "poke",
+        "roll",
+        "thread",
+        "fingers"
+      ],
+      "resources": [
+        "Playdough",
+        "Trays",
+        "A damp cloth"
+      ],
+      "starter": "Hold a ball of playdough and say \"Squeeze, squeeze, squeeze.\" Show a pinch and say \"Pinch, pinch.\"",
+      "teacherActivities": [
+        "Squeeze the playdough in your fist and say \"Squeeze\". Show it to the children.",
+        "Pinch a small piece with your thumb and finger and say \"Pinch\".",
+        "Say \"Squeeze\" and \"Pinch\" in turn and wait.",
+        "Let each child make a squashed shape and show a friend."
+      ],
+      "learnerActivities": [
+        "Children squeeze their own piece.",
+        "Children pinch with their fingers.",
+        "Children change their action.",
+        "Child shows their shape."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Squeeze the playdough in your fist and say \"Squeeze\". Show it to the children. Children: Children squeeze their own piece.",
+        "Step 2. Teacher: Pinch a small piece with your thumb and finger and say \"Pinch\". Children: Children pinch with their fingers.",
+        "Step 3. Teacher: Say \"Squeeze\" and \"Pinch\" in turn and wait. Children: Children change their action.",
+        "Step 4. Teacher: Let each child make a squashed shape and show a friend. Children: Child shows their shape."
+      ],
+      "practical": {
+        "title": "Playdough time",
+        "steps": [
+          "Give each child a tray and a ball of playdough.",
+          "Squeeze and pinch it together.",
+          "Make a shape and show a friend."
+        ],
+        "safety": "Use non-toxic playdough and check for allergies. Do not let children eat it. Wash hands before and after."
+      },
+      "differentiation": {
+        "support": "Squeeze the dough together with a hand over the child’s hand.",
+        "extension": "Ask the child to pinch five small pieces."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you squeeze?",
+            "expected": "Child squeezes the dough."
+          },
+          {
+            "question": "Can you pinch?",
+            "expected": "Child pinches with fingers."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Squeezes and pinches playdough",
+        "Names the actions squeeze and pinch"
+      ],
+      "conclusion": "Put the playdough away and wash hands.",
+      "homeConnection": "Let your child squeeze and pinch bread dough or soft clay with you.",
+      "teacherReflection": [
+        "Which children could show \"squeeze and pinch playdough with their fingers\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SQUEEZE",
+          "PINCH"
+        ],
+        "pictures": [
+          "A hand squeezing",
+          "Fingers pinching"
+        ],
+        "songOrRhyme": "Squeeze, squeeze, squeeze it. Pinch, pinch, pinch it."
+      },
+      "activities": [
+        "Playdough time"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W03-D02",
+      "title": "Roll and poke",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 3,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Fine motor",
+      "subtopic": "Squeezing and pinching",
+      "dayType": "explore",
+      "objectives": [
+        "Children will roll and poke playdough to make shapes."
+      ],
+      "successCriteria": [
+        "Rolls dough into a ball or a snake",
+        "Pokes holes with a finger"
+      ],
+      "previousKnowledge": "Children can clap beats, do finger rhymes and hold a book; many are still developing hand strength.",
+      "vocabulary": [
+        "squeeze",
+        "pinch",
+        "poke",
+        "roll",
+        "thread",
+        "fingers"
+      ],
+      "resources": [
+        "Playdough",
+        "Trays",
+        "Plastic lollipop sticks or fingers"
+      ],
+      "starter": "Roll a ball of playdough in your palms and say \"Roll, roll, roll.\" Poke a hole and say \"Poke.\"",
+      "teacherActivities": [
+        "Roll a ball between your hands. Then roll a long snake on the tray.",
+        "Poke the ball with one finger to make a hole.",
+        "Say \"Roll\", \"Poke\", \"Squeeze\" in turn and wait.",
+        "Let each child make something and name it."
+      ],
+      "learnerActivities": [
+        "Children copy rolling a ball and a snake.",
+        "Children poke their balls.",
+        "Children do each action.",
+        "Child shows their shape and names it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Roll a ball between your hands. Then roll a long snake on the tray. Children: Children copy rolling a ball and a snake.",
+        "Step 2. Teacher: Poke the ball with one finger to make a hole. Children: Children poke their balls.",
+        "Step 3. Teacher: Say \"Roll\", \"Poke\", \"Squeeze\" in turn and wait. Children: Children do each action.",
+        "Step 4. Teacher: Let each child make something and name it. Children: Child shows their shape and names it."
+      ],
+      "practical": {
+        "title": "Dough shapes",
+        "steps": [
+          "Give each child a tray and dough.",
+          "Roll a ball and a snake.",
+          "Poke holes and make a shape."
+        ],
+        "safety": "Use only non-toxic dough and keep it off the face. Wash hands after play and wipe the trays."
+      },
+      "differentiation": {
+        "support": "Roll the dough together and poke with the child’s finger.",
+        "extension": "Ask the child to make a snake and curl it into a circle."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you roll the dough?",
+            "expected": "Child rolls the dough."
+          },
+          {
+            "question": "What did you make?",
+            "expected": "Child names the shape."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Rolls playdough into a ball or snake",
+        "Pokes with one finger"
+      ],
+      "conclusion": "Pack the dough into a box and say goodbye.",
+      "homeConnection": "Roll and poke dough or mud at home with your child.",
+      "teacherReflection": [
+        "Which children could show \"roll and poke playdough to make shapes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ROLL",
+          "POKE"
+        ],
+        "pictures": [
+          "A ball of dough",
+          "A snake of dough"
+        ]
+      },
+      "activities": [
+        "Dough shapes"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W03-D03",
+      "title": "Sponge squeezing",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 3,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Fine motor",
+      "subtopic": "Squeezing and pinching",
+      "dayType": "explore",
+      "objectives": [
+        "Children will squeeze a sponge to move water from one bowl to another."
+      ],
+      "successCriteria": [
+        "Squeezes a sponge with the whole hand",
+        "Moves water between bowls"
+      ],
+      "previousKnowledge": "Children can clap beats, do finger rhymes and hold a book; many are still developing hand strength.",
+      "vocabulary": [
+        "squeeze",
+        "pinch",
+        "poke",
+        "roll",
+        "thread",
+        "fingers"
+      ],
+      "resources": [
+        "Two bowls",
+        "Sponges",
+        "A towel",
+        "A tray"
+      ],
+      "starter": "Dip a sponge in water and squeeze it over the bowl. Say \"Squeeze, squeeze. Drip, drip.\"",
+      "teacherActivities": [
+        "Show how to squeeze the sponge so water drips into the bowl.",
+        "Let each child dip a sponge and squeeze it into the empty bowl.",
+        "Say \"Squeeze hard\" and \"Squeeze softly\".",
+        "Count how many squeezes it takes to fill a small bowl."
+      ],
+      "learnerActivities": [
+        "Children watch and say \"drip\".",
+        "Child squeezes and watches the water.",
+        "Children change how they squeeze.",
+        "Children squeeze and count with you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to squeeze the sponge so water drips into the bowl. Children: Children watch and say \"drip\".",
+        "Step 2. Teacher: Let each child dip a sponge and squeeze it into the empty bowl. Children: Child squeezes and watches the water.",
+        "Step 3. Teacher: Say \"Squeeze hard\" and \"Squeeze softly\". Children: Children change how they squeeze.",
+        "Step 4. Teacher: Count how many squeezes it takes to fill a small bowl. Children: Children squeeze and count with you."
+      ],
+      "practical": {
+        "title": "Water squeeze",
+        "steps": [
+          "Set up two bowls on a tray with sponges.",
+          "Squeeze water from one bowl to the other.",
+          "Wipe the tray when done."
+        ],
+        "safety": "Keep water shallow and supervise at all times. Wipe spills quickly and use a towel under the tray."
+      },
+      "differentiation": {
+        "support": "Use a small sponge and squeeze together.",
+        "extension": "Ask the child to move all the water to the other bowl."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do with the sponge?",
+            "expected": "Squeeze."
+          },
+          {
+            "question": "Where does the water go?",
+            "expected": "Into the bowl."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Squeezes a sponge",
+        "Moves water from one bowl to another"
+      ],
+      "conclusion": "Wring the sponges and put them on the tray to dry.",
+      "homeConnection": "Let your child squeeze a sponge in the bath or at the sink.",
+      "teacherReflection": [
+        "Which children could show \"squeeze a sponge to move water from one bowl to another\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SQUEEZE",
+          "DRIP"
+        ],
+        "pictures": [
+          "A sponge",
+          "Two bowls of water"
+        ]
+      },
+      "activities": [
+        "Water squeeze"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W03-D04",
+      "title": "Threading beads",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 3,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Fine motor",
+      "subtopic": "Threading large beads",
+      "dayType": "practise",
+      "objectives": [
+        "Children will thread a large bead onto a string with support."
+      ],
+      "successCriteria": [
+        "Holds a string and a bead",
+        "Pushes a string through a bead"
+      ],
+      "previousKnowledge": "Children can clap beats, do finger rhymes and hold a book; many are still developing hand strength.",
+      "vocabulary": [
+        "squeeze",
+        "pinch",
+        "poke",
+        "roll",
+        "thread",
+        "fingers"
+      ],
+      "resources": [
+        "Large beads with big holes",
+        "Thick strings with a stiff end",
+        "A tray"
+      ],
+      "starter": "Hold up a bead and a string and say \"We thread the bead on the string. Push it through.\"",
+      "teacherActivities": [
+        "Show how to hold the bead in one hand and push the string through with the other.",
+        "Help each child thread one bead and pull it down the string.",
+        "Ask the child to thread a second bead.",
+        "Show the beads to a friend."
+      ],
+      "learnerActivities": [
+        "Children watch and hold a bead.",
+        "Child threads a bead with support.",
+        "Child threads two beads.",
+        "Child shows and says \"bead\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to hold the bead in one hand and push the string through with the other. Children: Children watch and hold a bead.",
+        "Step 2. Teacher: Help each child thread one bead and pull it down the string. Children: Child threads a bead with support.",
+        "Step 3. Teacher: Ask the child to thread a second bead. Children: Child threads two beads.",
+        "Step 4. Teacher: Show the beads to a friend. Children: Child shows and says \"bead\"."
+      ],
+      "practical": {
+        "title": "Bead threading",
+        "steps": [
+          "Give each child a tray with large beads and a string.",
+          "Thread beads onto the string.",
+          "Count the beads together at the end."
+        ],
+        "safety": "Use only beads larger than a child’s fist-sized opening so they cannot be swallowed. Supervise closely and put a knot at the end of each string."
+      },
+      "differentiation": {
+        "support": "Hold the bead and let the child push the string through.",
+        "extension": "Ask the child to thread five beads in a pattern."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we thread?",
+            "expected": "Beads on a string."
+          },
+          {
+            "question": "Can you push the string?",
+            "expected": "Child pushes the string through."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Threads at least one large bead with support",
+        "Shows beads to a friend"
+      ],
+      "conclusion": "Count the beads and put them in a bowl.",
+      "homeConnection": "Thread large pasta tubes onto string with your child under supervision.",
+      "teacherReflection": [
+        "Which children could show \"thread a large bead onto a string with support\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "THREAD",
+          "BEAD"
+        ],
+        "pictures": [
+          "A string of beads"
+        ]
+      },
+      "activities": [
+        "Bead threading"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W03-D05",
+      "title": "Week 3 fingers check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 3,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Fine motor",
+      "subtopic": "Finger games with playdough",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child uses their fingers to squeeze, roll and thread."
+      ],
+      "successCriteria": [
+        "Squeezes and rolls playdough",
+        "Threads a bead with support"
+      ],
+      "previousKnowledge": "Children can clap beats, do finger rhymes and hold a book; many are still developing hand strength.",
+      "vocabulary": [
+        "squeeze",
+        "pinch",
+        "poke",
+        "roll",
+        "thread",
+        "fingers"
+      ],
+      "resources": [
+        "Playdough",
+        "Sponges and bowls",
+        "Beads and strings",
+        "Class record sheet"
+      ],
+      "starter": "Sing \"Squeeze, squeeze, squeeze it\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: playdough, sponge squeezing and bead threading.",
+        "Watch each child and note how they squeeze, roll and thread.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Children play at each station.",
+        "Children wash hands and tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: playdough, sponge squeezing and bead threading. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: Watch each child and note how they squeeze, roll and thread. Children: Children play at each station.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy at the signal."
+      ],
+      "practical": {
+        "title": "Finger stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise beads and water closely. Use non-toxic dough and wash hands after each station."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and offer one station to start.",
+        "extension": "Ask a confident child to teach a friend how to thread."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: squeezes playdough; rolls dough; threads at least one large bead.",
+        "questions": [
+          {
+            "question": "Can you squeeze the dough?",
+            "expected": "Child squeezes."
+          },
+          {
+            "question": "Can you thread a bead?",
+            "expected": "Child threads a bead."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Squeezes, rolls and threads"
+      ],
+      "conclusion": "Wash hands and say goodbye.",
+      "homeConnection": "Play with dough or clay at home and let your child squeeze and roll.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child uses their fingers to squeeze, roll and thread\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Fingers"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Finger stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

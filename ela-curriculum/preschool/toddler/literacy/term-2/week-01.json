@@ -1,0 +1,606 @@
+{
+  "id": "ELA-PS-TOD-LIT-T2-W01",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 2,
+  "week": 1,
+  "title": "Rhyme time",
+  "topic": "Rhyme",
+  "subtopics": [
+    "Hearing words that sound the same at the end",
+    "Finishing a rhyme",
+    "Rhyming pairs with pictures"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will notice when two words rhyme.",
+    "Children will finish a familiar rhyme with a rhyming word."
+  ],
+  "vocabulary": [
+    "rhyme",
+    "sounds the same",
+    "cat",
+    "hat",
+    "dog",
+    "log"
+  ],
+  "content": "Hearing when words sound the same at the end, finishing a rhyme with a rhyming word, and matching rhyming pairs with pictures.",
+  "teachingActivities": "Say rhyming pairs slowly and stretch the ending; use real objects so children can hold the pair; always pause before the rhyming word; never ask children to explain why words rhyme.",
+  "learnerActivities": "Notice rhyming words, finish a familiar rhyme and match two rhyming pictures with support.",
+  "resources": [
+    "Toy cat and hat, dog and log, pan and fan",
+    "Rhyme picture cards",
+    "A basket",
+    "A hand puppet"
+  ],
+  "assessment": "Observe whether each child says the rhyming word in a familiar rhyme and matches two pictures that rhyme with support.",
+  "expectedOutcomes": [
+    "Says the rhyming word in a familiar rhyme.",
+    "Matches two pictures that rhyme with support."
+  ],
+  "crossCurricular": [
+    "Music: songs and chants",
+    "Understanding the World: everyday objects",
+    "Social Habits: listening to a friend"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W01-D01",
+      "title": "Words that sound the same",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 1,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Rhyme",
+      "subtopic": "Hearing words that sound the same at the end",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will hear two words that rhyme and repeat them."
+      ],
+      "successCriteria": [
+        "Repeats both words of a rhyming pair",
+        "Smiles or claps when words rhyme"
+      ],
+      "previousKnowledge": "Children know several rhymes and songs from Term 1 and can say the last word of a line when the teacher pauses.",
+      "vocabulary": [
+        "rhyme",
+        "sounds the same",
+        "cat",
+        "hat",
+        "dog",
+        "log"
+      ],
+      "resources": [
+        "A toy cat and a toy hat",
+        "A basket",
+        "A hand puppet"
+      ],
+      "starter": "Hold up the toy cat and the toy hat and say \"Cat, hat. They sound the same at the end. Cat, hat.\"",
+      "teacherActivities": [
+        "Say \"cat, hat\" slowly, stretching the ending \"-at\". Hold up each toy as you say it.",
+        "Say \"cat, hat\" again and clap when they rhyme.",
+        "Say \"cat, dog\" and shake your head. Say \"cat, hat\" and nod.",
+        "Let the puppet say pairs and ask \"Do they sound the same?\""
+      ],
+      "learnerActivities": [
+        "Children look and repeat \"cat, hat\".",
+        "Children clap with you.",
+        "Children copy the nod or shake of the head.",
+        "Children nod for a rhyme and shake for no rhyme."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"cat, hat\" slowly, stretching the ending \"-at\". Hold up each toy as you say it. Children: Children look and repeat \"cat, hat\".",
+        "Step 2. Teacher: Say \"cat, hat\" again and clap when they rhyme. Children: Children clap with you.",
+        "Step 3. Teacher: Say \"cat, dog\" and shake your head. Say \"cat, hat\" and nod. Children: Children copy the nod or shake of the head.",
+        "Step 4. Teacher: Let the puppet say pairs and ask \"Do they sound the same?\" Children: Children nod for a rhyme and shake for no rhyme."
+      ],
+      "practical": {
+        "title": "Cat and hat",
+        "steps": [
+          "Put a toy cat and a toy hat in the basket.",
+          "Each child takes one out and says its name.",
+          "The group says \"cat, hat\" together and claps."
+        ],
+        "safety": "Use clean, large toys that cannot be swallowed. Keep the basket within reach and supervise sharing."
+      },
+      "differentiation": {
+        "support": "Hold the toys and say the two words slowly with the child.",
+        "extension": "Ask the child to say another word that sounds like cat."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Do cat and hat sound the same?",
+            "expected": "Yes, with a nod or word."
+          },
+          {
+            "question": "Do cat and dog sound the same?",
+            "expected": "No, with a shake of the head or word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Repeats a rhyming pair",
+        "Shows when two words rhyme with an action"
+      ],
+      "conclusion": "Say \"cat, hat\" once more and put the toys to bed.",
+      "homeConnection": "Say a rhyming pair such as \"cat, hat\" at home and clap together.",
+      "teacherReflection": [
+        "Which children could show \"hear two words that rhyme and repeat them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CAT",
+          "HAT"
+        ],
+        "pictures": [
+          "A cat",
+          "A hat"
+        ],
+        "songOrRhyme": "Cat and hat, cat and hat, they sound the same. Cat and hat."
+      },
+      "activities": [
+        "Cat and hat"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W01-D02",
+      "title": "Dog and log",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 1,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Rhyme",
+      "subtopic": "Hearing words that sound the same at the end",
+      "dayType": "explore",
+      "objectives": [
+        "Children will listen to more rhyming pairs and repeat them."
+      ],
+      "successCriteria": [
+        "Repeats dog and log",
+        "Joins in with pan and fan"
+      ],
+      "previousKnowledge": "Children know several rhymes and songs from Term 1 and can say the last word of a line when the teacher pauses.",
+      "vocabulary": [
+        "rhyme",
+        "sounds the same",
+        "cat",
+        "hat",
+        "dog",
+        "log"
+      ],
+      "resources": [
+        "A toy dog and a small log or stick",
+        "A pan and a hand fan",
+        "A basket"
+      ],
+      "starter": "Hold up the dog and the log and say \"Dog, log. They sound the same.\" Wag the dog.",
+      "teacherActivities": [
+        "Say \"dog, log\" slowly and show each object.",
+        "Show the pan and the fan and say \"pan, fan\".",
+        "Mix the pairs: say \"dog, fan\" and ask \"Same?\"",
+        "Say \"pan, fan\" and ask \"Same?\""
+      ],
+      "learnerActivities": [
+        "Children repeat the words.",
+        "Children repeat the pair.",
+        "Children shake their heads for no.",
+        "Children nod and clap."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say \"dog, log\" slowly and show each object. Children: Children repeat the words.",
+        "Step 2. Teacher: Show the pan and the fan and say \"pan, fan\". Children: Children repeat the pair.",
+        "Step 3. Teacher: Mix the pairs: say \"dog, fan\" and ask \"Same?\" Children: Children shake their heads for no.",
+        "Step 4. Teacher: Say \"pan, fan\" and ask \"Same?\" Children: Children nod and clap."
+      ],
+      "practical": {
+        "title": "Rhyme sort",
+        "steps": [
+          "Put the four objects on the mat.",
+          "Ask each child to take two that sound the same.",
+          "Say the pair together."
+        ],
+        "safety": "Use a smooth, short stick that is not sharp. Keep objects large and away from mouths."
+      },
+      "differentiation": {
+        "support": "Use two pairs only and say the pair together.",
+        "extension": "Ask the child to find a rhyming pair in the classroom."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Do pan and fan sound the same?",
+            "expected": "Yes."
+          },
+          {
+            "question": "What goes with dog?",
+            "expected": "Log."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Repeats rhyming pairs",
+        "Picks two objects that rhyme with support"
+      ],
+      "conclusion": "Put each pair in the basket and say the pair.",
+      "homeConnection": "Play with a pan and a fan at home and say \"pan, fan\".",
+      "teacherReflection": [
+        "Which children could show \"listen to more rhyming pairs and repeat them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DOG",
+          "LOG",
+          "PAN",
+          "FAN"
+        ],
+        "pictures": [
+          "A dog",
+          "A log",
+          "A pan",
+          "A fan"
+        ]
+      },
+      "activities": [
+        "Rhyme sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W01-D03",
+      "title": "Finish the rhyme",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 1,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Rhyme",
+      "subtopic": "Finishing a rhyme",
+      "dayType": "explore",
+      "objectives": [
+        "Children will finish a familiar rhyme with a rhyming word."
+      ],
+      "successCriteria": [
+        "Says the last word of a rhyme",
+        "Joins in the actions"
+      ],
+      "previousKnowledge": "Children know several rhymes and songs from Term 1 and can say the last word of a line when the teacher pauses.",
+      "vocabulary": [
+        "rhyme",
+        "sounds the same",
+        "cat",
+        "hat",
+        "dog",
+        "log"
+      ],
+      "resources": [
+        "Picture cards of a cat, a hat, a dog and a log",
+        "A hand puppet"
+      ],
+      "starter": "Say \"Cat in a hat. Cat in a\" and pause. Point to the hat card.",
+      "teacherActivities": [
+        "Say the rhyme \"The cat sat on a hat\" and \"The dog sat on a log\". Show the cards.",
+        "Say the rhyme again and stop before the last word.",
+        "Say it again and use the picture card as a clue if needed.",
+        "Let the puppet say a line and wait for a child to finish it."
+      ],
+      "learnerActivities": [
+        "Children listen and look at the pictures.",
+        "Children say \"hat\" or \"log\".",
+        "Child says the word or points to the card.",
+        "Child finishes the rhyme."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say the rhyme \"The cat sat on a hat\" and \"The dog sat on a log\". Show the cards. Children: Children listen and look at the pictures.",
+        "Step 2. Teacher: Say the rhyme again and stop before the last word. Children: Children say \"hat\" or \"log\".",
+        "Step 3. Teacher: Say it again and use the picture card as a clue if needed. Children: Child says the word or points to the card.",
+        "Step 4. Teacher: Let the puppet say a line and wait for a child to finish it. Children: Child finishes the rhyme."
+      ],
+      "practical": {
+        "title": "Puppet rhymes",
+        "steps": [
+          "Sit in a circle with the puppet.",
+          "The puppet says a rhyme and pauses.",
+          "The child who is chosen finishes the rhyme."
+        ],
+        "safety": "Keep voices gentle and give each child time to answer. Do not hurry a shy child."
+      },
+      "differentiation": {
+        "support": "Show the picture clue before the pause.",
+        "extension": "Ask the child to make up a line about a cat or a dog."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "The cat sat on a what?",
+            "expected": "Hat."
+          },
+          {
+            "question": "The dog sat on a what?",
+            "expected": "Log."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finishes a rhyme with the right word",
+        "Uses a picture clue"
+      ],
+      "conclusion": "Say the two rhymes together and wave goodbye.",
+      "homeConnection": "Say a simple rhyme at home and pause for your child to say the last word.",
+      "teacherReflection": [
+        "Which children could show \"finish a familiar rhyme with a rhyming word\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "The cat sat on a hat",
+          "The dog sat on a log"
+        ],
+        "pictures": [
+          "A cat on a hat",
+          "A dog on a log"
+        ],
+        "songOrRhyme": "The cat sat on a hat. The dog sat on a log."
+      },
+      "activities": [
+        "Puppet rhymes"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W01-D04",
+      "title": "Rhyming pairs",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 1,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Rhyme",
+      "subtopic": "Rhyming pairs with pictures",
+      "dayType": "practise",
+      "objectives": [
+        "Children will match two pictures that rhyme with support."
+      ],
+      "successCriteria": [
+        "Picks two pictures that sound the same",
+        "Names the pictures"
+      ],
+      "previousKnowledge": "Children know several rhymes and songs from Term 1 and can say the last word of a line when the teacher pauses.",
+      "vocabulary": [
+        "rhyme",
+        "sounds the same",
+        "cat",
+        "hat",
+        "dog",
+        "log"
+      ],
+      "resources": [
+        "Picture cards: cat, hat, dog, log, pan, fan",
+        "A basket",
+        "A mat"
+      ],
+      "starter": "Show the cat and hat cards and say \"Cat and hat. They make a pair.\"",
+      "teacherActivities": [
+        "Lay out the six cards face up. Pick up the cat and ask \"What goes with cat?\"",
+        "Say \"dog\" and ask \"What goes with dog?\"",
+        "Let each child pick a card and find its pair.",
+        "Say each pair together at the end."
+      ],
+      "learnerActivities": [
+        "Children point to the hat.",
+        "Children point to the log.",
+        "Child finds the pair and says the words.",
+        "Children say the pairs."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Lay out the six cards face up. Pick up the cat and ask \"What goes with cat?\" Children: Children point to the hat.",
+        "Step 2. Teacher: Say \"dog\" and ask \"What goes with dog?\" Children: Children point to the log.",
+        "Step 3. Teacher: Let each child pick a card and find its pair. Children: Child finds the pair and says the words.",
+        "Step 4. Teacher: Say each pair together at the end. Children: Children say the pairs."
+      ],
+      "practical": {
+        "title": "Rhyme lotto",
+        "steps": [
+          "Spread six cards on the mat.",
+          "Each child takes one card and finds the one that rhymes.",
+          "Say both words and clap."
+        ],
+        "safety": "Use large, soft cards without sharp corners. Supervise turn-taking."
+      },
+      "differentiation": {
+        "support": "Use only four cards and say the pair for the child to copy.",
+        "extension": "Ask the child to find all three pairs without help."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What goes with fan?",
+            "expected": "Pan."
+          },
+          {
+            "question": "Do dog and log rhyme?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches rhyming pictures with support",
+        "Names the pictures"
+      ],
+      "conclusion": "Put each pair in the basket and say goodbye.",
+      "homeConnection": "Look for two things that sound the same, such as a pan and a fan, and say them together.",
+      "teacherReflection": [
+        "Which children could show \"match two pictures that rhyme with support\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Pairs",
+          "Cat–hat",
+          "Dog–log",
+          "Pan–fan"
+        ],
+        "pictures": [
+          "Three pairs of pictures"
+        ]
+      },
+      "activities": [
+        "Rhyme lotto"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W01-D05",
+      "title": "Week 1 rhyme check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 1,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Rhyme",
+      "subtopic": "Rhyming pairs with pictures",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child notices and finishes rhymes."
+      ],
+      "successCriteria": [
+        "Finishes a familiar rhyme",
+        "Matches two pictures that rhyme"
+      ],
+      "previousKnowledge": "Children know several rhymes and songs from Term 1 and can say the last word of a line when the teacher pauses.",
+      "vocabulary": [
+        "rhyme",
+        "sounds the same",
+        "cat",
+        "hat",
+        "dog",
+        "log"
+      ],
+      "resources": [
+        "Rhyme cards",
+        "A hand puppet",
+        "Class record sheet"
+      ],
+      "starter": "Sing the cat and hat song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: finish the rhyme, rhyme lotto and puppet pairs.",
+        "At each station say a rhyme and pause, then ask \"Which goes with it?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child says the word or points.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: finish the rhyme, rhyme lotto and puppet pairs. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station say a rhyme and pause, then ask \"Which goes with it?\" Children: Child says the word or points.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Rhyme stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Use soft cards and toys. Supervise each station and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two pairs.",
+        "extension": "Ask a confident child to say a new rhyming pair."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says the rhyming word in a familiar rhyme; matches rhyming pictures; repeats a rhyming pair.",
+        "questions": [
+          {
+            "question": "What rhymes with cat?",
+            "expected": "Hat."
+          },
+          {
+            "question": "What rhymes with dog?",
+            "expected": "Log."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 1",
+        "Finishes a familiar rhyme"
+      ],
+      "conclusion": "Sing the rhyme song and wave goodbye.",
+      "homeConnection": "Say rhyming pairs at home and let your child finish the rhyme.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child notices and finishes rhymes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Rhyme"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Rhyme stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

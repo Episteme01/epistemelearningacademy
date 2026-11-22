@@ -1,0 +1,608 @@
+{
+  "id": "ELA-PS-TOD-LIT-T2-W05",
+  "class": "Toddler",
+  "subject": "Literacy",
+  "term": 2,
+  "week": 5,
+  "title": "Words for food and market",
+  "topic": "Vocabulary",
+  "subtopics": [
+    "Fruits and vegetables",
+    "Market people and things",
+    "Asking for things politely"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will name fruits, vegetables and market things.",
+    "Children will ask for something using a short phrase."
+  ],
+  "vocabulary": [
+    "orange",
+    "mango",
+    "tomato",
+    "yam",
+    "market",
+    "seller"
+  ],
+  "content": "Naming fruits and vegetables, market people and things, and asking for things politely.",
+  "teachingActivities": "Use real or toy foods from the local market; model \"Good morning ma, I want two oranges, please\"; give children time to say the word and accept gestures; build the market corner over the week.",
+  "learnerActivities": "Name fruits, vegetables and market items and ask for something with a short phrase.",
+  "resources": [
+    "Real or toy oranges, mangoes, tomatoes, yams and onions",
+    "Baskets",
+    "A market stall table",
+    "Toy coins",
+    "An apron"
+  ],
+  "assessment": "Observe whether each child names six fruits or vegetables and asks for an item with a short phrase.",
+  "expectedOutcomes": [
+    "Names at least six fruits or vegetables.",
+    "Uses a short phrase to ask for an item."
+  ],
+  "crossCurricular": [
+    "Understanding the World: community and market",
+    "Mathematics: counting and money",
+    "Social Habits: polite words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W05-D01",
+      "title": "Fruits we like",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 5,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Vocabulary",
+      "subtopic": "Fruits and vegetables",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will name three fruits and say which one they like."
+      ],
+      "successCriteria": [
+        "Names or points to an orange, a mango and a banana",
+        "Says which fruit they like"
+      ],
+      "previousKnowledge": "Children can name familiar foods and objects and use two words to ask for something.",
+      "vocabulary": [
+        "orange",
+        "mango",
+        "tomato",
+        "yam",
+        "market",
+        "seller"
+      ],
+      "resources": [
+        "Real or toy orange, mango and banana",
+        "A basket",
+        "A tray"
+      ],
+      "starter": "Show a ripe mango and say \"This is a mango. Mmm.\" Ask \"What do you like?\"",
+      "teacherActivities": [
+        "Hold up each fruit and say its name. Pass it round to touch.",
+        "Say \"Where is the orange?\" and wait.",
+        "Ask \"Which fruit do you like?\"",
+        "Let each child choose a fruit and say its name."
+      ],
+      "learnerActivities": [
+        "Children touch and say the name.",
+        "Child points to the orange.",
+        "Child points to a fruit or says its name.",
+        "Child holds up the fruit and names it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold up each fruit and say its name. Pass it round to touch. Children: Children touch and say the name.",
+        "Step 2. Teacher: Say \"Where is the orange?\" and wait. Children: Child points to the orange.",
+        "Step 3. Teacher: Ask \"Which fruit do you like?\" Children: Child points to a fruit or says its name.",
+        "Step 4. Teacher: Let each child choose a fruit and say its name. Children: Child holds up the fruit and names it."
+      ],
+      "practical": {
+        "title": "Fruit basket",
+        "steps": [
+          "Put three fruits in a basket.",
+          "Each child takes one and names it.",
+          "Say each name together."
+        ],
+        "safety": "If real fruit is used, wash it, check for allergies and keep it for looking and touching unless eating is planned. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Offer two fruits and say the name with the child.",
+        "extension": "Ask the child to tell a friend what colour the fruit is."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this fruit?",
+            "expected": "Orange, mango or banana."
+          },
+          {
+            "question": "What do you like?",
+            "expected": "A fruit name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names three fruits",
+        "Says which fruit they like"
+      ],
+      "conclusion": "Put the fruits back and say \"Thank you, fruits.\"",
+      "homeConnection": "Name the fruits at home and let your child choose one.",
+      "teacherReflection": [
+        "Which children could show \"name three fruits and say which one they like\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ORANGE",
+          "MANGO",
+          "BANANA"
+        ],
+        "pictures": [
+          "An orange",
+          "A mango",
+          "A banana"
+        ]
+      },
+      "activities": [
+        "Fruit basket"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W05-D02",
+      "title": "Vegetables and yams",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 5,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Vocabulary",
+      "subtopic": "Fruits and vegetables",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will name three vegetables."
+      ],
+      "successCriteria": [
+        "Names or points to a tomato, an onion and a yam",
+        "Says a word for a vegetable"
+      ],
+      "previousKnowledge": "Children can name familiar foods and objects and use two words to ask for something.",
+      "vocabulary": [
+        "orange",
+        "mango",
+        "tomato",
+        "yam",
+        "market",
+        "seller"
+      ],
+      "resources": [
+        "Real or toy tomatoes, onions and yams",
+        "A basket",
+        "A cloth"
+      ],
+      "starter": "Hold up a tomato and say \"Red tomato.\" Ask \"What colour is it?\"",
+      "teacherActivities": [
+        "Show each vegetable, name it and let children touch it.",
+        "Hide one under the cloth and ask \"What is it?\"",
+        "Sort the fruits and vegetables into two baskets.",
+        "Ask \"What do we cook with?\" and show the pictures."
+      ],
+      "learnerActivities": [
+        "Children touch and name.",
+        "Child feels or guesses the name.",
+        "Child puts each in a basket.",
+        "Child points to a vegetable."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each vegetable, name it and let children touch it. Children: Children touch and name.",
+        "Step 2. Teacher: Hide one under the cloth and ask \"What is it?\" Children: Child feels or guesses the name.",
+        "Step 3. Teacher: Sort the fruits and vegetables into two baskets. Children: Child puts each in a basket.",
+        "Step 4. Teacher: Ask \"What do we cook with?\" and show the pictures. Children: Child points to a vegetable."
+      ],
+      "practical": {
+        "title": "Fruit and vegetable sort",
+        "steps": [
+          "Put out two baskets.",
+          "Each child picks an item and names it.",
+          "Put it in the fruit or vegetable basket."
+        ],
+        "safety": "Wash real vegetables first and supervise. Keep onions away from eyes and wash hands after touching."
+      },
+      "differentiation": {
+        "support": "Use two items and say the names for the child.",
+        "extension": "Ask the child to name a vegetable they eat at home."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "Tomato, onion or yam."
+          },
+          {
+            "question": "What colour is the tomato?",
+            "expected": "Red."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names three vegetables",
+        "Sorts fruit and vegetables with support"
+      ],
+      "conclusion": "Put away the vegetables and wash hands.",
+      "homeConnection": "Name the vegetables when you cook or shop together.",
+      "teacherReflection": [
+        "Which children could show \"name three vegetables\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TOMATO",
+          "ONION",
+          "YAM"
+        ],
+        "pictures": [
+          "A tomato",
+          "An onion",
+          "A yam"
+        ]
+      },
+      "activities": [
+        "Fruit and vegetable sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W05-D03",
+      "title": "At the market",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 5,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Vocabulary",
+      "subtopic": "Market people and things",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will name market people and things."
+      ],
+      "successCriteria": [
+        "Names a seller and a buyer",
+        "Names two market items"
+      ],
+      "previousKnowledge": "Children can name familiar foods and objects and use two words to ask for something.",
+      "vocabulary": [
+        "orange",
+        "mango",
+        "tomato",
+        "yam",
+        "market",
+        "seller"
+      ],
+      "resources": [
+        "A market stall table",
+        "Baskets of toy foods",
+        "An apron",
+        "Toy coins"
+      ],
+      "starter": "Put on the apron and say \"I am the seller. Come to my market!\" Hold up a basket.",
+      "teacherActivities": [
+        "Show the stall and name each thing: seller, buyer, basket, coins.",
+        "Say \"Good morning, ma\" and show a greeting to the seller.",
+        "Show how a buyer points to what they want.",
+        "Let each child be the buyer and take an item."
+      ],
+      "learnerActivities": [
+        "Children point and say each word.",
+        "Children say good morning.",
+        "Child points to an item.",
+        "Child names the item."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the stall and name each thing: seller, buyer, basket, coins. Children: Children point and say each word.",
+        "Step 2. Teacher: Say \"Good morning, ma\" and show a greeting to the seller. Children: Children say good morning.",
+        "Step 3. Teacher: Show how a buyer points to what they want. Children: Child points to an item.",
+        "Step 4. Teacher: Let each child be the buyer and take an item. Children: Child names the item."
+      ],
+      "practical": {
+        "title": "Market corner",
+        "steps": [
+          "Set up the stall with baskets of toy foods.",
+          "Children take turns as the seller and buyer.",
+          "Say the names of items together."
+        ],
+        "safety": "Use toy foods only and keep coins large. Supervise turn-taking and keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Be the seller and help the child to point and name.",
+        "extension": "Ask the child to be the seller and greet a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who sells?",
+            "expected": "The seller."
+          },
+          {
+            "question": "What do we buy?",
+            "expected": "Food, such as oranges."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names market people and things",
+        "Greets the seller"
+      ],
+      "conclusion": "Close the market and say goodbye.",
+      "homeConnection": "Take your child to the market and name the things and the people you see.",
+      "teacherReflection": [
+        "Which children could show \"name market people and things\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SELLER",
+          "BUYER",
+          "BASKET"
+        ],
+        "pictures": [
+          "A seller",
+          "A buyer",
+          "A basket"
+        ]
+      },
+      "activities": [
+        "Market corner"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W05-D04",
+      "title": "Asking politely",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 5,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Vocabulary",
+      "subtopic": "Asking for things politely",
+      "dayType": "apply",
+      "objectives": [
+        "Children will ask for an item using a short phrase."
+      ],
+      "successCriteria": [
+        "Says I want and the item name with please",
+        "Says thank you"
+      ],
+      "previousKnowledge": "Children can name familiar foods and objects and use two words to ask for something.",
+      "vocabulary": [
+        "orange",
+        "mango",
+        "tomato",
+        "yam",
+        "market",
+        "seller"
+      ],
+      "resources": [
+        "Market stall",
+        "Toy foods",
+        "Toy coins",
+        "An apron"
+      ],
+      "starter": "Say \"Good morning, ma. Two oranges, please.\" Hand over a toy coin and say \"Thank you.\"",
+      "teacherActivities": [
+        "Model the phrases \"I want an orange, please\" and \"Thank you\".",
+        "Play the buyer and let a child play the seller.",
+        "Let each child be the buyer and ask for an item.",
+        "Change roles and play again."
+      ],
+      "learnerActivities": [
+        "Children repeat.",
+        "Child serves and says \"here you are\".",
+        "Child asks with a short phrase.",
+        "Child asks or serves."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Model the phrases \"I want an orange, please\" and \"Thank you\". Children: Children repeat.",
+        "Step 2. Teacher: Play the buyer and let a child play the seller. Children: Child serves and says \"here you are\".",
+        "Step 3. Teacher: Let each child be the buyer and ask for an item. Children: Child asks with a short phrase.",
+        "Step 4. Teacher: Change roles and play again. Children: Child asks or serves."
+      ],
+      "practical": {
+        "title": "Market role play",
+        "steps": [
+          "Set up the stall with toy foods.",
+          "Take turns as buyer and seller.",
+          "The buyer asks politely and says thank you."
+        ],
+        "safety": "Use toy foods and large coins only. Supervise each pair and keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Say the phrase with the child and let them choose the item.",
+        "extension": "Ask the child to ask for two different items."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do you say when you ask?",
+            "expected": "Please."
+          },
+          {
+            "question": "What do you say after you get it?",
+            "expected": "Thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Asks for an item with a short phrase",
+        "Uses thank you"
+      ],
+      "conclusion": "Close the market and wave goodbye.",
+      "homeConnection": "Let your child ask for what they want in a shop or at the market using please.",
+      "teacherReflection": [
+        "Which children could show \"ask for an item using a short phrase\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PLEASE",
+          "THANK YOU"
+        ],
+        "pictures": [
+          "A child at a stall"
+        ]
+      },
+      "activities": [
+        "Market role play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-LIT-T2-W05-D05",
+      "title": "Week 5 market check",
+      "class": "Toddler",
+      "subject": "Literacy",
+      "term": 2,
+      "week": 5,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Vocabulary",
+      "subtopic": "Asking for things politely",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child names market items and asks politely."
+      ],
+      "successCriteria": [
+        "Names at least six fruits or vegetables",
+        "Asks for an item with a short phrase"
+      ],
+      "previousKnowledge": "Children can name familiar foods and objects and use two words to ask for something.",
+      "vocabulary": [
+        "orange",
+        "mango",
+        "tomato",
+        "yam",
+        "market",
+        "seller"
+      ],
+      "resources": [
+        "Market stall",
+        "Toy foods",
+        "Class record sheet"
+      ],
+      "starter": "Sing \"Market, market, come and see\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: fruit, vegetables and market role play.",
+        "At each station ask \"What is this?\" and \"What do you want?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child names the item and asks.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: fruit, vegetables and market role play. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"What is this?\" and \"What do you want?\" Children: Child names the item and asks.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Market stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Use toy foods and large coins. Supervise each station and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and accept gestures.",
+        "extension": "Ask a confident child to run the stall."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names fruits and vegetables; names market people; asks politely with a short phrase.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "The name of the item."
+          },
+          {
+            "question": "What do you want?",
+            "expected": "A short phrase with please."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Names market items and asks politely"
+      ],
+      "conclusion": "Close the market and wave goodbye.",
+      "homeConnection": "Practise asking politely in a shop or at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child names market items and asks politely\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Market"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Market stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
