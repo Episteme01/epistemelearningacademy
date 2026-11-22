@@ -260,25 +260,28 @@ const cleanLine = (v: unknown, max: number): string => (typeof v === 'string' ? 
 
 /** Slides: pictures the teacher uploaded for this lesson, shown to everyone at the same page. */
 export const MAX_SLIDES = 30;
-export interface SlidesState { urls: string[]; page: number }
-export type SlidesMsg = { t: 'show'; urls: string[]; page: number } | { t: 'page'; page: number } | { t: 'stop' };
+/** `write`: everyone writes on the page being shown (it becomes the shared board with the picture behind it). */
+export interface SlidesState { urls: string[]; page: number; write: boolean }
+export type SlidesMsg = { t: 'show'; urls: string[]; page: number; write?: boolean } | { t: 'page'; page: number } | { t: 'write'; on: boolean } | { t: 'stop' };
 /** Only https pictures from the school's image host: a message can never point the room at some other site. */
 export const isSlideUrl = (v: unknown): v is string => typeof v === 'string' && v.length <= 300 && /^https:\/\/res\.cloudinary\.com\/[^\s"'<>\\]+$/.test(v);
 const clampPage = (n: unknown, len: number) => (typeof n === 'number' && Number.isInteger(n) ? Math.min(Math.max(0, n), Math.max(0, len - 1)) : 0);
 export function decodeSlides(bytes: Uint8Array): SlidesMsg | null {
   const m = parse(bytes); if (!m) return null;
   if (m.t === 'stop') return { t: 'stop' };
+  if (m.t === 'write') return typeof m.on === 'boolean' ? { t: 'write', on: m.on } : null;
   if (m.t === 'page') return typeof m.page === 'number' && Number.isInteger(m.page) && m.page >= 0 && m.page < MAX_SLIDES ? { t: 'page', page: m.page } : null;
   if (m.t === 'show') {
     if (!Array.isArray(m.urls) || m.urls.length < 1 || m.urls.length > MAX_SLIDES || !m.urls.every(isSlideUrl)) return null;
-    return { t: 'show', urls: m.urls as string[], page: clampPage(m.page, m.urls.length) };
+    return { t: 'show', urls: m.urls as string[], page: clampPage(m.page, m.urls.length), write: m.write === true };
   }
   return null;
 }
 export function slidesApply(prev: SlidesState | null, msg: SlidesMsg, from: Sender): SlidesState | null {
   if (from.role !== 'host') return prev;
   if (msg.t === 'stop') return null;
-  if (msg.t === 'show') return { urls: msg.urls, page: msg.page };
+  if (msg.t === 'show') return { urls: msg.urls, page: msg.page, write: msg.write === true };
+  if (msg.t === 'write') return prev ? { ...prev, write: msg.on } : prev;
   return prev ? { ...prev, page: clampPage(msg.page, prev.urls.length) } : prev;
 }
 
