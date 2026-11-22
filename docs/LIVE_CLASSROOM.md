@@ -127,3 +127,9 @@ Teacher opens **Tools** in the room. All three travel on the existing data chann
 ## Next
 Test with `docs/LIVE_TEST_CHECKLIST.md` (Phase 6).
 Phase 5: recording (storage, cost, consent). Phase 6: full device testing report.
+
+
+## Writing on worksheets (update 9)
+- **Assignments (learners, iPad and phones):** each material and teacher file has a "Write on it" button, and the submit box has "Write on a worksheet from my device". It opens the picture or PDF (up to 8 pages) in an in-app pen board (`WorksheetWriter`), so no browser PDF viewer or Google annotation is needed. Palm rejection when a pencil is used; a hand button switches to scrolling and zoom. "Use as my answer" attaches the result (one JPEG, pages joined top to bottom) to the submission. Presentations can be written on and saved to the device, but are not submitted.
+- **Live class:** Tools > "Let everyone write on this page" turns the slide being shown into the shared board with the picture behind it. Teacher and learners write together; the eraser removes writing only. Turning the page clears the writing (it is not stored). Late joiners receive the state as usual. The switch is the `write` flag in the slides messages.
+- Not tested on real devices yet. Please try with an Apple Pencil on an iPad.
