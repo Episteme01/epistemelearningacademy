@@ -38,12 +38,12 @@ function Tb({ icon, label, onClick, active, danger, badge, disabled }: { icon: R
 
 /** The live room: video, controls and the side panels. Everything it shows comes from `useLiveRoom`. */
 /** hours:minutes:seconds this person has been in the class so far (counts only while connected) */
-function ClassTimer({ spent }: { spent: () => number }) {
+function ClassTimer({ spent }: { spent: () => number }) {  // class clock: from the moment the class starts until it ends
   const [, setT] = useState(0);
   useEffect(() => { const t = window.setInterval(() => setT((x) => x + 1), 1000); return () => window.clearInterval(t); }, []);
   const n = spent(); const h = Math.floor(n / 3600); const m = Math.floor((n % 3600) / 60); const sec = n % 60;
   const two = (x: number) => String(x).padStart(2, '0');
-  return <span className="tabular-nums text-xs text-white/80" role="timer" aria-label="Time in class so far">{h}:{two(m)}:{two(sec)}</span>;
+  return <span className="tabular-nums text-xs text-white/80" role="timer" aria-label="Class time so far">{h}:{two(m)}:{two(sec)}</span>;
 }
 
 export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: Room; sessionId: string; title: string; isHost: boolean; onEnded: () => void }) {
@@ -83,7 +83,7 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
       <header className="flex items-center gap-2 px-3 py-2 text-sm">
         <span className="flex items-center gap-1.5 rounded-full bg-red-600 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide"><span className="h-1.5 w-1.5 rounded-full bg-white" aria-hidden /> Live</span>
         <span className="min-w-0 flex-1 truncate font-medium">{title}</span>
-        <ClassTimer spent={room.spentSeconds} />
+        <ClassTimer spent={room.classSeconds} />
         <span className="text-xs text-white/70">{people.length} in class</span>
       </header>
 
@@ -105,7 +105,7 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
                   : sharer ? <VideoTile person={sharer} source={Track.Source.ScreenShare} fit="contain" className="h-full w-full" />
                   : slides ? <SlidesStage slides={slides} isHost={isHost} onPage={room.setSlidePage} onStop={room.stopSlides} board={room.board} meIdentity={meId} send={room.sendBoard} /> : null}
               </div>
-              <div className="flex shrink-0 gap-2 overflow-x-auto">{tiles.map((p) => <VideoTile key={p.identity} person={p} className="h-24 w-36 shrink-0 sm:h-28 sm:w-44" />)}</div>
+              {!(small && slides?.write) && <div className="flex shrink-0 gap-2 overflow-x-auto">{tiles.map((p) => <VideoTile key={p.identity} person={p} className="h-24 w-36 shrink-0 sm:h-28 sm:w-44" />)}</div>}
             </>
           ) : (
             <CallView people={people} spotlight={room.spot} onStageTap={small ? () => setBarHidden((v) => !v) : undefined} />)}

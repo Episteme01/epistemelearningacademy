@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { ConnectionQuality, ConnectionState, Room, RoomEvent, Track, VideoPresets, type Participant } from 'livekit-client';
+import { ConnectionQuality, ConnectionState, DisconnectReason, Room, RoomEvent, Track, VideoPresets, type Participant } from 'livekit-client';
 import {
   RateLimiter, SnapshotAssembler, TOPIC, boardApply, countVotes, decodeBoard, decodeChat, decodeHand, decodePoll, decodeSlides, decodeSpot, emptyBoard, encode, handApply, handRemove, newId, pollApply, recordVote, roleOfMetadata, slidesApply, snapshotMessages, spotApply,
   type BoardMsg, type BoardState, type HandEntry, type HandMsg, type PollState, type Sender, type SenderRole, type SlidesMsg, type SlidesState,
@@ -71,9 +71,18 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   /* Time spent in class: seconds already banked + the stretch since the connection last came up. Seeded by the server so a reload does not reset it. */
   const bank = useRef(0);
   const since = useRef<number | null>(null);
-  const markLive = useCallback(() => { if (since.current == null) since.current = Date.now(); }, []);
+  /* The class clock: runs from the moment the teacher started the class until the class is ended (or you leave). Old rooms without a start time fall back to your own time. */
+  const classStart = useRef<number | null>(null);
+  const endedRef = useRef<() => void>(() => {});
+  const stoppedAt = useRef<number | null>(null);
+  const markLive = useCallback(() => { stoppedAt.current = null; if (since.current == null) since.current = Date.now(); }, []);
   const markDown = useCallback(() => { if (since.current != null) { bank.current += (Date.now() - since.current) / 1000; since.current = null; } }, []);
   const spentSeconds = useCallback(() => Math.floor(bank.current + (since.current != null ? (Date.now() - since.current) / 1000 : 0)), []);
+  const classSeconds = useCallback(() => {
+    if (classStart.current == null) return spentSeconds();
+    return Math.max(0, Math.floor(((stoppedAt.current ?? Date.now()) - classStart.current) / 1000));
+  }, [spentSeconds]);
+  const stopClock = useCallback(() => { if (stoppedAt.current == null) stoppedAt.current = Date.now(); }, []);
 
   const putHands = useCallback((h: HandEntry[]) => { handsRef.current = h; setHands(h); }, []);
   const putBoard = useCallback((b: BoardState) => { boardRef.current = b; setBoard(b); }, []);
@@ -177,8 +186,13 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
     room.on(RoomEvent.DataReceived, (payload, p, _kind, topic) => onData(payload, p, topic));
     room.on(RoomEvent.MediaDevicesError, (e) => setNotice(deviceMessage(e, 'camera')));
     room.on(RoomEvent.ConnectionStateChanged, (s) => { if (s === ConnectionState.Reconnecting) { markDown(); setPhase('reconnecting'); } else if (s === ConnectionState.Connected) { markLive(); setPhase('live'); } bump(); });
-    room.on(RoomEvent.Disconnected, () => { markDown(); if (!leftRef.current) void recoverRef.current(); });
+    room.on(RoomEvent.Disconnected, (reason) => {
+      markDown();
+      if (reason === DisconnectReason.ROOM_DELETED && !leftRef.current) { endedRef.current(); return; }   // the teacher ended the class: stop, do not try to reconnect
+      if (!leftRef.current) void recoverRef.current();
+    });
 
+    if (typeof r.startedAtMs === 'number' && r.startedAtMs > 0) classStart.current = r.startedAtMs;
     setPhase('connecting');
     await room.connect(r.url, r.token);
     markLive(); setPhase('live'); setError(null);
@@ -232,11 +246,19 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   }, [enter, isHost]);
 
   const leave = useCallback(() => {
-    leftRef.current = true; clearTimers(); markDown();
+    leftRef.current = true; clearTimers(); markDown(); stopClock();
     roomRef.current?.removeAllListeners(); void roomRef.current?.disconnect(); roomRef.current = null;
     void wake.current?.release().catch(() => {}); wake.current = null;
     setPhase('left');
-  }, [markDown]);
+  }, [markDown, stopClock]);
+  /** The teacher ended the class: stop the clock and the reconnect attempts, and say so. Attendance is closed by the server. */
+  endedRef.current = () => {
+    leftRef.current = true; clearTimers(); markDown(); stopClock();
+    roomRef.current?.removeAllListeners(); roomRef.current = null;
+    void wake.current?.release().catch(() => {}); wake.current = null;
+    setError({ message: 'The class has ended. Thank you for joining. Your attendance has been recorded.', retry: false });
+    setPhase('ended');
+  };
   useEffect(() => () => { leftRef.current = true; clearTimers(); void roomRef.current?.disconnect(); void wake.current?.release().catch(() => {}); }, []);
 
   /* Backup attendance check + time seed: while connected, ask the server about once a minute (it verifies with LiveKit, not with this browser). */
@@ -368,7 +390,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
   const needsAudioTap = !!roomRef.current && !roomRef.current.canPlaybackAudio;
 
   return {
-    spentSeconds, phase, error, notice, clearNotice: () => setNotice(null), me, people, chat, hands, board, audioOnly, localQuality, needsAudioTap,
+    spentSeconds, classSeconds, phase, error, notice, clearNotice: () => setNotice(null), me, people, chat, hands, board, audioOnly, localQuality, needsAudioTap,
     join, leave, toggleMic, toggleCam, toggleShare, setAudioOnly, startAudio, sendChat, toggleHand, sendBoard,
     ackHand: (who: string) => sendHand({ t: 'ack', who }), clearHands: () => sendHand({ t: 'clear' }),
     canShare, flipCamera, rearCamera: facing.current === 'environment',

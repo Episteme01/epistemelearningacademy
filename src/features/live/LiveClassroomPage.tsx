@@ -63,7 +63,7 @@ export function LiveClassroomPage() {
       <p className="font-medium">{s.title}</p>
       <p className="mt-1 text-sm text-muted">{when}</p>
       {s.provider !== 'ela_live' && <p className="mt-3 rounded-md bg-danger-bg p-3 text-sm text-danger">This class does not use the ELA Live Classroom. Open it from the timetable to see how to join.</p>}
-      {room.error && <p role="alert" className="mt-3 rounded-md bg-danger-bg p-3 text-sm text-danger">{room.error.message}</p>}
+      {room.error && <p role="alert" className={phase === 'ended' && room.error.message.startsWith('The class has ended') ? 'mt-3 rounded-md bg-forest-50 p-3 text-sm' : 'mt-3 rounded-md bg-danger-bg p-3 text-sm text-danger'}>{room.error.message}</p>}
       {phase === 'left' && !room.error && <p className="mt-3 rounded-md bg-forest-50 p-3 text-sm">You left the class.</p>}
       {phase === 'ended' ? <div className="mt-4">{back}</div> : s.provider === 'ela_live' && (
         <>

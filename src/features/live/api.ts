@@ -30,7 +30,7 @@ async function call<T>(body: Record<string, unknown>): Promise<T> {
 }
 
 export type LiveRole = 'host' | 'learner';
-export type TokenResult = { status: 'waiting'; message: string } | { status: 'live'; token: string; url: string; identity: string; role: LiveRole; name: string; expiresInSeconds: number };
+export type TokenResult = { status: 'waiting'; message: string } | { status: 'live'; token: string; url: string; identity: string; role: LiveRole; name: string; expiresInSeconds: number; startedAtMs?: number | null };
 export interface PermState { screenShare?: boolean; publish?: boolean; data?: boolean }
 export interface ServerParticipant { identity: string; name: string; role: string; connected: boolean; firstJoinAt: number | null; lastLeftAt: number | null; totalSeconds: number; joinCount: number; blocked: boolean; perm: PermState }
 

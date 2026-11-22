@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Circle, Eraser, Hand, Highlighter, Lock, Minus, Pencil, Redo2, Square, Trash2, Undo2, ZoomIn, ZoomOut } from 'lucide-react';
+import { ChevronDown, ChevronUp, Circle, Eraser, Hand, Highlighter, Lock, Minus, Pencil, Redo2, Square, Trash2, Undo2, ZoomIn, ZoomOut } from 'lucide-react';
 import { COLORS, PAD_H, PAD_W, SIZES, TOOLS, type Tool } from '@/lib/drawing';
 import { createStrokeSender, newId, thin, type BStroke, type BoardMsg, type BoardState } from '@/lib/live/protocol';
 import { cn } from '@/lib/utils';
@@ -44,7 +44,8 @@ export function Whiteboard({ board, isHost, meIdentity, send, bg }: { board: Boa
   const redo = useRef<Draw[]>([]);
   const live = useRef<{ sender: ReturnType<typeof createStrokeSender>; timer: number; pts: number[]; draw: Draw } | null>(null);
   const canDraw = isHost || board.open;
-  const [hand, setHand] = useState(false); const [zoom, setZoom] = useState(1);
+  const [hand, setHand] = useState(false);
+  const [collapsed, setCollapsed] = useState(() => !!bg && typeof window !== 'undefined' && window.innerWidth < 768);   // on a phone the page gets the room, tools open on demand const [zoom, setZoom] = useState(1);
   const penSeen = useRef(false);
   const [pic, setPic] = useState<HTMLImageElement | null>(null);
   useEffect(() => {                         // a worksheet picture behind the writing (slides you can write on)
@@ -104,12 +105,13 @@ export function Whiteboard({ board, isHost, meIdentity, send, bg }: { board: Boa
   const btn = 'flex h-11 w-11 items-center justify-center rounded-md border border-line bg-white text-ink disabled:opacity-40';
   return (
     <div className="flex h-full min-h-0 flex-col gap-2">
-      <div className="flex flex-wrap items-center gap-1.5 rounded-lg bg-white p-1.5 text-ink">
-        {TOOLS.map((t) => { const I = ICON[t.value]; return <button key={t.value} type="button" aria-label={t.label} aria-pressed={tool === t.value} disabled={!canDraw} onClick={() => setTool(t.value)} className={cn(btn, tool === t.value && 'border-gold-500 bg-gold-100 ring-2 ring-gold-500/40')}><I className="h-5 w-5" /></button>; })}
-        <span className="mx-1 h-6 w-px bg-line" aria-hidden />
+      <div className="flex shrink-0 flex-nowrap items-center gap-1.5 overflow-x-auto rounded-lg bg-white p-1.5 text-ink [&>*]:shrink-0">
+        <button type="button" aria-label={collapsed ? 'Show writing tools' : 'Hide writing tools'} aria-expanded={!collapsed} onClick={() => setCollapsed((c) => !c)} className={cn(btn, 'w-auto gap-1 px-2 text-sm')}>{collapsed ? <ChevronDown className="h-5 w-5" /> : <ChevronUp className="h-5 w-5" />}<span>{collapsed ? 'Tools' : 'Hide'}</span></button>
+        {TOOLS.filter((t) => !collapsed || t.value === tool).map((t) => { const I = ICON[t.value]; return <button key={t.value} type="button" aria-label={t.label} aria-pressed={tool === t.value} disabled={!canDraw} onClick={() => setTool(t.value)} className={cn(btn, tool === t.value && 'border-gold-500 bg-gold-100 ring-2 ring-gold-500/40')}><I className="h-5 w-5" /></button>; })}
+        {!collapsed && <><span className="mx-1 h-6 w-px bg-line" aria-hidden />
         {COLORS.map((c) => <button key={c} type="button" aria-label={`Colour ${c}`} aria-pressed={color === c && tool !== 'eraser'} disabled={!canDraw} onClick={() => { setColor(c); if (tool === 'eraser') setTool('pen'); }} className={cn('h-8 w-8 rounded-full border-2 disabled:opacity-40', color === c && tool !== 'eraser' ? 'border-gold-500 ring-2 ring-gold-500/40' : 'border-white ring-1 ring-line')} style={{ background: c }} />)}
         <span className="mx-1 h-6 w-px bg-line" aria-hidden />
-        {SIZES.map((s) => <button key={s} type="button" aria-label={`Thickness ${s}`} aria-pressed={size === s} disabled={!canDraw} onClick={() => setSize(s)} className={cn(btn, size === s && 'border-gold-500 ring-2 ring-gold-500/40')}><span className="rounded-full bg-ink" style={{ width: s + 4, height: s + 4 }} /></button>)}
+        {SIZES.map((s) => <button key={s} type="button" aria-label={`Thickness ${s}`} aria-pressed={size === s} disabled={!canDraw} onClick={() => setSize(s)} className={cn(btn, size === s && 'border-gold-500 ring-2 ring-gold-500/40')}><span className="rounded-full bg-ink" style={{ width: s + 4, height: s + 4 }} /></button>)}</>}
         <span className="mx-1 h-6 w-px bg-line" aria-hidden />
         <button type="button" aria-label="Undo my last stroke" disabled={!canDraw || !mine()} onClick={undo} className={btn}><Undo2 className="h-5 w-5" /></button>
         <button type="button" aria-label="Redo" disabled={!canDraw} onClick={redoOne} className={btn}><Redo2 className="h-5 w-5" /></button>
@@ -117,9 +119,9 @@ export function Whiteboard({ board, isHost, meIdentity, send, bg }: { board: Boa
           <button type="button" aria-label="Move and zoom the page" aria-pressed={hand} onClick={() => setHand((m) => !m)} className={cn(btn, hand && 'border-gold-500 bg-gold-100 ring-2 ring-gold-500/40')}><Hand className="h-5 w-5" /></button>
           <button type="button" aria-label="Zoom out" disabled={zoom <= 1} onClick={() => setZoom((z) => Math.max(1, z - 0.5))} className={btn}><ZoomOut className="h-5 w-5" /></button>
           <button type="button" aria-label="Zoom in" disabled={zoom >= 3} onClick={() => setZoom((z) => Math.min(3, z + 0.5))} className={btn}><ZoomIn className="h-5 w-5" /></button></>}
-        {isHost && <button type="button" aria-label="Clear the board for everyone" onClick={() => { if (window.confirm('Clear the whole board for everyone?')) send({ t: 'clear' }); }} className={btn}><Trash2 className="h-5 w-5" /></button>}
-        {isHost && <label className="ml-auto flex min-h-11 items-center gap-2 px-2 text-sm"><input type="checkbox" className="h-5 w-5" checked={board.open} onChange={(e) => send({ t: 'open', open: e.target.checked })} /> Learners can draw</label>}
-        {!canDraw && <p className="ml-auto flex items-center gap-1.5 px-2 text-sm text-muted"><Lock className="h-4 w-4" aria-hidden /> Only the teacher can draw right now</p>}
+        {isHost && !collapsed && <button type="button" aria-label="Clear the board for everyone" onClick={() => { if (window.confirm('Clear the whole board for everyone?')) send({ t: 'clear' }); }} className={btn}><Trash2 className="h-5 w-5" /></button>}
+        {isHost && !collapsed && <label className="ml-auto flex whitespace-nowrap min-h-11 items-center gap-2 px-2 text-sm"><input type="checkbox" className="h-5 w-5" checked={board.open} onChange={(e) => send({ t: 'open', open: e.target.checked })} /> Learners can draw</label>}
+        {!canDraw && !collapsed && <p className="ml-auto flex whitespace-nowrap items-center gap-1.5 px-2 text-sm text-muted"><Lock className="h-4 w-4" aria-hidden /> Only the teacher can draw right now</p>}
       </div>
       <div className="relative min-h-0 flex-1 overflow-auto rounded-lg bg-white">
         <div className={cn('relative max-w-full', zoom === 1 && 'mx-auto')} style={{ width: `${zoom * 100}%`, aspectRatio: `${PAD_W} / ${PAD_H}`, maxHeight: zoom === 1 ? '100%' : undefined }}>
