@@ -44,8 +44,8 @@ export function Whiteboard({ board, isHost, meIdentity, send, bg }: { board: Boa
   const redo = useRef<Draw[]>([]);
   const live = useRef<{ sender: ReturnType<typeof createStrokeSender>; timer: number; pts: number[]; draw: Draw } | null>(null);
   const canDraw = isHost || board.open;
-  const [hand, setHand] = useState(false);
-  const [collapsed, setCollapsed] = useState(() => !!bg && typeof window !== 'undefined' && window.innerWidth < 768);   // on a phone the page gets the room, tools open on demand const [zoom, setZoom] = useState(1);
+  const [hand, setHand] = useState(false); const [zoom, setZoom] = useState(1);
+  const [collapsed, setCollapsed] = useState(() => !!bg && typeof window !== 'undefined' && window.innerWidth < 768);   // on a phone the page gets the room, tools open on demand
   const penSeen = useRef(false);
   const [pic, setPic] = useState<HTMLImageElement | null>(null);
   useEffect(() => {                         // a worksheet picture behind the writing (slides you can write on)
