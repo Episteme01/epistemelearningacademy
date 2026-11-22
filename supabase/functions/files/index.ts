@@ -152,7 +152,7 @@ async function handle(req: Request, b: any): Promise<unknown> {
         const d = (DOWNLOADS as Record<string, (typeof DOWNLOADS)[DownloadCollection] | undefined>)[it.collection];
         if (!d || !/^[A-Za-z0-9_-]{4,128}$/.test(it.docId)) { out[key] = null; return; }
         const f = await readDoc(token, `${it.collection}/${it.docId}`);        // Firestore rules decide here
-        const raw = f?.[d.field];
+        const raw = f?.[it.collection === 'submissions' && idx !== null ? 'files' : d.field];      // several submitted files live in `files`
         const ref = idx === null ? raw?.mapValue?.fields : raw?.arrayValue?.values?.[idx]?.mapValue?.fields;
         if (!f || !ref || str(ref.provider) !== 'supabase') { out[key] = null; return; }
         const owner: Record<string, string> = { uid: str(f.uid), createdBy: str(f.createdBy) };
