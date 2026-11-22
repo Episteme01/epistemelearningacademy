@@ -18,7 +18,7 @@ export function Dialog({ open, onClose, title, description, children, footer, si
   return (
     <dialog
       ref={ref}
-      onClose={onClose}
+      onClose={(e) => { if (e.target === e.currentTarget) onClose(); }}
       onClick={(e) => { if (e.target === ref.current) onClose(); }}
       className={cn('m-auto w-[calc(100%-2rem)] rounded-lg bg-white p-0 shadow-pop backdrop:bg-forest-900/50', width)}
     >
