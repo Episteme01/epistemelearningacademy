@@ -29,7 +29,7 @@ export function ResourcesField({ value, onChange }: { value: ResourceLite[]; onC
       <Button type="button" variant="outline" size="sm" disabled={list.length >= MAX_WORK_RESOURCES} onClick={() => setOpen(true)}><Library className="h-4 w-4" /> Pick from Resources</Button>
       <p className="text-xs text-muted">Optional. Up to {MAX_WORK_RESOURCES}. Learners and parents of this work can open them; they cannot see other resources.</p>
       <Dialog open={open} onClose={() => setOpen(false)} title="Pick from Resources" size="lg" footer={<Button onClick={() => setOpen(false)}>Done ({list.length})</Button>}>
-        <Input aria-label="Search resources" placeholder="Search by title, subject, class or course" value={q} onChange={(e) => setQ(e.target.value)} className="mb-3" />
+        <Input aria-label="Search resources" placeholder="Search by title, subject, class or course" value={q} onChange={(e) => setQ(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') e.preventDefault(); }} className="mb-3" />
         {res.loading ? <Spinner /> : rows.length === 0 ? <p className="text-sm text-muted">No resources found. Add them on the Resources page first.</p> : (
           <ul className="max-h-[50vh] space-y-1.5 overflow-y-auto">{rows.map((r) => (
             <li key={r.id}>
