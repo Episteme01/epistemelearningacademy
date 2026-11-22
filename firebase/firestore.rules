@@ -416,10 +416,15 @@ service cloud.firestore {
     // id convention: {assignmentId}_{uid}
     // A submitted file must be a private Supabase upload inside the student's OWN folder (uid/assignment/...).
     // This stops one student pointing their submission at someone else's file.
+    function subRefOk(r, d) {
+      return r.provider == 'supabase' && r.bucket == 'submissions' && r.path.matches(d.uid + '/' + d.assignmentId + '/.*');
+    }
     function subFileOk(d) {
-      return d.get('fileRef', null) == null
-             || (d.fileRef.provider == 'supabase' && d.fileRef.bucket == 'submissions'
-                 && d.fileRef.path.matches(d.uid + '/' + d.assignmentId + '/.*'));
+      let fs = d.get('files', []);
+      return (d.get('fileRef', null) == null || subRefOk(d.fileRef, d))
+             && fs.size() <= 5
+             && (fs.size() < 1 || subRefOk(fs[0], d)) && (fs.size() < 2 || subRefOk(fs[1], d)) && (fs.size() < 3 || subRefOk(fs[2], d))
+             && (fs.size() < 4 || subRefOk(fs[3], d)) && (fs.size() < 5 || subRefOk(fs[4], d));
     }
     // Deadline is enforced by the server clock: late work is refused unless the assignment allows it.
     function subOnTime(d) {
