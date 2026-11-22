@@ -25,3 +25,9 @@ Unit tests cover undo/redo, paper, draft safety, attachment rules and the file-g
 3. A student in another class cannot open them.
 4. Student: Draw your answer, Use this drawing, Submit. Teacher opens the submission and sees the picture.
 5. Pad page: draw, undo, change paper, download, refresh (draft returns).
+
+## Update 11: several files in one submission
+- A learner can hand in up to 5 files together (a drawing, a written-on worksheet, a photo). Before, there was one file slot, so drawing after attaching a file replaced the attachment.
+- The submission keeps `fileRef`/`fileName` (the first file) for older screens and adds `files` (all of them). Re-submitting with new files replaces all old files; submitting with none keeps the old ones.
+- Firestore rules check every file is in the learner's own folder (`subFileOk`). The `files` Edge Function signs `submissions/{id}#{index}` from the `files` field. **Deploy both**: publish the rules, redeploy the `files` function.
+- If a submit fails, the learner sees "NOT submitted" and the files uploaded so far are removed. The learner's card now shows when it was handed in and the file links.
