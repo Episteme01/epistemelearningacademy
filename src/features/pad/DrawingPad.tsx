@@ -37,7 +37,7 @@ function paintPaper(ctx: CanvasRenderingContext2D, paper: Paper) {
   }
 }
 
-function paintStroke(ctx: CanvasRenderingContext2D, s: Stroke) {
+export function paintStroke(ctx: CanvasRenderingContext2D, s: Stroke) {
   const p = s.pts;
   ctx.save();
   ctx.lineCap = 'round'; ctx.lineJoin = 'round';
