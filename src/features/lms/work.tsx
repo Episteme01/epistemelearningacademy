@@ -231,7 +231,7 @@ function StaffAssignments() {
       <CrudPage config={config} />
       <AttachmentsEditor assignment={attach ? { id: attach.id, title: String(attach.title), attachments: attach.attachments as FileRef[] | undefined } : null} onClose={() => setAttach(null)} />
       <Dialog open={!!open} onClose={() => setOpen(null)} title="Submissions" description={String(open?.title ?? '')} size="xl">
-        {subs.loading ? <Spinner /> : subs.data.length === 0 ? <EmptyState title="No submissions yet" /> : <ul className="space-y-4">{subs.data.map((s) => (
+        {subs.loading ? <Spinner /> : subs.error ? <p role="alert" className="rounded-md bg-danger-bg p-3 text-sm text-danger">Could not load submissions: {subs.error}</p> : subs.data.length === 0 ? <EmptyState title="No submissions yet" /> : <ul className="space-y-4">{subs.data.map((s) => (
           <li key={s.id} className="rounded-md border border-line p-4"><div className="flex flex-wrap items-center justify-between gap-2"><p className="font-medium">{String(s.studentName)}</p><StatusBadge status={String(s.status)} /></div>
             <p className="text-xs text-muted">Submitted {fmtDate(s.submittedAt, true)}{toDate(s.submittedAt) && toDate(open?.dueAt) && toDate(s.submittedAt)! > toDate(open?.dueAt)! ? ' · LATE' : ''}</p>
             {Boolean(s.text) && <p className="mt-2 whitespace-pre-wrap rounded bg-cream p-3 text-sm">{String(s.text)}</p>}<SubmissionFile s={s} />
@@ -249,7 +249,7 @@ function StudentAssignments() {
   const subs = useCollection<Row>(C.submissions, () => (uid ? [where('uid', '==', uid)] : null), uid ?? '');
   const [list, setList] = useState<WithId<Assignment_>[]>([]);
   const [sel, setSel] = useState<WithId<Assignment_> | null>(null);
-  const [text, setText] = useState(''); const [file, setFile] = useState<File | null>(null); const [busy, setBusy] = useState(false); const [drawing, setDrawing] = useState(false);
+  const [text, setText] = useState(''); const [files, setFiles] = useState<File[]>([]); const [busy, setBusy] = useState(false); const [drawing, setDrawing] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
   const sheetRef = useRef<HTMLInputElement>(null);
   const [writer, setWriter] = useState<{ src: WorksheetSource; a: WithId<Assignment_> } | null>(null);
@@ -266,40 +266,56 @@ function StudentAssignments() {
   }, [enr.data, profile?.classId, uid]);
   const submit = async () => {
     if (!sel || !uid || !profile) return;
-    if (!text.trim() && !file) return toast.error('Write an answer or attach a file.');
+    const prior = subOf(sel.id) as { fileRef?: FileRef; files?: FileRef[] } | undefined;
+    if (!text.trim() && files.length === 0 && !prior?.fileRef && !prior?.files?.length) return toast.error('Write an answer or attach a file.');
     setBusy(true);
+    const uploaded: FileRef[] = [];
     try {
       // parents may read their child's submission only if their uid is on it; take it from the learner's own student record
       const parentUids = profile.studentId ? ((await getById<{ parentUids?: string[] }>(C.students, profile.studentId).catch(() => null))?.parentUids ?? []) : [];
-      const before = subOf(sel.id) as { fileRef?: FileRef; fileName?: string; fileUrl?: string } | undefined;
+      const before = subOf(sel.id) as { fileRef?: FileRef; fileName?: string; fileUrl?: string; files?: FileRef[] } | undefined;
       let fileRef: FileRef | null = before?.fileRef ?? null; let fileName = before?.fileName ?? ''; let fileUrl = before?.fileUrl ?? '';
-      if (file) {
+      const oldFiles: FileRef[] = before?.files?.length ? before.files : before?.fileRef ? [before.fileRef] : [];
+      let all: FileRef[] = oldFiles;
+      if (files.length) {
         if (!flags.uploads) throw new Error(UPLOADS_OFF_MESSAGE);
-        fileRef = await uploadFor('submission', file, roles, { assignmentId: sel.id }); fileName = file.name; fileUrl = '';
+        for (const f of files) { const r = await uploadFor('submission', f, roles, { assignmentId: sel.id }); uploaded.push({ ...r, name: r.name ?? f.name }); }
+        all = uploaded; fileRef = uploaded[0]!; fileName = files[0]!.name; fileUrl = '';
       }
-      await replaceDoc(C.submissions, `${sel.id}_${uid}`, { assignmentId: sel.id, uid, studentName: profile.displayName, parentUids, text: text.trim(), fileUrl, fileRef, fileName, status: 'submitted', submittedAt: new Date() });
-      // replacing a file: remove the old private copy only after the new submission is saved
-      if (file && before?.fileRef?.provider === 'supabase') void deleteFileRef(before.fileRef).catch(() => undefined);
-      clearPadDraft(`assignment-${sel.id}-${uid}`); toast.success('Submitted'); setSel(null); setText(''); setFile(null);
-    } catch (e) { toast.error(errorMessage(e)); } finally { setBusy(false); }
+      // `fileRef`/`fileName` stay as the first file so older screens keep working; `files` holds all of them
+      await replaceDoc(C.submissions, `${sel.id}_${uid}`, { assignmentId: sel.id, uid, studentName: profile.displayName, parentUids, text: text.trim(), fileUrl, fileRef, fileName, files: all, status: 'submitted', submittedAt: new Date() });
+      // replacing files: remove the old private copies only after the new submission is saved
+      if (files.length) for (const o of oldFiles) if (o.provider === 'supabase') void deleteFileRef(o).catch(() => undefined);
+      clearPadDraft(`assignment-${sel.id}-${uid}`); toast.success(`Submitted${all.length > 1 ? ` with ${all.length} files` : ''}. Your teacher can see it now.`); setSel(null); setText(''); setFiles([]);
+    } catch (e) {
+      for (const u of uploaded) void deleteFileRef(u).catch(() => undefined);       // nothing was saved: do not leave half-uploaded files behind
+      toast.error(`NOT submitted. ${errorMessage(e)} Check your connection and press Submit again.`);
+    } finally { setBusy(false); }
   };
   const subOf = (id: string) => subs.data.find((s) => s.assignmentId === id);
+  const oldCount = (id: string) => { const s = subOf(id) as { files?: unknown[]; fileRef?: unknown } | undefined; return s?.files?.length ?? (s?.fileRef ? 1 : 0); };
+  /** Several files can be handed in together (a drawing AND a worksheet AND a photo). */
+  const addFile = (f: File) => setFiles((cur) => { if (cur.length >= MAX_SUB_FILES) { toast.error(`You can send up to ${MAX_SUB_FILES} files at once.`); return cur; } return [...cur, f]; });
   return (
     <>
       <PageHeader title="Assignments" description="Submit work before the deadline and read your feedback." />
       {list.length === 0 ? <Card><EmptyState title="No assignments" description="Assignments from your classes and courses appear here." /></Card> : <div className="space-y-3">{list.map((a) => { const s = subOf(a.id); const late = toDate(a.dueAt) && toDate(a.dueAt)! < new Date(); const locked = !!late && (a as { allowLate?: boolean }).allowLate === false; return (
         <Card key={a.id}><CardBody className="flex flex-wrap items-start justify-between gap-3"><div className="min-w-0"><p className="font-medium">{a.title}</p><p className="mt-1 text-sm text-muted line-clamp-2">{a.instructions}</p><AttachmentList assignmentId={a.id} files={a.attachments} onWrite={(i, f) => openWriter(a, () => fetchAttachment(a.id, i, f))} /><ResourceLinks items={a.resources} onWrite={(r) => openWriter(a, () => fetchResourceById(r.id))} /><p className="mt-1 text-xs text-muted">Due {fmtDate(a.dueAt, true)} {late && !s ? <Badge tone="danger">{locked ? 'closed' : 'overdue'}</Badge> : null}</p>
+          {s && <div className="mt-2 text-xs text-muted">Handed in {fmtDate((s as { submittedAt?: unknown }).submittedAt, true)}{oldCount(a.id) ? ` · ${oldCount(a.id)} file${oldCount(a.id) === 1 ? '' : 's'}` : ''}<SubmissionFile s={s} /></div>}
           {s?.status === 'graded' && <p className="mt-2 text-sm"><strong>{String(s.score)}</strong> / {a.maxScore} — {String(s.feedback ?? '')}</p>}</div>
-          <div className="flex items-center gap-2">{s && <StatusBadge status={String(s.status)} />}{a.kind !== 'presentation' && (!s || s.status !== 'graded') && !locked && <Button size="sm" onClick={() => { setSel(a); setText(String(s?.text ?? '')); setFile(null); }}>{s ? 'Resubmit' : 'Submit'}</Button>}</div></CardBody></Card>); })}</div>}
+          <div className="flex items-center gap-2">{s && <StatusBadge status={String(s.status)} />}{a.kind !== 'presentation' && (!s || s.status !== 'graded') && !locked && <Button size="sm" onClick={() => { setSel(a); setText(String(s?.text ?? '')); setFiles([]); }}>{s ? 'Resubmit' : 'Submit'}</Button>}</div></CardBody></Card>); })}</div>}
       <Dialog open={!!sel} onClose={() => setSel(null)} title={sel?.title ?? ''} description={`Due ${fmtDate(sel?.dueAt, true)}`} footer={<><Button variant="outline" onClick={() => setSel(null)}>Cancel</Button><Button loading={busy} onClick={() => void submit()}>Submit</Button></>}>
         <p className="mb-4 whitespace-pre-wrap text-sm">{sel?.instructions}</p>{sel && <div className="mb-4"><AttachmentList assignmentId={sel.id} files={sel.attachments} onWrite={(i, f) => openWriter(sel, () => fetchAttachment(sel.id, i, f))} /><ResourceLinks items={sel.resources} onWrite={(r) => openWriter(sel, () => fetchResourceById(r.id))} /></div>}
         {sel?.allowText !== false && <Field label="Your answer">{(a) => <Textarea {...a} rows={6} value={text} onChange={(e) => setText(e.target.value)} />}</Field>}
-        {sel?.allowFile !== false && <div className="mt-3 flex flex-wrap gap-2"><Button variant="outline" onClick={() => fileRef.current?.click()}>{file ? file.name : 'Attach a file'}</Button><Button variant="outline" onClick={() => setDrawing(true)}><PenTool className="h-4 w-4" /> Draw your answer</Button><Button variant="outline" onClick={() => sheetRef.current?.click()}><PenTool className="h-4 w-4" /> Write on a worksheet from my device</Button><input ref={sheetRef} type="file" accept="image/*,application/pdf" hidden onChange={(e) => { const f = e.target.files?.[0]; e.target.value = ''; if (f && sel) setWriter({ src: { blob: f, name: f.name, type: f.type }, a: sel }); }} /><input ref={fileRef} type="file" hidden onChange={(e) => setFile(e.target.files?.[0] ?? null)} /></div>}
+        {sel?.allowFile !== false && <div className="mt-3 flex flex-wrap gap-2"><Button variant="outline" onClick={() => fileRef.current?.click()}>Attach a file</Button><Button variant="outline" onClick={() => setDrawing(true)}><PenTool className="h-4 w-4" /> Draw your answer</Button><Button variant="outline" onClick={() => sheetRef.current?.click()}><PenTool className="h-4 w-4" /> Write on a worksheet from my device</Button><input ref={sheetRef} type="file" accept="image/*,application/pdf" hidden onChange={(e) => { const f = e.target.files?.[0]; e.target.value = ''; if (f && sel) setWriter({ src: { blob: f, name: f.name, type: f.type }, a: sel }); }} /><input ref={fileRef} type="file" multiple hidden onChange={(e) => { const picked = Array.from(e.target.files ?? []); e.target.value = ''; picked.forEach(addFile); }} /></div>}
+        {sel && (files.length > 0 || oldCount(sel.id) > 0) && <div className="mt-3 rounded-md border border-line p-3 text-sm" aria-live="polite">
+          <p className="font-medium">{files.length > 0 ? `Ready to send (${files.length}/${MAX_SUB_FILES})` : `Already handed in: ${oldCount(sel.id)} file${oldCount(sel.id) === 1 ? '' : 's'}. Add files below only to replace them.`}</p>
+          <ul className="mt-1 space-y-1">{files.map((f, i) => <li key={`${f.name}-${i}`} className="flex items-center justify-between gap-2"><span className="min-w-0 truncate">{f.name}</span><Button size="sm" variant="outline" aria-label={`Remove ${f.name}`} onClick={() => setFiles((cur) => cur.filter((_, k) => k !== i))}><Trash2 className="h-3.5 w-3.5" /></Button></li>)}</ul></div>}
       </Dialog>
       <WorksheetWriter source={writer?.src ?? null} onClose={() => setWriter(null)}
-        onUse={writer && writer.a.kind !== 'presentation' ? (f) => { const a = writer.a; if (sel?.id !== a.id) { setSel(a); setText(String(subOf(a.id)?.text ?? '')); } setFile(f); setWriter(null); toast.success('Your written answer is attached. Press Submit to send it.'); } : undefined} />
+        onUse={writer && writer.a.kind !== 'presentation' ? (f) => { const a = writer.a; if (sel?.id !== a.id) { setSel(a); setText(String(subOf(a.id)?.text ?? '')); } addFile(f); setWriter(null); toast.success('Your written answer is attached. You can add more, then press Submit.'); } : undefined} />
       <Dialog open={drawing} onClose={() => setDrawing(false)} title="Draw your answer" description={sel?.title ?? ''} size="xl">
-        {drawing && sel && <DrawingPad persistKey={`assignment-${sel.id}-${uid ?? ''}`} saveLabel="Use this drawing" onSave={(f) => { setFile(f); setDrawing(false); toast.success('Drawing attached. Press Submit to send it.'); }} />}
+        {drawing && sel && <DrawingPad persistKey={`assignment-${sel.id}-${uid ?? ''}`} saveLabel="Use this drawing" onSave={(f) => { addFile(f); setDrawing(false); toast.success('Drawing attached. You can add more, then press Submit.'); }} />}
       </Dialog>
     </>
   );
@@ -630,9 +646,14 @@ export function LmsOverview() {
 }
 
 /** Opens a student's submitted file. Private files are fetched through a short-lived signed link. */
-function SubmissionFile({ s }: { s: { id: string; fileUrl?: unknown; fileName?: unknown; fileRef?: unknown } }) {
+const MAX_SUB_FILES = 5;
+function SubmissionFile({ s }: { s: { id: string; fileUrl?: unknown; fileName?: unknown; fileRef?: unknown; files?: unknown } }) {
   const toast = useToast();
+  const many = Array.isArray(s.files) ? (s.files as FileRef[]) : [];
   const ref = s.fileRef as FileRef | undefined;
+  if (many.length > 0) {
+    return <div className="mt-2 flex flex-wrap gap-2">{many.map((f, i) => <Button key={`${f.path}-${i}`} size="sm" variant="outline" onClick={() => { const w = window.open('', '_blank'); void signedUrlFor('submissions', s.id, i).then((u) => { if (u && w) w.location.href = u; else { w?.close(); toast.error('Could not open this file. Try again.'); } }); }}><ExternalLink className="h-3.5 w-3.5" /> {f.name || `File ${i + 1}`}</Button>)}</div>;
+  }
   const label = String(s.fileName || 'Open file');
   if (ref?.provider === 'supabase') {
     return <Button size="sm" variant="outline" className="mt-2" onClick={() => { const w = window.open('', '_blank'); void signedUrlFor('submissions', s.id).then((u) => { if (u && w) w.location.href = u; else { w?.close(); toast.error('Could not open this file. Try again.'); } }); }}><ExternalLink className="h-3.5 w-3.5" /> {label}</Button>;
