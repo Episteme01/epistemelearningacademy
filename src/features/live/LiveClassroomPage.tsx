@@ -55,7 +55,7 @@ export function LiveClassroomPage() {
   if (phase === 'starting' || phase === 'connecting') return <Shell><p className="flex items-center gap-2 text-sm"><Loader2 className="h-4 w-4 animate-spin" aria-hidden /> {phase === 'starting' ? 'Starting the class…' : 'Connecting…'}</p></Shell>;
   if (phase === 'waiting') return (
     <Shell><p className="font-medium">{s.title}</p><p className="mt-1 text-sm text-muted">{when}</p>
-      <p role="status" className="mt-4 flex items-center gap-2 rounded-md bg-forest-50 p-3 text-sm"><Loader2 className="h-4 w-4 animate-spin" aria-hidden /> Waiting for your teacher to start the class. You will go in automatically.</p>
+      <p role="status" className="mt-4 flex items-center gap-2 rounded-md bg-forest-50 p-3 text-sm"><Loader2 className="h-4 w-4 animate-spin" aria-hidden /> {room.waitMessage || 'Waiting for your teacher to start the class.'} You will go in automatically.</p>
       <Button variant="outline" className="mt-4 w-full" onClick={room.leave}>Not now</Button></Shell>);
 
   return (

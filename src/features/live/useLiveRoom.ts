@@ -4,7 +4,7 @@ import {
   RateLimiter, SnapshotAssembler, TOPIC, boardApply, countVotes, decodeBoard, decodeChat, decodeHand, decodePoll, decodeSlides, decodeSpot, emptyBoard, encode, handApply, handRemove, newId, pollApply, recordVote, roleOfMetadata, slidesApply, snapshotMessages, spotApply,
   type BoardMsg, type BoardState, type HandEntry, type HandMsg, type PollState, type Sender, type SenderRole, type SlidesMsg, type SlidesState,
 } from '@/lib/live/protocol';
-import { LiveApiError, getToken, guestToken, startClass, syncPresence, type GuestInfo, type TokenResult } from './api';
+import { LiveApiError, getToken, startClass, syncPresence, type TokenResult } from './api';
 
 export type Phase = 'idle' | 'starting' | 'waiting' | 'connecting' | 'live' | 'reconnecting' | 'left' | 'ended' | 'error';
 export type Quality = 'excellent' | 'good' | 'poor' | 'lost' | 'unknown';
@@ -33,7 +33,7 @@ export function deviceMessage(e: unknown, what: 'camera' | 'microphone' | 'scree
  * Owns the LiveKit room for one lesson: joining (with a wait for the teacher), reconnecting, media controls, and the data channel
  * (chat, hands, whiteboard). All rules about who may do what live in src/lib/live/protocol.ts (unit-tested); the server decides who gets a token.
  */
-export function useLiveRoom(sessionId: string, isHost: boolean, guest?: GuestInfo | null) {
+export function useLiveRoom(sessionId: string, isHost: boolean) {
   const [phase, setPhase] = useState<Phase>('idle');
   const [error, setError] = useState<{ message: string; retry: boolean } | null>(null);
   const [waitMessage, setWaitMessage] = useState('');
@@ -211,8 +211,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean, guest?: GuestInf
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [bump, media, onData, publish, putHands, applyAudioOnly, markDown, markLive]);
 
-  const guestKey = guest ? `${guest.code}|${guest.guestId}|${guest.name}` : '';
-  const fetchToken = useCallback(() => (guest ? guestToken(guest) : isHost ? startClass(sessionId) : getToken(sessionId)), [isHost, sessionId, guestKey]); // eslint-disable-line react-hooks/exhaustive-deps
+  const fetchToken = useCallback(() => (isHost ? startClass(sessionId) : getToken(sessionId)), [isHost, sessionId]);
   const failWith = useCallback((e: unknown) => {
     const err = e instanceof LiveApiError ? e : null;
     setError({ message: err?.message ?? (e instanceof Error ? e.message : 'Could not join the class.'), retry: !err?.final });
@@ -260,14 +259,14 @@ export function useLiveRoom(sessionId: string, isHost: boolean, guest?: GuestInf
     leftRef.current = true; clearTimers(); markDown(); stopClock();
     roomRef.current?.removeAllListeners(); roomRef.current = null;
     void wake.current?.release().catch(() => {}); wake.current = null;
-    setError({ message: guestKey ? 'The meeting has ended. Thank you for joining.' : 'The class has ended. Thank you for joining. Your attendance has been recorded.', retry: false });
+    setError({ message: 'The class has ended. Thank you for joining. Your attendance has been recorded.', retry: false });
     setPhase('ended');
   };
   useEffect(() => () => { leftRef.current = true; clearTimers(); void roomRef.current?.disconnect(); void wake.current?.release().catch(() => {}); }, []);
 
   /* Backup attendance check + time seed: while connected, ask the server about once a minute (it verifies with LiveKit, not with this browser). */
   useEffect(() => {
-    if (phase !== 'live' || guestKey) return;             // guests have no attendance to keep
+    if (phase !== 'live') return;
     let stop = false;
     const beat = () => {
       void syncPresence(sessionId).then((r) => {
@@ -279,7 +278,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean, guest?: GuestInf
     beat();
     const t = window.setInterval(beat, SYNC_MS);
     return () => { stop = true; window.clearInterval(t); };
-  }, [phase, sessionId, spentSeconds, guestKey]);
+  }, [phase, sessionId, spentSeconds]);
 
   /* ------------------------------------------------ controls */
   const lp = () => roomRef.current?.localParticipant;

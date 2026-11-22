@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils';
 import { endClass } from './api';
 import { ChatPanel, PeoplePanel } from './Panels';
 import { PresentDialog } from './Present';
+import { LobbyBar } from './Lobby';
 import { PollCard, PollComposer, SlidesStage, ToolsDialog } from './Tools';
 import { CallView } from './CallView';
 import { AudioSinks, VideoTile } from './VideoTile';
@@ -86,6 +87,7 @@ export function Classroom({ room, sessionId, title, isHost, onEnded }: { room: R
         <ClassTimer spent={room.classSeconds} />
         <span className="text-xs text-white/70">{people.length} in class</span>
       </header>
+      {isHost && <LobbyBar sessionId={sessionId} onError={(m) => toast.error(m)} />}
 
       {(phase === 'reconnecting' || room.needsAudioTap || room.notice || poor) && (
         <div className="space-y-1 px-3 pb-2 text-sm">
