@@ -197,12 +197,23 @@ describe('slides', () => {
     for (const bad of ['http://res.cloudinary.com/a.jpg', 'https://evil.example/a.jpg', 'https://res.cloudinary.com.evil.example/a.jpg', 'javascript:alert(1)', 'https://res.cloudinary.com/a b.jpg', 42]) expect(isSlideUrl(bad)).toBe(false);
   });
   it('decodes show/page/stop and rejects bad input', () => {
-    expect(decodeSlides(raw({ t: 'show', urls: [U1, U2], page: 1 }))).toEqual({ t: 'show', urls: [U1, U2], page: 1 });
+    expect(decodeSlides(raw({ t: 'show', urls: [U1, U2], page: 1 }))).toEqual({ t: 'show', urls: [U1, U2], page: 1, write: false });
     expect(decodeSlides(raw({ t: 'show', urls: [U1, 'https://evil.example/x.png'], page: 0 }))).toBeNull();
     expect(decodeSlides(raw({ t: 'show', urls: [], page: 0 }))).toBeNull();
     expect(decodeSlides(raw({ t: 'show', urls: Array(MAX_SLIDES + 1).fill(U1), page: 0 }))).toBeNull();
     expect(decodeSlides(raw({ t: 'page', page: -1 }))).toBeNull();
     expect(decodeSlides(raw({ t: 'stop' }))).toEqual({ t: 'stop' });
+  });
+  it('writing on slides is switched by the teacher only and survives a late join', () => {
+    const shown = slidesApply(null, { t: 'show', urls: [U1, U2], page: 0 }, HOST_S)!;
+    expect(shown.write).toBe(false);
+    expect(slidesApply(shown, { t: 'write', on: true }, LEARN_S)).toBe(shown);
+    const on = slidesApply(shown, { t: 'write', on: true }, HOST_S)!;
+    expect(on.write).toBe(true);
+    expect(slidesApply(on, { t: 'page', page: 1 }, HOST_S)!.write).toBe(true);
+    expect(slidesApply(null, { t: 'show', urls: [U1], page: 0, write: true }, HOST_S)!.write).toBe(true);
+    expect(decodeSlides(raw({ t: 'write', on: true }))).toEqual({ t: 'write', on: true });
+    expect(decodeSlides(raw({ t: 'write', on: 'yes' }))).toBeNull();
   });
   it('a bad page number is clamped into range', () => expect(decodeSlides(raw({ t: 'show', urls: [U1, U2], page: 99 }))).toMatchObject({ page: 1 }));
   it('only the teacher can show, turn pages or stop', () => {
