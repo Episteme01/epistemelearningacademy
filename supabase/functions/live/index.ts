@@ -184,7 +184,7 @@ async function issueToken(sessionId: string, s: SessionFacts, uid: string, as: L
   const name = displayName(fullName, as);
   await commitOrThrow([{ path: pPath, mask: ['sessionId', 'uid', 'identity', 'role', 'teacherUid', 'name', 'issuedAt'], times: ['issuedAt'], data: { sessionId, uid, identity, role: as, teacherUid: s.teacherUid, name } }], 'participation');
   const token = await accessToken(LK, { identity, name, metadata: JSON.stringify({ r: as }), grant: grantFor(str(room.roomName), as, permOf(prior)), ttlSeconds: TOKEN_TTL_SECONDS });
-  return { status: 'live' as const, token, url: LK.url, identity, role: as, name, expiresInSeconds: TOKEN_TTL_SECONDS };
+  return { status: 'live' as const, token, url: LK.url, identity, role: as, name, expiresInSeconds: TOKEN_TTL_SECONDS, startedAtMs: num(room.startedAtMs) };
 }
 
 /** Everything a host action needs: login, the lesson, and proof the caller may host it. */
@@ -421,7 +421,7 @@ async function handle(req: Request, b: any): Promise<unknown> {
       await roomService(LK, roomName, 'CreateRoom', { name: roomName, emptyTimeout: EMPTY_TIMEOUT_SECONDS, maxParticipants: Math.min(MAX_ROOM_PARTICIPANTS, s.studentUids.length + 8) });
       const gen = (num(room?.generation) ?? 0) + 1;
       const w: W = { path: `liveRooms/${sessionId}`, times: ['startedAt'], pre: room ? { updateTime: room._updateTime } : { exists: false },
-        data: { sessionId, roomName, status: 'live', generation: gen, teacherUid: s.teacherUid, startedBy: uid, endedAt: null, endReason: '', recordingEnabled: false, recordingStatus: 'off' } };
+        data: { sessionId, roomName, status: 'live', generation: gen, teacherUid: s.teacherUid, startedBy: uid, endedAt: null, endReason: '', recordingEnabled: false, recordingStatus: 'off', startedAtMs: now } };
       const r = await commit([w]);
       if (!r.ok) { room = await getAdmin(`liveRooms/${sessionId}`); if (!room || room.status !== 'live') throw new HttpError(409, 'The class is being started. Try again.'); }
       else room = await getAdmin(`liveRooms/${sessionId}`);
