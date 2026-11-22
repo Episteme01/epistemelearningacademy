@@ -157,6 +157,7 @@ export function useLiveRoom(sessionId: string, isHost: boolean) {
       adaptiveStream: true, dynacast: true,
       videoCaptureDefaults: { resolution: VideoPresets.h360.resolution },
       audioCaptureDefaults: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
+      publishDefaults: { audioPreset: { maxBitrate: 48_000 }, dtx: false, red: true },
     });
     roomRef.current = room; meRef.current = { identity: r.identity, role: r.role }; setMe({ identity: r.identity, role: r.role, name: r.name });
     room.on(RoomEvent.ParticipantConnected, bump);
