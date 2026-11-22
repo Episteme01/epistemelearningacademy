@@ -174,6 +174,7 @@ function StaffAssignments() {
     fields: [
       { name: 'title', label: 'Title', type: 'text', required: true, span: 2 }, { name: 'instructions', label: 'Instructions', type: 'textarea', required: true },
       { name: 'courseId', label: 'Course', type: 'ref', ref: { collection: C.courses, label: (r) => String(r.title) } }, { name: 'classId', label: 'Class (optional)', type: 'ref', ref: { collection: C.classes, label: (r) => String(r.name) } },
+      { name: 'studentId', label: 'Only one learner (optional; leave Course and Class empty)', type: 'ref', span: 2, ref: { collection: C.students, label: (r) => `${String(r.firstName ?? '')} ${String(r.lastName ?? '')}${r.className ? ` (${String(r.className)})` : ''}`.trim(), labelField: 'studentName' } },
       { name: 'dueAt', label: 'Deadline', type: 'datetime', required: true }, { name: 'maxScore', label: 'Maximum score', type: 'number', required: true, min: 1, defaultValue: 100 },
       { name: 'kind', label: 'Type', type: 'select', options: [{ value: 'homework', label: 'Homework' }, { value: 'classwork', label: 'Classwork' }, { value: 'project', label: 'Project' }, { value: 'presentation', label: 'Presentation (view only, nothing to hand in)' }], defaultValue: 'homework' },
       { name: 'allowLate', label: 'Accept late submissions (marked LATE)', type: 'checkbox', defaultValue: true },
@@ -182,8 +183,12 @@ function StaffAssignments() {
       { name: 'allowText', label: 'Allow text submission', type: 'checkbox', defaultValue: true }, { name: 'allowFile', label: 'Allow file submission', type: 'checkbox', defaultValue: true },
     ],
     beforeSave: async (p, e) => {
-      if (!p.courseId && !p.classId) throw new Error('Choose a course or a class for this assignment.');
-      const aud = await resolveAudience({ classId: String(p.classId ?? ''), courseId: String(p.courseId ?? '') }).catch(() => ({ studentUids: [], parentViewers: [] }));
+      const one = String(p.studentId ?? '');
+      if (!p.courseId && !p.classId && !one) throw new Error('Choose a course, a class or one learner for this assignment.');
+      // a single-learner assignment is private to that learner (and their parents): it carries no class or course
+      let aud: { studentUids: string[]; parentViewers: string[] };
+      if (one) { aud = await resolveAudience({ studentId: one }); p.classId = ''; p.courseId = ''; p.studentUid = aud.studentUids[0]; }
+      else { aud = await resolveAudience({ classId: String(p.classId ?? ''), courseId: String(p.courseId ?? '') }).catch(() => ({ studentUids: [], parentViewers: [] })); p.studentUid = ''; p.studentName = ''; }
       const resources = ((p.resources as ResourceLite[] | undefined) ?? []).filter((x) => x?.id);
       const view = p.kind === 'presentation' ? { allowText: false, allowFile: false } : {};
       const body = { ...p, ...aud, ...view, resources, resourceIds: resources.map((x) => x.id) };
@@ -207,7 +212,7 @@ function StaffAssignments() {
   };
   const refreshAudience = async (r: Row) => {
     try {
-      const aud = await resolveAudience({ classId: String(r.classId ?? ''), courseId: String(r.courseId ?? '') });
+      const aud = await resolveAudience({ classId: String(r.classId ?? ''), courseId: String(r.courseId ?? ''), studentId: String(r.studentId ?? '') });
       await patchDoc(C.assignments, r.id, aud);
       void audit('assignment.audience', `assignments/${r.id}`, `${aud.studentUids.length} learners`);
       if (Array.isArray(r.resourceIds) && r.resourceIds.length) await rebuildResourceAccess(r.resourceIds as string[]);
@@ -249,10 +254,11 @@ function StudentAssignments() {
       const lists = await Promise.all([
         ...(profile?.classId ? [listDocs<Assignment_>(C.assignments, [where('classId', '==', profile.classId)])] : []),
         ...enr.data.map((e) => listDocs<Assignment_>(C.assignments, [where('courseId', '==', e.courseId)])),
+        ...(uid ? [listDocs<Assignment_>(C.assignments, [where('studentUid', '==', uid)])] : []),
       ]).catch(() => [] as WithId<Assignment_>[][]);
       const m = new Map<string, WithId<Assignment_>>(); lists.flat().forEach((a) => m.set(a.id, a)); setList([...m.values()].sort((a, b) => (toDate(a.dueAt)?.getTime() ?? 0) - (toDate(b.dueAt)?.getTime() ?? 0)));
     })();
-  }, [enr.data, profile?.classId]);
+  }, [enr.data, profile?.classId, uid]);
   const submit = async () => {
     if (!sel || !uid || !profile) return;
     if (!text.trim() && !file) return toast.error('Write an answer or attach a file.');
