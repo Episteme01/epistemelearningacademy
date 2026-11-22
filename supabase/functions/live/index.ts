@@ -39,10 +39,10 @@ const json = (req: Request, status: number, body: unknown) => new Response(JSON.
 
 // Best-effort per-person throttle (resets when the function restarts).
 const hits = new Map<string, { n: number; t: number }>();
-function throttle(uid: string) {
+function throttle(uid: string, max = 90) {
   const now = Date.now(); const h = hits.get(uid);
   if (!h || now - h.t > 60_000) { hits.set(uid, { n: 1, t: now }); return; }
-  if (++h.n > 90) throw new HttpError(429, 'Too many requests. Wait a minute and try again.');
+  if (++h.n > max) throw new HttpError(429, 'Too many requests. Wait a minute and try again.');
 }
 
 /* ------------------------------------------------------------------ Firebase login */
@@ -182,16 +182,50 @@ async function issueToken(sessionId: string, s: SessionFacts, uid: string, as: L
   const prior = await getAdmin(pPath);
   if (prior?.blocked === true) throw new HttpError(403, 'You were removed from this class. Ask your teacher to let you back in.');
   const name = displayName(fullName, as);
-  await commitOrThrow([{ path: pPath, mask: ['sessionId', 'uid', 'identity', 'role', 'teacherUid', 'name', 'issuedAt'], times: ['issuedAt'], data: { sessionId, uid, identity, role: as, teacherUid: s.teacherUid, name } }], 'participation');
+  await commitOrThrow([{ path: pPath, mask: ['sessionId', 'uid', 'identity', 'role', 'teacherUid', 'name', 'issuedAt', 'waiting'], times: ['issuedAt'], data: { sessionId, uid, identity, role: as, teacherUid: s.teacherUid, name, waiting: false } }], 'participation');
   const token = await accessToken(LK, { identity, name, metadata: JSON.stringify({ r: as }), grant: grantFor(str(room.roomName), as, permOf(prior)), ttlSeconds: TOKEN_TTL_SECONDS });
   return { status: 'live' as const, token, url: LK.url, identity, role: as, name, expiresInSeconds: TOKEN_TTL_SECONDS, startedAtMs: num(room.startedAtMs) };
 }
+
+/** Waiting room: a learner goes in only when the teacher lets them (or the teacher switched on automatic admission). Returns null when they may go in. */
+async function lobbyGate(sessionId: string, s: SessionFacts, uid: string, fullName: string, room: Doc, nowMs: number, strict = false) {
+  const identity = await identityFor(sessionId, uid, ID_SECRET);
+  const pPath = `liveParticipation/${participationId(sessionId, identity)}`;
+  const prior = await getAdmin(pPath);
+  if (prior?.blocked === true) return null;                                   // issueToken explains the removal
+  const gen = num(room.generation) ?? 1;
+  if ((!strict && room.autoAdmit === true) || num(prior?.admittedGen) === gen) return null;       // strict (guests): the host always approves each person
+  if (num(prior?.deniedGen) === gen) throw new HttpError(403, 'Your teacher did not let you into this class. Please speak to your teacher.');
+  if (strict && !prior && (await queryAdmin('liveParticipation', 'sessionId', sessionId, 200)).length >= 150) throw new HttpError(429, 'This meeting is full.');
+  await commitOrThrow([{ path: pPath, mask: ['sessionId', 'uid', 'identity', 'role', 'teacherUid', 'name', 'waiting', 'lastKnockMs'], data: { sessionId, uid, identity, role: 'learner', teacherUid: s.teacherUid, name: displayName(fullName, 'learner'), waiting: true, lastKnockMs: nowMs } }], 'knock');
+  return { status: 'waiting' as const, lobby: true, message: 'Your teacher has been told you are here. You will go in as soon as you are let in.' };
+}
+
+/* ------------------------------------------------------------------ guest meetings (no account needed to join) */
+const isMeeting = (id: string) => id.startsWith('m-');
+const CODE_RE = /^[a-z2-9]{12}$/;
+function newCode(): string {
+  const abc = 'abcdefghjkmnpqrstuvwxyz23456789'; const bytes = crypto.getRandomValues(new Uint8Array(12));
+  return Array.from(bytes, (x) => abc[x % abc.length]).join('');
+}
+/** A meeting behaves like a lesson that has no fixed time and no class list: the host is its creator (or an administrator). */
+const meetingFacts = (sessionId: string, m: Doc): SessionFacts => ({
+  id: sessionId, teacherUid: str(m.hostUid), studentUids: [], startMs: 0, endMs: num(m.expiresAtMs) ?? 0, status: 'scheduled', provider: LIVE_PROVIDER, online: true,
+});
+const cleanGuestName = (v: unknown) => String(v ?? '').replace(/[\u0000-\u001f<>]/g, '').replace(/\s+/g, ' ').trim().slice(0, 40);
+const clientIp = (req: Request) => (req.headers.get('x-forwarded-for') ?? req.headers.get('cf-connecting-ip') ?? 'unknown').split(',')[0]!.trim();
 
 /** Everything a host action needs: login, the lesson, and proof the caller may host it. */
 async function hostContext(req: Request, b: Record<string, unknown>) {
   const { uid, token } = await verify(req); throttle(uid);
   const sessionId = b.sessionId; if (!validId(sessionId)) throw new HttpError(400, 'Invalid class.');
-  const p = await profile(uid, token); const s = await lessonAs(token, sessionId);
+  const p = await profile(uid, token);
+  if (isMeeting(sessionId)) {                                                 // a guest meeting, not a timetable class
+    const m = await getAdmin(`liveMeetings/${sessionId.slice(2)}`);
+    if (!m || m.status === 'closed') throw new HttpError(404, 'This meeting was not found.');
+    return { uid, token, p, s: meetingFacts(sessionId, m), sessionId };
+  }
+  const s = await lessonAs(token, sessionId);
   return { uid, token, p, s, sessionId };
 }
 function mustHost(uid: string, roles: string[], s: SessionFacts, nowMs: number, relaxWindow = false) {
@@ -373,6 +407,60 @@ async function handle(req: Request, b: any): Promise<unknown> {
   cfgOk();
   const now = Date.now();
 
+  if (action === 'guest-token') {
+    // Public: no login. Safe because the guest only gets a token after the host admits them, with no screen sharing, and the link is unguessable and expires.
+    throttle(`ip:${clientIp(req)}`, 600);
+    const code = String(b.code ?? '').toLowerCase(); if (!CODE_RE.test(code)) throw new HttpError(404, 'This meeting link is not valid.');
+    const guestId = String(b.guestId ?? ''); if (!/^[a-f0-9]{32}$/.test(guestId)) throw new HttpError(400, 'Reload the page and try again.');
+    const name = cleanGuestName(b.name); if (!name) throw new HttpError(400, 'Enter your name.');
+    const m = await getAdmin(`liveMeetings/${code}`);
+    if (!m || m.status === 'closed' || now > (num(m.expiresAtMs) ?? 0)) throw new HttpError(404, 'This meeting link is not valid or has expired.');
+    const sessionId = `m-${code}`; const room = await getAdmin(`liveRooms/${sessionId}`);
+    if (!room || room.status !== 'live') return { status: 'waiting', message: 'Waiting for the host to start the meeting.' };
+    const s = meetingFacts(sessionId, m); const uid = `guest:${guestId}`;
+    const gate = await lobbyGate(sessionId, s, uid, name, room, now, true); if (gate) return gate;
+    return await issueToken(sessionId, s, uid, 'learner', name, room);
+  }
+
+  if (action === 'meeting-create' || action === 'meeting-list' || action === 'meeting-extend' || action === 'meeting-close') {
+    const { uid, token } = await verify(req); throttle(uid);
+    const p = await profile(uid, token);
+    const leader = (HOST_ROLES as readonly string[]).some((r) => p.roles.includes(r));
+    if (!leader && !p.roles.includes('teacher')) throw new HttpError(403, 'Only teachers and administrators can create meetings.');
+    const DAY = 86_400_000;
+    if (action === 'meeting-create') {
+      const title = String(b.title ?? '').replace(/[\u0000-\u001f<>]/g, '').trim().slice(0, 80) || 'Meeting';
+      const hours = Math.min(168, Math.max(1, Math.round(Number(b.hours) || 24)));
+      for (let i = 0; i < 5; i++) {
+        const code = newCode();
+        const r = await commit([{ path: `liveMeetings/${code}`, pre: { exists: false }, times: ['createdAt'], data: { code, title, hostUid: uid, hostName: p.name, status: 'open', createdAtMs: now, expiresAtMs: now + hours * 3_600_000 } }]);
+        if (r.ok) return { code, title, createdAtMs: now, expiresAtMs: now + hours * 3_600_000 };
+      }
+      throw new HttpError(503, 'Could not create the meeting. Try again.');
+    }
+    if (action === 'meeting-list') {
+      const rows = (await queryAdmin('liveMeetings', 'hostUid', uid, 100)).filter((m) => m.status !== 'closed' && (num(m.expiresAtMs) ?? 0) > now - 7 * DAY);
+      return { meetings: rows.sort((a, c) => (num(c.createdAtMs) ?? 0) - (num(a.createdAtMs) ?? 0)).map((m) => ({ code: str(m.code), title: str(m.title), createdAtMs: num(m.createdAtMs), expiresAtMs: num(m.expiresAtMs) })) };
+    }
+    const code = String(b.code ?? '').toLowerCase(); if (!CODE_RE.test(code)) throw new HttpError(400, 'Invalid meeting.');
+    const m = await getAdmin(`liveMeetings/${code}`);
+    if (!m || (m.hostUid !== uid && !leader)) throw new HttpError(404, 'This meeting was not found.');
+    if (action === 'meeting-extend') {
+      const hours = Math.min(168, Math.max(1, Math.round(Number(b.hours) || 24)));
+      const exp = Math.min(now + 7 * DAY, Math.max(now, num(m.expiresAtMs) ?? 0) + hours * 3_600_000);
+      await commitOrThrow([{ path: `liveMeetings/${code}`, mask: ['expiresAtMs'], data: { expiresAtMs: exp }, pre: { exists: true } }], 'meeting');
+      return { ok: true, expiresAtMs: exp };
+    }
+    // close: the link stops working and anyone inside is removed
+    const room = await getAdmin(`liveRooms/m-${code}`);
+    if (room && room.status === 'live') {
+      await roomService(LK, str(room.roomName), 'DeleteRoom', { room: str(room.roomName) }, [404]);
+      await commit([{ path: `liveRooms/m-${code}`, mask: ['status', 'endedAt', 'endReason'], times: ['endedAt'], data: { status: 'ended', endReason: 'closed' }, pre: { updateTime: room._updateTime } }]);
+    }
+    await commitOrThrow([{ path: `liveMeetings/${code}`, mask: ['status', 'expiresAtMs'], data: { status: 'closed', expiresAtMs: now }, pre: { exists: true } }], 'meeting');
+    return { ok: true };
+  }
+
   if (action === 'token') {
     const { uid, p, s, sessionId } = await hostContext(req, b);
     const d = decideAccess({ uid, roles: p.roles, session: s, nowMs: now });
@@ -382,6 +470,7 @@ async function handle(req: Request, b: any): Promise<unknown> {
       if (d.as === 'host') throw new HttpError(409, 'Start the class first.');
       return { status: 'waiting', message: 'Waiting for your teacher to start the class.' };      // learners: no token until the teacher starts
     }
+    if (d.as === 'learner') { const gate = await lobbyGate(sessionId, s, uid, p.name, room, now); if (gate) return gate; }
     return await issueToken(sessionId, s, uid, d.as, p.name, room);
   }
 
@@ -416,12 +505,20 @@ async function handle(req: Request, b: any): Promise<unknown> {
     const { uid, p, s, sessionId } = await hostContext(req, b);
     mustHost(uid, p.roles, s, now);
     let room = await getAdmin(`liveRooms/${sessionId}`);
-    if (!room || room.status !== 'live') {
+    // A room still marked live that nobody is in (the teacher left without ending it) is an old class: begin a fresh one so the clock and the waiting room start over.
+    let stale = false;
+    if (room && room.status === 'live') {
+      const here = await livePresence(str(room.roomName));
+      const started = num(room.startedAtMs);
+      stale = here !== null && here.size === 0 && (started == null || now - started > 5 * 60_000);
+      if (stale) await syncAll(sessionId, room, now);                       // close the old class's join/leave records
+    }
+    if (!room || room.status !== 'live' || stale) {
       const roomName = newRoomName();
-      await roomService(LK, roomName, 'CreateRoom', { name: roomName, emptyTimeout: EMPTY_TIMEOUT_SECONDS, maxParticipants: Math.min(MAX_ROOM_PARTICIPANTS, s.studentUids.length + 8) });
+      await roomService(LK, roomName, 'CreateRoom', { name: roomName, emptyTimeout: EMPTY_TIMEOUT_SECONDS, maxParticipants: isMeeting(sessionId) ? 50 : Math.min(MAX_ROOM_PARTICIPANTS, s.studentUids.length + 8) });
       const gen = (num(room?.generation) ?? 0) + 1;
       const w: W = { path: `liveRooms/${sessionId}`, times: ['startedAt'], pre: room ? { updateTime: room._updateTime } : { exists: false },
-        data: { sessionId, roomName, status: 'live', generation: gen, teacherUid: s.teacherUid, startedBy: uid, endedAt: null, endReason: '', recordingEnabled: false, recordingStatus: 'off', startedAtMs: now } };
+        data: { sessionId, roomName, status: 'live', generation: gen, teacherUid: s.teacherUid, startedBy: uid, endedAt: null, endReason: '', recordingEnabled: false, recordingStatus: 'off', startedAtMs: now, autoAdmit: false } };
       const r = await commit([w]);
       if (!r.ok) { room = await getAdmin(`liveRooms/${sessionId}`); if (!room || room.status !== 'live') throw new HttpError(409, 'The class is being started. Try again.'); }
       else room = await getAdmin(`liveRooms/${sessionId}`);
@@ -438,10 +535,35 @@ async function handle(req: Request, b: any): Promise<unknown> {
       await roomService(LK, str(room.roomName), 'DeleteRoom', { room: str(room.roomName) }, [404]);
       await commitOrThrow([
         { path: `liveRooms/${sessionId}`, mask: ['status', 'endedAt', 'endReason', 'endedBy'], times: ['endedAt'], data: { status: 'ended', endReason: 'host', endedBy: uid } },
-        { path: `sessions/${sessionId}`, mask: ['status', 'updatedBy', 'updatedAt'], times: ['updatedAt'], data: { status: 'completed', updatedBy: uid } },
+        ...(isMeeting(sessionId) ? [] : [{ path: `sessions/${sessionId}`, mask: ['status', 'updatedBy', 'updatedAt'], times: ['updatedAt'], data: { status: 'completed', updatedBy: uid } }]),
       ], 'end');
     }
     return { ok: true, ...(await reconcile(sessionId, now)) };
+  }
+
+  if (action === 'lobby' || action === 'admit' || action === 'deny' || action === 'auto-admit') {
+    const { uid, p, s, sessionId } = await hostContext(req, b);
+    mustHost(uid, p.roles, s, now, true);
+    const room = await getAdmin(`liveRooms/${sessionId}`);
+    if (!room || room.status !== 'live') { if (action === 'lobby') return { live: false, waiting: [], auto: false }; throw new HttpError(409, 'The class is not live.'); }
+    const gen = num(room.generation) ?? 1;
+    const waitingRows = async () => (await queryAdmin('liveParticipation', 'sessionId', sessionId))
+      .filter((r) => r.role === 'learner' && r.waiting === true && r.blocked !== true && num(r.deniedGen) !== gen && now - (num(r.lastKnockMs) ?? 0) < 30_000);
+    if (action === 'lobby') {
+      return { live: true, auto: room.autoAdmit === true, waiting: (await waitingRows()).map((r) => ({ identity: str(r.identity), name: str(r.name), sinceMs: num(r.lastKnockMs) })) };
+    }
+    if (action === 'auto-admit') {
+      if (isMeeting(sessionId)) throw new HttpError(400, 'Guests are approved one by one.');
+      const on = b.on === true;
+      await commitOrThrow([{ path: `liveRooms/${sessionId}`, mask: ['autoAdmit'], data: { autoAdmit: on }, pre: { exists: true } }], 'auto-admit');
+      if (on) for (const r of await waitingRows()) await commitOrThrow([{ path: `liveParticipation/${r._id}`, mask: ['admittedGen', 'waiting'], data: { admittedGen: gen, waiting: false } }], 'admit');
+      return { ok: true, auto: on };
+    }
+    const targets = b.all === true ? (await waitingRows()).map((r) => `liveParticipation/${r._id}`) : [(await targetOf(sessionId, b.identity)).path];
+    for (const path of targets) {
+      await commitOrThrow([{ path, mask: action === 'admit' ? ['admittedGen', 'waiting'] : ['deniedGen', 'waiting'], data: action === 'admit' ? { admittedGen: gen, waiting: false } : { deniedGen: gen, waiting: false } }], action);
+    }
+    return { ok: true, count: targets.length };
   }
 
   if (action === 'reconcile') {
@@ -457,7 +579,7 @@ async function handle(req: Request, b: any): Promise<unknown> {
     if (liveRoom && liveRoom.status === 'live') await syncAll(sessionId, liveRoom, now);
     const webhookEvents = (await queryAdmin('liveEvents', 'sessionId', sessionId, 3)).length;
     const rows = await queryAdmin('liveParticipation', 'sessionId', sessionId);
-    return { webhookEvents, participants: rows.map((r) => ({ identity: str(r.identity), name: str(r.name), role: str(r.role), connected: r.connected === true, firstJoinAt: num(r.firstJoinMs), lastLeftAt: num(r.lastLeftMs), totalSeconds: closeAt(stateOf(r), now).totalSeconds, joinCount: num(r.joinCount) ?? 0, blocked: r.blocked === true, perm: permOf(r) })) };
+    return { webhookEvents, participants: rows.filter((r) => r.waiting !== true).map((r) => ({ identity: str(r.identity), name: str(r.name), role: str(r.role), connected: r.connected === true, firstJoinAt: num(r.firstJoinMs), lastLeftAt: num(r.lastLeftMs), totalSeconds: closeAt(stateOf(r), now).totalSeconds, joinCount: num(r.joinCount) ?? 0, blocked: r.blocked === true, perm: permOf(r) })) };
   }
 
   if (action === 'mute' || action === 'remove' || action === 'unblock' || action === 'permit' || action === 'mute-all') {
