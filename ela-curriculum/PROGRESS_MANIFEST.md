@@ -6,10 +6,10 @@ Updated at the end of every batch. Counts come from `tools/validate.mjs`; see `v
 
 | Item | Done | Target |
 | --- | --- | --- |
-| Programmes complete | 3 (Toddler Numeracy, Literacy, Science; all draft) | 16 |
-| Programme frameworks written | 3 (Toddler Numeracy, Literacy, Science; each with 30-week scope and sequence) | 16 |
-| Weekly plans | 90 | 480 |
-| Daily lessons | 450 | 2,400 |
+| Programmes complete | 4 (Toddler Numeracy, Literacy, Science, Social Habits; all draft) | 16 |
+| Programme frameworks written | 4 (all Toddler subjects; each with 30-week scope and sequence) | 16 |
+| Weekly plans | 120 | 480 |
+| Daily lessons | 600 | 2,400 |
 
 ## Batch log
 
@@ -22,16 +22,17 @@ Updated at the end of every batch. Counts come from `tools/validate.mjs`; see `v
 | 3 | Toddler Numeracy Term 3 (Weeks 1 to 10, 50 lessons) and Term 3 scheme of work. Toddler Numeracy now has all 150 lessons | Passes validator (0 errors); 24 warnings, all short lesson presentations | Status draft. Programme is structurally complete, not yet reviewed or enriched |
 | 4 | Toddler Literacy complete: framework, 30-week scope, phonics sequence (shared/phonics-sequence.md), Terms 1 to 3 (150 lessons) and term schemes of work. Also the portal importer (in the app repo, not in this folder) | Passes validator (0 errors, ajv JSON Schema); 57 warnings across both programmes, mostly short Day 5 presentations | Status draft. Weeks are untested with children and unreviewed by an early-years specialist |
 | 5 | Toddler Science complete: framework, 30-week scope, Terms 1 to 3 (150 lessons) and term schemes of work | Passes validator (0 errors); 105 warnings across three programmes, mostly short Day 5 presentations | Status draft. Untested with children; science activities need a safety read-through by the school |
+| 6 | Toddler Social Habits complete: framework, 30-week scope, Terms 1 to 3 (150 lessons) and term schemes of work. The Toddler class is now complete (600 lessons) | Passes validator (0 errors); 205 warnings across four programmes, mostly short Day 5 presentations | Status draft. Week 6 of Term 3 (body safety) must be checked against the school safeguarding policy and shared with parents before use; untested with children |
 
 ## Remaining for Toddler Numeracy and Literacy
 
 - Enrich Term 1 Weeks 3 to 5 and the Day 5 lessons flagged by the validator
-- Enrich short Day 5 and review lessons in Toddler Literacy and Science (same validator warning)
+- Enrich short Day 5 and review lessons in Toddler Literacy, Science and Social Habits (same validator warning)
 - Check the phonics sequence and the pure-sound pronunciation guidance with a phonics-trained teacher
 
 ## Remaining programmes (not started)
 
-Toddler: Social Habits. Nursery 1, Nursery 2, Reception: all four subjects each. Their frameworks, scopes and 150 lessons each.
+Nursery 1, Nursery 2, Reception: all four subjects each. Their frameworks, scopes and 150 lessons each.
 
 ## Status of everything written
 
