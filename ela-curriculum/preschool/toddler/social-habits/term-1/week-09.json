@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SOC-T1-W09",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 1,
+  "week": 9,
+  "title": "Staying safe at school",
+  "topic": "Safety",
+  "subtopics": [
+    "Staying with my teacher",
+    "Hot, sharp and dirty things",
+    "Safe play"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will stay with their group and an adult.",
+    "Children will say stop or hot for dangerous things."
+  ],
+  "vocabulary": [
+    "safe",
+    "stop",
+    "hot",
+    "danger",
+    "together",
+    "walk"
+  ],
+  "content": "Staying with my teacher, hot, sharp and dirty things, and safe play.",
+  "teachingActivities": "Keep rules few and clear; use the words stop, hot and wait; practise rules by play; praise safe behaviour; never frighten children; check the compound for hazards daily; keep gates secure and count children often.",
+  "learnerActivities": "Stay with the group and an adult and stop when told stop.",
+  "resources": [
+    "A stop sign",
+    "A hot sign with a picture of a hot pot",
+    "Rope loops for walking",
+    "A safety song",
+    "Pictures of safe and unsafe play"
+  ],
+  "assessment": "Observe whether each child stays with the group and stops when told stop.",
+  "expectedOutcomes": [
+    "Stays with the teacher in the compound.",
+    "Stops when told \"stop\"."
+  ],
+  "crossCurricular": [
+    "Physical Development: stopping and starting",
+    "Literacy: safety words",
+    "Numeracy: counting the group"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W09-D01",
+      "title": "Staying with my teacher",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 9,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Staying with my teacher",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will stay with their teacher and group."
+      ],
+      "successCriteria": [
+        "Stays near the teacher",
+        "Holds a rope or a hand when walking"
+      ],
+      "previousKnowledge": "Children can follow routines and use the toilet with support.",
+      "vocabulary": [
+        "safe",
+        "stop",
+        "hot",
+        "danger",
+        "together",
+        "walk"
+      ],
+      "resources": [
+        "A rope with loops",
+        "A picture of a group",
+        "A safety song"
+      ],
+      "starter": "Sing \"Stay with me, stay with me, hold the rope and walk with me.\"",
+      "teacherActivities": [
+        "Show how to hold a loop of the rope.",
+        "Walk slowly around the room together.",
+        "Stop and count the children.",
+        "Say \"We always stay with our teacher.\""
+      ],
+      "learnerActivities": [
+        "Children hold a loop.",
+        "Children walk with the rope.",
+        "Children stand still and look.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to hold a loop of the rope. Children: Children hold a loop.",
+        "Step 2. Teacher: Walk slowly around the room together. Children: Children walk with the rope.",
+        "Step 3. Teacher: Stop and count the children. Children: Children stand still and look.",
+        "Step 4. Teacher: Say \"We always stay with our teacher.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "Rope walk",
+        "steps": [
+          "Hold a loop of the rope.",
+          "Walk slowly with the teacher.",
+          "Stop and count."
+        ],
+        "safety": "Walk slowly and keep a second adult at the back of the line. Use soft rope with loops and never tie children to it."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand at the front of the line.",
+        "extension": "Ask the child to help count the group."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who do we stay with?",
+            "expected": "Our teacher."
+          },
+          {
+            "question": "What do we hold?",
+            "expected": "The rope or a hand."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Stays with the teacher and group",
+        "Walks with a rope or hand"
+      ],
+      "conclusion": "Sit together and count the children.",
+      "homeConnection": "Practise staying close and holding hands in public places.",
+      "teacherReflection": [
+        "Which children could show \"stay with their teacher and group\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "STAY",
+          "SAFE"
+        ],
+        "pictures": [
+          "Children on a rope walk"
+        ],
+        "songOrRhyme": "Stay with me, stay with me, hold the rope and walk with me."
+      },
+      "activities": [
+        "Rope walk"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W09-D02",
+      "title": "Stop and hot",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 9,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Hot, sharp and dirty things",
+      "dayType": "explore",
+      "objectives": [
+        "Children will stop when they hear stop and say hot for dangerous things."
+      ],
+      "successCriteria": [
+        "Stops on the word stop",
+        "Says hot for a hot picture"
+      ],
+      "previousKnowledge": "Children can follow routines and use the toilet with support.",
+      "vocabulary": [
+        "safe",
+        "stop",
+        "hot",
+        "danger",
+        "together",
+        "walk"
+      ],
+      "resources": [
+        "A stop sign",
+        "A hot pot picture",
+        "A sharp knife picture",
+        "A puppet"
+      ],
+      "starter": "Hold up the stop sign and say \"When I say stop, we stop still like a statue.\"",
+      "teacherActivities": [
+        "Play stop and go with music.",
+        "Show the hot sign and say \"Hot! Do not touch.\"",
+        "Show pictures of sharp or dirty things and say \"Ask a grown-up.\"",
+        "Praise children who stop quickly."
+      ],
+      "learnerActivities": [
+        "Children move and stop.",
+        "Children say hot and step back.",
+        "Children say no touch.",
+        "Children smile and clap."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play stop and go with music. Children: Children move and stop.",
+        "Step 2. Teacher: Show the hot sign and say \"Hot! Do not touch.\" Children: Children say hot and step back.",
+        "Step 3. Teacher: Show pictures of sharp or dirty things and say \"Ask a grown-up.\" Children: Children say no touch.",
+        "Step 4. Teacher: Praise children who stop quickly. Children: Children smile and clap."
+      ],
+      "practical": {
+        "title": "Stop game",
+        "steps": [
+          "Move to music.",
+          "Stop when the teacher says stop.",
+          "Say hot to a hot picture."
+        ],
+        "safety": "Use only pictures of hot and sharp objects, never real ones. Keep the floor clear and stop movement games quickly if a child is hurt."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and stop together.",
+        "extension": "Ask the child to find a hot thing in a picture."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do when we hear stop?",
+            "expected": "Stop still."
+          },
+          {
+            "question": "Is a hot pot safe to touch?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Stops on the word stop",
+        "Says hot for dangerous things"
+      ],
+      "conclusion": "Stand still like a statue and then wave.",
+      "homeConnection": "Teach hot and stop at home with a pretend game.",
+      "teacherReflection": [
+        "Which children could show \"stop when they hear stop and say hot for dangerous things\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "STOP",
+          "HOT"
+        ],
+        "pictures": [
+          "A stop sign",
+          "A hot pot"
+        ]
+      },
+      "activities": [
+        "Stop game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W09-D03",
+      "title": "Safe play outdoors",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 9,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Safe play",
+      "dayType": "practise",
+      "objectives": [
+        "Children will play safely outdoors with an adult watching."
+      ],
+      "successCriteria": [
+        "Plays on equipment safely",
+        "Stays inside the play area"
+      ],
+      "previousKnowledge": "Children can follow routines and use the toilet with support.",
+      "vocabulary": [
+        "safe",
+        "stop",
+        "hot",
+        "danger",
+        "together",
+        "walk"
+      ],
+      "resources": [
+        "A play area marked with cones or a rope",
+        "Safe play equipment",
+        "A whistle or bell"
+      ],
+      "starter": "Show the play area boundary and say \"We play inside the rope where it is safe.\"",
+      "teacherActivities": [
+        "Show the boundary and how to play inside it.",
+        "Let children play with the equipment.",
+        "Ring the bell and say \"Come back.\"",
+        "Say \"We play safely and look after friends.\""
+      ],
+      "learnerActivities": [
+        "Children walk around the boundary.",
+        "Children play safely.",
+        "Children come to the teacher.",
+        "Children repeat safe."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the boundary and how to play inside it. Children: Children walk around the boundary.",
+        "Step 2. Teacher: Let children play with the equipment. Children: Children play safely.",
+        "Step 3. Teacher: Ring the bell and say \"Come back.\" Children: Children come to the teacher.",
+        "Step 4. Teacher: Say \"We play safely and look after friends.\" Children: Children repeat safe."
+      ],
+      "practical": {
+        "title": "Safe play",
+        "steps": [
+          "Look at the boundary.",
+          "Play inside it.",
+          "Come back at the bell."
+        ],
+        "safety": "Check the area for hazards before play and keep an adult at every piece of equipment. Never leave children unattended."
+      },
+      "differentiation": {
+        "support": "Play beside the child and stay close.",
+        "extension": "Ask the child to remind a friend to stay inside."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where do we play?",
+            "expected": "Inside the rope."
+          },
+          {
+            "question": "What do we do at the bell?",
+            "expected": "Come back."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays safely inside the boundary",
+        "Comes back at the signal"
+      ],
+      "conclusion": "Count the children and wave goodbye.",
+      "homeConnection": "Play in safe places at home and set clear limits.",
+      "teacherReflection": [
+        "Which children could show \"play safely outdoors with an adult watching\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAFE",
+          "PLAY"
+        ],
+        "pictures": [
+          "A safe play area"
+        ]
+      },
+      "activities": [
+        "Safe play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W09-D04",
+      "title": "Safe and unsafe pictures",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 9,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Safe play",
+      "dayType": "apply",
+      "objectives": [
+        "Children will sort pictures into safe and unsafe."
+      ],
+      "successCriteria": [
+        "Points to a safe picture",
+        "Says no for an unsafe picture"
+      ],
+      "previousKnowledge": "Children can follow routines and use the toilet with support.",
+      "vocabulary": [
+        "safe",
+        "stop",
+        "hot",
+        "danger",
+        "together",
+        "walk"
+      ],
+      "resources": [
+        "Pictures of safe and unsafe actions",
+        "Two baskets: smiling face and stop sign"
+      ],
+      "starter": "Show two baskets and say \"Safe things go in the happy basket. Unsafe things go in the stop basket.\"",
+      "teacherActivities": [
+        "Show a picture and ask \"Is it safe?\"",
+        "Put the picture in the correct basket.",
+        "Talk about why one is unsafe.",
+        "Say \"We always stay safe.\""
+      ],
+      "learnerActivities": [
+        "Children look and say yes or no.",
+        "Child puts the picture in a basket.",
+        "Children point to the danger.",
+        "Children repeat safe."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a picture and ask \"Is it safe?\" Children: Children look and say yes or no.",
+        "Step 2. Teacher: Put the picture in the correct basket. Children: Child puts the picture in a basket.",
+        "Step 3. Teacher: Talk about why one is unsafe. Children: Children point to the danger.",
+        "Step 4. Teacher: Say \"We always stay safe.\" Children: Children repeat safe."
+      ],
+      "practical": {
+        "title": "Safe sort",
+        "steps": [
+          "Look at each picture.",
+          "Say safe or not safe.",
+          "Put it in a basket."
+        ],
+        "safety": "Use only gentle pictures with no frightening images. Stop if a child becomes worried and comfort them."
+      },
+      "differentiation": {
+        "support": "Offer two pictures and say safe or not first.",
+        "extension": "Ask the child to find another unsafe picture."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is this safe?",
+            "expected": "Yes or no."
+          },
+          {
+            "question": "What do we say to danger?",
+            "expected": "Stop."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts pictures into safe and unsafe",
+        "Says stop to danger"
+      ],
+      "conclusion": "Put the baskets away and say \"Stay safe.\"",
+      "homeConnection": "Talk about safe and unsafe things around the house.",
+      "teacherReflection": [
+        "Which children could show \"sort pictures into safe and unsafe\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAFE",
+          "STOP"
+        ],
+        "pictures": [
+          "Safe and unsafe pictures"
+        ]
+      },
+      "activities": [
+        "Safe sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W09-D05",
+      "title": "Week 9 safety check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 9,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Staying with my teacher",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child follows safety rules."
+      ],
+      "successCriteria": [
+        "Stays with the group",
+        "Stops on the word stop"
+      ],
+      "previousKnowledge": "Children can follow routines and use the toilet with support.",
+      "vocabulary": [
+        "safe",
+        "stop",
+        "hot",
+        "danger",
+        "together",
+        "walk"
+      ],
+      "resources": [
+        "Rope",
+        "Stop sign",
+        "Pictures",
+        "Class record sheet"
+      ],
+      "starter": "Sing the safety song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: rope walk, stop game and safe pictures.",
+        "At each station watch how the child follows the rule.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child follows with a prompt.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: rope walk, stop game and safe pictures. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child follows the rule. Children: Child follows with a prompt.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Safety stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use only pictures and soft equipment."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to lead the rope walk."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: stays with the group; stops on the word stop; says hot; plays safely.",
+        "questions": [
+          {
+            "question": "Who do we stay with?",
+            "expected": "Our teacher."
+          },
+          {
+            "question": "What do we do at stop?",
+            "expected": "Stop still."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Follows safety rules with support"
+      ],
+      "conclusion": "Count the children and wave goodbye.",
+      "homeConnection": "Keep safety rules clear and simple at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child follows safety rules\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Safety"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Safety stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

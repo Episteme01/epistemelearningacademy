@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SOC-T1-W05",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 1,
+  "week": 5,
+  "title": "Classroom routines",
+  "topic": "Routines",
+  "subtopics": [
+    "Circle time and listening",
+    "Lining up and walking",
+    "Tidy-up time"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will follow simple classroom routines.",
+    "Children will help to tidy up when asked."
+  ],
+  "vocabulary": [
+    "line",
+    "sit",
+    "listen",
+    "tidy",
+    "circle",
+    "walk"
+  ],
+  "content": "Circle time and listening, lining up and walking, and tidy-up time.",
+  "teachingActivities": "Use the same routine words and songs every day; show before you tell; give a warning before change; praise children who follow the routine; keep each routine short; let children have jobs.",
+  "learnerActivities": "Follow simple classroom routines such as sitting in the circle, lining up and tidying.",
+  "resources": [
+    "A mat for circle time",
+    "A tidy-up song",
+    "A picture timetable",
+    "Baskets for toys",
+    "A line of footprints on the floor"
+  ],
+  "assessment": "Observe whether each child sits in the circle, joins a line and helps to tidy with support.",
+  "expectedOutcomes": [
+    "Sits in the circle and joins a line with support.",
+    "Helps to tidy toys."
+  ],
+  "crossCurricular": [
+    "Physical Development: walking in a line",
+    "Literacy: routine songs",
+    "Numeracy: counting in line"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W05-D01",
+      "title": "Circle time",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 5,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Routines",
+      "subtopic": "Circle time and listening",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will sit in the circle and listen for a short time."
+      ],
+      "successCriteria": [
+        "Sits on the mat for two minutes",
+        "Looks at the teacher when called"
+      ],
+      "previousKnowledge": "Children can greet, use please and thank you and name feelings.",
+      "vocabulary": [
+        "line",
+        "sit",
+        "listen",
+        "tidy",
+        "circle",
+        "walk"
+      ],
+      "resources": [
+        "A mat",
+        "A circle song",
+        "A puppet"
+      ],
+      "starter": "Sing \"Come and sit, come and sit, sit in the circle\" and show where to sit.",
+      "teacherActivities": [
+        "Show how to sit on the mat with a quiet body.",
+        "Say \"Listening ears on\" and touch your ears.",
+        "Tell a very short story with the puppet.",
+        "Praise children who sit well."
+      ],
+      "learnerActivities": [
+        "Children sit and look.",
+        "Children touch their ears and look.",
+        "Children listen and smile.",
+        "Children stay seated for a short time."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to sit on the mat with a quiet body. Children: Children sit and look.",
+        "Step 2. Teacher: Say \"Listening ears on\" and touch your ears. Children: Children touch their ears and look.",
+        "Step 3. Teacher: Tell a very short story with the puppet. Children: Children listen and smile.",
+        "Step 4. Teacher: Praise children who sit well. Children: Children stay seated for a short time."
+      ],
+      "practical": {
+        "title": "Circle time practice",
+        "steps": [
+          "Sing the circle song.",
+          "Sit in a circle.",
+          "Listen to a short story."
+        ],
+        "safety": "Leave space between children and sit away from furniture. Never force a child to sit; offer a lap or a quiet spot."
+      },
+      "differentiation": {
+        "support": "Sit beside the child and use a short time.",
+        "extension": "Ask the child to help a friend find a place."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where do we sit?",
+            "expected": "On the mat."
+          },
+          {
+            "question": "What do we use to listen?",
+            "expected": "Our ears."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sits in the circle for a short time",
+        "Looks at the teacher when called"
+      ],
+      "conclusion": "Sing the goodbye song and stand up quietly.",
+      "homeConnection": "Practise sitting together for a short story at home.",
+      "teacherReflection": [
+        "Which children could show \"sit in the circle and listen for a short time\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CIRCLE",
+          "SIT"
+        ],
+        "pictures": [
+          "Children in a circle"
+        ],
+        "songOrRhyme": "Come and sit, come and sit, sit in the circle."
+      },
+      "activities": [
+        "Circle time practice"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W05-D02",
+      "title": "Lining up and walking",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 5,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Routines",
+      "subtopic": "Lining up and walking",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will line up and walk with the group."
+      ],
+      "successCriteria": [
+        "Joins a line with support",
+        "Walks beside the teacher"
+      ],
+      "previousKnowledge": "Children can greet, use please and thank you and name feelings.",
+      "vocabulary": [
+        "line",
+        "sit",
+        "listen",
+        "tidy",
+        "circle",
+        "walk"
+      ],
+      "resources": [
+        "Footprints on the floor",
+        "A rope with loops or a hand-hold",
+        "A line-up song"
+      ],
+      "starter": "Put footprints on the floor and say \"Let us stand on the footprints and make a line.\"",
+      "teacherActivities": [
+        "Show how to stand on a footprint.",
+        "Say \"Walk, walk, walk\" and lead the line.",
+        "Stop and start with a signal.",
+        "Walk to the door and back."
+      ],
+      "learnerActivities": [
+        "Children stand on footprints.",
+        "Children walk in a line.",
+        "Children stop and wait.",
+        "Children walk with a friend."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to stand on a footprint. Children: Children stand on footprints.",
+        "Step 2. Teacher: Say \"Walk, walk, walk\" and lead the line. Children: Children walk in a line.",
+        "Step 3. Teacher: Stop and start with a signal. Children: Children stop and wait.",
+        "Step 4. Teacher: Walk to the door and back. Children: Children walk with a friend."
+      ],
+      "practical": {
+        "title": "Line and walk",
+        "steps": [
+          "Stand on footprints.",
+          "Walk in a line.",
+          "Stop and start together."
+        ],
+        "safety": "Keep the route clear of hazards and keep children at a walking pace. An adult must be at the front and the back of the line."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand at the front of the line.",
+        "extension": "Ask the child to be the line leader."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How do we walk?",
+            "expected": "In a line."
+          },
+          {
+            "question": "What do we do at the signal?",
+            "expected": "Stop."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins a line with support",
+        "Walks and stops on a signal"
+      ],
+      "conclusion": "Sing the line-up song and sit down.",
+      "homeConnection": "Practise walking holding hands at home and outside.",
+      "teacherReflection": [
+        "Which children could show \"line up and walk with the group\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LINE",
+          "WALK"
+        ],
+        "pictures": [
+          "Children in a line"
+        ]
+      },
+      "activities": [
+        "Line and walk"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W05-D03",
+      "title": "Tidy-up time",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 5,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Routines",
+      "subtopic": "Tidy-up time",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will help to put toys away when the tidy-up song plays."
+      ],
+      "successCriteria": [
+        "Puts a toy in a basket",
+        "Says tidy up"
+      ],
+      "previousKnowledge": "Children can greet, use please and thank you and name feelings.",
+      "vocabulary": [
+        "line",
+        "sit",
+        "listen",
+        "tidy",
+        "circle",
+        "walk"
+      ],
+      "resources": [
+        "Baskets for toys",
+        "Toys with pictures on the baskets",
+        "A tidy-up song"
+      ],
+      "starter": "Sing \"Tidy up, tidy up, everybody tidy up\" and point to the toys on the floor.",
+      "teacherActivities": [
+        "Show how to put a block in the block basket.",
+        "Sing the tidy-up song while children work.",
+        "Check the floor together and say \"All tidy.\"",
+        "Praise the tidy room."
+      ],
+      "learnerActivities": [
+        "Children watch and copy.",
+        "Children put toys in baskets.",
+        "Child looks at the floor and says tidy.",
+        "Children clap and cheer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to put a block in the block basket. Children: Children watch and copy.",
+        "Step 2. Teacher: Sing the tidy-up song while children work. Children: Children put toys in baskets.",
+        "Step 3. Teacher: Check the floor together and say \"All tidy.\" Children: Child looks at the floor and says tidy.",
+        "Step 4. Teacher: Praise the tidy room. Children: Children clap and cheer."
+      ],
+      "practical": {
+        "title": "Tidy up",
+        "steps": [
+          "Look at the toys on the floor.",
+          "Put each in its basket.",
+          "Check the floor."
+        ],
+        "safety": "Keep walkways clear and supervise lifting of large items. Use large, light toys only."
+      },
+      "differentiation": {
+        "support": "Tidy together and name each toy.",
+        "extension": "Ask the child to tell a friend where a toy goes."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does this toy go?",
+            "expected": "In its basket."
+          },
+          {
+            "question": "Is the floor tidy?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Puts toys in baskets",
+        "Says tidy up with a prompt"
+      ],
+      "conclusion": "Look at the tidy room and say \"Well done.\"",
+      "homeConnection": "Give your child a small tidying job at home.",
+      "teacherReflection": [
+        "Which children could show \"help to put toys away when the tidy-up song plays\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TIDY",
+          "BASKET"
+        ],
+        "pictures": [
+          "A tidy toy basket"
+        ],
+        "songOrRhyme": "Tidy up, tidy up, everybody tidy up."
+      },
+      "activities": [
+        "Tidy up"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W05-D04",
+      "title": "Our daily routine",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 5,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Routines",
+      "subtopic": "Circle time and listening",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will follow the picture timetable and know what comes next."
+      ],
+      "successCriteria": [
+        "Looks at the timetable pictures",
+        "Moves to the next activity with a prompt"
+      ],
+      "previousKnowledge": "Children can greet, use please and thank you and name feelings.",
+      "vocabulary": [
+        "line",
+        "sit",
+        "listen",
+        "tidy",
+        "circle",
+        "walk"
+      ],
+      "resources": [
+        "A picture timetable with four to six pictures",
+        "A bell",
+        "Toys"
+      ],
+      "starter": "Show the picture timetable and say \"First circle, then play, then snack, then home.\"",
+      "teacherActivities": [
+        "Show each picture and say what happens.",
+        "Ring the bell and move to the next picture.",
+        "Let a child turn over a picture to show what is next.",
+        "Talk about how routines help us feel safe."
+      ],
+      "learnerActivities": [
+        "Children look and name the activity.",
+        "Children move to the next activity.",
+        "Child turns the picture.",
+        "Children smile and nod."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture and say what happens. Children: Children look and name the activity.",
+        "Step 2. Teacher: Ring the bell and move to the next picture. Children: Children move to the next activity.",
+        "Step 3. Teacher: Let a child turn over a picture to show what is next. Children: Child turns the picture.",
+        "Step 4. Teacher: Talk about how routines help us feel safe. Children: Children smile and nod."
+      ],
+      "practical": {
+        "title": "Following the timetable",
+        "steps": [
+          "Look at the timetable.",
+          "Do each activity in order.",
+          "Turn the picture."
+        ],
+        "safety": "Keep transitions calm and give a warning before changes. Stay near children who find change hard."
+      },
+      "differentiation": {
+        "support": "Point to the picture and walk with the child.",
+        "extension": "Ask the child to tell what comes after snack."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes next?",
+            "expected": "The next activity."
+          },
+          {
+            "question": "What do we do after play?",
+            "expected": "Tidy up."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows the picture timetable",
+        "Moves to the next activity with a prompt"
+      ],
+      "conclusion": "Sing the goodbye song and wave.",
+      "homeConnection": "Use a simple picture routine at home for morning and bedtime.",
+      "teacherReflection": [
+        "Which children could show \"follow the picture timetable and know what comes next\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "NEXT",
+          "FIRST"
+        ],
+        "pictures": [
+          "A picture timetable"
+        ]
+      },
+      "activities": [
+        "Following the timetable"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W05-D05",
+      "title": "Week 5 routines check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 5,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Routines",
+      "subtopic": "Tidy-up time",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child follows routines."
+      ],
+      "successCriteria": [
+        "Sits in the circle",
+        "Helps to tidy up"
+      ],
+      "previousKnowledge": "Children can greet, use please and thank you and name feelings.",
+      "vocabulary": [
+        "line",
+        "sit",
+        "listen",
+        "tidy",
+        "circle",
+        "walk"
+      ],
+      "resources": [
+        "Mat",
+        "Baskets",
+        "Footprints",
+        "Class record sheet"
+      ],
+      "starter": "Sing the circle song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: circle, line and tidy.",
+        "At each station watch how the child follows the routine.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child follows with a prompt.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: circle, line and tidy. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child follows the routine. Children: Child follows with a prompt.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Routine stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep walkways clear. Use light, large objects only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one routine.",
+        "extension": "Ask a confident child to lead the line."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: sits for circle time; joins a line; helps to tidy; follows the picture timetable.",
+        "questions": [
+          {
+            "question": "Where do we sit?",
+            "expected": "On the mat."
+          },
+          {
+            "question": "What do we do with toys?",
+            "expected": "Put them away."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Follows classroom routines with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep using simple routines at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child follows routines\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Routines"
+        ],
+        "pictures": [
+          "Photos of routines"
+        ]
+      },
+      "activities": [
+        "Routine stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

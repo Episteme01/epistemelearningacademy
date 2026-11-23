@@ -1,0 +1,604 @@
+{
+  "id": "ELA-PS-TOD-SOC-T1-W08",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 1,
+  "week": 8,
+  "title": "Toilet and clean hands",
+  "topic": "Health habits",
+  "subtopics": [
+    "Telling the teacher I need the toilet",
+    "Washing my hands",
+    "Wiping and flushing with help"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will tell an adult when they need the toilet.",
+    "Children will wash their hands after using the toilet."
+  ],
+  "vocabulary": [
+    "toilet",
+    "wash",
+    "soap",
+    "flush",
+    "clean",
+    "towel"
+  ],
+  "content": "Telling the teacher when I need the toilet, washing my hands, and wiping and flushing with help.",
+  "teachingActivities": "Treat accidents as normal and never shame a child; ask every child regularly and let them go when they need to; use simple words agreed with parents; model hand washing with a song; ensure a second adult is available; follow the school hygiene and safeguarding policy for toilet help.",
+  "learnerActivities": "Tell an adult about toilet needs, use the toilet with support and wash hands with soap.",
+  "resources": [
+    "A potty or child toilet",
+    "A doll",
+    "Soap, a basin and towels",
+    "A hand washing song",
+    "Pictures of toilet steps",
+    "Spare clothes"
+  ],
+  "assessment": "Observe whether each child tells an adult they need the toilet and washes hands with support.",
+  "expectedOutcomes": [
+    "Tells an adult they need the toilet with a word or sign.",
+    "Washes hands with support."
+  ],
+  "crossCurricular": [
+    "Science: keeping clean",
+    "Literacy: toilet words",
+    "Physical Development: self-care"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W08-D01",
+      "title": "Telling the teacher",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 8,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Health habits",
+      "subtopic": "Telling the teacher I need the toilet",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will tell an adult when they need the toilet with a word or sign."
+      ],
+      "successCriteria": [
+        "Says or signs toilet",
+        "Goes to the toilet with an adult"
+      ],
+      "previousKnowledge": "Children can follow routines, share and show kindness.",
+      "vocabulary": [
+        "toilet",
+        "wash",
+        "soap",
+        "flush",
+        "clean",
+        "towel"
+      ],
+      "resources": [
+        "A doll",
+        "A picture of a toilet",
+        "A toilet song"
+      ],
+      "starter": "Show the doll and say \"Dolly needs the toilet. She tells her teacher: toilet please.\"",
+      "teacherActivities": [
+        "Show how the doll tells the teacher \"toilet please\".",
+        "Say \"We tell the teacher when we need the toilet.\"",
+        "Practise the word or sign with each child.",
+        "Take small groups to see the toilet room."
+      ],
+      "learnerActivities": [
+        "Children watch and say toilet.",
+        "Children repeat toilet please.",
+        "Child says or signs toilet.",
+        "Children visit and look."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how the doll tells the teacher \"toilet please\". Children: Children watch and say toilet.",
+        "Step 2. Teacher: Say \"We tell the teacher when we need the toilet.\" Children: Children repeat toilet please.",
+        "Step 3. Teacher: Practise the word or sign with each child. Children: Child says or signs toilet.",
+        "Step 4. Teacher: Take small groups to see the toilet room. Children: Children visit and look."
+      ],
+      "practical": {
+        "title": "Toilet words",
+        "steps": [
+          "Use the doll to practise.",
+          "Say toilet please.",
+          "Visit the toilet room."
+        ],
+        "safety": "Use only school-approved toilet routines with a second adult nearby and keep doors open or as the policy says. Never shame a child; accidents happen."
+      },
+      "differentiation": {
+        "support": "Practise the word or sign with a doll first.",
+        "extension": "Ask the child to remind a friend to tell the teacher."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say?",
+            "expected": "Toilet please."
+          },
+          {
+            "question": "Who do we tell?",
+            "expected": "The teacher."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says or signs toilet",
+        "Visits the toilet room with an adult"
+      ],
+      "conclusion": "Sing the toilet song and wave.",
+      "homeConnection": "Agree the same toilet word with your child at home and school.",
+      "teacherReflection": [
+        "Which children could show \"tell an adult when they need the toilet with a word or sign\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TOILET",
+          "PLEASE"
+        ],
+        "pictures": [
+          "A toilet",
+          "A doll"
+        ]
+      },
+      "activities": [
+        "Toilet words"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W08-D02",
+      "title": "Washing my hands",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 8,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Health habits",
+      "subtopic": "Washing my hands",
+      "dayType": "explore",
+      "objectives": [
+        "Children will wash their hands with soap after using the toilet."
+      ],
+      "successCriteria": [
+        "Washes hands with soap with support",
+        "Dries hands on a towel"
+      ],
+      "previousKnowledge": "Children can follow routines, share and show kindness.",
+      "vocabulary": [
+        "toilet",
+        "wash",
+        "soap",
+        "flush",
+        "clean",
+        "towel"
+      ],
+      "resources": [
+        "A basin and water",
+        "Soap",
+        "Towels",
+        "A hand washing song"
+      ],
+      "starter": "Show your hands and say \"Hands must be clean. We wash with soap after the toilet.\"",
+      "teacherActivities": [
+        "Show how to wet, soap, rub and rinse hands.",
+        "Sing the hand washing song while rubbing.",
+        "Show how to dry hands on a clean towel.",
+        "Say \"Clean hands. Well done.\""
+      ],
+      "learnerActivities": [
+        "Children watch and copy the actions.",
+        "Children sing and rub.",
+        "Child dries hands.",
+        "Children show their clean hands."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to wet, soap, rub and rinse hands. Children: Children watch and copy the actions.",
+        "Step 2. Teacher: Sing the hand washing song while rubbing. Children: Children sing and rub.",
+        "Step 3. Teacher: Show how to dry hands on a clean towel. Children: Child dries hands.",
+        "Step 4. Teacher: Say \"Clean hands. Well done.\" Children: Children show their clean hands."
+      ],
+      "practical": {
+        "title": "Hand washing",
+        "steps": [
+          "Wet hands.",
+          "Rub with soap while singing.",
+          "Rinse and dry."
+        ],
+        "safety": "Use mild soap and shallow water and wipe up spills. Supervise every child at the basin and use a clean towel for each child."
+      },
+      "differentiation": {
+        "support": "Wash hands together with a hand over the child’s hand.",
+        "extension": "Ask the child to teach a friend to wash hands."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "When do we wash hands?",
+            "expected": "After the toilet."
+          },
+          {
+            "question": "What do we use?",
+            "expected": "Soap and water."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Washes hands with soap with support",
+        "Dries hands on a towel"
+      ],
+      "conclusion": "Show clean hands and say \"Clean.\"",
+      "homeConnection": "Wash hands together after every toilet visit and before meals.",
+      "teacherReflection": [
+        "Which children could show \"wash their hands with soap after using the toilet\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WASH",
+          "SOAP",
+          "CLEAN"
+        ],
+        "pictures": [
+          "Washing hands",
+          "A bar of soap"
+        ],
+        "songOrRhyme": "Rub, rub, rub your hands, wash the dirt away."
+      },
+      "activities": [
+        "Hand washing"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W08-D03",
+      "title": "Wiping and flushing",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 8,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Health habits",
+      "subtopic": "Wiping and flushing with help",
+      "dayType": "explore",
+      "objectives": [
+        "Children will learn the steps after using the toilet with adult help."
+      ],
+      "successCriteria": [
+        "Names the toilet steps in order",
+        "Flushes with support"
+      ],
+      "previousKnowledge": "Children can follow routines, share and show kindness.",
+      "vocabulary": [
+        "toilet",
+        "wash",
+        "soap",
+        "flush",
+        "clean",
+        "towel"
+      ],
+      "resources": [
+        "Picture cards for the toilet steps",
+        "A doll and a toy toilet",
+        "A towel"
+      ],
+      "starter": "Show the picture cards and say \"Toilet, wipe, flush, wash. Four steps to stay clean.\"",
+      "teacherActivities": [
+        "Show each picture and say the step.",
+        "Use the doll and toy toilet to act out the steps.",
+        "Put the cards in order.",
+        "Say \"I did it\" when finished."
+      ],
+      "learnerActivities": [
+        "Children look and say the step.",
+        "Children copy the actions.",
+        "Child places the cards in order.",
+        "Children say I did it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture and say the step. Children: Children look and say the step.",
+        "Step 2. Teacher: Use the doll and toy toilet to act out the steps. Children: Children copy the actions.",
+        "Step 3. Teacher: Put the cards in order. Children: Child places the cards in order.",
+        "Step 4. Teacher: Say \"I did it\" when finished. Children: Children say I did it."
+      ],
+      "practical": {
+        "title": "Toilet steps",
+        "steps": [
+          "Look at the cards.",
+          "Act the steps with the doll.",
+          "Put the cards in order."
+        ],
+        "safety": "Use a doll and cards only and never ask a child to demonstrate on their own body. Keep to the school policy for toilet help."
+      },
+      "differentiation": {
+        "support": "Point to each card and say the step together.",
+        "extension": "Ask the child to tell a friend the steps."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do after the toilet?",
+            "expected": "Wipe, flush and wash."
+          },
+          {
+            "question": "What comes last?",
+            "expected": "Wash hands."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names the toilet steps",
+        "Flushes with support"
+      ],
+      "conclusion": "Sing the washing song and wave.",
+      "homeConnection": "Talk through the toilet steps at home and praise each one.",
+      "teacherReflection": [
+        "Which children could show \"learn the steps after using the toilet with adult help\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WIPE",
+          "FLUSH",
+          "WASH"
+        ],
+        "pictures": [
+          "Toilet step pictures"
+        ]
+      },
+      "activities": [
+        "Toilet steps"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W08-D04",
+      "title": "Clean hands every time",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 8,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Health habits",
+      "subtopic": "Washing my hands",
+      "dayType": "practise",
+      "objectives": [
+        "Children will wash hands without being reminded after a toilet visit or before eating."
+      ],
+      "successCriteria": [
+        "Goes to the basin when prompted",
+        "Says clean hands"
+      ],
+      "previousKnowledge": "Children can follow routines, share and show kindness.",
+      "vocabulary": [
+        "toilet",
+        "wash",
+        "soap",
+        "flush",
+        "clean",
+        "towel"
+      ],
+      "resources": [
+        "A basin and soap",
+        "Towels",
+        "A hand washing chart"
+      ],
+      "starter": "Show the hand washing chart and say \"We wash hands before snack.\"",
+      "teacherActivities": [
+        "Remind children to wash before snack.",
+        "Watch each child wash and sing together.",
+        "Add a tick to the chart.",
+        "Say \"Clean hands help us stay well.\""
+      ],
+      "learnerActivities": [
+        "Children line up at the basin.",
+        "Child washes with the song.",
+        "Child ticks the chart.",
+        "Children say clean hands."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Remind children to wash before snack. Children: Children line up at the basin.",
+        "Step 2. Teacher: Watch each child wash and sing together. Children: Child washes with the song.",
+        "Step 3. Teacher: Add a tick to the chart. Children: Child ticks the chart.",
+        "Step 4. Teacher: Say \"Clean hands help us stay well.\" Children: Children say clean hands."
+      ],
+      "practical": {
+        "title": "Wash before snack",
+        "steps": [
+          "Line up at the basin.",
+          "Wash with soap.",
+          "Dry and tick the chart."
+        ],
+        "safety": "Supervise closely and keep the floor dry. Use mild soap and clean towels."
+      },
+      "differentiation": {
+        "support": "Wash together and name each step.",
+        "extension": "Ask the child to remind a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "When do we wash hands?",
+            "expected": "Before snack and after the toilet."
+          },
+          {
+            "question": "Are your hands clean?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Washes hands when prompted",
+        "Says clean hands"
+      ],
+      "conclusion": "Show clean hands and wave.",
+      "homeConnection": "Make hand washing a family routine.",
+      "teacherReflection": [
+        "Which children could show \"wash hands without being reminded after a toilet visit or before eating\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CLEAN",
+          "HANDS"
+        ],
+        "pictures": [
+          "Clean hands"
+        ]
+      },
+      "activities": [
+        "Wash before snack"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W08-D05",
+      "title": "Week 8 hygiene check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 8,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Health habits",
+      "subtopic": "Washing my hands",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child manages toilet routines and hand washing."
+      ],
+      "successCriteria": [
+        "Tells an adult about toilet needs",
+        "Washes hands with support"
+      ],
+      "previousKnowledge": "Children can follow routines, share and show kindness.",
+      "vocabulary": [
+        "toilet",
+        "wash",
+        "soap",
+        "flush",
+        "clean",
+        "towel"
+      ],
+      "resources": [
+        "Basin, soap and towels",
+        "Picture cards",
+        "Class record sheet"
+      ],
+      "starter": "Sing the hand washing song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: toilet words, steps and hand washing.",
+        "At each station watch what the child can do.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: toilet words, steps and hand washing. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch what the child can do. Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Hygiene stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and wipe spills at once. Use mild soap and clean towels and follow the school hygiene policy."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to explain hand washing to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: tells an adult about toilet needs; names toilet steps; washes hands with soap; dries hands.",
+        "questions": [
+          {
+            "question": "What do we say?",
+            "expected": "Toilet please."
+          },
+          {
+            "question": "What do we wash?",
+            "expected": "Our hands."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Practises toilet and hand routines"
+      ],
+      "conclusion": "Show clean hands and wave goodbye.",
+      "homeConnection": "Share toilet progress with the teacher and keep routines the same.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child manages toilet routines and hand washing\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Hygiene"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Hygiene stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

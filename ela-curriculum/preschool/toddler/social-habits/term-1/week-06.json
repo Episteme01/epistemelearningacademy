@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-SOC-T1-W06",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 1,
+  "week": 6,
+  "title": "Sharing and taking turns",
+  "topic": "Sharing",
+  "subtopics": [
+    "Sharing toys",
+    "Taking turns",
+    "Waiting for my turn"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will share a toy with a friend with support.",
+    "Children will take turns in a simple game."
+  ],
+  "vocabulary": [
+    "share",
+    "turn",
+    "wait",
+    "my turn",
+    "your turn",
+    "toy"
+  ],
+  "content": "Sharing toys, taking turns, and waiting for my turn.",
+  "teachingActivities": "Expect toddlers to say \"mine\"; do not force sharing but teach turns with a timer or song; praise every turn taken; keep duplicate toys available; use \"my turn, your turn\" language; stay close to guide gently.",
+  "learnerActivities": "Share a toy with support, take turns in a simple game and wait for a short time.",
+  "resources": [
+    "Two of each toy",
+    "A ball",
+    "A sand timer or song",
+    "A puppet",
+    "A turn-taking mat with footprints"
+  ],
+  "assessment": "Observe whether each child shares with support and waits for a turn for a short time.",
+  "expectedOutcomes": [
+    "Shares a toy with adult support.",
+    "Waits for a turn for a short time."
+  ],
+  "crossCurricular": [
+    "Numeracy: one each and first, next",
+    "Literacy: my turn and your turn",
+    "Physical Development: rolling and passing"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W06-D01",
+      "title": "Sharing toys",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Sharing",
+      "subtopic": "Sharing toys",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will share a toy with a friend with adult support."
+      ],
+      "successCriteria": [
+        "Hands a toy to a friend with support",
+        "Says share with a prompt"
+      ],
+      "previousKnowledge": "Children can follow simple routines and use magic words with a prompt.",
+      "vocabulary": [
+        "share",
+        "turn",
+        "wait",
+        "my turn",
+        "your turn",
+        "toy"
+      ],
+      "resources": [
+        "A basket of large toys",
+        "A puppet",
+        "A picture of children sharing"
+      ],
+      "starter": "Show the puppet holding a toy and say \"I have a toy. I can share it with a friend.\"",
+      "teacherActivities": [
+        "Show the puppet sharing a toy with another puppet.",
+        "Say \"Sharing makes friends happy.\"",
+        "Give two children one toy and help them share.",
+        "Praise the sharing with a smile and thank you."
+      ],
+      "learnerActivities": [
+        "Children watch and say share.",
+        "Children smile and repeat share.",
+        "Child passes the toy to a friend.",
+        "Children say thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the puppet sharing a toy with another puppet. Children: Children watch and say share.",
+        "Step 2. Teacher: Say \"Sharing makes friends happy.\" Children: Children smile and repeat share.",
+        "Step 3. Teacher: Give two children one toy and help them share. Children: Child passes the toy to a friend.",
+        "Step 4. Teacher: Praise the sharing with a smile and thank you. Children: Children say thank you."
+      ],
+      "practical": {
+        "title": "Sharing a toy",
+        "steps": [
+          "Give two children one toy.",
+          "Help them pass it.",
+          "Say thank you."
+        ],
+        "safety": "Use large toys without small parts and watch closely for grabbing. Never force a child to give up a toy; use turns."
+      },
+      "differentiation": {
+        "support": "Hold the toy together and hand it over together.",
+        "extension": "Ask the child to find a toy to share with a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do with a toy?",
+            "expected": "Share it."
+          },
+          {
+            "question": "How does a friend feel?",
+            "expected": "Happy."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shares a toy with support",
+        "Says share with a prompt"
+      ],
+      "conclusion": "Put the toys away and say \"We shared.\"",
+      "homeConnection": "Practise sharing a snack or a toy with a sibling or friend.",
+      "teacherReflection": [
+        "Which children could show \"share a toy with a friend with adult support\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SHARE",
+          "TOY"
+        ],
+        "pictures": [
+          "Two children sharing a toy"
+        ],
+        "songOrRhyme": "Sharing is caring, caring is kind."
+      },
+      "activities": [
+        "Sharing a toy"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W06-D02",
+      "title": "Taking turns",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Sharing",
+      "subtopic": "Taking turns",
+      "dayType": "explore",
+      "objectives": [
+        "Children will take turns in a simple game."
+      ],
+      "successCriteria": [
+        "Takes a turn when asked",
+        "Says my turn or your turn with a prompt"
+      ],
+      "previousKnowledge": "Children can follow simple routines and use magic words with a prompt.",
+      "vocabulary": [
+        "share",
+        "turn",
+        "wait",
+        "my turn",
+        "your turn",
+        "toy"
+      ],
+      "resources": [
+        "A soft ball",
+        "A turn-taking mat",
+        "A puppet"
+      ],
+      "starter": "Roll a soft ball to one child and say \"My turn, your turn.\"",
+      "teacherActivities": [
+        "Show how to roll the ball and say my turn.",
+        "Roll the ball to a child and say your turn.",
+        "Move around the circle with the ball.",
+        "Say \"Everyone had a turn.\""
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child rolls the ball back.",
+        "Each child takes a turn.",
+        "Children clap and cheer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to roll the ball and say my turn. Children: Children watch.",
+        "Step 2. Teacher: Roll the ball to a child and say your turn. Children: Child rolls the ball back.",
+        "Step 3. Teacher: Move around the circle with the ball. Children: Each child takes a turn.",
+        "Step 4. Teacher: Say \"Everyone had a turn.\" Children: Children clap and cheer."
+      ],
+      "practical": {
+        "title": "Ball turns",
+        "steps": [
+          "Sit in a circle.",
+          "Roll the ball to a friend.",
+          "Say my turn, your turn."
+        ],
+        "safety": "Use a very soft ball and keep the circle away from hazards. Never leave a child waiting too long."
+      },
+      "differentiation": {
+        "support": "Roll the ball together with the child.",
+        "extension": "Ask the child to roll the ball to a friend by name."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Whose turn is it?",
+            "expected": "The child named."
+          },
+          {
+            "question": "What do we say?",
+            "expected": "My turn, your turn."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Takes a turn in a ball game",
+        "Uses my turn and your turn with a prompt"
+      ],
+      "conclusion": "Wave goodbye to the ball.",
+      "homeConnection": "Take turns rolling a ball or stacking blocks with your child.",
+      "teacherReflection": [
+        "Which children could show \"take turns in a simple game\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TURN",
+          "MINE"
+        ],
+        "pictures": [
+          "Children rolling a ball"
+        ]
+      },
+      "activities": [
+        "Ball turns"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W06-D03",
+      "title": "Waiting for my turn",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Sharing",
+      "subtopic": "Waiting for my turn",
+      "dayType": "practise",
+      "objectives": [
+        "Children will wait for a short time for their turn."
+      ],
+      "successCriteria": [
+        "Waits while a friend has a turn",
+        "Takes a turn when it is theirs"
+      ],
+      "previousKnowledge": "Children can follow simple routines and use magic words with a prompt.",
+      "vocabulary": [
+        "share",
+        "turn",
+        "wait",
+        "my turn",
+        "your turn",
+        "toy"
+      ],
+      "resources": [
+        "A sand timer or a short song",
+        "A slide or toy car track",
+        "A turn-taking mat"
+      ],
+      "starter": "Say \"We wait for our turn. While we wait, we sing.\" and start a short song.",
+      "teacherActivities": [
+        "Show how a friend has a turn on the slide or track.",
+        "Sing a short song while waiting.",
+        "Say \"Now it is your turn.\"",
+        "Praise waiting with a smile."
+      ],
+      "learnerActivities": [
+        "Children watch and wait.",
+        "Children sing and wait.",
+        "Child takes a turn.",
+        "Children wave or clap."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how a friend has a turn on the slide or track. Children: Children watch and wait.",
+        "Step 2. Teacher: Sing a short song while waiting. Children: Children sing and wait.",
+        "Step 3. Teacher: Say \"Now it is your turn.\" Children: Child takes a turn.",
+        "Step 4. Teacher: Praise waiting with a smile. Children: Children wave or clap."
+      ],
+      "practical": {
+        "title": "Waiting game",
+        "steps": [
+          "Stand in a line on the mat.",
+          "Sing while you wait.",
+          "Take your turn."
+        ],
+        "safety": "Supervise close to the slide or track and keep the line short. Never make children wait long."
+      },
+      "differentiation": {
+        "support": "Wait with the child and sing quietly together.",
+        "extension": "Ask the child to count to three while they wait."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do while we wait?",
+            "expected": "Sing or watch."
+          },
+          {
+            "question": "When is it my turn?",
+            "expected": "When the teacher says."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Waits for a short time",
+        "Takes a turn when it is theirs"
+      ],
+      "conclusion": "Say \"Thank you for waiting.\"",
+      "homeConnection": "Practise waiting for a short time at the table or in a queue.",
+      "teacherReflection": [
+        "Which children could show \"wait for a short time for their turn\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WAIT",
+          "TURN"
+        ],
+        "pictures": [
+          "A line of children waiting"
+        ]
+      },
+      "activities": [
+        "Waiting game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W06-D04",
+      "title": "Sharing and turns game",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Sharing",
+      "subtopic": "Sharing toys",
+      "dayType": "apply",
+      "objectives": [
+        "Children will share and take turns in a small group game."
+      ],
+      "successCriteria": [
+        "Shares a toy in a group",
+        "Takes a turn with a friend"
+      ],
+      "previousKnowledge": "Children can follow simple routines and use magic words with a prompt.",
+      "vocabulary": [
+        "share",
+        "turn",
+        "wait",
+        "my turn",
+        "your turn",
+        "toy"
+      ],
+      "resources": [
+        "Large building blocks",
+        "A basket",
+        "A puppet"
+      ],
+      "starter": "Show a basket of blocks and say \"We have blocks to share. Let us build together.\"",
+      "teacherActivities": [
+        "Show how to pass a block to a friend.",
+        "Let children take turns adding a block to a tower.",
+        "Say \"My block, your block.\"",
+        "Look at the tower and say \"We did it.\""
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child adds a block.",
+        "Child passes a block.",
+        "Children clap and cheer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to pass a block to a friend. Children: Children watch.",
+        "Step 2. Teacher: Let children take turns adding a block to a tower. Children: Child adds a block.",
+        "Step 3. Teacher: Say \"My block, your block.\" Children: Child passes a block.",
+        "Step 4. Teacher: Look at the tower and say \"We did it.\" Children: Children clap and cheer."
+      ],
+      "practical": {
+        "title": "Tower together",
+        "steps": [
+          "Sit in a small group.",
+          "Take turns adding blocks.",
+          "Share the blocks."
+        ],
+        "safety": "Use large, light blocks only and keep children seated safely. Watch for falling blocks."
+      },
+      "differentiation": {
+        "support": "Build beside the child and take turns together.",
+        "extension": "Ask the child to give a block to a friend who has none."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did we do?",
+            "expected": "We shared."
+          },
+          {
+            "question": "Whose turn is it?",
+            "expected": "The next friend."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shares and takes turns in a group",
+        "Says we did it"
+      ],
+      "conclusion": "Put the blocks away and say \"We shared.\"",
+      "homeConnection": "Play a building game and take turns adding blocks.",
+      "teacherReflection": [
+        "Which children could show \"share and take turns in a small group game\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SHARE",
+          "TOWER"
+        ],
+        "pictures": [
+          "Children building a tower"
+        ]
+      },
+      "activities": [
+        "Tower together"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W06-D05",
+      "title": "Week 6 sharing check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Sharing",
+      "subtopic": "Taking turns",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child shares and takes turns."
+      ],
+      "successCriteria": [
+        "Shares a toy with support",
+        "Waits for a short turn"
+      ],
+      "previousKnowledge": "Children can follow simple routines and use magic words with a prompt.",
+      "vocabulary": [
+        "share",
+        "turn",
+        "wait",
+        "my turn",
+        "your turn",
+        "toy"
+      ],
+      "resources": [
+        "Toys",
+        "A ball",
+        "Blocks",
+        "Class record sheet"
+      ],
+      "starter": "Sing the sharing song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: toys, ball and blocks.",
+        "At each station watch how the child shares and waits.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child plays with a friend.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: toys, ball and blocks. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child shares and waits. Children: Child plays with a friend.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Sharing stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep duplicates of favourite toys. Step in gently if a child grabs."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to teach a friend to take turns."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: shares a toy; takes turns; waits for a short time; uses my turn and your turn.",
+        "questions": [
+          {
+            "question": "What do we do with toys?",
+            "expected": "Share them."
+          },
+          {
+            "question": "What do we say?",
+            "expected": "My turn, your turn."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Shares and takes turns with support"
+      ],
+      "conclusion": "Wave goodbye and say \"Well done.\"",
+      "homeConnection": "Keep practising sharing and turns at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child shares and takes turns\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Sharing"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Sharing stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

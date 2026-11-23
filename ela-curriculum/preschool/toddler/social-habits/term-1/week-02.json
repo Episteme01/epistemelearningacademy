@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SOC-T1-W02",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 1,
+  "week": 2,
+  "title": "Hello and goodbye",
+  "topic": "Greetings",
+  "subtopics": [
+    "Saying good morning",
+    "Greeting my teacher and friends",
+    "Saying goodbye and waving"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will greet people with words or a wave.",
+    "Children will say goodbye politely."
+  ],
+  "vocabulary": [
+    "hello",
+    "good morning",
+    "goodbye",
+    "wave",
+    "smile",
+    "friend"
+  ],
+  "content": "Saying good morning, greeting the teacher and friends, and saying goodbye with a wave.",
+  "teachingActivities": "Greet every child by name each morning and expect a response of any kind; model \"Good morning\" with eye contact; respect that families greet elders in different ways (a wave, a bow, a kneel or a handshake) and never correct a family’s greeting; praise every attempt.",
+  "learnerActivities": "Greet people with a word or a wave and say goodbye politely.",
+  "resources": [
+    "A greeting song",
+    "Puppets",
+    "Pictures of morning, afternoon and evening",
+    "A teacher’s bell"
+  ],
+  "assessment": "Observe whether each child greets the teacher with a word or gesture and waves goodbye.",
+  "expectedOutcomes": [
+    "Greets the teacher with a word or gesture.",
+    "Waves goodbye."
+  ],
+  "crossCurricular": [
+    "Literacy: greeting words",
+    "Numeracy: counting the greeters",
+    "Creative Development: song and movement"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W02-D01",
+      "title": "Good morning",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 2,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Greetings",
+      "subtopic": "Saying good morning",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say or show good morning to the teacher and friends."
+      ],
+      "successCriteria": [
+        "Says or signs good morning with support",
+        "Looks at the person they greet"
+      ],
+      "previousKnowledge": "Children know their names, their teacher and the classroom, and are practising goodbyes.",
+      "vocabulary": [
+        "hello",
+        "good morning",
+        "goodbye",
+        "wave",
+        "smile",
+        "friend"
+      ],
+      "resources": [
+        "A puppet",
+        "A greeting song",
+        "A picture of the sun rising"
+      ],
+      "starter": "Use a puppet to say \"Good morning, friends!\" and let the puppet greet each child.",
+      "teacherActivities": [
+        "Show a picture of the sun rising and say \"It is morning. We say good morning.\"",
+        "Greet each child by name: \"Good morning, Ada.\"",
+        "Sing the good morning song with actions.",
+        "Let children greet the puppet."
+      ],
+      "learnerActivities": [
+        "Children look and say good morning.",
+        "Child answers with a word or wave.",
+        "Children sing and do actions.",
+        "Child says good morning to the puppet."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a picture of the sun rising and say \"It is morning. We say good morning.\" Children: Children look and say good morning.",
+        "Step 2. Teacher: Greet each child by name: \"Good morning, Ada.\" Children: Child answers with a word or wave.",
+        "Step 3. Teacher: Sing the good morning song with actions. Children: Children sing and do actions.",
+        "Step 4. Teacher: Let children greet the puppet. Children: Child says good morning to the puppet."
+      ],
+      "practical": {
+        "title": "Good morning circle",
+        "steps": [
+          "Sit in a circle.",
+          "Greet each child.",
+          "Let them greet the puppet."
+        ],
+        "safety": "Keep the circle small and quiet and sit children away from hazards. Never force a child to speak; accept a wave."
+      },
+      "differentiation": {
+        "support": "Greet the child softly and accept a smile.",
+        "extension": "Ask the child to greet two friends."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say in the morning?",
+            "expected": "Good morning."
+          },
+          {
+            "question": "Who do we say it to?",
+            "expected": "Teacher, friends and family."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says or shows good morning",
+        "Looks at the person being greeted"
+      ],
+      "conclusion": "Say \"Goodbye\" and wave together.",
+      "homeConnection": "Greet your child with \"Good morning\" every day and wait for a reply.",
+      "teacherReflection": [
+        "Which children could show \"say or show good morning to the teacher and friends\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GOOD MORNING",
+          "HELLO"
+        ],
+        "pictures": [
+          "A rising sun",
+          "Children waving"
+        ],
+        "songOrRhyme": "Good morning, good morning, how are you today?"
+      },
+      "activities": [
+        "Good morning circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W02-D02",
+      "title": "Greeting my teacher",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 2,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Greetings",
+      "subtopic": "Greeting my teacher and friends",
+      "dayType": "explore",
+      "objectives": [
+        "Children will greet their teacher and friends in a polite way."
+      ],
+      "successCriteria": [
+        "Greets the teacher at the door",
+        "Greets a friend with a word or wave"
+      ],
+      "previousKnowledge": "Children know their names, their teacher and the classroom, and are practising goodbyes.",
+      "vocabulary": [
+        "hello",
+        "good morning",
+        "goodbye",
+        "wave",
+        "smile",
+        "friend"
+      ],
+      "resources": [
+        "A toy door or a door",
+        "Puppets",
+        "A greeting song"
+      ],
+      "starter": "Stand at the door and say \"Good morning!\" to each child as they enter, with a big smile.",
+      "teacherActivities": [
+        "Show how to greet the teacher with a wave and good morning.",
+        "Let children knock on the toy door and greet the teacher inside.",
+        "Show how to greet a friend by name.",
+        "Talk about how some families greet elders in special ways."
+      ],
+      "learnerActivities": [
+        "Children watch and copy.",
+        "Child greets the teacher.",
+        "Child greets a friend.",
+        "Children share a greeting from home if they wish."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to greet the teacher with a wave and good morning. Children: Children watch and copy.",
+        "Step 2. Teacher: Let children knock on the toy door and greet the teacher inside. Children: Child greets the teacher.",
+        "Step 3. Teacher: Show how to greet a friend by name. Children: Child greets a friend.",
+        "Step 4. Teacher: Talk about how some families greet elders in special ways. Children: Children share a greeting from home if they wish."
+      ],
+      "practical": {
+        "title": "Door greeting",
+        "steps": [
+          "Set up a toy door.",
+          "Let children greet the teacher.",
+          "Greet a friend by name."
+        ],
+        "safety": "Keep the door area clear and supervise closely. Respect each family’s way of greeting and never correct a child’s home greeting."
+      },
+      "differentiation": {
+        "support": "Greet together and hold the child’s hand.",
+        "extension": "Ask the child to greet a visitor at the door."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How do you greet your teacher?",
+            "expected": "Good morning or a wave."
+          },
+          {
+            "question": "How do you greet a friend?",
+            "expected": "Hello and their name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Greets the teacher",
+        "Greets a friend with a word or gesture"
+      ],
+      "conclusion": "Wave goodbye to everyone and say \"See you tomorrow.\"",
+      "homeConnection": "Greet family and visitors together and let your child copy.",
+      "teacherReflection": [
+        "Which children could show \"greet their teacher and friends in a polite way\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HELLO",
+          "FRIEND"
+        ],
+        "pictures": [
+          "A child greeting a teacher"
+        ]
+      },
+      "activities": [
+        "Door greeting"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W02-D03",
+      "title": "Greeting at different times",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 2,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Greetings",
+      "subtopic": "Saying good morning",
+      "dayType": "explore",
+      "objectives": [
+        "Children will know that we say good morning, good afternoon and good night at different times."
+      ],
+      "successCriteria": [
+        "Says good morning at the start of the day",
+        "Says good night at bedtime with support"
+      ],
+      "previousKnowledge": "Children know their names, their teacher and the classroom, and are practising goodbyes.",
+      "vocabulary": [
+        "hello",
+        "good morning",
+        "goodbye",
+        "wave",
+        "smile",
+        "friend"
+      ],
+      "resources": [
+        "Pictures of morning, afternoon and night",
+        "A teddy bear",
+        "A greeting song"
+      ],
+      "starter": "Show a picture of the sun and say \"Good morning.\" Show the moon and say \"Good night.\"",
+      "teacherActivities": [
+        "Show each picture and say the greeting.",
+        "Match the teddy bear to the time of day.",
+        "Pretend to put the teddy to bed and say good night.",
+        "Sing the greeting song."
+      ],
+      "learnerActivities": [
+        "Children say the greeting.",
+        "Child places the teddy next to the picture.",
+        "Child says good night to the teddy.",
+        "Children sing with actions."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture and say the greeting. Children: Children say the greeting.",
+        "Step 2. Teacher: Match the teddy bear to the time of day. Children: Child places the teddy next to the picture.",
+        "Step 3. Teacher: Pretend to put the teddy to bed and say good night. Children: Child says good night to the teddy.",
+        "Step 4. Teacher: Sing the greeting song. Children: Children sing with actions."
+      ],
+      "practical": {
+        "title": "Greeting pictures",
+        "steps": [
+          "Put the three pictures on the floor.",
+          "Say the greeting for each.",
+          "Put the teddy to bed."
+        ],
+        "safety": "Keep the floor clear of tripping hazards. Be gentle with the teddy."
+      },
+      "differentiation": {
+        "support": "Say the greeting together and show the picture.",
+        "extension": "Ask the child to choose the right greeting for a picture."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say in the morning?",
+            "expected": "Good morning."
+          },
+          {
+            "question": "What do we say at night?",
+            "expected": "Good night."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Knows different greetings",
+        "Says good morning and good night with support"
+      ],
+      "conclusion": "Wave goodbye and say good afternoon.",
+      "homeConnection": "Say good morning and good night each day.",
+      "teacherReflection": [
+        "Which children could show \"know that we say good morning, good afternoon and good night at different times\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MORNING",
+          "NIGHT"
+        ],
+        "pictures": [
+          "The sun",
+          "The moon"
+        ]
+      },
+      "activities": [
+        "Greeting pictures"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W02-D04",
+      "title": "Waving goodbye",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 2,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Greetings",
+      "subtopic": "Saying goodbye and waving",
+      "dayType": "practise",
+      "objectives": [
+        "Children will say goodbye politely with a wave."
+      ],
+      "successCriteria": [
+        "Says goodbye or waves",
+        "Says goodbye to the teacher at home time"
+      ],
+      "previousKnowledge": "Children know their names, their teacher and the classroom, and are practising goodbyes.",
+      "vocabulary": [
+        "hello",
+        "good morning",
+        "goodbye",
+        "wave",
+        "smile",
+        "friend"
+      ],
+      "resources": [
+        "A goodbye song",
+        "A toy bus",
+        "Puppets"
+      ],
+      "starter": "Sing \"Goodbye, goodbye, wave your hand goodbye\" and wave to the puppet.",
+      "teacherActivities": [
+        "Show how to wave goodbye and say bye.",
+        "Let the toy bus go away and wave goodbye.",
+        "Practise goodbyes to friends.",
+        "Say \"Goodbye, teacher\" together at the door."
+      ],
+      "learnerActivities": [
+        "Children copy the wave.",
+        "Child waves to the bus.",
+        "Child waves to a friend.",
+        "Child waves and says bye."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to wave goodbye and say bye. Children: Children copy the wave.",
+        "Step 2. Teacher: Let the toy bus go away and wave goodbye. Children: Child waves to the bus.",
+        "Step 3. Teacher: Practise goodbyes to friends. Children: Child waves to a friend.",
+        "Step 4. Teacher: Say \"Goodbye, teacher\" together at the door. Children: Child waves and says bye."
+      ],
+      "practical": {
+        "title": "Goodbye practice",
+        "steps": [
+          "Wave goodbye to the toy bus.",
+          "Wave goodbye to a friend.",
+          "Say goodbye to the teacher."
+        ],
+        "safety": "Keep the area clear. Stay close to any child who becomes upset."
+      },
+      "differentiation": {
+        "support": "Wave together and sing the goodbye song.",
+        "extension": "Ask the child to say goodbye to every friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do when we go?",
+            "expected": "Wave and say goodbye."
+          },
+          {
+            "question": "Who do you say goodbye to?",
+            "expected": "Teacher, friends and family."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says goodbye with a wave",
+        "Says goodbye to the teacher"
+      ],
+      "conclusion": "Wave goodbye to the class.",
+      "homeConnection": "Practise a happy goodbye whenever someone leaves the house.",
+      "teacherReflection": [
+        "Which children could show \"say goodbye politely with a wave\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GOODBYE",
+          "WAVE"
+        ],
+        "pictures": [
+          "A child waving goodbye"
+        ],
+        "songOrRhyme": "Goodbye, goodbye, wave your hand goodbye."
+      },
+      "activities": [
+        "Goodbye practice"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W02-D05",
+      "title": "Week 2 greetings check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 2,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Greetings",
+      "subtopic": "Greeting my teacher and friends",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child greets and says goodbye."
+      ],
+      "successCriteria": [
+        "Greets the teacher with a word or gesture",
+        "Waves goodbye"
+      ],
+      "previousKnowledge": "Children know their names, their teacher and the classroom, and are practising goodbyes.",
+      "vocabulary": [
+        "hello",
+        "good morning",
+        "goodbye",
+        "wave",
+        "smile",
+        "friend"
+      ],
+      "resources": [
+        "Puppets",
+        "A toy door",
+        "Class record sheet"
+      ],
+      "starter": "Sing the greeting song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: good morning, door greeting and goodbye.",
+        "At each station greet the child and watch the response.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or gesture.",
+        "Children join the goodbye song."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: good morning, door greeting and goodbye. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station greet the child and watch the response. Children: Child answers with a word or gesture.",
+        "Step 3. Teacher: Record each child’s level. Children: Children join the goodbye song."
+      ],
+      "practical": {
+        "title": "Greeting stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep the floor clear. Accept every form of greeting from the child."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to greet a new friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: greets the teacher; greets a friend; says or waves goodbye; looks at the person being greeted.",
+        "questions": [
+          {
+            "question": "What do you say in the morning?",
+            "expected": "Good morning."
+          },
+          {
+            "question": "What do you do when you go?",
+            "expected": "Wave and say goodbye."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Greets and says goodbye with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Share how your child greets and keep practising each day.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child greets and says goodbye\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Greetings"
+        ],
+        "pictures": [
+          "Photos of greetings"
+        ]
+      },
+      "activities": [
+        "Greeting stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

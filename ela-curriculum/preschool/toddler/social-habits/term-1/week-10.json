@@ -1,0 +1,604 @@
+{
+  "id": "ELA-PS-TOD-SOC-T1-W10",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 1,
+  "week": 10,
+  "title": "Show what we know",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising greetings and manners",
+    "Revising feelings and routines",
+    "Revising sharing and safety"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Term 1 learning through play stations.",
+    "Teachers will gather evidence for every child’s Term 1 record."
+  ],
+  "vocabulary": [
+    "hello",
+    "please",
+    "thank you",
+    "share",
+    "happy",
+    "safe"
+  ],
+  "content": "Revising greetings and manners, feelings and routines, and sharing and safety, with end-of-term records.",
+  "teachingActivities": "Keep every activity familiar and joyful; observe quietly during play; record what children can do without pressure; share records with parents in plain language with a strength, a next step and a home idea.",
+  "learnerActivities": "Show learning from the term through play stations and a celebration.",
+  "resources": [
+    "Puppets",
+    "Feelings cards",
+    "A play shop",
+    "A toy door",
+    "Baskets",
+    "Stickers",
+    "Class record sheets"
+  ],
+  "assessment": "Observe and record each child’s Term 1 social learning.",
+  "expectedOutcomes": [
+    "Completes familiar routines with growing confidence.",
+    "Each child has an observation record for Term 1."
+  ],
+  "crossCurricular": [
+    "Literacy: songs",
+    "Numeracy: counting and turns",
+    "Science: hygiene"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W10-D01",
+      "title": "Revising greetings and manners",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising greetings and manners",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit greetings, please, thank you and good manners through games."
+      ],
+      "successCriteria": [
+        "Greets with a word or wave",
+        "Uses please and thank you with a prompt"
+      ],
+      "previousKnowledge": "Children have learnt about greetings, manners, feelings, routines, sharing, kindness, toileting and safety.",
+      "vocabulary": [
+        "hello",
+        "please",
+        "thank you",
+        "share",
+        "happy",
+        "safe"
+      ],
+      "resources": [
+        "A puppet",
+        "A play shop",
+        "A toy door",
+        "A greeting song"
+      ],
+      "starter": "Sing the greeting song and say \"Today we play our favourite manners games.\"",
+      "teacherActivities": [
+        "Play the door greeting game with the puppet.",
+        "Play the shop game with please and thank you.",
+        "Play the goodbye game with waves.",
+        "Let each child choose a favourite game."
+      ],
+      "learnerActivities": [
+        "Child greets the puppet.",
+        "Child asks and thanks.",
+        "Child waves goodbye.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the door greeting game with the puppet. Children: Child greets the puppet.",
+        "Step 2. Teacher: Play the shop game with please and thank you. Children: Child asks and thanks.",
+        "Step 3. Teacher: Play the goodbye game with waves. Children: Child waves goodbye.",
+        "Step 4. Teacher: Let each child choose a favourite game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Manners games",
+        "steps": [
+          "Set up three game areas.",
+          "Children play each for four minutes.",
+          "The teacher notes manners."
+        ],
+        "safety": "Supervise each area and keep floors clear. Use large toys only."
+      },
+      "differentiation": {
+        "support": "Play with the child and use one game.",
+        "extension": "Ask the child to lead a game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say in the morning?",
+            "expected": "Good morning."
+          },
+          {
+            "question": "What are the magic words?",
+            "expected": "Please and thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows greetings and manners",
+        "Uses magic words with a prompt"
+      ],
+      "conclusion": "Wave goodbye and say thank you.",
+      "homeConnection": "Keep using greetings and magic words at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit greetings, please, thank you and good manners through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HELLO",
+          "PLEASE",
+          "THANK YOU"
+        ],
+        "pictures": [
+          "A play shop",
+          "A toy door"
+        ]
+      },
+      "activities": [
+        "Manners games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W10-D02",
+      "title": "Revising feelings and routines",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising feelings and routines",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit feelings, circle time, lining up and tidying through games."
+      ],
+      "successCriteria": [
+        "Names a feeling",
+        "Follows a simple routine"
+      ],
+      "previousKnowledge": "Children have learnt about greetings, manners, feelings, routines, sharing, kindness, toileting and safety.",
+      "vocabulary": [
+        "hello",
+        "please",
+        "thank you",
+        "share",
+        "happy",
+        "safe"
+      ],
+      "resources": [
+        "Feelings cards",
+        "A mat",
+        "Baskets",
+        "Footprints"
+      ],
+      "starter": "Show a feelings card and say \"How do you feel today?\"",
+      "teacherActivities": [
+        "Play show me a feeling with the feelings cards.",
+        "Sit in the circle and sing the circle song.",
+        "Line up on footprints and walk.",
+        "Tidy up with the tidy-up song."
+      ],
+      "learnerActivities": [
+        "Child shows a feeling face.",
+        "Children sit and sing.",
+        "Children walk in a line.",
+        "Children put toys in baskets."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play show me a feeling with the feelings cards. Children: Child shows a feeling face.",
+        "Step 2. Teacher: Sit in the circle and sing the circle song. Children: Children sit and sing.",
+        "Step 3. Teacher: Line up on footprints and walk. Children: Children walk in a line.",
+        "Step 4. Teacher: Tidy up with the tidy-up song. Children: Children put toys in baskets."
+      ],
+      "practical": {
+        "title": "Feelings and routines games",
+        "steps": [
+          "Show feelings faces.",
+          "Sit in the circle.",
+          "Tidy up together."
+        ],
+        "safety": "Keep walkways clear and supervise each game. Stop any game that upsets a child."
+      },
+      "differentiation": {
+        "support": "Play beside the child and name each feeling.",
+        "extension": "Ask the child to lead the line."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How do you feel?",
+            "expected": "A feeling word."
+          },
+          {
+            "question": "What do we do at tidy-up?",
+            "expected": "Put toys away."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows feelings and routines",
+        "Follows routines with support"
+      ],
+      "conclusion": "Smile and wave goodbye.",
+      "homeConnection": "Talk about feelings and keep simple routines at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit feelings, circle time, lining up and tidying through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FEEL",
+          "TIDY",
+          "LINE"
+        ],
+        "pictures": [
+          "Feelings cards",
+          "A tidy room"
+        ]
+      },
+      "activities": [
+        "Feelings and routines games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W10-D03",
+      "title": "Social stations",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising greetings and manners",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s Term 1 social learning at play stations."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with confidence",
+        "Shows manners, feelings and routines"
+      ],
+      "previousKnowledge": "Children have learnt about greetings, manners, feelings, routines, sharing, kindness, toileting and safety.",
+      "vocabulary": [
+        "hello",
+        "please",
+        "thank you",
+        "share",
+        "happy",
+        "safe"
+      ],
+      "resources": [
+        "Six play stations",
+        "Class record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Say \"Today we play at six stations and show what we know.\"",
+      "teacherActivities": [
+        "Set up six stations: greetings, manners, feelings, sharing, kindness and hygiene.",
+        "Observe each child at two stations and record what they do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every three minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: greetings, manners, feelings, sharing, kindness and hygiene. Children: Children rotate every three minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Social stations",
+        "steps": [
+          "Set up six stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep water shallow and floors clear and use only large toys."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: greets; uses please and thank you; names feelings; shares and takes turns; shows kindness; washes hands.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite game.",
+            "expected": "Child chooses a game."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a Term 1 observation record",
+        "Shows familiar social skills at stations"
+      ],
+      "conclusion": "Say well done to everyone and wave goodbye.",
+      "homeConnection": "Play a favourite game at home during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s Term 1 social learning at play stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Social stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W10-D04",
+      "title": "Revising sharing and safety",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising sharing and safety",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit sharing, taking turns, kindness and safety through games."
+      ],
+      "successCriteria": [
+        "Shares and takes turns",
+        "Stops on the word stop"
+      ],
+      "previousKnowledge": "Children have learnt about greetings, manners, feelings, routines, sharing, kindness, toileting and safety.",
+      "vocabulary": [
+        "hello",
+        "please",
+        "thank you",
+        "share",
+        "happy",
+        "safe"
+      ],
+      "resources": [
+        "Blocks",
+        "A ball",
+        "A stop sign",
+        "A rope"
+      ],
+      "starter": "Say \"Let us build a tower together and be safe.\"",
+      "teacherActivities": [
+        "Build a tower with blocks, taking turns.",
+        "Play stop and go with a stop sign.",
+        "Walk with the rope and count children.",
+        "Say a kind word to a friend."
+      ],
+      "learnerActivities": [
+        "Child adds a block and waits.",
+        "Children stop on stop.",
+        "Children walk with the rope.",
+        "Child says a kind word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Build a tower with blocks, taking turns. Children: Child adds a block and waits.",
+        "Step 2. Teacher: Play stop and go with a stop sign. Children: Children stop on stop.",
+        "Step 3. Teacher: Walk with the rope and count children. Children: Children walk with the rope.",
+        "Step 4. Teacher: Say a kind word to a friend. Children: Child says a kind word."
+      ],
+      "practical": {
+        "title": "Sharing and safety games",
+        "steps": [
+          "Build a tower.",
+          "Play stop and go.",
+          "Walk with the rope."
+        ],
+        "safety": "Use large, light blocks and keep floors clear. Supervise closely and keep a second adult at the rope walk."
+      },
+      "differentiation": {
+        "support": "Take turns together with the child.",
+        "extension": "Ask the child to be the stop sign holder."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do with toys?",
+            "expected": "Share them."
+          },
+          {
+            "question": "What do we do at stop?",
+            "expected": "Stop still."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shares and takes turns",
+        "Follows safety rules with support"
+      ],
+      "conclusion": "Count the children and wave goodbye.",
+      "homeConnection": "Keep practising sharing and safety rules at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit sharing, taking turns, kindness and safety through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SHARE",
+          "SAFE",
+          "STOP"
+        ],
+        "pictures": [
+          "A block tower",
+          "A stop sign"
+        ]
+      },
+      "activities": [
+        "Sharing and safety games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W10-D05",
+      "title": "Term celebration and records",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising feelings and routines",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate Term 1 with songs, and teachers will complete each child’s Term 1 record."
+      ],
+      "successCriteria": [
+        "Joins in songs and games",
+        "Shows something they enjoyed"
+      ],
+      "previousKnowledge": "Children have learnt about greetings, manners, feelings, routines, sharing, kindness, toileting and safety.",
+      "vocabulary": [
+        "hello",
+        "please",
+        "thank you",
+        "share",
+        "happy",
+        "safe"
+      ],
+      "resources": [
+        "Favourite songs",
+        "Stickers",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate our term. Let us sing our favourite songs.\"",
+      "teacherActivities": [
+        "Sing favourite songs and rhymes with actions.",
+        "Give each child a sticker and say their name.",
+        "Complete each child’s record and next step."
+      ],
+      "learnerActivities": [
+        "Children sing and do actions.",
+        "Child waves and says thank you.",
+        "Children play quietly."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite songs and rhymes with actions. Children: Children sing and do actions.",
+        "Step 2. Teacher: Give each child a sticker and say their name. Children: Child waves and says thank you.",
+        "Step 3. Teacher: Complete each child’s record and next step. Children: Children play quietly."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle.",
+          "Sing and clap.",
+          "Give out stickers."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Keep the floor clear and supervise all play."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and sing together.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s Term 1 record from the term’s observations. Note a strength, a next step and a home idea for parents.",
+        "questions": [
+          {
+            "question": "What is your favourite thing?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "What do you like to do?",
+            "expected": "A game or song."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed Term 1 record",
+        "Enjoys the celebration"
+      ],
+      "conclusion": "Wave goodbye and say \"See you next term.\"",
+      "homeConnection": "Share the Term 1 record and keep practising manners over the holiday.",
+      "teacherReflection": [
+        "Which children could show \"celebrate Term 1 with songs, and teachers will complete each child’s Term 1 record\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

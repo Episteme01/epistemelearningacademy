@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-SOC-T1-W07",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 1,
+  "week": 7,
+  "title": "Being kind",
+  "topic": "Kindness",
+  "subtopics": [
+    "Kind hands",
+    "Kind words",
+    "Helping a friend"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will use gentle hands with friends and toys.",
+    "Children will say a kind word or help a friend."
+  ],
+  "vocabulary": [
+    "kind",
+    "gentle",
+    "help",
+    "hug",
+    "nice",
+    "friend"
+  ],
+  "content": "Kind hands, kind words and helping a friend.",
+  "teachingActivities": "Teach \"gentle hands\" with a soft toy; notice and name every kind act (\"You helped Ada, that was kind\"); never label a child as unkind; show kind words with a puppet; use a kindness chart with stickers.",
+  "learnerActivities": "Use gentle hands, say a kind word and help a friend with support.",
+  "resources": [
+    "A soft toy or doll",
+    "A puppet",
+    "A kindness chart",
+    "Stickers",
+    "Pictures of kind actions"
+  ],
+  "assessment": "Observe whether each child uses gentle hands and says or does a kind thing with support.",
+  "expectedOutcomes": [
+    "Uses gentle hands with a friend.",
+    "Says or does a kind thing with support."
+  ],
+  "crossCurricular": [
+    "Literacy: kind words",
+    "Creative Development: singing and acting",
+    "Numeracy: counting kind acts"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W07-D01",
+      "title": "Kind hands",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Kindness",
+      "subtopic": "Kind hands",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will use gentle hands with a soft toy and a friend."
+      ],
+      "successCriteria": [
+        "Strokes a soft toy gently",
+        "Uses gentle hands with a friend with support"
+      ],
+      "previousKnowledge": "Children can share and take turns with support.",
+      "vocabulary": [
+        "kind",
+        "gentle",
+        "help",
+        "hug",
+        "nice",
+        "friend"
+      ],
+      "resources": [
+        "A soft toy or doll",
+        "A puppet",
+        "A picture of hands"
+      ],
+      "starter": "Hold a soft toy gently and say \"I use kind hands. I do not hit or push.\"",
+      "teacherActivities": [
+        "Show how to stroke a soft toy gently.",
+        "Say \"Kind hands help. Kind hands share.\"",
+        "Let children pat a friend’s hand gently if they wish.",
+        "Use the puppet to show what happens if hands are not kind."
+      ],
+      "learnerActivities": [
+        "Children copy the gentle touch.",
+        "Children look at their hands.",
+        "Child pats a friend’s hand.",
+        "Children say gentle."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to stroke a soft toy gently. Children: Children copy the gentle touch.",
+        "Step 2. Teacher: Say \"Kind hands help. Kind hands share.\" Children: Children look at their hands.",
+        "Step 3. Teacher: Let children pat a friend’s hand gently if they wish. Children: Child pats a friend’s hand.",
+        "Step 4. Teacher: Use the puppet to show what happens if hands are not kind. Children: Children say gentle."
+      ],
+      "practical": {
+        "title": "Gentle hands",
+        "steps": [
+          "Hold a soft toy.",
+          "Stroke it gently.",
+          "Pat a friend’s hand gently."
+        ],
+        "safety": "Never force touch. Let children choose a wave or high five instead. Stay close to children who hit or push and gently redirect them."
+      },
+      "differentiation": {
+        "support": "Guide the child’s hand gently on the soft toy.",
+        "extension": "Ask the child to show a friend gentle hands."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What are kind hands?",
+            "expected": "Gentle hands."
+          },
+          {
+            "question": "Do kind hands hit?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses gentle hands",
+        "Says gentle or kind with support"
+      ],
+      "conclusion": "Wave goodbye with kind hands.",
+      "homeConnection": "Praise your child for gentle hands and show how to be gentle with a baby or a pet.",
+      "teacherReflection": [
+        "Which children could show \"use gentle hands with a soft toy and a friend\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "KIND",
+          "GENTLE"
+        ],
+        "pictures": [
+          "Kind hands",
+          "A gentle touch"
+        ],
+        "songOrRhyme": "Kind hands, kind hands, help and share."
+      },
+      "activities": [
+        "Gentle hands"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W07-D02",
+      "title": "Kind words",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Kindness",
+      "subtopic": "Kind words",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say a kind word to a friend."
+      ],
+      "successCriteria": [
+        "Says a kind word with a prompt",
+        "Smiles when saying it"
+      ],
+      "previousKnowledge": "Children can share and take turns with support.",
+      "vocabulary": [
+        "kind",
+        "gentle",
+        "help",
+        "hug",
+        "nice",
+        "friend"
+      ],
+      "resources": [
+        "A puppet",
+        "Pictures of kind words",
+        "A kindness chart"
+      ],
+      "starter": "Let the puppet say \"You are my friend\" and give a big smile.",
+      "teacherActivities": [
+        "Show kind words: hello, well done, thank you, you are my friend.",
+        "Use the puppet to say a kind word to a child.",
+        "Let each child say a kind word to a friend.",
+        "Add a sticker to the kindness chart."
+      ],
+      "learnerActivities": [
+        "Children say the words.",
+        "Child smiles or says thank you.",
+        "Child says a kind word.",
+        "Child places a sticker."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show kind words: hello, well done, thank you, you are my friend. Children: Children say the words.",
+        "Step 2. Teacher: Use the puppet to say a kind word to a child. Children: Child smiles or says thank you.",
+        "Step 3. Teacher: Let each child say a kind word to a friend. Children: Child says a kind word.",
+        "Step 4. Teacher: Add a sticker to the kindness chart. Children: Child places a sticker."
+      ],
+      "practical": {
+        "title": "Kind words round",
+        "steps": [
+          "Sit in a circle.",
+          "Say a kind word to a friend.",
+          "Add a sticker to the chart."
+        ],
+        "safety": "Use non-toxic stickers and watch that none are put in mouths. Never force a child to speak; accept a smile."
+      },
+      "differentiation": {
+        "support": "Say the kind word together.",
+        "extension": "Ask the child to say a kind word to every friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is a kind word?",
+            "expected": "Well done or thank you."
+          },
+          {
+            "question": "Who do you say it to?",
+            "expected": "A friend."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says a kind word with a prompt",
+        "Smiles when saying a kind word"
+      ],
+      "conclusion": "Say \"You are kind\" to a friend.",
+      "homeConnection": "Use kind words with your child and ask them to say one to a family member.",
+      "teacherReflection": [
+        "Which children could show \"say a kind word to a friend\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "KIND",
+          "WORDS"
+        ],
+        "pictures": [
+          "Children smiling and talking"
+        ]
+      },
+      "activities": [
+        "Kind words round"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W07-D03",
+      "title": "Helping a friend",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Kindness",
+      "subtopic": "Helping a friend",
+      "dayType": "explore",
+      "objectives": [
+        "Children will help a friend in a simple way."
+      ],
+      "successCriteria": [
+        "Helps a friend pick up something",
+        "Says help with a prompt"
+      ],
+      "previousKnowledge": "Children can share and take turns with support.",
+      "vocabulary": [
+        "kind",
+        "gentle",
+        "help",
+        "hug",
+        "nice",
+        "friend"
+      ],
+      "resources": [
+        "Blocks",
+        "A bag",
+        "A puppet who drops things"
+      ],
+      "starter": "Let the puppet drop its bag and say \"Oh no! Who can help me?\"",
+      "teacherActivities": [
+        "Show how to pick up the bag and give it back.",
+        "Say \"We help our friends.\"",
+        "Let each child help the puppet or a friend pick up toys.",
+        "Say thank you to helpers."
+      ],
+      "learnerActivities": [
+        "Children watch and help.",
+        "Children repeat help.",
+        "Child picks up toys.",
+        "Children say you are welcome."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to pick up the bag and give it back. Children: Children watch and help.",
+        "Step 2. Teacher: Say \"We help our friends.\" Children: Children repeat help.",
+        "Step 3. Teacher: Let each child help the puppet or a friend pick up toys. Children: Child picks up toys.",
+        "Step 4. Teacher: Say thank you to helpers. Children: Children say you are welcome."
+      ],
+      "practical": {
+        "title": "Helping hands",
+        "steps": [
+          "Let a puppet drop things.",
+          "Children help to pick them up.",
+          "Say thank you."
+        ],
+        "safety": "Use light, large objects and keep the floor clear. Supervise carefully so no child is hurt while helping."
+      },
+      "differentiation": {
+        "support": "Help together and hold the object.",
+        "extension": "Ask the child to find a friend who needs help."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do for friends?",
+            "expected": "Help them."
+          },
+          {
+            "question": "Who needs help?",
+            "expected": "A friend who dropped something."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Helps a friend in a simple way",
+        "Says help with a prompt"
+      ],
+      "conclusion": "Look at the helpful class and say \"Thank you.\"",
+      "homeConnection": "Ask your child to help with a small job and say thank you.",
+      "teacherReflection": [
+        "Which children could show \"help a friend in a simple way\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HELP",
+          "FRIEND"
+        ],
+        "pictures": [
+          "A child helping a friend"
+        ]
+      },
+      "activities": [
+        "Helping hands"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W07-D04",
+      "title": "Kindness every day",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Kindness",
+      "subtopic": "Helping a friend",
+      "dayType": "apply",
+      "objectives": [
+        "Children will use kind hands, kind words and helping in play."
+      ],
+      "successCriteria": [
+        "Uses a kind action in play",
+        "Receives a sticker for kindness"
+      ],
+      "previousKnowledge": "Children can share and take turns with support.",
+      "vocabulary": [
+        "kind",
+        "gentle",
+        "help",
+        "hug",
+        "nice",
+        "friend"
+      ],
+      "resources": [
+        "A kindness chart",
+        "Stickers",
+        "A play area with toys"
+      ],
+      "starter": "Show the kindness chart and say \"When we are kind, we get a sticker.\"",
+      "teacherActivities": [
+        "Watch children play and name kind acts you see.",
+        "Say \"I saw you share. That was kind.\"",
+        "Let children say a kind thing they did.",
+        "Count the stickers together."
+      ],
+      "learnerActivities": [
+        "Children play together.",
+        "Child smiles and receives a sticker.",
+        "Child says or shows what they did.",
+        "Children count with support."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Watch children play and name kind acts you see. Children: Children play together.",
+        "Step 2. Teacher: Say \"I saw you share. That was kind.\" Children: Child smiles and receives a sticker.",
+        "Step 3. Teacher: Let children say a kind thing they did. Children: Child says or shows what they did.",
+        "Step 4. Teacher: Count the stickers together. Children: Children count with support."
+      ],
+      "practical": {
+        "title": "Kindness spotting",
+        "steps": [
+          "Play in small groups.",
+          "The teacher spots kind acts.",
+          "Add stickers to the chart."
+        ],
+        "safety": "Give praise for kind acts and never remove a sticker. Use non-toxic stickers and supervise play."
+      },
+      "differentiation": {
+        "support": "Name a kind act the child did and give a sticker.",
+        "extension": "Ask the child to spot a kind act by a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you do that was kind?",
+            "expected": "Shared or helped."
+          },
+          {
+            "question": "How many stickers?",
+            "expected": "A number with support."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses a kind action in play",
+        "Says a kind thing they did"
+      ],
+      "conclusion": "Wave goodbye with a smile.",
+      "homeConnection": "Notice and praise your child’s kind acts at home.",
+      "teacherReflection": [
+        "Which children could show \"use kind hands, kind words and helping in play\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "KIND",
+          "STICKER"
+        ],
+        "pictures": [
+          "A kindness chart"
+        ]
+      },
+      "activities": [
+        "Kindness spotting"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W07-D05",
+      "title": "Week 7 kindness check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Kindness",
+      "subtopic": "Kind words",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child shows kindness."
+      ],
+      "successCriteria": [
+        "Uses gentle hands",
+        "Says or does a kind thing"
+      ],
+      "previousKnowledge": "Children can share and take turns with support.",
+      "vocabulary": [
+        "kind",
+        "gentle",
+        "help",
+        "hug",
+        "nice",
+        "friend"
+      ],
+      "resources": [
+        "Soft toys",
+        "Puppets",
+        "Class record sheet"
+      ],
+      "starter": "Sing the kind hands song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: gentle hands, kind words and helping.",
+        "At each station watch how the child shows kindness.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child plays with a friend.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: gentle hands, kind words and helping. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child shows kindness. Children: Child plays with a friend.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Kindness stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station closely and step in gently if a child is rough. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to show a friend how to help."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: uses gentle hands; says a kind word; helps a friend; plays kindly with others.",
+        "questions": [
+          {
+            "question": "What are kind hands?",
+            "expected": "Gentle hands."
+          },
+          {
+            "question": "What do we do for friends?",
+            "expected": "Help them."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Shows kindness with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep praising kind acts at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child shows kindness\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Kindness"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Kindness stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

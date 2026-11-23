@@ -1,0 +1,602 @@
+{
+  "id": "ELA-PS-TOD-SOC-T1-W01",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 1,
+  "week": 1,
+  "title": "Welcome to school",
+  "topic": "Belonging",
+  "subtopics": [
+    "My name and my friends",
+    "My teacher and my classroom",
+    "Saying goodbye and hello again"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say or show their name and recognise their teacher.",
+    "Children will separate from a parent with support and return happily."
+  ],
+  "vocabulary": [
+    "name",
+    "teacher",
+    "friend",
+    "school",
+    "class",
+    "goodbye"
+  ],
+  "content": "Learning names, meeting the teacher and the classroom, and practising saying goodbye and hello again.",
+  "teachingActivities": "Greet every child by name at the door; keep the first days calm and predictable; allow a parent to stay briefly if needed; never rush a crying child; give a comfort object a safe place; sing the same songs every day.",
+  "learnerActivities": "Respond to their name, recognise the teacher and settle in the classroom with adult support.",
+  "resources": [
+    "Name cards with photographs",
+    "A welcome song",
+    "Soft toys and comfort objects",
+    "A hello-goodbye puppet",
+    "A picture timetable"
+  ],
+  "assessment": "Observe whether each child responds to their name, settles with support and says or waves goodbye.",
+  "expectedOutcomes": [
+    "Responds to their name.",
+    "Settles in the classroom with adult support."
+  ],
+  "crossCurricular": [
+    "Literacy: names and songs",
+    "Numeracy: counting friends",
+    "Creative Development: singing"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W01-D01",
+      "title": "My name",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 1,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Belonging",
+      "subtopic": "My name and my friends",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will hear and respond to their own name."
+      ],
+      "successCriteria": [
+        "Looks up when their name is called",
+        "Says or shows their name with support"
+      ],
+      "previousKnowledge": "This is the first week of school. Children arrive with different home experiences and some may be upset to leave their parents.",
+      "vocabulary": [
+        "name",
+        "teacher",
+        "friend",
+        "school",
+        "class",
+        "goodbye"
+      ],
+      "resources": [
+        "Name cards with photographs",
+        "A soft ball",
+        "A welcome song"
+      ],
+      "starter": "Sit in a circle and sing \"Hello, hello, what is your name?\" while looking at each child with a smile.",
+      "teacherActivities": [
+        "Hold up each name card and say the child’s name warmly.",
+        "Roll a soft ball to each child and say their name.",
+        "Say the names of friends in the circle together.",
+        "Sing the name song again, using every name."
+      ],
+      "learnerActivities": [
+        "Child looks and smiles or says their name.",
+        "Child catches or touches the ball.",
+        "Children look at friends and wave.",
+        "Children clap and sing along."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold up each name card and say the child’s name warmly. Children: Child looks and smiles or says their name.",
+        "Step 2. Teacher: Roll a soft ball to each child and say their name. Children: Child catches or touches the ball.",
+        "Step 3. Teacher: Say the names of friends in the circle together. Children: Children look at friends and wave.",
+        "Step 4. Teacher: Sing the name song again, using every name. Children: Children clap and sing along."
+      ],
+      "practical": {
+        "title": "Name circle",
+        "steps": [
+          "Sit in a circle.",
+          "Roll the ball to each child and say their name.",
+          "Wave and say hello together."
+        ],
+        "safety": "Use a very soft ball and sit children away from walls and furniture. Never push a child to speak; accept a smile or a point."
+      },
+      "differentiation": {
+        "support": "Sit close to the child and use their photograph and name together.",
+        "extension": "Ask the child to roll the ball and say a friend’s name."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is your name?",
+            "expected": "The child says or points to their name."
+          },
+          {
+            "question": "Where is your friend?",
+            "expected": "Points to a friend."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Responds to their own name",
+        "Joins the name song with a smile or action"
+      ],
+      "conclusion": "Wave goodbye to each name and say \"See you tomorrow.\"",
+      "homeConnection": "Say your child’s name warmly and let them say or show it to family members.",
+      "teacherReflection": [
+        "Which children could show \"hear and respond to their own name\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "NAME",
+          "HELLO"
+        ],
+        "pictures": [
+          "Name cards with photos",
+          "A welcome circle"
+        ],
+        "songOrRhyme": "Hello, hello, what is your name? Hello, hello, I am glad you came."
+      },
+      "activities": [
+        "Name circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W01-D02",
+      "title": "My teacher and my classroom",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 1,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Belonging",
+      "subtopic": "My teacher and my classroom",
+      "dayType": "explore",
+      "objectives": [
+        "Children will recognise their teacher and the main areas of the classroom."
+      ],
+      "successCriteria": [
+        "Points to the teacher when asked",
+        "Visits the book corner and toy area with support"
+      ],
+      "previousKnowledge": "This is the first week of school. Children arrive with different home experiences and some may be upset to leave their parents.",
+      "vocabulary": [
+        "name",
+        "teacher",
+        "friend",
+        "school",
+        "class",
+        "goodbye"
+      ],
+      "resources": [
+        "A picture timetable",
+        "Labels for the book corner, toy area and toilet",
+        "A puppet"
+      ],
+      "starter": "Use the puppet to say \"Good morning! I am your teacher’s friend. Let us look at our classroom.\"",
+      "teacherActivities": [
+        "Introduce yourself by name and show a photo of the teacher.",
+        "Walk around the room and name each area: books, toys, toilet and mat.",
+        "Show the picture timetable and say what happens next.",
+        "Let each child choose an area to visit with you."
+      ],
+      "learnerActivities": [
+        "Children look and point to the teacher.",
+        "Children walk with the teacher.",
+        "Children look at the pictures.",
+        "Child chooses and plays for a short time."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Introduce yourself by name and show a photo of the teacher. Children: Children look and point to the teacher.",
+        "Step 2. Teacher: Walk around the room and name each area: books, toys, toilet and mat. Children: Children walk with the teacher.",
+        "Step 3. Teacher: Show the picture timetable and say what happens next. Children: Children look at the pictures.",
+        "Step 4. Teacher: Let each child choose an area to visit with you. Children: Child chooses and plays for a short time."
+      ],
+      "practical": {
+        "title": "Classroom walk",
+        "steps": [
+          "Walk around the room.",
+          "Name each area.",
+          "Let each child choose a place to play."
+        ],
+        "safety": "Check the room for hazards before children arrive and stay close to children who wander. Keep doors closed and the gate secure."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and walk to one area at a time.",
+        "extension": "Ask the child to show a friend one place in the classroom."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is the teacher?",
+            "expected": "Points to the teacher."
+          },
+          {
+            "question": "Where are the books?",
+            "expected": "Points to the book corner."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Recognises the teacher",
+        "Finds at least one area of the classroom"
+      ],
+      "conclusion": "Sing the goodbye song and wave to the classroom.",
+      "homeConnection": "Talk about school with your child in a happy voice and say you will always come back.",
+      "teacherReflection": [
+        "Which children could show \"recognise their teacher and the main areas of the classroom\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TEACHER",
+          "CLASS"
+        ],
+        "pictures": [
+          "The teacher",
+          "The classroom"
+        ]
+      },
+      "activities": [
+        "Classroom walk"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W01-D03",
+      "title": "Saying goodbye and hello again",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 1,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Belonging",
+      "subtopic": "Saying goodbye and hello again",
+      "dayType": "explore",
+      "objectives": [
+        "Children will practise a short goodbye and a happy hello again."
+      ],
+      "successCriteria": [
+        "Waves goodbye with support",
+        "Smiles when the adult returns"
+      ],
+      "previousKnowledge": "This is the first week of school. Children arrive with different home experiences and some may be upset to leave their parents.",
+      "vocabulary": [
+        "name",
+        "teacher",
+        "friend",
+        "school",
+        "class",
+        "goodbye"
+      ],
+      "resources": [
+        "A puppet or soft toy",
+        "A hello-goodbye song",
+        "A toy door or a screen"
+      ],
+      "starter": "Show the puppet who goes behind the screen and says \"Goodbye!\" then pops back with \"Hello again!\"",
+      "teacherActivities": [
+        "Play the puppet goodbye and hello game.",
+        "Let each child hide a soft toy and bring it back.",
+        "Say \"Mummy always comes back\" in a calm, happy voice.",
+        "Practise a short goodbye wave at the door with a friend."
+      ],
+      "learnerActivities": [
+        "Children wave and say hello.",
+        "Child hides the toy and finds it.",
+        "Children listen and wave.",
+        "Child waves and says bye."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the puppet goodbye and hello game. Children: Children wave and say hello.",
+        "Step 2. Teacher: Let each child hide a soft toy and bring it back. Children: Child hides the toy and finds it.",
+        "Step 3. Teacher: Say \"Mummy always comes back\" in a calm, happy voice. Children: Children listen and wave.",
+        "Step 4. Teacher: Practise a short goodbye wave at the door with a friend. Children: Child waves and says bye."
+      ],
+      "practical": {
+        "title": "Goodbye and hello",
+        "steps": [
+          "Hide a toy.",
+          "Say goodbye with a wave.",
+          "Bring it back and say hello again."
+        ],
+        "safety": "Stay close to a child who is upset and never leave a distressed child alone. Keep the play calm and gentle."
+      },
+      "differentiation": {
+        "support": "Wave together and let the child hold a comfort toy.",
+        "extension": "Ask the child to say goodbye to a friend and hello again."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say when we go?",
+            "expected": "Goodbye."
+          },
+          {
+            "question": "What do we say when we come back?",
+            "expected": "Hello."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Waves goodbye with support",
+        "Smiles when a toy or adult returns"
+      ],
+      "conclusion": "Sing the goodbye song and wave together.",
+      "homeConnection": "Say a short, loving goodbye every day and promise to return.",
+      "teacherReflection": [
+        "Which children could show \"practise a short goodbye and a happy hello again\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HELLO",
+          "GOODBYE"
+        ],
+        "pictures": [
+          "A hand waving",
+          "A puppet"
+        ]
+      },
+      "activities": [
+        "Goodbye and hello"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W01-D04",
+      "title": "Playing with new friends",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 1,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Belonging",
+      "subtopic": "My name and my friends",
+      "dayType": "practise",
+      "objectives": [
+        "Children will play beside other children and notice their names."
+      ],
+      "successCriteria": [
+        "Plays beside another child",
+        "Looks at a friend and smiles"
+      ],
+      "previousKnowledge": "This is the first week of school. Children arrive with different home experiences and some may be upset to leave their parents.",
+      "vocabulary": [
+        "name",
+        "teacher",
+        "friend",
+        "school",
+        "class",
+        "goodbye"
+      ],
+      "resources": [
+        "Matching toys such as blocks and cars",
+        "A play mat",
+        "Name cards"
+      ],
+      "starter": "Put out two of each toy and say \"Let us find a friend with the same toy.\"",
+      "teacherActivities": [
+        "Show two matching toys and pair children beside each other.",
+        "Say each friend’s name as they play.",
+        "Show how to offer a toy with a smile.",
+        "Wave to the friend and say bye when finished."
+      ],
+      "learnerActivities": [
+        "Children sit beside a friend.",
+        "Child looks at the friend.",
+        "Child offers a toy to a friend.",
+        "Child waves and says bye."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show two matching toys and pair children beside each other. Children: Children sit beside a friend.",
+        "Step 2. Teacher: Say each friend’s name as they play. Children: Child looks at the friend.",
+        "Step 3. Teacher: Show how to offer a toy with a smile. Children: Child offers a toy to a friend.",
+        "Step 4. Teacher: Wave to the friend and say bye when finished. Children: Child waves and says bye."
+      ],
+      "practical": {
+        "title": "Play beside a friend",
+        "steps": [
+          "Pair children with matching toys.",
+          "Play for a few minutes.",
+          "Say each other’s names."
+        ],
+        "safety": "Use large toys with no small parts that can be swallowed and supervise closely. Step in gently if a child grabs."
+      },
+      "differentiation": {
+        "support": "Sit with the child and play beside one friend.",
+        "extension": "Ask the child to name a friend they played with."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is your friend?",
+            "expected": "Says or points to a friend."
+          },
+          {
+            "question": "What did you play?",
+            "expected": "A toy name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays beside a friend",
+        "Says or points to a friend"
+      ],
+      "conclusion": "Tidy the toys together and wave goodbye.",
+      "homeConnection": "Arrange short play dates or play beside siblings and name the other child.",
+      "teacherReflection": [
+        "Which children could show \"play beside other children and notice their names\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FRIEND",
+          "PLAY"
+        ],
+        "pictures": [
+          "Two children playing",
+          "Matching toys"
+        ]
+      },
+      "activities": [
+        "Play beside a friend"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T1-W01-D05",
+      "title": "Week 1 settling check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 1,
+      "week": 1,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Belonging",
+      "subtopic": "Saying goodbye and hello again",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child is settling at school."
+      ],
+      "successCriteria": [
+        "Responds to their name",
+        "Settles in the classroom with support"
+      ],
+      "previousKnowledge": "This is the first week of school. Children arrive with different home experiences and some may be upset to leave their parents.",
+      "vocabulary": [
+        "name",
+        "teacher",
+        "friend",
+        "school",
+        "class",
+        "goodbye"
+      ],
+      "resources": [
+        "Name cards",
+        "Class record sheet",
+        "Comfort objects"
+      ],
+      "starter": "Sing the welcome song and invite children to play at three familiar areas.",
+      "teacherActivities": [
+        "Set up three areas: name circle, play and book corner.",
+        "Observe each child’s response to name, mood and play and note it.",
+        "Record each child’s level and a note for parents."
+      ],
+      "learnerActivities": [
+        "Children move between areas freely.",
+        "Children play and explore.",
+        "Children join the goodbye song."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three areas: name circle, play and book corner. Children: Children move between areas freely.",
+        "Step 2. Teacher: Observe each child’s response to name, mood and play and note it. Children: Children play and explore.",
+        "Step 3. Teacher: Record each child’s level and a note for parents. Children: Children join the goodbye song."
+      ],
+      "practical": {
+        "title": "Settling observation",
+        "steps": [
+          "Set up three calm areas.",
+          "Let children move freely.",
+          "The teacher watches and records."
+        ],
+        "safety": "Keep an adult at every area and watch for distressed children. Keep the environment calm and safe."
+      },
+      "differentiation": {
+        "support": "Provide an adult close by and a comfort object.",
+        "extension": "Ask a confident child to welcome a new friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: responds to name; separates from a parent with support; recognises the teacher; plays near others.",
+        "questions": [
+          {
+            "question": "What is your name?",
+            "expected": "The child says or shows it."
+          },
+          {
+            "question": "Who is your teacher?",
+            "expected": "Points to the teacher."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 1",
+        "Settles in class with support"
+      ],
+      "conclusion": "Wave goodbye and say \"See you tomorrow.\"",
+      "homeConnection": "Share a short note about how your child settled and how to keep goodbyes short.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child is settling at school\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Settling"
+        ],
+        "pictures": [
+          "Children playing happily"
+        ]
+      },
+      "activities": [
+        "Settling observation"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
