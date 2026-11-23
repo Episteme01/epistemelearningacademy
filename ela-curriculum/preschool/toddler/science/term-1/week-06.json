@@ -1,0 +1,610 @@
+{
+  "id": "ELA-PS-TOD-SCI-T1-W06",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 1,
+  "week": 6,
+  "title": "Water play",
+  "topic": "Water",
+  "subtopics": [
+    "Pouring and splashing",
+    "Wet and dry",
+    "Water in my day"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will pour, splash and play with water safely.",
+    "Children will say whether things are wet or dry."
+  ],
+  "vocabulary": [
+    "water",
+    "wet",
+    "dry",
+    "pour",
+    "splash",
+    "drink"
+  ],
+  "content": "Pouring and splashing water, deciding whether things are wet or dry, and noticing where water is used in our day.",
+  "teachingActivities": "Keep water shallow and supervise every moment; use aprons and towels; name each action; let children pour from small jugs; wipe spills at once.",
+  "learnerActivities": "Pour, splash and play with water safely and say wet or dry.",
+  "resources": [
+    "A shallow basin",
+    "Small jugs, cups and funnels",
+    "Aprons and towels",
+    "A sponge",
+    "A cloth and a dry towel",
+    "Pictures of water uses"
+  ],
+  "assessment": "Observe whether each child pours water safely and says wet or dry for objects.",
+  "expectedOutcomes": [
+    "Pours water from one container to another.",
+    "Says wet or dry for objects."
+  ],
+  "crossCurricular": [
+    "Numeracy: full and empty",
+    "Social Habits: cleaning up spills",
+    "Literacy: describing words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W06-D01",
+      "title": "Pouring water",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Water",
+      "subtopic": "Pouring and splashing",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will pour water from one container to another."
+      ],
+      "successCriteria": [
+        "Pours water from a jug into a cup",
+        "Says pour or water"
+      ],
+      "previousKnowledge": "Children have explored the senses and can describe things as soft, hard, rough and smooth.",
+      "vocabulary": [
+        "water",
+        "wet",
+        "dry",
+        "pour",
+        "splash",
+        "drink"
+      ],
+      "resources": [
+        "A shallow basin of water",
+        "Small jugs and cups",
+        "Aprons",
+        "Towels"
+      ],
+      "starter": "Pour a little water slowly into a cup and say \"Pour, pour, pour. Look, the water goes in.\"",
+      "teacherActivities": [
+        "Show how to hold a jug with two hands and pour slowly into a cup.",
+        "Let each child pour water from the jug into a cup while you hold the cup steady.",
+        "Ask \"Where does the water go?\" and \"Is the cup full?\"",
+        "Tip the water back into the basin."
+      ],
+      "learnerActivities": [
+        "Children watch and copy holding a jug.",
+        "Child pours water into the cup.",
+        "Child says or points to where the water went.",
+        "Child pours the water back and says \"pour\"."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to hold a jug with two hands and pour slowly into a cup. Children: Children watch and copy holding a jug.",
+        "Step 2. Teacher: Let each child pour water from the jug into a cup while you hold the cup steady. Children: Child pours water into the cup.",
+        "Step 3. Teacher: Ask \"Where does the water go?\" and \"Is the cup full?\" Children: Child says or points to where the water went.",
+        "Step 4. Teacher: Tip the water back into the basin. Children: Child pours the water back and says \"pour\"."
+      ],
+      "practical": {
+        "title": "Water pouring",
+        "steps": [
+          "Put on aprons and set up the basin on a waterproof mat.",
+          "Each child pours water from a jug to a cup.",
+          "Wipe spills and dry hands."
+        ],
+        "safety": "Keep water shallow and supervise at all times. Use a waterproof mat and wipe spills at once so no one slips."
+      },
+      "differentiation": {
+        "support": "Hold the jug together with the child and pour slowly.",
+        "extension": "Ask the child to fill two cups to the top."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What are you doing?",
+            "expected": "Pouring water."
+          },
+          {
+            "question": "Where did the water go?",
+            "expected": "Into the cup."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Pours water into a cup",
+        "Says pour and water"
+      ],
+      "conclusion": "Pour the water back and dry hands with a towel.",
+      "homeConnection": "Let your child pour water from a small jug into a cup at home.",
+      "teacherReflection": [
+        "Which children could show \"pour water from one container to another\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "POUR",
+          "WATER"
+        ],
+        "pictures": [
+          "A jug pouring water",
+          "A cup of water"
+        ],
+        "songOrRhyme": "Pour, pour, pour the water. Splash, splash, splash."
+      },
+      "activities": [
+        "Water pouring"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W06-D02",
+      "title": "Splash and play",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Water",
+      "subtopic": "Pouring and splashing",
+      "dayType": "explore",
+      "objectives": [
+        "Children will explore water with their hands and toys and say splash."
+      ],
+      "successCriteria": [
+        "Plays in water gently",
+        "Says splash or wet"
+      ],
+      "previousKnowledge": "Children have explored the senses and can describe things as soft, hard, rough and smooth.",
+      "vocabulary": [
+        "water",
+        "wet",
+        "dry",
+        "pour",
+        "splash",
+        "drink"
+      ],
+      "resources": [
+        "A shallow basin",
+        "Plastic toys",
+        "Sponges",
+        "Aprons",
+        "Towels"
+      ],
+      "starter": "Tap the water with your hand and say \"Splash, splash.\" Ask \"Can you splash?\"",
+      "teacherActivities": [
+        "Show how to splash gently with one hand.",
+        "Give each child a sponge and show how to squeeze it.",
+        "Float plastic toys on the water and say their names.",
+        "Say \"Stop\" and ask children to hold their hands still."
+      ],
+      "learnerActivities": [
+        "Children splash gently with a hand.",
+        "Child squeezes the sponge and says splash or drip.",
+        "Child pushes a toy through the water.",
+        "Children stop and watch the water settle."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to splash gently with one hand. Children: Children splash gently with a hand.",
+        "Step 2. Teacher: Give each child a sponge and show how to squeeze it. Children: Child squeezes the sponge and says splash or drip.",
+        "Step 3. Teacher: Float plastic toys on the water and say their names. Children: Child pushes a toy through the water.",
+        "Step 4. Teacher: Say \"Stop\" and ask children to hold their hands still. Children: Children stop and watch the water settle."
+      ],
+      "practical": {
+        "title": "Splash time",
+        "steps": [
+          "Put on aprons and sit by the basin.",
+          "Splash, squeeze and play with toys.",
+          "Stop and watch the water settle."
+        ],
+        "safety": "Keep splashing gentle and supervise every child. Wipe the floor often and keep children’s faces dry."
+      },
+      "differentiation": {
+        "support": "Play beside the child and move their hand through the water.",
+        "extension": "Ask the child to make a big splash and a small splash."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do you do with water?",
+            "expected": "Splash, pour or play."
+          },
+          {
+            "question": "Is your hand wet?",
+            "expected": "Yes, wet."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays safely in water",
+        "Says splash and wet"
+      ],
+      "conclusion": "Dry hands and say \"Water play is finished.\"",
+      "homeConnection": "Splash gently in the bath or in a bowl of water.",
+      "teacherReflection": [
+        "Which children could show \"explore water with their hands and toys and say splash\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SPLASH",
+          "WET"
+        ],
+        "pictures": [
+          "A child splashing",
+          "A sponge and a toy"
+        ]
+      },
+      "activities": [
+        "Splash time"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W06-D03",
+      "title": "Wet and dry",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Water",
+      "subtopic": "Wet and dry",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say whether objects are wet or dry."
+      ],
+      "successCriteria": [
+        "Touches and says wet or dry",
+        "Sorts wet and dry things with support"
+      ],
+      "previousKnowledge": "Children have explored the senses and can describe things as soft, hard, rough and smooth.",
+      "vocabulary": [
+        "water",
+        "wet",
+        "dry",
+        "pour",
+        "splash",
+        "drink"
+      ],
+      "resources": [
+        "A wet cloth and a dry cloth",
+        "A wet sponge and a dry sponge",
+        "A dry towel",
+        "Two trays"
+      ],
+      "starter": "Hold a wet cloth and a dry cloth. Say \"This is wet. This is dry.\" Let children touch both.",
+      "teacherActivities": [
+        "Dip a cloth in water and say \"Now it is wet.\"",
+        "Touch a dry towel and say \"Dry.\"",
+        "Show pairs of objects and ask \"Which is wet?\"",
+        "Sort wet and dry things into two trays."
+      ],
+      "learnerActivities": [
+        "Children touch the wet cloth and say wet.",
+        "Children touch the towel and say dry.",
+        "Child points to the wet object.",
+        "Child puts each object on the correct tray."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Dip a cloth in water and say \"Now it is wet.\" Children: Children touch the wet cloth and say wet.",
+        "Step 2. Teacher: Touch a dry towel and say \"Dry.\" Children: Children touch the towel and say dry.",
+        "Step 3. Teacher: Show pairs of objects and ask \"Which is wet?\" Children: Child points to the wet object.",
+        "Step 4. Teacher: Sort wet and dry things into two trays. Children: Child puts each object on the correct tray."
+      ],
+      "practical": {
+        "title": "Wet and dry sort",
+        "steps": [
+          "Put wet and dry objects on the table.",
+          "Each child touches each one.",
+          "Sort them into two trays."
+        ],
+        "safety": "Use only safe objects and wipe up any water. Keep electrical items away from water."
+      },
+      "differentiation": {
+        "support": "Touch both objects together and say the word.",
+        "extension": "Ask the child to make a dry thing wet and say what happened."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the cloth wet or dry?",
+            "expected": "Wet or dry."
+          },
+          {
+            "question": "How do you know?",
+            "expected": "It feels wet or dry."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says wet or dry for objects",
+        "Sorts wet and dry things"
+      ],
+      "conclusion": "Hang the wet cloth in the sun and say \"It will be dry soon.\"",
+      "homeConnection": "Talk about wet and dry things at home, such as wet clothes and dry towels.",
+      "teacherReflection": [
+        "Which children could show \"say whether objects are wet or dry\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WET",
+          "DRY"
+        ],
+        "pictures": [
+          "A wet cloth",
+          "A dry towel"
+        ]
+      },
+      "activities": [
+        "Wet and dry sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W06-D04",
+      "title": "Water in my day",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Water",
+      "subtopic": "Water in my day",
+      "dayType": "practise",
+      "objectives": [
+        "Children will say what we use water for each day."
+      ],
+      "successCriteria": [
+        "Names at least two uses of water",
+        "Acts out a use of water"
+      ],
+      "previousKnowledge": "Children have explored the senses and can describe things as soft, hard, rough and smooth.",
+      "vocabulary": [
+        "water",
+        "wet",
+        "dry",
+        "pour",
+        "splash",
+        "drink"
+      ],
+      "resources": [
+        "Pictures of drinking, washing, cooking and watering plants",
+        "A cup",
+        "A bowl"
+      ],
+      "starter": "Show a cup of water and say \"We drink water.\" Pretend to drink.",
+      "teacherActivities": [
+        "Show each picture and say what water is used for.",
+        "Act out each use: drink, wash hands, wash a plate, water a plant.",
+        "Ask \"What do we use water for?\" and show the pictures.",
+        "Let each child choose a picture and act it."
+      ],
+      "learnerActivities": [
+        "Children look and say the use.",
+        "Children copy the actions.",
+        "Child points to a picture.",
+        "Child acts and friends guess."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture and say what water is used for. Children: Children look and say the use.",
+        "Step 2. Teacher: Act out each use: drink, wash hands, wash a plate, water a plant. Children: Children copy the actions.",
+        "Step 3. Teacher: Ask \"What do we use water for?\" and show the pictures. Children: Child points to a picture.",
+        "Step 4. Teacher: Let each child choose a picture and act it. Children: Child acts and friends guess."
+      ],
+      "practical": {
+        "title": "Water uses",
+        "steps": [
+          "Put four pictures on the floor.",
+          "Act out each use of water.",
+          "Say the word together."
+        ],
+        "safety": "Use only clean drinking water for tasting and never allow children to drink from the basin. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Offer two pictures and act together.",
+        "extension": "Ask the child to name a use of water at home."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we drink?",
+            "expected": "Water."
+          },
+          {
+            "question": "What else do we use water for?",
+            "expected": "Washing, cooking or plants."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names uses of water",
+        "Acts out uses of water"
+      ],
+      "conclusion": "Say \"Thank you, water\" and wash hands.",
+      "homeConnection": "Talk about how your family uses water each day.",
+      "teacherReflection": [
+        "Which children could show \"say what we use water for each day\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DRINK",
+          "WASH",
+          "COOK"
+        ],
+        "pictures": [
+          "A child drinking",
+          "A child washing hands",
+          "A pot of water"
+        ]
+      },
+      "activities": [
+        "Water uses"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W06-D05",
+      "title": "Week 6 water check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Water",
+      "subtopic": "Pouring and splashing",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child plays with water and uses water words."
+      ],
+      "successCriteria": [
+        "Pours water safely",
+        "Says wet or dry"
+      ],
+      "previousKnowledge": "Children have explored the senses and can describe things as soft, hard, rough and smooth.",
+      "vocabulary": [
+        "water",
+        "wet",
+        "dry",
+        "pour",
+        "splash",
+        "drink"
+      ],
+      "resources": [
+        "A basin",
+        "Jugs and cups",
+        "Wet and dry objects",
+        "Class record sheet"
+      ],
+      "starter": "Sing \"Pour, pour, pour the water\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: pouring, splashing and wet and dry.",
+        "At each station ask \"What is happening?\" and \"Is it wet or dry?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children dry hands and tidy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: pouring, splashing and wet and dry. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What is happening?\" and \"Is it wet or dry?\" Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children dry hands and tidy."
+      ],
+      "practical": {
+        "title": "Water stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station closely and keep water shallow. Wipe spills quickly."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to explain what they did to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: pours water; says splash or wet; says wet or dry for objects.",
+        "questions": [
+          {
+            "question": "Can you pour?",
+            "expected": "Child pours water."
+          },
+          {
+            "question": "Is it wet?",
+            "expected": "Yes, wet."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Plays safely with water"
+      ],
+      "conclusion": "Dry hands and wave goodbye.",
+      "homeConnection": "Let your child help with water tasks at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child plays with water and uses water words\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Water"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Water stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

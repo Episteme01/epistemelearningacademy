@@ -1,0 +1,616 @@
+{
+  "id": "ELA-PS-TOD-SCI-T1-W01",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 1,
+  "week": 1,
+  "title": "Me and my body",
+  "topic": "My body",
+  "subtopics": [
+    "Naming body parts",
+    "What my body can do",
+    "Songs about my body"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will point to and name main parts of the body.",
+    "Children will show what different body parts can do."
+  ],
+  "vocabulary": [
+    "head",
+    "hands",
+    "feet",
+    "eyes",
+    "ears",
+    "mouth"
+  ],
+  "content": "Naming main body parts, finding out what the body can do, and singing body songs.",
+  "teachingActivities": "Touch each body part as you name it; use a mirror so children see their own body; sing and move together; use the same words every day.",
+  "learnerActivities": "Point to and name body parts and show what each part can do.",
+  "resources": [
+    "A large mirror",
+    "A doll or soft toy",
+    "A body picture",
+    "A scarf",
+    "A drum"
+  ],
+  "assessment": "Observe whether each child points to at least six body parts when named.",
+  "expectedOutcomes": [
+    "Points to at least six body parts when named.",
+    "Says what a body part can do with support."
+  ],
+  "crossCurricular": [
+    "Literacy: action songs",
+    "Physical Development: body awareness",
+    "Social Habits: respecting our bodies"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W01-D01",
+      "title": "Head, hands and feet",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 1,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "My body",
+      "subtopic": "Naming body parts",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will point to and name the head, hands and feet."
+      ],
+      "successCriteria": [
+        "Points to the head, hands and feet when named",
+        "Says a body part name with support"
+      ],
+      "previousKnowledge": "Children are new to the class; they know some body parts from home and enjoy songs and movement.",
+      "vocabulary": [
+        "head",
+        "hands",
+        "feet",
+        "eyes",
+        "ears",
+        "mouth"
+      ],
+      "resources": [
+        "A large mirror",
+        "A doll",
+        "A mat"
+      ],
+      "starter": "Sit in front of the mirror, touch your head and say \"This is my head.\" Ask each child to touch their own head.",
+      "teacherActivities": [
+        "Touch your head, hands and feet in turn and say each name clearly.",
+        "Say a body part and wait for children to find it on themselves.",
+        "Show the parts on the doll and ask \"Where are the doll’s feet?\"",
+        "Let each child look in the mirror and name one part."
+      ],
+      "learnerActivities": [
+        "Children touch the same part on their own body.",
+        "Children touch the part named.",
+        "Child points to the doll’s feet.",
+        "Child touches a part and says its name."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Touch your head, hands and feet in turn and say each name clearly. Children: Children touch the same part on their own body.",
+        "Step 2. Teacher: Say a body part and wait for children to find it on themselves. Children: Children touch the part named.",
+        "Step 3. Teacher: Show the parts on the doll and ask \"Where are the doll’s feet?\" Children: Child points to the doll’s feet.",
+        "Step 4. Teacher: Let each child look in the mirror and name one part. Children: Child touches a part and says its name."
+      ],
+      "practical": {
+        "title": "Mirror body parts",
+        "steps": [
+          "Sit children in front of the mirror in small groups.",
+          "Name a body part and let them touch it.",
+          "Say the name together."
+        ],
+        "safety": "Fix the mirror firmly to the wall or hold it steady so it cannot fall. Use an unbreakable mirror and keep children seated."
+      },
+      "differentiation": {
+        "support": "Touch the part together on the child’s body and say the word.",
+        "extension": "Ask the child to name a part and touch it on a friend’s doll."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is your head?",
+            "expected": "Child touches their head."
+          },
+          {
+            "question": "What is this?",
+            "expected": "Hands or feet."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Points to head, hands and feet",
+        "Names a body part with support"
+      ],
+      "conclusion": "Wave your hands, wiggle your feet and say \"Thank you, body.\"",
+      "homeConnection": "At bath time, touch each body part with your child and name it.",
+      "teacherReflection": [
+        "Which children could show \"point to and name the head, hands and feet\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HEAD",
+          "HANDS",
+          "FEET"
+        ],
+        "pictures": [
+          "A child’s head",
+          "Two hands",
+          "Two feet"
+        ],
+        "songOrRhyme": "Head, hands, feet, head, hands, feet. This is me."
+      },
+      "activities": [
+        "Mirror body parts"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W01-D02",
+      "title": "Eyes, ears and mouth",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 1,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "My body",
+      "subtopic": "Naming body parts",
+      "dayType": "explore",
+      "objectives": [
+        "Children will point to and name the eyes, ears, nose and mouth."
+      ],
+      "successCriteria": [
+        "Points to the eyes, ears, nose and mouth",
+        "Says at least two names"
+      ],
+      "previousKnowledge": "Children are new to the class; they know some body parts from home and enjoy songs and movement.",
+      "vocabulary": [
+        "head",
+        "hands",
+        "feet",
+        "eyes",
+        "ears",
+        "mouth"
+      ],
+      "resources": [
+        "A mirror",
+        "A doll",
+        "A face picture"
+      ],
+      "starter": "Point to your eyes and say \"These are my eyes.\" Wink and ask \"Where are your eyes?\"",
+      "teacherActivities": [
+        "Touch each part of your face and say its name: eyes, ears, nose, mouth.",
+        "Say a part of the face and wait.",
+        "Sing \"Eyes, ears, nose and mouth\" while touching each part.",
+        "Ask each child to point to a part on the doll’s face."
+      ],
+      "learnerActivities": [
+        "Children touch the same part on their own face.",
+        "Children touch the part named.",
+        "Children touch and sing along.",
+        "Child points and says the name."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Touch each part of your face and say its name: eyes, ears, nose, mouth. Children: Children touch the same part on their own face.",
+        "Step 2. Teacher: Say a part of the face and wait. Children: Children touch the part named.",
+        "Step 3. Teacher: Sing \"Eyes, ears, nose and mouth\" while touching each part. Children: Children touch and sing along.",
+        "Step 4. Teacher: Ask each child to point to a part on the doll’s face. Children: Child points and says the name."
+      ],
+      "practical": {
+        "title": "Face parts",
+        "steps": [
+          "Sit in front of the mirror.",
+          "Touch each face part as it is named.",
+          "Make a funny face and name the parts."
+        ],
+        "safety": "Remind children to touch their faces gently and keep fingers away from eyes. Use a steady, unbreakable mirror."
+      },
+      "differentiation": {
+        "support": "Touch the part on your own face first and let the child copy.",
+        "extension": "Ask the child to name a part and say what it does."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where are your eyes?",
+            "expected": "Child touches their eyes."
+          },
+          {
+            "question": "What is this?",
+            "expected": "Ears, nose or mouth."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Points to four face parts",
+        "Names a face part with support"
+      ],
+      "conclusion": "Blow a kiss and say \"Thank you, face.\"",
+      "homeConnection": "Play touch your nose, ears and mouth at home.",
+      "teacherReflection": [
+        "Which children could show \"point to and name the eyes, ears, nose and mouth\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "EYES",
+          "EARS",
+          "NOSE",
+          "MOUTH"
+        ],
+        "pictures": [
+          "Two eyes",
+          "Two ears",
+          "A nose",
+          "A mouth"
+        ],
+        "songOrRhyme": "Eyes, ears, nose and mouth. This is my face."
+      },
+      "activities": [
+        "Face parts"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W01-D03",
+      "title": "What can my hands do?",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 1,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "My body",
+      "subtopic": "What my body can do",
+      "dayType": "explore",
+      "objectives": [
+        "Children will show things that hands, feet and mouths can do."
+      ],
+      "successCriteria": [
+        "Does an action with their hands",
+        "Says what a body part does with support"
+      ],
+      "previousKnowledge": "Children are new to the class; they know some body parts from home and enjoy songs and movement.",
+      "vocabulary": [
+        "head",
+        "hands",
+        "feet",
+        "eyes",
+        "ears",
+        "mouth"
+      ],
+      "resources": [
+        "A ball",
+        "A scarf",
+        "A drum",
+        "A cup"
+      ],
+      "starter": "Wave your hands and say \"My hands can wave.\" Ask \"What can your hands do?\"",
+      "teacherActivities": [
+        "Show an action for each body part: clap hands, stamp feet, blink eyes, sing with the mouth.",
+        "Say \"What can hands do?\" and show a ball, scarf and cup.",
+        "Say \"What can feet do?\" and let children stamp, walk and tiptoe.",
+        "Ask each child to show you something their body can do."
+      ],
+      "learnerActivities": [
+        "Children copy each action.",
+        "Child picks up an object and uses their hands.",
+        "Children do the actions.",
+        "Child shows an action."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show an action for each body part: clap hands, stamp feet, blink eyes, sing with the mouth. Children: Children copy each action.",
+        "Step 2. Teacher: Say \"What can hands do?\" and show a ball, scarf and cup. Children: Child picks up an object and uses their hands.",
+        "Step 3. Teacher: Say \"What can feet do?\" and let children stamp, walk and tiptoe. Children: Children do the actions.",
+        "Step 4. Teacher: Ask each child to show you something their body can do. Children: Child shows an action."
+      ],
+      "practical": {
+        "title": "Body can do",
+        "steps": [
+          "Clear a space on the mat.",
+          "Call a body part and let children show an action.",
+          "Name the action together."
+        ],
+        "safety": "Clear the floor so children do not trip. Keep actions gentle and stop if anyone is tired."
+      },
+      "differentiation": {
+        "support": "Do the action together and say the word.",
+        "extension": "Ask the child to invent a new thing a body part can do."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What can hands do?",
+            "expected": "Clap, wave or hold."
+          },
+          {
+            "question": "What can feet do?",
+            "expected": "Walk, stamp or jump."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows what body parts can do",
+        "Says what a part does with support"
+      ],
+      "conclusion": "Wave, clap and stamp together and then sit still.",
+      "homeConnection": "Ask your child what their hands and feet can do while you do daily tasks.",
+      "teacherReflection": [
+        "Which children could show \"show things that hands, feet and mouths can do\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CLAP",
+          "WALK",
+          "LOOK"
+        ],
+        "pictures": [
+          "Hands clapping",
+          "Feet walking",
+          "Eyes looking"
+        ]
+      },
+      "activities": [
+        "Body can do"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W01-D04",
+      "title": "The body song",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 1,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "My body",
+      "subtopic": "Songs about my body",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sing a body song and touch each part."
+      ],
+      "successCriteria": [
+        "Touches the right body part in the song",
+        "Sings or hums along"
+      ],
+      "previousKnowledge": "Children are new to the class; they know some body parts from home and enjoy songs and movement.",
+      "vocabulary": [
+        "head",
+        "hands",
+        "feet",
+        "eyes",
+        "ears",
+        "mouth"
+      ],
+      "resources": [
+        "A drum",
+        "A doll",
+        "Body picture cards"
+      ],
+      "starter": "Say \"Let us sing about our body.\" Touch your head and tap the drum once.",
+      "teacherActivities": [
+        "Sing \"Head, shoulders, knees and toes\" slowly with actions.",
+        "Sing again and speed up a little.",
+        "Sing again and leave out a word.",
+        "Let a child lead the song with the doll."
+      ],
+      "learnerActivities": [
+        "Children touch each part.",
+        "Children keep up with the actions.",
+        "Children touch the part and say the word.",
+        "Child touches the doll and the group copies."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing \"Head, shoulders, knees and toes\" slowly with actions. Children: Children touch each part.",
+        "Step 2. Teacher: Sing again and speed up a little. Children: Children keep up with the actions.",
+        "Step 3. Teacher: Sing again and leave out a word. Children: Children touch the part and say the word.",
+        "Step 4. Teacher: Let a child lead the song with the doll. Children: Child touches the doll and the group copies."
+      ],
+      "practical": {
+        "title": "Sing and touch",
+        "steps": [
+          "Stand in a circle.",
+          "Sing the song and touch each part.",
+          "Sing it quickly and then slowly."
+        ],
+        "safety": "Leave space around each child. Stop and sit down when children are tired."
+      },
+      "differentiation": {
+        "support": "Sing softly and touch the part together.",
+        "extension": "Ask the child to lead the song and choose the part."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where are your knees?",
+            "expected": "Child touches their knees."
+          },
+          {
+            "question": "Where are your toes?",
+            "expected": "Child touches their toes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Touches parts to a song",
+        "Sings along with actions"
+      ],
+      "conclusion": "Sing the song quietly and sit down.",
+      "homeConnection": "Sing the body song at home and touch each part.",
+      "teacherReflection": [
+        "Which children could show \"sing a body song and touch each part\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "KNEES",
+          "TOES",
+          "SHOULDERS"
+        ],
+        "pictures": [
+          "Two knees",
+          "Ten toes",
+          "Two shoulders"
+        ],
+        "songOrRhyme": "Head, shoulders, knees and toes, knees and toes."
+      },
+      "activities": [
+        "Sing and touch"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W01-D05",
+      "title": "Week 1 body check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 1,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "My body",
+      "subtopic": "Naming body parts",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child names body parts and shows what they can do."
+      ],
+      "successCriteria": [
+        "Points to at least six body parts",
+        "Shows an action"
+      ],
+      "previousKnowledge": "Children are new to the class; they know some body parts from home and enjoy songs and movement.",
+      "vocabulary": [
+        "head",
+        "hands",
+        "feet",
+        "eyes",
+        "ears",
+        "mouth"
+      ],
+      "resources": [
+        "A mirror",
+        "A doll",
+        "A drum",
+        "Class record sheet"
+      ],
+      "starter": "Sing the body song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: mirror, doll and song.",
+        "At each station name a body part and ask the child to point to it.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child points to the part.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: mirror, doll and song. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station name a body part and ask the child to point to it. Children: Child points to the part.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Body stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use an unbreakable mirror held steady."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use three body parts.",
+        "extension": "Ask a confident child to name parts for a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: points to body parts when named; names a part; shows what a part can do.",
+        "questions": [
+          {
+            "question": "Where is your nose?",
+            "expected": "Child touches their nose."
+          },
+          {
+            "question": "What can your feet do?",
+            "expected": "Walk, jump or stamp."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 1",
+        "Points to at least six body parts"
+      ],
+      "conclusion": "Wave goodbye with hands and feet.",
+      "homeConnection": "Name body parts at home during dressing and bathing.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child names body parts and shows what they can do\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Body"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Body stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

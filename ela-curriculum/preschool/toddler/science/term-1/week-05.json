@@ -1,0 +1,605 @@
+{
+  "id": "ELA-PS-TOD-SCI-T1-W05",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 1,
+  "week": 5,
+  "title": "Sense games",
+  "topic": "My senses",
+  "subtopics": [
+    "Mystery bag",
+    "Sense stations",
+    "Which sense do I use?"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will use different senses at stations to explore objects.",
+    "Children will link a sense to a body part."
+  ],
+  "vocabulary": [
+    "see",
+    "hear",
+    "touch",
+    "smell",
+    "taste",
+    "senses"
+  ],
+  "content": "Using different senses at stations, a mystery bag and linking each sense to a body part.",
+  "teachingActivities": "Run stations with simple rules; ask which sense the child used; point to the body part each time; use the same five picture cards daily.",
+  "learnerActivities": "Use different senses to explore objects and link each sense to a body part.",
+  "resources": [
+    "Five sense picture cards: eye, ear, hand, nose, tongue",
+    "A mystery bag",
+    "Objects for each station",
+    "A doll"
+  ],
+  "assessment": "Observe whether each child names at least three senses and points to the right body part.",
+  "expectedOutcomes": [
+    "Names at least three senses with support.",
+    "Points to the body part for each sense."
+  ],
+  "crossCurricular": [
+    "Literacy: describing words",
+    "Numeracy: counting five senses",
+    "Physical Development: sensory play"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W05-D01",
+      "title": "Five senses song",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 5,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Which sense do I use?",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will sing a song about the five senses and touch the matching body part."
+      ],
+      "successCriteria": [
+        "Touches the body part for each sense",
+        "Sings or hums along"
+      ],
+      "previousKnowledge": "Children have explored seeing, hearing, touch, smell and taste separately.",
+      "vocabulary": [
+        "see",
+        "hear",
+        "touch",
+        "smell",
+        "taste",
+        "senses"
+      ],
+      "resources": [
+        "Five sense picture cards",
+        "A doll",
+        "A mat"
+      ],
+      "starter": "Hold up the eye card and say \"We see with our eyes.\" Touch your eyes.",
+      "teacherActivities": [
+        "Show each card and touch the body part: eyes, ears, hands, nose, tongue.",
+        "Sing \"I see with my eyes, I hear with my ears\" and show each card.",
+        "Sing again and let children hold the cards.",
+        "Let a child lead with the doll."
+      ],
+      "learnerActivities": [
+        "Children touch the same part.",
+        "Children listen and touch each part.",
+        "Child holds up the card at the right word.",
+        "Child touches the doll and friends copy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each card and touch the body part: eyes, ears, hands, nose, tongue. Children: Children touch the same part.",
+        "Step 2. Teacher: Sing \"I see with my eyes, I hear with my ears\" and show each card. Children: Children listen and touch each part.",
+        "Step 3. Teacher: Sing again and let children hold the cards. Children: Child holds up the card at the right word.",
+        "Step 4. Teacher: Let a child lead with the doll. Children: Child touches the doll and friends copy."
+      ],
+      "practical": {
+        "title": "Five senses",
+        "steps": [
+          "Sit in a circle with five cards.",
+          "Sing the song and touch each body part.",
+          "Hold up the card at the right word."
+        ],
+        "safety": "Keep actions gentle and fingers away from eyes. Leave space between children."
+      },
+      "differentiation": {
+        "support": "Touch the part together and say the sense.",
+        "extension": "Ask the child to lead and choose the sense."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we see with?",
+            "expected": "Eyes."
+          },
+          {
+            "question": "What do we smell with?",
+            "expected": "Nose."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names senses and body parts with support",
+        "Sings the song"
+      ],
+      "conclusion": "Sing quietly and wave goodbye.",
+      "homeConnection": "Sing the five senses song at home.",
+      "teacherReflection": [
+        "Which children could show \"sing a song about the five senses and touch the matching body part\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SEE",
+          "HEAR",
+          "TOUCH",
+          "SMELL",
+          "TASTE"
+        ],
+        "pictures": [
+          "An eye",
+          "An ear",
+          "A hand",
+          "A nose",
+          "A tongue"
+        ],
+        "songOrRhyme": "I see with my eyes, I hear with my ears, I touch with my hands."
+      },
+      "activities": [
+        "Five senses"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W05-D02",
+      "title": "Sense stations",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 5,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Sense stations",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will use different senses at stations to explore objects."
+      ],
+      "successCriteria": [
+        "Uses the right sense at each station",
+        "Says what they found"
+      ],
+      "previousKnowledge": "Children have explored seeing, hearing, touch, smell and taste separately.",
+      "vocabulary": [
+        "see",
+        "hear",
+        "touch",
+        "smell",
+        "taste",
+        "senses"
+      ],
+      "resources": [
+        "Five stations: look, listen, touch, smell and a picture tasting station with a lemon picture",
+        "Objects for each station"
+      ],
+      "starter": "Show the five stations and say \"Today we use all our senses.\"",
+      "teacherActivities": [
+        "Visit each station with the whole group and say which sense to use.",
+        "Let children explore at their own pace at each station.",
+        "Ask \"Which sense did you use?\" at each.",
+        "Come together and name one thing from each station."
+      ],
+      "learnerActivities": [
+        "Children look, listen, touch and smell as shown.",
+        "Child explores and talks.",
+        "Child points to the body part.",
+        "Child names an object."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Visit each station with the whole group and say which sense to use. Children: Children look, listen, touch and smell as shown.",
+        "Step 2. Teacher: Let children explore at their own pace at each station. Children: Child explores and talks.",
+        "Step 3. Teacher: Ask \"Which sense did you use?\" at each. Children: Child points to the body part.",
+        "Step 4. Teacher: Come together and name one thing from each station. Children: Child names an object."
+      ],
+      "practical": {
+        "title": "Sense stations",
+        "steps": [
+          "Set up five stations.",
+          "Children visit each in turn.",
+          "Name the sense and the body part."
+        ],
+        "safety": "Use only safe objects and supervise each station. Keep the tasting station as pictures only unless allergies have been checked."
+      },
+      "differentiation": {
+        "support": "Stay with the child at each station and name the sense.",
+        "extension": "Ask the child to teach a friend a station."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which sense did you use?",
+            "expected": "Look, listen, touch or smell."
+          },
+          {
+            "question": "What did you find?",
+            "expected": "The name of an object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses different senses",
+        "Names objects found"
+      ],
+      "conclusion": "Put the objects away and say \"Thank you, senses.\"",
+      "homeConnection": "Use all your senses on a walk at home and talk about them.",
+      "teacherReflection": [
+        "Which children could show \"use different senses at stations to explore objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LOOK",
+          "LISTEN",
+          "TOUCH",
+          "SMELL"
+        ],
+        "pictures": [
+          "Sense station photos"
+        ]
+      },
+      "activities": [
+        "Sense stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W05-D03",
+      "title": "The big mystery bag",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 5,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Mystery bag",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will use touch and smell to guess what is in the bag."
+      ],
+      "successCriteria": [
+        "Feels an object in a bag",
+        "Names the object or says a word about it"
+      ],
+      "previousKnowledge": "Children have explored seeing, hearing, touch, smell and taste separately.",
+      "vocabulary": [
+        "see",
+        "hear",
+        "touch",
+        "smell",
+        "taste",
+        "senses"
+      ],
+      "resources": [
+        "A cloth bag",
+        "A sponge, an orange, a spoon and a toy car",
+        "A tray"
+      ],
+      "starter": "Show the bag and say \"There is something in my bag. Use your hand to feel it.\"",
+      "teacherActivities": [
+        "Put the sponge in the bag. Show a child how to feel it without looking.",
+        "Ask \"Is it soft or hard?\" and \"What do you think it is?\"",
+        "Take it out and say \"It is a sponge.\"",
+        "Repeat with the orange, spoon and toy car."
+      ],
+      "learnerActivities": [
+        "Child feels the object.",
+        "Child says a word or guesses.",
+        "Children look and check.",
+        "Each child feels and guesses."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the sponge in the bag. Show a child how to feel it without looking. Children: Child feels the object.",
+        "Step 2. Teacher: Ask \"Is it soft or hard?\" and \"What do you think it is?\" Children: Child says a word or guesses.",
+        "Step 3. Teacher: Take it out and say \"It is a sponge.\" Children: Children look and check.",
+        "Step 4. Teacher: Repeat with the orange, spoon and toy car. Children: Each child feels and guesses."
+      ],
+      "practical": {
+        "title": "Mystery bag",
+        "steps": [
+          "Put one object in the bag.",
+          "Each child feels and guesses.",
+          "Show the object."
+        ],
+        "safety": "Use clean, large objects only and make sure no object is sharp. Supervise the bag."
+      },
+      "differentiation": {
+        "support": "Offer two choices and describe the object first.",
+        "extension": "Ask the child to put a secret object in for a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is it soft or hard?",
+            "expected": "Soft or hard."
+          },
+          {
+            "question": "What is it?",
+            "expected": "The object’s name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Guesses an object by touch",
+        "Uses describing words"
+      ],
+      "conclusion": "Put the objects back and say thank you.",
+      "homeConnection": "Play the mystery bag game at home with safe objects.",
+      "teacherReflection": [
+        "Which children could show \"use touch and smell to guess what is in the bag\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FEEL",
+          "GUESS"
+        ],
+        "pictures": [
+          "A cloth bag",
+          "A sponge and an orange"
+        ]
+      },
+      "activities": [
+        "Mystery bag"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W05-D04",
+      "title": "Which sense?",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 5,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Which sense do I use?",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will match activities to the sense they use."
+      ],
+      "successCriteria": [
+        "Names the sense for an action",
+        "Points to the matching body part"
+      ],
+      "previousKnowledge": "Children have explored seeing, hearing, touch, smell and taste separately.",
+      "vocabulary": [
+        "see",
+        "hear",
+        "touch",
+        "smell",
+        "taste",
+        "senses"
+      ],
+      "resources": [
+        "Five sense picture cards",
+        "Action pictures: looking, listening, touching, sniffing, eating",
+        "A mat"
+      ],
+      "starter": "Say \"I am looking at a book. Which sense?\" and point to your eyes.",
+      "teacherActivities": [
+        "Show an action picture and say what the child is doing.",
+        "Ask \"Which sense?\" and wait for children to point to the card or body part.",
+        "Do an action yourself and ask which sense.",
+        "Let each child do an action for friends to match."
+      ],
+      "learnerActivities": [
+        "Children look and listen.",
+        "Child points to the right card.",
+        "Children point to the matching body part.",
+        "Child acts and friends match."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show an action picture and say what the child is doing. Children: Children look and listen.",
+        "Step 2. Teacher: Ask \"Which sense?\" and wait for children to point to the card or body part. Children: Child points to the right card.",
+        "Step 3. Teacher: Do an action yourself and ask which sense. Children: Children point to the matching body part.",
+        "Step 4. Teacher: Let each child do an action for friends to match. Children: Child acts and friends match."
+      ],
+      "practical": {
+        "title": "Match the sense",
+        "steps": [
+          "Put five sense cards on the floor.",
+          "Show an action picture.",
+          "Children stand by the matching card."
+        ],
+        "safety": "Keep the floor clear and children seated between turns. Supervise movement."
+      },
+      "differentiation": {
+        "support": "Offer two sense cards and say the sense first.",
+        "extension": "Ask the child to make up an action for a sense."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What sense do you use to listen?",
+            "expected": "Hearing, with the ears."
+          },
+          {
+            "question": "What sense do you use to eat?",
+            "expected": "Taste, with the tongue."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches actions to senses with support",
+        "Points to the body part"
+      ],
+      "conclusion": "Put the cards away and say \"Five senses.\"",
+      "homeConnection": "Ask your child which sense they use at home during the day.",
+      "teacherReflection": [
+        "Which children could show \"match activities to the sense they use\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WHICH SENSE?"
+        ],
+        "pictures": [
+          "Sense and action pictures"
+        ]
+      },
+      "activities": [
+        "Match the sense"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W05-D05",
+      "title": "Week 5 senses check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 5,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Sense stations",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child uses the senses and links them to body parts."
+      ],
+      "successCriteria": [
+        "Names at least three senses",
+        "Points to the body part for each sense"
+      ],
+      "previousKnowledge": "Children have explored seeing, hearing, touch, smell and taste separately.",
+      "vocabulary": [
+        "see",
+        "hear",
+        "touch",
+        "smell",
+        "taste",
+        "senses"
+      ],
+      "resources": [
+        "Sense cards",
+        "Stations",
+        "Class record sheet"
+      ],
+      "starter": "Sing the five senses song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: look and listen, touch and smell, sense cards.",
+        "At each station ask \"Which sense?\" and watch what the child does.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or point.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: look and listen, touch and smell, sense cards. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"Which sense?\" and watch what the child does. Children: Child answers with a word or point.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Senses stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use safe objects only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use three senses.",
+        "extension": "Ask a confident child to name all five senses."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names senses; points to the matching body part; uses senses to describe objects.",
+        "questions": [
+          {
+            "question": "What do we see with?",
+            "expected": "Our eyes."
+          },
+          {
+            "question": "What do we smell with?",
+            "expected": "Our nose."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Names senses and body parts with support"
+      ],
+      "conclusion": "Sing the senses song once more and wave goodbye.",
+      "homeConnection": "Talk about senses at home during daily routines.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child uses the senses and links them to body parts\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Senses"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Senses stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

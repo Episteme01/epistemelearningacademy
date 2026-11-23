@@ -1,0 +1,605 @@
+{
+  "id": "ELA-PS-TOD-SCI-T1-W09",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 1,
+  "week": 9,
+  "title": "The weather today",
+  "topic": "Weather",
+  "subtopics": [
+    "Sunny and cloudy",
+    "Rain and wind",
+    "Dressing for the weather"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will notice and name the weather each day.",
+    "Children will choose clothes for different weather with support."
+  ],
+  "vocabulary": [
+    "sun",
+    "rain",
+    "wind",
+    "cloud",
+    "hot",
+    "cold"
+  ],
+  "content": "Noticing and naming weather, and choosing clothes for sun and rain.",
+  "teachingActivities": "Look at the sky every morning with the children; use a weather chart; name the weather each day; link to real experience of rain, harmattan and sun; never go outside in dangerous weather.",
+  "learnerActivities": "Name the weather and choose suitable clothes for rain or sun with support.",
+  "resources": [
+    "A weather chart with sun, rain, cloud and wind pictures",
+    "A raincoat, an umbrella, a sun hat and a jumper",
+    "A ribbon streamer",
+    "A bowl for rain"
+  ],
+  "assessment": "Observe whether each child names the weather today and chooses suitable clothes.",
+  "expectedOutcomes": [
+    "Names the weather today with a word or gesture.",
+    "Chooses suitable clothes for rain or sun with support."
+  ],
+  "crossCurricular": [
+    "Literacy: weather songs",
+    "Numeracy: counting days",
+    "Social Habits: dressing appropriately"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W09-D01",
+      "title": "Sunny and cloudy",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 9,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Weather",
+      "subtopic": "Sunny and cloudy",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say if it is sunny or cloudy."
+      ],
+      "successCriteria": [
+        "Looks at the sky",
+        "Says sunny or cloudy with support"
+      ],
+      "previousKnowledge": "Children can describe materials such as wet, dry, hard and soft and have played outdoors with water, sand and soil.",
+      "vocabulary": [
+        "sun",
+        "rain",
+        "wind",
+        "cloud",
+        "hot",
+        "cold"
+      ],
+      "resources": [
+        "A weather chart",
+        "A yellow circle and a grey cloud",
+        "A sun hat"
+      ],
+      "starter": "Look out of the window together and say \"What is the sky like today?\" Show the yellow and grey pictures.",
+      "teacherActivities": [
+        "Look at the sky from a safe place and say what you see.",
+        "Show the sun picture and say \"Sunny\" and the cloud picture and say \"Cloudy\".",
+        "Put the right picture on the weather chart for today.",
+        "Say \"The sun is hot. We wear a hat.\" Put on the hat."
+      ],
+      "learnerActivities": [
+        "Children look and say sun or cloud.",
+        "Children say sunny and cloudy.",
+        "Child places the picture.",
+        "Child puts on the hat."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Look at the sky from a safe place and say what you see. Children: Children look and say sun or cloud.",
+        "Step 2. Teacher: Show the sun picture and say \"Sunny\" and the cloud picture and say \"Cloudy\". Children: Children say sunny and cloudy.",
+        "Step 3. Teacher: Put the right picture on the weather chart for today. Children: Child places the picture.",
+        "Step 4. Teacher: Say \"The sun is hot. We wear a hat.\" Put on the hat. Children: Child puts on the hat."
+      ],
+      "practical": {
+        "title": "Weather watch",
+        "steps": [
+          "Go to a safe place to look at the sky.",
+          "Name the weather.",
+          "Put the picture on the chart."
+        ],
+        "safety": "Never look directly at the sun. Stay in the shade and use hats and water in hot weather."
+      },
+      "differentiation": {
+        "support": "Point to the sky and say the word with the child.",
+        "extension": "Ask the child to say what the weather is at home."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is it sunny or cloudy?",
+            "expected": "Sunny or cloudy."
+          },
+          {
+            "question": "What do we wear in the sun?",
+            "expected": "A hat."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names sunny or cloudy",
+        "Chooses a sun hat"
+      ],
+      "conclusion": "Wave to the sun and say goodbye.",
+      "homeConnection": "Look at the sky each morning with your child and say the weather.",
+      "teacherReflection": [
+        "Which children could show \"say if it is sunny or cloudy\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SUNNY",
+          "CLOUDY"
+        ],
+        "pictures": [
+          "A sunny sky",
+          "A cloudy sky"
+        ],
+        "songOrRhyme": "Sunny, sunny, hello sun. Cloudy, cloudy, grey clouds."
+      },
+      "activities": [
+        "Weather watch"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W09-D02",
+      "title": "Rainy day",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 9,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Weather",
+      "subtopic": "Rain and wind",
+      "dayType": "explore",
+      "objectives": [
+        "Children will talk about rain and where it comes from."
+      ],
+      "successCriteria": [
+        "Says rain",
+        "Does a rain action"
+      ],
+      "previousKnowledge": "Children can describe materials such as wet, dry, hard and soft and have played outdoors with water, sand and soil.",
+      "vocabulary": [
+        "sun",
+        "rain",
+        "wind",
+        "cloud",
+        "hot",
+        "cold"
+      ],
+      "resources": [
+        "A rain picture",
+        "A watering can",
+        "A bowl",
+        "An umbrella"
+      ],
+      "starter": "Tap your fingers on the table like rain and say \"Pitter, patter, rain.\" Show the umbrella.",
+      "teacherActivities": [
+        "Tell a short story about rain coming from clouds.",
+        "Pour water from a watering can into a bowl to show rain falling.",
+        "Tap your fingers softly and then quickly like rain.",
+        "Show the umbrella and say \"We use an umbrella in the rain.\""
+      ],
+      "learnerActivities": [
+        "Children listen and say rain.",
+        "Children watch and say rain.",
+        "Children tap their fingers.",
+        "Child holds the umbrella."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell a short story about rain coming from clouds. Children: Children listen and say rain.",
+        "Step 2. Teacher: Pour water from a watering can into a bowl to show rain falling. Children: Children watch and say rain.",
+        "Step 3. Teacher: Tap your fingers softly and then quickly like rain. Children: Children tap their fingers.",
+        "Step 4. Teacher: Show the umbrella and say \"We use an umbrella in the rain.\" Children: Child holds the umbrella."
+      ],
+      "practical": {
+        "title": "Rain play",
+        "steps": [
+          "Pour water slowly from a watering can.",
+          "Make rain sounds with fingers.",
+          "Hold an umbrella and pretend to walk in the rain."
+        ],
+        "safety": "Keep the water shallow and supervise closely. Wipe spills. Do not go out in thunder or lightning."
+      },
+      "differentiation": {
+        "support": "Tap the rain together and say the word.",
+        "extension": "Ask the child to say what we wear in the rain."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does rain come from?",
+            "expected": "Clouds."
+          },
+          {
+            "question": "What do we use in the rain?",
+            "expected": "An umbrella or raincoat."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says the word rain",
+        "Names an umbrella"
+      ],
+      "conclusion": "Close the umbrella and say \"Rain, rain, go away.\"",
+      "homeConnection": "Listen to the rain with your child and say rain.",
+      "teacherReflection": [
+        "Which children could show \"talk about rain and where it comes from\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RAIN",
+          "UMBRELLA"
+        ],
+        "pictures": [
+          "Rain falling",
+          "An umbrella"
+        ]
+      },
+      "activities": [
+        "Rain play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W09-D03",
+      "title": "Windy day",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 9,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Weather",
+      "subtopic": "Rain and wind",
+      "dayType": "explore",
+      "objectives": [
+        "Children will notice wind by watching things move."
+      ],
+      "successCriteria": [
+        "Says wind",
+        "Shows something moving in the wind"
+      ],
+      "previousKnowledge": "Children can describe materials such as wet, dry, hard and soft and have played outdoors with water, sand and soil.",
+      "vocabulary": [
+        "sun",
+        "rain",
+        "wind",
+        "cloud",
+        "hot",
+        "cold"
+      ],
+      "resources": [
+        "Ribbon streamers",
+        "A paper windmill",
+        "A feather",
+        "A fan"
+      ],
+      "starter": "Blow on a feather and say \"The wind makes it move.\"",
+      "teacherActivities": [
+        "Hold a streamer outside and watch it move in the wind.",
+        "Blow gently on a windmill and say \"Wind.\"",
+        "Use a fan from a safe distance and watch the feather.",
+        "Ask \"What moves in the wind?\" and point to objects."
+      ],
+      "learnerActivities": [
+        "Children watch the streamer move.",
+        "Children blow on the windmill.",
+        "Children watch the feather move.",
+        "Child points to moving objects."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold a streamer outside and watch it move in the wind. Children: Children watch the streamer move.",
+        "Step 2. Teacher: Blow gently on a windmill and say \"Wind.\" Children: Children blow on the windmill.",
+        "Step 3. Teacher: Use a fan from a safe distance and watch the feather. Children: Children watch the feather move.",
+        "Step 4. Teacher: Ask \"What moves in the wind?\" and point to objects. Children: Child points to moving objects."
+      ],
+      "practical": {
+        "title": "Wind play",
+        "steps": [
+          "Give each child a streamer.",
+          "Go outside and run gently to make the streamer fly.",
+          "Watch trees and leaves move."
+        ],
+        "safety": "Check the area is clear and run gently. Keep fans out of reach and never allow children to touch moving blades."
+      },
+      "differentiation": {
+        "support": "Hold the streamer together and move it.",
+        "extension": "Ask the child to find three things that move in the wind."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What moves in the wind?",
+            "expected": "Leaves, streamers or trees."
+          },
+          {
+            "question": "Can you feel the wind?",
+            "expected": "Yes, on my face."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Notices wind by what moves",
+        "Says the word wind"
+      ],
+      "conclusion": "Fold the streamers and say \"The wind is resting.\"",
+      "homeConnection": "Fly a paper streamer outside with your child on a windy day.",
+      "teacherReflection": [
+        "Which children could show \"notice wind by watching things move\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WIND",
+          "BLOW"
+        ],
+        "pictures": [
+          "A streamer in the wind",
+          "A windmill"
+        ]
+      },
+      "activities": [
+        "Wind play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W09-D04",
+      "title": "Dressing for the weather",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 9,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Weather",
+      "subtopic": "Dressing for the weather",
+      "dayType": "practise",
+      "objectives": [
+        "Children will choose clothes for different weather."
+      ],
+      "successCriteria": [
+        "Chooses a hat, a raincoat or a jumper",
+        "Says why"
+      ],
+      "previousKnowledge": "Children can describe materials such as wet, dry, hard and soft and have played outdoors with water, sand and soil.",
+      "vocabulary": [
+        "sun",
+        "rain",
+        "wind",
+        "cloud",
+        "hot",
+        "cold"
+      ],
+      "resources": [
+        "A raincoat, a sun hat, a jumper and sandals",
+        "Weather pictures",
+        "A doll"
+      ],
+      "starter": "Show a rain picture and say \"It is raining. What do we wear?\"",
+      "teacherActivities": [
+        "Show a weather picture and ask what to wear.",
+        "Dress the doll for the weather shown.",
+        "Let each child choose clothes for a weather card.",
+        "Match clothes to weather cards in pairs."
+      ],
+      "learnerActivities": [
+        "Child points to clothes.",
+        "Children help to choose and put on clothes.",
+        "Child picks the right clothes.",
+        "Child matches the clothes and the weather."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a weather picture and ask what to wear. Children: Child points to clothes.",
+        "Step 2. Teacher: Dress the doll for the weather shown. Children: Children help to choose and put on clothes.",
+        "Step 3. Teacher: Let each child choose clothes for a weather card. Children: Child picks the right clothes.",
+        "Step 4. Teacher: Match clothes to weather cards in pairs. Children: Child matches the clothes and the weather."
+      ],
+      "practical": {
+        "title": "Dress for the weather",
+        "steps": [
+          "Put clothes and weather pictures on the mat.",
+          "Choose clothes for each weather.",
+          "Dress the doll."
+        ],
+        "safety": "Keep clothes clean and dry. Make sure children can reach and put on clothes safely and without rushing."
+      },
+      "differentiation": {
+        "support": "Offer two clothes and say the weather.",
+        "extension": "Ask the child to choose clothes for hot and for cold weather."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we wear in the rain?",
+            "expected": "A raincoat."
+          },
+          {
+            "question": "What do we wear in the sun?",
+            "expected": "A hat."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Chooses suitable clothes for weather",
+        "Matches clothes to weather"
+      ],
+      "conclusion": "Put the clothes away and say \"We are ready for any weather.\"",
+      "homeConnection": "Talk about what to wear each morning according to the weather.",
+      "teacherReflection": [
+        "Which children could show \"choose clothes for different weather\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HAT",
+          "COAT",
+          "JUMPER"
+        ],
+        "pictures": [
+          "A sun hat",
+          "A raincoat",
+          "A jumper"
+        ]
+      },
+      "activities": [
+        "Dress for the weather"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W09-D05",
+      "title": "Week 9 weather check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 9,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Weather",
+      "subtopic": "Sunny and cloudy",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child names the weather and chooses clothes."
+      ],
+      "successCriteria": [
+        "Names the weather today",
+        "Chooses suitable clothes"
+      ],
+      "previousKnowledge": "Children can describe materials such as wet, dry, hard and soft and have played outdoors with water, sand and soil.",
+      "vocabulary": [
+        "sun",
+        "rain",
+        "wind",
+        "cloud",
+        "hot",
+        "cold"
+      ],
+      "resources": [
+        "Weather chart",
+        "Clothes",
+        "Class record sheet"
+      ],
+      "starter": "Sing the weather song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: weather chart, dressing and wind play.",
+        "At each station ask \"What is the weather?\" and \"What do we wear?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: weather chart, dressing and wind play. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What is the weather?\" and \"What do we wear?\" Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Weather stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use safe objects only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two pictures.",
+        "extension": "Ask a confident child to tell the class the weather."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names the weather today; chooses suitable clothes; notices wind or rain.",
+        "questions": [
+          {
+            "question": "What is the weather today?",
+            "expected": "Sunny, cloudy, rainy or windy."
+          },
+          {
+            "question": "What do we wear?",
+            "expected": "Suitable clothes for the weather."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Names the weather with a word"
+      ],
+      "conclusion": "Sing the weather song and wave goodbye.",
+      "homeConnection": "Say the weather each day at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child names the weather and chooses clothes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Weather"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Weather stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

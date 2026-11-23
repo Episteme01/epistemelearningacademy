@@ -1,0 +1,605 @@
+{
+  "id": "ELA-PS-TOD-SCI-T1-W08",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 1,
+  "week": 8,
+  "title": "Sand and soil",
+  "topic": "Earth materials",
+  "subtopics": [
+    "Playing with sand",
+    "Digging in soil",
+    "Wet sand and dry sand"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will play with sand and soil using hands and tools.",
+    "Children will notice that wet sand and dry sand feel different."
+  ],
+  "vocabulary": [
+    "sand",
+    "soil",
+    "dig",
+    "wet",
+    "dry",
+    "scoop"
+  ],
+  "content": "Playing with sand and soil, digging, and noticing that wet and dry sand feel different.",
+  "teachingActivities": "Let children dig and scoop freely; name each action; use small tools; keep sand away from eyes; model washing hands after play.",
+  "learnerActivities": "Dig and scoop sand and soil with tools and say wet or dry for sand.",
+  "resources": [
+    "A sand tray",
+    "A tray of soil",
+    "Spoons, scoops, small buckets and trowels",
+    "A watering can",
+    "Aprons",
+    "Towels"
+  ],
+  "assessment": "Observe whether each child digs or scoops with a tool and says wet or dry for sand.",
+  "expectedOutcomes": [
+    "Digs or scoops sand or soil with a tool.",
+    "Says wet or dry for sand."
+  ],
+  "crossCurricular": [
+    "Numeracy: full and empty",
+    "Physical Development: scooping and digging",
+    "Social Habits: washing hands"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W08-D01",
+      "title": "Playing with sand",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 8,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Earth materials",
+      "subtopic": "Playing with sand",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will play with dry sand using hands and tools."
+      ],
+      "successCriteria": [
+        "Scoops sand into a bucket",
+        "Says the word sand"
+      ],
+      "previousKnowledge": "Children can play with water and say wet and dry, float and sink.",
+      "vocabulary": [
+        "sand",
+        "soil",
+        "dig",
+        "wet",
+        "dry",
+        "scoop"
+      ],
+      "resources": [
+        "A tray of dry sand",
+        "Scoops and small buckets",
+        "Aprons"
+      ],
+      "starter": "Let sand run through your fingers and say \"Sand. It is soft and it falls.\"",
+      "teacherActivities": [
+        "Show how to scoop sand into a bucket and pour it out.",
+        "Let children feel the sand with their hands.",
+        "Fill a small bucket and turn it upside down to make a sand shape.",
+        "Ask \"What can sand do?\""
+      ],
+      "learnerActivities": [
+        "Children scoop and pour.",
+        "Child touches the sand and says sand.",
+        "Child makes a shape in the sand.",
+        "Child says pour, fall or scoop."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to scoop sand into a bucket and pour it out. Children: Children scoop and pour.",
+        "Step 2. Teacher: Let children feel the sand with their hands. Children: Child touches the sand and says sand.",
+        "Step 3. Teacher: Fill a small bucket and turn it upside down to make a sand shape. Children: Child makes a shape in the sand.",
+        "Step 4. Teacher: Ask \"What can sand do?\" Children: Child says pour, fall or scoop."
+      ],
+      "practical": {
+        "title": "Sand tray",
+        "steps": [
+          "Set up a sand tray on a mat.",
+          "Scoop and pour sand with tools.",
+          "Make a sand shape."
+        ],
+        "safety": "Keep sand away from eyes and mouths. Use clean sand and wash hands afterwards. Sweep up spilled sand to avoid slipping."
+      },
+      "differentiation": {
+        "support": "Scoop together with a hand over the child’s hand.",
+        "extension": "Ask the child to fill two buckets and say which has more."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "Sand."
+          },
+          {
+            "question": "What can you do with sand?",
+            "expected": "Scoop or pour."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Scoops and pours sand",
+        "Says the word sand"
+      ],
+      "conclusion": "Tidy the sand and wash hands.",
+      "homeConnection": "Let your child play in sand at the compound or park.",
+      "teacherReflection": [
+        "Which children could show \"play with dry sand using hands and tools\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAND",
+          "SCOOP"
+        ],
+        "pictures": [
+          "A tray of sand",
+          "A bucket and a scoop"
+        ]
+      },
+      "activities": [
+        "Sand tray"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W08-D02",
+      "title": "Digging in soil",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 8,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Earth materials",
+      "subtopic": "Digging in soil",
+      "dayType": "explore",
+      "objectives": [
+        "Children will dig in soil and look for small creatures with a spoon."
+      ],
+      "successCriteria": [
+        "Digs in soil with a tool",
+        "Says soil or dig"
+      ],
+      "previousKnowledge": "Children can play with water and say wet and dry, float and sink.",
+      "vocabulary": [
+        "sand",
+        "soil",
+        "dig",
+        "wet",
+        "dry",
+        "scoop"
+      ],
+      "resources": [
+        "A tray of soil",
+        "Spoons and trowels",
+        "A magnifying glass",
+        "Aprons"
+      ],
+      "starter": "Hold a handful of soil and say \"This is soil. Plants grow in soil.\" Let it fall.",
+      "teacherActivities": [
+        "Show how to dig with a spoon and put soil in a bucket.",
+        "Let children touch the soil and describe it.",
+        "Look for small stones or roots in the soil with a magnifying glass.",
+        "Say \"Wash hands\" after digging."
+      ],
+      "learnerActivities": [
+        "Children dig and fill the bucket.",
+        "Child touches the soil and says soft or dark.",
+        "Child looks and points.",
+        "Children wash hands with soap."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to dig with a spoon and put soil in a bucket. Children: Children dig and fill the bucket.",
+        "Step 2. Teacher: Let children touch the soil and describe it. Children: Child touches the soil and says soft or dark.",
+        "Step 3. Teacher: Look for small stones or roots in the soil with a magnifying glass. Children: Child looks and points.",
+        "Step 4. Teacher: Say \"Wash hands\" after digging. Children: Children wash hands with soap."
+      ],
+      "practical": {
+        "title": "Digging soil",
+        "steps": [
+          "Set up a tray of clean soil.",
+          "Dig with spoons and trowels.",
+          "Look at what is in the soil."
+        ],
+        "safety": "Use clean potting soil and wash hands after every session. Do not allow children to put soil in their mouths and cover any cuts."
+      },
+      "differentiation": {
+        "support": "Dig together and name the tool.",
+        "extension": "Ask the child to find three different things in the soil."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "Soil."
+          },
+          {
+            "question": "What do plants need?",
+            "expected": "Soil and water."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Digs in soil with a tool",
+        "Says soil and dig"
+      ],
+      "conclusion": "Wash hands and say \"Thank you, soil.\"",
+      "homeConnection": "Dig in the garden with your child and wash hands afterwards.",
+      "teacherReflection": [
+        "Which children could show \"dig in soil and look for small creatures with a spoon\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SOIL",
+          "DIG"
+        ],
+        "pictures": [
+          "A tray of soil",
+          "A trowel"
+        ]
+      },
+      "activities": [
+        "Digging soil"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W08-D03",
+      "title": "Wet sand and dry sand",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 8,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Earth materials",
+      "subtopic": "Wet sand and dry sand",
+      "dayType": "explore",
+      "objectives": [
+        "Children will feel the difference between wet and dry sand."
+      ],
+      "successCriteria": [
+        "Touches wet and dry sand",
+        "Says wet or dry"
+      ],
+      "previousKnowledge": "Children can play with water and say wet and dry, float and sink.",
+      "vocabulary": [
+        "sand",
+        "soil",
+        "dig",
+        "wet",
+        "dry",
+        "scoop"
+      ],
+      "resources": [
+        "Two trays: dry sand and wet sand",
+        "A watering can",
+        "Small buckets",
+        "Towels"
+      ],
+      "starter": "Pour dry sand through your fingers, then wet sand. Say \"Dry sand falls. Wet sand sticks.\"",
+      "teacherActivities": [
+        "Pour dry sand and let it run through your fingers.",
+        "Pour a little water on sand and mix.",
+        "Try to make a sandcastle with dry sand and then wet sand.",
+        "Ask \"Which sand makes a shape?\""
+      ],
+      "learnerActivities": [
+        "Children feel the dry sand.",
+        "Children watch and feel the wet sand.",
+        "Child tries both and sees which works.",
+        "Child points to the wet sand."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pour dry sand and let it run through your fingers. Children: Children feel the dry sand.",
+        "Step 2. Teacher: Pour a little water on sand and mix. Children: Children watch and feel the wet sand.",
+        "Step 3. Teacher: Try to make a sandcastle with dry sand and then wet sand. Children: Child tries both and sees which works.",
+        "Step 4. Teacher: Ask \"Which sand makes a shape?\" Children: Child points to the wet sand."
+      ],
+      "practical": {
+        "title": "Sandcastles",
+        "steps": [
+          "Fill buckets with wet sand.",
+          "Turn them over to make castles.",
+          "Try with dry sand and compare."
+        ],
+        "safety": "Keep sand away from eyes and wash hands afterwards. Use shallow water and wipe spills."
+      },
+      "differentiation": {
+        "support": "Feel both sands together and say the words.",
+        "extension": "Ask the child to wet and mix a tray of sand."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which sand makes a shape?",
+            "expected": "Wet sand."
+          },
+          {
+            "question": "Is this sand wet or dry?",
+            "expected": "Wet or dry."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says wet or dry for sand",
+        "Makes a shape with wet sand"
+      ],
+      "conclusion": "Tidy the sand trays and wash hands.",
+      "homeConnection": "Make a sandcastle with wet sand at home or at the park.",
+      "teacherReflection": [
+        "Which children could show \"feel the difference between wet and dry sand\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WET SAND",
+          "DRY SAND"
+        ],
+        "pictures": [
+          "A wet sand castle",
+          "Dry sand falling"
+        ]
+      },
+      "activities": [
+        "Sandcastles"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W08-D04",
+      "title": "Sand and soil play",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 8,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Earth materials",
+      "subtopic": "Playing with sand",
+      "dayType": "practise",
+      "objectives": [
+        "Children will explore sand and soil together in play."
+      ],
+      "successCriteria": [
+        "Uses sand and soil in play",
+        "Says what they are making"
+      ],
+      "previousKnowledge": "Children can play with water and say wet and dry, float and sink.",
+      "vocabulary": [
+        "sand",
+        "soil",
+        "dig",
+        "wet",
+        "dry",
+        "scoop"
+      ],
+      "resources": [
+        "Trays of sand and soil",
+        "Plastic animals",
+        "Small buckets and spoons",
+        "Towels"
+      ],
+      "starter": "Show plastic animals and say \"Let us make a farm in the sand.\"",
+      "teacherActivities": [
+        "Show how to make a road in the sand with a finger.",
+        "Show how to make a garden with soil.",
+        "Put animals on the farm and ask \"What are you making?\"",
+        "Ask \"How is sand different from soil?\""
+      ],
+      "learnerActivities": [
+        "Children make roads.",
+        "Children dig a small garden.",
+        "Child tells you what they are making.",
+        "Child says a word such as dark or light."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to make a road in the sand with a finger. Children: Children make roads.",
+        "Step 2. Teacher: Show how to make a garden with soil. Children: Children dig a small garden.",
+        "Step 3. Teacher: Put animals on the farm and ask \"What are you making?\" Children: Child tells you what they are making.",
+        "Step 4. Teacher: Ask \"How is sand different from soil?\" Children: Child says a word such as dark or light."
+      ],
+      "practical": {
+        "title": "Sand farm",
+        "steps": [
+          "Set up trays of sand and soil.",
+          "Make roads, gardens and a farm.",
+          "Tell a friend what you made."
+        ],
+        "safety": "Keep sand and soil away from faces and wash hands afterwards. Supervise sharing."
+      },
+      "differentiation": {
+        "support": "Play beside the child and name what they make.",
+        "extension": "Ask the child to make a long road and a small garden."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you make?",
+            "expected": "A farm, road or garden."
+          },
+          {
+            "question": "What colour is the soil?",
+            "expected": "Dark or brown."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays creatively with sand and soil",
+        "Says what they made"
+      ],
+      "conclusion": "Tidy the trays and wash hands.",
+      "homeConnection": "Play with sand or soil outdoors and talk about what you make.",
+      "teacherReflection": [
+        "Which children could show \"explore sand and soil together in play\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAND",
+          "SOIL",
+          "PLAY"
+        ],
+        "pictures": [
+          "A sand farm"
+        ]
+      },
+      "activities": [
+        "Sand farm"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W08-D05",
+      "title": "Week 8 sand and soil check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 8,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Earth materials",
+      "subtopic": "Wet sand and dry sand",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child plays with sand and soil."
+      ],
+      "successCriteria": [
+        "Digs or scoops with a tool",
+        "Says wet or dry for sand"
+      ],
+      "previousKnowledge": "Children can play with water and say wet and dry, float and sink.",
+      "vocabulary": [
+        "sand",
+        "soil",
+        "dig",
+        "wet",
+        "dry",
+        "scoop"
+      ],
+      "resources": [
+        "Sand and soil trays",
+        "Tools",
+        "Class record sheet"
+      ],
+      "starter": "Sing \"Scoop, scoop, scoop the sand\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: dry sand, wet sand and soil.",
+        "At each station ask \"What are you doing?\" and \"Is it wet or dry?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children wash hands and tidy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: dry sand, wet sand and soil. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What are you doing?\" and \"Is it wet or dry?\" Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy."
+      ],
+      "practical": {
+        "title": "Sand and soil stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station closely. Keep sand away from eyes and wash hands after each station."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to explain what they made."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: digs or scoops; says wet or dry for sand; says soil and sand.",
+        "questions": [
+          {
+            "question": "Is the sand wet or dry?",
+            "expected": "Wet or dry."
+          },
+          {
+            "question": "What did you do?",
+            "expected": "Dig, scoop or pour."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Plays safely with sand and soil"
+      ],
+      "conclusion": "Wash hands and wave goodbye.",
+      "homeConnection": "Play with sand or soil at home and wash hands afterwards.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child plays with sand and soil\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Sand and soil"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Sand and soil stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

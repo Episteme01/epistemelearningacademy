@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SCI-T1-W02",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 1,
+  "week": 2,
+  "title": "Seeing and hearing",
+  "topic": "My senses",
+  "subtopics": [
+    "Looking with my eyes",
+    "Listening with my ears",
+    "Spot and guess games"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will use their eyes to find, match and name objects.",
+    "Children will use their ears to find and name sounds."
+  ],
+  "vocabulary": [
+    "see",
+    "look",
+    "hear",
+    "listen",
+    "eyes",
+    "ears"
+  ],
+  "content": "Using eyes to find, match and name objects, using ears to find and name sounds, and playing spot and guess games.",
+  "teachingActivities": "Ask children to look and listen slowly; give time; use real objects and everyday sounds; never test with loud sounds.",
+  "learnerActivities": "Use eyes to find hidden objects and ears to name sounds.",
+  "resources": [
+    "A tray of objects",
+    "A cloth",
+    "Pictures hidden around the room",
+    "A bell, a rattle and a spoon with a cup",
+    "A cloth bag"
+  ],
+  "assessment": "Observe whether each child finds a hidden object by looking and names a sound by listening.",
+  "expectedOutcomes": [
+    "Finds a hidden object by looking.",
+    "Names a sound heard in the room."
+  ],
+  "crossCurricular": [
+    "Literacy: listening games",
+    "Numeracy: matching",
+    "Physical Development: moving carefully"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W02-D01",
+      "title": "Looking with my eyes",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 2,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Looking with my eyes",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will use their eyes to find and name objects."
+      ],
+      "successCriteria": [
+        "Finds an object when asked",
+        "Says the name of what they see"
+      ],
+      "previousKnowledge": "Children can name main body parts including eyes and ears.",
+      "vocabulary": [
+        "see",
+        "look",
+        "hear",
+        "listen",
+        "eyes",
+        "ears"
+      ],
+      "resources": [
+        "A tray of five familiar objects",
+        "A cloth"
+      ],
+      "starter": "Point to your eyes and say \"We see with our eyes.\" Look around the room and say \"I see a door.\"",
+      "teacherActivities": [
+        "Show the tray and name each object slowly.",
+        "Say \"Find the ball\" and wait.",
+        "Cover the tray and take one object away, then show it again. Ask \"What is missing?\"",
+        "Let each child choose an object and tell what they see."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Child looks and points to the ball.",
+        "Child looks and says or points.",
+        "Child picks and names it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the tray and name each object slowly. Children: Children look and say the names.",
+        "Step 2. Teacher: Say \"Find the ball\" and wait. Children: Child looks and points to the ball.",
+        "Step 3. Teacher: Cover the tray and take one object away, then show it again. Ask \"What is missing?\" Children: Child looks and says or points.",
+        "Step 4. Teacher: Let each child choose an object and tell what they see. Children: Child picks and names it."
+      ],
+      "practical": {
+        "title": "What do I see?",
+        "steps": [
+          "Place five objects on a tray.",
+          "Ask each child to find a named object.",
+          "Take one away and ask what is missing."
+        ],
+        "safety": "Use large safe objects only. Keep the tray at child height and supervise handling."
+      },
+      "differentiation": {
+        "support": "Use three objects and point to help.",
+        "extension": "Ask the child to find two objects in one go."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do you see?",
+            "expected": "The name of an object."
+          },
+          {
+            "question": "Where is the ball?",
+            "expected": "Child points to the ball."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds named objects by looking",
+        "Names what they see"
+      ],
+      "conclusion": "Cover the tray and say \"Thank you, eyes.\"",
+      "homeConnection": "Play I spy with your child at home and name what you see.",
+      "teacherReflection": [
+        "Which children could show \"use their eyes to find and name objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SEE",
+          "EYES"
+        ],
+        "pictures": [
+          "A child looking",
+          "Two eyes"
+        ],
+        "songOrRhyme": "I see with my eyes. What do I see?"
+      },
+      "activities": [
+        "What do I see?"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W02-D02",
+      "title": "Spot the hidden picture",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 2,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Spot and guess games",
+      "dayType": "explore",
+      "objectives": [
+        "Children will find hidden pictures around the room using their eyes."
+      ],
+      "successCriteria": [
+        "Finds a hidden picture",
+        "Says what is on the picture"
+      ],
+      "previousKnowledge": "Children can name main body parts including eyes and ears.",
+      "vocabulary": [
+        "see",
+        "look",
+        "hear",
+        "listen",
+        "eyes",
+        "ears"
+      ],
+      "resources": [
+        "Six picture cards hidden around the room",
+        "A basket"
+      ],
+      "starter": "Say \"Some pictures are hiding. Use your eyes to find them.\" Show one picture so children know what to find.",
+      "teacherActivities": [
+        "Show the six picture cards and name each one.",
+        "Hide the pictures in easy, low places.",
+        "Say \"Look, look, look\" and let children search.",
+        "Put the pictures in the basket and name each one."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children watch where you hide them.",
+        "Children look and find pictures.",
+        "Child brings a picture and names it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the six picture cards and name each one. Children: Children look and say the names.",
+        "Step 2. Teacher: Hide the pictures in easy, low places. Children: Children watch where you hide them.",
+        "Step 3. Teacher: Say \"Look, look, look\" and let children search. Children: Children look and find pictures.",
+        "Step 4. Teacher: Put the pictures in the basket and name each one. Children: Child brings a picture and names it."
+      ],
+      "practical": {
+        "title": "Hide and find",
+        "steps": [
+          "Hide six pictures in easy places.",
+          "Children find one each.",
+          "Bring the picture to the basket and name it."
+        ],
+        "safety": "Hide pictures only in clear, low places away from hazards. Supervise the search and keep children together."
+      },
+      "differentiation": {
+        "support": "Walk with the child and point to the area.",
+        "extension": "Ask the child to hide a picture for a friend to find."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you find?",
+            "expected": "The name of the picture."
+          },
+          {
+            "question": "Where was it?",
+            "expected": "Under, on or by something."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds hidden pictures",
+        "Names the pictures"
+      ],
+      "conclusion": "Count the pictures in the basket and say well done.",
+      "homeConnection": "Hide a small toy at home and let your child find it using their eyes.",
+      "teacherReflection": [
+        "Which children could show \"find hidden pictures around the room using their eyes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LOOK",
+          "FIND"
+        ],
+        "pictures": [
+          "A child searching",
+          "Picture cards"
+        ]
+      },
+      "activities": [
+        "Hide and find"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W02-D03",
+      "title": "Listening with my ears",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 2,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Listening with my ears",
+      "dayType": "explore",
+      "objectives": [
+        "Children will use their ears to name sounds."
+      ],
+      "successCriteria": [
+        "Listens quietly",
+        "Names or points to a sound source"
+      ],
+      "previousKnowledge": "Children can name main body parts including eyes and ears.",
+      "vocabulary": [
+        "see",
+        "look",
+        "hear",
+        "listen",
+        "eyes",
+        "ears"
+      ],
+      "resources": [
+        "A bell, a rattle and a spoon with a cup",
+        "A screen or cloth"
+      ],
+      "starter": "Point to your ears and say \"We hear with our ears. Shh, listen.\" Ring the bell.",
+      "teacherActivities": [
+        "Show each sound-maker and make its sound.",
+        "Hide behind a screen and make a sound.",
+        "Say \"What can you hear?\" and wait in silence for ten seconds.",
+        "Let each child make a sound for friends to name."
+      ],
+      "learnerActivities": [
+        "Children listen and name each object.",
+        "Children listen and point to the object.",
+        "Children listen and say or point.",
+        "Child makes a sound and friends name it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each sound-maker and make its sound. Children: Children listen and name each object.",
+        "Step 2. Teacher: Hide behind a screen and make a sound. Children: Children listen and point to the object.",
+        "Step 3. Teacher: Say \"What can you hear?\" and wait in silence for ten seconds. Children: Children listen and say or point.",
+        "Step 4. Teacher: Let each child make a sound for friends to name. Children: Child makes a sound and friends name it."
+      ],
+      "practical": {
+        "title": "Listening game",
+        "steps": [
+          "Put three sound-makers on the mat.",
+          "Hide behind a screen and make one sound.",
+          "Children point to the matching object."
+        ],
+        "safety": "Use gentle sounds only. Do not use very loud sounds near children’s ears."
+      },
+      "differentiation": {
+        "support": "Offer two sound-makers and make the sound twice.",
+        "extension": "Ask the child to close their eyes and name the sound."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What can you hear?",
+            "expected": "Bell, rattle or the cup."
+          },
+          {
+            "question": "What do we hear with?",
+            "expected": "Our ears."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names sounds by listening",
+        "Points to the sound source"
+      ],
+      "conclusion": "Cover the sound-makers and say \"Thank you, ears.\"",
+      "homeConnection": "Listen for sounds at home and name them with your child.",
+      "teacherReflection": [
+        "Which children could show \"use their ears to name sounds\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HEAR",
+          "EARS"
+        ],
+        "pictures": [
+          "A child listening",
+          "An ear"
+        ]
+      },
+      "activities": [
+        "Listening game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W02-D04",
+      "title": "Mystery sound bag",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 2,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Spot and guess games",
+      "dayType": "practise",
+      "objectives": [
+        "Children will guess an object by its sound."
+      ],
+      "successCriteria": [
+        "Guesses what is in the bag by listening",
+        "Says the name of the object"
+      ],
+      "previousKnowledge": "Children can name main body parts including eyes and ears.",
+      "vocabulary": [
+        "see",
+        "look",
+        "hear",
+        "listen",
+        "eyes",
+        "ears"
+      ],
+      "resources": [
+        "A cloth bag",
+        "A bell, a spoon, a small shaker and a key ring",
+        "A tray"
+      ],
+      "starter": "Shake the bag gently and say \"What is in my bag? Listen.\"",
+      "teacherActivities": [
+        "Put the bell in the bag, shake it and ask \"What is it?\"",
+        "Take it out to show them.",
+        "Repeat with the spoon, shaker and key ring.",
+        "Let each child shake the bag and ask the group."
+      ],
+      "learnerActivities": [
+        "Children listen and guess.",
+        "Children look and check.",
+        "Children listen and guess each one.",
+        "Child shakes and friends guess."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the bell in the bag, shake it and ask \"What is it?\" Children: Children listen and guess.",
+        "Step 2. Teacher: Take it out to show them. Children: Children look and check.",
+        "Step 3. Teacher: Repeat with the spoon, shaker and key ring. Children: Children listen and guess each one.",
+        "Step 4. Teacher: Let each child shake the bag and ask the group. Children: Child shakes and friends guess."
+      ],
+      "practical": {
+        "title": "Mystery bag",
+        "steps": [
+          "Put one object in a bag.",
+          "Shake the bag and ask what it is.",
+          "Show the object."
+        ],
+        "safety": "Use only large soft objects and never put anything in the mouth. Supervise the bag handling."
+      },
+      "differentiation": {
+        "support": "Offer two objects and say the names.",
+        "extension": "Ask the child to put an object in the bag for a friend to guess."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is in the bag?",
+            "expected": "The object’s name."
+          },
+          {
+            "question": "How do you know?",
+            "expected": "By listening."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Guesses an object by its sound",
+        "Says what they heard"
+      ],
+      "conclusion": "Put the objects away and say thank you.",
+      "homeConnection": "Play guess the sound with a cup and spoon at home.",
+      "teacherReflection": [
+        "Which children could show \"guess an object by its sound\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GUESS",
+          "LISTEN"
+        ],
+        "pictures": [
+          "A cloth bag",
+          "A bell"
+        ]
+      },
+      "activities": [
+        "Mystery bag"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W02-D05",
+      "title": "Week 2 senses check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 2,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Spot and guess games",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child uses eyes and ears to explore."
+      ],
+      "successCriteria": [
+        "Finds an object by looking",
+        "Names a sound by listening"
+      ],
+      "previousKnowledge": "Children can name main body parts including eyes and ears.",
+      "vocabulary": [
+        "see",
+        "look",
+        "hear",
+        "listen",
+        "eyes",
+        "ears"
+      ],
+      "resources": [
+        "Objects",
+        "Picture cards",
+        "Sound-makers",
+        "Class record sheet"
+      ],
+      "starter": "Say \"Eyes and ears\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: spot, listen and mystery bag.",
+        "At each station ask \"What do you see?\" or \"What do you hear?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or gesture.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: spot, listen and mystery bag. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What do you see?\" or \"What do you hear?\" Children: Child answers with a word or gesture.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Eyes and ears stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use gentle sounds."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two choices.",
+        "extension": "Ask a confident child to run a listening game."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: finds an object by looking; names a sound by listening; says which body part is used.",
+        "questions": [
+          {
+            "question": "What do we see with?",
+            "expected": "Our eyes."
+          },
+          {
+            "question": "What do we hear with?",
+            "expected": "Our ears."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Uses eyes and ears to explore"
+      ],
+      "conclusion": "Wave goodbye with eyes and ears.",
+      "homeConnection": "Play look and listen games at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child uses eyes and ears to explore\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Eyes and ears"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Eyes and ears stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

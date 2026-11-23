@@ -1,0 +1,602 @@
+{
+  "id": "ELA-PS-TOD-SCI-T1-W03",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 1,
+  "week": 3,
+  "title": "Soft and hard",
+  "topic": "My senses",
+  "subtopics": [
+    "Touching soft things",
+    "Touching hard things",
+    "Rough and smooth"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will touch and describe soft and hard objects.",
+    "Children will describe rough and smooth with support."
+  ],
+  "vocabulary": [
+    "soft",
+    "hard",
+    "rough",
+    "smooth",
+    "touch",
+    "feel"
+  ],
+  "content": "Touching soft and hard objects, and describing rough and smooth.",
+  "teachingActivities": "Let children touch with hands and say each word as they touch; use a mystery bag; never force a child to touch something they dislike; offer a tool instead.",
+  "learnerActivities": "Touch objects, say soft, hard, rough or smooth and sort objects.",
+  "resources": [
+    "Cotton wool, a sponge, a teddy",
+    "A stone, a wooden block, a spoon",
+    "Sandpaper, a rough mat, a smooth tile and a leaf",
+    "A cloth bag",
+    "Two baskets"
+  ],
+  "assessment": "Observe whether each child says soft or hard for an object and sorts objects with support.",
+  "expectedOutcomes": [
+    "Says soft or hard for a familiar object.",
+    "Sorts objects into soft and hard with support."
+  ],
+  "crossCurricular": [
+    "Literacy: describing words",
+    "Numeracy: sorting",
+    "Creative Development: textures"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W03-D01",
+      "title": "Touching soft things",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 3,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Touching soft things",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will touch soft things and say the word soft."
+      ],
+      "successCriteria": [
+        "Touches soft things gently",
+        "Says soft with support"
+      ],
+      "previousKnowledge": "Children can use their eyes and ears to explore and name what they see and hear.",
+      "vocabulary": [
+        "soft",
+        "hard",
+        "rough",
+        "smooth",
+        "touch",
+        "feel"
+      ],
+      "resources": [
+        "Cotton wool, a sponge, a teddy and a soft cloth",
+        "A tray"
+      ],
+      "starter": "Stroke the teddy and say \"Soft, soft, soft.\" Ask \"Can you feel it?\"",
+      "teacherActivities": [
+        "Pass the soft objects round and say \"Soft\" as each child touches.",
+        "Squeeze the sponge and the teddy and show how they change.",
+        "Close your eyes and feel an object. Ask \"Is it soft?\"",
+        "Put soft things on a tray and name each."
+      ],
+      "learnerActivities": [
+        "Children touch each object and say soft.",
+        "Children squeeze and say soft.",
+        "Child feels an object and nods or says soft.",
+        "Child names a soft object."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pass the soft objects round and say \"Soft\" as each child touches. Children: Children touch each object and say soft.",
+        "Step 2. Teacher: Squeeze the sponge and the teddy and show how they change. Children: Children squeeze and say soft.",
+        "Step 3. Teacher: Close your eyes and feel an object. Ask \"Is it soft?\" Children: Child feels an object and nods or says soft.",
+        "Step 4. Teacher: Put soft things on a tray and name each. Children: Child names a soft object."
+      ],
+      "practical": {
+        "title": "Soft things",
+        "steps": [
+          "Put soft objects on a tray.",
+          "Each child touches each object.",
+          "Say \"soft\" together."
+        ],
+        "safety": "Use clean items that cannot be swallowed. Watch that no child puts cotton wool in the mouth or nose."
+      },
+      "differentiation": {
+        "support": "Stroke the object with the child’s hand.",
+        "extension": "Ask the child to find another soft thing in the room."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the teddy soft?",
+            "expected": "Yes, soft."
+          },
+          {
+            "question": "What else is soft?",
+            "expected": "Sponge, cloth or cotton wool."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Touches and names soft things",
+        "Says soft with support"
+      ],
+      "conclusion": "Put the soft things in a basket and say \"Soft.\"",
+      "homeConnection": "Find soft things at home, such as a pillow, and say soft.",
+      "teacherReflection": [
+        "Which children could show \"touch soft things and say the word soft\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SOFT",
+          "TEDDY"
+        ],
+        "pictures": [
+          "A teddy",
+          "Cotton wool"
+        ],
+        "songOrRhyme": "Soft, soft, soft. Teddy is soft."
+      },
+      "activities": [
+        "Soft things"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W03-D02",
+      "title": "Touching hard things",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 3,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Touching hard things",
+      "dayType": "explore",
+      "objectives": [
+        "Children will touch hard things and say the word hard."
+      ],
+      "successCriteria": [
+        "Touches hard things safely",
+        "Says hard with support"
+      ],
+      "previousKnowledge": "Children can use their eyes and ears to explore and name what they see and hear.",
+      "vocabulary": [
+        "soft",
+        "hard",
+        "rough",
+        "smooth",
+        "touch",
+        "feel"
+      ],
+      "resources": [
+        "A smooth large stone",
+        "A wooden block",
+        "A metal spoon",
+        "A plastic cup"
+      ],
+      "starter": "Tap the wooden block on the table and say \"Hard.\" Ask \"Is it hard or soft?\"",
+      "teacherActivities": [
+        "Pass the hard objects round and say \"Hard\" as each child touches.",
+        "Tap objects on the table and listen to the sound.",
+        "Show a soft and a hard object together and ask which is hard.",
+        "Let each child choose a hard thing and show a friend."
+      ],
+      "learnerActivities": [
+        "Children touch each and say hard.",
+        "Children tap and listen.",
+        "Child points to the hard object.",
+        "Child shows the object and says hard."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pass the hard objects round and say \"Hard\" as each child touches. Children: Children touch each and say hard.",
+        "Step 2. Teacher: Tap objects on the table and listen to the sound. Children: Children tap and listen.",
+        "Step 3. Teacher: Show a soft and a hard object together and ask which is hard. Children: Child points to the hard object.",
+        "Step 4. Teacher: Let each child choose a hard thing and show a friend. Children: Child shows the object and says hard."
+      ],
+      "practical": {
+        "title": "Hard things",
+        "steps": [
+          "Put hard objects on a tray.",
+          "Each child touches and taps them.",
+          "Say \"hard\" together."
+        ],
+        "safety": "Use stones larger than a child’s fist and smooth wood without splinters. Supervise closely and keep objects out of mouths."
+      },
+      "differentiation": {
+        "support": "Tap the object together and say hard.",
+        "extension": "Ask the child to find a hard thing outside."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the block hard?",
+            "expected": "Yes, hard."
+          },
+          {
+            "question": "Which is hard?",
+            "expected": "The stone or block."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Touches and names hard things",
+        "Says hard with support"
+      ],
+      "conclusion": "Put the hard things back and say \"Hard.\"",
+      "homeConnection": "Find hard things at home, such as a table, and say hard.",
+      "teacherReflection": [
+        "Which children could show \"touch hard things and say the word hard\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HARD",
+          "STONE"
+        ],
+        "pictures": [
+          "A stone",
+          "A wooden block"
+        ]
+      },
+      "activities": [
+        "Hard things"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W03-D03",
+      "title": "Rough and smooth",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 3,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Rough and smooth",
+      "dayType": "explore",
+      "objectives": [
+        "Children will feel rough and smooth surfaces and use the words."
+      ],
+      "successCriteria": [
+        "Touches rough and smooth surfaces",
+        "Says rough or smooth with support"
+      ],
+      "previousKnowledge": "Children can use their eyes and ears to explore and name what they see and hear.",
+      "vocabulary": [
+        "soft",
+        "hard",
+        "rough",
+        "smooth",
+        "touch",
+        "feel"
+      ],
+      "resources": [
+        "Fine sandpaper",
+        "A rough mat",
+        "A smooth tile",
+        "A smooth leaf",
+        "A cloth bag"
+      ],
+      "starter": "Rub the sandpaper and say \"Rough.\" Rub the tile and say \"Smooth.\" Ask \"Which is smooth?\"",
+      "teacherActivities": [
+        "Pass the rough and smooth objects round and say each word.",
+        "Ask \"Is it rough or smooth?\" for each object.",
+        "Put one object in the bag and let a child feel it.",
+        "Let each child find a rough and a smooth thing in the room."
+      ],
+      "learnerActivities": [
+        "Children touch and say the word.",
+        "Child says rough or smooth.",
+        "Child feels and says rough or smooth.",
+        "Child finds and touches objects."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pass the rough and smooth objects round and say each word. Children: Children touch and say the word.",
+        "Step 2. Teacher: Ask \"Is it rough or smooth?\" for each object. Children: Child says rough or smooth.",
+        "Step 3. Teacher: Put one object in the bag and let a child feel it. Children: Child feels and says rough or smooth.",
+        "Step 4. Teacher: Let each child find a rough and a smooth thing in the room. Children: Child finds and touches objects."
+      ],
+      "practical": {
+        "title": "Rough and smooth",
+        "steps": [
+          "Put rough and smooth objects on the table.",
+          "Each child touches each one.",
+          "Sort them into two baskets."
+        ],
+        "safety": "Use fine sandpaper only and watch that no child rubs it hard or near the face. Wash hands afterwards."
+      },
+      "differentiation": {
+        "support": "Guide the child’s finger across the surface and say the word.",
+        "extension": "Ask the child to find a rough and a smooth thing on the playground."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the tile smooth?",
+            "expected": "Yes, smooth."
+          },
+          {
+            "question": "Is the sandpaper rough?",
+            "expected": "Yes, rough."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names rough and smooth with support",
+        "Sorts rough and smooth things"
+      ],
+      "conclusion": "Put the objects back and say \"Rough and smooth.\"",
+      "homeConnection": "Feel rough and smooth things at home, such as a wall and a plate.",
+      "teacherReflection": [
+        "Which children could show \"feel rough and smooth surfaces and use the words\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ROUGH",
+          "SMOOTH"
+        ],
+        "pictures": [
+          "Sandpaper",
+          "A smooth tile"
+        ]
+      },
+      "activities": [
+        "Rough and smooth"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W03-D04",
+      "title": "Sort soft and hard",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 3,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Touching soft things",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort objects into soft and hard."
+      ],
+      "successCriteria": [
+        "Puts a soft object in the soft basket",
+        "Puts a hard object in the hard basket"
+      ],
+      "previousKnowledge": "Children can use their eyes and ears to explore and name what they see and hear.",
+      "vocabulary": [
+        "soft",
+        "hard",
+        "rough",
+        "smooth",
+        "touch",
+        "feel"
+      ],
+      "resources": [
+        "Two baskets labelled soft and hard",
+        "Six objects: three soft, three hard"
+      ],
+      "starter": "Show two baskets and say \"One is for soft things and one is for hard things.\"",
+      "teacherActivities": [
+        "Pick up a teddy, feel it and put it in the soft basket.",
+        "Pick up a stone, feel it and put it in the hard basket.",
+        "Let each child pick an object, feel it and choose a basket.",
+        "Check each basket together."
+      ],
+      "learnerActivities": [
+        "Children watch and say soft.",
+        "Children watch and say hard.",
+        "Child feels and sorts the object.",
+        "Children touch and say soft or hard."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pick up a teddy, feel it and put it in the soft basket. Children: Children watch and say soft.",
+        "Step 2. Teacher: Pick up a stone, feel it and put it in the hard basket. Children: Children watch and say hard.",
+        "Step 3. Teacher: Let each child pick an object, feel it and choose a basket. Children: Child feels and sorts the object.",
+        "Step 4. Teacher: Check each basket together. Children: Children touch and say soft or hard."
+      ],
+      "practical": {
+        "title": "Soft and hard baskets",
+        "steps": [
+          "Put six objects on the mat.",
+          "Each child feels an object.",
+          "Put it in the right basket."
+        ],
+        "safety": "Use large objects that cannot be swallowed. Supervise sorting and turns."
+      },
+      "differentiation": {
+        "support": "Use two objects and feel them together.",
+        "extension": "Ask the child to find one more soft and one more hard thing."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which basket does the teddy go in?",
+            "expected": "The soft basket."
+          },
+          {
+            "question": "Which basket does the stone go in?",
+            "expected": "The hard basket."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts soft and hard objects with support",
+        "Says the words"
+      ],
+      "conclusion": "Count the objects in each basket and say well done.",
+      "homeConnection": "Sort soft and hard toys at home.",
+      "teacherReflection": [
+        "Which children could show \"sort objects into soft and hard\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SOFT",
+          "HARD"
+        ],
+        "pictures": [
+          "Two baskets"
+        ]
+      },
+      "activities": [
+        "Soft and hard baskets"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W03-D05",
+      "title": "Week 3 touch check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 3,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Rough and smooth",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child uses touch to describe objects."
+      ],
+      "successCriteria": [
+        "Says soft or hard for an object",
+        "Sorts objects with support"
+      ],
+      "previousKnowledge": "Children can use their eyes and ears to explore and name what they see and hear.",
+      "vocabulary": [
+        "soft",
+        "hard",
+        "rough",
+        "smooth",
+        "touch",
+        "feel"
+      ],
+      "resources": [
+        "Soft and hard objects",
+        "Rough and smooth objects",
+        "Class record sheet"
+      ],
+      "starter": "Say \"We touch with our hands\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: soft, hard and rough and smooth.",
+        "At each station ask \"Is it soft or hard?\" or \"Is it rough or smooth?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: soft, hard and rough and smooth. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"Is it soft or hard?\" or \"Is it rough or smooth?\" Children: Child answers with a word.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Touch stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use safe objects only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two objects.",
+        "extension": "Ask a confident child to teach a friend the words."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says soft or hard; says rough or smooth; sorts objects.",
+        "questions": [
+          {
+            "question": "Is this soft or hard?",
+            "expected": "Soft or hard."
+          },
+          {
+            "question": "Is this rough or smooth?",
+            "expected": "Rough or smooth."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Describes objects by touch"
+      ],
+      "conclusion": "Wave goodbye with soft hands.",
+      "homeConnection": "Describe things at home as soft, hard, rough or smooth.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child uses touch to describe objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Touch"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Touch stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

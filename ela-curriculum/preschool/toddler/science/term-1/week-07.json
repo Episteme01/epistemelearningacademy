@@ -1,0 +1,603 @@
+{
+  "id": "ELA-PS-TOD-SCI-T1-W07",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 1,
+  "week": 7,
+  "title": "Float and sink",
+  "topic": "Water",
+  "subtopics": [
+    "Things that float",
+    "Things that sink",
+    "Floating boats"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will put objects in water and see which float or sink.",
+    "Children will say float or sink with support."
+  ],
+  "vocabulary": [
+    "float",
+    "sink",
+    "boat",
+    "heavy",
+    "light",
+    "water"
+  ],
+  "content": "Putting objects in water to see which float and which sink, and making boats that float.",
+  "teachingActivities": "Let children predict by saying or pointing; put each object in the water together and say \"float\" or \"sink\"; use large objects only; keep a tray of towels ready.",
+  "learnerActivities": "Put objects in water, say float or sink and put a floating object on the water.",
+  "resources": [
+    "A clear basin of water",
+    "A cork, a leaf, a plastic cup, a wooden spoon",
+    "A stone, a metal spoon, a key, a coin-sized large washer",
+    "A paper boat",
+    "Towels"
+  ],
+  "assessment": "Observe whether each child says float or sink after seeing an object in water.",
+  "expectedOutcomes": [
+    "Says float or sink after seeing an object in water.",
+    "Puts a floating object on the water."
+  ],
+  "crossCurricular": [
+    "Numeracy: heavy and light",
+    "Literacy: describing words",
+    "Creative Development: making boats"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W07-D01",
+      "title": "Things that float",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Water",
+      "subtopic": "Things that float",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will see objects float on water and say the word float."
+      ],
+      "successCriteria": [
+        "Watches objects floating",
+        "Says float with support"
+      ],
+      "previousKnowledge": "Children can pour and play with water and say wet and dry.",
+      "vocabulary": [
+        "float",
+        "sink",
+        "boat",
+        "heavy",
+        "light",
+        "water"
+      ],
+      "resources": [
+        "A clear basin of water",
+        "A cork, a leaf, a plastic cup and a wooden spoon",
+        "Towels"
+      ],
+      "starter": "Put a leaf on the water and say \"The leaf floats. It stays on top.\"",
+      "teacherActivities": [
+        "Put each object on the water one at a time and say \"It floats.\"",
+        "Let each child put one object on the water.",
+        "Push a floating object down and let it go.",
+        "Ask \"What floats?\" and point to the objects."
+      ],
+      "learnerActivities": [
+        "Children watch and say float.",
+        "Child puts an object in the water and watches.",
+        "Child watches it come back up and says float.",
+        "Child points to floating things."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put each object on the water one at a time and say \"It floats.\" Children: Children watch and say float.",
+        "Step 2. Teacher: Let each child put one object on the water. Children: Child puts an object in the water and watches.",
+        "Step 3. Teacher: Push a floating object down and let it go. Children: Child watches it come back up and says float.",
+        "Step 4. Teacher: Ask \"What floats?\" and point to the objects. Children: Child points to floating things."
+      ],
+      "practical": {
+        "title": "Floating things",
+        "steps": [
+          "Set up a clear basin on a mat.",
+          "Put objects on the water.",
+          "Say \"float\" for each one that stays on top."
+        ],
+        "safety": "Use only objects larger than a child’s mouth that are not sharp. Keep water shallow and supervise closely."
+      },
+      "differentiation": {
+        "support": "Put the object in the water together and say float.",
+        "extension": "Ask the child to find another floating thing in the room."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the leaf float?",
+            "expected": "Yes, it floats."
+          },
+          {
+            "question": "What floats?",
+            "expected": "Cork, cup or leaf."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says float for floating objects",
+        "Puts an object on the water"
+      ],
+      "conclusion": "Take the objects out and dry them with a towel.",
+      "homeConnection": "Float a leaf or a plastic cup in a bowl of water at home.",
+      "teacherReflection": [
+        "Which children could show \"see objects float on water and say the word float\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FLOAT",
+          "TOP"
+        ],
+        "pictures": [
+          "A leaf on water",
+          "A floating cup"
+        ],
+        "songOrRhyme": "Float, float, float on top. Float, float, float."
+      },
+      "activities": [
+        "Floating things"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W07-D02",
+      "title": "Things that sink",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Water",
+      "subtopic": "Things that sink",
+      "dayType": "explore",
+      "objectives": [
+        "Children will see objects sink in water and say the word sink."
+      ],
+      "successCriteria": [
+        "Watches objects sinking",
+        "Says sink with support"
+      ],
+      "previousKnowledge": "Children can pour and play with water and say wet and dry.",
+      "vocabulary": [
+        "float",
+        "sink",
+        "boat",
+        "heavy",
+        "light",
+        "water"
+      ],
+      "resources": [
+        "A clear basin of water",
+        "A large smooth stone, a metal spoon, a large key and a large washer",
+        "Towels"
+      ],
+      "starter": "Drop a large stone in the water and say \"Splash! The stone sinks. It goes to the bottom.\"",
+      "teacherActivities": [
+        "Drop each heavy object in the water one at a time and say \"It sinks.\"",
+        "Let each child drop a heavy object in the water.",
+        "Pick the object up and let children feel how heavy it is.",
+        "Ask \"What sinks?\" and point to the objects."
+      ],
+      "learnerActivities": [
+        "Children watch and say sink.",
+        "Child drops an object and watches it go down.",
+        "Child holds the object and says heavy.",
+        "Child points to sinking things."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Drop each heavy object in the water one at a time and say \"It sinks.\" Children: Children watch and say sink.",
+        "Step 2. Teacher: Let each child drop a heavy object in the water. Children: Child drops an object and watches it go down.",
+        "Step 3. Teacher: Pick the object up and let children feel how heavy it is. Children: Child holds the object and says heavy.",
+        "Step 4. Teacher: Ask \"What sinks?\" and point to the objects. Children: Child points to sinking things."
+      ],
+      "practical": {
+        "title": "Sinking things",
+        "steps": [
+          "Set up a clear basin on a mat.",
+          "Drop heavy objects in the water.",
+          "Say \"sink\" for each one that goes down."
+        ],
+        "safety": "Use only large, smooth objects that cannot be swallowed. Keep water shallow and do not let children put objects in their mouths."
+      },
+      "differentiation": {
+        "support": "Drop the object together and watch it sink.",
+        "extension": "Ask the child to guess before dropping each object."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the stone sink?",
+            "expected": "Yes, it sinks."
+          },
+          {
+            "question": "What sinks?",
+            "expected": "Stone, spoon or key."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says sink for sinking objects",
+        "Drops an object in the water"
+      ],
+      "conclusion": "Take the objects out and dry them with a towel.",
+      "homeConnection": "Drop a spoon and a leaf in a bowl of water and see what happens.",
+      "teacherReflection": [
+        "Which children could show \"see objects sink in water and say the word sink\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SINK",
+          "BOTTOM"
+        ],
+        "pictures": [
+          "A stone sinking",
+          "A spoon in water"
+        ]
+      },
+      "activities": [
+        "Sinking things"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W07-D03",
+      "title": "Float or sink?",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Water",
+      "subtopic": "Things that sink",
+      "dayType": "practise",
+      "objectives": [
+        "Children will guess and test if objects float or sink."
+      ],
+      "successCriteria": [
+        "Guesses float or sink",
+        "Checks the guess in water"
+      ],
+      "previousKnowledge": "Children can pour and play with water and say wet and dry.",
+      "vocabulary": [
+        "float",
+        "sink",
+        "boat",
+        "heavy",
+        "light",
+        "water"
+      ],
+      "resources": [
+        "A basin of water",
+        "Six objects: three float and three sink",
+        "Two hoops or trays labelled float and sink",
+        "Towels"
+      ],
+      "starter": "Show a cork and ask \"Will it float or sink? Let us find out.\"",
+      "teacherActivities": [
+        "Hold up an object and ask the children to guess float or sink.",
+        "Put it in the water and watch.",
+        "Put floating things on the float tray and sinking things on the sink tray.",
+        "Check each tray together."
+      ],
+      "learnerActivities": [
+        "Children guess with a word or point.",
+        "Children watch and say float or sink.",
+        "Child puts the object on the right tray.",
+        "Children say float or sink for each object."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold up an object and ask the children to guess float or sink. Children: Children guess with a word or point.",
+        "Step 2. Teacher: Put it in the water and watch. Children: Children watch and say float or sink.",
+        "Step 3. Teacher: Put floating things on the float tray and sinking things on the sink tray. Children: Child puts the object on the right tray.",
+        "Step 4. Teacher: Check each tray together. Children: Children say float or sink for each object."
+      ],
+      "practical": {
+        "title": "Test and sort",
+        "steps": [
+          "Choose an object and guess.",
+          "Test in the water.",
+          "Sort into float and sink trays."
+        ],
+        "safety": "Use large objects only and supervise closely. Keep the water shallow and wipe spills."
+      },
+      "differentiation": {
+        "support": "Offer two objects and say the guess together.",
+        "extension": "Ask the child to find a new object and test it."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Will the cork float or sink?",
+            "expected": "Float."
+          },
+          {
+            "question": "Did you guess right?",
+            "expected": "Yes or no."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Guesses and tests float and sink",
+        "Sorts objects into float and sink"
+      ],
+      "conclusion": "Dry the objects and put them away.",
+      "homeConnection": "Test float and sink with safe objects in a bowl at home.",
+      "teacherReflection": [
+        "Which children could show \"guess and test if objects float or sink\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FLOAT",
+          "SINK"
+        ],
+        "pictures": [
+          "Two trays"
+        ]
+      },
+      "activities": [
+        "Test and sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W07-D04",
+      "title": "Floating boats",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Water",
+      "subtopic": "Floating boats",
+      "dayType": "apply",
+      "objectives": [
+        "Children will make a boat and see that it floats."
+      ],
+      "successCriteria": [
+        "Helps make a boat",
+        "Puts the boat on the water"
+      ],
+      "previousKnowledge": "Children can pour and play with water and say wet and dry.",
+      "vocabulary": [
+        "float",
+        "sink",
+        "boat",
+        "heavy",
+        "light",
+        "water"
+      ],
+      "resources": [
+        "Paper or foam boats",
+        "A plastic tub",
+        "A large leaf",
+        "A straw as a sail",
+        "Towels"
+      ],
+      "starter": "Show a paper boat and say \"This is a boat. Let us put it on the water.\"",
+      "teacherActivities": [
+        "Show a boat made from foam or folded paper.",
+        "Put the boat on the water and say \"It floats.\"",
+        "Let each child push their own boat with a gentle puff or hand.",
+        "Try a large leaf as a boat."
+      ],
+      "learnerActivities": [
+        "Children look and touch.",
+        "Children watch it float.",
+        "Child pushes the boat across the water.",
+        "Child puts a leaf on the water and watches."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a boat made from foam or folded paper. Children: Children look and touch.",
+        "Step 2. Teacher: Put the boat on the water and say \"It floats.\" Children: Children watch it float.",
+        "Step 3. Teacher: Let each child push their own boat with a gentle puff or hand. Children: Child pushes the boat across the water.",
+        "Step 4. Teacher: Try a large leaf as a boat. Children: Child puts a leaf on the water and watches."
+      ],
+      "practical": {
+        "title": "Boat race",
+        "steps": [
+          "Fill a long tub with water.",
+          "Put boats at one end.",
+          "Gently blow or push the boats across."
+        ],
+        "safety": "Use a shallow tub and supervise closely. Remove boats and wipe spills afterwards."
+      },
+      "differentiation": {
+        "support": "Hold the boat together and place it on the water.",
+        "extension": "Ask the child to put a small toy on the boat."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the boat float?",
+            "expected": "Yes, it floats."
+          },
+          {
+            "question": "What pushes the boat?",
+            "expected": "Our hand or a puff of air."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Floats a boat on water",
+        "Says boat and float"
+      ],
+      "conclusion": "Dry the boats on a towel and say \"Boats float.\"",
+      "homeConnection": "Make a boat from foil or paper and float it in a bowl.",
+      "teacherReflection": [
+        "Which children could show \"make a boat and see that it floats\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BOAT",
+          "FLOAT"
+        ],
+        "pictures": [
+          "A paper boat on water"
+        ]
+      },
+      "activities": [
+        "Boat race"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W07-D05",
+      "title": "Week 7 float and sink check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Water",
+      "subtopic": "Things that float",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child describes objects in water."
+      ],
+      "successCriteria": [
+        "Says float or sink after seeing an object in water",
+        "Puts an object on the water"
+      ],
+      "previousKnowledge": "Children can pour and play with water and say wet and dry.",
+      "vocabulary": [
+        "float",
+        "sink",
+        "boat",
+        "heavy",
+        "light",
+        "water"
+      ],
+      "resources": [
+        "A basin",
+        "Float and sink objects",
+        "Class record sheet"
+      ],
+      "starter": "Sing the float song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: float, sink and boats.",
+        "At each station ask \"Float or sink?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child says float or sink.",
+        "Children dry hands and tidy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: float, sink and boats. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"Float or sink?\" Children: Child says float or sink.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children dry hands and tidy."
+      ],
+      "practical": {
+        "title": "Float and sink stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station closely and keep water shallow. Wipe spills quickly."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one object.",
+        "extension": "Ask a confident child to explain float and sink to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says float or sink after seeing; puts an object on the water; sorts floaters and sinkers.",
+        "questions": [
+          {
+            "question": "Does it float or sink?",
+            "expected": "Float or sink."
+          },
+          {
+            "question": "Can you put it in the water?",
+            "expected": "Child does it."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Uses the words float and sink"
+      ],
+      "conclusion": "Dry hands and wave goodbye.",
+      "homeConnection": "Try float and sink at bath time.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child describes objects in water\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Float and sink"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Float and sink stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

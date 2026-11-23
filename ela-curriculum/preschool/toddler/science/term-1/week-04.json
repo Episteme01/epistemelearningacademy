@@ -1,0 +1,601 @@
+{
+  "id": "ELA-PS-TOD-SCI-T1-W04",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 1,
+  "week": 4,
+  "title": "Smell and taste",
+  "topic": "My senses",
+  "subtopics": [
+    "Smelling safe things",
+    "Tasting safe foods",
+    "Sweet, sour and salty"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will smell safe items and say if they like the smell.",
+    "Children will taste safe foods and describe them with a word."
+  ],
+  "vocabulary": [
+    "smell",
+    "taste",
+    "nose",
+    "tongue",
+    "sweet",
+    "salty"
+  ],
+  "content": "Smelling safe items, tasting safe foods, and noticing sweet, sour and salty.",
+  "teachingActivities": "Check allergies and parental consent before any tasting; wash hands first; offer tiny tastes only; never force children to smell or taste; use a spoon and individual cups.",
+  "learnerActivities": "Smell safe things and taste safe foods and say one word to describe them.",
+  "resources": [
+    "Orange, lemon, cloves or mint leaves",
+    "Sugar, salt and a slice of lemon in small cups",
+    "Spoons",
+    "Napkins",
+    "A cloth to cover items"
+  ],
+  "assessment": "Observe whether each child names a smell and says one word about how a food tastes.",
+  "expectedOutcomes": [
+    "Names a smell with support.",
+    "Says one word for how a food tastes."
+  ],
+  "crossCurricular": [
+    "Literacy: describing words",
+    "Social Habits: trying new foods politely",
+    "Understanding the World: food"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W04-D01",
+      "title": "Smelling with my nose",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Smelling safe things",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will smell safe items and say if they like the smell."
+      ],
+      "successCriteria": [
+        "Smells an item gently",
+        "Says nice or not nice with support"
+      ],
+      "previousKnowledge": "Children can use eyes, ears and hands to explore objects and name what they find.",
+      "vocabulary": [
+        "smell",
+        "taste",
+        "nose",
+        "tongue",
+        "sweet",
+        "salty"
+      ],
+      "resources": [
+        "Orange peel, mint leaves, a bar of soap, a flower",
+        "Small covered pots"
+      ],
+      "starter": "Point to your nose and say \"We smell with our nose. Sniff, sniff.\" Smell a flower and say \"Mmm.\"",
+      "teacherActivities": [
+        "Show how to sniff gently and not breathe in hard.",
+        "Pass each pot round and say its name.",
+        "Ask \"Do you like the smell?\"",
+        "Let each child choose a favourite smell."
+      ],
+      "learnerActivities": [
+        "Children sniff gently.",
+        "Children smell and say the name.",
+        "Child says yes or no with a smile or shake.",
+        "Child chooses and shows the pot."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to sniff gently and not breathe in hard. Children: Children sniff gently.",
+        "Step 2. Teacher: Pass each pot round and say its name. Children: Children smell and say the name.",
+        "Step 3. Teacher: Ask \"Do you like the smell?\" Children: Child says yes or no with a smile or shake.",
+        "Step 4. Teacher: Let each child choose a favourite smell. Children: Child chooses and shows the pot."
+      ],
+      "practical": {
+        "title": "Smell pots",
+        "steps": [
+          "Put safe items in covered pots.",
+          "Each child sniffs gently.",
+          "Say what the smell is and if it is nice."
+        ],
+        "safety": "Use only safe, non-allergenic items and check for allergies first. Never use strong chemicals or cleaning products."
+      },
+      "differentiation": {
+        "support": "Hold the pot at a distance and let the child sniff.",
+        "extension": "Ask the child to find something at home that smells nice."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we smell with?",
+            "expected": "Our nose."
+          },
+          {
+            "question": "Do you like it?",
+            "expected": "Yes or no."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Smells safe items gently",
+        "Says if they like a smell"
+      ],
+      "conclusion": "Cover the pots and say \"Thank you, nose.\"",
+      "homeConnection": "Smell flowers and foods with your child and say what you smell.",
+      "teacherReflection": [
+        "Which children could show \"smell safe items and say if they like the smell\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SMELL",
+          "NOSE"
+        ],
+        "pictures": [
+          "A nose",
+          "A flower"
+        ]
+      },
+      "activities": [
+        "Smell pots"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W04-D02",
+      "title": "Nice and not nice smells",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Smelling safe things",
+      "dayType": "explore",
+      "objectives": [
+        "Children will describe smells as nice or not nice."
+      ],
+      "successCriteria": [
+        "Says nice or not nice",
+        "Names one thing that smells nice"
+      ],
+      "previousKnowledge": "Children can use eyes, ears and hands to explore objects and name what they find.",
+      "vocabulary": [
+        "smell",
+        "taste",
+        "nose",
+        "tongue",
+        "sweet",
+        "salty"
+      ],
+      "resources": [
+        "Safe items such as an orange, mint, soap and a ripe banana",
+        "Picture cards of rubbish and flowers"
+      ],
+      "starter": "Hold up the orange and say \"Mmm, this smells nice.\" Show a picture of rubbish and say \"This smells not nice.\"",
+      "teacherActivities": [
+        "Pass the items round and ask \"Nice or not nice?\"",
+        "Show picture cards and ask \"Does it smell nice?\"",
+        "Talk about why we keep rubbish away from where we eat.",
+        "Let each child choose their favourite smell."
+      ],
+      "learnerActivities": [
+        "Children smell and say nice or not nice.",
+        "Child says or shows with a face.",
+        "Children listen and nod.",
+        "Child chooses and says a word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pass the items round and ask \"Nice or not nice?\" Children: Children smell and say nice or not nice.",
+        "Step 2. Teacher: Show picture cards and ask \"Does it smell nice?\" Children: Child says or shows with a face.",
+        "Step 3. Teacher: Talk about why we keep rubbish away from where we eat. Children: Children listen and nod.",
+        "Step 4. Teacher: Let each child choose their favourite smell. Children: Child chooses and says a word."
+      ],
+      "practical": {
+        "title": "Nice smells",
+        "steps": [
+          "Put four safe items on a tray.",
+          "Each child smells one.",
+          "Say nice or not nice."
+        ],
+        "safety": "Use only fresh, safe items and check allergies. Never let children smell rubbish or chemicals."
+      },
+      "differentiation": {
+        "support": "Offer two items and ask which one is nicer.",
+        "extension": "Ask the child to name a smell they like at home."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the orange smell nice?",
+            "expected": "Yes, nice."
+          },
+          {
+            "question": "What smells nice at home?",
+            "expected": "Food or flowers."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Describes smells as nice or not nice",
+        "Names a nice smell"
+      ],
+      "conclusion": "Put the items away and say \"Mmm.\"",
+      "homeConnection": "Talk about nice smells when you cook at home.",
+      "teacherReflection": [
+        "Which children could show \"describe smells as nice or not nice\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "NICE",
+          "NOT NICE"
+        ],
+        "pictures": [
+          "A smiling face",
+          "A frowning face"
+        ]
+      },
+      "activities": [
+        "Nice smells"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W04-D03",
+      "title": "Tasting with my tongue",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Tasting safe foods",
+      "dayType": "explore",
+      "objectives": [
+        "Children will taste safe foods and say one word to describe them."
+      ],
+      "successCriteria": [
+        "Tastes a small piece of food",
+        "Says a word for the taste"
+      ],
+      "previousKnowledge": "Children can use eyes, ears and hands to explore objects and name what they find.",
+      "vocabulary": [
+        "smell",
+        "taste",
+        "nose",
+        "tongue",
+        "sweet",
+        "salty"
+      ],
+      "resources": [
+        "Small pieces of banana, orange and bread on a plate",
+        "Napkins",
+        "Individual cups"
+      ],
+      "starter": "Point to your tongue and say \"We taste with our tongue.\" Check allergy notes and wash hands together.",
+      "teacherActivities": [
+        "Show each food and name it. Give a tiny piece to each child.",
+        "Say \"Chew slowly\" and show how.",
+        "Ask \"How does it taste?\" and wait.",
+        "Wipe mouths and say thank you."
+      ],
+      "learnerActivities": [
+        "Children look and take a piece.",
+        "Children chew and swallow.",
+        "Child says a word such as nice or sweet.",
+        "Child says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each food and name it. Give a tiny piece to each child. Children: Children look and take a piece.",
+        "Step 2. Teacher: Say \"Chew slowly\" and show how. Children: Children chew and swallow.",
+        "Step 3. Teacher: Ask \"How does it taste?\" and wait. Children: Child says a word such as nice or sweet.",
+        "Step 4. Teacher: Wipe mouths and say thank you. Children: Child says thank you."
+      ],
+      "practical": {
+        "title": "Tasting tray",
+        "steps": [
+          "Wash hands first.",
+          "Each child tastes a tiny piece of each food.",
+          "Say how it tastes."
+        ],
+        "safety": "Check every child’s allergy information first and cut food into very small pieces. Sit children down and supervise closely for choking."
+      },
+      "differentiation": {
+        "support": "Offer one food and let the child lick it if they do not want to bite.",
+        "extension": "Ask the child to name a food they like at home."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we taste with?",
+            "expected": "Our tongue."
+          },
+          {
+            "question": "How does it taste?",
+            "expected": "Sweet, nice or a word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Tastes safe foods",
+        "Says a word about the taste"
+      ],
+      "conclusion": "Wash hands and say \"Thank you for the food.\"",
+      "homeConnection": "Let your child taste small safe foods and say how they taste.",
+      "teacherReflection": [
+        "Which children could show \"taste safe foods and say one word to describe them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TASTE",
+          "TONGUE"
+        ],
+        "pictures": [
+          "A tongue",
+          "A banana"
+        ]
+      },
+      "activities": [
+        "Tasting tray"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W04-D04",
+      "title": "Sweet, sour and salty",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Sweet, sour and salty",
+      "dayType": "practise",
+      "objectives": [
+        "Children will taste something sweet, sour and salty and match each word to its taste."
+      ],
+      "successCriteria": [
+        "Tastes tiny amounts",
+        "Matches a word to the taste with support"
+      ],
+      "previousKnowledge": "Children can use eyes, ears and hands to explore objects and name what they find.",
+      "vocabulary": [
+        "smell",
+        "taste",
+        "nose",
+        "tongue",
+        "sweet",
+        "salty"
+      ],
+      "resources": [
+        "A pinch of sugar, a drop of lemon juice and a very small pinch of salt on separate spoons",
+        "Water to sip",
+        "Napkins"
+      ],
+      "starter": "Say \"Today we find sweet, sour and salty.\" Show three small spoons.",
+      "teacherActivities": [
+        "Check allergies and show each spoon and say its name.",
+        "Give a tiny taste of sugar and say \"Sweet.\"",
+        "Give a drop of lemon and say \"Sour.\" Do the same with salt.",
+        "Offer water and ask \"Which one did you like?\""
+      ],
+      "learnerActivities": [
+        "Children look and listen.",
+        "Child tastes and says sweet.",
+        "Child tastes and says sour or salty.",
+        "Child says a word or points."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Check allergies and show each spoon and say its name. Children: Children look and listen.",
+        "Step 2. Teacher: Give a tiny taste of sugar and say \"Sweet.\" Children: Child tastes and says sweet.",
+        "Step 3. Teacher: Give a drop of lemon and say \"Sour.\" Do the same with salt. Children: Child tastes and says sour or salty.",
+        "Step 4. Teacher: Offer water and ask \"Which one did you like?\" Children: Child says a word or points."
+      ],
+      "practical": {
+        "title": "Three tastes",
+        "steps": [
+          "Wash hands.",
+          "Each child tastes sugar, lemon and salt in tiny amounts.",
+          "Match the word to the taste."
+        ],
+        "safety": "Use only tiny amounts and check allergies first. Do not force any child. Offer water and watch closely."
+      },
+      "differentiation": {
+        "support": "Offer sweet only and let the child choose to try more.",
+        "extension": "Ask the child to name a sweet and a salty food they like."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is sugar sweet?",
+            "expected": "Yes, sweet."
+          },
+          {
+            "question": "Is lemon sour?",
+            "expected": "Yes, sour."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names sweet, sour and salty with support",
+        "Tastes small amounts"
+      ],
+      "conclusion": "Sip water and say \"Thank you, tongue.\"",
+      "homeConnection": "Talk about sweet, sour and salty foods at mealtimes.",
+      "teacherReflection": [
+        "Which children could show \"taste something sweet, sour and salty and match each word to its taste\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SWEET",
+          "SOUR",
+          "SALTY"
+        ],
+        "pictures": [
+          "Sugar",
+          "A lemon",
+          "Salt in a spoon"
+        ]
+      },
+      "activities": [
+        "Three tastes"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W04-D05",
+      "title": "Week 4 smell and taste check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "My senses",
+      "subtopic": "Tasting safe foods",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child uses smell and taste to explore."
+      ],
+      "successCriteria": [
+        "Names a smell",
+        "Says a word about a taste"
+      ],
+      "previousKnowledge": "Children can use eyes, ears and hands to explore objects and name what they find.",
+      "vocabulary": [
+        "smell",
+        "taste",
+        "nose",
+        "tongue",
+        "sweet",
+        "salty"
+      ],
+      "resources": [
+        "Smell pots",
+        "Taste plates",
+        "Class record sheet"
+      ],
+      "starter": "Say \"Nose and tongue\" and show two stations.",
+      "teacherActivities": [
+        "Set up two stations: smell pots and tasting.",
+        "At each station ask \"What do you smell?\" and \"How does it taste?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every six minutes.",
+        "Child answers with a word or gesture.",
+        "Children wash hands and tidy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up two stations: smell pots and tasting. Children: Children rotate every six minutes.",
+        "Step 2. Teacher: At each station ask \"What do you smell?\" and \"How does it taste?\" Children: Child answers with a word or gesture.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy."
+      ],
+      "practical": {
+        "title": "Smell and taste stations",
+        "steps": [
+          "Set up two stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Check allergies again and supervise every station closely. Cut food very small and offer water."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and offer one choice.",
+        "extension": "Ask a confident child to describe a taste to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: smells gently; says nice or not nice; says a word about a taste.",
+        "questions": [
+          {
+            "question": "What do we smell with?",
+            "expected": "Our nose."
+          },
+          {
+            "question": "What do we taste with?",
+            "expected": "Our tongue."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Describes smells and tastes with a word"
+      ],
+      "conclusion": "Wash hands and say goodbye.",
+      "homeConnection": "Talk about smells and tastes when you cook.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child uses smell and taste to explore\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Smell and taste"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Smell and taste stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

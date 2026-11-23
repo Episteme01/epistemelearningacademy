@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SCI-T1-W10",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 1,
+  "week": 10,
+  "title": "Show what we know",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising my body and senses",
+    "Revising water, sand and soil",
+    "Revising weather"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Term 1 learning through play stations.",
+    "Teachers will gather evidence for every child’s Term 1 record."
+  ],
+  "vocabulary": [
+    "body",
+    "senses",
+    "water",
+    "sand",
+    "weather",
+    "float"
+  ],
+  "content": "Revising the body and senses, water, sand and soil, and weather through play stations and gathering Term 1 evidence.",
+  "teachingActivities": "Keep every activity familiar and playful; observe quietly and record without interrupting; offer help only when a child is stuck; celebrate what each child can do.",
+  "learnerActivities": "Show what they know about the body, senses, water, sand, soil and weather through play.",
+  "resources": [
+    "A mirror",
+    "Sense objects",
+    "A water basin",
+    "Sand and soil trays",
+    "A weather chart",
+    "Class record sheets"
+  ],
+  "assessment": "Observe and record each child’s Term 1 science learning using the four-level scale.",
+  "expectedOutcomes": [
+    "Completes familiar tasks with confidence at play stations.",
+    "Each child has an observation record for Term 1."
+  ],
+  "crossCurricular": [
+    "Literacy: songs and describing words",
+    "Numeracy: sorting",
+    "Social Habits: sharing equipment"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W10-D01",
+      "title": "Revising my body and senses",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising my body and senses",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit body parts and the five senses through games."
+      ],
+      "successCriteria": [
+        "Points to body parts",
+        "Names senses"
+      ],
+      "previousKnowledge": "Children have explored their body, senses, water, sand, soil and weather this term.",
+      "vocabulary": [
+        "body",
+        "senses",
+        "water",
+        "sand",
+        "weather",
+        "float"
+      ],
+      "resources": [
+        "A mirror",
+        "Five sense cards",
+        "A mystery bag",
+        "A doll"
+      ],
+      "starter": "Sing the body song and say \"Today we play our favourite body and senses games.\"",
+      "teacherActivities": [
+        "Sing the body song and touch each part.",
+        "Play the mystery bag game with touch.",
+        "Show the five sense cards and ask \"Which sense?\"",
+        "Let each child choose a favourite game."
+      ],
+      "learnerActivities": [
+        "Children touch each part.",
+        "Child feels and guesses.",
+        "Child points to the body part.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing the body song and touch each part. Children: Children touch each part.",
+        "Step 2. Teacher: Play the mystery bag game with touch. Children: Child feels and guesses.",
+        "Step 3. Teacher: Show the five sense cards and ask \"Which sense?\" Children: Child points to the body part.",
+        "Step 4. Teacher: Let each child choose a favourite game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Body and senses games",
+        "steps": [
+          "Set up three game spaces.",
+          "Children play each for four minutes.",
+          "The teacher notes who names parts and senses."
+        ],
+        "safety": "Use safe objects only and keep floors clear. Supervise movement."
+      },
+      "differentiation": {
+        "support": "Play with the child and use three body parts.",
+        "extension": "Ask the child to lead a game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we see with?",
+            "expected": "Eyes."
+          },
+          {
+            "question": "Where is your nose?",
+            "expected": "Child touches their nose."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows knowledge of body parts",
+        "Names senses with support"
+      ],
+      "conclusion": "Sing the body song quietly and sit down.",
+      "homeConnection": "Play body and senses games at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit body parts and the five senses through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BODY",
+          "SENSES"
+        ],
+        "pictures": [
+          "A child’s body",
+          "Five sense cards"
+        ]
+      },
+      "activities": [
+        "Body and senses games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W10-D02",
+      "title": "Revising water, sand and soil",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising water, sand and soil",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit water, sand and soil through play."
+      ],
+      "successCriteria": [
+        "Plays with water, sand and soil safely",
+        "Says wet, dry, float or sink"
+      ],
+      "previousKnowledge": "Children have explored their body, senses, water, sand, soil and weather this term.",
+      "vocabulary": [
+        "body",
+        "senses",
+        "water",
+        "sand",
+        "weather",
+        "float"
+      ],
+      "resources": [
+        "A water basin",
+        "Float and sink objects",
+        "Trays of wet and dry sand",
+        "A tray of soil"
+      ],
+      "starter": "Say \"Today we play with water, sand and soil.\" Show the three areas.",
+      "teacherActivities": [
+        "Play float and sink with the water basin.",
+        "Dig in the sand and soil.",
+        "Compare wet and dry sand.",
+        "Let each child choose a favourite play area."
+      ],
+      "learnerActivities": [
+        "Children put objects in the water.",
+        "Children dig and scoop.",
+        "Child says wet or dry.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play float and sink with the water basin. Children: Children put objects in the water.",
+        "Step 2. Teacher: Dig in the sand and soil. Children: Children dig and scoop.",
+        "Step 3. Teacher: Compare wet and dry sand. Children: Child says wet or dry.",
+        "Step 4. Teacher: Let each child choose a favourite play area. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Earth and water play",
+        "steps": [
+          "Set up three play areas.",
+          "Children rotate every five minutes.",
+          "The teacher notes words and actions."
+        ],
+        "safety": "Supervise each area closely. Keep water shallow and wash hands after play."
+      },
+      "differentiation": {
+        "support": "Play beside the child and name what they do.",
+        "extension": "Ask the child to explain float and sink to a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does it float or sink?",
+            "expected": "Float or sink."
+          },
+          {
+            "question": "Is the sand wet or dry?",
+            "expected": "Wet or dry."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays safely with water, sand and soil",
+        "Uses science words"
+      ],
+      "conclusion": "Wash hands and say thank you.",
+      "homeConnection": "Play with water, sand and soil at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit water, sand and soil through play\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WATER",
+          "SAND",
+          "SOIL"
+        ],
+        "pictures": [
+          "A water basin",
+          "A sand tray"
+        ]
+      },
+      "activities": [
+        "Earth and water play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W10-D03",
+      "title": "Revising weather",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising weather",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit weather words and dressing for the weather."
+      ],
+      "successCriteria": [
+        "Names the weather",
+        "Chooses clothes for weather"
+      ],
+      "previousKnowledge": "Children have explored their body, senses, water, sand, soil and weather this term.",
+      "vocabulary": [
+        "body",
+        "senses",
+        "water",
+        "sand",
+        "weather",
+        "float"
+      ],
+      "resources": [
+        "A weather chart",
+        "Clothes",
+        "A streamer",
+        "An umbrella"
+      ],
+      "starter": "Look out of the window together and say \"What is the weather today?\"",
+      "teacherActivities": [
+        "Look at the sky and name the weather.",
+        "Put the picture on the weather chart.",
+        "Choose clothes for the weather and dress the doll.",
+        "Play with streamers or an umbrella."
+      ],
+      "learnerActivities": [
+        "Children say the weather.",
+        "Child places the picture.",
+        "Child chooses clothes.",
+        "Child plays and says wind or rain."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Look at the sky and name the weather. Children: Children say the weather.",
+        "Step 2. Teacher: Put the picture on the weather chart. Children: Child places the picture.",
+        "Step 3. Teacher: Choose clothes for the weather and dress the doll. Children: Child chooses clothes.",
+        "Step 4. Teacher: Play with streamers or an umbrella. Children: Child plays and says wind or rain."
+      ],
+      "practical": {
+        "title": "Weather games",
+        "steps": [
+          "Set up the weather chart and clothes.",
+          "Children name the weather and choose clothes.",
+          "Play with streamers."
+        ],
+        "safety": "Stay in safe areas and watch for weather hazards. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Offer two pictures and say the weather.",
+        "extension": "Ask the child to tell a friend what to wear."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is the weather?",
+            "expected": "Sunny, cloudy, rainy or windy."
+          },
+          {
+            "question": "What do we wear?",
+            "expected": "A hat or coat."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names the weather with a word",
+        "Chooses suitable clothes"
+      ],
+      "conclusion": "Sing the weather song and wave goodbye.",
+      "homeConnection": "Talk about the weather each day.",
+      "teacherReflection": [
+        "Which children could show \"revisit weather words and dressing for the weather\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WEATHER"
+        ],
+        "pictures": [
+          "A weather chart"
+        ]
+      },
+      "activities": [
+        "Weather games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W10-D04",
+      "title": "Science play stations",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising my body and senses",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s Term 1 science learning at play stations."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with confidence",
+        "Shows body, senses, water and weather knowledge"
+      ],
+      "previousKnowledge": "Children have explored their body, senses, water, sand, soil and weather this term.",
+      "vocabulary": [
+        "body",
+        "senses",
+        "water",
+        "sand",
+        "weather",
+        "float"
+      ],
+      "resources": [
+        "Six station sets",
+        "Class record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Sing the body song and show six stations to the class.",
+      "teacherActivities": [
+        "Set up six stations: body, senses, water, sand, soil and weather.",
+        "Observe each child at two stations and record what they can do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every three minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: body, senses, water, sand, soil and weather. Children: Children rotate every three minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they can do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Six stations",
+        "steps": [
+          "Set up six stations with familiar materials.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep water shallow and floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names body parts; uses senses; plays with water; says wet or dry; names the weather.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite game.",
+            "expected": "Child chooses a station."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a Term 1 observation record",
+        "Shows familiar skills at stations"
+      ],
+      "conclusion": "Say well done and wave goodbye.",
+      "homeConnection": "Play a favourite science game at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s Term 1 science learning at play stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Six stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T1-W10-D05",
+      "title": "Term 1 science celebration",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 1,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising weather",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate Term 1 with songs, experiments and games, and teachers will complete their records."
+      ],
+      "successCriteria": [
+        "Joins in songs and games",
+        "Shows what they enjoy"
+      ],
+      "previousKnowledge": "Children have explored their body, senses, water, sand, soil and weather this term.",
+      "vocabulary": [
+        "body",
+        "senses",
+        "water",
+        "sand",
+        "weather",
+        "float"
+      ],
+      "resources": [
+        "Favourite songs",
+        "Float and sink objects",
+        "Stickers or a certificate",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate. Let us sing and play our favourite science games.\"",
+      "teacherActivities": [
+        "Sing favourite songs with actions.",
+        "Play float and sink as a class.",
+        "Give each child a sticker or praise and say their name."
+      ],
+      "learnerActivities": [
+        "Children join in and choose a song.",
+        "Child puts an object in the water and says float or sink.",
+        "Child waves and says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite songs with actions. Children: Children join in and choose a song.",
+        "Step 2. Teacher: Play float and sink as a class. Children: Child puts an object in the water and says float or sink.",
+        "Step 3. Teacher: Give each child a sticker or praise and say their name. Children: Child waves and says thank you."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle.",
+          "Sing, play float and sink and say each name.",
+          "Hand out stickers or certificates."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Keep water shallow and supervise closely."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and sing along.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s Term 1 science record using today’s observations and the week’s notes. Record a next step for Term 2.",
+        "questions": [
+          {
+            "question": "What is your favourite game?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Did you like it?",
+            "expected": "Yes with a smile or word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed Term 1 record",
+        "Enjoys science play"
+      ],
+      "conclusion": "Wave goodbye and say \"See you in Term 2.\"",
+      "homeConnection": "Keep exploring at home during the holiday and talk about what you notice.",
+      "teacherReflection": [
+        "Which children could show \"celebrate Term 1 with songs, experiments and games, and teachers will complete their records\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
