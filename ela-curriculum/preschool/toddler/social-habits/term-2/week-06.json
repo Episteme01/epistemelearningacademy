@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SOC-T2-W06",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 2,
+  "week": 6,
+  "title": "Telling the truth",
+  "topic": "Honesty",
+  "subtopics": [
+    "What is true",
+    "Telling the truth when something goes wrong",
+    "Being brave to say the truth"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say what is true about simple pictures and events.",
+    "Children will tell an adult the truth about a small accident with support."
+  ],
+  "vocabulary": [
+    "true",
+    "truth",
+    "honest",
+    "oops",
+    "brave",
+    "tell"
+  ],
+  "content": "What is true, telling the truth when something goes wrong, and being brave to say the truth.",
+  "teachingActivities": "Toddlers mix pretend and real, so teach \"true\" with simple real facts; never trap a child into lying by asking \"Did you do it?\" when you know; thank children for telling the truth even when they made a mess; respond calmly; use stories and puppets.",
+  "learnerActivities": "Say what is true about simple pictures and events and tell an adult about a spill or mistake.",
+  "resources": [
+    "Picture cards showing true and not-true things",
+    "A puppet",
+    "A spilled cup scene",
+    "A truth song",
+    "A star chart"
+  ],
+  "assessment": "Observe whether each child says what is true about a simple event and tells an adult about a mistake.",
+  "expectedOutcomes": [
+    "Says what is true about a simple event.",
+    "Tells an adult about a spill or mistake."
+  ],
+  "crossCurricular": [
+    "Literacy: true and not true",
+    "Creative Development: story and drama",
+    "Numeracy: matching"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W06-D01",
+      "title": "What is true?",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Honesty",
+      "subtopic": "What is true",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say whether a simple statement about a picture is true."
+      ],
+      "successCriteria": [
+        "Says true or not true with support",
+        "Points to what is real"
+      ],
+      "previousKnowledge": "Children can say sorry, help others and do small jobs.",
+      "vocabulary": [
+        "true",
+        "truth",
+        "honest",
+        "oops",
+        "brave",
+        "tell"
+      ],
+      "resources": [
+        "Picture cards of a dog, a cat, a car and a tree",
+        "A puppet",
+        "A truth song"
+      ],
+      "starter": "Show a picture of a dog and say \"This is a dog. That is true.\" Then say \"This is a fish. That is not true.\"",
+      "teacherActivities": [
+        "Show a picture and say a true sentence.",
+        "Show a picture and say a silly untrue sentence.",
+        "Let each child say a true thing about a picture.",
+        "Say \"We tell what is true.\""
+      ],
+      "learnerActivities": [
+        "Children say true.",
+        "Children say not true and laugh.",
+        "Child says a true thing.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a picture and say a true sentence. Children: Children say true.",
+        "Step 2. Teacher: Show a picture and say a silly untrue sentence. Children: Children say not true and laugh.",
+        "Step 3. Teacher: Let each child say a true thing about a picture. Children: Child says a true thing.",
+        "Step 4. Teacher: Say \"We tell what is true.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "True or not true",
+        "steps": [
+          "Look at a picture.",
+          "Listen to a sentence.",
+          "Say true or not true."
+        ],
+        "safety": "Keep the examples silly and safe and never make a child feel wrong. Accept pretend play as pretend."
+      },
+      "differentiation": {
+        "support": "Offer two pictures and say which is true.",
+        "extension": "Ask the child to say a true sentence about the room."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is this a dog?",
+            "expected": "Yes, it is true."
+          },
+          {
+            "question": "Is this a fish?",
+            "expected": "No, not true."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says true or not true with support",
+        "Says a true thing about a picture"
+      ],
+      "conclusion": "Sing the truth song and wave.",
+      "homeConnection": "Play a true or not true game at home.",
+      "teacherReflection": [
+        "Which children could show \"say whether a simple statement about a picture is true\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TRUE",
+          "REAL"
+        ],
+        "pictures": [
+          "A dog picture",
+          "A cat picture"
+        ],
+        "songOrRhyme": "Tell the truth, tell the truth, it is the best thing to do."
+      },
+      "activities": [
+        "True or not true"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W06-D02",
+      "title": "Telling the truth about a spill",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Honesty",
+      "subtopic": "Telling the truth when something goes wrong",
+      "dayType": "explore",
+      "objectives": [
+        "Children will tell an adult when they spill or break something by accident."
+      ],
+      "successCriteria": [
+        "Says oops and tells an adult",
+        "Hears the adult stay calm"
+      ],
+      "previousKnowledge": "Children can say sorry, help others and do small jobs.",
+      "vocabulary": [
+        "true",
+        "truth",
+        "honest",
+        "oops",
+        "brave",
+        "tell"
+      ],
+      "resources": [
+        "A plastic cup of water on a tray",
+        "A cloth",
+        "A puppet"
+      ],
+      "starter": "Show the puppet spilling a cup and say \"Oops! The puppet tells the teacher.\"",
+      "teacherActivities": [
+        "Show the puppet telling the teacher in a small voice.",
+        "Say \"Thank you for telling me\" calmly and wipe the spill.",
+        "Let each child pretend to spill and tell the teacher.",
+        "Say \"Accidents happen. We tell the truth.\""
+      ],
+      "learnerActivities": [
+        "Children watch and say oops.",
+        "Children watch and say thank you.",
+        "Child says oops and tells.",
+        "Children repeat tell the truth."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the puppet telling the teacher in a small voice. Children: Children watch and say oops.",
+        "Step 2. Teacher: Say \"Thank you for telling me\" calmly and wipe the spill. Children: Children watch and say thank you.",
+        "Step 3. Teacher: Let each child pretend to spill and tell the teacher. Children: Child says oops and tells.",
+        "Step 4. Teacher: Say \"Accidents happen. We tell the truth.\" Children: Children repeat tell the truth."
+      ],
+      "practical": {
+        "title": "Oops and tell",
+        "steps": [
+          "Spill a little water on a tray.",
+          "Say oops aloud.",
+          "Tell the teacher."
+        ],
+        "safety": "Use only a little water on a tray and wipe spills at once. Never scold a child who tells the truth about an accident."
+      },
+      "differentiation": {
+        "support": "Say oops together and tell the teacher.",
+        "extension": "Ask the child to tell what happened in one sentence."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say after a spill?",
+            "expected": "Oops."
+          },
+          {
+            "question": "Who do we tell?",
+            "expected": "The teacher."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says oops and tells an adult",
+        "Understands that telling the truth is safe"
+      ],
+      "conclusion": "Wipe the table together and say thank you.",
+      "homeConnection": "Thank your child for telling the truth even when they made a mess.",
+      "teacherReflection": [
+        "Which children could show \"tell an adult when they spill or break something by accident\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "OOPS",
+          "TELL"
+        ],
+        "pictures": [
+          "A spilled cup"
+        ]
+      },
+      "activities": [
+        "Oops and tell"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W06-D03",
+      "title": "Being brave to tell the truth",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Honesty",
+      "subtopic": "Being brave to say the truth",
+      "dayType": "explore",
+      "objectives": [
+        "Children will see that telling the truth is brave and makes people trust us."
+      ],
+      "successCriteria": [
+        "Says that telling the truth is good",
+        "Joins a story about telling the truth"
+      ],
+      "previousKnowledge": "Children can say sorry, help others and do small jobs.",
+      "vocabulary": [
+        "true",
+        "truth",
+        "honest",
+        "oops",
+        "brave",
+        "tell"
+      ],
+      "resources": [
+        "A short story with pictures",
+        "A puppet",
+        "A brave badge"
+      ],
+      "starter": "Tell a very short story: \"Kemi broke a cup. She was scared. She told her mother the truth. Mother said thank you for telling me.\"",
+      "teacherActivities": [
+        "Tell the story with pictures slowly.",
+        "Ask \"How did Kemi feel at first?\"",
+        "Ask \"What did Kemi do?\"",
+        "Give a brave badge to the story and say \"Truth is brave.\""
+      ],
+      "learnerActivities": [
+        "Children listen and look.",
+        "Child says scared.",
+        "Child says she told the truth.",
+        "Children clap and cheer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the story with pictures slowly. Children: Children listen and look.",
+        "Step 2. Teacher: Ask \"How did Kemi feel at first?\" Children: Child says scared.",
+        "Step 3. Teacher: Ask \"What did Kemi do?\" Children: Child says she told the truth.",
+        "Step 4. Teacher: Give a brave badge to the story and say \"Truth is brave.\" Children: Children clap and cheer."
+      ],
+      "practical": {
+        "title": "Story and badge",
+        "steps": [
+          "Listen to the story.",
+          "Say what Kemi did.",
+          "Wear a brave badge."
+        ],
+        "safety": "Use a gentle story with a kind ending. Never use frightening punishments in stories."
+      },
+      "differentiation": {
+        "support": "Tell the story in two sentences with pictures.",
+        "extension": "Ask the child to say what they would do."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did Kemi do?",
+            "expected": "Told the truth."
+          },
+          {
+            "question": "Was it brave?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Understands that telling the truth is brave",
+        "Retells part of the story"
+      ],
+      "conclusion": "Say \"I tell the truth\" together.",
+      "homeConnection": "Read a story about honesty and talk about it.",
+      "teacherReflection": [
+        "Which children could show \"see that telling the truth is brave and makes people trust us\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BRAVE",
+          "TRUTH"
+        ],
+        "pictures": [
+          "A story picture of a girl and her mother"
+        ]
+      },
+      "activities": [
+        "Story and badge"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W06-D04",
+      "title": "Truth and pretend",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Honesty",
+      "subtopic": "What is true",
+      "dayType": "practise",
+      "objectives": [
+        "Children will tell the difference between real and pretend in play."
+      ],
+      "successCriteria": [
+        "Says real or pretend",
+        "Joins pretend play"
+      ],
+      "previousKnowledge": "Children can say sorry, help others and do small jobs.",
+      "vocabulary": [
+        "true",
+        "truth",
+        "honest",
+        "oops",
+        "brave",
+        "tell"
+      ],
+      "resources": [
+        "A toy phone",
+        "A real cup and a toy cup",
+        "Pictures of real and pretend things"
+      ],
+      "starter": "Hold a toy cup and say \"This is a pretend cup. This one is a real cup.\"",
+      "teacherActivities": [
+        "Show a real and a pretend object and name them.",
+        "Let children pretend to drink from a toy cup.",
+        "Say \"Pretend is fun. Truth is real.\"",
+        "Sort pictures into real and pretend."
+      ],
+      "learnerActivities": [
+        "Children say real or pretend.",
+        "Child pretends to drink.",
+        "Children repeat the sentence.",
+        "Child sorts a picture."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a real and a pretend object and name them. Children: Children say real or pretend.",
+        "Step 2. Teacher: Let children pretend to drink from a toy cup. Children: Child pretends to drink.",
+        "Step 3. Teacher: Say \"Pretend is fun. Truth is real.\" Children: Children repeat the sentence.",
+        "Step 4. Teacher: Sort pictures into real and pretend. Children: Child sorts a picture."
+      ],
+      "practical": {
+        "title": "Real and pretend",
+        "steps": [
+          "Look at objects.",
+          "Say real or pretend.",
+          "Sort the pictures."
+        ],
+        "safety": "Use safe objects only. Keep play gentle and never call a child a liar for pretending."
+      },
+      "differentiation": {
+        "support": "Offer two objects and say real or pretend.",
+        "extension": "Ask the child to find a real thing and a pretend thing."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the toy cup real?",
+            "expected": "No, pretend."
+          },
+          {
+            "question": "Is the water real?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Tells real from pretend",
+        "Joins pretend play"
+      ],
+      "conclusion": "Put the toys away and say \"Real or pretend.\"",
+      "homeConnection": "Enjoy pretend play at home and name what is real.",
+      "teacherReflection": [
+        "Which children could show \"tell the difference between real and pretend in play\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "REAL",
+          "PRETEND"
+        ],
+        "pictures": [
+          "A real cup",
+          "A toy cup"
+        ]
+      },
+      "activities": [
+        "Real and pretend"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W06-D05",
+      "title": "Week 6 truth check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Honesty",
+      "subtopic": "What is true",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child understands and says what is true."
+      ],
+      "successCriteria": [
+        "Says true or not true",
+        "Tells an adult about an accident"
+      ],
+      "previousKnowledge": "Children can say sorry, help others and do small jobs.",
+      "vocabulary": [
+        "true",
+        "truth",
+        "honest",
+        "oops",
+        "brave",
+        "tell"
+      ],
+      "resources": [
+        "Picture cards",
+        "A puppet",
+        "Class record sheet"
+      ],
+      "starter": "Sing the truth song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: true or not true, oops and tell, and real or pretend.",
+        "At each station watch how the child answers.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: true or not true, oops and tell, and real or pretend. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child answers. Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Truth stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors dry. Never use a test that traps a child into a lie."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to say why we tell the truth."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says true or not true; tells an adult about an accident; tells real from pretend; shows trust in adults.",
+        "questions": [
+          {
+            "question": "What do we tell?",
+            "expected": "The truth."
+          },
+          {
+            "question": "Who do we tell?",
+            "expected": "A grown-up."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Says what is true with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep welcoming the truth at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child understands and says what is true\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Truth"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Truth stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

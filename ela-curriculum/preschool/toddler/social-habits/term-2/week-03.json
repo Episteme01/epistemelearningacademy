@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SOC-T2-W03",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 2,
+  "week": 3,
+  "title": "Listening and following instructions",
+  "topic": "Listening",
+  "subtopics": [
+    "Listening ears",
+    "Following one instruction",
+    "Following two instructions"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will stop and listen when an adult speaks.",
+    "Children will follow simple one-step and two-step instructions."
+  ],
+  "vocabulary": [
+    "listen",
+    "ears",
+    "look",
+    "do",
+    "stop",
+    "quiet"
+  ],
+  "content": "Listening ears, following one instruction and following two instructions.",
+  "teachingActivities": "Get down to the child’s level and use their name before an instruction; give one instruction at a time at first; use gestures with words; praise listening; keep your voice calm; use games such as Simon Says.",
+  "learnerActivities": "Stop and look when called and follow one-step and two-step instructions.",
+  "resources": [
+    "A bell",
+    "Simon Says cards",
+    "Toys",
+    "Pictures of ears and eyes",
+    "A listening song"
+  ],
+  "assessment": "Observe whether each child stops and looks when called and follows a one-step instruction.",
+  "expectedOutcomes": [
+    "Stops and looks at the teacher when called.",
+    "Follows a one-step instruction."
+  ],
+  "crossCurricular": [
+    "Literacy: listening skills",
+    "Physical Development: action games",
+    "Numeracy: order words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W03-D01",
+      "title": "Listening ears",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 3,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Listening ears",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will stop, look and listen when an adult speaks."
+      ],
+      "successCriteria": [
+        "Stops and looks at the teacher",
+        "Touches ears on request"
+      ],
+      "previousKnowledge": "Children can play with friends and use kind words.",
+      "vocabulary": [
+        "listen",
+        "ears",
+        "look",
+        "do",
+        "stop",
+        "quiet"
+      ],
+      "resources": [
+        "A bell",
+        "Pictures of ears and eyes",
+        "A puppet"
+      ],
+      "starter": "Ring the bell and say \"Stop, look and listen. Listening ears on.\"",
+      "teacherActivities": [
+        "Show how to touch ears and look at the speaker.",
+        "Ring the bell and say a child’s name.",
+        "Play a sound game: listen for the bell and clap.",
+        "Say \"Good listening.\""
+      ],
+      "learnerActivities": [
+        "Children touch their ears and look.",
+        "Child stops and looks at the teacher.",
+        "Children listen and clap.",
+        "Children smile."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to touch ears and look at the speaker. Children: Children touch their ears and look.",
+        "Step 2. Teacher: Ring the bell and say a child’s name. Children: Child stops and looks at the teacher.",
+        "Step 3. Teacher: Play a sound game: listen for the bell and clap. Children: Children listen and clap.",
+        "Step 4. Teacher: Say \"Good listening.\" Children: Children smile."
+      ],
+      "practical": {
+        "title": "Listening game",
+        "steps": [
+          "Listen for the bell.",
+          "Stop and look.",
+          "Clap when you hear it."
+        ],
+        "safety": "Use a bell that is not too loud. Keep the volume gentle, especially for sensitive children."
+      },
+      "differentiation": {
+        "support": "Get down to the child’s level and say their name first.",
+        "extension": "Ask the child to be the bell ringer."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we listen with?",
+            "expected": "Our ears."
+          },
+          {
+            "question": "What do we do when we hear the bell?",
+            "expected": "Stop and look."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Stops and looks when called",
+        "Touches ears on request"
+      ],
+      "conclusion": "Sit quietly and listen to a gentle sound.",
+      "homeConnection": "Get your child’s attention gently by name before you give an instruction.",
+      "teacherReflection": [
+        "Which children could show \"stop, look and listen when an adult speaks\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LISTEN",
+          "EARS"
+        ],
+        "pictures": [
+          "Two ears",
+          "A bell"
+        ],
+        "songOrRhyme": "Listening ears, listening ears, turn them on."
+      },
+      "activities": [
+        "Listening game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W03-D02",
+      "title": "One instruction",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 3,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Following one instruction",
+      "dayType": "explore",
+      "objectives": [
+        "Children will follow a simple one-step instruction."
+      ],
+      "successCriteria": [
+        "Follows one-step instructions",
+        "Waits for the instruction to finish"
+      ],
+      "previousKnowledge": "Children can play with friends and use kind words.",
+      "vocabulary": [
+        "listen",
+        "ears",
+        "look",
+        "do",
+        "stop",
+        "quiet"
+      ],
+      "resources": [
+        "Simon Says cards",
+        "Toys",
+        "A basket"
+      ],
+      "starter": "Say \"Simon says touch your nose\" and show how to do it.",
+      "teacherActivities": [
+        "Give a one-step instruction such as \"Clap your hands\".",
+        "Give a one-step instruction with an object: \"Put the ball in the basket.\"",
+        "Praise children who follow it.",
+        "Let a child give an instruction to the group."
+      ],
+      "learnerActivities": [
+        "Children clap their hands.",
+        "Child puts the ball in the basket.",
+        "Children smile.",
+        "Child gives an instruction."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Give a one-step instruction such as \"Clap your hands\". Children: Children clap their hands.",
+        "Step 2. Teacher: Give a one-step instruction with an object: \"Put the ball in the basket.\" Children: Child puts the ball in the basket.",
+        "Step 3. Teacher: Praise children who follow it. Children: Children smile.",
+        "Step 4. Teacher: Let a child give an instruction to the group. Children: Child gives an instruction."
+      ],
+      "practical": {
+        "title": "Simon says",
+        "steps": [
+          "Listen to the instruction.",
+          "Do it carefully.",
+          "Take turns being Simon."
+        ],
+        "safety": "Keep the floor clear and the actions simple and safe. Never punish a child who gets it wrong."
+      },
+      "differentiation": {
+        "support": "Show the action while you say it.",
+        "extension": "Ask the child to give an instruction to a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you do?",
+            "expected": "The action."
+          },
+          {
+            "question": "Who gave the instruction?",
+            "expected": "The teacher."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows one-step instructions",
+        "Waits for the instruction to finish"
+      ],
+      "conclusion": "Clap and wave goodbye.",
+      "homeConnection": "Give your child one simple instruction at a time and praise them.",
+      "teacherReflection": [
+        "Which children could show \"follow a simple one-step instruction\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DO IT",
+          "LISTEN"
+        ],
+        "pictures": [
+          "Children doing actions"
+        ]
+      },
+      "activities": [
+        "Simon says"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W03-D03",
+      "title": "Two instructions",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 3,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Following two instructions",
+      "dayType": "explore",
+      "objectives": [
+        "Children will follow two instructions in order."
+      ],
+      "successCriteria": [
+        "Follows two instructions in order with support",
+        "Says first and then"
+      ],
+      "previousKnowledge": "Children can play with friends and use kind words.",
+      "vocabulary": [
+        "listen",
+        "ears",
+        "look",
+        "do",
+        "stop",
+        "quiet"
+      ],
+      "resources": [
+        "Toys",
+        "Two baskets",
+        "Simon Says cards"
+      ],
+      "starter": "Say \"First jump, then clap\" and do both slowly.",
+      "teacherActivities": [
+        "Give a two-step instruction: \"Pick up the ball and give it to a friend.\"",
+        "Say \"First and then\" as you act.",
+        "Give another two-step instruction with a different object.",
+        "Praise the listening."
+      ],
+      "learnerActivities": [
+        "Child picks up and gives.",
+        "Children repeat first and then.",
+        "Child follows both steps.",
+        "Children smile."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Give a two-step instruction: \"Pick up the ball and give it to a friend.\" Children: Child picks up and gives.",
+        "Step 2. Teacher: Say \"First and then\" as you act. Children: Children repeat first and then.",
+        "Step 3. Teacher: Give another two-step instruction with a different object. Children: Child follows both steps.",
+        "Step 4. Teacher: Praise the listening. Children: Children smile."
+      ],
+      "practical": {
+        "title": "Two steps",
+        "steps": [
+          "Listen to two steps.",
+          "Do the first.",
+          "Do the second."
+        ],
+        "safety": "Keep steps safe and short and the floor clear. Go back to one step if a child finds two too hard."
+      },
+      "differentiation": {
+        "support": "Give one step at a time.",
+        "extension": "Ask the child to remember three steps."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you do first?",
+            "expected": "The first action."
+          },
+          {
+            "question": "What did you do then?",
+            "expected": "The second action."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows two instructions with support",
+        "Uses first and then"
+      ],
+      "conclusion": "Do two actions together and wave.",
+      "homeConnection": "Practise two-step instructions at home during routines.",
+      "teacherReflection": [
+        "Which children could show \"follow two instructions in order\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIRST",
+          "THEN"
+        ],
+        "pictures": [
+          "Two-step action pictures"
+        ]
+      },
+      "activities": [
+        "Two steps"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W03-D04",
+      "title": "Listening games",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 3,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Listening ears",
+      "dayType": "practise",
+      "objectives": [
+        "Children will play listening games that need careful attention."
+      ],
+      "successCriteria": [
+        "Plays a listening game",
+        "Follows the signal"
+      ],
+      "previousKnowledge": "Children can play with friends and use kind words.",
+      "vocabulary": [
+        "listen",
+        "ears",
+        "look",
+        "do",
+        "stop",
+        "quiet"
+      ],
+      "resources": [
+        "A drum",
+        "A shaker",
+        "A bell",
+        "A scarf"
+      ],
+      "starter": "Say \"Today we play listening games with sounds.\"",
+      "teacherActivities": [
+        "Play the drum fast and slow and let children move.",
+        "Stop the drum and say freeze.",
+        "Hide a bell and let children find it by listening.",
+        "Say \"You are good listeners.\""
+      ],
+      "learnerActivities": [
+        "Children move fast and slow.",
+        "Children freeze like statues.",
+        "Child listens and points.",
+        "Children smile and clap and cheer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the drum fast and slow and let children move. Children: Children move fast and slow.",
+        "Step 2. Teacher: Stop the drum and say freeze. Children: Children freeze like statues.",
+        "Step 3. Teacher: Hide a bell and let children find it by listening. Children: Child listens and points.",
+        "Step 4. Teacher: Say \"You are good listeners.\" Children: Children smile and clap and cheer."
+      ],
+      "practical": {
+        "title": "Sounds and freeze",
+        "steps": [
+          "Move to the drum.",
+          "Freeze when it stops.",
+          "Find the hidden bell."
+        ],
+        "safety": "Keep the volume gentle and the floor clear. Offer ear protection or a quiet space to a sensitive child."
+      },
+      "differentiation": {
+        "support": "Move with the child and freeze together.",
+        "extension": "Ask the child to be the drum player."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do when the drum stops?",
+            "expected": "Freeze."
+          },
+          {
+            "question": "What do we listen with?",
+            "expected": "Our ears."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays listening games",
+        "Follows a signal"
+      ],
+      "conclusion": "Sit quietly and say \"Thank you.\"",
+      "homeConnection": "Play freeze games at home with music.",
+      "teacherReflection": [
+        "Which children could show \"play listening games that need careful attention\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FREEZE",
+          "LISTEN"
+        ],
+        "pictures": [
+          "A drum"
+        ]
+      },
+      "activities": [
+        "Sounds and freeze"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W03-D05",
+      "title": "Week 3 listening check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 3,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Listening",
+      "subtopic": "Following one instruction",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child listens and follows instructions."
+      ],
+      "successCriteria": [
+        "Stops and looks when called",
+        "Follows one or two instructions"
+      ],
+      "previousKnowledge": "Children can play with friends and use kind words.",
+      "vocabulary": [
+        "listen",
+        "ears",
+        "look",
+        "do",
+        "stop",
+        "quiet"
+      ],
+      "resources": [
+        "Bell",
+        "Toys",
+        "Class record sheet"
+      ],
+      "starter": "Sing the listening song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: bell, Simon Says and two steps.",
+        "At each station give instructions and watch.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child follows with a prompt.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: bell, Simon Says and two steps. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station give instructions and watch. Children: Child follows with a prompt.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Listening stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep the volume gentle. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one-step instructions only.",
+        "extension": "Ask a confident child to give instructions."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: stops and looks when called; follows one instruction; follows two instructions; listens in a group.",
+        "questions": [
+          {
+            "question": "What do we do when we are called?",
+            "expected": "Stop and look."
+          },
+          {
+            "question": "What do we listen with?",
+            "expected": "Our ears."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Follows instructions with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep giving simple instructions at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child listens and follows instructions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Listening"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Listening stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

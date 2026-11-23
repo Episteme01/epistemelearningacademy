@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-SOC-T2-W04",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 2,
+  "week": 4,
+  "title": "Saying sorry and forgiving",
+  "topic": "Good manners",
+  "subtopics": [
+    "Saying sorry",
+    "Saying \"it is okay\"",
+    "Making things better"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say sorry when they have hurt someone, with support.",
+    "Children will say \"it is okay\" and help to make things better."
+  ],
+  "vocabulary": [
+    "sorry",
+    "hurt",
+    "okay",
+    "forgive",
+    "help",
+    "kind"
+  ],
+  "content": "Saying sorry, saying \"it is okay\", and making things better.",
+  "teachingActivities": "Never force an empty sorry; first help the child notice the hurt (\"Ada is crying, she is sad\"); model sorry and make-it-better actions; teach the friend to say \"it is okay\" only if they feel it; keep it brief and kind; no shaming or time-out for toddlers.",
+  "learnerActivities": "Say sorry with support and help a friend who is upset.",
+  "resources": [
+    "Puppets",
+    "Pictures of hurt and sorry scenes",
+    "A plaster toy and a soft toy",
+    "A sorry song"
+  ],
+  "assessment": "Observe whether each child says sorry with a prompt and helps a friend who is upset.",
+  "expectedOutcomes": [
+    "Says sorry with a prompt.",
+    "Helps a friend who is upset."
+  ],
+  "crossCurricular": [
+    "Literacy: sorry words",
+    "Creative Development: drama",
+    "Numeracy: counting actions"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W04-D01",
+      "title": "Saying sorry",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Good manners",
+      "subtopic": "Saying sorry",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say sorry when they have hurt someone, with support."
+      ],
+      "successCriteria": [
+        "Says sorry with a prompt",
+        "Looks at the friend who was hurt"
+      ],
+      "previousKnowledge": "Children can listen, follow instructions and play with friends.",
+      "vocabulary": [
+        "sorry",
+        "hurt",
+        "okay",
+        "forgive",
+        "help",
+        "kind"
+      ],
+      "resources": [
+        "Two puppets",
+        "A picture of a hurt friend",
+        "A sorry song"
+      ],
+      "starter": "Show one puppet bumping another and say \"Oh no! The puppet is sad. We say sorry.\"",
+      "teacherActivities": [
+        "Show the puppet saying sorry in a kind voice.",
+        "Say \"Sorry means I did not want to hurt you.\"",
+        "Practise saying sorry to a puppet.",
+        "Say \"Thank you for saying sorry.\""
+      ],
+      "learnerActivities": [
+        "Children watch and say sorry.",
+        "Children repeat sorry.",
+        "Child says sorry to the puppet.",
+        "Children smile."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the puppet saying sorry in a kind voice. Children: Children watch and say sorry.",
+        "Step 2. Teacher: Say \"Sorry means I did not want to hurt you.\" Children: Children repeat sorry.",
+        "Step 3. Teacher: Practise saying sorry to a puppet. Children: Child says sorry to the puppet.",
+        "Step 4. Teacher: Say \"Thank you for saying sorry.\" Children: Children smile."
+      ],
+      "practical": {
+        "title": "Puppet sorry",
+        "steps": [
+          "Watch the puppets.",
+          "Say sorry to a puppet.",
+          "Say it kindly."
+        ],
+        "safety": "Keep puppet play gentle and never use a real child as the example. Never force sorry; help the child notice how the friend feels."
+      },
+      "differentiation": {
+        "support": "Say sorry together softly.",
+        "extension": "Ask the child to say why we say sorry."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say when we hurt someone?",
+            "expected": "Sorry."
+          },
+          {
+            "question": "How does the friend feel?",
+            "expected": "Sad."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says sorry with a prompt",
+        "Looks at the friend who was hurt"
+      ],
+      "conclusion": "Wave goodbye and say sorry to the puppet.",
+      "homeConnection": "Help your child notice another person’s feelings before saying sorry.",
+      "teacherReflection": [
+        "Which children could show \"say sorry when they have hurt someone, with support\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SORRY",
+          "HURT"
+        ],
+        "pictures": [
+          "Two puppets",
+          "A sad face"
+        ],
+        "songOrRhyme": "Sorry, sorry, I am sorry. Let me help you feel better."
+      },
+      "activities": [
+        "Puppet sorry"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W04-D02",
+      "title": "It is okay",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Good manners",
+      "subtopic": "Saying \"it is okay\"",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say \"it is okay\" when a friend says sorry."
+      ],
+      "successCriteria": [
+        "Says it is okay with a prompt",
+        "Smiles at the friend"
+      ],
+      "previousKnowledge": "Children can listen, follow instructions and play with friends.",
+      "vocabulary": [
+        "sorry",
+        "hurt",
+        "okay",
+        "forgive",
+        "help",
+        "kind"
+      ],
+      "resources": [
+        "Two puppets",
+        "A smiley face card",
+        "A picture of friends making up"
+      ],
+      "starter": "Let one puppet say sorry and the other say \"It is okay. Let us play.\"",
+      "teacherActivities": [
+        "Show how the second puppet says it is okay.",
+        "Say \"We forgive our friends.\"",
+        "Practise in pairs: one says sorry, one says it is okay.",
+        "Swap roles so everyone has a go."
+      ],
+      "learnerActivities": [
+        "Children watch and say it is okay.",
+        "Children repeat forgive with support.",
+        "Child says sorry or it is okay.",
+        "Child swaps and practises again."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how the second puppet says it is okay. Children: Children watch and say it is okay.",
+        "Step 2. Teacher: Say \"We forgive our friends.\" Children: Children repeat forgive with support.",
+        "Step 3. Teacher: Practise in pairs: one says sorry, one says it is okay. Children: Child says sorry or it is okay.",
+        "Step 4. Teacher: Swap roles so everyone has a go. Children: Child swaps and practises again."
+      ],
+      "practical": {
+        "title": "Sorry and okay",
+        "steps": [
+          "Work in pairs.",
+          "Say sorry.",
+          "Say it is okay."
+        ],
+        "safety": "Keep the practice make-believe with puppets or dolls and supervise closely. Never ask a hurt child to forgive before they are ready."
+      },
+      "differentiation": {
+        "support": "Practise with the puppet first.",
+        "extension": "Ask the child to say another way to make up."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say after sorry?",
+            "expected": "It is okay."
+          },
+          {
+            "question": "Do we stay cross?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says it is okay with a prompt",
+        "Smiles at the friend"
+      ],
+      "conclusion": "Shake hands or wave and say friends.",
+      "homeConnection": "Say \"it is okay\" when your child says sorry and show forgiveness.",
+      "teacherReflection": [
+        "Which children could show \"say \"it is okay\" when a friend says sorry\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "OKAY",
+          "FORGIVE"
+        ],
+        "pictures": [
+          "Friends making up"
+        ]
+      },
+      "activities": [
+        "Sorry and okay"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W04-D03",
+      "title": "Making it better",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Good manners",
+      "subtopic": "Making things better",
+      "dayType": "practise",
+      "objectives": [
+        "Children will do something kind to help a friend who is upset."
+      ],
+      "successCriteria": [
+        "Offers a comfort or help",
+        "Gets an adult when a friend is hurt"
+      ],
+      "previousKnowledge": "Children can listen, follow instructions and play with friends.",
+      "vocabulary": [
+        "sorry",
+        "hurt",
+        "okay",
+        "forgive",
+        "help",
+        "kind"
+      ],
+      "resources": [
+        "A soft toy",
+        "A toy plaster",
+        "A tissue",
+        "Pictures of ways to help"
+      ],
+      "starter": "Show a sad soft toy and say \"How can we make it feel better?\"",
+      "teacherActivities": [
+        "Show ways to help: a smile, a tissue, a toy or getting the teacher.",
+        "Let children comfort the soft toy.",
+        "Say \"If a friend is hurt, get the teacher.\"",
+        "Practise running to the teacher at a walk."
+      ],
+      "learnerActivities": [
+        "Children look and choose a way.",
+        "Child comforts the toy gently.",
+        "Children repeat get the teacher.",
+        "Child walks to the teacher."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show ways to help: a smile, a tissue, a toy or getting the teacher. Children: Children look and choose a way.",
+        "Step 2. Teacher: Let children comfort the soft toy. Children: Child comforts the toy gently.",
+        "Step 3. Teacher: Say \"If a friend is hurt, get the teacher.\" Children: Children repeat get the teacher.",
+        "Step 4. Teacher: Practise running to the teacher at a walk. Children: Child walks to the teacher."
+      ],
+      "practical": {
+        "title": "Help a friend",
+        "steps": [
+          "Look at ways to help.",
+          "Comfort a soft toy.",
+          "Walk to get the teacher."
+        ],
+        "safety": "Keep play gentle and the floor clear. Never encourage children to treat real injuries; always get an adult."
+      },
+      "differentiation": {
+        "support": "Choose a way to help together.",
+        "extension": "Ask the child to think of a way to help a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How can we help a friend?",
+            "expected": "Smile or get the teacher."
+          },
+          {
+            "question": "Who do we tell?",
+            "expected": "The teacher."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Offers comfort to a friend",
+        "Knows to get an adult"
+      ],
+      "conclusion": "Hug the soft toy and wave goodbye.",
+      "homeConnection": "Show your child how to comfort someone who is upset.",
+      "teacherReflection": [
+        "Which children could show \"do something kind to help a friend who is upset\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HELP",
+          "COMFORT"
+        ],
+        "pictures": [
+          "A child comforting a friend"
+        ]
+      },
+      "activities": [
+        "Help a friend"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W04-D04",
+      "title": "Sorry story",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Good manners",
+      "subtopic": "Saying sorry",
+      "dayType": "apply",
+      "objectives": [
+        "Children will act out a short story where sorry and forgiving put things right."
+      ],
+      "successCriteria": [
+        "Joins the sorry story",
+        "Uses sorry or it is okay in role play"
+      ],
+      "previousKnowledge": "Children can listen, follow instructions and play with friends.",
+      "vocabulary": [
+        "sorry",
+        "hurt",
+        "okay",
+        "forgive",
+        "help",
+        "kind"
+      ],
+      "resources": [
+        "A story with simple pictures",
+        "Puppets",
+        "Toy blocks"
+      ],
+      "starter": "Tell a short story: \"Two friends built a tower. One knocked it down by mistake. What happened next?\"",
+      "teacherActivities": [
+        "Tell the story slowly with pictures and puppets.",
+        "Ask \"How did the friend feel?\"",
+        "Act out saying sorry and building again together.",
+        "Say \"They made things better.\""
+      ],
+      "learnerActivities": [
+        "Children listen and look.",
+        "Child says sad.",
+        "Child acts out the story.",
+        "Children say better."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the story slowly with pictures and puppets. Children: Children listen and look.",
+        "Step 2. Teacher: Ask \"How did the friend feel?\" Children: Child says sad.",
+        "Step 3. Teacher: Act out saying sorry and building again together. Children: Child acts out the story.",
+        "Step 4. Teacher: Say \"They made things better.\" Children: Children say better."
+      ],
+      "practical": {
+        "title": "Tower story",
+        "steps": [
+          "Listen to the story.",
+          "Act it out with blocks.",
+          "Say sorry and build again."
+        ],
+        "safety": "Use large light blocks and supervise falling towers. Keep the story gentle and the ending kind."
+      },
+      "differentiation": {
+        "support": "Act the story with the child and help with words.",
+        "extension": "Ask the child to tell the story to a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did the friend say?",
+            "expected": "Sorry."
+          },
+          {
+            "question": "What did they do?",
+            "expected": "Built again together."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins the sorry story",
+        "Uses sorry and it is okay in role play"
+      ],
+      "conclusion": "Tidy the blocks and say \"Friends.\"",
+      "homeConnection": "Tell a short sorry story at bedtime.",
+      "teacherReflection": [
+        "Which children could show \"act out a short story where sorry and forgiving put things right\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SORRY",
+          "OKAY"
+        ],
+        "pictures": [
+          "A story with two friends"
+        ]
+      },
+      "activities": [
+        "Tower story"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W04-D05",
+      "title": "Week 4 sorry check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Good manners",
+      "subtopic": "Making things better",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child says sorry and helps a friend."
+      ],
+      "successCriteria": [
+        "Says sorry with a prompt",
+        "Helps a friend who is upset"
+      ],
+      "previousKnowledge": "Children can listen, follow instructions and play with friends.",
+      "vocabulary": [
+        "sorry",
+        "hurt",
+        "okay",
+        "forgive",
+        "help",
+        "kind"
+      ],
+      "resources": [
+        "Puppets",
+        "Soft toys",
+        "Class record sheet"
+      ],
+      "starter": "Sing the sorry song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: sorry, it is okay and make it better.",
+        "At each station watch how the child responds.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: sorry, it is okay and make it better. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child responds. Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Sorry stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep play gentle. Use puppets and soft toys only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to explain sorry to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says sorry; says it is okay; helps a friend who is upset; gets an adult when needed.",
+        "questions": [
+          {
+            "question": "What do we say when we hurt someone?",
+            "expected": "Sorry."
+          },
+          {
+            "question": "What do we say after sorry?",
+            "expected": "It is okay."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Says sorry and helps with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep modelling sorry and forgiving at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child says sorry and helps a friend\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Sorry"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Sorry stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "id": "ELA-PS-TOD-SOC-T2-W10",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 2,
+  "week": 10,
+  "title": "Show what we know again",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising family and friends",
+    "Revising manners and honesty",
+    "Revising helping and respect"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Term 2 learning through play stations.",
+    "Teachers will gather evidence for every child’s Term 2 record."
+  ],
+  "vocabulary": [
+    "family",
+    "friend",
+    "sorry",
+    "truth",
+    "help",
+    "respect"
+  ],
+  "content": "Revising family and friends, manners and honesty, and helping and respect, with end-of-term records.",
+  "teachingActivities": "Keep every activity familiar and joyful; observe quietly during play; record what children can do; share records with parents in plain language with a strength, a next step and a home idea.",
+  "learnerActivities": "Show learning from the term through play stations and a celebration.",
+  "resources": [
+    "Family cards",
+    "Puppets",
+    "A play kitchen",
+    "Helper hats",
+    "Baskets",
+    "Stickers",
+    "Class record sheets"
+  ],
+  "assessment": "Observe and record each child’s Term 2 social learning.",
+  "expectedOutcomes": [
+    "Completes familiar social tasks with growing independence.",
+    "Each child has an observation record for Term 2."
+  ],
+  "crossCurricular": [
+    "Literacy: songs",
+    "Numeracy: counting",
+    "Creative Development: role play"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W10-D01",
+      "title": "Revising family and friends",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising family and friends",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit family, friends and listening through games."
+      ],
+      "successCriteria": [
+        "Names family members",
+        "Plays with a friend"
+      ],
+      "previousKnowledge": "Children have learnt about family, friends, listening, sorry, helping, honesty, caring, eating manners and respect.",
+      "vocabulary": [
+        "family",
+        "friend",
+        "sorry",
+        "truth",
+        "help",
+        "respect"
+      ],
+      "resources": [
+        "Family cards",
+        "A play house",
+        "A ball",
+        "A friendship song"
+      ],
+      "starter": "Sing the family song and say \"Today we play our favourite family and friend games.\"",
+      "teacherActivities": [
+        "Play the family card game.",
+        "Play family in the play house.",
+        "Play ball with a friend.",
+        "Let each child choose a game."
+      ],
+      "learnerActivities": [
+        "Child names family members.",
+        "Child plays a family role.",
+        "Child rolls the ball to a friend.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the family card game. Children: Child names family members.",
+        "Step 2. Teacher: Play family in the play house. Children: Child plays a family role.",
+        "Step 3. Teacher: Play ball with a friend. Children: Child rolls the ball to a friend.",
+        "Step 4. Teacher: Let each child choose a game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Family and friends games",
+        "steps": [
+          "Set up three areas.",
+          "Children play each for four minutes.",
+          "The teacher notes behaviour."
+        ],
+        "safety": "Supervise each area and keep floors clear. Be sensitive to every family situation."
+      },
+      "differentiation": {
+        "support": "Play with the child and one game.",
+        "extension": "Ask the child to lead a game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is in your family?",
+            "expected": "A name."
+          },
+          {
+            "question": "Who is your friend?",
+            "expected": "A child’s name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names family and friends",
+        "Plays with a friend"
+      ],
+      "conclusion": "Wave goodbye and say \"I love my family.\"",
+      "homeConnection": "Keep talking about family and friends.",
+      "teacherReflection": [
+        "Which children could show \"revisit family, friends and listening through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FAMILY",
+          "FRIEND"
+        ],
+        "pictures": [
+          "Family cards",
+          "A play house"
+        ]
+      },
+      "activities": [
+        "Family and friends games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W10-D02",
+      "title": "Revising manners and honesty",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising manners and honesty",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit sorry, thank you, truth and eating manners through games."
+      ],
+      "successCriteria": [
+        "Says sorry and thank you",
+        "Says true or not true"
+      ],
+      "previousKnowledge": "Children have learnt about family, friends, listening, sorry, helping, honesty, caring, eating manners and respect.",
+      "vocabulary": [
+        "family",
+        "friend",
+        "sorry",
+        "truth",
+        "help",
+        "respect"
+      ],
+      "resources": [
+        "Puppets",
+        "Picture cards",
+        "Toy food",
+        "A snack song"
+      ],
+      "starter": "Say \"Today we play our manners and truth games.\"",
+      "teacherActivities": [
+        "Play puppet sorry and it is okay.",
+        "Play true or not true with pictures.",
+        "Play snack time with toy food.",
+        "Let each child choose a game."
+      ],
+      "learnerActivities": [
+        "Child says sorry or it is okay.",
+        "Child says true or not true.",
+        "Child says please and thank you.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play puppet sorry and it is okay. Children: Child says sorry or it is okay.",
+        "Step 2. Teacher: Play true or not true with pictures. Children: Child says true or not true.",
+        "Step 3. Teacher: Play snack time with toy food. Children: Child says please and thank you.",
+        "Step 4. Teacher: Let each child choose a game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Manners and truth games",
+        "steps": [
+          "Set up three areas.",
+          "Children play each for four minutes.",
+          "The teacher notes manners."
+        ],
+        "safety": "Supervise each area and use toy food only. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Play beside the child and prompt words.",
+        "extension": "Ask the child to be the teacher puppet."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we say when we hurt someone?",
+            "expected": "Sorry."
+          },
+          {
+            "question": "Do we tell the truth?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses sorry and thank you",
+        "Understands truth"
+      ],
+      "conclusion": "Wave goodbye and say thank you.",
+      "homeConnection": "Keep using manners and truth at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit sorry, thank you, truth and eating manners through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SORRY",
+          "TRUE",
+          "THANK YOU"
+        ],
+        "pictures": [
+          "Puppets",
+          "Toy food"
+        ]
+      },
+      "activities": [
+        "Manners and truth games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W10-D03",
+      "title": "Social stations",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising family and friends",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s Term 2 social learning at play stations."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with confidence",
+        "Shows manners, honesty and respect"
+      ],
+      "previousKnowledge": "Children have learnt about family, friends, listening, sorry, helping, honesty, caring, eating manners and respect.",
+      "vocabulary": [
+        "family",
+        "friend",
+        "sorry",
+        "truth",
+        "help",
+        "respect"
+      ],
+      "resources": [
+        "Six play stations",
+        "Class record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Say \"Today we play at six stations and show what we know.\"",
+      "teacherActivities": [
+        "Set up six stations: family, friends, listening, sorry, helping and respect.",
+        "Observe each child at two stations and record what they do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every three minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: family, friends, listening, sorry, helping and respect. Children: Children rotate every three minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Social stations",
+        "steps": [
+          "Set up six stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep floors clear and use large safe toys."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names family; plays with friends; listens and follows instructions; says sorry; helps; shows respect.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite game.",
+            "expected": "Child chooses a game."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a Term 2 observation record",
+        "Shows familiar social skills at stations"
+      ],
+      "conclusion": "Say well done to everyone and wave goodbye.",
+      "homeConnection": "Play a favourite game at home during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s Term 2 social learning at play stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Social stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W10-D04",
+      "title": "Revising helping and respect",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising helping and respect",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit helping, caring for things and respect through games."
+      ],
+      "successCriteria": [
+        "Does a helping job",
+        "Greets a helper"
+      ],
+      "previousKnowledge": "Children have learnt about family, friends, listening, sorry, helping, honesty, caring, eating manners and respect.",
+      "vocabulary": [
+        "family",
+        "friend",
+        "sorry",
+        "truth",
+        "help",
+        "respect"
+      ],
+      "resources": [
+        "A helpers chart",
+        "Baskets",
+        "Helper hats",
+        "A plant"
+      ],
+      "starter": "Say \"Today we are all helpers.\"",
+      "teacherActivities": [
+        "Choose helpers and give each a job.",
+        "Play helper role play with hats.",
+        "Water the plant together.",
+        "Say thank you to all helpers."
+      ],
+      "learnerActivities": [
+        "Child does a job.",
+        "Child greets a helper.",
+        "Child waters the plant.",
+        "Children say thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Choose helpers and give each a job. Children: Child does a job.",
+        "Step 2. Teacher: Play helper role play with hats. Children: Child greets a helper.",
+        "Step 3. Teacher: Water the plant together. Children: Child waters the plant.",
+        "Step 4. Teacher: Say thank you to all helpers. Children: Children say thank you."
+      ],
+      "practical": {
+        "title": "Helping games",
+        "steps": [
+          "Choose jobs.",
+          "Play helpers.",
+          "Say thank you."
+        ],
+        "safety": "Use child-size tools and supervise closely. Keep floors dry and clear."
+      },
+      "differentiation": {
+        "support": "Do the job together with the child.",
+        "extension": "Ask the child to organise a job for friends."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is your job?",
+            "expected": "A job name."
+          },
+          {
+            "question": "What do we say to helpers?",
+            "expected": "Thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Helps with jobs",
+        "Greets and thanks helpers"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep giving small jobs at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit helping, caring for things and respect through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HELP",
+          "RESPECT"
+        ],
+        "pictures": [
+          "A helpers chart",
+          "Helper hats"
+        ]
+      },
+      "activities": [
+        "Helping games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W10-D05",
+      "title": "Term celebration and records",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising manners and honesty",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate Term 2 with songs, and teachers will complete each child’s Term 2 record."
+      ],
+      "successCriteria": [
+        "Joins in songs and games",
+        "Shows something they enjoyed"
+      ],
+      "previousKnowledge": "Children have learnt about family, friends, listening, sorry, helping, honesty, caring, eating manners and respect.",
+      "vocabulary": [
+        "family",
+        "friend",
+        "sorry",
+        "truth",
+        "help",
+        "respect"
+      ],
+      "resources": [
+        "Favourite songs",
+        "Stickers",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate our term. Let us sing our favourite songs.\"",
+      "teacherActivities": [
+        "Sing favourite songs and rhymes with actions.",
+        "Give each child a sticker and say their name.",
+        "Complete each child’s record and next step."
+      ],
+      "learnerActivities": [
+        "Children sing and do actions.",
+        "Child waves and says thank you.",
+        "Children play quietly."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite songs and rhymes with actions. Children: Children sing and do actions.",
+        "Step 2. Teacher: Give each child a sticker and say their name. Children: Child waves and says thank you.",
+        "Step 3. Teacher: Complete each child’s record and next step. Children: Children play quietly."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle.",
+          "Sing and clap.",
+          "Give out stickers."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Keep the floor clear and supervise all play."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and sing together.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s Term 2 record from the term’s observations. Note a strength, a next step and a home idea for parents.",
+        "questions": [
+          {
+            "question": "What is your favourite thing?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "What do you like to do?",
+            "expected": "A game or song."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed Term 2 record",
+        "Enjoys the celebration"
+      ],
+      "conclusion": "Wave goodbye and say \"See you next term.\"",
+      "homeConnection": "Share the Term 2 record and keep practising over the holiday.",
+      "teacherReflection": [
+        "Which children could show \"celebrate Term 2 with songs, and teachers will complete each child’s Term 2 record\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-SOC-T2-W02",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 2,
+  "week": 2,
+  "title": "My friends",
+  "topic": "Friends",
+  "subtopics": [
+    "Playing with friends",
+    "Being a good friend",
+    "Making friends"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will play beside and with friends.",
+    "Children will say what a good friend does."
+  ],
+  "vocabulary": [
+    "friend",
+    "play",
+    "together",
+    "kind",
+    "share",
+    "help"
+  ],
+  "content": "Playing with friends, being a good friend, and making friends.",
+  "teachingActivities": "Notice and name friendly acts; let children choose play partners; help shy children join with a simple script such as \"Can I play?\"; avoid forcing friendships; use pairs and small groups; reassure children when a friend is absent.",
+  "learnerActivities": "Play with a friend for a short time and say what a good friend does.",
+  "resources": [
+    "Matching toys",
+    "A friendship song",
+    "Puppets",
+    "Pictures of friends playing",
+    "A friendship chart"
+  ],
+  "assessment": "Observe whether each child plays with a friend for a short time and says one thing a good friend does.",
+  "expectedOutcomes": [
+    "Plays with a friend for a short time.",
+    "Says one thing a good friend does."
+  ],
+  "crossCurricular": [
+    "Literacy: friend words",
+    "Numeracy: pairs",
+    "Creative Development: group songs"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W02-D01",
+      "title": "Playing with friends",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 2,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Friends",
+      "subtopic": "Playing with friends",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will play with a friend for a short time."
+      ],
+      "successCriteria": [
+        "Plays with a friend",
+        "Says friend with a prompt"
+      ],
+      "previousKnowledge": "Children can name family members and show love in simple ways.",
+      "vocabulary": [
+        "friend",
+        "play",
+        "together",
+        "kind",
+        "share",
+        "help"
+      ],
+      "resources": [
+        "Large building blocks",
+        "A ball",
+        "A friendship song"
+      ],
+      "starter": "Sing \"Friends, friends, I have friends. We play together, hand in hand.\"",
+      "teacherActivities": [
+        "Show how two children can play with one ball.",
+        "Pair children and give them blocks.",
+        "Say \"Look, you are playing together.\"",
+        "Change partners and play again."
+      ],
+      "learnerActivities": [
+        "Children watch and wave.",
+        "Child plays beside a friend.",
+        "Children smile at each other.",
+        "Child plays with a new friend."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how two children can play with one ball. Children: Children watch and wave.",
+        "Step 2. Teacher: Pair children and give them blocks. Children: Child plays beside a friend.",
+        "Step 3. Teacher: Say \"Look, you are playing together.\" Children: Children smile at each other.",
+        "Step 4. Teacher: Change partners and play again. Children: Child plays with a new friend."
+      ],
+      "practical": {
+        "title": "Play with a friend",
+        "steps": [
+          "Choose a friend.",
+          "Build or play together.",
+          "Change partners."
+        ],
+        "safety": "Use large toys with no small parts and supervise pairs closely. Step in gently if a child is left out."
+      },
+      "differentiation": {
+        "support": "Play with the child and a friend.",
+        "extension": "Ask the child to choose a friend and say their name."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is your friend?",
+            "expected": "A child’s name."
+          },
+          {
+            "question": "What do you play?",
+            "expected": "A game or toy."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays with a friend for a short time",
+        "Says friend with a prompt"
+      ],
+      "conclusion": "Wave goodbye to friends.",
+      "homeConnection": "Arrange short play with a friend and notice when they play well.",
+      "teacherReflection": [
+        "Which children could show \"play with a friend for a short time\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FRIEND",
+          "PLAY"
+        ],
+        "pictures": [
+          "Two children playing"
+        ],
+        "songOrRhyme": "Friends, friends, I have friends, we play together."
+      },
+      "activities": [
+        "Play with a friend"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W02-D02",
+      "title": "Being a good friend",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 2,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Friends",
+      "subtopic": "Being a good friend",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say what a good friend does."
+      ],
+      "successCriteria": [
+        "Says one thing a good friend does",
+        "Does a friendly act"
+      ],
+      "previousKnowledge": "Children can name family members and show love in simple ways.",
+      "vocabulary": [
+        "friend",
+        "play",
+        "together",
+        "kind",
+        "share",
+        "help"
+      ],
+      "resources": [
+        "Pictures of good friends sharing, helping, playing and comforting",
+        "A puppet"
+      ],
+      "starter": "Show a puppet who shares and say \"A good friend shares and plays nicely.\"",
+      "teacherActivities": [
+        "Show each picture and say what the friend does.",
+        "Ask \"What does a good friend do?\"",
+        "Act out sharing, helping and comforting with a friend.",
+        "Say \"I am a good friend.\""
+      ],
+      "learnerActivities": [
+        "Children look and say the action.",
+        "Child says or points to a picture.",
+        "Child acts with a friend.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture and say what the friend does. Children: Children look and say the action.",
+        "Step 2. Teacher: Ask \"What does a good friend do?\" Children: Child says or points to a picture.",
+        "Step 3. Teacher: Act out sharing, helping and comforting with a friend. Children: Child acts with a friend.",
+        "Step 4. Teacher: Say \"I am a good friend.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "Friend actions",
+        "steps": [
+          "Look at the pictures.",
+          "Act each one.",
+          "Say I am a good friend."
+        ],
+        "safety": "Supervise acting closely so play stays gentle. Offer a wave or high five instead of touch if a child prefers."
+      },
+      "differentiation": {
+        "support": "Act together and say the word.",
+        "extension": "Ask the child to give an example of a good friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does a good friend do?",
+            "expected": "Shares, helps or plays."
+          },
+          {
+            "question": "Are you a good friend?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says what a good friend does",
+        "Does a friendly act"
+      ],
+      "conclusion": "Sing the friendship song and wave.",
+      "homeConnection": "Praise your child when they are a good friend.",
+      "teacherReflection": [
+        "Which children could show \"say what a good friend does\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GOOD",
+          "FRIEND",
+          "SHARE"
+        ],
+        "pictures": [
+          "Friends sharing",
+          "Friends helping"
+        ]
+      },
+      "activities": [
+        "Friend actions"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W02-D03",
+      "title": "Making friends",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 2,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Friends",
+      "subtopic": "Making friends",
+      "dayType": "explore",
+      "objectives": [
+        "Children will practise asking to join a game."
+      ],
+      "successCriteria": [
+        "Says \"Can I play?\" with a prompt",
+        "Invites a friend to play"
+      ],
+      "previousKnowledge": "Children can name family members and show love in simple ways.",
+      "vocabulary": [
+        "friend",
+        "play",
+        "together",
+        "kind",
+        "share",
+        "help"
+      ],
+      "resources": [
+        "A puppet",
+        "A play area",
+        "Pictures of children playing together"
+      ],
+      "starter": "Use the puppet to say \"Can I play with you?\" and let the friend say yes.",
+      "teacherActivities": [
+        "Show how to ask \"Can I play?\" and wait for the answer.",
+        "Say \"If a friend says yes, play. If not, try another friend.\"",
+        "Let children practise asking a friend.",
+        "Say \"Come and play\" to a child who is alone."
+      ],
+      "learnerActivities": [
+        "Children watch and listen.",
+        "Children nod and smile.",
+        "Child asks a friend.",
+        "Child invites a friend."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to ask \"Can I play?\" and wait for the answer. Children: Children watch and listen.",
+        "Step 2. Teacher: Say \"If a friend says yes, play. If not, try another friend.\" Children: Children nod and smile.",
+        "Step 3. Teacher: Let children practise asking a friend. Children: Child asks a friend.",
+        "Step 4. Teacher: Say \"Come and play\" to a child who is alone. Children: Child invites a friend."
+      ],
+      "practical": {
+        "title": "Can I play?",
+        "steps": [
+          "Practise asking a friend.",
+          "Say yes and play.",
+          "Invite a child who is alone."
+        ],
+        "safety": "Supervise the practice and keep it gentle so no child feels rejected. Pair shy children with a kind partner."
+      },
+      "differentiation": {
+        "support": "Ask with the child and wait together.",
+        "extension": "Ask the child to find a friend who is alone and invite them."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do you say to join?",
+            "expected": "Can I play?"
+          },
+          {
+            "question": "What do you do for a lonely friend?",
+            "expected": "Invite them to play."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Asks to join a game",
+        "Invites a friend to play"
+      ],
+      "conclusion": "Say \"Everyone can play\" and wave.",
+      "homeConnection": "Practise asking to join a game at the park.",
+      "teacherReflection": [
+        "Which children could show \"practise asking to join a game\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PLAY",
+          "JOIN"
+        ],
+        "pictures": [
+          "Children inviting a friend"
+        ]
+      },
+      "activities": [
+        "Can I play?"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W02-D04",
+      "title": "Friends play together",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 2,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Friends",
+      "subtopic": "Playing with friends",
+      "dayType": "apply",
+      "objectives": [
+        "Children will play a cooperative game with friends."
+      ],
+      "successCriteria": [
+        "Plays a group game",
+        "Says friend or friends"
+      ],
+      "previousKnowledge": "Children can name family members and show love in simple ways.",
+      "vocabulary": [
+        "friend",
+        "play",
+        "together",
+        "kind",
+        "share",
+        "help"
+      ],
+      "resources": [
+        "A parachute or large cloth",
+        "A soft ball",
+        "A friendship song"
+      ],
+      "starter": "Show the cloth and say \"We hold the cloth together and make it go up and down.\"",
+      "teacherActivities": [
+        "Show how to hold the cloth edge and lift it together.",
+        "Lift up and down while singing.",
+        "Roll the ball on the cloth.",
+        "Say \"We played together.\""
+      ],
+      "learnerActivities": [
+        "Children hold the cloth.",
+        "Children lift together.",
+        "Children watch the ball and help.",
+        "Children say we did it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to hold the cloth edge and lift it together. Children: Children hold the cloth.",
+        "Step 2. Teacher: Lift up and down while singing. Children: Children lift together.",
+        "Step 3. Teacher: Roll the ball on the cloth. Children: Children watch the ball and help.",
+        "Step 4. Teacher: Say \"We played together.\" Children: Children say we did it."
+      ],
+      "practical": {
+        "title": "Cloth game",
+        "steps": [
+          "Hold the cloth edge.",
+          "Lift together.",
+          "Roll the ball."
+        ],
+        "safety": "Use a soft light cloth and a very soft ball and stand away from furniture. Keep the group small."
+      },
+      "differentiation": {
+        "support": "Hold the cloth beside the child.",
+        "extension": "Ask the child to count up and down."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did we do?",
+            "expected": "We played together."
+          },
+          {
+            "question": "Who played?",
+            "expected": "All friends."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays a group game with friends",
+        "Says we did it"
+      ],
+      "conclusion": "Fold the cloth and say \"Friends.\"",
+      "homeConnection": "Play a group game with the family.",
+      "teacherReflection": [
+        "Which children could show \"play a cooperative game with friends\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TOGETHER",
+          "FRIENDS"
+        ],
+        "pictures": [
+          "Children with a cloth"
+        ]
+      },
+      "activities": [
+        "Cloth game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W02-D05",
+      "title": "Week 2 friends check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 2,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Friends",
+      "subtopic": "Being a good friend",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child plays with and behaves toward friends."
+      ],
+      "successCriteria": [
+        "Plays with a friend",
+        "Says one thing a good friend does"
+      ],
+      "previousKnowledge": "Children can name family members and show love in simple ways.",
+      "vocabulary": [
+        "friend",
+        "play",
+        "together",
+        "kind",
+        "share",
+        "help"
+      ],
+      "resources": [
+        "Toys",
+        "Puppets",
+        "Class record sheet"
+      ],
+      "starter": "Sing the friendship song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: play, good friend and join a game.",
+        "At each station watch how the child plays and speaks.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child plays with a friend.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: play, good friend and join a game. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child plays and speaks. Children: Child plays with a friend.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Friendship stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station closely and keep play gentle. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to welcome a quiet friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: plays with a friend; says what a good friend does; asks to join a game; includes others.",
+        "questions": [
+          {
+            "question": "Who is your friend?",
+            "expected": "A child’s name."
+          },
+          {
+            "question": "What does a good friend do?",
+            "expected": "Shares and helps."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Plays with friends with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep encouraging friendly play.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child plays with and behaves toward friends\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Friends"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Friendship stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

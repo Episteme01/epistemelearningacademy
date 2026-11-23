@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-TOD-SOC-T2-W09",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 2,
+  "week": 9,
+  "title": "Respect for people",
+  "topic": "Respect",
+  "subtopics": [
+    "Respecting elders and teachers",
+    "Respecting helpers",
+    "Respecting different people"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will greet and speak kindly to elders and helpers.",
+    "Children will accept that people are different and treat them kindly."
+  ],
+  "vocabulary": [
+    "respect",
+    "elder",
+    "helper",
+    "different",
+    "kind",
+    "greet"
+  ],
+  "content": "Respecting elders and teachers, respecting helpers, and respecting different people.",
+  "teachingActivities": "Respect is shown in many ways across Nigerian homes (greeting, kneeling or bowing, using titles, listening); teach respect as kindness and listening, accept each family’s way, and never require a child to perform a gesture that their family does not use; use dolls and puppets to show respect for people who look, speak or move differently.",
+  "learnerActivities": "Greet and speak kindly to elders and helpers and treat people who are different from us with kindness.",
+  "resources": [
+    "Pictures of elders, teachers, cleaners, drivers and gatekeepers",
+    "Puppets",
+    "Dolls of different appearance",
+    "A respect song"
+  ],
+  "assessment": "Observe whether each child greets elders and helpers and uses kind words with a child who is different.",
+  "expectedOutcomes": [
+    "Greets an elder or helper in a family-appropriate way.",
+    "Uses kind words with a child who looks different."
+  ],
+  "crossCurricular": [
+    "Literacy: respect words",
+    "Understanding the World: people around us",
+    "Creative Development: role play"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W09-D01",
+      "title": "Respecting elders and teachers",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 9,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Respect",
+      "subtopic": "Respecting elders and teachers",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will greet elders and teachers respectfully in a way their family uses."
+      ],
+      "successCriteria": [
+        "Greets an elder with words or a gesture",
+        "Listens to an elder"
+      ],
+      "previousKnowledge": "Children can use manners, tell the truth and care for belongings.",
+      "vocabulary": [
+        "respect",
+        "elder",
+        "helper",
+        "different",
+        "kind",
+        "greet"
+      ],
+      "resources": [
+        "Pictures of elders and teachers",
+        "A puppet grandparent",
+        "A greeting song"
+      ],
+      "starter": "Show a puppet grandparent and say \"Good morning, Grandma.\" Let the puppet answer warmly.",
+      "teacherActivities": [
+        "Show pictures of elders and teachers and say who they are.",
+        "Show how to greet with a smile and good morning.",
+        "Ask children how they greet elders at home.",
+        "Say \"We listen and speak kindly to elders.\""
+      ],
+      "learnerActivities": [
+        "Children look and name them.",
+        "Children greet the puppet.",
+        "Child shows or says their greeting if they wish.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show pictures of elders and teachers and say who they are. Children: Children look and name them.",
+        "Step 2. Teacher: Show how to greet with a smile and good morning. Children: Children greet the puppet.",
+        "Step 3. Teacher: Ask children how they greet elders at home. Children: Child shows or says their greeting if they wish.",
+        "Step 4. Teacher: Say \"We listen and speak kindly to elders.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "Greeting elders",
+        "steps": [
+          "Look at the pictures.",
+          "Greet the puppet grandparent.",
+          "Show how you greet at home."
+        ],
+        "safety": "Accept every family’s way of greeting and never require a particular gesture. Keep puppet play gentle."
+      },
+      "differentiation": {
+        "support": "Greet together and use a simple word.",
+        "extension": "Ask the child to teach a friend a greeting from home."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is an elder?",
+            "expected": "A grandparent or older person."
+          },
+          {
+            "question": "What do we say?",
+            "expected": "Good morning."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Greets an elder respectfully",
+        "Listens to an elder"
+      ],
+      "conclusion": "Wave goodbye with a respectful greeting.",
+      "homeConnection": "Show your child how your family greets elders.",
+      "teacherReflection": [
+        "Which children could show \"greet elders and teachers respectfully in a way their family uses\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ELDER",
+          "RESPECT"
+        ],
+        "pictures": [
+          "An elderly woman",
+          "A teacher"
+        ],
+        "songOrRhyme": "Good morning, Grandma, good morning, Grandpa."
+      },
+      "activities": [
+        "Greeting elders"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W09-D02",
+      "title": "Respecting helpers",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 9,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Respect",
+      "subtopic": "Respecting helpers",
+      "dayType": "explore",
+      "objectives": [
+        "Children will greet and thank people who help the school."
+      ],
+      "successCriteria": [
+        "Greets a helper",
+        "Says thank you to a helper"
+      ],
+      "previousKnowledge": "Children can use manners, tell the truth and care for belongings.",
+      "vocabulary": [
+        "respect",
+        "elder",
+        "helper",
+        "different",
+        "kind",
+        "greet"
+      ],
+      "resources": [
+        "Pictures of the cleaner, gatekeeper, cook, driver and nurse",
+        "A thank-you card"
+      ],
+      "starter": "Show a picture of the school cleaner and say \"This person keeps our school clean. We say thank you.\"",
+      "teacherActivities": [
+        "Show each helper picture and say what they do.",
+        "Say \"We greet helpers and say thank you.\"",
+        "Walk to meet a helper and let children greet them.",
+        "Make a thank-you card together."
+      ],
+      "learnerActivities": [
+        "Children look and repeat the job.",
+        "Children repeat the sentence.",
+        "Children say hello and thank you.",
+        "Child makes a mark on the card."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each helper picture and say what they do. Children: Children look and repeat the job.",
+        "Step 2. Teacher: Say \"We greet helpers and say thank you.\" Children: Children repeat the sentence.",
+        "Step 3. Teacher: Walk to meet a helper and let children greet them. Children: Children say hello and thank you.",
+        "Step 4. Teacher: Make a thank-you card together. Children: Child makes a mark on the card."
+      ],
+      "practical": {
+        "title": "Thank our helpers",
+        "steps": [
+          "Look at the pictures.",
+          "Greet a helper.",
+          "Make a thank-you card."
+        ],
+        "safety": "Keep the walk short and supervised and ask the helper beforehand. Use non-toxic crayons."
+      },
+      "differentiation": {
+        "support": "Walk with the child and greet together.",
+        "extension": "Ask the child to say what a helper does."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who keeps our school clean?",
+            "expected": "The cleaner."
+          },
+          {
+            "question": "What do we say to helpers?",
+            "expected": "Thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Greets and thanks a helper",
+        "Names what a helper does"
+      ],
+      "conclusion": "Give the thank-you card and wave.",
+      "homeConnection": "Greet and thank helpers you meet with your child.",
+      "teacherReflection": [
+        "Which children could show \"greet and thank people who help the school\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HELPER",
+          "THANK YOU"
+        ],
+        "pictures": [
+          "A school cleaner",
+          "A gatekeeper"
+        ]
+      },
+      "activities": [
+        "Thank our helpers"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W09-D03",
+      "title": "Everyone is different",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 9,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Respect",
+      "subtopic": "Respecting different people",
+      "dayType": "explore",
+      "objectives": [
+        "Children will notice that people are different and treat everyone kindly."
+      ],
+      "successCriteria": [
+        "Says that friends are different",
+        "Uses kind words to a child who is different"
+      ],
+      "previousKnowledge": "Children can use manners, tell the truth and care for belongings.",
+      "vocabulary": [
+        "respect",
+        "elder",
+        "helper",
+        "different",
+        "kind",
+        "greet"
+      ],
+      "resources": [
+        "Dolls or pictures of children of different skin tones, abilities and clothing",
+        "A mirror"
+      ],
+      "starter": "Show two dolls that look different and say \"These friends look different. They are both our friends.\"",
+      "teacherActivities": [
+        "Show pictures of children who look and move differently.",
+        "Look in a mirror and say \"I am special.\"",
+        "Say \"We are kind to everyone.\"",
+        "Play a game where friends do different things."
+      ],
+      "learnerActivities": [
+        "Children look and say friend.",
+        "Child looks and smiles.",
+        "Children repeat the sentence.",
+        "Child plays with a friend."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show pictures of children who look and move differently. Children: Children look and say friend.",
+        "Step 2. Teacher: Look in a mirror and say \"I am special.\" Children: Child looks and smiles.",
+        "Step 3. Teacher: Say \"We are kind to everyone.\" Children: Children repeat the sentence.",
+        "Step 4. Teacher: Play a game where friends do different things. Children: Child plays with a friend."
+      ],
+      "practical": {
+        "title": "We are all friends",
+        "steps": [
+          "Look at the pictures.",
+          "Look in the mirror.",
+          "Play with a friend."
+        ],
+        "safety": "Answer children’s questions about differences simply and kindly and never allow teasing. Use an unbreakable mirror."
+      },
+      "differentiation": {
+        "support": "Look at the picture together and say friend.",
+        "extension": "Ask the child to say one way they are like a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Are all friends the same?",
+            "expected": "No, we are different."
+          },
+          {
+            "question": "Are we kind to everyone?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says that people are different",
+        "Is kind to everyone"
+      ],
+      "conclusion": "Wave goodbye and say \"We are friends.\"",
+      "homeConnection": "Talk kindly about differences when your child notices them.",
+      "teacherReflection": [
+        "Which children could show \"notice that people are different and treat everyone kindly\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DIFFERENT",
+          "KIND"
+        ],
+        "pictures": [
+          "Children of different skin tones"
+        ]
+      },
+      "activities": [
+        "We are all friends"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W09-D04",
+      "title": "Respect role play",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 9,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Respect",
+      "subtopic": "Respecting helpers",
+      "dayType": "apply",
+      "objectives": [
+        "Children will act out respectful greetings and thanks in role play."
+      ],
+      "successCriteria": [
+        "Acts a respectful greeting",
+        "Uses thank you in role play"
+      ],
+      "previousKnowledge": "Children can use manners, tell the truth and care for belongings.",
+      "vocabulary": [
+        "respect",
+        "elder",
+        "helper",
+        "different",
+        "kind",
+        "greet"
+      ],
+      "resources": [
+        "Hats for a teacher, a nurse and a driver",
+        "Toy phones",
+        "A play area"
+      ],
+      "starter": "Show three hats and say \"Today we meet three helpers. Let us greet them.\"",
+      "teacherActivities": [
+        "Put on a hat and say \"I am the nurse.\"",
+        "Let each child try a hat and be the helper.",
+        "Say \"Thank you for helping us.\"",
+        "Swap roles so everyone has a go."
+      ],
+      "learnerActivities": [
+        "Children greet the nurse.",
+        "Child takes a role.",
+        "Children say thank you.",
+        "Child swaps and plays again."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put on a hat and say \"I am the nurse.\" Children: Children greet the nurse.",
+        "Step 2. Teacher: Let each child try a hat and be the helper. Children: Child takes a role.",
+        "Step 3. Teacher: Say \"Thank you for helping us.\" Children: Children say thank you.",
+        "Step 4. Teacher: Swap roles so everyone has a go. Children: Child swaps and plays again."
+      ],
+      "practical": {
+        "title": "Helper role play",
+        "steps": [
+          "Put on a hat.",
+          "Greet the helper.",
+          "Say thank you."
+        ],
+        "safety": "Use hats that are clean and shared fairly and supervise swapping. Keep play gentle."
+      },
+      "differentiation": {
+        "support": "Play the helper with the child.",
+        "extension": "Ask the child to choose the helper and greet them."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is the helper?",
+            "expected": "A nurse, teacher or driver."
+          },
+          {
+            "question": "What do you say?",
+            "expected": "Thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Acts a respectful greeting",
+        "Says thank you in role play"
+      ],
+      "conclusion": "Take off the hats and say \"Thank you, helpers.\"",
+      "homeConnection": "Play helpers at home and practise greetings.",
+      "teacherReflection": [
+        "Which children could show \"act out respectful greetings and thanks in role play\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "NURSE",
+          "DRIVER"
+        ],
+        "pictures": [
+          "Helper hats"
+        ]
+      },
+      "activities": [
+        "Helper role play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W09-D05",
+      "title": "Week 9 respect check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 9,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Respect",
+      "subtopic": "Respecting elders and teachers",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child shows respect."
+      ],
+      "successCriteria": [
+        "Greets an elder or helper",
+        "Is kind to everyone"
+      ],
+      "previousKnowledge": "Children can use manners, tell the truth and care for belongings.",
+      "vocabulary": [
+        "respect",
+        "elder",
+        "helper",
+        "different",
+        "kind",
+        "greet"
+      ],
+      "resources": [
+        "Pictures",
+        "Puppets",
+        "Class record sheet"
+      ],
+      "starter": "Sing the respect song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: elders, helpers and different friends.",
+        "At each station watch how the child behaves.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child responds with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: elders, helpers and different friends. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child behaves. Children: Child responds with a word or action.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Respect stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep play gentle. Respect every family’s way of showing respect."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to greet a visitor."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: greets an elder; thanks a helper; is kind to a child who is different; listens to adults.",
+        "questions": [
+          {
+            "question": "What do we say to an elder?",
+            "expected": "Good morning."
+          },
+          {
+            "question": "What do we say to helpers?",
+            "expected": "Thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Shows respect with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep showing respect to everyone at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child shows respect\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Respect"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Respect stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

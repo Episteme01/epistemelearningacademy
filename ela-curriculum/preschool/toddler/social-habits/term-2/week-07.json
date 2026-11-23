@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SOC-T2-W07",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 2,
+  "week": 7,
+  "title": "Looking after things",
+  "topic": "Responsibility",
+  "subtopics": [
+    "My bag and my things",
+    "Caring for toys and books",
+    "Putting things back"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will care for toys, books and their own belongings.",
+    "Children will put things back in the right place."
+  ],
+  "vocabulary": [
+    "bag",
+    "book",
+    "toy",
+    "gentle",
+    "back",
+    "place"
+  ],
+  "content": "My bag and my things, caring for toys and books, and putting things back.",
+  "teachingActivities": "Give every child a labelled hook and bag; show how to hold a book gently; use pictures on shelves so children can put things back; praise care not just tidiness; replace broken items without shame.",
+  "learnerActivities": "Care for toys, books and belongings and put things back in the right place.",
+  "resources": [
+    "Bags and hooks with names",
+    "Picture books",
+    "Toy baskets with picture labels",
+    "A shelf",
+    "A caring song"
+  ],
+  "assessment": "Observe whether each child puts things back and handles a book gently.",
+  "expectedOutcomes": [
+    "Puts a toy back where it belongs.",
+    "Handles a book gently."
+  ],
+  "crossCurricular": [
+    "Literacy: book handling",
+    "Numeracy: matching and sorting",
+    "Science: caring for the environment"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W07-D01",
+      "title": "My bag and my things",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Responsibility",
+      "subtopic": "My bag and my things",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will find and care for their own bag and belongings."
+      ],
+      "successCriteria": [
+        "Finds their own bag or hook",
+        "Puts their things away with support"
+      ],
+      "previousKnowledge": "Children can tell the truth, help and tidy up.",
+      "vocabulary": [
+        "bag",
+        "book",
+        "toy",
+        "gentle",
+        "back",
+        "place"
+      ],
+      "resources": [
+        "Labelled hooks and bags",
+        "A water bottle",
+        "A lunch box",
+        "A song"
+      ],
+      "starter": "Show a bag on a hook and say \"This is Ada’s bag. It goes on her hook.\"",
+      "teacherActivities": [
+        "Show how to hang a bag on its hook.",
+        "Help each child find their name and hook.",
+        "Show how to put a bottle and lunch box in the bag.",
+        "Say \"I look after my things.\""
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child finds their name.",
+        "Child puts things in the bag.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to hang a bag on its hook. Children: Children watch.",
+        "Step 2. Teacher: Help each child find their name and hook. Children: Child finds their name.",
+        "Step 3. Teacher: Show how to put a bottle and lunch box in the bag. Children: Child puts things in the bag.",
+        "Step 4. Teacher: Say \"I look after my things.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "My hook and my bag",
+        "steps": [
+          "Find your name.",
+          "Hang your bag.",
+          "Put your things inside."
+        ],
+        "safety": "Keep bags low and hooks at child height. Check no small objects are in reach of younger children."
+      },
+      "differentiation": {
+        "support": "Find the hook together and hang the bag.",
+        "extension": "Ask the child to help a friend find their hook."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does your bag go?",
+            "expected": "On my hook."
+          },
+          {
+            "question": "Whose bag is this?",
+            "expected": "A child’s name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds their own bag or hook",
+        "Puts things away with support"
+      ],
+      "conclusion": "Look at the hooks and say \"Everyone has a place.\"",
+      "homeConnection": "Give your child a place at home for their bag and shoes.",
+      "teacherReflection": [
+        "Which children could show \"find and care for their own bag and belongings\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BAG",
+          "HOOK"
+        ],
+        "pictures": [
+          "A bag on a hook"
+        ],
+        "songOrRhyme": "My bag, my bag, on my hook it goes."
+      },
+      "activities": [
+        "My hook and my bag"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W07-D02",
+      "title": "Caring for toys and books",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Responsibility",
+      "subtopic": "Caring for toys and books",
+      "dayType": "explore",
+      "objectives": [
+        "Children will handle toys and books gently."
+      ],
+      "successCriteria": [
+        "Turns a page gently",
+        "Puts a toy down gently"
+      ],
+      "previousKnowledge": "Children can tell the truth, help and tidy up.",
+      "vocabulary": [
+        "bag",
+        "book",
+        "toy",
+        "gentle",
+        "back",
+        "place"
+      ],
+      "resources": [
+        "Picture books",
+        "Soft toys",
+        "A puppet who is rough and then gentle"
+      ],
+      "starter": "Show a puppet throwing a book and say \"Oh no. Books are for looking, not throwing.\"",
+      "teacherActivities": [
+        "Show how to hold and turn the pages gently.",
+        "Let children look at a book with a friend.",
+        "Show how to place toys down gently.",
+        "Say \"I am gentle with books and toys.\""
+      ],
+      "learnerActivities": [
+        "Children watch and copy.",
+        "Child looks at the book gently.",
+        "Child puts a toy down gently.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to hold and turn the pages gently. Children: Children watch and copy.",
+        "Step 2. Teacher: Let children look at a book with a friend. Children: Child looks at the book gently.",
+        "Step 3. Teacher: Show how to place toys down gently. Children: Child puts a toy down gently.",
+        "Step 4. Teacher: Say \"I am gentle with books and toys.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "Gentle with books",
+        "steps": [
+          "Hold a book.",
+          "Turn the pages gently.",
+          "Put it back on the shelf."
+        ],
+        "safety": "Use sturdy board books and supervise closely so books are not chewed. Replace torn items without comment."
+      },
+      "differentiation": {
+        "support": "Turn the pages together.",
+        "extension": "Ask the child to show a friend how to hold a book."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How do we hold a book?",
+            "expected": "Gently."
+          },
+          {
+            "question": "Where does it go?",
+            "expected": "On the shelf."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Handles books gently",
+        "Puts toys down gently"
+      ],
+      "conclusion": "Put the books on the shelf and say thank you.",
+      "homeConnection": "Read a book together and let your child turn the pages.",
+      "teacherReflection": [
+        "Which children could show \"handle toys and books gently\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BOOK",
+          "GENTLE"
+        ],
+        "pictures": [
+          "A child with a book"
+        ]
+      },
+      "activities": [
+        "Gentle with books"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W07-D03",
+      "title": "Putting things back",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Responsibility",
+      "subtopic": "Putting things back",
+      "dayType": "practise",
+      "objectives": [
+        "Children will put toys back where they belong using picture labels."
+      ],
+      "successCriteria": [
+        "Matches a toy to its label",
+        "Puts the toy back"
+      ],
+      "previousKnowledge": "Children can tell the truth, help and tidy up.",
+      "vocabulary": [
+        "bag",
+        "book",
+        "toy",
+        "gentle",
+        "back",
+        "place"
+      ],
+      "resources": [
+        "Baskets with picture labels",
+        "Toys",
+        "A tidy song"
+      ],
+      "starter": "Show a basket with a picture of cars and say \"Cars go here. Every toy has a home.\"",
+      "teacherActivities": [
+        "Show how to match a toy to its picture label.",
+        "Let each child pick a toy and find its basket.",
+        "Sing the tidy song while working.",
+        "Say \"Every toy is home.\""
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child puts the toy in the basket.",
+        "Children tidy and sing.",
+        "Children say home."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to match a toy to its picture label. Children: Children watch.",
+        "Step 2. Teacher: Let each child pick a toy and find its basket. Children: Child puts the toy in the basket.",
+        "Step 3. Teacher: Sing the tidy song while working. Children: Children tidy and sing.",
+        "Step 4. Teacher: Say \"Every toy is home.\" Children: Children say home."
+      ],
+      "practical": {
+        "title": "Toy homes",
+        "steps": [
+          "Look at the labels.",
+          "Match each toy.",
+          "Put it in its basket."
+        ],
+        "safety": "Keep walkways clear and use large toys only. Supervise the tidy-up."
+      },
+      "differentiation": {
+        "support": "Match the toy together and name the label.",
+        "extension": "Ask the child to check a basket for the right toys."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does this toy go?",
+            "expected": "In its basket."
+          },
+          {
+            "question": "Is every toy home?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches toys to labels",
+        "Puts toys back"
+      ],
+      "conclusion": "Look at the tidy shelves and clap.",
+      "homeConnection": "Make picture labels for toy boxes at home.",
+      "teacherReflection": [
+        "Which children could show \"put toys back where they belong using picture labels\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BACK",
+          "TOY"
+        ],
+        "pictures": [
+          "A basket with a label"
+        ]
+      },
+      "activities": [
+        "Toy homes"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W07-D04",
+      "title": "Looking after our classroom",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Responsibility",
+      "subtopic": "Putting things back",
+      "dayType": "apply",
+      "objectives": [
+        "Children will share responsibility for the classroom and its things."
+      ],
+      "successCriteria": [
+        "Tidies and cares with a friend",
+        "Reminds a friend gently"
+      ],
+      "previousKnowledge": "Children can tell the truth, help and tidy up.",
+      "vocabulary": [
+        "bag",
+        "book",
+        "toy",
+        "gentle",
+        "back",
+        "place"
+      ],
+      "resources": [
+        "The classroom toys and books",
+        "A helpers chart",
+        "Stickers"
+      ],
+      "starter": "Say \"This is our class. We look after our things together.\"",
+      "teacherActivities": [
+        "Walk around and notice things to put back.",
+        "Give each child a job such as books, blocks or cups.",
+        "Remind children to be gentle.",
+        "Give a sticker to every helper."
+      ],
+      "learnerActivities": [
+        "Children walk and look.",
+        "Child does a job.",
+        "Child reminds a friend gently.",
+        "Child receives a sticker and says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Walk around and notice things to put back. Children: Children walk and look.",
+        "Step 2. Teacher: Give each child a job such as books, blocks or cups. Children: Child does a job.",
+        "Step 3. Teacher: Remind children to be gentle. Children: Child reminds a friend gently.",
+        "Step 4. Teacher: Give a sticker to every helper. Children: Child receives a sticker and says thank you."
+      ],
+      "practical": {
+        "title": "Class care",
+        "steps": [
+          "Look around the room.",
+          "Choose a job.",
+          "Put things back together."
+        ],
+        "safety": "Supervise closely and use only safe items. Keep stickers away from mouths."
+      },
+      "differentiation": {
+        "support": "Work beside the child and name the jobs.",
+        "extension": "Ask the child to be the job allocator."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you look after?",
+            "expected": "Books or toys."
+          },
+          {
+            "question": "Who looked after it?",
+            "expected": "We did."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Cares for the classroom with a friend",
+        "Reminds a friend gently"
+      ],
+      "conclusion": "Say \"We look after our class.\"",
+      "homeConnection": "Show your child how to look after the family’s things.",
+      "teacherReflection": [
+        "Which children could show \"share responsibility for the classroom and its things\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CLASS",
+          "CARE"
+        ],
+        "pictures": [
+          "A tidy classroom"
+        ]
+      },
+      "activities": [
+        "Class care"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T2-W07-D05",
+      "title": "Week 7 caring check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 2,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Responsibility",
+      "subtopic": "Caring for toys and books",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child cares for belongings."
+      ],
+      "successCriteria": [
+        "Handles a book gently",
+        "Puts things back"
+      ],
+      "previousKnowledge": "Children can tell the truth, help and tidy up.",
+      "vocabulary": [
+        "bag",
+        "book",
+        "toy",
+        "gentle",
+        "back",
+        "place"
+      ],
+      "resources": [
+        "Books",
+        "Toys",
+        "Baskets",
+        "Class record sheet"
+      ],
+      "starter": "Sing the caring song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: bags, books and toys.",
+        "At each station watch how the child cares.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child cares with a prompt.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: bags, books and toys. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child cares. Children: Child cares with a prompt.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Caring stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep walkways clear. Use sturdy items only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to show a friend how to care for a book."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: finds own bag; handles books gently; puts toys back; helps keep the class tidy.",
+        "questions": [
+          {
+            "question": "How do we hold a book?",
+            "expected": "Gently."
+          },
+          {
+            "question": "Where do toys go?",
+            "expected": "In their baskets."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Cares for belongings with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep showing how to care for things at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child cares for belongings\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Caring"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Caring stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
