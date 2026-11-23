@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SCI-T3-W10",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 3,
+  "week": 10,
+  "title": "Our science celebration",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising body, senses and materials",
+    "Revising living things",
+    "Celebration and end-of-year record"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Year learning through games and a science fair.",
+    "Teachers will complete every child’s end-of-year record and transition note."
+  ],
+  "vocabulary": [
+    "senses",
+    "plants",
+    "animals",
+    "push",
+    "light",
+    "clean"
+  ],
+  "content": "Revising the body, senses and materials, living things, and celebrating the year with end-of-year records and a transition note.",
+  "teachingActivities": "Keep every activity familiar and joyful; observe quietly; record what children can do; invite parents to the celebration; complete the transition note honestly for the next teacher.",
+  "learnerActivities": "Show what they know through games and a small science fair and enjoy a celebration.",
+  "resources": [
+    "Body and senses cards",
+    "Float and sink objects",
+    "Plants and seeds",
+    "Push and pull toys",
+    "Torch and shadow puppets",
+    "Certificates or stickers",
+    "End-of-year record sheets"
+  ],
+  "assessment": "Observe and record each child’s end-of-year science learning and complete the transition note.",
+  "expectedOutcomes": [
+    "Takes part confidently in familiar science games.",
+    "Each child has an end-of-year observation record."
+  ],
+  "crossCurricular": [
+    "Literacy: songs and stories",
+    "Numeracy: sorting and counting",
+    "Social Habits: celebration and thanks"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W10-D01",
+      "title": "Revising body, senses and materials",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising body, senses and materials",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit the body, senses, water, sand, soil and materials through games."
+      ],
+      "successCriteria": [
+        "Names body parts and senses",
+        "Uses words such as wet, dry, float and sink"
+      ],
+      "previousKnowledge": "Children have learnt about the body, senses, materials, living things, movement, light and caring this year.",
+      "vocabulary": [
+        "senses",
+        "plants",
+        "animals",
+        "push",
+        "light",
+        "clean"
+      ],
+      "resources": [
+        "Five sense cards",
+        "A mystery bag",
+        "A water basin with float and sink objects",
+        "Material baskets"
+      ],
+      "starter": "Sing the body song and say \"Today we play our favourite body, senses and materials games.\"",
+      "teacherActivities": [
+        "Play the mystery bag game with touch.",
+        "Play float and sink with the basin.",
+        "Sort objects into natural and made.",
+        "Let each child choose a favourite game."
+      ],
+      "learnerActivities": [
+        "Child feels and guesses.",
+        "Child puts an object in the water and says float or sink.",
+        "Child sorts the objects.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the mystery bag game with touch. Children: Child feels and guesses.",
+        "Step 2. Teacher: Play float and sink with the basin. Children: Child puts an object in the water and says float or sink.",
+        "Step 3. Teacher: Sort objects into natural and made. Children: Child sorts the objects.",
+        "Step 4. Teacher: Let each child choose a favourite game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Body and materials games",
+        "steps": [
+          "Set up three game spaces.",
+          "Children play each for four minutes.",
+          "The teacher notes which words each child uses."
+        ],
+        "safety": "Keep water shallow and the floor clear. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Play with the child and use two objects.",
+        "extension": "Ask the child to lead a game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we see with?",
+            "expected": "Our eyes."
+          },
+          {
+            "question": "Does it float or sink?",
+            "expected": "Float or sink."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows knowledge of body, senses and materials",
+        "Uses science words"
+      ],
+      "conclusion": "Dry hands and wave goodbye.",
+      "homeConnection": "Play body and materials games at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit the body, senses, water, sand, soil and materials through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SENSES",
+          "FLOAT",
+          "SINK"
+        ],
+        "pictures": [
+          "Five sense cards",
+          "A water basin"
+        ]
+      },
+      "activities": [
+        "Body and materials games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W10-D02",
+      "title": "Revising living things",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising living things",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit animals, plants, seeds and caring for living things."
+      ],
+      "successCriteria": [
+        "Names animals and plants",
+        "Cares for a plant"
+      ],
+      "previousKnowledge": "Children have learnt about the body, senses, materials, living things, movement, light and caring this year.",
+      "vocabulary": [
+        "senses",
+        "plants",
+        "animals",
+        "push",
+        "light",
+        "clean"
+      ],
+      "resources": [
+        "Animal and home cards",
+        "Grown plants",
+        "A watering can",
+        "Food pictures"
+      ],
+      "starter": "Look at our plants and say \"Our plants have grown. Let us look after them.\"",
+      "teacherActivities": [
+        "Match animals to homes and babies to mothers.",
+        "Look at the grown plants and name the parts.",
+        "Water the plants together.",
+        "Sort foods into plant and animal foods."
+      ],
+      "learnerActivities": [
+        "Child matches the cards.",
+        "Child names a leaf or flower.",
+        "Child waters a plant.",
+        "Child sorts food pictures."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Match animals to homes and babies to mothers. Children: Child matches the cards.",
+        "Step 2. Teacher: Look at the grown plants and name the parts. Children: Child names a leaf or flower.",
+        "Step 3. Teacher: Water the plants together. Children: Child waters a plant.",
+        "Step 4. Teacher: Sort foods into plant and animal foods. Children: Child sorts food pictures."
+      ],
+      "practical": {
+        "title": "Living things games",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate every five minutes.",
+          "The teacher notes names and care."
+        ],
+        "safety": "Supervise each station and keep floors dry. Wash hands after touching plants."
+      },
+      "differentiation": {
+        "support": "Play beside the child and name each item.",
+        "extension": "Ask the child to explain how to care for a plant."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does a plant need?",
+            "expected": "Water, soil and sun."
+          },
+          {
+            "question": "Where does the hen live?",
+            "expected": "In a nest."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows knowledge of living things",
+        "Cares for plants gently"
+      ],
+      "conclusion": "Wash hands and say \"We care for living things.\"",
+      "homeConnection": "Keep caring for plants and animals at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit animals, plants, seeds and caring for living things\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PLANTS",
+          "ANIMALS",
+          "CARE"
+        ],
+        "pictures": [
+          "A grown plant",
+          "Animal and home cards"
+        ]
+      },
+      "activities": [
+        "Living things games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W10-D03",
+      "title": "Science fair stations",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising body, senses and materials",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s end-of-year science learning at a small science fair."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with confidence",
+        "Shows body, senses, living things, movement and light knowledge"
+      ],
+      "previousKnowledge": "Children have learnt about the body, senses, materials, living things, movement, light and caring this year.",
+      "vocabulary": [
+        "senses",
+        "plants",
+        "animals",
+        "push",
+        "light",
+        "clean"
+      ],
+      "resources": [
+        "Six science stations",
+        "Class record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Say \"Today is our science fair. We visit six stations and show what we know.\"",
+      "teacherActivities": [
+        "Set up six stations: senses, float and sink, plants, push and pull, shadows and caring.",
+        "Observe each child at two stations and record what they can do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every three minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: senses, float and sink, plants, push and pull, shadows and caring. Children: Children rotate every three minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they can do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Science fair",
+        "steps": [
+          "Set up six stations with familiar materials.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep water shallow, torches covered and floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: uses senses; says float or sink; names plants and animals; pushes and pulls; makes a shadow; cares for living things.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite station.",
+            "expected": "Child chooses a station."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an end-of-year observation record",
+        "Shows familiar skills at stations"
+      ],
+      "conclusion": "Say well done to everyone and wave goodbye.",
+      "homeConnection": "Play a favourite science game at home during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s end-of-year science learning at a small science fair\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Science fair"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W10-D04",
+      "title": "Science celebration",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Celebration and end-of-year record",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate the year with songs, experiments and plants, and show their work to visitors."
+      ],
+      "successCriteria": [
+        "Joins in songs and games",
+        "Shows something they enjoyed to an adult"
+      ],
+      "previousKnowledge": "Children have learnt about the body, senses, materials, living things, movement, light and caring this year.",
+      "vocabulary": [
+        "senses",
+        "plants",
+        "animals",
+        "push",
+        "light",
+        "clean"
+      ],
+      "resources": [
+        "Favourite songs",
+        "The grown plants and children’s work",
+        "Certificates or stickers",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate everything we discovered. Let us sing our favourite songs.\"",
+      "teacherActivities": [
+        "Sing favourite songs and rhymes with actions.",
+        "Invite children to show their plants or work to a visitor or parent.",
+        "Give each child a sticker or certificate and say their name."
+      ],
+      "learnerActivities": [
+        "Children sing and do actions.",
+        "Child shows their work.",
+        "Child waves and says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite songs and rhymes with actions. Children: Children sing and do actions.",
+        "Step 2. Teacher: Invite children to show their plants or work to a visitor or parent. Children: Child shows their work.",
+        "Step 3. Teacher: Give each child a sticker or certificate and say their name. Children: Child waves and says thank you."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle with visitors.",
+          "Sing and share work.",
+          "Hand out certificates or stickers."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Supervise visitors and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and share their work together.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s end-of-year science record from the year’s observations. Record the child’s strengths and a next step for Nursery 1.",
+        "questions": [
+          {
+            "question": "What is your favourite thing?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "What did you learn?",
+            "expected": "A word, fact or action."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed end-of-year record",
+        "Enjoys science and nature"
+      ],
+      "conclusion": "Wave goodbye and say \"See you in Nursery 1.\"",
+      "homeConnection": "Keep exploring, asking questions and looking at nature during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"celebrate the year with songs, experiments and plants, and show their work to visitors\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE",
+          "THANK YOU"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W10-D05",
+      "title": "Transition note and records",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Celebration and end-of-year record",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will complete a transition note for each child for the Nursery 1 teacher."
+      ],
+      "successCriteria": [
+        "Records what each child can do",
+        "Records a next step"
+      ],
+      "previousKnowledge": "Children have learnt about the body, senses, materials, living things, movement, light and caring this year.",
+      "vocabulary": [
+        "senses",
+        "plants",
+        "animals",
+        "push",
+        "light",
+        "clean"
+      ],
+      "resources": [
+        "Transition note template",
+        "Term records",
+        "Children’s portfolios",
+        "A quiet table"
+      ],
+      "starter": "Today the children enjoy free play with familiar materials while the teacher completes the transition notes.",
+      "teacherActivities": [
+        "Set out free play with sand, water, plants and puzzles.",
+        "Review each child’s three term records and portfolio.",
+        "Complete the note: strengths, interests, language, science skills and next steps."
+      ],
+      "learnerActivities": [
+        "Children play freely and happily.",
+        "Children play while the teacher reviews.",
+        "Children play and talk with the helper."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set out free play with sand, water, plants and puzzles. Children: Children play freely and happily.",
+        "Step 2. Teacher: Review each child’s three term records and portfolio. Children: Children play while the teacher reviews.",
+        "Step 3. Teacher: Complete the note: strengths, interests, language, science skills and next steps. Children: Children play and talk with the helper."
+      ],
+      "practical": {
+        "title": "Free play and records",
+        "steps": [
+          "Set out four play areas with a helper.",
+          "The teacher reviews records at a quiet table.",
+          "The teacher completes each transition note."
+        ],
+        "safety": "A second adult must supervise play while the teacher completes the notes. Keep water shallow and all areas safe and tidy."
+      },
+      "differentiation": {
+        "support": "Offer familiar toys and a helper nearby.",
+        "extension": "Ask a confident child to help a friend tidy up."
+      },
+      "assessment": {
+        "method": "Write for each child: what they can do in using the senses, exploring materials, knowing plants and animals, movement and caring; their interests; any support needed; and a next step. Use the four-level scale and facts you have seen.",
+        "questions": [
+          {
+            "question": "What do you like to play?",
+            "expected": "A favourite game or toy."
+          },
+          {
+            "question": "What did you discover this year?",
+            "expected": "A word, fact or action."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a transition note for each child",
+        "Plays happily in familiar activities"
+      ],
+      "conclusion": "Tidy up together and say goodbye to the year.",
+      "homeConnection": "Share the end-of-year report with your child and keep exploring together.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will complete a transition note for each child for the Nursery 1 teacher\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "THANK YOU"
+        ],
+        "pictures": [
+          "Children playing happily"
+        ]
+      },
+      "activities": [
+        "Free play and records"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

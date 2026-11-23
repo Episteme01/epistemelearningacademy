@@ -1,0 +1,604 @@
+{
+  "id": "ELA-PS-TOD-SCI-T3-W06",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 3,
+  "week": 6,
+  "title": "Natural and made things",
+  "topic": "Materials",
+  "subtopics": [
+    "Things from nature",
+    "Things people make",
+    "Sorting natural and made"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will sort objects into natural and made with support.",
+    "Children will name materials such as wood, cloth and plastic."
+  ],
+  "vocabulary": [
+    "wood",
+    "cloth",
+    "plastic",
+    "stone",
+    "leaf",
+    "made"
+  ],
+  "content": "Things from nature, things people make, and sorting natural and made things.",
+  "teachingActivities": "Use real objects such as leaves, stones, wood, cloth and plastic; say what each thing is made of; keep the sorting simple with two baskets; link to what children see around the school.",
+  "learnerActivities": "Sort objects into natural and made and name materials such as wood, cloth and plastic.",
+  "resources": [
+    "Leaves, stones, shells, sticks, a flower",
+    "A plastic cup, a cloth, a wooden spoon, a metal key, a toy car",
+    "Two baskets",
+    "Pictures of natural and made things"
+  ],
+  "assessment": "Observe whether each child sorts objects into natural and made with support and names two materials.",
+  "expectedOutcomes": [
+    "Sorts objects into natural and made with support.",
+    "Names two materials."
+  ],
+  "crossCurricular": [
+    "Numeracy: sorting",
+    "Literacy: describing words",
+    "Creative Development: making with materials"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W06-D01",
+      "title": "Things from nature",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Materials",
+      "subtopic": "Things from nature",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name things that come from nature."
+      ],
+      "successCriteria": [
+        "Names a leaf, a stone and a stick",
+        "Says nature with support"
+      ],
+      "previousKnowledge": "Children can describe materials as wet, dry, soft, hard, rough and smooth and know about plants and animals.",
+      "vocabulary": [
+        "wood",
+        "cloth",
+        "plastic",
+        "stone",
+        "leaf",
+        "made"
+      ],
+      "resources": [
+        "Leaves, stones, shells and sticks",
+        "A basket",
+        "A picture of a forest"
+      ],
+      "starter": "Hold up a leaf and say \"This is from nature. A tree made it. Nobody made it in a factory.\"",
+      "teacherActivities": [
+        "Show each natural object and say its name.",
+        "Say \"These come from nature: trees, rocks, shells, water.\"",
+        "Go outside and find natural things in the yard.",
+        "Put the natural things in a basket and name them."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children touch each object.",
+        "Child finds a leaf, stone or stick.",
+        "Child puts an object in the basket."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each natural object and say its name. Children: Children look and say the names.",
+        "Step 2. Teacher: Say \"These come from nature: trees, rocks, shells, water.\" Children: Children touch each object.",
+        "Step 3. Teacher: Go outside and find natural things in the yard. Children: Child finds a leaf, stone or stick.",
+        "Step 4. Teacher: Put the natural things in a basket and name them. Children: Child puts an object in the basket."
+      ],
+      "practical": {
+        "title": "Nature basket",
+        "steps": [
+          "Collect natural things outdoors.",
+          "Put them in a basket.",
+          "Name each one together."
+        ],
+        "safety": "Check the area for sharp objects, thorns and insects first. Use only objects larger than a child’s fist and wash hands after."
+      },
+      "differentiation": {
+        "support": "Point to the object together and say the name.",
+        "extension": "Ask the child to find five natural things."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is a leaf from nature?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Name a natural thing.",
+            "expected": "Leaf, stone, shell or stick."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names natural things",
+        "Says that natural things come from nature"
+      ],
+      "conclusion": "Put the objects in the basket and say \"Thank you, nature.\"",
+      "homeConnection": "Collect safe natural things on a walk with your child.",
+      "teacherReflection": [
+        "Which children could show \"name things that come from nature\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "NATURE",
+          "LEAF",
+          "STONE"
+        ],
+        "pictures": [
+          "A leaf",
+          "A stone",
+          "A shell"
+        ]
+      },
+      "activities": [
+        "Nature basket"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W06-D02",
+      "title": "Things people make",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Materials",
+      "subtopic": "Things people make",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name things that people make."
+      ],
+      "successCriteria": [
+        "Names a cup, a toy car and a cloth",
+        "Says made with support"
+      ],
+      "previousKnowledge": "Children can describe materials as wet, dry, soft, hard, rough and smooth and know about plants and animals.",
+      "vocabulary": [
+        "wood",
+        "cloth",
+        "plastic",
+        "stone",
+        "leaf",
+        "made"
+      ],
+      "resources": [
+        "A plastic cup, a toy car, a cloth, a wooden spoon and a pencil",
+        "A basket",
+        "A picture of a factory or a tailor"
+      ],
+      "starter": "Hold up a plastic cup and say \"People made this cup. It is not from nature.\"",
+      "teacherActivities": [
+        "Show each made object and say its name.",
+        "Say \"People make these things from materials.\"",
+        "Look around the classroom to find made things.",
+        "Put the made things in a basket and name them."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children touch each object.",
+        "Child finds a chair or book.",
+        "Child puts an object in the basket."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each made object and say its name. Children: Children look and say the names.",
+        "Step 2. Teacher: Say \"People make these things from materials.\" Children: Children touch each object.",
+        "Step 3. Teacher: Look around the classroom to find made things. Children: Child finds a chair or book.",
+        "Step 4. Teacher: Put the made things in a basket and name them. Children: Child puts an object in the basket."
+      ],
+      "practical": {
+        "title": "Made things basket",
+        "steps": [
+          "Find made things in the room.",
+          "Put them in a basket.",
+          "Name each one together."
+        ],
+        "safety": "Use large safe objects only and keep objects out of mouths. Supervise sharing."
+      },
+      "differentiation": {
+        "support": "Point to the object together and say the name.",
+        "extension": "Ask the child to say what a made thing is used for."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Did people make the cup?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Name a made thing.",
+            "expected": "Cup, car, chair or book."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names made things",
+        "Says that people make things"
+      ],
+      "conclusion": "Put the objects away and say \"People make things.\"",
+      "homeConnection": "Look for made things at home and say who might have made them.",
+      "teacherReflection": [
+        "Which children could show \"name things that people make\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MADE",
+          "CUP",
+          "CAR"
+        ],
+        "pictures": [
+          "A plastic cup",
+          "A toy car",
+          "A chair"
+        ]
+      },
+      "activities": [
+        "Made things basket"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W06-D03",
+      "title": "Natural or made?",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Materials",
+      "subtopic": "Sorting natural and made",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort objects into natural and made."
+      ],
+      "successCriteria": [
+        "Puts an object in the correct basket",
+        "Says natural or made"
+      ],
+      "previousKnowledge": "Children can describe materials as wet, dry, soft, hard, rough and smooth and know about plants and animals.",
+      "vocabulary": [
+        "wood",
+        "cloth",
+        "plastic",
+        "stone",
+        "leaf",
+        "made"
+      ],
+      "resources": [
+        "Two baskets labelled natural and made",
+        "Eight objects",
+        "A tray"
+      ],
+      "starter": "Show two baskets and say \"One is for natural things. One is for made things.\"",
+      "teacherActivities": [
+        "Pick up a stone and put it in the natural basket.",
+        "Pick up a cup and put it in the made basket.",
+        "Let each child pick an object and choose a basket.",
+        "Check each basket together."
+      ],
+      "learnerActivities": [
+        "Children watch and say natural.",
+        "Children watch and say made.",
+        "Child sorts the object.",
+        "Children name the objects."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pick up a stone and put it in the natural basket. Children: Children watch and say natural.",
+        "Step 2. Teacher: Pick up a cup and put it in the made basket. Children: Children watch and say made.",
+        "Step 3. Teacher: Let each child pick an object and choose a basket. Children: Child sorts the object.",
+        "Step 4. Teacher: Check each basket together. Children: Children name the objects."
+      ],
+      "practical": {
+        "title": "Natural and made sort",
+        "steps": [
+          "Put two baskets on the mat.",
+          "Each child picks an object.",
+          "Put it in the natural or made basket."
+        ],
+        "safety": "Use only large safe objects. Supervise turns and keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Offer two objects and say where each comes from.",
+        "extension": "Ask the child to find one more object for each basket."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is a stone natural or made?",
+            "expected": "Natural."
+          },
+          {
+            "question": "Is a toy car natural or made?",
+            "expected": "Made."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts objects into natural and made",
+        "Says natural or made with support"
+      ],
+      "conclusion": "Put the objects away and say \"Natural and made.\"",
+      "homeConnection": "Sort things at home into natural and made.",
+      "teacherReflection": [
+        "Which children could show \"sort objects into natural and made\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "NATURAL",
+          "MADE"
+        ],
+        "pictures": [
+          "Two baskets"
+        ]
+      },
+      "activities": [
+        "Natural and made sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W06-D04",
+      "title": "What is it made of?",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Materials",
+      "subtopic": "Sorting natural and made",
+      "dayType": "apply",
+      "objectives": [
+        "Children will name materials such as wood, cloth, plastic and metal."
+      ],
+      "successCriteria": [
+        "Names at least two materials",
+        "Matches an object to its material"
+      ],
+      "previousKnowledge": "Children can describe materials as wet, dry, soft, hard, rough and smooth and know about plants and animals.",
+      "vocabulary": [
+        "wood",
+        "cloth",
+        "plastic",
+        "stone",
+        "leaf",
+        "made"
+      ],
+      "resources": [
+        "A wooden spoon, a cloth, a plastic cup and a metal spoon",
+        "Material cards: wood, cloth, plastic, metal"
+      ],
+      "starter": "Hold up a wooden spoon and say \"This is made of wood. Wood comes from trees.\"",
+      "teacherActivities": [
+        "Show each object and say its material.",
+        "Let children touch each object and describe it.",
+        "Match each object to a material card.",
+        "Ask \"What is it made of?\""
+      ],
+      "learnerActivities": [
+        "Children look and say the materials.",
+        "Child says hard, soft or smooth.",
+        "Child places the object on the card.",
+        "Child says the material."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each object and say its material. Children: Children look and say the materials.",
+        "Step 2. Teacher: Let children touch each object and describe it. Children: Child says hard, soft or smooth.",
+        "Step 3. Teacher: Match each object to a material card. Children: Child places the object on the card.",
+        "Step 4. Teacher: Ask \"What is it made of?\" Children: Child says the material."
+      ],
+      "practical": {
+        "title": "Material match",
+        "steps": [
+          "Put material cards on the mat.",
+          "Pick an object.",
+          "Match it to its material."
+        ],
+        "safety": "Use only large smooth objects with no sharp edges. Supervise handling."
+      },
+      "differentiation": {
+        "support": "Offer two cards and say the material first.",
+        "extension": "Ask the child to find three objects made of the same material."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is the spoon made of?",
+            "expected": "Wood or metal."
+          },
+          {
+            "question": "What is the cup made of?",
+            "expected": "Plastic."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names materials",
+        "Matches objects to materials with support"
+      ],
+      "conclusion": "Put the objects away and say \"Wood, cloth, plastic, metal.\"",
+      "homeConnection": "Talk about what things are made of at home.",
+      "teacherReflection": [
+        "Which children could show \"name materials such as wood, cloth, plastic and metal\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WOOD",
+          "CLOTH",
+          "PLASTIC"
+        ],
+        "pictures": [
+          "A wooden spoon",
+          "A cloth",
+          "A plastic cup"
+        ]
+      },
+      "activities": [
+        "Material match"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W06-D05",
+      "title": "Week 6 materials check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Materials",
+      "subtopic": "Sorting natural and made",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child sorts natural and made things and names materials."
+      ],
+      "successCriteria": [
+        "Sorts objects into natural and made",
+        "Names two materials"
+      ],
+      "previousKnowledge": "Children can describe materials as wet, dry, soft, hard, rough and smooth and know about plants and animals.",
+      "vocabulary": [
+        "wood",
+        "cloth",
+        "plastic",
+        "stone",
+        "leaf",
+        "made"
+      ],
+      "resources": [
+        "Objects",
+        "Baskets",
+        "Class record sheet"
+      ],
+      "starter": "Sing the natural and made song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: natural, made and materials.",
+        "At each station ask \"Natural or made?\" and \"What is it made of?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or gesture.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: natural, made and materials. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"Natural or made?\" and \"What is it made of?\" Children: Child answers with a word or gesture.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Materials stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use only safe objects."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two objects.",
+        "extension": "Ask a confident child to teach a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: sorts natural and made; names materials; says where objects come from.",
+        "questions": [
+          {
+            "question": "Is a leaf natural or made?",
+            "expected": "Natural."
+          },
+          {
+            "question": "What is the cup made of?",
+            "expected": "Plastic."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Sorts natural and made things"
+      ],
+      "conclusion": "Wave goodbye and put the baskets away.",
+      "homeConnection": "Talk about natural and made things at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child sorts natural and made things and names materials\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Materials"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Materials stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

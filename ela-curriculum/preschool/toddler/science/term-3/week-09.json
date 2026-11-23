@@ -1,0 +1,608 @@
+{
+  "id": "ELA-PS-TOD-SCI-T3-W09",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 3,
+  "week": 9,
+  "title": "Looking after our world",
+  "topic": "Environment",
+  "subtopics": [
+    "Litter in the bin",
+    "Keeping our school clean",
+    "Saving water"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will put litter in a bin and say why we keep places clean.",
+    "Children will turn off a tap after use."
+  ],
+  "vocabulary": [
+    "litter",
+    "bin",
+    "clean",
+    "tidy",
+    "tap",
+    "save"
+  ],
+  "content": "Putting litter in the bin, keeping the school clean, and saving water.",
+  "teachingActivities": "Use clean, safe litter such as paper and clean plastic for practice; never touch real litter; model putting litter in the bin; show a tap being turned off; link to the school compound.",
+  "learnerActivities": "Put litter in a bin, say why we keep places clean and turn off a tap after use.",
+  "resources": [
+    "Clean paper and empty plastic bottles for pretend litter",
+    "A class bin and a recycling box",
+    "Gloves for adults",
+    "A basin with a tap",
+    "Pictures of a clean and a littered place"
+  ],
+  "assessment": "Observe whether each child puts litter in a bin and turns off a tap with support.",
+  "expectedOutcomes": [
+    "Puts litter in a bin.",
+    "Turns off a tap with support."
+  ],
+  "crossCurricular": [
+    "Social Habits: responsibility",
+    "Literacy: clean and tidy words",
+    "Understanding the World: our environment"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W09-D01",
+      "title": "Litter in the bin",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 9,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Environment",
+      "subtopic": "Litter in the bin",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will put litter in a bin and say why."
+      ],
+      "successCriteria": [
+        "Puts pretend litter in a bin",
+        "Says litter goes in the bin"
+      ],
+      "previousKnowledge": "Children have learnt to care for plants, animals and themselves.",
+      "vocabulary": [
+        "litter",
+        "bin",
+        "clean",
+        "tidy",
+        "tap",
+        "save"
+      ],
+      "resources": [
+        "Clean paper and empty plastic bottles",
+        "A bin",
+        "Pictures of a clean and a littered place"
+      ],
+      "starter": "Show a picture of a littered playground and say \"This place is dirty. How can we make it clean?\"",
+      "teacherActivities": [
+        "Show a picture of a clean place and say \"This is nice.\"",
+        "Drop a clean paper on the floor and say \"Oh no, litter!\" Pick it up and put it in the bin.",
+        "Let each child pick up pretend litter and put it in the bin.",
+        "Ask \"Where does litter go?\""
+      ],
+      "learnerActivities": [
+        "Children look and say clean.",
+        "Children watch and say bin.",
+        "Child puts litter in the bin.",
+        "Child points to the bin."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a picture of a clean place and say \"This is nice.\" Children: Children look and say clean.",
+        "Step 2. Teacher: Drop a clean paper on the floor and say \"Oh no, litter!\" Pick it up and put it in the bin. Children: Children watch and say bin.",
+        "Step 3. Teacher: Let each child pick up pretend litter and put it in the bin. Children: Child puts litter in the bin.",
+        "Step 4. Teacher: Ask \"Where does litter go?\" Children: Child points to the bin."
+      ],
+      "practical": {
+        "title": "Litter in the bin",
+        "steps": [
+          "Scatter clean paper on the floor.",
+          "Children pick it up and put it in the bin.",
+          "Look at the clean floor."
+        ],
+        "safety": "Use only clean paper and plastic and never let children touch real litter. Wash hands after. An adult handles anything unsafe."
+      },
+      "differentiation": {
+        "support": "Pick up the paper together and put it in the bin.",
+        "extension": "Ask the child to tell a friend why we use bins."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does litter go?",
+            "expected": "In the bin."
+          },
+          {
+            "question": "Is the floor clean now?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Puts litter in a bin",
+        "Says litter goes in the bin"
+      ],
+      "conclusion": "Look at the clean floor and say \"Well done.\"",
+      "homeConnection": "Show your child how to put litter in a bin at home and outside.",
+      "teacherReflection": [
+        "Which children could show \"put litter in a bin and say why\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LITTER",
+          "BIN",
+          "CLEAN"
+        ],
+        "pictures": [
+          "A bin",
+          "Clean paper",
+          "A clean floor"
+        ],
+        "songOrRhyme": "Pick it up, pick it up, put it in the bin."
+      },
+      "activities": [
+        "Litter in the bin"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W09-D02",
+      "title": "Keeping our school clean",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 9,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Environment",
+      "subtopic": "Keeping our school clean",
+      "dayType": "explore",
+      "objectives": [
+        "Children will help to keep their classroom and playground tidy."
+      ],
+      "successCriteria": [
+        "Tidies toys away",
+        "Helps to sweep or wipe with support"
+      ],
+      "previousKnowledge": "Children have learnt to care for plants, animals and themselves.",
+      "vocabulary": [
+        "litter",
+        "bin",
+        "clean",
+        "tidy",
+        "tap",
+        "save"
+      ],
+      "resources": [
+        "A small broom and dustpan",
+        "Cloths",
+        "Baskets for toys",
+        "Pictures of a tidy classroom"
+      ],
+      "starter": "Look around the room and say \"Our classroom is messy. Let us make it tidy.\"",
+      "teacherActivities": [
+        "Show how to put toys in baskets.",
+        "Show how to wipe a table with a cloth.",
+        "Show how to sweep with a small broom.",
+        "Look at the tidy room together."
+      ],
+      "learnerActivities": [
+        "Children put toys in baskets.",
+        "Child wipes a table.",
+        "Child sweeps with support.",
+        "Child says tidy or clean."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to put toys in baskets. Children: Children put toys in baskets.",
+        "Step 2. Teacher: Show how to wipe a table with a cloth. Children: Child wipes a table.",
+        "Step 3. Teacher: Show how to sweep with a small broom. Children: Child sweeps with support.",
+        "Step 4. Teacher: Look at the tidy room together. Children: Child says tidy or clean."
+      ],
+      "practical": {
+        "title": "Tidy up time",
+        "steps": [
+          "Put toys in baskets.",
+          "Wipe the tables.",
+          "Sweep the floor with a small broom."
+        ],
+        "safety": "Use child-size tools and supervise closely. Wipe only with clean water and never use cleaning chemicals with children."
+      },
+      "differentiation": {
+        "support": "Tidy together and name each job.",
+        "extension": "Ask the child to say which job they like best."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do with toys?",
+            "expected": "Put them in the basket."
+          },
+          {
+            "question": "Is the room tidy?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Helps to keep the room tidy",
+        "Says tidy and clean"
+      ],
+      "conclusion": "Look at the tidy room and say \"Thank you, helpers.\"",
+      "homeConnection": "Give your child a small tidying job at home.",
+      "teacherReflection": [
+        "Which children could show \"help to keep their classroom and playground tidy\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TIDY",
+          "SWEEP",
+          "WIPE"
+        ],
+        "pictures": [
+          "A tidy classroom",
+          "A small broom"
+        ]
+      },
+      "activities": [
+        "Tidy up time"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W09-D03",
+      "title": "Saving water",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 9,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Environment",
+      "subtopic": "Saving water",
+      "dayType": "explore",
+      "objectives": [
+        "Children will turn off a tap after use and say why we save water."
+      ],
+      "successCriteria": [
+        "Turns off a tap",
+        "Says that we save water"
+      ],
+      "previousKnowledge": "Children have learnt to care for plants, animals and themselves.",
+      "vocabulary": [
+        "litter",
+        "bin",
+        "clean",
+        "tidy",
+        "tap",
+        "save"
+      ],
+      "resources": [
+        "A basin with a tap or a jug with a tap",
+        "A bucket",
+        "Pictures of a dripping tap and a tap turned off"
+      ],
+      "starter": "Show a dripping tap picture and say \"Drip, drip, drip. The water is wasted.\"",
+      "teacherActivities": [
+        "Show how to turn off a tap tightly after washing.",
+        "Let each child turn on a tap, wash hands and turn it off.",
+        "Collect a cup of water from the tap and talk about how precious water is.",
+        "Say \"We save water.\""
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child turns off the tap.",
+        "Children look at the water.",
+        "Children say the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to turn off a tap tightly after washing. Children: Children watch.",
+        "Step 2. Teacher: Let each child turn on a tap, wash hands and turn it off. Children: Child turns off the tap.",
+        "Step 3. Teacher: Collect a cup of water from the tap and talk about how precious water is. Children: Children look at the water.",
+        "Step 4. Teacher: Say \"We save water.\" Children: Children say the sentence."
+      ],
+      "practical": {
+        "title": "Turn off the tap",
+        "steps": [
+          "Wash hands at the tap.",
+          "Turn it off tightly.",
+          "Collect used water for plants."
+        ],
+        "safety": "Supervise every child at the tap and keep floors dry. Use only clean water for plants."
+      },
+      "differentiation": {
+        "support": "Turn off the tap together.",
+        "extension": "Ask the child to tell a friend why we save water."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do after washing?",
+            "expected": "Turn off the tap."
+          },
+          {
+            "question": "Why do we save water?",
+            "expected": "Because water is precious."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Turns off a tap",
+        "Says that we save water"
+      ],
+      "conclusion": "Look at the dry tap and say \"No drips.\"",
+      "homeConnection": "Turn off the tap together at home.",
+      "teacherReflection": [
+        "Which children could show \"turn off a tap after use and say why we save water\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TAP",
+          "SAVE",
+          "WATER"
+        ],
+        "pictures": [
+          "A dripping tap",
+          "A tap turned off"
+        ]
+      },
+      "activities": [
+        "Turn off the tap"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W09-D04",
+      "title": "Our clean-up team",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 9,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Environment",
+      "subtopic": "Keeping our school clean",
+      "dayType": "apply",
+      "objectives": [
+        "Children will work as a team to tidy the playground."
+      ],
+      "successCriteria": [
+        "Helps to tidy outdoors",
+        "Works with a friend"
+      ],
+      "previousKnowledge": "Children have learnt to care for plants, animals and themselves.",
+      "vocabulary": [
+        "litter",
+        "bin",
+        "clean",
+        "tidy",
+        "tap",
+        "save"
+      ],
+      "resources": [
+        "Child-size gloves",
+        "Buckets",
+        "Clean pretend litter",
+        "A bin"
+      ],
+      "starter": "Say \"We are the clean-up team. Let us make our playground clean and safe.\"",
+      "teacherActivities": [
+        "Check the playground first and remove any real litter or sharp things yourself.",
+        "Put out clean pretend litter and let children collect it.",
+        "Put the pretend litter in the bin.",
+        "Look at the clean playground and cheer."
+      ],
+      "learnerActivities": [
+        "Children wait together.",
+        "Child picks up pretend litter and puts it in a bucket.",
+        "Child puts litter in the bin.",
+        "Children clap and say well done."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Check the playground first and remove any real litter or sharp things yourself. Children: Children wait together.",
+        "Step 2. Teacher: Put out clean pretend litter and let children collect it. Children: Child picks up pretend litter and puts it in a bucket.",
+        "Step 3. Teacher: Put the pretend litter in the bin. Children: Child puts litter in the bin.",
+        "Step 4. Teacher: Look at the clean playground and cheer. Children: Children clap and say well done."
+      ],
+      "practical": {
+        "title": "Clean-up team",
+        "steps": [
+          "Spread clean pretend litter on the playground.",
+          "Collect it in buckets.",
+          "Put it in the bin."
+        ],
+        "safety": "An adult must clear real litter and sharp objects first. Children touch only the clean pretend litter and wash hands after."
+      },
+      "differentiation": {
+        "support": "Work beside the child and pick up together.",
+        "extension": "Ask the child to say how they helped."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did we do?",
+            "expected": "We cleaned up."
+          },
+          {
+            "question": "Is the playground clean?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Helps to tidy outdoors",
+        "Works with a friend"
+      ],
+      "conclusion": "Wash hands and say \"We are a team.\"",
+      "homeConnection": "Help your family tidy the compound.",
+      "teacherReflection": [
+        "Which children could show \"work as a team to tidy the playground\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TEAM",
+          "CLEAN UP"
+        ],
+        "pictures": [
+          "Children cleaning up"
+        ]
+      },
+      "activities": [
+        "Clean-up team"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W09-D05",
+      "title": "Week 9 environment check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 9,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Environment",
+      "subtopic": "Saving water",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child cares for the environment."
+      ],
+      "successCriteria": [
+        "Puts litter in a bin",
+        "Turns off a tap with support"
+      ],
+      "previousKnowledge": "Children have learnt to care for plants, animals and themselves.",
+      "vocabulary": [
+        "litter",
+        "bin",
+        "clean",
+        "tidy",
+        "tap",
+        "save"
+      ],
+      "resources": [
+        "Pretend litter",
+        "A bin",
+        "A basin with a tap",
+        "Class record sheet"
+      ],
+      "starter": "Sing the pick it up song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: litter, tidying and tap.",
+        "At each station ask \"What do we do?\" and watch.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children wash hands and tidy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: litter, tidying and tap. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What do we do?\" and watch. Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy."
+      ],
+      "practical": {
+        "title": "Environment stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors dry. Use only clean pretend litter."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to tell a friend how to care for the world."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: puts litter in a bin; helps to tidy; turns off a tap; says we save water.",
+        "questions": [
+          {
+            "question": "Where does litter go?",
+            "expected": "In the bin."
+          },
+          {
+            "question": "What do we do with a tap?",
+            "expected": "Turn it off."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Cares for the environment"
+      ],
+      "conclusion": "Wash hands and wave goodbye.",
+      "homeConnection": "Keep caring for the world at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child cares for the environment\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Care"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Environment stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

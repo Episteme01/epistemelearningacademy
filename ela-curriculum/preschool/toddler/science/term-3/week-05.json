@@ -1,0 +1,603 @@
+{
+  "id": "ELA-PS-TOD-SCI-T3-W05",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 3,
+  "week": 5,
+  "title": "Wet and dry",
+  "topic": "Materials",
+  "subtopics": [
+    "What gets wet",
+    "What stays dry",
+    "Drying in the sun"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will test which materials get wet and which stay dry.",
+    "Children will notice that wet things dry in the sun."
+  ],
+  "vocabulary": [
+    "wet",
+    "dry",
+    "cloth",
+    "sun",
+    "umbrella",
+    "rain"
+  ],
+  "content": "Testing which materials get wet and which stay dry, and noticing that wet things dry in the sun.",
+  "teachingActivities": "Let children test with a spray bottle or a dripping sponge; use the words wet and dry for every result; hang cloths in the sun and look again later; keep water use small and controlled.",
+  "learnerActivities": "Test which materials get wet and which stay dry and see that wet things dry in the sun.",
+  "resources": [
+    "A spray bottle or sponge",
+    "Paper, cloth, plastic, foil and a leaf",
+    "An umbrella and a raincoat",
+    "A washing line",
+    "A tray"
+  ],
+  "assessment": "Observe whether each child says wet or dry after testing and notices a wet cloth drying in the sun.",
+  "expectedOutcomes": [
+    "Says wet or dry for materials after testing.",
+    "Notices that a wet cloth dries in the sun."
+  ],
+  "crossCurricular": [
+    "Numeracy: sorting",
+    "Literacy: describing words",
+    "Understanding the World: weather"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W05-D01",
+      "title": "What gets wet?",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 5,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Materials",
+      "subtopic": "What gets wet",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will test which materials get wet."
+      ],
+      "successCriteria": [
+        "Sprinkles water on a material",
+        "Says wet"
+      ],
+      "previousKnowledge": "Children have explored water and know wet and dry, and have noticed the sun and rain.",
+      "vocabulary": [
+        "wet",
+        "dry",
+        "cloth",
+        "sun",
+        "umbrella",
+        "rain"
+      ],
+      "resources": [
+        "Paper, cloth and a sponge",
+        "A spray bottle or a cup of water",
+        "A tray"
+      ],
+      "starter": "Sprinkle a few drops on a piece of paper and say \"Look, it is wet.\"",
+      "teacherActivities": [
+        "Show how to put a few drops of water on each material.",
+        "Let each child test a material.",
+        "Feel the wet paper and the wet cloth.",
+        "Ask \"Which things get wet?\""
+      ],
+      "learnerActivities": [
+        "Children watch and say wet.",
+        "Child puts water on a material and watches.",
+        "Child touches and says wet.",
+        "Child points to the materials."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to put a few drops of water on each material. Children: Children watch and say wet.",
+        "Step 2. Teacher: Let each child test a material. Children: Child puts water on a material and watches.",
+        "Step 3. Teacher: Feel the wet paper and the wet cloth. Children: Child touches and says wet.",
+        "Step 4. Teacher: Ask \"Which things get wet?\" Children: Child points to the materials."
+      ],
+      "practical": {
+        "title": "Wet test",
+        "steps": [
+          "Put materials on a tray.",
+          "Put a few drops of water on each.",
+          "Say wet or dry."
+        ],
+        "safety": "Use only a few drops of water and wipe the tray. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Drop the water together and feel the material.",
+        "extension": "Ask the child to find another thing that gets wet."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the paper get wet?",
+            "expected": "Yes."
+          },
+          {
+            "question": "How does it feel?",
+            "expected": "Wet."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Tests materials for wetness",
+        "Says wet for materials that get wet"
+      ],
+      "conclusion": "Wipe the tray and hang the wet things to dry.",
+      "homeConnection": "Test what gets wet in the sink at home.",
+      "teacherReflection": [
+        "Which children could show \"test which materials get wet\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WET",
+          "PAPER",
+          "CLOTH"
+        ],
+        "pictures": [
+          "Wet paper",
+          "A wet cloth"
+        ]
+      },
+      "activities": [
+        "Wet test"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W05-D02",
+      "title": "What stays dry?",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 5,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Materials",
+      "subtopic": "What stays dry",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will find materials that stay dry in water."
+      ],
+      "successCriteria": [
+        "Tests plastic and foil",
+        "Says dry"
+      ],
+      "previousKnowledge": "Children have explored water and know wet and dry, and have noticed the sun and rain.",
+      "vocabulary": [
+        "wet",
+        "dry",
+        "cloth",
+        "sun",
+        "umbrella",
+        "rain"
+      ],
+      "resources": [
+        "Plastic, foil, a raincoat and a plastic bag",
+        "A spray bottle or a cup of water",
+        "A tray"
+      ],
+      "starter": "Sprinkle water on a raincoat and say \"The water rolls off. It stays dry.\"",
+      "teacherActivities": [
+        "Show how water rolls off the raincoat.",
+        "Let each child test plastic and foil with a few drops of water.",
+        "Feel the material under the water.",
+        "Say \"Raincoats keep us dry.\""
+      ],
+      "learnerActivities": [
+        "Children watch and say dry.",
+        "Child puts water on the material and watches.",
+        "Child touches and says dry.",
+        "Children say the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how water rolls off the raincoat. Children: Children watch and say dry.",
+        "Step 2. Teacher: Let each child test plastic and foil with a few drops of water. Children: Child puts water on the material and watches.",
+        "Step 3. Teacher: Feel the material under the water. Children: Child touches and says dry.",
+        "Step 4. Teacher: Say \"Raincoats keep us dry.\" Children: Children say the sentence."
+      ],
+      "practical": {
+        "title": "Dry test",
+        "steps": [
+          "Put materials on a tray.",
+          "Put a few drops on each.",
+          "See which stay dry."
+        ],
+        "safety": "Use only a few drops of water and wipe the tray. Do not allow children to put plastic bags near their faces."
+      },
+      "differentiation": {
+        "support": "Drop the water together and look at the material.",
+        "extension": "Ask the child to guess before testing."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the raincoat get wet?",
+            "expected": "No, it stays dry."
+          },
+          {
+            "question": "Why do we wear a raincoat?",
+            "expected": "To stay dry."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds materials that stay dry",
+        "Says dry for materials that keep water out"
+      ],
+      "conclusion": "Wipe the tray and put the materials away.",
+      "homeConnection": "Test which materials keep water out at home.",
+      "teacherReflection": [
+        "Which children could show \"find materials that stay dry in water\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DRY",
+          "PLASTIC",
+          "RAINCOAT"
+        ],
+        "pictures": [
+          "Water on a raincoat",
+          "A plastic bag"
+        ]
+      },
+      "activities": [
+        "Dry test"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W05-D03",
+      "title": "Drying in the sun",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 5,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Materials",
+      "subtopic": "Drying in the sun",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will see that wet cloths dry in the sun."
+      ],
+      "successCriteria": [
+        "Hangs a wet cloth in the sun",
+        "Says dry after waiting"
+      ],
+      "previousKnowledge": "Children have explored water and know wet and dry, and have noticed the sun and rain.",
+      "vocabulary": [
+        "wet",
+        "dry",
+        "cloth",
+        "sun",
+        "umbrella",
+        "rain"
+      ],
+      "resources": [
+        "Small cloths",
+        "A washing line or a rack",
+        "Clothes pegs",
+        "A bowl of water"
+      ],
+      "starter": "Hold a wet cloth and say \"This cloth is wet. How can we make it dry?\"",
+      "teacherActivities": [
+        "Dip a cloth in water and squeeze it.",
+        "Hang the cloth on the line in the sun.",
+        "Feel the cloth after a short time.",
+        "Compare with a cloth left in the shade."
+      ],
+      "learnerActivities": [
+        "Child squeezes the cloth.",
+        "Child hangs the cloth with help.",
+        "Child feels the cloth and says wet or dry.",
+        "Child compares the two cloths."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Dip a cloth in water and squeeze it. Children: Child squeezes the cloth.",
+        "Step 2. Teacher: Hang the cloth on the line in the sun. Children: Child hangs the cloth with help.",
+        "Step 3. Teacher: Feel the cloth after a short time. Children: Child feels the cloth and says wet or dry.",
+        "Step 4. Teacher: Compare with a cloth left in the shade. Children: Child compares the two cloths."
+      ],
+      "practical": {
+        "title": "Drying cloths",
+        "steps": [
+          "Dip a small cloth in water.",
+          "Hang it in the sun.",
+          "Feel it again later."
+        ],
+        "safety": "Keep the washing line low and clear of faces. Supervise water and pegs and keep children out of the sun at midday."
+      },
+      "differentiation": {
+        "support": "Hang the cloth together and touch it later.",
+        "extension": "Ask the child to guess how long it will take to dry."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the cloth wet or dry now?",
+            "expected": "Wet at first and dry later."
+          },
+          {
+            "question": "What dries the cloth?",
+            "expected": "The sun."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Notices that wet cloths dry in the sun",
+        "Says wet and dry correctly"
+      ],
+      "conclusion": "Take down the dry cloths and fold them.",
+      "homeConnection": "Hang wet clothes with your child and check when they are dry.",
+      "teacherReflection": [
+        "Which children could show \"see that wet cloths dry in the sun\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SUN",
+          "DRY"
+        ],
+        "pictures": [
+          "A cloth on a line",
+          "The sun"
+        ]
+      },
+      "activities": [
+        "Drying cloths"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W05-D04",
+      "title": "Wet and dry sort",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 5,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Materials",
+      "subtopic": "What gets wet",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will sort materials into those that get wet and those that stay dry."
+      ],
+      "successCriteria": [
+        "Sorts materials after testing",
+        "Says wet or dry"
+      ],
+      "previousKnowledge": "Children have explored water and know wet and dry, and have noticed the sun and rain.",
+      "vocabulary": [
+        "wet",
+        "dry",
+        "cloth",
+        "sun",
+        "umbrella",
+        "rain"
+      ],
+      "resources": [
+        "Two hoops labelled gets wet and stays dry",
+        "Materials tested this week",
+        "A tray"
+      ],
+      "starter": "Show two hoops and say \"One is for things that get wet. One is for things that stay dry.\"",
+      "teacherActivities": [
+        "Pick up a material we tested and ask \"Does it get wet?\"",
+        "Put it in the right hoop.",
+        "Let each child pick a material and sort it.",
+        "Check each hoop together."
+      ],
+      "learnerActivities": [
+        "Children say yes or no.",
+        "Children watch and say wet or dry.",
+        "Child sorts the material.",
+        "Children name the materials."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pick up a material we tested and ask \"Does it get wet?\" Children: Children say yes or no.",
+        "Step 2. Teacher: Put it in the right hoop. Children: Children watch and say wet or dry.",
+        "Step 3. Teacher: Let each child pick a material and sort it. Children: Child sorts the material.",
+        "Step 4. Teacher: Check each hoop together. Children: Children name the materials."
+      ],
+      "practical": {
+        "title": "Sort by testing",
+        "steps": [
+          "Put two hoops on the floor.",
+          "Pick a material and remember the test.",
+          "Sort into the right hoop."
+        ],
+        "safety": "Keep materials dry for sorting. Supervise turns and keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Offer two materials and say the result.",
+        "extension": "Ask the child to find a new material and test it."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does cloth get wet?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Does plastic stay dry?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts materials into gets wet and stays dry",
+        "Uses wet and dry"
+      ],
+      "conclusion": "Put the materials away and say \"Wet and dry.\"",
+      "homeConnection": "Sort things that get wet and stay dry at home.",
+      "teacherReflection": [
+        "Which children could show \"sort materials into those that get wet and those that stay dry\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GETS WET",
+          "STAYS DRY"
+        ],
+        "pictures": [
+          "Two hoops"
+        ]
+      },
+      "activities": [
+        "Sort by testing"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W05-D05",
+      "title": "Week 5 wet and dry check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 5,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Materials",
+      "subtopic": "What stays dry",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child tests and describes wet and dry."
+      ],
+      "successCriteria": [
+        "Says wet or dry after testing",
+        "Notices a wet cloth drying in the sun"
+      ],
+      "previousKnowledge": "Children have explored water and know wet and dry, and have noticed the sun and rain.",
+      "vocabulary": [
+        "wet",
+        "dry",
+        "cloth",
+        "sun",
+        "umbrella",
+        "rain"
+      ],
+      "resources": [
+        "Materials",
+        "Cloths",
+        "Class record sheet"
+      ],
+      "starter": "Sing the wet and dry song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: wet test, dry test and drying cloths.",
+        "At each station ask \"Wet or dry?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: wet test, dry test and drying cloths. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"Wet or dry?\" Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Wet and dry stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep water to a few drops. Wipe spills quickly."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one material.",
+        "extension": "Ask a confident child to explain wet and dry to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says wet or dry after testing; sorts materials; notices drying in the sun.",
+        "questions": [
+          {
+            "question": "Is it wet or dry?",
+            "expected": "Wet or dry."
+          },
+          {
+            "question": "What dries the cloth?",
+            "expected": "The sun."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Describes wet and dry with a word"
+      ],
+      "conclusion": "Wipe up and wave goodbye.",
+      "homeConnection": "Talk about wet and dry things at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child tests and describes wet and dry\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Wet and dry"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Wet and dry stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

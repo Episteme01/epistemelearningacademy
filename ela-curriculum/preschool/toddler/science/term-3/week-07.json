@@ -1,0 +1,607 @@
+{
+  "id": "ELA-PS-TOD-SCI-T3-W07",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 3,
+  "week": 7,
+  "title": "Colours in nature",
+  "topic": "Nature",
+  "subtopics": [
+    "Colour walk",
+    "Colours of flowers and leaves",
+    "Making a nature collage"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will find colours in nature on a walk.",
+    "Children will make a collage with natural materials."
+  ],
+  "vocabulary": [
+    "red",
+    "green",
+    "yellow",
+    "brown",
+    "colour",
+    "nature"
+  ],
+  "content": "Finding colours in nature on a walk, noticing the colours of flowers and leaves, and making a nature collage.",
+  "teachingActivities": "Use colour cards on a walk; let children collect fallen items only; name each colour; link to colour words learnt in Literacy and Numeracy; accept all creative collages.",
+  "learnerActivities": "Find colours in nature and make a collage with leaves and flowers.",
+  "resources": [
+    "Colour cards: red, green, yellow, brown",
+    "Baskets",
+    "Fallen leaves and flowers",
+    "Glue sticks",
+    "Large paper",
+    "Clipboards"
+  ],
+  "assessment": "Observe whether each child finds three colours in nature and makes a collage.",
+  "expectedOutcomes": [
+    "Finds three colours in nature.",
+    "Makes a collage with leaves or flowers."
+  ],
+  "crossCurricular": [
+    "Creative Development: collage",
+    "Literacy: colour words",
+    "Numeracy: sorting by colour"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W07-D01",
+      "title": "Colour walk",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Nature",
+      "subtopic": "Colour walk",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will find colours in nature on a walk."
+      ],
+      "successCriteria": [
+        "Finds something that matches a colour card",
+        "Names the colour"
+      ],
+      "previousKnowledge": "Children can name materials and sort natural and made things.",
+      "vocabulary": [
+        "red",
+        "green",
+        "yellow",
+        "brown",
+        "colour",
+        "nature"
+      ],
+      "resources": [
+        "Colour cards: red, green, yellow, brown",
+        "Baskets",
+        "A safe outdoor area"
+      ],
+      "starter": "Show the green card and say \"Let us find something green in nature.\"",
+      "teacherActivities": [
+        "Show each colour card and say its name.",
+        "Walk to the garden in a line with colour cards.",
+        "Say \"Find something green\" and let children search.",
+        "Find one thing for each colour."
+      ],
+      "learnerActivities": [
+        "Children look and say the colour.",
+        "Children walk in a line.",
+        "Child finds a green leaf and holds it to the card.",
+        "Child finds and names the colour."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each colour card and say its name. Children: Children look and say the colour.",
+        "Step 2. Teacher: Walk to the garden in a line with colour cards. Children: Children walk in a line.",
+        "Step 3. Teacher: Say \"Find something green\" and let children search. Children: Child finds a green leaf and holds it to the card.",
+        "Step 4. Teacher: Find one thing for each colour. Children: Child finds and names the colour."
+      ],
+      "practical": {
+        "title": "Colour hunt",
+        "steps": [
+          "Give each pair a colour card.",
+          "Find a matching natural thing.",
+          "Put it in the basket."
+        ],
+        "safety": "Check the area for sharp objects, thorns and insects first. Collect only fallen items and wash hands after."
+      },
+      "differentiation": {
+        "support": "Walk with the child and point to something that matches.",
+        "extension": "Ask the child to find two things for each colour."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What colour is the leaf?",
+            "expected": "Green."
+          },
+          {
+            "question": "What is brown?",
+            "expected": "A stick or soil."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds colours in nature",
+        "Names at least three colours"
+      ],
+      "conclusion": "Put the objects in a basket and say \"Colours everywhere.\"",
+      "homeConnection": "Look for colours in nature on a walk with your child.",
+      "teacherReflection": [
+        "Which children could show \"find colours in nature on a walk\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RED",
+          "GREEN",
+          "YELLOW",
+          "BROWN"
+        ],
+        "pictures": [
+          "A red flower",
+          "A green leaf",
+          "A yellow flower",
+          "Brown soil"
+        ]
+      },
+      "activities": [
+        "Colour hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W07-D02",
+      "title": "Colours of flowers and leaves",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Nature",
+      "subtopic": "Colours of flowers and leaves",
+      "dayType": "explore",
+      "objectives": [
+        "Children will compare the colours of flowers and leaves."
+      ],
+      "successCriteria": [
+        "Names flower and leaf colours",
+        "Sorts by colour"
+      ],
+      "previousKnowledge": "Children can name materials and sort natural and made things.",
+      "vocabulary": [
+        "red",
+        "green",
+        "yellow",
+        "brown",
+        "colour",
+        "nature"
+      ],
+      "resources": [
+        "Fallen flowers and leaves",
+        "Colour trays or paper",
+        "A magnifying glass"
+      ],
+      "starter": "Hold up a yellow flower and a green leaf and say \"The flower is yellow. The leaf is green.\"",
+      "teacherActivities": [
+        "Show different flowers and leaves and name the colours.",
+        "Look closely with a magnifying glass at the colours and patterns.",
+        "Sort the flowers and leaves by colour onto colour paper.",
+        "Ask \"How many yellow things do we have?\""
+      ],
+      "learnerActivities": [
+        "Children look and say the colours.",
+        "Children look and point.",
+        "Child sorts by colour.",
+        "Child counts with support."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show different flowers and leaves and name the colours. Children: Children look and say the colours.",
+        "Step 2. Teacher: Look closely with a magnifying glass at the colours and patterns. Children: Children look and point.",
+        "Step 3. Teacher: Sort the flowers and leaves by colour onto colour paper. Children: Child sorts by colour.",
+        "Step 4. Teacher: Ask \"How many yellow things do we have?\" Children: Child counts with support."
+      ],
+      "practical": {
+        "title": "Colour sort",
+        "steps": [
+          "Put coloured paper on the mat.",
+          "Sort flowers and leaves by colour.",
+          "Count each group."
+        ],
+        "safety": "Use only fallen leaves and flowers and wash hands after. Do not allow flowers in mouths."
+      },
+      "differentiation": {
+        "support": "Offer two colours and say the colour first.",
+        "extension": "Ask the child to find leaves that are not green."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What colour is the flower?",
+            "expected": "Red, yellow or pink."
+          },
+          {
+            "question": "What colour is the leaf?",
+            "expected": "Green or brown."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts flowers and leaves by colour",
+        "Names colours of plants"
+      ],
+      "conclusion": "Put the flowers in a vase and say \"Thank you.\"",
+      "homeConnection": "Look at the colours of flowers and leaves at home.",
+      "teacherReflection": [
+        "Which children could show \"compare the colours of flowers and leaves\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PINK",
+          "WHITE",
+          "ORANGE"
+        ],
+        "pictures": [
+          "A pink flower",
+          "A white flower",
+          "An orange flower"
+        ]
+      },
+      "activities": [
+        "Colour sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W07-D03",
+      "title": "Making a nature collage",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Nature",
+      "subtopic": "Making a nature collage",
+      "dayType": "apply",
+      "objectives": [
+        "Children will make a collage with natural materials."
+      ],
+      "successCriteria": [
+        "Sticks natural materials on paper",
+        "Says what they made"
+      ],
+      "previousKnowledge": "Children can name materials and sort natural and made things.",
+      "vocabulary": [
+        "red",
+        "green",
+        "yellow",
+        "brown",
+        "colour",
+        "nature"
+      ],
+      "resources": [
+        "Fallen leaves, petals, seeds and sticks",
+        "Large paper",
+        "Glue sticks or flour paste",
+        "Aprons"
+      ],
+      "starter": "Show a collage made of leaves and petals and say \"We can make pictures from nature.\"",
+      "teacherActivities": [
+        "Show how to put glue on paper and stick leaves.",
+        "Let each child choose natural things and stick them.",
+        "Ask \"What did you make?\"",
+        "Display the collages together."
+      ],
+      "learnerActivities": [
+        "Children watch and get glue.",
+        "Child sticks leaves and petals on paper.",
+        "Child says a word such as flower or tree.",
+        "Child shows their collage."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to put glue on paper and stick leaves. Children: Children watch and get glue.",
+        "Step 2. Teacher: Let each child choose natural things and stick them. Children: Child sticks leaves and petals on paper.",
+        "Step 3. Teacher: Ask \"What did you make?\" Children: Child says a word such as flower or tree.",
+        "Step 4. Teacher: Display the collages together. Children: Child shows their collage."
+      ],
+      "practical": {
+        "title": "Nature collage",
+        "steps": [
+          "Put out natural materials.",
+          "Stick them on large paper.",
+          "Talk about the picture."
+        ],
+        "safety": "Use non-toxic glue and avoid small seeds for children who put things in their mouths. Wash hands after."
+      },
+      "differentiation": {
+        "support": "Stick the leaf together and name the picture.",
+        "extension": "Ask the child to make a collage of a tree with leaves."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you make?",
+            "expected": "A tree, flower or animal."
+          },
+          {
+            "question": "What did you use?",
+            "expected": "Leaves and petals."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes a collage with natural materials",
+        "Says what they made"
+      ],
+      "conclusion": "Put the collages on the wall and say \"Well done.\"",
+      "homeConnection": "Make a nature picture at home with leaves and paper.",
+      "teacherReflection": [
+        "Which children could show \"make a collage with natural materials\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "COLLAGE",
+          "NATURE"
+        ],
+        "pictures": [
+          "A leaf and petal collage"
+        ]
+      },
+      "activities": [
+        "Nature collage"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W07-D04",
+      "title": "Colour sorting game",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Nature",
+      "subtopic": "Colour walk",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort natural objects and pictures by colour."
+      ],
+      "successCriteria": [
+        "Sorts by colour",
+        "Says the colour"
+      ],
+      "previousKnowledge": "Children can name materials and sort natural and made things.",
+      "vocabulary": [
+        "red",
+        "green",
+        "yellow",
+        "brown",
+        "colour",
+        "nature"
+      ],
+      "resources": [
+        "Coloured baskets or paper",
+        "A mix of natural objects and pictures",
+        "A bag"
+      ],
+      "starter": "Say \"I have a bag of nature things. Let us sort them by colour.\"",
+      "teacherActivities": [
+        "Pick an object from the bag and say its colour.",
+        "Put it in the matching coloured basket.",
+        "Let each child pick an object and sort it.",
+        "Check each basket together."
+      ],
+      "learnerActivities": [
+        "Children say the colour.",
+        "Children watch and say the colour.",
+        "Child sorts by colour.",
+        "Children name the colours."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pick an object from the bag and say its colour. Children: Children say the colour.",
+        "Step 2. Teacher: Put it in the matching coloured basket. Children: Children watch and say the colour.",
+        "Step 3. Teacher: Let each child pick an object and sort it. Children: Child sorts by colour.",
+        "Step 4. Teacher: Check each basket together. Children: Children name the colours."
+      ],
+      "practical": {
+        "title": "Colour baskets",
+        "steps": [
+          "Put coloured baskets on the mat.",
+          "Each child picks an object.",
+          "Put it in the matching basket."
+        ],
+        "safety": "Use only safe, large objects. Supervise turns and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Offer two baskets and say the colour first.",
+        "extension": "Ask the child to find an object that is two colours."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What colour is this?",
+            "expected": "The colour of the object."
+          },
+          {
+            "question": "Which basket does it go in?",
+            "expected": "The matching colour."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts objects by colour",
+        "Names colours"
+      ],
+      "conclusion": "Put the objects away and say the colours.",
+      "homeConnection": "Sort things by colour at home.",
+      "teacherReflection": [
+        "Which children could show \"sort natural objects and pictures by colour\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SORT",
+          "COLOUR"
+        ],
+        "pictures": [
+          "Coloured baskets"
+        ]
+      },
+      "activities": [
+        "Colour baskets"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W07-D05",
+      "title": "Week 7 colours check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Nature",
+      "subtopic": "Making a nature collage",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child finds colours in nature and makes a collage."
+      ],
+      "successCriteria": [
+        "Finds three colours in nature",
+        "Makes a collage"
+      ],
+      "previousKnowledge": "Children can name materials and sort natural and made things.",
+      "vocabulary": [
+        "red",
+        "green",
+        "yellow",
+        "brown",
+        "colour",
+        "nature"
+      ],
+      "resources": [
+        "Colour cards",
+        "Collage materials",
+        "Class record sheet"
+      ],
+      "starter": "Sing the colour song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: colour sort, flowers and leaves, and collage.",
+        "At each station ask \"What colour is it?\" and \"What did you make?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or gesture.",
+        "Children wash hands and tidy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: colour sort, flowers and leaves, and collage. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What colour is it?\" and \"What did you make?\" Children: Child answers with a word or gesture.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy."
+      ],
+      "practical": {
+        "title": "Colour stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use non-toxic materials and wash hands."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two colours.",
+        "extension": "Ask a confident child to describe their collage."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: finds colours in nature; sorts by colour; makes a collage.",
+        "questions": [
+          {
+            "question": "What colour is this?",
+            "expected": "A colour name."
+          },
+          {
+            "question": "What did you make?",
+            "expected": "A collage picture."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Finds and names colours in nature"
+      ],
+      "conclusion": "Wash hands and wave goodbye.",
+      "homeConnection": "Look for colours in nature each day.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child finds colours in nature and makes a collage\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Colours"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Colour stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

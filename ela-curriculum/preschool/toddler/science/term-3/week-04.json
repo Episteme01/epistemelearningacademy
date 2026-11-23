@@ -1,0 +1,603 @@
+{
+  "id": "ELA-PS-TOD-SCI-T3-W04",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 3,
+  "week": 4,
+  "title": "Day and night",
+  "topic": "Light",
+  "subtopics": [
+    "What we see in the day",
+    "What we see at night",
+    "Sleep and rest"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say what happens in the day and what happens at night.",
+    "Children will match pictures to day or night."
+  ],
+  "vocabulary": [
+    "day",
+    "night",
+    "sun",
+    "moon",
+    "stars",
+    "sleep"
+  ],
+  "content": "What we see in the day, what we see at night, and why we sleep and rest.",
+  "teachingActivities": "Use large day and night pictures; link to children’s own routines; sing a goodnight song; be sensitive to different family routines; never frighten children about the dark.",
+  "learnerActivities": "Sort pictures into day and night and say that we sleep at night.",
+  "resources": [
+    "Day and night pictures: sun, moon, stars, birds, a bed, a school",
+    "A yellow and a dark blue sheet",
+    "A soft toy and a blanket",
+    "Two baskets"
+  ],
+  "assessment": "Observe whether each child sorts pictures into day and night and says we sleep at night.",
+  "expectedOutcomes": [
+    "Sorts pictures into day and night.",
+    "Says that we sleep at night."
+  ],
+  "crossCurricular": [
+    "Literacy: bedtime story",
+    "Numeracy: sorting",
+    "Social Habits: routines"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W04-D01",
+      "title": "What we see in the day",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Light",
+      "subtopic": "What we see in the day",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name things we see in the day."
+      ],
+      "successCriteria": [
+        "Names the sun and one other daytime thing",
+        "Says day"
+      ],
+      "previousKnowledge": "Children can say light and dark and have made shadows.",
+      "vocabulary": [
+        "day",
+        "night",
+        "sun",
+        "moon",
+        "stars",
+        "sleep"
+      ],
+      "resources": [
+        "A yellow sheet",
+        "Pictures of the sun, a bird, a school and children playing",
+        "A basket"
+      ],
+      "starter": "Lay a yellow sheet and say \"This is the day. The sun shines. We play and learn.\"",
+      "teacherActivities": [
+        "Show each picture and say what we do or see in the day.",
+        "Say \"In the day we see the sun and the birds.\"",
+        "Act out waking up, going to school and playing.",
+        "Ask \"What do we see in the day?\""
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children point to the sun and the bird.",
+        "Children act out each part of the day.",
+        "Child points or says a word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture and say what we do or see in the day. Children: Children look and say the names.",
+        "Step 2. Teacher: Say \"In the day we see the sun and the birds.\" Children: Children point to the sun and the bird.",
+        "Step 3. Teacher: Act out waking up, going to school and playing. Children: Children act out each part of the day.",
+        "Step 4. Teacher: Ask \"What do we see in the day?\" Children: Child points or says a word."
+      ],
+      "practical": {
+        "title": "Day pictures",
+        "steps": [
+          "Lay pictures on a yellow sheet.",
+          "Say what we see and do in the day.",
+          "Act out a daytime action."
+        ],
+        "safety": "Keep the floor clear for acting and never look at the sun. Supervise movement."
+      },
+      "differentiation": {
+        "support": "Point to the picture and say the word together.",
+        "extension": "Ask the child to name three things they do in the day."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What shines in the day?",
+            "expected": "The sun."
+          },
+          {
+            "question": "What do we do in the day?",
+            "expected": "Play and learn."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names things in the day",
+        "Says the word day"
+      ],
+      "conclusion": "Wave to the sun and say \"Hello, day.\"",
+      "homeConnection": "Talk about what you do during the day with your child.",
+      "teacherReflection": [
+        "Which children could show \"name things we see in the day\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DAY",
+          "SUN"
+        ],
+        "pictures": [
+          "The sun shining",
+          "Children playing"
+        ],
+        "songOrRhyme": "Good morning, sun. It is time for the day."
+      },
+      "activities": [
+        "Day pictures"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W04-D02",
+      "title": "What we see at night",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Light",
+      "subtopic": "What we see at night",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name things we see at night."
+      ],
+      "successCriteria": [
+        "Names the moon and stars",
+        "Says night"
+      ],
+      "previousKnowledge": "Children can say light and dark and have made shadows.",
+      "vocabulary": [
+        "day",
+        "night",
+        "sun",
+        "moon",
+        "stars",
+        "sleep"
+      ],
+      "resources": [
+        "A dark blue sheet",
+        "Pictures of the moon, stars, a bed and a sleeping child",
+        "Paper stars"
+      ],
+      "starter": "Lay a dark blue sheet and say \"This is the night. We see the moon and stars.\"",
+      "teacherActivities": [
+        "Show each picture and say what we see at night.",
+        "Put paper stars on the dark sheet and count them.",
+        "Say \"At night it is dark and quiet.\"",
+        "Ask \"What do we see at night?\""
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children place stars and count.",
+        "Children say shh and whisper.",
+        "Child points or says a word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture and say what we see at night. Children: Children look and say the names.",
+        "Step 2. Teacher: Put paper stars on the dark sheet and count them. Children: Children place stars and count.",
+        "Step 3. Teacher: Say \"At night it is dark and quiet.\" Children: Children say shh and whisper.",
+        "Step 4. Teacher: Ask \"What do we see at night?\" Children: Child points or says a word."
+      ],
+      "practical": {
+        "title": "Night sky",
+        "steps": [
+          "Lay a dark blue sheet.",
+          "Put stars and a moon on it.",
+          "Whisper goodnight."
+        ],
+        "safety": "Do not make the room too dark and never frighten children about the night. Stay close to every child."
+      },
+      "differentiation": {
+        "support": "Place the stars together and say the word.",
+        "extension": "Ask the child to say what the moon looks like."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we see at night?",
+            "expected": "The moon and stars."
+          },
+          {
+            "question": "Is it light or dark at night?",
+            "expected": "Dark."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names things at night",
+        "Says the word night"
+      ],
+      "conclusion": "Whisper \"Goodnight\" and sit quietly.",
+      "homeConnection": "Look at the moon and stars together at night.",
+      "teacherReflection": [
+        "Which children could show \"name things we see at night\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "NIGHT",
+          "MOON",
+          "STARS"
+        ],
+        "pictures": [
+          "The moon",
+          "Stars in the sky"
+        ]
+      },
+      "activities": [
+        "Night sky"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W04-D03",
+      "title": "Day or night?",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Light",
+      "subtopic": "What we see in the day",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort pictures into day and night."
+      ],
+      "successCriteria": [
+        "Puts a picture on the correct sheet",
+        "Says day or night"
+      ],
+      "previousKnowledge": "Children can say light and dark and have made shadows.",
+      "vocabulary": [
+        "day",
+        "night",
+        "sun",
+        "moon",
+        "stars",
+        "sleep"
+      ],
+      "resources": [
+        "A yellow sheet and a dark blue sheet",
+        "Eight pictures",
+        "A basket"
+      ],
+      "starter": "Show the two sheets and say \"One is for day. One is for night.\"",
+      "teacherActivities": [
+        "Pick up a picture of the sun and put it on the day sheet.",
+        "Pick up a picture of the moon and put it on the night sheet.",
+        "Let each child pick a picture and choose a sheet.",
+        "Check each sheet together."
+      ],
+      "learnerActivities": [
+        "Children watch and say day.",
+        "Children watch and say night.",
+        "Child sorts the picture.",
+        "Children say day or night."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pick up a picture of the sun and put it on the day sheet. Children: Children watch and say day.",
+        "Step 2. Teacher: Pick up a picture of the moon and put it on the night sheet. Children: Children watch and say night.",
+        "Step 3. Teacher: Let each child pick a picture and choose a sheet. Children: Child sorts the picture.",
+        "Step 4. Teacher: Check each sheet together. Children: Children say day or night."
+      ],
+      "practical": {
+        "title": "Day and night sort",
+        "steps": [
+          "Put two sheets on the floor.",
+          "Each child picks a picture.",
+          "Put it on the day or night sheet."
+        ],
+        "safety": "Use large pictures and keep the floor clear. Supervise turns."
+      },
+      "differentiation": {
+        "support": "Offer two pictures and say the time first.",
+        "extension": "Ask the child to add one more picture to each sheet."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the sun come out in the day?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Do stars come out at night?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts pictures into day and night",
+        "Says day or night"
+      ],
+      "conclusion": "Put the sheets away and say \"Day and night.\"",
+      "homeConnection": "Talk about day and night activities at home.",
+      "teacherReflection": [
+        "Which children could show \"sort pictures into day and night\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DAY",
+          "NIGHT"
+        ],
+        "pictures": [
+          "A day sheet",
+          "A night sheet"
+        ]
+      },
+      "activities": [
+        "Day and night sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W04-D04",
+      "title": "Sleep and rest",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Light",
+      "subtopic": "Sleep and rest",
+      "dayType": "apply",
+      "objectives": [
+        "Children will say that we sleep at night and that sleep helps us grow."
+      ],
+      "successCriteria": [
+        "Says we sleep at night",
+        "Acts out getting ready for bed"
+      ],
+      "previousKnowledge": "Children can say light and dark and have made shadows.",
+      "vocabulary": [
+        "day",
+        "night",
+        "sun",
+        "moon",
+        "stars",
+        "sleep"
+      ],
+      "resources": [
+        "A soft toy and a blanket",
+        "Pictures of washing, pyjamas, a story and sleeping",
+        "A quiet corner"
+      ],
+      "starter": "Hold a soft toy and say \"Teddy is tired. It is night. It is time to sleep.\"",
+      "teacherActivities": [
+        "Show pictures of the bedtime steps and say them in order.",
+        "Act out washing, putting on pyjamas and a story.",
+        "Put Teddy to bed and say \"Sleep helps us grow.\"",
+        "Rest quietly for one minute."
+      ],
+      "learnerActivities": [
+        "Children look and say the steps.",
+        "Children act each step.",
+        "Children whisper and tuck Teddy in.",
+        "Children lie down quietly."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show pictures of the bedtime steps and say them in order. Children: Children look and say the steps.",
+        "Step 2. Teacher: Act out washing, putting on pyjamas and a story. Children: Children act each step.",
+        "Step 3. Teacher: Put Teddy to bed and say \"Sleep helps us grow.\" Children: Children whisper and tuck Teddy in.",
+        "Step 4. Teacher: Rest quietly for one minute. Children: Children lie down quietly."
+      ],
+      "practical": {
+        "title": "Bedtime for Teddy",
+        "steps": [
+          "Make a bed for Teddy with a blanket.",
+          "Act out each bedtime step.",
+          "Rest quietly together."
+        ],
+        "safety": "Keep the area calm and ensure each child can see an adult at all times. Do not make children lie down if they are anxious."
+      },
+      "differentiation": {
+        "support": "Act out the steps together beside the child.",
+        "extension": "Ask the child to tell their own bedtime steps."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "When do we sleep?",
+            "expected": "At night."
+          },
+          {
+            "question": "What helps us grow?",
+            "expected": "Sleep and food."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says that we sleep at night",
+        "Acts out bedtime steps"
+      ],
+      "conclusion": "Whisper \"Goodnight, Teddy\" and sit up.",
+      "homeConnection": "Talk about your child’s bedtime routine and say goodnight.",
+      "teacherReflection": [
+        "Which children could show \"say that we sleep at night and that sleep helps us grow\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SLEEP",
+          "REST",
+          "BED"
+        ],
+        "pictures": [
+          "A child sleeping",
+          "A teddy in bed"
+        ]
+      },
+      "activities": [
+        "Bedtime for Teddy"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W04-D05",
+      "title": "Week 4 day and night check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Light",
+      "subtopic": "What we see at night",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child sorts day and night and talks about sleep."
+      ],
+      "successCriteria": [
+        "Sorts pictures into day and night",
+        "Says we sleep at night"
+      ],
+      "previousKnowledge": "Children can say light and dark and have made shadows.",
+      "vocabulary": [
+        "day",
+        "night",
+        "sun",
+        "moon",
+        "stars",
+        "sleep"
+      ],
+      "resources": [
+        "Day and night pictures",
+        "Soft toy",
+        "Class record sheet"
+      ],
+      "starter": "Sing the day and night song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: day, night and sleep.",
+        "At each station ask \"Is it day or night?\" and \"What do we do?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: day, night and sleep. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"Is it day or night?\" and \"What do we do?\" Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Day and night stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use soft toys and large pictures."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two pictures.",
+        "extension": "Ask a confident child to tell a friend about day and night."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: sorts pictures into day and night; names things seen at night; says we sleep at night.",
+        "questions": [
+          {
+            "question": "Is the sun out at night?",
+            "expected": "No."
+          },
+          {
+            "question": "What do we do at night?",
+            "expected": "Sleep."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Sorts day and night"
+      ],
+      "conclusion": "Whisper goodnight and wave goodbye.",
+      "homeConnection": "Talk about day and night at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child sorts day and night and talks about sleep\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Day and night"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Day and night stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

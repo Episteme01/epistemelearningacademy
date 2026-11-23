@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SCI-T3-W02",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 3,
+  "week": 2,
+  "title": "Rolling and sliding",
+  "topic": "Movement",
+  "subtopics": [
+    "Things that roll",
+    "Things that slide",
+    "Ramps and slopes"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will test objects to see which roll and which slide.",
+    "Children will roll a ball or car down a ramp."
+  ],
+  "vocabulary": [
+    "roll",
+    "slide",
+    "ball",
+    "ramp",
+    "fast",
+    "slow"
+  ],
+  "content": "Finding which things roll and which things slide, and rolling a ball or car down a ramp.",
+  "teachingActivities": "Let children test objects freely; name each test result; use a ramp made from a board on a low box; keep the slope gentle; let children predict by pointing.",
+  "learnerActivities": "Test objects to see which roll and which slide and roll a car down a ramp.",
+  "resources": [
+    "A smooth board ramp",
+    "A ball, a toy car, a block, a tin and a cup",
+    "Cones or a finish line",
+    "A tray"
+  ],
+  "assessment": "Observe whether each child says roll or slide after trying and rolls a car down a ramp.",
+  "expectedOutcomes": [
+    "Says roll or slide after trying.",
+    "Rolls a car down a ramp."
+  ],
+  "crossCurricular": [
+    "Numeracy: fast and slow",
+    "Physical Development: rolling and sliding",
+    "Literacy: describing words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W02-D01",
+      "title": "Things that roll",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 2,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Movement",
+      "subtopic": "Things that roll",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will find things that roll."
+      ],
+      "successCriteria": [
+        "Rolls a ball and a tin",
+        "Says roll"
+      ],
+      "previousKnowledge": "Children can push and pull objects and say the words.",
+      "vocabulary": [
+        "roll",
+        "slide",
+        "ball",
+        "ramp",
+        "fast",
+        "slow"
+      ],
+      "resources": [
+        "A ball, a tin and a toy wheel",
+        "A flat floor space",
+        "A block"
+      ],
+      "starter": "Roll a ball across the floor and say \"Roll, roll, roll. The ball rolls.\"",
+      "teacherActivities": [
+        "Roll the ball, the tin and the wheel one at a time and say \"Roll.\"",
+        "Try to roll a block and see what happens.",
+        "Let each child roll an object.",
+        "Ask \"What rolls?\" and point to objects."
+      ],
+      "learnerActivities": [
+        "Children watch and say roll.",
+        "Children watch it stop.",
+        "Child rolls an object and says roll.",
+        "Child points to rolling things."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Roll the ball, the tin and the wheel one at a time and say \"Roll.\" Children: Children watch and say roll.",
+        "Step 2. Teacher: Try to roll a block and see what happens. Children: Children watch it stop.",
+        "Step 3. Teacher: Let each child roll an object. Children: Child rolls an object and says roll.",
+        "Step 4. Teacher: Ask \"What rolls?\" and point to objects. Children: Child points to rolling things."
+      ],
+      "practical": {
+        "title": "Roll it",
+        "steps": [
+          "Sit in a circle and roll objects to a friend.",
+          "Say roll as it goes.",
+          "Try rolling a block."
+        ],
+        "safety": "Sit with legs apart and roll objects slowly. Use soft items and clear the floor of obstacles."
+      },
+      "differentiation": {
+        "support": "Roll the ball together and watch it go.",
+        "extension": "Ask the child to find another thing that rolls."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the ball roll?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Does the block roll?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says roll for things that roll",
+        "Finds objects that roll"
+      ],
+      "conclusion": "Roll the ball slowly to each child and say goodbye.",
+      "homeConnection": "Roll different things at home and see which roll.",
+      "teacherReflection": [
+        "Which children could show \"find things that roll\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ROLL",
+          "BALL"
+        ],
+        "pictures": [
+          "A rolling ball",
+          "A tin on its side"
+        ],
+        "songOrRhyme": "Roll, roll, roll the ball. Roll, roll, roll."
+      },
+      "activities": [
+        "Roll it"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W02-D02",
+      "title": "Things that slide",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 2,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Movement",
+      "subtopic": "Things that slide",
+      "dayType": "explore",
+      "objectives": [
+        "Children will find things that slide."
+      ],
+      "successCriteria": [
+        "Slides an object on a smooth surface",
+        "Says slide"
+      ],
+      "previousKnowledge": "Children can push and pull objects and say the words.",
+      "vocabulary": [
+        "roll",
+        "slide",
+        "ball",
+        "ramp",
+        "fast",
+        "slow"
+      ],
+      "resources": [
+        "A block, a book and a cloth on a smooth tray",
+        "A smooth board",
+        "A playground slide if available"
+      ],
+      "starter": "Slide a block along the smooth board and say \"Slide, slide, slide.\"",
+      "teacherActivities": [
+        "Slide objects along a smooth surface and say \"Slide.\"",
+        "Try a rough surface and see that it is harder to slide.",
+        "Let each child slide an object.",
+        "Go to the playground slide with an adult and slide down safely."
+      ],
+      "learnerActivities": [
+        "Children watch and say slide.",
+        "Children watch and say stop.",
+        "Child slides an object.",
+        "Child slides down and says slide."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Slide objects along a smooth surface and say \"Slide.\" Children: Children watch and say slide.",
+        "Step 2. Teacher: Try a rough surface and see that it is harder to slide. Children: Children watch and say stop.",
+        "Step 3. Teacher: Let each child slide an object. Children: Child slides an object.",
+        "Step 4. Teacher: Go to the playground slide with an adult and slide down safely. Children: Child slides down and says slide."
+      ],
+      "practical": {
+        "title": "Slide it",
+        "steps": [
+          "Put a smooth board on a table.",
+          "Slide objects along it.",
+          "Compare with a rough mat."
+        ],
+        "safety": "Supervise the playground slide closely and let children slide one at a time. Keep the board low and steady."
+      },
+      "differentiation": {
+        "support": "Slide the object together and say slide.",
+        "extension": "Ask the child to find which surface is best for sliding."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the block slide?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Is the rough mat good for sliding?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says slide for things that slide",
+        "Slides an object"
+      ],
+      "conclusion": "Put the objects away and say \"Slide, slide.\"",
+      "homeConnection": "Slide a toy on a smooth floor or table at home.",
+      "teacherReflection": [
+        "Which children could show \"find things that slide\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SLIDE",
+          "SMOOTH"
+        ],
+        "pictures": [
+          "A block sliding",
+          "A child on a slide"
+        ]
+      },
+      "activities": [
+        "Slide it"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W02-D03",
+      "title": "Roll or slide?",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 2,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Movement",
+      "subtopic": "Things that roll",
+      "dayType": "practise",
+      "objectives": [
+        "Children will test objects and decide if they roll or slide."
+      ],
+      "successCriteria": [
+        "Tests an object",
+        "Says roll or slide"
+      ],
+      "previousKnowledge": "Children can push and pull objects and say the words.",
+      "vocabulary": [
+        "roll",
+        "slide",
+        "ball",
+        "ramp",
+        "fast",
+        "slow"
+      ],
+      "resources": [
+        "Six objects: ball, tin, cup, block, book, toy car",
+        "Two hoops labelled roll and slide"
+      ],
+      "starter": "Show a tin and a block and ask \"Which one will roll? Let us try.\"",
+      "teacherActivities": [
+        "Hold up an object and ask for a guess.",
+        "Test the object on the floor.",
+        "Put the object in the roll or slide hoop.",
+        "Check each hoop together."
+      ],
+      "learnerActivities": [
+        "Children guess with a word or point.",
+        "Children watch and say roll or slide.",
+        "Child places the object in the right hoop.",
+        "Children say roll or slide for each object."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Hold up an object and ask for a guess. Children: Children guess with a word or point.",
+        "Step 2. Teacher: Test the object on the floor. Children: Children watch and say roll or slide.",
+        "Step 3. Teacher: Put the object in the roll or slide hoop. Children: Child places the object in the right hoop.",
+        "Step 4. Teacher: Check each hoop together. Children: Children say roll or slide for each object."
+      ],
+      "practical": {
+        "title": "Test and sort",
+        "steps": [
+          "Choose an object and guess.",
+          "Test it on the floor.",
+          "Sort it into roll or slide hoops."
+        ],
+        "safety": "Use large objects only and keep the floor clear. Supervise sharing."
+      },
+      "differentiation": {
+        "support": "Offer two objects and test them together.",
+        "extension": "Ask the child to find a new object and test it."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the tin roll?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Does the book roll?",
+            "expected": "No, it slides."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts objects into roll and slide",
+        "Tests objects with support"
+      ],
+      "conclusion": "Put the objects away and say \"Roll and slide.\"",
+      "homeConnection": "Test which things roll and which slide at home.",
+      "teacherReflection": [
+        "Which children could show \"test objects and decide if they roll or slide\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ROLL",
+          "SLIDE"
+        ],
+        "pictures": [
+          "Two hoops"
+        ]
+      },
+      "activities": [
+        "Test and sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W02-D04",
+      "title": "Ramp rolling",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 2,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Movement",
+      "subtopic": "Ramps and slopes",
+      "dayType": "apply",
+      "objectives": [
+        "Children will roll a ball or a car down a ramp."
+      ],
+      "successCriteria": [
+        "Rolls a car down a ramp",
+        "Says fast or slow with support"
+      ],
+      "previousKnowledge": "Children can push and pull objects and say the words.",
+      "vocabulary": [
+        "roll",
+        "slide",
+        "ball",
+        "ramp",
+        "fast",
+        "slow"
+      ],
+      "resources": [
+        "A smooth board ramp on a low box",
+        "A toy car and a ball",
+        "A cone at the finish"
+      ],
+      "starter": "Roll a ball down a ramp and say \"Down the ramp it goes! Fast, fast.\"",
+      "teacherActivities": [
+        "Set up a gentle ramp and roll a ball down.",
+        "Let each child roll a car down the ramp.",
+        "Make the ramp steeper and then flatter and see what changes.",
+        "Ask \"Which is faster, the car or the block?\""
+      ],
+      "learnerActivities": [
+        "Children watch and say fast.",
+        "Child rolls the car and watches.",
+        "Children watch and say fast or slow.",
+        "Child points to the faster one."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up a gentle ramp and roll a ball down. Children: Children watch and say fast.",
+        "Step 2. Teacher: Let each child roll a car down the ramp. Children: Child rolls the car and watches.",
+        "Step 3. Teacher: Make the ramp steeper and then flatter and see what changes. Children: Children watch and say fast or slow.",
+        "Step 4. Teacher: Ask \"Which is faster, the car or the block?\" Children: Child points to the faster one."
+      ],
+      "practical": {
+        "title": "Ramp race",
+        "steps": [
+          "Set up a low ramp.",
+          "Roll cars and balls down.",
+          "See which goes fastest."
+        ],
+        "safety": "Keep the ramp low and steady. Put a cone or a box at the end so objects do not roll away. Keep fingers out of the way."
+      },
+      "differentiation": {
+        "support": "Roll the car together and watch it go.",
+        "extension": "Ask the child to guess which toy will go the furthest."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Does the car go fast or slow?",
+            "expected": "Fast."
+          },
+          {
+            "question": "What happens on a flat ramp?",
+            "expected": "It goes slowly."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Rolls a car down a ramp",
+        "Says fast or slow"
+      ],
+      "conclusion": "Put the ramp away and say \"Down, down, down.\"",
+      "homeConnection": "Make a ramp with a book and roll a toy car down it.",
+      "teacherReflection": [
+        "Which children could show \"roll a ball or a car down a ramp\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RAMP",
+          "FAST",
+          "SLOW"
+        ],
+        "pictures": [
+          "A ball on a ramp",
+          "A toy car on a ramp"
+        ]
+      },
+      "activities": [
+        "Ramp race"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W02-D05",
+      "title": "Week 2 roll and slide check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 2,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Movement",
+      "subtopic": "Ramps and slopes",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child tests objects and uses roll and slide words."
+      ],
+      "successCriteria": [
+        "Says roll or slide after trying",
+        "Rolls a car down a ramp"
+      ],
+      "previousKnowledge": "Children can push and pull objects and say the words.",
+      "vocabulary": [
+        "roll",
+        "slide",
+        "ball",
+        "ramp",
+        "fast",
+        "slow"
+      ],
+      "resources": [
+        "Objects",
+        "A ramp",
+        "Class record sheet"
+      ],
+      "starter": "Sing the roll and slide song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: roll, slide and ramp.",
+        "At each station ask \"Roll or slide?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: roll, slide and ramp. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"Roll or slide?\" Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Roll and slide stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Keep ramps low."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one object.",
+        "extension": "Ask a confident child to explain roll and slide to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says roll or slide; tests objects; rolls a car down a ramp.",
+        "questions": [
+          {
+            "question": "Does it roll or slide?",
+            "expected": "Roll or slide."
+          },
+          {
+            "question": "Can you roll it down the ramp?",
+            "expected": "Child rolls it."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Tests and describes movement"
+      ],
+      "conclusion": "Wave goodbye with a roll and a slide.",
+      "homeConnection": "Roll and slide toys at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child tests objects and uses roll and slide words\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Roll and slide"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Roll and slide stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

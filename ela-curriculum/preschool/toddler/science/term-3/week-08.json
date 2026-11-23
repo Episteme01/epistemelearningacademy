@@ -1,0 +1,608 @@
+{
+  "id": "ELA-PS-TOD-SCI-T3-W08",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 3,
+  "week": 8,
+  "title": "Keeping clean and healthy",
+  "topic": "Health",
+  "subtopics": [
+    "Washing hands",
+    "Brushing teeth",
+    "Healthy habits"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will wash hands and say when we wash them.",
+    "Children will practise brushing teeth with a model."
+  ],
+  "vocabulary": [
+    "wash",
+    "soap",
+    "clean",
+    "teeth",
+    "germs",
+    "towel"
+  ],
+  "content": "Washing hands, brushing teeth with a model, and healthy habits.",
+  "teachingActivities": "Use real soap and water for hand washing; use a model mouth and a big toothbrush for teeth; sing a short washing song; model each step; make hand washing part of the daily routine.",
+  "learnerActivities": "Wash hands with soap, practise brushing teeth with a model and name healthy habits.",
+  "resources": [
+    "A basin, soap and towels",
+    "A teeth model and a large toothbrush",
+    "Pictures of healthy habits",
+    "A mirror",
+    "Glitter or flour to show germs"
+  ],
+  "assessment": "Observe whether each child washes hands with soap with support and says one healthy habit.",
+  "expectedOutcomes": [
+    "Washes hands with soap with support.",
+    "Says one healthy habit."
+  ],
+  "crossCurricular": [
+    "Social Habits: hygiene routines",
+    "Literacy: washing song",
+    "Physical Development: self-care"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W08-D01",
+      "title": "Washing hands",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 8,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Health",
+      "subtopic": "Washing hands",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will wash their hands with soap and say when we wash them."
+      ],
+      "successCriteria": [
+        "Washes hands with soap",
+        "Says one time we wash hands"
+      ],
+      "previousKnowledge": "Children have explored the senses, food and caring and have practised looking after living things.",
+      "vocabulary": [
+        "wash",
+        "soap",
+        "clean",
+        "teeth",
+        "germs",
+        "towel"
+      ],
+      "resources": [
+        "A basin of water",
+        "Soap and towels",
+        "A picture of times to wash hands"
+      ],
+      "starter": "Show your dirty hands and say \"My hands are dirty. We need to wash them.\"",
+      "teacherActivities": [
+        "Show how to wet hands, rub with soap and rinse.",
+        "Sing a washing song while rubbing: \"Rub, rub, rub your hands.\"",
+        "Dry hands on a clean towel.",
+        "Ask \"When do we wash hands?\""
+      ],
+      "learnerActivities": [
+        "Children watch and copy the actions.",
+        "Children sing and rub.",
+        "Child dries hands.",
+        "Child says after toilet or before eating."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to wet hands, rub with soap and rinse. Children: Children watch and copy the actions.",
+        "Step 2. Teacher: Sing a washing song while rubbing: \"Rub, rub, rub your hands.\" Children: Children sing and rub.",
+        "Step 3. Teacher: Dry hands on a clean towel. Children: Child dries hands.",
+        "Step 4. Teacher: Ask \"When do we wash hands?\" Children: Child says after toilet or before eating."
+      ],
+      "practical": {
+        "title": "Hand washing",
+        "steps": [
+          "Set up a basin, soap and towels.",
+          "Wash hands step by step.",
+          "Dry hands."
+        ],
+        "safety": "Use mild soap and keep water shallow. Wipe spills quickly and supervise closely. Use a clean towel for each child."
+      },
+      "differentiation": {
+        "support": "Wash hands together with a hand over the child’s hand.",
+        "extension": "Ask the child to teach a friend how to wash hands."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Why do we wash hands?",
+            "expected": "To get clean and stay healthy."
+          },
+          {
+            "question": "When do we wash hands?",
+            "expected": "Before eating and after the toilet."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Washes hands with soap with support",
+        "Says when to wash hands"
+      ],
+      "conclusion": "Show clean hands and say \"Clean hands.\"",
+      "homeConnection": "Wash hands together at home before meals and after the toilet.",
+      "teacherReflection": [
+        "Which children could show \"wash their hands with soap and say when we wash them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WASH",
+          "SOAP",
+          "CLEAN"
+        ],
+        "pictures": [
+          "Washing hands",
+          "A bar of soap",
+          "Clean hands"
+        ],
+        "songOrRhyme": "Rub, rub, rub your hands. Wash, wash, wash away."
+      },
+      "activities": [
+        "Hand washing"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W08-D02",
+      "title": "Brushing teeth",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 8,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Health",
+      "subtopic": "Brushing teeth",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will practise brushing teeth with a model."
+      ],
+      "successCriteria": [
+        "Brushes the model teeth",
+        "Says that we brush teeth"
+      ],
+      "previousKnowledge": "Children have explored the senses, food and caring and have practised looking after living things.",
+      "vocabulary": [
+        "wash",
+        "soap",
+        "clean",
+        "teeth",
+        "germs",
+        "towel"
+      ],
+      "resources": [
+        "A large teeth model",
+        "A big toothbrush",
+        "A mirror",
+        "Pictures of morning and night"
+      ],
+      "starter": "Show the teeth model and say \"These are teeth. We brush them to keep them clean.\"",
+      "teacherActivities": [
+        "Show how to brush the model teeth up and down and round.",
+        "Let each child brush the model teeth.",
+        "Look at your own teeth in the mirror.",
+        "Say \"We brush in the morning and at night.\""
+      ],
+      "learnerActivities": [
+        "Children watch and copy in the air.",
+        "Child brushes the model.",
+        "Child looks and says teeth.",
+        "Children say morning and night."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to brush the model teeth up and down and round. Children: Children watch and copy in the air.",
+        "Step 2. Teacher: Let each child brush the model teeth. Children: Child brushes the model.",
+        "Step 3. Teacher: Look at your own teeth in the mirror. Children: Child looks and says teeth.",
+        "Step 4. Teacher: Say \"We brush in the morning and at night.\" Children: Children say morning and night."
+      ],
+      "practical": {
+        "title": "Brush the teeth",
+        "steps": [
+          "Look at the model teeth.",
+          "Brush with a big brush.",
+          "Look at your own teeth in a mirror."
+        ],
+        "safety": "Use only the model for brushing in class unless parents have agreed to supervised brushing with personal brushes. Never share toothbrushes."
+      },
+      "differentiation": {
+        "support": "Brush the model together.",
+        "extension": "Ask the child to say how long we should brush."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we brush?",
+            "expected": "Our teeth."
+          },
+          {
+            "question": "When do we brush?",
+            "expected": "Morning and night."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Practises brushing teeth",
+        "Says that we brush teeth"
+      ],
+      "conclusion": "Smile and show your clean teeth.",
+      "homeConnection": "Brush teeth together morning and night at home.",
+      "teacherReflection": [
+        "Which children could show \"practise brushing teeth with a model\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TEETH",
+          "BRUSH"
+        ],
+        "pictures": [
+          "Teeth",
+          "A toothbrush"
+        ]
+      },
+      "activities": [
+        "Brush the teeth"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W08-D03",
+      "title": "Healthy habits",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 8,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Health",
+      "subtopic": "Healthy habits",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will name healthy habits."
+      ],
+      "successCriteria": [
+        "Names two healthy habits",
+        "Acts out a healthy habit"
+      ],
+      "previousKnowledge": "Children have explored the senses, food and caring and have practised looking after living things.",
+      "vocabulary": [
+        "wash",
+        "soap",
+        "clean",
+        "teeth",
+        "germs",
+        "towel"
+      ],
+      "resources": [
+        "Pictures: washing, brushing, sleeping, eating well, playing outside, drinking water",
+        "A mat"
+      ],
+      "starter": "Show a picture of washing hands and say \"This is a healthy habit. It keeps us well.\"",
+      "teacherActivities": [
+        "Show each picture and say the healthy habit.",
+        "Act out each habit.",
+        "Ask \"How do we stay healthy?\"",
+        "Let each child choose a picture and act it."
+      ],
+      "learnerActivities": [
+        "Children look and say the habit.",
+        "Children copy the actions.",
+        "Child points to a picture.",
+        "Child acts and friends guess."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture and say the healthy habit. Children: Children look and say the habit.",
+        "Step 2. Teacher: Act out each habit. Children: Children copy the actions.",
+        "Step 3. Teacher: Ask \"How do we stay healthy?\" Children: Child points to a picture.",
+        "Step 4. Teacher: Let each child choose a picture and act it. Children: Child acts and friends guess."
+      ],
+      "practical": {
+        "title": "Healthy habits",
+        "steps": [
+          "Put pictures on the floor.",
+          "Act out each habit.",
+          "Say the name."
+        ],
+        "safety": "Keep the floor clear and supervise movement. Be sensitive to families’ different circumstances."
+      },
+      "differentiation": {
+        "support": "Act together and say the habit.",
+        "extension": "Ask the child to say which habit they do every day."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How do we stay healthy?",
+            "expected": "Wash, sleep, eat well and play."
+          },
+          {
+            "question": "What do we drink?",
+            "expected": "Water."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names healthy habits",
+        "Acts out healthy habits"
+      ],
+      "conclusion": "Say \"I am healthy\" together and wave.",
+      "homeConnection": "Talk about healthy habits at home each day.",
+      "teacherReflection": [
+        "Which children could show \"name healthy habits\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WASH",
+          "SLEEP",
+          "EAT",
+          "PLAY"
+        ],
+        "pictures": [
+          "Washing hands",
+          "Sleeping",
+          "Eating",
+          "Playing outside"
+        ]
+      },
+      "activities": [
+        "Healthy habits"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W08-D04",
+      "title": "Germs and clean hands",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 8,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Health",
+      "subtopic": "Washing hands",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will see why washing hands with soap matters."
+      ],
+      "successCriteria": [
+        "Sees that soap removes dirt",
+        "Says clean or dirty"
+      ],
+      "previousKnowledge": "Children have explored the senses, food and caring and have practised looking after living things.",
+      "vocabulary": [
+        "wash",
+        "soap",
+        "clean",
+        "teeth",
+        "germs",
+        "towel"
+      ],
+      "resources": [
+        "Flour or a little washable paint on hands to show dirt",
+        "A basin, soap and water",
+        "A mirror"
+      ],
+      "starter": "Show hands with a little flour and say \"These hands are dirty. How can we clean them?\"",
+      "teacherActivities": [
+        "Wash one hand with water only and one with soap.",
+        "Say \"Soap helps to take away dirt and germs.\"",
+        "Let each child wash their own floury hands.",
+        "Say \"Clean hands help us stay healthy.\""
+      ],
+      "learnerActivities": [
+        "Children watch what happens.",
+        "Children say soap.",
+        "Child washes and sees clean hands.",
+        "Children say the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Wash one hand with water only and one with soap. Children: Children watch what happens.",
+        "Step 2. Teacher: Say \"Soap helps to take away dirt and germs.\" Children: Children say soap.",
+        "Step 3. Teacher: Let each child wash their own floury hands. Children: Child washes and sees clean hands.",
+        "Step 4. Teacher: Say \"Clean hands help us stay healthy.\" Children: Children say the sentence."
+      ],
+      "practical": {
+        "title": "Clean hands test",
+        "steps": [
+          "Put a little flour on hands.",
+          "Wash with water and then with soap.",
+          "Compare hands."
+        ],
+        "safety": "Use only a little washable flour or paint and mild soap. Keep water shallow and wipe spills."
+      },
+      "differentiation": {
+        "support": "Wash together and name each step.",
+        "extension": "Ask the child to say why soap is better than water alone."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What takes away the dirt?",
+            "expected": "Soap and water."
+          },
+          {
+            "question": "Are your hands clean?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sees that soap cleans hands",
+        "Says clean and dirty"
+      ],
+      "conclusion": "Show your clean hands and cheer.",
+      "homeConnection": "Make hand washing a family routine.",
+      "teacherReflection": [
+        "Which children could show \"see why washing hands with soap matters\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CLEAN",
+          "DIRTY"
+        ],
+        "pictures": [
+          "Dirty hands",
+          "Clean hands"
+        ]
+      },
+      "activities": [
+        "Clean hands test"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W08-D05",
+      "title": "Week 8 health check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 8,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Health",
+      "subtopic": "Healthy habits",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child practises hygiene."
+      ],
+      "successCriteria": [
+        "Washes hands with soap with support",
+        "Says one healthy habit"
+      ],
+      "previousKnowledge": "Children have explored the senses, food and caring and have practised looking after living things.",
+      "vocabulary": [
+        "wash",
+        "soap",
+        "clean",
+        "teeth",
+        "germs",
+        "towel"
+      ],
+      "resources": [
+        "Basin, soap and towels",
+        "Teeth model",
+        "Class record sheet"
+      ],
+      "starter": "Sing the washing song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: hand washing, teeth and healthy habits.",
+        "At each station ask \"What do we do?\" and \"Why?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: hand washing, teeth and healthy habits. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What do we do?\" and \"Why?\" Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Health stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and wipe spills at once. Use mild soap and clean towels."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to explain hand washing to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: washes hands with soap; practises brushing; names healthy habits.",
+        "questions": [
+          {
+            "question": "When do we wash hands?",
+            "expected": "Before eating and after the toilet."
+          },
+          {
+            "question": "What do we brush?",
+            "expected": "Our teeth."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Practises hygiene routines"
+      ],
+      "conclusion": "Show clean hands and wave goodbye.",
+      "homeConnection": "Practise hygiene routines every day at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child practises hygiene\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Health"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Health stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

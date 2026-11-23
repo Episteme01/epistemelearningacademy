@@ -1,0 +1,604 @@
+{
+  "id": "ELA-PS-TOD-SCI-T3-W03",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 3,
+  "week": 3,
+  "title": "Light and shadow",
+  "topic": "Light",
+  "subtopics": [
+    "Light and dark",
+    "Making shadows",
+    "Shadow puppets"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will notice that light comes from the sun and a torch.",
+    "Children will make and watch shadows."
+  ],
+  "vocabulary": [
+    "light",
+    "dark",
+    "shadow",
+    "sun",
+    "torch",
+    "shade"
+  ],
+  "content": "Noticing light and dark, making shadows with the sun and a torch, and shadow puppets.",
+  "teachingActivities": "Never let children look at the sun; use a torch with a firm cover and shine it on a wall; darken the room only as much as needed; stay close in dim light; use simple words.",
+  "learnerActivities": "Say light or dark for a place, make a shadow and play with shadow puppets.",
+  "resources": [
+    "A torch",
+    "A white wall or sheet",
+    "A dark box or tent",
+    "Cardboard shapes on sticks",
+    "Chalk for outdoor shadows"
+  ],
+  "assessment": "Observe whether each child says light or dark for a place and makes a shadow with a hand or toy.",
+  "expectedOutcomes": [
+    "Says light or dark for a place.",
+    "Makes a shadow with a hand or toy."
+  ],
+  "crossCurricular": [
+    "Literacy: stories with shadows",
+    "Creative Development: puppets",
+    "Understanding the World: sun and sky"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W03-D01",
+      "title": "Light and dark",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 3,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Light",
+      "subtopic": "Light and dark",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say if a place is light or dark."
+      ],
+      "successCriteria": [
+        "Says light or dark",
+        "Points to a source of light"
+      ],
+      "previousKnowledge": "Children can describe movement and test objects with simple words.",
+      "vocabulary": [
+        "light",
+        "dark",
+        "shadow",
+        "sun",
+        "torch",
+        "shade"
+      ],
+      "resources": [
+        "A torch",
+        "A dark box or tent",
+        "A picture of the sun and a lamp"
+      ],
+      "starter": "Switch off the room light a little and say \"It is dark.\" Switch on a torch and say \"Now there is light.\"",
+      "teacherActivities": [
+        "Show a dark box and look inside. Shine a torch in and say \"Light.\"",
+        "Show the sun and a lamp picture and say \"They give us light.\"",
+        "Go to a bright place and a shaded place and say light and dark.",
+        "Ask \"Where is it dark?\" and \"What gives light?\""
+      ],
+      "learnerActivities": [
+        "Children look inside and say dark and light.",
+        "Children point to the pictures.",
+        "Child says light or dark.",
+        "Child points or says a word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a dark box and look inside. Shine a torch in and say \"Light.\" Children: Children look inside and say dark and light.",
+        "Step 2. Teacher: Show the sun and a lamp picture and say \"They give us light.\" Children: Children point to the pictures.",
+        "Step 3. Teacher: Go to a bright place and a shaded place and say light and dark. Children: Child says light or dark.",
+        "Step 4. Teacher: Ask \"Where is it dark?\" and \"What gives light?\" Children: Child points or says a word."
+      ],
+      "practical": {
+        "title": "Light and dark",
+        "steps": [
+          "Look inside a dark box or tent.",
+          "Shine a torch inside.",
+          "Say light and dark."
+        ],
+        "safety": "Stay close to children in dim light and never leave a child alone in a dark space. Do not shine a torch in anyone’s eyes."
+      },
+      "differentiation": {
+        "support": "Look together and say the word.",
+        "extension": "Ask the child to find a dark place in the school."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is it light or dark?",
+            "expected": "Light or dark."
+          },
+          {
+            "question": "What gives us light?",
+            "expected": "The sun or a torch."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says light or dark",
+        "Names a source of light"
+      ],
+      "conclusion": "Switch the lights back on and say \"Light!\"",
+      "homeConnection": "Notice light and dark places at home with your child.",
+      "teacherReflection": [
+        "Which children could show \"say if a place is light or dark\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LIGHT",
+          "DARK"
+        ],
+        "pictures": [
+          "A bright sun",
+          "A dark room"
+        ],
+        "songOrRhyme": "Light, light, shining bright. Dark, dark, nighttime."
+      },
+      "activities": [
+        "Light and dark"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W03-D02",
+      "title": "Making shadows",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 3,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Light",
+      "subtopic": "Making shadows",
+      "dayType": "explore",
+      "objectives": [
+        "Children will make shadows with their bodies and objects."
+      ],
+      "successCriteria": [
+        "Makes a shadow with a hand or toy",
+        "Says shadow"
+      ],
+      "previousKnowledge": "Children can describe movement and test objects with simple words.",
+      "vocabulary": [
+        "light",
+        "dark",
+        "shadow",
+        "sun",
+        "torch",
+        "shade"
+      ],
+      "resources": [
+        "A torch",
+        "A white wall or sheet",
+        "A toy and a cup",
+        "Chalk"
+      ],
+      "starter": "Shine the torch on the wall and make a hand shadow. Say \"Look, a shadow.\"",
+      "teacherActivities": [
+        "Show a hand shadow on the wall and ask \"What is this?\"",
+        "Let each child hold their hand or a toy in front of the torch.",
+        "Move the toy closer and further and see the shadow change.",
+        "Go outside on a sunny day and look at shadows on the ground."
+      ],
+      "learnerActivities": [
+        "Children look and say shadow.",
+        "Child makes a shadow.",
+        "Children watch and say big or small.",
+        "Child looks at their shadow."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a hand shadow on the wall and ask \"What is this?\" Children: Children look and say shadow.",
+        "Step 2. Teacher: Let each child hold their hand or a toy in front of the torch. Children: Child makes a shadow.",
+        "Step 3. Teacher: Move the toy closer and further and see the shadow change. Children: Children watch and say big or small.",
+        "Step 4. Teacher: Go outside on a sunny day and look at shadows on the ground. Children: Child looks at their shadow."
+      ],
+      "practical": {
+        "title": "Shadow play",
+        "steps": [
+          "Shine a torch on a wall.",
+          "Make shadows with hands and toys.",
+          "Draw round a shadow with chalk outside."
+        ],
+        "safety": "Never look at the sun or shine a torch at eyes. Draw shadows with chalk on a safe paved area."
+      },
+      "differentiation": {
+        "support": "Hold the toy together in front of the light.",
+        "extension": "Ask the child to make a big and a small shadow."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "A shadow."
+          },
+          {
+            "question": "How do you make a shadow?",
+            "expected": "Put something in front of the light."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes a shadow",
+        "Says shadow"
+      ],
+      "conclusion": "Switch off the torch and say \"Goodbye, shadow.\"",
+      "homeConnection": "Make hand shadows on a wall with a torch at home.",
+      "teacherReflection": [
+        "Which children could show \"make shadows with their bodies and objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SHADOW",
+          "TORCH"
+        ],
+        "pictures": [
+          "A hand shadow",
+          "A torch"
+        ]
+      },
+      "activities": [
+        "Shadow play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W03-D03",
+      "title": "Shadow puppets",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 3,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Light",
+      "subtopic": "Shadow puppets",
+      "dayType": "explore",
+      "objectives": [
+        "Children will use shadow puppets to tell a short story."
+      ],
+      "successCriteria": [
+        "Moves a puppet in front of the light",
+        "Says what the puppet is"
+      ],
+      "previousKnowledge": "Children can describe movement and test objects with simple words.",
+      "vocabulary": [
+        "light",
+        "dark",
+        "shadow",
+        "sun",
+        "torch",
+        "shade"
+      ],
+      "resources": [
+        "Cardboard puppets on sticks: a bird, a cat, a fish",
+        "A torch",
+        "A white sheet"
+      ],
+      "starter": "Show a bird puppet in front of the torch and say \"Look, a bird shadow on the wall.\"",
+      "teacherActivities": [
+        "Move the puppets behind a sheet in front of the light.",
+        "Ask \"What animal is it?\"",
+        "Tell a short story with the puppets.",
+        "Let each child hold a puppet behind the sheet."
+      ],
+      "learnerActivities": [
+        "Children watch the shadows.",
+        "Child names the animal.",
+        "Children listen and watch.",
+        "Child moves the puppet."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Move the puppets behind a sheet in front of the light. Children: Children watch the shadows.",
+        "Step 2. Teacher: Ask \"What animal is it?\" Children: Child names the animal.",
+        "Step 3. Teacher: Tell a short story with the puppets. Children: Children listen and watch.",
+        "Step 4. Teacher: Let each child hold a puppet behind the sheet. Children: Child moves the puppet."
+      ],
+      "practical": {
+        "title": "Shadow show",
+        "steps": [
+          "Hang a sheet in front of a torch.",
+          "Hold puppets behind it.",
+          "Tell a short story."
+        ],
+        "safety": "Secure the sheet firmly and keep cables out of reach. Use a battery torch only and stay close to children in the dim light."
+      },
+      "differentiation": {
+        "support": "Hold the puppet together and move it.",
+        "extension": "Ask the child to make up a short story for a puppet."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What animal is this?",
+            "expected": "A bird, cat or fish."
+          },
+          {
+            "question": "Where is the shadow?",
+            "expected": "On the sheet."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses puppets to make shadows",
+        "Names the shadow animals"
+      ],
+      "conclusion": "Bow to the audience and put the puppets away.",
+      "homeConnection": "Make shadow puppets at home with a torch and paper shapes.",
+      "teacherReflection": [
+        "Which children could show \"use shadow puppets to tell a short story\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PUPPET",
+          "SHOW"
+        ],
+        "pictures": [
+          "A bird puppet shadow",
+          "A cat puppet shadow"
+        ]
+      },
+      "activities": [
+        "Shadow show"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W03-D04",
+      "title": "Shadows outside",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 3,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Light",
+      "subtopic": "Making shadows",
+      "dayType": "practise",
+      "objectives": [
+        "Children will find shadows outside and see how they change."
+      ],
+      "successCriteria": [
+        "Finds their own shadow",
+        "Says shadow"
+      ],
+      "previousKnowledge": "Children can describe movement and test objects with simple words.",
+      "vocabulary": [
+        "light",
+        "dark",
+        "shadow",
+        "sun",
+        "torch",
+        "shade"
+      ],
+      "resources": [
+        "Chalk",
+        "A sunny paved area",
+        "Toys to make shadows"
+      ],
+      "starter": "Go outside on a sunny day and say \"Where is your shadow? Can you find it?\"",
+      "teacherActivities": [
+        "Stand in the sun and look at your shadow.",
+        "Move and see the shadow move.",
+        "Draw round a friend’s shadow with chalk.",
+        "Stand in the shade and see that there is no shadow."
+      ],
+      "learnerActivities": [
+        "Children look and say shadow.",
+        "Children move and watch their shadow.",
+        "Child draws round a shadow.",
+        "Child notices the missing shadow."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Stand in the sun and look at your shadow. Children: Children look and say shadow.",
+        "Step 2. Teacher: Move and see the shadow move. Children: Children move and watch their shadow.",
+        "Step 3. Teacher: Draw round a friend’s shadow with chalk. Children: Child draws round a shadow.",
+        "Step 4. Teacher: Stand in the shade and see that there is no shadow. Children: Child notices the missing shadow."
+      ],
+      "practical": {
+        "title": "Shadow hunt",
+        "steps": [
+          "Go to a sunny paved area.",
+          "Find and draw shadows with chalk.",
+          "Compare sun and shade."
+        ],
+        "safety": "Never look at the sun. Use hats, shade and water in hot weather and stay away from roads."
+      },
+      "differentiation": {
+        "support": "Walk together and point to the shadow.",
+        "extension": "Ask the child to make their shadow tall and short."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is your shadow?",
+            "expected": "On the ground."
+          },
+          {
+            "question": "Is there a shadow in the shade?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds shadows outside",
+        "Notices that shadows move with them"
+      ],
+      "conclusion": "Wave goodbye to your shadow and go inside.",
+      "homeConnection": "Look for your shadow outside on a sunny day.",
+      "teacherReflection": [
+        "Which children could show \"find shadows outside and see how they change\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SHADOW",
+          "SUN",
+          "SHADE"
+        ],
+        "pictures": [
+          "A child’s shadow",
+          "Shade under a tree"
+        ]
+      },
+      "activities": [
+        "Shadow hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T3-W03-D05",
+      "title": "Week 3 light check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 3,
+      "week": 3,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Light",
+      "subtopic": "Light and dark",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child describes light and makes shadows."
+      ],
+      "successCriteria": [
+        "Says light or dark",
+        "Makes a shadow"
+      ],
+      "previousKnowledge": "Children can describe movement and test objects with simple words.",
+      "vocabulary": [
+        "light",
+        "dark",
+        "shadow",
+        "sun",
+        "torch",
+        "shade"
+      ],
+      "resources": [
+        "Torch",
+        "Puppets",
+        "Class record sheet"
+      ],
+      "starter": "Sing the light and dark song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: light and dark, shadows and puppets.",
+        "At each station ask \"Light or dark?\" and \"What makes a shadow?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: light and dark, shadows and puppets. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"Light or dark?\" and \"What makes a shadow?\" Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Light stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep children safe in dim light. Do not shine torches in eyes."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to explain shadows to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says light or dark; makes a shadow; names a source of light.",
+        "questions": [
+          {
+            "question": "Is it light or dark?",
+            "expected": "Light or dark."
+          },
+          {
+            "question": "What makes a shadow?",
+            "expected": "Something in front of light."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Describes light and shadows"
+      ],
+      "conclusion": "Switch off the torch and wave goodbye.",
+      "homeConnection": "Talk about light and shadows at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child describes light and makes shadows\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Light"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Light stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
