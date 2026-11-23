@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-SOC-T3-W10",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 3,
+  "week": 10,
+  "title": "Our celebration",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising feelings and bravery",
+    "Revising safety and helping",
+    "Celebration and end-of-year record"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Year learning through games and a class celebration.",
+    "Teachers will complete every child’s end-of-year record and transition note."
+  ],
+  "vocabulary": [
+    "brave",
+    "calm",
+    "team",
+    "helper",
+    "safe",
+    "thank you"
+  ],
+  "content": "Revising feelings and bravery, safety and helping, and celebrating the year with end-of-year records and a transition note.",
+  "teachingActivities": "Keep every activity familiar and joyful; observe quietly; record what children can do; invite parents to the celebration; complete the transition note honestly for the Nursery 1 teacher; handle any safeguarding or welfare concern through the school’s policy and not through the transition note alone.",
+  "learnerActivities": "Show learning from the year through games and a class celebration.",
+  "resources": [
+    "Feelings cards",
+    "Calm corner",
+    "Helper hats",
+    "Road safety signs",
+    "Certificates or stickers",
+    "End-of-year record sheets"
+  ],
+  "assessment": "Observe and record each child’s end-of-year social learning and complete the transition note.",
+  "expectedOutcomes": [
+    "Takes part confidently in familiar routines and games.",
+    "Each child has an end-of-year observation record."
+  ],
+  "crossCurricular": [
+    "Literacy: songs and stories",
+    "Creative Development: music",
+    "Numeracy: counting and turns"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W10-D01",
+      "title": "Revising feelings and bravery",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising feelings and bravery",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit feelings, calming, trying and teamwork through games."
+      ],
+      "successCriteria": [
+        "Names a feeling and uses a calming idea",
+        "Tries a new activity"
+      ],
+      "previousKnowledge": "Children have learnt about feelings, bravery, teamwork, helpers, safety, gratitude, culture and independence this year.",
+      "vocabulary": [
+        "brave",
+        "calm",
+        "team",
+        "helper",
+        "safe",
+        "thank you"
+      ],
+      "resources": [
+        "Feelings cards",
+        "A calm corner",
+        "Cups",
+        "A cloth"
+      ],
+      "starter": "Say \"Today we play our favourite feelings and trying games.\"",
+      "teacherActivities": [
+        "Play show me a feeling with the feelings cards.",
+        "Practise slow breathing with a teddy.",
+        "Try stacking cups and say I can try.",
+        "Play the cloth game together."
+      ],
+      "learnerActivities": [
+        "Child shows a feeling face.",
+        "Child breathes slowly.",
+        "Child tries and says I can try.",
+        "Child lifts the cloth with friends."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play show me a feeling with the feelings cards. Children: Child shows a feeling face.",
+        "Step 2. Teacher: Practise slow breathing with a teddy. Children: Child breathes slowly.",
+        "Step 3. Teacher: Try stacking cups and say I can try. Children: Child tries and says I can try.",
+        "Step 4. Teacher: Play the cloth game together. Children: Child lifts the cloth with friends."
+      ],
+      "practical": {
+        "title": "Feelings and trying games",
+        "steps": [
+          "Set up three areas.",
+          "Children play each for four minutes.",
+          "The teacher notes responses."
+        ],
+        "safety": "Supervise each area closely and keep floors clear. Stop any game that upsets a child."
+      },
+      "differentiation": {
+        "support": "Play beside the child and use one game.",
+        "extension": "Ask the child to lead a calming game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How do we calm down?",
+            "expected": "Breathe slowly."
+          },
+          {
+            "question": "What do you say before you try?",
+            "expected": "I can try."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows feelings and calming ideas",
+        "Tries and keeps going"
+      ],
+      "conclusion": "Take a slow breath and wave goodbye.",
+      "homeConnection": "Keep naming feelings and praising trying.",
+      "teacherReflection": [
+        "Which children could show \"revisit feelings, calming, trying and teamwork through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CALM",
+          "TRY",
+          "TEAM"
+        ],
+        "pictures": [
+          "Feelings cards",
+          "Stacking cups"
+        ]
+      },
+      "activities": [
+        "Feelings and trying games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W10-D02",
+      "title": "Revising safety and helping",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising safety and helping",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit road safety, safe grown-ups, helpers and thanks through games."
+      ],
+      "successCriteria": [
+        "Stops at a kerb",
+        "Names a helper"
+      ],
+      "previousKnowledge": "Children have learnt about feelings, bravery, teamwork, helpers, safety, gratitude, culture and independence this year.",
+      "vocabulary": [
+        "brave",
+        "calm",
+        "team",
+        "helper",
+        "safe",
+        "thank you"
+      ],
+      "resources": [
+        "A chalk road",
+        "Stop and go signs",
+        "Helper hats",
+        "Thank-you cards"
+      ],
+      "starter": "Say \"Today we play our safety and helper games.\"",
+      "teacherActivities": [
+        "Play stop and go on a chalk road.",
+        "Show the safe hand chart and name safe grown-ups.",
+        "Play helpers with hats.",
+        "Say thank you to a helper."
+      ],
+      "learnerActivities": [
+        "Child stops and goes.",
+        "Child names a safe grown-up.",
+        "Child plays a helper.",
+        "Child says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play stop and go on a chalk road. Children: Child stops and goes.",
+        "Step 2. Teacher: Show the safe hand chart and name safe grown-ups. Children: Child names a safe grown-up.",
+        "Step 3. Teacher: Play helpers with hats. Children: Child plays a helper.",
+        "Step 4. Teacher: Say thank you to a helper. Children: Child says thank you."
+      ],
+      "practical": {
+        "title": "Safety and helper games",
+        "steps": [
+          "Set up three areas.",
+          "Children play each for four minutes.",
+          "The teacher notes responses."
+        ],
+        "safety": "Supervise each area and use a closed safe space. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Play beside the child and hold hands.",
+        "extension": "Ask the child to be the road helper."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do at the kerb?",
+            "expected": "Stop, look and listen."
+          },
+          {
+            "question": "Who can you tell?",
+            "expected": "A safe grown-up."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows safety rules",
+        "Names helpers"
+      ],
+      "conclusion": "Wave goodbye and say thank you.",
+      "homeConnection": "Keep practising safety and thanking helpers.",
+      "teacherReflection": [
+        "Which children could show \"revisit road safety, safe grown-ups, helpers and thanks through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "STOP",
+          "SAFE",
+          "HELP"
+        ],
+        "pictures": [
+          "A chalk road",
+          "Helper hats"
+        ]
+      },
+      "activities": [
+        "Safety and helper games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W10-D03",
+      "title": "Year-end stations",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising feelings and bravery",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s end-of-year social learning at play stations."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with confidence",
+        "Shows manners, feelings, teamwork and independence"
+      ],
+      "previousKnowledge": "Children have learnt about feelings, bravery, teamwork, helpers, safety, gratitude, culture and independence this year.",
+      "vocabulary": [
+        "brave",
+        "calm",
+        "team",
+        "helper",
+        "safe",
+        "thank you"
+      ],
+      "resources": [
+        "Six play stations",
+        "Class record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Say \"Today we play at six stations and show what we know.\"",
+      "teacherActivities": [
+        "Set up six stations: manners, feelings, teamwork, safety, helping and independence.",
+        "Observe each child at two stations and record what they do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every three minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: manners, feelings, teamwork, safety, helping and independence. Children: Children rotate every three minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Social stations",
+        "steps": [
+          "Set up six stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep floors clear and use large safe toys only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: uses manners; names feelings and calms with help; works with others; follows safety rules; helps; does self-help tasks.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite game.",
+            "expected": "Child chooses a game."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an end-of-year observation record",
+        "Shows familiar social skills at stations"
+      ],
+      "conclusion": "Say well done to everyone and wave goodbye.",
+      "homeConnection": "Play a favourite game at home during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s end-of-year social learning at play stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Social stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W10-D04",
+      "title": "Class celebration",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Celebration and end-of-year record",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate the year with songs and games and show their work to visitors."
+      ],
+      "successCriteria": [
+        "Joins in songs and games",
+        "Shows something they enjoyed to an adult"
+      ],
+      "previousKnowledge": "Children have learnt about feelings, bravery, teamwork, helpers, safety, gratitude, culture and independence this year.",
+      "vocabulary": [
+        "brave",
+        "calm",
+        "team",
+        "helper",
+        "safe",
+        "thank you"
+      ],
+      "resources": [
+        "Favourite songs",
+        "Children’s work and thank-you cards",
+        "Certificates or stickers",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate our year. Let us sing our favourite songs.\"",
+      "teacherActivities": [
+        "Sing favourite songs and rhymes with actions.",
+        "Invite children to show their work to a visitor or parent.",
+        "Give each child a sticker or certificate and say their name."
+      ],
+      "learnerActivities": [
+        "Children sing and do actions.",
+        "Child shows their work.",
+        "Child waves and says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite songs and rhymes with actions. Children: Children sing and do actions.",
+        "Step 2. Teacher: Invite children to show their work to a visitor or parent. Children: Child shows their work.",
+        "Step 3. Teacher: Give each child a sticker or certificate and say their name. Children: Child waves and says thank you."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle with visitors.",
+          "Sing and share work.",
+          "Hand out certificates or stickers."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Supervise visitors and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and share their work together.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s end-of-year social record from the year’s observations. Record the child’s strengths and a next step for Nursery 1.",
+        "questions": [
+          {
+            "question": "What is your favourite thing?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "What did you learn?",
+            "expected": "A word, fact or action."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed end-of-year record",
+        "Enjoys the celebration"
+      ],
+      "conclusion": "Wave goodbye and say \"See you in Nursery 1.\"",
+      "homeConnection": "Keep practising kind habits during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"celebrate the year with songs and games and show their work to visitors\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE",
+          "THANK YOU"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W10-D05",
+      "title": "Transition note and records",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Celebration and end-of-year record",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will complete a transition note for each child for the Nursery 1 teacher."
+      ],
+      "successCriteria": [
+        "Records what each child can do",
+        "Records a next step"
+      ],
+      "previousKnowledge": "Children have learnt about feelings, bravery, teamwork, helpers, safety, gratitude, culture and independence this year.",
+      "vocabulary": [
+        "brave",
+        "calm",
+        "team",
+        "helper",
+        "safe",
+        "thank you"
+      ],
+      "resources": [
+        "Transition note template",
+        "Term records",
+        "Children’s portfolios",
+        "A quiet table"
+      ],
+      "starter": "Today the children enjoy free play with familiar materials while the teacher completes the transition notes.",
+      "teacherActivities": [
+        "Set out free play with blocks, a play house, books and a play market.",
+        "Review each child’s three term records and portfolio.",
+        "Complete the note: strengths, friendships, feelings, routines and next steps."
+      ],
+      "learnerActivities": [
+        "Children play freely and happily.",
+        "Children play while the teacher reviews.",
+        "Children play and talk with the helper."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set out free play with blocks, a play house, books and a play market. Children: Children play freely and happily.",
+        "Step 2. Teacher: Review each child’s three term records and portfolio. Children: Children play while the teacher reviews.",
+        "Step 3. Teacher: Complete the note: strengths, friendships, feelings, routines and next steps. Children: Children play and talk with the helper."
+      ],
+      "practical": {
+        "title": "Free play and records",
+        "steps": [
+          "Set out four play areas with a helper.",
+          "The teacher reviews records at a quiet table.",
+          "The teacher completes each transition note."
+        ],
+        "safety": "A second adult must supervise play while the teacher completes the notes. Keep all areas safe and tidy."
+      },
+      "differentiation": {
+        "support": "Offer familiar toys and a helper nearby.",
+        "extension": "Ask a confident child to help a friend tidy up."
+      },
+      "assessment": {
+        "method": "Write for each child: how they settle, relate to others, manage feelings, follow routines, look after themselves and keep safe; their interests; any support needed; and a next step. Use the four-level scale and facts you have seen, and pass any welfare concern to the safeguarding lead separately.",
+        "questions": [
+          {
+            "question": "What do you like to play?",
+            "expected": "A favourite game or toy."
+          },
+          {
+            "question": "What did you enjoy this year?",
+            "expected": "A word, game or song."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a transition note for each child",
+        "Plays happily in familiar activities"
+      ],
+      "conclusion": "Tidy up together and say goodbye to the year.",
+      "homeConnection": "Share the end-of-year report with your child and keep practising kind habits.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will complete a transition note for each child for the Nursery 1 teacher\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "THANK YOU"
+        ],
+        "pictures": [
+          "Children playing happily"
+        ]
+      },
+      "activities": [
+        "Free play and records"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

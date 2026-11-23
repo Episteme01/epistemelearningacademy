@@ -1,0 +1,601 @@
+{
+  "id": "ELA-PS-TOD-SOC-T3-W05",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 3,
+  "week": 5,
+  "title": "Road and street safety",
+  "topic": "Safety",
+  "subtopics": [
+    "Holding hands near roads",
+    "Stop, look and listen",
+    "Safe walking"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will hold an adult’s hand near roads.",
+    "Children will stop at a pretend kerb and look and listen."
+  ],
+  "vocabulary": [
+    "road",
+    "car",
+    "stop",
+    "look",
+    "listen",
+    "hand"
+  ],
+  "content": "Holding hands near roads, stop, look and listen, and safe walking.",
+  "teachingActivities": "Always practise in a safe, closed play space with chalk roads and toy cars; never practise on a real road with children as the lesson; stress holding an adult’s hand; use short rules; link to what families do on the way to school; invite parents to hold hands at the gate.",
+  "learnerActivities": "Hold an adult’s hand near roads and stop, look and listen at a pretend kerb.",
+  "resources": [
+    "Chalk to draw roads",
+    "Toy cars",
+    "A stop sign",
+    "Pictures of roads and crossings",
+    "A road safety song"
+  ],
+  "assessment": "Observe whether each child holds a hand to walk and stops at a pretend kerb on request.",
+  "expectedOutcomes": [
+    "Holds an adult’s hand to walk.",
+    "Stops at a pretend kerb on request."
+  ],
+  "crossCurricular": [
+    "Literacy: safety words",
+    "Physical Development: stopping and starting",
+    "Numeracy: counting cars"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W05-D01",
+      "title": "Holding hands near roads",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 5,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Holding hands near roads",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will hold an adult’s hand when walking near roads."
+      ],
+      "successCriteria": [
+        "Holds an adult’s hand",
+        "Says hold hands"
+      ],
+      "previousKnowledge": "Children have learnt safety at school and know community helpers.",
+      "vocabulary": [
+        "road",
+        "car",
+        "stop",
+        "look",
+        "listen",
+        "hand"
+      ],
+      "resources": [
+        "Chalk road on the ground",
+        "A picture of a road",
+        "A song"
+      ],
+      "starter": "Draw a chalk road and say \"Roads are for cars. Children hold a grown-up’s hand.\"",
+      "teacherActivities": [
+        "Show how to hold an adult’s hand firmly.",
+        "Walk beside the chalk road holding hands.",
+        "Say \"Always hold hands near roads.\"",
+        "Stop and start with hands held."
+      ],
+      "learnerActivities": [
+        "Children hold a partner’s hand.",
+        "Children walk with a partner.",
+        "Children repeat hold hands.",
+        "Children stop and wait."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to hold an adult’s hand firmly. Children: Children hold a partner’s hand.",
+        "Step 2. Teacher: Walk beside the chalk road holding hands. Children: Children walk with a partner.",
+        "Step 3. Teacher: Say \"Always hold hands near roads.\" Children: Children repeat hold hands.",
+        "Step 4. Teacher: Stop and start with hands held. Children: Children stop and wait."
+      ],
+      "practical": {
+        "title": "Hold hands on the road",
+        "steps": [
+          "Hold a partner’s hand.",
+          "Walk by the chalk road.",
+          "Stop and wait."
+        ],
+        "safety": "Practise only in a closed safe area, never on a real road. An adult must hold every child’s hand."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and walk together.",
+        "extension": "Ask the child to tell a friend to hold hands."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we hold near roads?",
+            "expected": "A grown-up’s hand."
+          },
+          {
+            "question": "Are roads safe to run on?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Holds an adult’s hand",
+        "Says hold hands"
+      ],
+      "conclusion": "Hold hands and wave goodbye.",
+      "homeConnection": "Hold your child’s hand firmly near roads and say \"Hold hands.\"",
+      "teacherReflection": [
+        "Which children could show \"hold an adult’s hand when walking near roads\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HOLD",
+          "ROAD"
+        ],
+        "pictures": [
+          "A road",
+          "Holding hands"
+        ],
+        "songOrRhyme": "Hold my hand, hold my hand, when we walk on the road."
+      },
+      "activities": [
+        "Hold hands on the road"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W05-D02",
+      "title": "Stop, look and listen",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 5,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Stop, look and listen",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will stop, look and listen at a pretend kerb."
+      ],
+      "successCriteria": [
+        "Stops at a line",
+        "Looks and listens with an adult"
+      ],
+      "previousKnowledge": "Children have learnt safety at school and know community helpers.",
+      "vocabulary": [
+        "road",
+        "car",
+        "stop",
+        "look",
+        "listen",
+        "hand"
+      ],
+      "resources": [
+        "A line of tape as a kerb",
+        "A toy car sound",
+        "A stop sign"
+      ],
+      "starter": "Put a tape line on the floor and say \"This is the kerb. We stop at the kerb.\"",
+      "teacherActivities": [
+        "Show how to stop at the kerb, look and listen.",
+        "Play a car sound and say \"A car is coming. Wait.\"",
+        "Say \"When it is safe, we walk with a grown-up.\"",
+        "Practise again with each child."
+      ],
+      "learnerActivities": [
+        "Children watch and copy.",
+        "Children wait at the line.",
+        "Children hold hands.",
+        "Child stops and looks."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to stop at the kerb, look and listen. Children: Children watch and copy.",
+        "Step 2. Teacher: Play a car sound and say \"A car is coming. Wait.\" Children: Children wait at the line.",
+        "Step 3. Teacher: Say \"When it is safe, we walk with a grown-up.\" Children: Children hold hands.",
+        "Step 4. Teacher: Practise again with each child. Children: Child stops and looks."
+      ],
+      "practical": {
+        "title": "Stop at the kerb",
+        "steps": [
+          "Stand at the line.",
+          "Look and listen.",
+          "Hold hands and walk."
+        ],
+        "safety": "Use a floor line only and never use a real road. Supervise every child and hold hands for each crossing."
+      },
+      "differentiation": {
+        "support": "Stand at the line and look together.",
+        "extension": "Ask the child to be the traffic helper."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do at the kerb?",
+            "expected": "Stop, look and listen."
+          },
+          {
+            "question": "Who do we walk with?",
+            "expected": "A grown-up."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Stops at a pretend kerb",
+        "Looks and listens with an adult"
+      ],
+      "conclusion": "Stop, look and wave goodbye.",
+      "homeConnection": "Practise stop, look and listen when you walk with your child.",
+      "teacherReflection": [
+        "Which children could show \"stop, look and listen at a pretend kerb\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "STOP",
+          "LOOK",
+          "LISTEN"
+        ],
+        "pictures": [
+          "A kerb",
+          "A stop sign"
+        ]
+      },
+      "activities": [
+        "Stop at the kerb"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W05-D03",
+      "title": "Safe walking",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 5,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Safe walking",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will practise walking safely in a line with an adult."
+      ],
+      "successCriteria": [
+        "Walks beside an adult",
+        "Stays on the pavement"
+      ],
+      "previousKnowledge": "Children have learnt safety at school and know community helpers.",
+      "vocabulary": [
+        "road",
+        "car",
+        "stop",
+        "look",
+        "listen",
+        "hand"
+      ],
+      "resources": [
+        "A chalk pavement and road",
+        "Toy cars",
+        "A hat or bag to carry"
+      ],
+      "starter": "Draw a chalk pavement and road and say \"We walk on the pavement, not the road.\"",
+      "teacherActivities": [
+        "Show the pavement and the road.",
+        "Walk along the pavement with a partner.",
+        "Stop at the corner and look both ways.",
+        "Say \"Safe walking.\""
+      ],
+      "learnerActivities": [
+        "Children look and point.",
+        "Children walk in pairs.",
+        "Children stop and look.",
+        "Children repeat safe walking."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the pavement and the road. Children: Children look and point.",
+        "Step 2. Teacher: Walk along the pavement with a partner. Children: Children walk in pairs.",
+        "Step 3. Teacher: Stop at the corner and look both ways. Children: Children stop and look.",
+        "Step 4. Teacher: Say \"Safe walking.\" Children: Children repeat safe walking."
+      ],
+      "practical": {
+        "title": "Pavement walk",
+        "steps": [
+          "Walk on the pavement.",
+          "Hold hands.",
+          "Stop at the corner."
+        ],
+        "safety": "Use chalk lines in a closed area only and keep an adult beside each pair. Never practise near real traffic."
+      },
+      "differentiation": {
+        "support": "Walk with the child holding hands.",
+        "extension": "Ask the child to lead a pair along the pavement."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where do we walk?",
+            "expected": "On the pavement."
+          },
+          {
+            "question": "What do we do at the corner?",
+            "expected": "Stop and look."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Walks beside an adult",
+        "Stays on the pavement"
+      ],
+      "conclusion": "Walk back together and wave goodbye.",
+      "homeConnection": "Walk on the pavement together and talk about safety.",
+      "teacherReflection": [
+        "Which children could show \"practise walking safely in a line with an adult\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAFE",
+          "WALK"
+        ],
+        "pictures": [
+          "A pavement"
+        ]
+      },
+      "activities": [
+        "Pavement walk"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W05-D04",
+      "title": "Traffic play",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 5,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Stop, look and listen",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will play a traffic game that uses stop and go."
+      ],
+      "successCriteria": [
+        "Stops and goes on signal",
+        "Takes a turn as driver"
+      ],
+      "previousKnowledge": "Children have learnt safety at school and know community helpers.",
+      "vocabulary": [
+        "road",
+        "car",
+        "stop",
+        "look",
+        "listen",
+        "hand"
+      ],
+      "resources": [
+        "Paper plates as steering wheels",
+        "A stop sign and a go sign",
+        "Chalk roads"
+      ],
+      "starter": "Give out paper plate steering wheels and say \"Today we are drivers. Stop when I show stop.\"",
+      "teacherActivities": [
+        "Show the stop and go signs and say what each means.",
+        "Let children drive around the chalk road.",
+        "Change the signs quickly and slowly.",
+        "Let each child hold the sign."
+      ],
+      "learnerActivities": [
+        "Children look and repeat.",
+        "Children drive and stop.",
+        "Children stop and go.",
+        "Child shows the sign."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the stop and go signs and say what each means. Children: Children look and repeat.",
+        "Step 2. Teacher: Let children drive around the chalk road. Children: Children drive and stop.",
+        "Step 3. Teacher: Change the signs quickly and slowly. Children: Children stop and go.",
+        "Step 4. Teacher: Let each child hold the sign. Children: Child shows the sign."
+      ],
+      "practical": {
+        "title": "Drivers on the road",
+        "steps": [
+          "Drive on the chalk road.",
+          "Stop at the sign.",
+          "Go when the sign says go."
+        ],
+        "safety": "Keep speeds slow and the area clear. Stop the game if children run into each other."
+      },
+      "differentiation": {
+        "support": "Drive beside the child and show the signs.",
+        "extension": "Ask the child to be the road helper with the signs."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do at stop?",
+            "expected": "Stop."
+          },
+          {
+            "question": "What do we do at go?",
+            "expected": "Go slowly."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Stops and goes on signal",
+        "Takes a turn as the driver"
+      ],
+      "conclusion": "Park the cars and say well done.",
+      "homeConnection": "Play stop and go games at home.",
+      "teacherReflection": [
+        "Which children could show \"play a traffic game that uses stop and go\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "STOP",
+          "GO NOW"
+        ],
+        "pictures": [
+          "Stop and go signs"
+        ]
+      },
+      "activities": [
+        "Drivers on the road"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W05-D05",
+      "title": "Week 5 road safety check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 5,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Holding hands near roads",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child follows road safety rules."
+      ],
+      "successCriteria": [
+        "Holds an adult’s hand",
+        "Stops at a pretend kerb"
+      ],
+      "previousKnowledge": "Children have learnt safety at school and know community helpers.",
+      "vocabulary": [
+        "road",
+        "car",
+        "stop",
+        "look",
+        "listen",
+        "hand"
+      ],
+      "resources": [
+        "Chalk road",
+        "Signs",
+        "Class record sheet"
+      ],
+      "starter": "Sing the road safety song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: hold hands, kerb and traffic game.",
+        "At each station watch how the child follows the rule.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child follows with a prompt.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: hold hands, kerb and traffic game. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child follows the rule. Children: Child follows with a prompt.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Road safety stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use a closed safe area only. Never practise on real roads."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to remind a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: holds an adult’s hand; stops at a kerb; looks and listens; walks safely.",
+        "questions": [
+          {
+            "question": "What do we hold near roads?",
+            "expected": "A grown-up’s hand."
+          },
+          {
+            "question": "What do we do at the kerb?",
+            "expected": "Stop, look and listen."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Follows road safety rules with support"
+      ],
+      "conclusion": "Wave goodbye and say stay safe.",
+      "homeConnection": "Keep practising road safety with your child.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child follows road safety rules\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Road safety"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Road safety stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-SOC-T3-W02",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 3,
+  "week": 2,
+  "title": "Calming big feelings",
+  "topic": "Feelings",
+  "subtopics": [
+    "Big feelings in my body",
+    "Breathing and calming",
+    "Asking for help"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will notice big feelings in their bodies.",
+    "Children will use slow breathing or a calm place with an adult."
+  ],
+  "vocabulary": [
+    "calm",
+    "breathe",
+    "cross",
+    "upset",
+    "help",
+    "quiet"
+  ],
+  "content": "Big feelings in my body, breathing and calming, and asking for help.",
+  "teachingActivities": "Stay calm yourself; name the feeling first (\"You are cross\"); never punish a child for a big feeling; offer a calm corner as a safe place, not a punishment; teach slow breathing with a pinwheel or a teddy; use a feelings chart; teach asking for help in words or a gesture.",
+  "learnerActivities": "Notice big feelings in the body, use slow breathing with an adult and ask for help when upset.",
+  "resources": [
+    "A calm corner with cushions",
+    "A pinwheel or feather",
+    "A teddy",
+    "A feelings chart",
+    "A calming song"
+  ],
+  "assessment": "Observe whether each child uses a calming strategy with adult support and asks for help.",
+  "expectedOutcomes": [
+    "Uses a calming strategy with adult support.",
+    "Asks an adult for help when upset."
+  ],
+  "crossCurricular": [
+    "Physical Development: breathing",
+    "Literacy: feelings words",
+    "Creative Development: calm music"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W02-D01",
+      "title": "Big feelings in my body",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 2,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Feelings",
+      "subtopic": "Big feelings in my body",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will notice where big feelings are in their bodies."
+      ],
+      "successCriteria": [
+        "Points to where a feeling is in the body",
+        "Names a big feeling"
+      ],
+      "previousKnowledge": "Children can name feelings and try new things.",
+      "vocabulary": [
+        "calm",
+        "breathe",
+        "cross",
+        "upset",
+        "help",
+        "quiet"
+      ],
+      "resources": [
+        "A feelings chart",
+        "A drawing of a body",
+        "A puppet"
+      ],
+      "starter": "Say \"When I am cross, my face is hot and my fists are tight. Show me.\"",
+      "teacherActivities": [
+        "Show how a cross body looks: tight fists, hot face.",
+        "Show how a calm body looks: loose hands and soft face.",
+        "Ask \"Where do you feel it?\" and point to the body picture.",
+        "Say \"All feelings are okay. We can calm down.\""
+      ],
+      "learnerActivities": [
+        "Children copy the body shape.",
+        "Children copy the calm body.",
+        "Child points to a body part.",
+        "Children repeat calm down."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how a cross body looks: tight fists, hot face. Children: Children copy the body shape.",
+        "Step 2. Teacher: Show how a calm body looks: loose hands and soft face. Children: Children copy the calm body.",
+        "Step 3. Teacher: Ask \"Where do you feel it?\" and point to the body picture. Children: Child points to a body part.",
+        "Step 4. Teacher: Say \"All feelings are okay. We can calm down.\" Children: Children repeat calm down."
+      ],
+      "practical": {
+        "title": "Body feelings",
+        "steps": [
+          "Make a cross body.",
+          "Make a calm body.",
+          "Point to where you feel it."
+        ],
+        "safety": "Keep the movements gentle and never push a child to show strong feelings. Stop if a child becomes upset and comfort them."
+      },
+      "differentiation": {
+        "support": "Show the body shape and copy together.",
+        "extension": "Ask the child to say what makes them feel cross."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How does a cross body look?",
+            "expected": "Tight fists and hot face."
+          },
+          {
+            "question": "How does a calm body look?",
+            "expected": "Soft and loose."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Notices big feelings in the body",
+        "Names a big feeling"
+      ],
+      "conclusion": "Take a calm body pose and wave.",
+      "homeConnection": "Name your child’s feelings and where you see them.",
+      "teacherReflection": [
+        "Which children could show \"notice where big feelings are in their bodies\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CROSS",
+          "CALM"
+        ],
+        "pictures": [
+          "A cross face",
+          "A calm face"
+        ],
+        "songOrRhyme": "When I feel cross I stop and breathe."
+      },
+      "activities": [
+        "Body feelings"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W02-D02",
+      "title": "Breathing and calming",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 2,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Feelings",
+      "subtopic": "Breathing and calming",
+      "dayType": "explore",
+      "objectives": [
+        "Children will use slow breathing to calm down."
+      ],
+      "successCriteria": [
+        "Takes slow breaths with an adult",
+        "Says calm with a prompt"
+      ],
+      "previousKnowledge": "Children can name feelings and try new things.",
+      "vocabulary": [
+        "calm",
+        "breathe",
+        "cross",
+        "upset",
+        "help",
+        "quiet"
+      ],
+      "resources": [
+        "A pinwheel or a feather",
+        "A teddy",
+        "A calm music track"
+      ],
+      "starter": "Hold a feather and say \"Blow slowly and the feather floats.\"",
+      "teacherActivities": [
+        "Show how to breathe in through the nose and out slowly like blowing a feather.",
+        "Let children blow a pinwheel slowly.",
+        "Place a teddy on the tummy and watch it rise and fall.",
+        "Say \"Breathe in, breathe out. I am calm.\""
+      ],
+      "learnerActivities": [
+        "Children copy slowly.",
+        "Child blows the pinwheel gently.",
+        "Child breathes with the teddy.",
+        "Children repeat calm."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to breathe in through the nose and out slowly like blowing a feather. Children: Children copy slowly.",
+        "Step 2. Teacher: Let children blow a pinwheel slowly. Children: Child blows the pinwheel gently.",
+        "Step 3. Teacher: Place a teddy on the tummy and watch it rise and fall. Children: Child breathes with the teddy.",
+        "Step 4. Teacher: Say \"Breathe in, breathe out. I am calm.\" Children: Children repeat calm."
+      ],
+      "practical": {
+        "title": "Teddy breathing",
+        "steps": [
+          "Lie down or sit.",
+          "Put a teddy on your tummy.",
+          "Breathe slowly."
+        ],
+        "safety": "Offer a seat if lying down is not comfortable and keep each breath gentle. Never ask children to hold their breath."
+      },
+      "differentiation": {
+        "support": "Breathe beside the child and count slowly.",
+        "extension": "Ask the child to teach a friend to breathe slowly."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How do we breathe to calm?",
+            "expected": "Slowly."
+          },
+          {
+            "question": "What can help us calm?",
+            "expected": "A teddy or a feather."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Takes slow breaths",
+        "Says calm with a prompt"
+      ],
+      "conclusion": "Take one more slow breath together.",
+      "homeConnection": "Practise slow breathing with your child at bedtime.",
+      "teacherReflection": [
+        "Which children could show \"use slow breathing to calm down\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BREATHE",
+          "SLOW"
+        ],
+        "pictures": [
+          "A pinwheel",
+          "A teddy"
+        ]
+      },
+      "activities": [
+        "Teddy breathing"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W02-D03",
+      "title": "Asking for help",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 2,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Feelings",
+      "subtopic": "Asking for help",
+      "dayType": "explore",
+      "objectives": [
+        "Children will ask an adult for help when they feel upset."
+      ],
+      "successCriteria": [
+        "Says help or points to an adult",
+        "Goes to a calm corner with an adult"
+      ],
+      "previousKnowledge": "Children can name feelings and try new things.",
+      "vocabulary": [
+        "calm",
+        "breathe",
+        "cross",
+        "upset",
+        "help",
+        "quiet"
+      ],
+      "resources": [
+        "A calm corner",
+        "A help card",
+        "A puppet"
+      ],
+      "starter": "Show a puppet that is upset and say \"The puppet is upset. It says: help please.\"",
+      "teacherActivities": [
+        "Show the puppet asking a grown-up for help.",
+        "Show the calm corner and say \"You can sit here with a grown-up.\"",
+        "Let children practise handing the help card to an adult.",
+        "Say \"Asking for help is brave.\""
+      ],
+      "learnerActivities": [
+        "Children watch and say help.",
+        "Children look at the corner.",
+        "Child gives the card.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the puppet asking a grown-up for help. Children: Children watch and say help.",
+        "Step 2. Teacher: Show the calm corner and say \"You can sit here with a grown-up.\" Children: Children look at the corner.",
+        "Step 3. Teacher: Let children practise handing the help card to an adult. Children: Child gives the card.",
+        "Step 4. Teacher: Say \"Asking for help is brave.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "Help card",
+        "steps": [
+          "Give the help card to the teacher.",
+          "Go to the calm corner.",
+          "Breathe slowly with the teacher."
+        ],
+        "safety": "Keep the calm corner a safe, warm place and never use it as punishment. Stay with the child at all times."
+      },
+      "differentiation": {
+        "support": "Hand over the card together.",
+        "extension": "Ask the child to remind a friend to ask for help."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who do we ask?",
+            "expected": "A grown-up."
+          },
+          {
+            "question": "Where can we go?",
+            "expected": "The calm corner."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Asks for help when upset",
+        "Uses the calm corner with an adult"
+      ],
+      "conclusion": "Sit quietly and then wave.",
+      "homeConnection": "Set up a calm place at home and visit it together.",
+      "teacherReflection": [
+        "Which children could show \"ask an adult for help when they feel upset\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HELP",
+          "CORNER"
+        ],
+        "pictures": [
+          "A calm corner"
+        ]
+      },
+      "activities": [
+        "Help card"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W02-D04",
+      "title": "My calm plan",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 2,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Feelings",
+      "subtopic": "Breathing and calming",
+      "dayType": "apply",
+      "objectives": [
+        "Children will choose a calming strategy and use it in a pretend upset."
+      ],
+      "successCriteria": [
+        "Chooses a calming idea",
+        "Uses it with an adult"
+      ],
+      "previousKnowledge": "Children can name feelings and try new things.",
+      "vocabulary": [
+        "calm",
+        "breathe",
+        "cross",
+        "upset",
+        "help",
+        "quiet"
+      ],
+      "resources": [
+        "Calming picture cards: breathe, hug a teddy, go to the corner, ask for help",
+        "A puppet"
+      ],
+      "starter": "Show four calming cards and say \"When we are upset, we choose one.\"",
+      "teacherActivities": [
+        "Show each card and act it out.",
+        "Let the puppet feel cross and ask a child to choose a card.",
+        "Act out using the chosen idea.",
+        "Say \"I can calm down.\""
+      ],
+      "learnerActivities": [
+        "Children copy each action.",
+        "Child chooses a card.",
+        "Child acts out the idea.",
+        "Children say I can calm down."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each card and act it out. Children: Children copy each action.",
+        "Step 2. Teacher: Let the puppet feel cross and ask a child to choose a card. Children: Child chooses a card.",
+        "Step 3. Teacher: Act out using the chosen idea. Children: Child acts out the idea.",
+        "Step 4. Teacher: Say \"I can calm down.\" Children: Children say I can calm down."
+      ],
+      "practical": {
+        "title": "Calm cards",
+        "steps": [
+          "Look at the cards.",
+          "Choose one.",
+          "Act it out with the puppet."
+        ],
+        "safety": "Keep the scene make-believe with the puppet. Stop if a child becomes distressed and comfort them."
+      },
+      "differentiation": {
+        "support": "Choose between two cards.",
+        "extension": "Ask the child to teach the puppet a calming idea."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What can we do to calm?",
+            "expected": "Breathe or hug a teddy."
+          },
+          {
+            "question": "Who can help?",
+            "expected": "A grown-up."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Chooses a calming idea",
+        "Uses it with an adult"
+      ],
+      "conclusion": "Pick one calming idea and do it together.",
+      "homeConnection": "Make a calm card set for home.",
+      "teacherReflection": [
+        "Which children could show \"choose a calming strategy and use it in a pretend upset\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CALM",
+          "CHOOSE"
+        ],
+        "pictures": [
+          "Calming cards"
+        ]
+      },
+      "activities": [
+        "Calm cards"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W02-D05",
+      "title": "Week 2 calm check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 2,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Feelings",
+      "subtopic": "Asking for help",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child manages big feelings."
+      ],
+      "successCriteria": [
+        "Uses a calming strategy",
+        "Asks for help"
+      ],
+      "previousKnowledge": "Children can name feelings and try new things.",
+      "vocabulary": [
+        "calm",
+        "breathe",
+        "cross",
+        "upset",
+        "help",
+        "quiet"
+      ],
+      "resources": [
+        "Calm corner",
+        "Cards",
+        "Class record sheet"
+      ],
+      "starter": "Sing the calm song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: breathing, calm corner and cards.",
+        "At each station watch how the child responds.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child responds with a prompt.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: breathing, calm corner and cards. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child responds. Children: Child responds with a prompt.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Calm stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station closely and keep the mood quiet and kind. Stop any activity that upsets a child."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to guide a friend to the calm corner."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: notices big feelings; uses slow breathing; asks for help; uses the calm corner.",
+        "questions": [
+          {
+            "question": "How do we calm down?",
+            "expected": "Breathe slowly."
+          },
+          {
+            "question": "Who do we ask?",
+            "expected": "A grown-up."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Uses calming strategies with support"
+      ],
+      "conclusion": "Take a slow breath and wave goodbye.",
+      "homeConnection": "Keep practising calm breathing together.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child manages big feelings\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Calm"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Calm stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

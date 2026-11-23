@@ -1,0 +1,604 @@
+{
+  "id": "ELA-PS-TOD-SOC-T3-W08",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 3,
+  "week": 8,
+  "title": "Our culture and celebrations",
+  "topic": "Community",
+  "subtopics": [
+    "Our clothes and food",
+    "Songs and dances",
+    "Festivals and special days"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will enjoy and name familiar cultural clothes, foods, songs and dances.",
+    "Children will say that families celebrate in different ways."
+  ],
+  "vocabulary": [
+    "dance",
+    "song",
+    "food",
+    "clothes",
+    "party",
+    "celebrate"
+  ],
+  "content": "Our clothes and food, songs and dances, and festivals and special days.",
+  "teachingActivities": "Celebrate the cultures of every family in the class (Yoruba, Hausa, Igbo, and others, and different faiths); invite parents to share clothes, foods, songs and stories; never rank cultures or religions; use real objects and songs; keep any food tasting allergy-safe and halal or dietary needs respected.",
+  "learnerActivities": "Join in songs and dances and name a food or clothing from home.",
+  "resources": [
+    "Traditional clothes and fabric",
+    "Pictures of local foods",
+    "Drums and shakers",
+    "Recorded or live songs",
+    "Pictures of festivals"
+  ],
+  "assessment": "Observe whether each child joins a song or dance and names a food or clothing from home.",
+  "expectedOutcomes": [
+    "Joins in a song or dance.",
+    "Names a food or clothing from home."
+  ],
+  "crossCurricular": [
+    "Literacy: songs and stories",
+    "Creative Development: music and dance",
+    "Understanding the World: people and communities"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W08-D01",
+      "title": "Our clothes and food",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 8,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Community",
+      "subtopic": "Our clothes and food",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name familiar clothes and foods from their homes."
+      ],
+      "successCriteria": [
+        "Names a clothing item or a food from home",
+        "Touches different fabrics"
+      ],
+      "previousKnowledge": "Children know about family, respect and community helpers.",
+      "vocabulary": [
+        "dance",
+        "song",
+        "food",
+        "clothes",
+        "party",
+        "celebrate"
+      ],
+      "resources": [
+        "Pieces of traditional fabric",
+        "A cap and a head-tie",
+        "Pictures of local foods such as rice, yam and beans"
+      ],
+      "starter": "Show a piece of colourful fabric and say \"This is a cloth from our homes. Our families wear lovely clothes.\"",
+      "teacherActivities": [
+        "Show fabrics and clothes and name each one.",
+        "Show pictures of foods and say \"We eat many good foods.\"",
+        "Let children share a food from home.",
+        "Say \"We are proud of our clothes and food.\""
+      ],
+      "learnerActivities": [
+        "Children touch and repeat the names.",
+        "Children name foods they know.",
+        "Child says or points to a food.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show fabrics and clothes and name each one. Children: Children touch and repeat the names.",
+        "Step 2. Teacher: Show pictures of foods and say \"We eat many good foods.\" Children: Children name foods they know.",
+        "Step 3. Teacher: Let children share a food from home. Children: Child says or points to a food.",
+        "Step 4. Teacher: Say \"We are proud of our clothes and food.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "Clothes and food",
+        "steps": [
+          "Touch the fabrics.",
+          "Look at the food pictures.",
+          "Say a food you like."
+        ],
+        "safety": "Check all objects are clean and safe and never rank one family’s culture above another. Use pictures only for foods unless parents agree to tasting."
+      },
+      "differentiation": {
+        "support": "Touch a fabric and name it together.",
+        "extension": "Ask the child to say what their family wears on a special day."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What food do you like?",
+            "expected": "A food name."
+          },
+          {
+            "question": "What do you wear on a special day?",
+            "expected": "Special clothes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names clothes and foods from home",
+        "Touches different fabrics"
+      ],
+      "conclusion": "Say \"We love our culture\" and wave.",
+      "homeConnection": "Talk to your child about traditional clothes and foods your family enjoys.",
+      "teacherReflection": [
+        "Which children could show \"name familiar clothes and foods from their homes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CLOTHES",
+          "FOOD"
+        ],
+        "pictures": [
+          "A colourful cloth",
+          "A plate of rice"
+        ],
+        "songOrRhyme": "Colours, colours on my cloth."
+      },
+      "activities": [
+        "Clothes and food"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W08-D02",
+      "title": "Songs and dances",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 8,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Community",
+      "subtopic": "Songs and dances",
+      "dayType": "explore",
+      "objectives": [
+        "Children will join in songs and dances from different homes."
+      ],
+      "successCriteria": [
+        "Joins a song with actions",
+        "Moves to a drum beat"
+      ],
+      "previousKnowledge": "Children know about family, respect and community helpers.",
+      "vocabulary": [
+        "dance",
+        "song",
+        "food",
+        "clothes",
+        "party",
+        "celebrate"
+      ],
+      "resources": [
+        "A drum",
+        "Shakers",
+        "A recording or live singer",
+        "Scarves"
+      ],
+      "starter": "Beat the drum gently and say \"Listen. Can you hear the beat? Let us dance.\"",
+      "teacherActivities": [
+        "Play the drum slowly and let children clap the beat.",
+        "Teach a simple song from the community.",
+        "Let children dance with scarves.",
+        "Invite a child to share a song from home."
+      ],
+      "learnerActivities": [
+        "Children clap with the beat.",
+        "Children join with actions.",
+        "Child dances to the beat.",
+        "Child sings or hums if they wish."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the drum slowly and let children clap the beat. Children: Children clap with the beat.",
+        "Step 2. Teacher: Teach a simple song from the community. Children: Children join with actions.",
+        "Step 3. Teacher: Let children dance with scarves. Children: Child dances to the beat.",
+        "Step 4. Teacher: Invite a child to share a song from home. Children: Child sings or hums if they wish."
+      ],
+      "practical": {
+        "title": "Drum and dance",
+        "steps": [
+          "Clap the beat.",
+          "Sing the song.",
+          "Dance with a scarf."
+        ],
+        "safety": "Keep the drum volume gentle and the floor clear. Offer a quiet space to a child sensitive to noise."
+      },
+      "differentiation": {
+        "support": "Dance beside the child.",
+        "extension": "Ask the child to lead a song."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we play?",
+            "expected": "A drum."
+          },
+          {
+            "question": "Do you like to dance?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins a song with actions",
+        "Moves to a drum beat"
+      ],
+      "conclusion": "Sit quietly and say \"Thank you.\"",
+      "homeConnection": "Sing a family song and dance together.",
+      "teacherReflection": [
+        "Which children could show \"join in songs and dances from different homes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DRUM",
+          "DANCE"
+        ],
+        "pictures": [
+          "A drum",
+          "Children dancing"
+        ]
+      },
+      "activities": [
+        "Drum and dance"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W08-D03",
+      "title": "Festivals and special days",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 8,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Community",
+      "subtopic": "Festivals and special days",
+      "dayType": "explore",
+      "objectives": [
+        "Children will talk about special days that families celebrate."
+      ],
+      "successCriteria": [
+        "Names a special day",
+        "Says how it feels"
+      ],
+      "previousKnowledge": "Children know about family, respect and community helpers.",
+      "vocabulary": [
+        "dance",
+        "song",
+        "food",
+        "clothes",
+        "party",
+        "celebrate"
+      ],
+      "resources": [
+        "Pictures of festivals, birthdays and weddings",
+        "Decorations",
+        "A puppet"
+      ],
+      "starter": "Show a birthday picture and say \"A birthday is a special day. Families celebrate in many ways.\"",
+      "teacherActivities": [
+        "Show pictures of different celebrations and say what people do.",
+        "Ask \"What do you do on a special day?\"",
+        "Say \"Every family celebrates in its own way.\"",
+        "Make a simple decoration for the class."
+      ],
+      "learnerActivities": [
+        "Children look and say party or dance.",
+        "Child says or points.",
+        "Children listen and nod.",
+        "Child makes a decoration."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show pictures of different celebrations and say what people do. Children: Children look and say party or dance.",
+        "Step 2. Teacher: Ask \"What do you do on a special day?\" Children: Child says or points.",
+        "Step 3. Teacher: Say \"Every family celebrates in its own way.\" Children: Children listen and nod.",
+        "Step 4. Teacher: Make a simple decoration for the class. Children: Child makes a decoration."
+      ],
+      "practical": {
+        "title": "Special day decorations",
+        "steps": [
+          "Look at the pictures.",
+          "Choose a colour.",
+          "Make a decoration."
+        ],
+        "safety": "Use non-toxic washable materials and avoid assuming which festivals families celebrate. Never ask a child to join a celebration their family does not observe."
+      },
+      "differentiation": {
+        "support": "Make the decoration together.",
+        "extension": "Ask the child to say what makes a day special."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is a special day?",
+            "expected": "A birthday or festival."
+          },
+          {
+            "question": "What do you do?",
+            "expected": "Party, eat or dance."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names a special day",
+        "Says how it feels"
+      ],
+      "conclusion": "Hang the decorations and say well done.",
+      "homeConnection": "Talk about the special days your family celebrates.",
+      "teacherReflection": [
+        "Which children could show \"talk about special days that families celebrate\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PARTY",
+          "SPECIAL"
+        ],
+        "pictures": [
+          "A birthday party",
+          "Decorations"
+        ]
+      },
+      "activities": [
+        "Special day decorations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W08-D04",
+      "title": "Our cultural party",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 8,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Community",
+      "subtopic": "Songs and dances",
+      "dayType": "apply",
+      "objectives": [
+        "Children will join a small class party with songs, dances and decorations."
+      ],
+      "successCriteria": [
+        "Joins the party",
+        "Greets friends happily"
+      ],
+      "previousKnowledge": "Children know about family, respect and community helpers.",
+      "vocabulary": [
+        "dance",
+        "song",
+        "food",
+        "clothes",
+        "party",
+        "celebrate"
+      ],
+      "resources": [
+        "Decorations from yesterday",
+        "A drum",
+        "Scarves",
+        "Fabrics"
+      ],
+      "starter": "Say \"Today we have a party for our class. We will sing and dance together.\"",
+      "teacherActivities": [
+        "Wear fabrics or scarves and greet friends.",
+        "Sing and dance to the drum.",
+        "Share a song or dance from a child’s home.",
+        "Say thank you and goodbye."
+      ],
+      "learnerActivities": [
+        "Children greet each other.",
+        "Children dance and sing.",
+        "Child shows a song or dance.",
+        "Children wave and say thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Wear fabrics or scarves and greet friends. Children: Children greet each other.",
+        "Step 2. Teacher: Sing and dance to the drum. Children: Children dance and sing.",
+        "Step 3. Teacher: Share a song or dance from a child’s home. Children: Child shows a song or dance.",
+        "Step 4. Teacher: Say thank you and goodbye. Children: Children wave and say thank you."
+      ],
+      "practical": {
+        "title": "Class party",
+        "steps": [
+          "Wear scarves.",
+          "Sing and dance.",
+          "Say thank you."
+        ],
+        "safety": "Keep the volume gentle and the floor clear. Do not require any child to wear or perform anything that their family does not agree to."
+      },
+      "differentiation": {
+        "support": "Dance together and stay beside the child.",
+        "extension": "Ask the child to be the drum leader."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did we do?",
+            "expected": "We sang and danced."
+          },
+          {
+            "question": "Did you enjoy it?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins the party",
+        "Greets friends happily"
+      ],
+      "conclusion": "Put away the scarves and say thank you.",
+      "homeConnection": "Enjoy a family song and dance at home.",
+      "teacherReflection": [
+        "Which children could show \"join a small class party with songs, dances and decorations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PARTY",
+          "SING"
+        ],
+        "pictures": [
+          "Children at a class party"
+        ]
+      },
+      "activities": [
+        "Class party"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W08-D05",
+      "title": "Week 8 culture check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 8,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Community",
+      "subtopic": "Our clothes and food",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child joins in cultural activities."
+      ],
+      "successCriteria": [
+        "Joins a song or dance",
+        "Names a food or clothing from home"
+      ],
+      "previousKnowledge": "Children know about family, respect and community helpers.",
+      "vocabulary": [
+        "dance",
+        "song",
+        "food",
+        "clothes",
+        "party",
+        "celebrate"
+      ],
+      "resources": [
+        "Fabrics",
+        "Drum",
+        "Pictures",
+        "Class record sheet"
+      ],
+      "starter": "Sing a favourite song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: clothes and food, songs and special days.",
+        "At each station watch how the child joins in.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child joins with a prompt.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: clothes and food, songs and special days. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child joins in. Children: Child joins with a prompt.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Culture stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep the volume gentle. Use pictures and clean fabrics only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to teach a friend a song."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names clothes or foods from home; joins a song; moves to a beat; talks about a special day.",
+        "questions": [
+          {
+            "question": "What do you like to sing?",
+            "expected": "A song name."
+          },
+          {
+            "question": "What do you eat?",
+            "expected": "A food name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Joins cultural activities with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep sharing family culture at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child joins in cultural activities\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Culture"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Culture stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

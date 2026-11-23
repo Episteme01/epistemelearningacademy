@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-SOC-T3-W03",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 3,
+  "week": 3,
+  "title": "Working together",
+  "topic": "Cooperation",
+  "subtopics": [
+    "Building together",
+    "Carrying together",
+    "Group games"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will work with a friend or a small group on a simple task.",
+    "Children will say \"we did it\"."
+  ],
+  "vocabulary": [
+    "together",
+    "team",
+    "build",
+    "carry",
+    "help",
+    "we"
+  ],
+  "content": "Building together, carrying together, and group games.",
+  "teachingActivities": "Choose tasks that need two or more children; give each child a clear part; praise the team (\"We did it\"); keep groups small; step back as children cooperate; rotate partners.",
+  "learnerActivities": "Work with a friend on a simple task and say \"we did it\".",
+  "resources": [
+    "Large cardboard boxes",
+    "Large blocks",
+    "A light mat to carry",
+    "A parachute",
+    "A teamwork song"
+  ],
+  "assessment": "Observe whether each child works with a friend on a simple task and joins a group game.",
+  "expectedOutcomes": [
+    "Works with a friend on a simple task.",
+    "Joins a group game."
+  ],
+  "crossCurricular": [
+    "Physical Development: carrying",
+    "Numeracy: counting together",
+    "Literacy: we words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W03-D01",
+      "title": "Building together",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 3,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Cooperation",
+      "subtopic": "Building together",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will build something together with a friend."
+      ],
+      "successCriteria": [
+        "Adds to a shared building",
+        "Says we built it"
+      ],
+      "previousKnowledge": "Children can try new things and calm big feelings.",
+      "vocabulary": [
+        "together",
+        "team",
+        "build",
+        "carry",
+        "help",
+        "we"
+      ],
+      "resources": [
+        "Large blocks",
+        "Large cardboard boxes",
+        "A puppet"
+      ],
+      "starter": "Show a pile of blocks and say \"One child can build a little. Two children can build a lot.\"",
+      "teacherActivities": [
+        "Show how two children pass blocks to build a wall.",
+        "Pair children and give them blocks.",
+        "Ask \"What are you building?\"",
+        "Say \"We built it together.\""
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child builds with a friend.",
+        "Child says a word or points.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how two children pass blocks to build a wall. Children: Children watch.",
+        "Step 2. Teacher: Pair children and give them blocks. Children: Child builds with a friend.",
+        "Step 3. Teacher: Ask \"What are you building?\" Children: Child says a word or points.",
+        "Step 4. Teacher: Say \"We built it together.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "Build a wall",
+        "steps": [
+          "Sit with a friend.",
+          "Pass blocks.",
+          "Build together."
+        ],
+        "safety": "Use large light blocks only and keep towers low. Seat children safely and supervise closely."
+      },
+      "differentiation": {
+        "support": "Build the first layer together.",
+        "extension": "Ask the pair to name what they built."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you build?",
+            "expected": "A wall or house."
+          },
+          {
+            "question": "Who built it?",
+            "expected": "We did."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Builds with a friend",
+        "Says we built it"
+      ],
+      "conclusion": "Look at the building and say \"Well done, team.\"",
+      "homeConnection": "Build with blocks together at home.",
+      "teacherReflection": [
+        "Which children could show \"build something together with a friend\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BUILD",
+          "TEAM"
+        ],
+        "pictures": [
+          "Children building together"
+        ],
+        "songOrRhyme": "Together, together, we can do it together."
+      },
+      "activities": [
+        "Build a wall"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W03-D02",
+      "title": "Carrying together",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 3,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Cooperation",
+      "subtopic": "Carrying together",
+      "dayType": "explore",
+      "objectives": [
+        "Children will carry a light object together."
+      ],
+      "successCriteria": [
+        "Carries a light object with a friend",
+        "Says we carried it"
+      ],
+      "previousKnowledge": "Children can try new things and calm big feelings.",
+      "vocabulary": [
+        "together",
+        "team",
+        "build",
+        "carry",
+        "help",
+        "we"
+      ],
+      "resources": [
+        "A light mat or sheet",
+        "A large soft toy",
+        "A light box"
+      ],
+      "starter": "Show a light box and say \"It is too big for one. Two children can carry it.\"",
+      "teacherActivities": [
+        "Show how two children hold opposite sides.",
+        "Pair children and let them carry the box.",
+        "Walk slowly across the room.",
+        "Say \"We carried it together.\""
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child carries the box with a friend.",
+        "Children walk together.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how two children hold opposite sides. Children: Children watch.",
+        "Step 2. Teacher: Pair children and let them carry the box. Children: Child carries the box with a friend.",
+        "Step 3. Teacher: Walk slowly across the room. Children: Children walk together.",
+        "Step 4. Teacher: Say \"We carried it together.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "Carry the box",
+        "steps": [
+          "Hold the box with a friend.",
+          "Walk slowly.",
+          "Put it down gently."
+        ],
+        "safety": "Use a very light box and keep the route clear. Supervise every pair and never carry anything heavy."
+      },
+      "differentiation": {
+        "support": "Carry the box together with the child.",
+        "extension": "Ask the pair to carry the box around a cone."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who carried the box?",
+            "expected": "We did."
+          },
+          {
+            "question": "Was it too big for one?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Carries with a friend",
+        "Says we carried it"
+      ],
+      "conclusion": "Put the box away and say \"Team.\"",
+      "homeConnection": "Carry light things together at home.",
+      "teacherReflection": [
+        "Which children could show \"carry a light object together\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CARRY",
+          "TOGETHER"
+        ],
+        "pictures": [
+          "Two children carrying a box"
+        ]
+      },
+      "activities": [
+        "Carry the box"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W03-D03",
+      "title": "Group games",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 3,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Cooperation",
+      "subtopic": "Group games",
+      "dayType": "practise",
+      "objectives": [
+        "Children will join a group game and cooperate."
+      ],
+      "successCriteria": [
+        "Joins a group game",
+        "Waits and takes turns"
+      ],
+      "previousKnowledge": "Children can try new things and calm big feelings.",
+      "vocabulary": [
+        "together",
+        "team",
+        "build",
+        "carry",
+        "help",
+        "we"
+      ],
+      "resources": [
+        "A parachute or large cloth",
+        "A soft ball",
+        "A circle song"
+      ],
+      "starter": "Hold the cloth and say \"Hold on tight. Everyone together.\"",
+      "teacherActivities": [
+        "Show how to hold the cloth edge and lift together.",
+        "Lift and lower the cloth with a song.",
+        "Roll a ball on the cloth.",
+        "Say \"We played together.\""
+      ],
+      "learnerActivities": [
+        "Children hold the cloth.",
+        "Children lift together.",
+        "Children watch and shake gently.",
+        "Children cheer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to hold the cloth edge and lift together. Children: Children hold the cloth.",
+        "Step 2. Teacher: Lift and lower the cloth with a song. Children: Children lift together.",
+        "Step 3. Teacher: Roll a ball on the cloth. Children: Children watch and shake gently.",
+        "Step 4. Teacher: Say \"We played together.\" Children: Children cheer."
+      ],
+      "practical": {
+        "title": "Cloth game",
+        "steps": [
+          "Hold the edge.",
+          "Lift together.",
+          "Roll the ball."
+        ],
+        "safety": "Use a soft light cloth and a very soft ball. Keep the group small and away from furniture."
+      },
+      "differentiation": {
+        "support": "Hold the cloth beside the child.",
+        "extension": "Ask the child to lead the lifting count."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did we do?",
+            "expected": "We lifted the cloth."
+          },
+          {
+            "question": "Who played?",
+            "expected": "All of us."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins a group game",
+        "Takes turns in the group"
+      ],
+      "conclusion": "Fold the cloth and say well done.",
+      "homeConnection": "Play a simple group game with the family.",
+      "teacherReflection": [
+        "Which children could show \"join a group game and cooperate\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GROUP",
+          "GAME"
+        ],
+        "pictures": [
+          "Children with a cloth"
+        ]
+      },
+      "activities": [
+        "Cloth game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W03-D04",
+      "title": "Team project",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 3,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Cooperation",
+      "subtopic": "Building together",
+      "dayType": "apply",
+      "objectives": [
+        "Children will complete a small project together."
+      ],
+      "successCriteria": [
+        "Works with others to finish a project",
+        "Says we did it"
+      ],
+      "previousKnowledge": "Children can try new things and calm big feelings.",
+      "vocabulary": [
+        "together",
+        "team",
+        "build",
+        "carry",
+        "help",
+        "we"
+      ],
+      "resources": [
+        "A big sheet of paper",
+        "Crayons or paint",
+        "Collage materials"
+      ],
+      "starter": "Show a large sheet of paper and say \"Today we make one big picture together.\"",
+      "teacherActivities": [
+        "Put the paper on the floor and show each child a space.",
+        "Let children add colour or collage materials.",
+        "Talk about the picture.",
+        "Hang the picture and say \"We made it together.\""
+      ],
+      "learnerActivities": [
+        "Children choose a space.",
+        "Child adds to the picture.",
+        "Child says what they added.",
+        "Children cheer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the paper on the floor and show each child a space. Children: Children choose a space.",
+        "Step 2. Teacher: Let children add colour or collage materials. Children: Child adds to the picture.",
+        "Step 3. Teacher: Talk about the picture. Children: Child says what they added.",
+        "Step 4. Teacher: Hang the picture and say \"We made it together.\" Children: Children cheer."
+      ],
+      "practical": {
+        "title": "Team picture",
+        "steps": [
+          "Sit around the paper.",
+          "Add your part.",
+          "Look at the big picture."
+        ],
+        "safety": "Use non-toxic washable materials and supervise closely. Keep small items out of mouths."
+      },
+      "differentiation": {
+        "support": "Add your part beside the child.",
+        "extension": "Ask the child to say what their part is."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did we make?",
+            "expected": "A big picture."
+          },
+          {
+            "question": "Who made it?",
+            "expected": "We did."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Contributes to a team project",
+        "Says we did it"
+      ],
+      "conclusion": "Wash hands and say \"Team.\"",
+      "homeConnection": "Make a picture together as a family.",
+      "teacherReflection": [
+        "Which children could show \"complete a small project together\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WE DID",
+          "MADE"
+        ],
+        "pictures": [
+          "A big team picture"
+        ]
+      },
+      "activities": [
+        "Team picture"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W03-D05",
+      "title": "Week 3 teamwork check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 3,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Cooperation",
+      "subtopic": "Group games",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child works with others."
+      ],
+      "successCriteria": [
+        "Works with a friend",
+        "Joins a group game"
+      ],
+      "previousKnowledge": "Children can try new things and calm big feelings.",
+      "vocabulary": [
+        "together",
+        "team",
+        "build",
+        "carry",
+        "help",
+        "we"
+      ],
+      "resources": [
+        "Blocks",
+        "A box",
+        "A cloth",
+        "Class record sheet"
+      ],
+      "starter": "Sing the teamwork song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: build, carry and cloth.",
+        "At each station watch how children cooperate.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child works with a friend.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: build, carry and cloth. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how children cooperate. Children: Child works with a friend.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Teamwork stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station closely and keep floors clear. Use light objects only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to include a quiet friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: builds with a friend; carries with a friend; joins a group game; says we did it.",
+        "questions": [
+          {
+            "question": "Who did it?",
+            "expected": "We did."
+          },
+          {
+            "question": "What did we do?",
+            "expected": "We worked together."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Works with others with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep doing things together at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child works with others\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Teamwork"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Teamwork stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

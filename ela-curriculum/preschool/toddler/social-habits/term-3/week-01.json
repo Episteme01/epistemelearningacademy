@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-TOD-SOC-T3-W01",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 3,
+  "week": 1,
+  "title": "Being brave and trying",
+  "topic": "Confidence",
+  "subtopics": [
+    "Trying something new",
+    "Saying \"I can try\"",
+    "Keeping going"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will try a new activity with encouragement.",
+    "Children will say \"I can try\" and keep going for a short time."
+  ],
+  "vocabulary": [
+    "try",
+    "brave",
+    "new",
+    "again",
+    "can",
+    "proud"
+  ],
+  "content": "Trying something new, saying \"I can try\", and keeping going.",
+  "teachingActivities": "Praise effort rather than result (\"You kept trying\"); offer a small first step; stay beside a hesitant child; never compare children; let children refuse and return; model trying and making mistakes yourself.",
+  "learnerActivities": "Try a new activity with encouragement, say \"I can try\" and keep going for a short time.",
+  "resources": [
+    "A balance beam on the floor",
+    "Stacking cups",
+    "A simple puzzle",
+    "A brave badge",
+    "A puppet who is afraid and then tries"
+  ],
+  "assessment": "Observe whether each child tries a new activity with encouragement and says \"I can try\".",
+  "expectedOutcomes": [
+    "Tries a new activity with encouragement.",
+    "Says \"I can try\" with a prompt."
+  ],
+  "crossCurricular": [
+    "Physical Development: balance",
+    "Literacy: I can words",
+    "Numeracy: stacking and counting"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W01-D01",
+      "title": "Trying something new",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 1,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Confidence",
+      "subtopic": "Trying something new",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will try a new activity with encouragement."
+      ],
+      "successCriteria": [
+        "Tries a new activity",
+        "Smiles after trying"
+      ],
+      "previousKnowledge": "Children have learnt manners, kindness, honesty, helping and respect over two terms.",
+      "vocabulary": [
+        "try",
+        "brave",
+        "new",
+        "again",
+        "can",
+        "proud"
+      ],
+      "resources": [
+        "Stacking cups",
+        "A puppet",
+        "A brave badge"
+      ],
+      "starter": "Show a puppet looking at a tower of cups and say \"I have never done this. I will try.\"",
+      "teacherActivities": [
+        "Show how to stack two cups and say \"I tried.\"",
+        "Invite each child to try stacking one cup.",
+        "Praise the trying, not only the tower.",
+        "Give the brave badge to the puppet and say \"Brave to try.\""
+      ],
+      "learnerActivities": [
+        "Children watch and clap.",
+        "Child tries stacking a cup.",
+        "Child smiles and tries again.",
+        "Children cheer for the puppet."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to stack two cups and say \"I tried.\" Children: Children watch and clap.",
+        "Step 2. Teacher: Invite each child to try stacking one cup. Children: Child tries stacking a cup.",
+        "Step 3. Teacher: Praise the trying, not only the tower. Children: Child smiles and tries again.",
+        "Step 4. Teacher: Give the brave badge to the puppet and say \"Brave to try.\" Children: Children cheer for the puppet."
+      ],
+      "practical": {
+        "title": "Stack and try",
+        "steps": [
+          "Pick up a cup.",
+          "Stack it on another.",
+          "Try again if it falls."
+        ],
+        "safety": "Use large light plastic cups only and keep children seated. Never force a child to try; stay close and offer a first step."
+      },
+      "differentiation": {
+        "support": "Stack the first cup together and let the child add one.",
+        "extension": "Ask the child to try stacking four cups."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you try?",
+            "expected": "Stacking cups."
+          },
+          {
+            "question": "Did it fall?",
+            "expected": "Yes, and I tried again."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Tries a new activity with encouragement",
+        "Smiles after trying"
+      ],
+      "conclusion": "Say \"I tried\" together and wave.",
+      "homeConnection": "Praise your child for trying new things, not only for succeeding.",
+      "teacherReflection": [
+        "Which children could show \"try a new activity with encouragement\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TRY",
+          "BRAVE"
+        ],
+        "pictures": [
+          "Stacking cups",
+          "A brave badge"
+        ],
+        "songOrRhyme": "I can try, I can try, I can try again."
+      },
+      "activities": [
+        "Stack and try"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W01-D02",
+      "title": "I can try",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 1,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Confidence",
+      "subtopic": "Saying \"I can try\"",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say \"I can try\" before an activity."
+      ],
+      "successCriteria": [
+        "Says I can try with a prompt",
+        "Starts a task after saying it"
+      ],
+      "previousKnowledge": "Children have learnt manners, kindness, honesty, helping and respect over two terms.",
+      "vocabulary": [
+        "try",
+        "brave",
+        "new",
+        "again",
+        "can",
+        "proud"
+      ],
+      "resources": [
+        "A simple puzzle",
+        "A ball and basket",
+        "A puppet"
+      ],
+      "starter": "Say \"When something looks hard, we say: I can try.\"",
+      "teacherActivities": [
+        "Model saying \"I can try\" before a puzzle.",
+        "Let each child say it before a task.",
+        "Notice effort and say \"You are trying.\"",
+        "Say \"Well done for trying.\""
+      ],
+      "learnerActivities": [
+        "Children repeat I can try.",
+        "Child says I can try and begins.",
+        "Child continues with the task.",
+        "Children smile."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Model saying \"I can try\" before a puzzle. Children: Children repeat I can try.",
+        "Step 2. Teacher: Let each child say it before a task. Children: Child says I can try and begins.",
+        "Step 3. Teacher: Notice effort and say \"You are trying.\" Children: Child continues with the task.",
+        "Step 4. Teacher: Say \"Well done for trying.\" Children: Children smile."
+      ],
+      "practical": {
+        "title": "I can try tasks",
+        "steps": [
+          "Choose a task.",
+          "Say I can try.",
+          "Do the task."
+        ],
+        "safety": "Choose tasks that children can mostly do and use large pieces. Never say a task is easy or hard."
+      },
+      "differentiation": {
+        "support": "Say the words together and start together.",
+        "extension": "Ask the child to say it to a friend before they start."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do you say before you try?",
+            "expected": "I can try."
+          },
+          {
+            "question": "Did you try?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says I can try with a prompt",
+        "Starts a task after saying it"
+      ],
+      "conclusion": "Say \"I can try\" together and clap.",
+      "homeConnection": "Teach your child to say \"I can try\" before new tasks.",
+      "teacherReflection": [
+        "Which children could show \"say \"I can try\" before an activity\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "I CAN",
+          "TRY"
+        ],
+        "pictures": [
+          "A child doing a puzzle"
+        ]
+      },
+      "activities": [
+        "I can try tasks"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W01-D03",
+      "title": "Keeping going",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 1,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Confidence",
+      "subtopic": "Keeping going",
+      "dayType": "practise",
+      "objectives": [
+        "Children will keep going with a task for a short time when it is not easy."
+      ],
+      "successCriteria": [
+        "Tries again after a mistake",
+        "Asks for help when needed"
+      ],
+      "previousKnowledge": "Children have learnt manners, kindness, honesty, helping and respect over two terms.",
+      "vocabulary": [
+        "try",
+        "brave",
+        "new",
+        "again",
+        "can",
+        "proud"
+      ],
+      "resources": [
+        "A tower of blocks",
+        "A puzzle with big pieces",
+        "A puppet"
+      ],
+      "starter": "Build a tower that falls and say \"Oops. Let us try again.\"",
+      "teacherActivities": [
+        "Show a tower that falls and rebuild it.",
+        "Say \"If it is hard, I can ask for help.\"",
+        "Let children build or do a puzzle.",
+        "Praise the trying with specific words."
+      ],
+      "learnerActivities": [
+        "Children watch and say try again.",
+        "Children repeat ask for help.",
+        "Child tries and tries again.",
+        "Child smiles and nods."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a tower that falls and rebuild it. Children: Children watch and say try again.",
+        "Step 2. Teacher: Say \"If it is hard, I can ask for help.\" Children: Children repeat ask for help.",
+        "Step 3. Teacher: Let children build or do a puzzle. Children: Child tries and tries again.",
+        "Step 4. Teacher: Praise the trying with specific words. Children: Child smiles and nods."
+      ],
+      "practical": {
+        "title": "Try again",
+        "steps": [
+          "Build a tower.",
+          "If it falls, try again.",
+          "Ask for help if you need it."
+        ],
+        "safety": "Use large light blocks and keep a safe distance from falling towers. Step in only when a child asks for help."
+      },
+      "differentiation": {
+        "support": "Build the first layer together.",
+        "extension": "Ask the child to help a friend who is stuck."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do if it falls?",
+            "expected": "Try again."
+          },
+          {
+            "question": "What can we ask for?",
+            "expected": "Help."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Tries again after a mistake",
+        "Asks for help when needed"
+      ],
+      "conclusion": "Look at the finished work and say \"You kept trying.\"",
+      "homeConnection": "Let your child try again before you help.",
+      "teacherReflection": [
+        "Which children could show \"keep going with a task for a short time when it is not easy\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "AGAIN",
+          "HELP"
+        ],
+        "pictures": [
+          "A tower of blocks"
+        ]
+      },
+      "activities": [
+        "Try again"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W01-D04",
+      "title": "Brave steps",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 1,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Confidence",
+      "subtopic": "Trying something new",
+      "dayType": "apply",
+      "objectives": [
+        "Children will try a physical challenge with a friendly adult beside them."
+      ],
+      "successCriteria": [
+        "Tries to walk along a line or beam",
+        "Says I did it"
+      ],
+      "previousKnowledge": "Children have learnt manners, kindness, honesty, helping and respect over two terms.",
+      "vocabulary": [
+        "try",
+        "brave",
+        "new",
+        "again",
+        "can",
+        "proud"
+      ],
+      "resources": [
+        "A line of tape or a low beam on the floor",
+        "Soft mats",
+        "A badge"
+      ],
+      "starter": "Show a line on the floor and say \"Can you walk on the line? Let us try.\"",
+      "teacherActivities": [
+        "Show how to walk along the line with arms out.",
+        "Hold hands and walk the line with each child.",
+        "Let children try with less help.",
+        "Say \"I did it\" and give a badge."
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child tries to walk the line.",
+        "Child walks with less support.",
+        "Child says I did it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to walk along the line with arms out. Children: Children watch.",
+        "Step 2. Teacher: Hold hands and walk the line with each child. Children: Child tries to walk the line.",
+        "Step 3. Teacher: Let children try with less help. Children: Child walks with less support.",
+        "Step 4. Teacher: Say \"I did it\" and give a badge. Children: Child says I did it."
+      ],
+      "practical": {
+        "title": "Walk the line",
+        "steps": [
+          "Stand at the start.",
+          "Walk on the line slowly.",
+          "Say I did it."
+        ],
+        "safety": "Use tape on the floor or a very low beam with soft mats beside it. Stay close and keep a second adult watching."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand all the way along.",
+        "extension": "Ask the child to walk backwards or carry a bean bag."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Did you try?",
+            "expected": "Yes."
+          },
+          {
+            "question": "How do you feel?",
+            "expected": "Proud or happy."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Tries a physical challenge",
+        "Says I did it"
+      ],
+      "conclusion": "Give a badge and wave goodbye.",
+      "homeConnection": "Let your child try a safe challenge and praise the effort.",
+      "teacherReflection": [
+        "Which children could show \"try a physical challenge with a friendly adult beside them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BRAVE",
+          "PROUD"
+        ],
+        "pictures": [
+          "A line on the floor"
+        ]
+      },
+      "activities": [
+        "Walk the line"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W01-D05",
+      "title": "Week 1 trying check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 1,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Confidence",
+      "subtopic": "Saying \"I can try\"",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child tries new things and keeps going."
+      ],
+      "successCriteria": [
+        "Tries a new activity",
+        "Says I can try with a prompt"
+      ],
+      "previousKnowledge": "Children have learnt manners, kindness, honesty, helping and respect over two terms.",
+      "vocabulary": [
+        "try",
+        "brave",
+        "new",
+        "again",
+        "can",
+        "proud"
+      ],
+      "resources": [
+        "Cups",
+        "A puzzle",
+        "A line on the floor",
+        "Class record sheet"
+      ],
+      "starter": "Sing the try song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: cups, puzzle and line.",
+        "At each station watch how the child tries.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child tries with a prompt.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: cups, puzzle and line. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child tries. Children: Child tries with a prompt.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Trying stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station closely and keep floors clear. Use large light items only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to encourage a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: tries a new activity; says I can try; keeps going after a mistake; asks for help.",
+        "questions": [
+          {
+            "question": "What do you say?",
+            "expected": "I can try."
+          },
+          {
+            "question": "What do you do if it falls?",
+            "expected": "Try again."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 1",
+        "Tries new things with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep praising effort at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child tries new things and keeps going\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Trying"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Trying stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

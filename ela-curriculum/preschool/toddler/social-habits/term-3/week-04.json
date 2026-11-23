@@ -1,0 +1,602 @@
+{
+  "id": "ELA-PS-TOD-SOC-T3-W04",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 3,
+  "week": 4,
+  "title": "Our community helpers",
+  "topic": "Community",
+  "subtopics": [
+    "Teachers and nurses",
+    "Drivers, farmers and market sellers",
+    "Thanking helpers"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will name community helpers and what they do.",
+    "Children will thank a helper."
+  ],
+  "vocabulary": [
+    "nurse",
+    "teacher",
+    "driver",
+    "farmer",
+    "helper",
+    "thank you"
+  ],
+  "content": "Teachers and nurses, drivers, farmers and market sellers, and thanking helpers.",
+  "teachingActivities": "Use local helpers children know (the nurse at the clinic, the bus driver, the market seller, the farmer, the gateman); invite a helper to visit if possible; keep role play positive; avoid gender stereotypes about jobs; use real objects such as a stethoscope toy.",
+  "learnerActivities": "Name community helpers and what they do and say thank you to a helper.",
+  "resources": [
+    "Pictures of community helpers",
+    "Dress-up items and hats",
+    "Toy medical kit",
+    "Toy vegetables and a play market",
+    "A thank-you card"
+  ],
+  "assessment": "Observe whether each child names two helpers and says thank you to a helper.",
+  "expectedOutcomes": [
+    "Names two or more community helpers.",
+    "Says thank you to a helper."
+  ],
+  "crossCurricular": [
+    "Understanding the World: people and jobs",
+    "Literacy: job words",
+    "Creative Development: role play"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W04-D01",
+      "title": "Teachers and nurses",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Community",
+      "subtopic": "Teachers and nurses",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name teachers and nurses and say how they help."
+      ],
+      "successCriteria": [
+        "Names a teacher and a nurse",
+        "Says what each does"
+      ],
+      "previousKnowledge": "Children can cooperate and show respect.",
+      "vocabulary": [
+        "nurse",
+        "teacher",
+        "driver",
+        "farmer",
+        "helper",
+        "thank you"
+      ],
+      "resources": [
+        "Pictures of a teacher and a nurse",
+        "A toy medical kit",
+        "Hats"
+      ],
+      "starter": "Show a picture of a nurse and say \"A nurse helps us when we are sick.\"",
+      "teacherActivities": [
+        "Show pictures of a teacher and a nurse and say what they do.",
+        "Show a toy medical kit and name each item.",
+        "Let children be nurse and patient with a doll.",
+        "Say \"Thank you, nurse. Thank you, teacher.\""
+      ],
+      "learnerActivities": [
+        "Children look and repeat the job.",
+        "Children touch and name items.",
+        "Child plays nurse or patient.",
+        "Children say thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show pictures of a teacher and a nurse and say what they do. Children: Children look and repeat the job.",
+        "Step 2. Teacher: Show a toy medical kit and name each item. Children: Children touch and name items.",
+        "Step 3. Teacher: Let children be nurse and patient with a doll. Children: Child plays nurse or patient.",
+        "Step 4. Teacher: Say \"Thank you, nurse. Thank you, teacher.\" Children: Children say thank you."
+      ],
+      "practical": {
+        "title": "Nurse role play",
+        "steps": [
+          "Look at the kit.",
+          "Be the nurse.",
+          "Care for a doll."
+        ],
+        "safety": "Use only a toy kit with no real medicines or sharp items. Keep play gentle and wash hands after."
+      },
+      "differentiation": {
+        "support": "Play together and name the job.",
+        "extension": "Ask the child to say how a nurse helps."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who helps us when we are sick?",
+            "expected": "The nurse."
+          },
+          {
+            "question": "Who teaches us?",
+            "expected": "The teacher."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names a teacher and a nurse",
+        "Says how each helps"
+      ],
+      "conclusion": "Say \"Thank you, helpers\" and wave.",
+      "homeConnection": "Talk about the nurse and teacher your child knows.",
+      "teacherReflection": [
+        "Which children could show \"name teachers and nurses and say how they help\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "NURSE",
+          "TEACHER"
+        ],
+        "pictures": [
+          "A nurse",
+          "A teacher"
+        ],
+        "songOrRhyme": "Helpers, helpers, helpers in our town."
+      },
+      "activities": [
+        "Nurse role play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W04-D02",
+      "title": "Drivers and farmers",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Community",
+      "subtopic": "Drivers, farmers and market sellers",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name drivers and farmers and say how they help."
+      ],
+      "successCriteria": [
+        "Names a driver and a farmer",
+        "Says what each does"
+      ],
+      "previousKnowledge": "Children can cooperate and show respect.",
+      "vocabulary": [
+        "nurse",
+        "teacher",
+        "driver",
+        "farmer",
+        "helper",
+        "thank you"
+      ],
+      "resources": [
+        "Pictures of a bus driver and a farmer",
+        "A toy bus",
+        "Toy vegetables"
+      ],
+      "starter": "Show a toy bus and say \"The driver takes people to school and work.\"",
+      "teacherActivities": [
+        "Show a picture of a driver and say what the driver does.",
+        "Show a picture of a farmer and say what the farmer grows.",
+        "Let children drive a toy bus and plant toy seeds.",
+        "Say \"Thank you, driver. Thank you, farmer.\""
+      ],
+      "learnerActivities": [
+        "Children look and repeat.",
+        "Children name a food.",
+        "Child plays driver or farmer.",
+        "Children say thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a picture of a driver and say what the driver does. Children: Children look and repeat.",
+        "Step 2. Teacher: Show a picture of a farmer and say what the farmer grows. Children: Children name a food.",
+        "Step 3. Teacher: Let children drive a toy bus and plant toy seeds. Children: Child plays driver or farmer.",
+        "Step 4. Teacher: Say \"Thank you, driver. Thank you, farmer.\" Children: Children say thank you."
+      ],
+      "practical": {
+        "title": "Driver and farmer play",
+        "steps": [
+          "Drive the toy bus.",
+          "Plant toy seeds.",
+          "Say thank you."
+        ],
+        "safety": "Use only toys and keep movement slow and safe. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Play together and name the job.",
+        "extension": "Ask the child to say where the food comes from."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who drives the bus?",
+            "expected": "The driver."
+          },
+          {
+            "question": "Who grows food?",
+            "expected": "The farmer."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names a driver and a farmer",
+        "Says what each does"
+      ],
+      "conclusion": "Say \"Thank you, helpers\" and wave.",
+      "homeConnection": "Talk about the drivers and farmers you see.",
+      "teacherReflection": [
+        "Which children could show \"name drivers and farmers and say how they help\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DRIVER",
+          "FARMER"
+        ],
+        "pictures": [
+          "A bus driver",
+          "A farmer"
+        ]
+      },
+      "activities": [
+        "Driver and farmer play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W04-D03",
+      "title": "The market seller",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Community",
+      "subtopic": "Drivers, farmers and market sellers",
+      "dayType": "practise",
+      "objectives": [
+        "Children will play at a market and use manners with the seller."
+      ],
+      "successCriteria": [
+        "Plays a buyer or seller",
+        "Says please and thank you"
+      ],
+      "previousKnowledge": "Children can cooperate and show respect.",
+      "vocabulary": [
+        "nurse",
+        "teacher",
+        "driver",
+        "farmer",
+        "helper",
+        "thank you"
+      ],
+      "resources": [
+        "A play market stall",
+        "Toy fruit and vegetables",
+        "Play money or tokens",
+        "Baskets"
+      ],
+      "starter": "Set up a play market and say \"The seller helps us get food. We say please and thank you.\"",
+      "teacherActivities": [
+        "Show how to ask the seller for a tomato.",
+        "Let children buy and sell toy food.",
+        "Remind children of manners.",
+        "Swap roles so everyone has a go."
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child buys or sells.",
+        "Child says please and thank you.",
+        "Child swaps and plays again."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to ask the seller for a tomato. Children: Children watch.",
+        "Step 2. Teacher: Let children buy and sell toy food. Children: Child buys or sells.",
+        "Step 3. Teacher: Remind children of manners. Children: Child says please and thank you.",
+        "Step 4. Teacher: Swap roles so everyone has a go. Children: Child swaps and plays again."
+      ],
+      "practical": {
+        "title": "Market play",
+        "steps": [
+          "Set up the stall.",
+          "Buy and sell food.",
+          "Say please and thank you."
+        ],
+        "safety": "Use only toy food and tokens too large to swallow. Supervise swapping and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Be the seller while the child is the buyer.",
+        "extension": "Ask the child to be the seller and give change with tokens."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who sells food?",
+            "expected": "The market seller."
+          },
+          {
+            "question": "What do you say?",
+            "expected": "Please and thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays a buyer or seller",
+        "Uses manners at the market"
+      ],
+      "conclusion": "Tidy the market and say \"Thank you.\"",
+      "homeConnection": "Visit a market with your child and greet the seller.",
+      "teacherReflection": [
+        "Which children could show \"play at a market and use manners with the seller\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MARKET",
+          "SELLER"
+        ],
+        "pictures": [
+          "A market stall"
+        ]
+      },
+      "activities": [
+        "Market play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W04-D04",
+      "title": "Thanking helpers",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Community",
+      "subtopic": "Thanking helpers",
+      "dayType": "apply",
+      "objectives": [
+        "Children will make a thank-you card for a community helper."
+      ],
+      "successCriteria": [
+        "Makes a card with marks or drawing",
+        "Says thank you to a helper"
+      ],
+      "previousKnowledge": "Children can cooperate and show respect.",
+      "vocabulary": [
+        "nurse",
+        "teacher",
+        "driver",
+        "farmer",
+        "helper",
+        "thank you"
+      ],
+      "resources": [
+        "Folded paper cards",
+        "Crayons",
+        "Stickers",
+        "A list of helpers"
+      ],
+      "starter": "Say \"Today we make a card to say thank you to a helper.\"",
+      "teacherActivities": [
+        "Show a sample card and say who it is for.",
+        "Let each child choose a helper and draw or mark a card.",
+        "Help each child add their name.",
+        "Deliver the cards to the helpers or display them."
+      ],
+      "learnerActivities": [
+        "Children look and listen.",
+        "Child makes a card.",
+        "Child adds a mark.",
+        "Child gives or points to the card."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a sample card and say who it is for. Children: Children look and listen.",
+        "Step 2. Teacher: Let each child choose a helper and draw or mark a card. Children: Child makes a card.",
+        "Step 3. Teacher: Help each child add their name. Children: Child adds a mark.",
+        "Step 4. Teacher: Deliver the cards to the helpers or display them. Children: Child gives or points to the card."
+      ],
+      "practical": {
+        "title": "Thank-you cards",
+        "steps": [
+          "Choose a helper.",
+          "Draw on the card.",
+          "Give or show the card."
+        ],
+        "safety": "Use non-toxic crayons and keep stickers away from mouths. Deliver cards with adult supervision."
+      },
+      "differentiation": {
+        "support": "Draw together and choose the helper.",
+        "extension": "Ask the child to say what the helper does."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is your card for?",
+            "expected": "A helper."
+          },
+          {
+            "question": "What do you say?",
+            "expected": "Thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes a thank-you card",
+        "Says thank you to a helper"
+      ],
+      "conclusion": "Hold the cards up and say \"Thank you, helpers.\"",
+      "homeConnection": "Say thank you to helpers in your neighbourhood.",
+      "teacherReflection": [
+        "Which children could show \"make a thank-you card for a community helper\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "THANK YOU",
+          "HELPER"
+        ],
+        "pictures": [
+          "A thank-you card"
+        ]
+      },
+      "activities": [
+        "Thank-you cards"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W04-D05",
+      "title": "Week 4 helpers check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Community",
+      "subtopic": "Thanking helpers",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child talks about helpers."
+      ],
+      "successCriteria": [
+        "Names two helpers",
+        "Says thank you"
+      ],
+      "previousKnowledge": "Children can cooperate and show respect.",
+      "vocabulary": [
+        "nurse",
+        "teacher",
+        "driver",
+        "farmer",
+        "helper",
+        "thank you"
+      ],
+      "resources": [
+        "Pictures",
+        "Hats",
+        "Class record sheet"
+      ],
+      "starter": "Sing the helper song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: nurse, market and card.",
+        "At each station ask \"Who is the helper?\"",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: nurse, market and card. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"Who is the helper?\" Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Helper stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use toys and safe materials only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to name three helpers."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names community helpers; says what they do; plays a helper role; says thank you.",
+        "questions": [
+          {
+            "question": "Who helps us?",
+            "expected": "Nurse, driver or teacher."
+          },
+          {
+            "question": "What do we say?",
+            "expected": "Thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Names helpers with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep noticing and thanking helpers.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child talks about helpers\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Helpers"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Helper stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

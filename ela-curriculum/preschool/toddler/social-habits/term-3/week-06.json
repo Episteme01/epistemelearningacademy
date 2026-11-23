@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-SOC-T3-W06",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "term": 3,
+  "week": 6,
+  "title": "My body belongs to me",
+  "topic": "Safety",
+  "subtopics": [
+    "My body is mine",
+    "Saying no and telling a trusted adult",
+    "My safe grown-ups"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say \"my body is mine\" and say \"stop\" to touch they do not like.",
+    "Children will name trusted adults they can tell."
+  ],
+  "vocabulary": [
+    "body",
+    "mine",
+    "stop",
+    "no",
+    "tell",
+    "safe"
+  ],
+  "content": "My body is mine, saying no and telling a trusted adult, and my safe grown-ups.",
+  "teachingActivities": "Teach this week gently and briefly using puppets, songs and pictures; use simple words and never describe abuse or ask children questions about what has happened to them; follow the school’s safeguarding and child protection policy and tell parents in advance what is taught; if a child says anything that worries you, listen calmly, do not question, and report it to the designated safeguarding lead the same day; never promise to keep a secret.",
+  "learnerActivities": "Say \"my body is mine\", say stop to touch they do not like and name trusted adults they can tell.",
+  "resources": [
+    "Puppets",
+    "A stop hand picture",
+    "A body outline picture",
+    "Pictures of trusted adults such as teacher, parent and nurse",
+    "A safe grown-ups song"
+  ],
+  "assessment": "Observe whether each child says stop with a hand sign and names a trusted adult. Never assess through personal questions.",
+  "expectedOutcomes": [
+    "Says stop to touch they do not like.",
+    "Names a trusted adult."
+  ],
+  "crossCurricular": [
+    "Literacy: stop and tell",
+    "Creative Development: songs and puppets",
+    "Social Habits: kindness and respect"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W06-D01",
+      "title": "My body is mine",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 6,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "My body is mine",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will learn that their body belongs to them and that they can choose who touches it."
+      ],
+      "successCriteria": [
+        "Says my body is mine with a prompt",
+        "Shows a stop hand"
+      ],
+      "previousKnowledge": "Children can stay safe on the road, ask for help and name feelings.",
+      "vocabulary": [
+        "body",
+        "mine",
+        "stop",
+        "no",
+        "tell",
+        "safe"
+      ],
+      "resources": [
+        "A body outline picture",
+        "A puppet",
+        "A stop hand picture"
+      ],
+      "starter": "Show a puppet and say \"This is my body. It is mine. I look after it and I say who can touch it.\"",
+      "teacherActivities": [
+        "Show the body outline and say \"This is your body. It is yours.\"",
+        "Say \"You can say stop if you do not like a touch.\"",
+        "Show the puppet saying stop to a tickle and the other puppet stopping.",
+        "Say \"My body is mine.\""
+      ],
+      "learnerActivities": [
+        "Children look and touch their own arm.",
+        "Children show a stop hand.",
+        "Children watch and say stop.",
+        "Children repeat the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the body outline and say \"This is your body. It is yours.\" Children: Children look and touch their own arm.",
+        "Step 2. Teacher: Say \"You can say stop if you do not like a touch.\" Children: Children show a stop hand.",
+        "Step 3. Teacher: Show the puppet saying stop to a tickle and the other puppet stopping. Children: Children watch and say stop.",
+        "Step 4. Teacher: Say \"My body is mine.\" Children: Children repeat the sentence."
+      ],
+      "practical": {
+        "title": "Stop hand",
+        "steps": [
+          "Show a stop hand.",
+          "Say stop loudly.",
+          "Say my body is mine."
+        ],
+        "safety": "Use only puppets and pictures and never demonstrate on a child’s body. Keep the tone calm and positive and follow the school’s safeguarding policy."
+      },
+      "differentiation": {
+        "support": "Show the stop hand together and say stop.",
+        "extension": "Ask the child to tell the puppet to stop."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Whose body is it?",
+            "expected": "Mine."
+          },
+          {
+            "question": "What can you say?",
+            "expected": "Stop."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says my body is mine with a prompt",
+        "Shows a stop hand"
+      ],
+      "conclusion": "Sing the body song and wave goodbye.",
+      "homeConnection": "Respect your child’s no to hugs and tickles, and say \"Your body is yours.\"",
+      "teacherReflection": [
+        "Which children could show \"learn that their body belongs to them and that they can choose who touches it\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MINE",
+          "STOP"
+        ],
+        "pictures": [
+          "A stop hand",
+          "A body outline"
+        ],
+        "songOrRhyme": "My body is mine, my body is mine, I can say stop."
+      },
+      "activities": [
+        "Stop hand"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W06-D02",
+      "title": "Saying no and stop",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 6,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "Saying no and telling a trusted adult",
+      "dayType": "explore",
+      "objectives": [
+        "Children will practise saying no and stop to things they do not like and learn to tell an adult."
+      ],
+      "successCriteria": [
+        "Says no or stop in play",
+        "Says tell a grown-up"
+      ],
+      "previousKnowledge": "Children can stay safe on the road, ask for help and name feelings.",
+      "vocabulary": [
+        "body",
+        "mine",
+        "stop",
+        "no",
+        "tell",
+        "safe"
+      ],
+      "resources": [
+        "Two puppets",
+        "A stop hand picture",
+        "A trusted adult picture"
+      ],
+      "starter": "Use two puppets: one takes a toy and the other says \"No, stop. That is mine.\"",
+      "teacherActivities": [
+        "Show the puppet saying no and stop to a toy being taken.",
+        "Say \"If someone does something we do not like, we say stop and tell a grown-up.\"",
+        "Let children practise saying no and stop to a puppet.",
+        "Say \"A grown-up will listen.\""
+      ],
+      "learnerActivities": [
+        "Children watch and say stop.",
+        "Children repeat tell a grown-up.",
+        "Child says no and stop.",
+        "Children nod and smile."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the puppet saying no and stop to a toy being taken. Children: Children watch and say stop.",
+        "Step 2. Teacher: Say \"If someone does something we do not like, we say stop and tell a grown-up.\" Children: Children repeat tell a grown-up.",
+        "Step 3. Teacher: Let children practise saying no and stop to a puppet. Children: Child says no and stop.",
+        "Step 4. Teacher: Say \"A grown-up will listen.\" Children: Children nod and smile."
+      ],
+      "practical": {
+        "title": "No and stop",
+        "steps": [
+          "Hold up a stop hand.",
+          "Say no and stop to the puppet.",
+          "Say tell a grown-up."
+        ],
+        "safety": "Keep the practice about toys and play only and use puppets. If a child says something that worries you, listen calmly and report it to the safeguarding lead the same day."
+      },
+      "differentiation": {
+        "support": "Say stop together with a stop hand.",
+        "extension": "Ask the child to name who they would tell."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do you say if you do not like something?",
+            "expected": "No or stop."
+          },
+          {
+            "question": "Who do you tell?",
+            "expected": "A grown-up."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says no or stop in play",
+        "Knows to tell a grown-up"
+      ],
+      "conclusion": "Show a stop hand and wave goodbye.",
+      "homeConnection": "Tell your child they can always tell you if something worries them.",
+      "teacherReflection": [
+        "Which children could show \"practise saying no and stop to things they do not like and learn to tell an adult\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAY NO",
+          "TELL"
+        ],
+        "pictures": [
+          "Two puppets"
+        ]
+      },
+      "activities": [
+        "No and stop"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W06-D03",
+      "title": "My safe grown-ups",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 6,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "My safe grown-ups",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name the grown-ups they can tell when they feel worried."
+      ],
+      "successCriteria": [
+        "Names or points to a safe grown-up",
+        "Says I can tell"
+      ],
+      "previousKnowledge": "Children can stay safe on the road, ask for help and name feelings.",
+      "vocabulary": [
+        "body",
+        "mine",
+        "stop",
+        "no",
+        "tell",
+        "safe"
+      ],
+      "resources": [
+        "Pictures of a teacher, a parent, a grandparent and a nurse",
+        "A hand-shaped chart",
+        "Stickers"
+      ],
+      "starter": "Show a hand-shaped chart and say \"On each finger, we put a grown-up we can tell.\"",
+      "teacherActivities": [
+        "Show the trusted adult pictures and name each person.",
+        "Help each child choose people they can tell and place stickers on fingers.",
+        "Say \"I can tell my safe grown-ups.\"",
+        "Say \"Grown-ups help us stay safe.\""
+      ],
+      "learnerActivities": [
+        "Children look and say who.",
+        "Child places a sticker on a finger.",
+        "Children repeat the sentence.",
+        "Children smile."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the trusted adult pictures and name each person. Children: Children look and say who.",
+        "Step 2. Teacher: Help each child choose people they can tell and place stickers on fingers. Children: Child places a sticker on a finger.",
+        "Step 3. Teacher: Say \"I can tell my safe grown-ups.\" Children: Children repeat the sentence.",
+        "Step 4. Teacher: Say \"Grown-ups help us stay safe.\" Children: Children smile."
+      ],
+      "practical": {
+        "title": "Safe hand chart",
+        "steps": [
+          "Look at the pictures.",
+          "Choose safe grown-ups.",
+          "Put stickers on the fingers."
+        ],
+        "safety": "Use non-toxic stickers and never ask children questions about their families beyond who helps them. Respect each family’s situation."
+      },
+      "differentiation": {
+        "support": "Point to a picture and name the grown-up together.",
+        "extension": "Ask the child to tell a friend who their safe grown-ups are."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is a safe grown-up?",
+            "expected": "Teacher, parent or nurse."
+          },
+          {
+            "question": "What do you do if you are worried?",
+            "expected": "Tell a safe grown-up."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names a safe grown-up",
+        "Says I can tell"
+      ],
+      "conclusion": "Hold up the safe hand and wave.",
+      "homeConnection": "Talk to your child about who they can tell when they feel worried.",
+      "teacherReflection": [
+        "Which children could show \"name the grown-ups they can tell when they feel worried\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAFE",
+          "TELL"
+        ],
+        "pictures": [
+          "A safe hand chart"
+        ]
+      },
+      "activities": [
+        "Safe hand chart"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W06-D04",
+      "title": "Safe and happy",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 6,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "My body is mine",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sing and act songs that reinforce stop, tell and safe grown-ups."
+      ],
+      "successCriteria": [
+        "Joins the safe song",
+        "Shows stop and tell actions"
+      ],
+      "previousKnowledge": "Children can stay safe on the road, ask for help and name feelings.",
+      "vocabulary": [
+        "body",
+        "mine",
+        "stop",
+        "no",
+        "tell",
+        "safe"
+      ],
+      "resources": [
+        "A safety song",
+        "Puppets",
+        "Pictures of happy children"
+      ],
+      "starter": "Sing the safe song and do the actions for stop and tell.",
+      "teacherActivities": [
+        "Teach the safe song with actions for stop and tell.",
+        "Sing the song again slowly.",
+        "Use the puppet to say \"I feel safe.\"",
+        "Say \"Everyone is safe at school.\""
+      ],
+      "learnerActivities": [
+        "Children do the actions.",
+        "Children sing with the actions.",
+        "Children say I feel safe.",
+        "Children smile and wave."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Teach the safe song with actions for stop and tell. Children: Children do the actions.",
+        "Step 2. Teacher: Sing the song again slowly. Children: Children sing with the actions.",
+        "Step 3. Teacher: Use the puppet to say \"I feel safe.\" Children: Children say I feel safe.",
+        "Step 4. Teacher: Say \"Everyone is safe at school.\" Children: Children smile and wave."
+      ],
+      "practical": {
+        "title": "Safe song",
+        "steps": [
+          "Learn the song.",
+          "Do the actions.",
+          "Say I feel safe."
+        ],
+        "safety": "Keep the mood warm and light and the actions simple. Never press a child to share personal experiences."
+      },
+      "differentiation": {
+        "support": "Do the actions together and sing quietly.",
+        "extension": "Ask the child to lead the song."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do you say to stop?",
+            "expected": "Stop."
+          },
+          {
+            "question": "Who do you tell?",
+            "expected": "A grown-up."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins the safe song",
+        "Does stop and tell actions"
+      ],
+      "conclusion": "Sing the song once more and wave goodbye.",
+      "homeConnection": "Sing the safe song at home and talk about safe grown-ups.",
+      "teacherReflection": [
+        "Which children could show \"sing and act songs that reinforce stop, tell and safe grown-ups\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SAFE",
+          "HAPPY"
+        ],
+        "pictures": [
+          "Happy children"
+        ]
+      },
+      "activities": [
+        "Safe song"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SOC-T3-W06-D05",
+      "title": "Week 6 safety check",
+      "class": "Toddler",
+      "subject": "Social Habits",
+      "term": 3,
+      "week": 6,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Safety",
+      "subtopic": "My safe grown-ups",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child shows stop and names a safe grown-up."
+      ],
+      "successCriteria": [
+        "Shows a stop hand and says stop",
+        "Names or points to a safe grown-up"
+      ],
+      "previousKnowledge": "Children can stay safe on the road, ask for help and name feelings.",
+      "vocabulary": [
+        "body",
+        "mine",
+        "stop",
+        "no",
+        "tell",
+        "safe"
+      ],
+      "resources": [
+        "Puppets",
+        "Pictures",
+        "Class record sheet"
+      ],
+      "starter": "Sing the safe song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: stop, tell and safe grown-ups.",
+        "At each station watch how the child responds.",
+        "Record each child’s level in a general way only."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child responds with a word or sign.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: stop, tell and safe grown-ups. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station watch how the child responds. Children: Child responds with a word or sign.",
+        "Step 3. Teacher: Record each child’s level in a general way only. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Safety stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use puppets and pictures only. Record observations only and report any concern to the safeguarding lead."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to show a friend the stop hand."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: shows a stop hand; says no or stop in play; names a safe grown-up; says I can tell. Do not question children about their own experiences.",
+        "questions": [
+          {
+            "question": "What do you say?",
+            "expected": "Stop."
+          },
+          {
+            "question": "Who can you tell?",
+            "expected": "A safe grown-up."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Shows stop and names a safe grown-up"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep reminding your child that they can tell you anything.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child shows stop and names a safe grown-up\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Safe"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Safety stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
