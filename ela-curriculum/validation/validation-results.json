@@ -9,12 +9,12 @@
     "lessons": 2400
   },
   "found": {
-    "programmesComplete": 2,
-    "weeks": 60,
-    "lessons": 300
+    "programmesComplete": 3,
+    "weeks": 90,
+    "lessons": 450
   },
   "errorCount": 0,
-  "warningCount": 57,
+  "warningCount": 105,
   "errors": [],
   "warnings": [
     {
@@ -244,6 +244,198 @@
     {
       "file": "preschool/toddler/numeracy/term-3/week-09.json",
       "message": "ELA-PS-TOD-NUM-T3-W09-D05: very short lesson presentation (345 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-01.json",
+      "message": "ELA-PS-TOD-SCI-T1-W01-D05: very short lesson presentation (340 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-02.json",
+      "message": "ELA-PS-TOD-SCI-T1-W02-D05: very short lesson presentation (358 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-03.json",
+      "message": "ELA-PS-TOD-SCI-T1-W03-D05: very short lesson presentation (358 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-04.json",
+      "message": "ELA-PS-TOD-SCI-T1-W04-D05: very short lesson presentation (354 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-05.json",
+      "message": "ELA-PS-TOD-SCI-T1-W05-D05: very short lesson presentation (375 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-06.json",
+      "message": "ELA-PS-TOD-SCI-T1-W06-D05: very short lesson presentation (366 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-07.json",
+      "message": "ELA-PS-TOD-SCI-T1-W07-D05: very short lesson presentation (312 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-08.json",
+      "message": "ELA-PS-TOD-SCI-T1-W08-D05: very short lesson presentation (361 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-09.json",
+      "message": "ELA-PS-TOD-SCI-T1-W09-D05: very short lesson presentation (370 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T1-W10-D01: very short lesson presentation (393 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T1-W10-D02: very short lesson presentation (363 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T1-W10-D03: very short lesson presentation (390 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T1-W10-D04: very short lesson presentation (344 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-1/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T1-W10-D05: very short lesson presentation (337 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-01.json",
+      "message": "ELA-PS-TOD-SCI-T2-W01-D05: very short lesson presentation (356 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-02.json",
+      "message": "ELA-PS-TOD-SCI-T2-W02-D05: very short lesson presentation (348 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-03.json",
+      "message": "ELA-PS-TOD-SCI-T2-W03-D05: very short lesson presentation (373 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-04.json",
+      "message": "ELA-PS-TOD-SCI-T2-W04-D05: very short lesson presentation (359 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-05.json",
+      "message": "ELA-PS-TOD-SCI-T2-W05-D05: very short lesson presentation (356 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-06.json",
+      "message": "ELA-PS-TOD-SCI-T2-W06-D05: very short lesson presentation (387 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-07.json",
+      "message": "ELA-PS-TOD-SCI-T2-W07-D05: very short lesson presentation (358 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-08.json",
+      "message": "ELA-PS-TOD-SCI-T2-W08-D05: very short lesson presentation (387 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-09.json",
+      "message": "ELA-PS-TOD-SCI-T2-W09-D03: very short lesson presentation (385 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-09.json",
+      "message": "ELA-PS-TOD-SCI-T2-W09-D04: very short lesson presentation (348 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-09.json",
+      "message": "ELA-PS-TOD-SCI-T2-W09-D05: very short lesson presentation (365 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T2-W10-D01: very short lesson presentation (376 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T2-W10-D02: very short lesson presentation (352 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T2-W10-D03: very short lesson presentation (379 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T2-W10-D04: very short lesson presentation (347 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-2/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T2-W10-D05: very short lesson presentation (335 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-01.json",
+      "message": "ELA-PS-TOD-SCI-T3-W01-D05: very short lesson presentation (335 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-02.json",
+      "message": "ELA-PS-TOD-SCI-T3-W02-D05: very short lesson presentation (322 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-03.json",
+      "message": "ELA-PS-TOD-SCI-T3-W03-D03: very short lesson presentation (386 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-03.json",
+      "message": "ELA-PS-TOD-SCI-T3-W03-D05: very short lesson presentation (366 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-04.json",
+      "message": "ELA-PS-TOD-SCI-T3-W04-D05: very short lesson presentation (350 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-05.json",
+      "message": "ELA-PS-TOD-SCI-T3-W05-D04: very short lesson presentation (385 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-05.json",
+      "message": "ELA-PS-TOD-SCI-T3-W05-D05: very short lesson presentation (335 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-06.json",
+      "message": "ELA-PS-TOD-SCI-T3-W06-D05: very short lesson presentation (360 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-07.json",
+      "message": "ELA-PS-TOD-SCI-T3-W07-D04: very short lesson presentation (386 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-07.json",
+      "message": "ELA-PS-TOD-SCI-T3-W07-D05: very short lesson presentation (379 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-08.json",
+      "message": "ELA-PS-TOD-SCI-T3-W08-D03: very short lesson presentation (375 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-08.json",
+      "message": "ELA-PS-TOD-SCI-T3-W08-D05: very short lesson presentation (353 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-09.json",
+      "message": "ELA-PS-TOD-SCI-T3-W09-D02: very short lesson presentation (363 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-09.json",
+      "message": "ELA-PS-TOD-SCI-T3-W09-D05: very short lesson presentation (337 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T3-W10-D02: very short lesson presentation (379 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T3-W10-D03: very short lesson presentation (366 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T3-W10-D04: very short lesson presentation (350 characters)"
+    },
+    {
+      "file": "preschool/toddler/science/term-3/week-10.json",
+      "message": "ELA-PS-TOD-SCI-T3-W10-D05: very short lesson presentation (395 characters)"
     }
   ],
   "programmes": [
@@ -281,16 +473,16 @@
       "id": "ELA-PS-TOD-SCI",
       "class": "Toddler",
       "subject": "Science",
-      "status": "not-started",
-      "frameworkJson": false,
+      "status": "complete",
+      "frameworkJson": true,
       "termWeeks": [
-        0,
-        0,
-        0
+        10,
+        10,
+        10
       ],
-      "weeks": 0,
-      "lessons": 0,
-      "missingWeeks": 30
+      "weeks": 30,
+      "lessons": 150,
+      "missingWeeks": 0
     },
     {
       "id": "ELA-PS-TOD-SOC",
