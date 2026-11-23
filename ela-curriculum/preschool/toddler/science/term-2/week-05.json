@@ -1,0 +1,606 @@
+{
+  "id": "ELA-PS-TOD-SCI-T2-W05",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 2,
+  "week": 5,
+  "title": "Plants around us",
+  "topic": "Plants",
+  "subtopics": [
+    "Trees and flowers",
+    "Leaves and grass",
+    "The school garden"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will name trees, flowers and leaves and say that plants are alive.",
+    "Children will explore the school garden with their senses."
+  ],
+  "vocabulary": [
+    "tree",
+    "flower",
+    "leaf",
+    "grass",
+    "plant",
+    "green"
+  ],
+  "content": "Naming trees, flowers, leaves and grass, noticing that plants are alive, and exploring the school garden with the senses.",
+  "teachingActivities": "Use real plants from the compound; let children touch, smell and look; name parts such as leaf, flower and trunk; link to the plants children know such as mango, pawpaw and hibiscus.",
+  "learnerActivities": "Name a tree, a flower and a leaf and say that plants are alive and grow.",
+  "resources": [
+    "Real leaves, flowers and a small potted plant",
+    "Pictures of a mango tree, a hibiscus, grass and a palm",
+    "A basket",
+    "Magnifying glasses"
+  ],
+  "assessment": "Observe whether each child names a tree, a flower and a leaf and says that plants grow.",
+  "expectedOutcomes": [
+    "Names a tree, a flower and a leaf.",
+    "Says that plants grow."
+  ],
+  "crossCurricular": [
+    "Literacy: plant songs",
+    "Numeracy: counting petals and leaves",
+    "Creative Development: leaf rubbing"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W05-D01",
+      "title": "Trees and flowers",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 5,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Plants",
+      "subtopic": "Trees and flowers",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will name trees and flowers and say that plants are alive."
+      ],
+      "successCriteria": [
+        "Names a tree and a flower",
+        "Says plants grow"
+      ],
+      "previousKnowledge": "Children can name animals, babies and small creatures and have been in the garden.",
+      "vocabulary": [
+        "tree",
+        "flower",
+        "leaf",
+        "grass",
+        "plant",
+        "green"
+      ],
+      "resources": [
+        "Pictures of a mango tree and a hibiscus",
+        "A potted plant",
+        "A basket"
+      ],
+      "starter": "Show a potted plant and say \"This plant is alive. It needs water and sun to grow.\"",
+      "teacherActivities": [
+        "Show the tree and flower pictures and name them.",
+        "Touch the potted plant and talk about its parts.",
+        "Say \"Plants are alive. They grow.\" and show growth with your hands.",
+        "Go outside and find a tree and a flower."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children touch the leaf and stem gently.",
+        "Children grow tall like a plant.",
+        "Child points to a tree and a flower."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the tree and flower pictures and name them. Children: Children look and say the names.",
+        "Step 2. Teacher: Touch the potted plant and talk about its parts. Children: Children touch the leaf and stem gently.",
+        "Step 3. Teacher: Say \"Plants are alive. They grow.\" and show growth with your hands. Children: Children grow tall like a plant.",
+        "Step 4. Teacher: Go outside and find a tree and a flower. Children: Child points to a tree and a flower."
+      ],
+      "practical": {
+        "title": "Plant walk",
+        "steps": [
+          "Walk to the garden in a line.",
+          "Find a tree and a flower.",
+          "Touch the leaves gently and name them."
+        ],
+        "safety": "Check the garden for thorns, poisonous plants and insects first. Remind children not to pick plants or eat any part."
+      },
+      "differentiation": {
+        "support": "Point to the plant and say the name together.",
+        "extension": "Ask the child to find two different plants."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "A tree or a flower."
+          },
+          {
+            "question": "Do plants grow?",
+            "expected": "Yes, they grow."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names a tree and a flower",
+        "Says that plants grow"
+      ],
+      "conclusion": "Stretch up tall like a tree and then sit down.",
+      "homeConnection": "Name trees and flowers on the way home.",
+      "teacherReflection": [
+        "Which children could show \"name trees and flowers and say that plants are alive\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TREE",
+          "FLOWER",
+          "GROW"
+        ],
+        "pictures": [
+          "A mango tree",
+          "A hibiscus flower"
+        ],
+        "songOrRhyme": "A seed grows into a plant. Grow, grow, grow."
+      },
+      "activities": [
+        "Plant walk"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W05-D02",
+      "title": "Leaves and grass",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 5,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Plants",
+      "subtopic": "Leaves and grass",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will look closely at leaves and grass and describe them."
+      ],
+      "successCriteria": [
+        "Names a leaf and grass",
+        "Says a word for the colour or shape"
+      ],
+      "previousKnowledge": "Children can name animals, babies and small creatures and have been in the garden.",
+      "vocabulary": [
+        "tree",
+        "flower",
+        "leaf",
+        "grass",
+        "plant",
+        "green"
+      ],
+      "resources": [
+        "Different leaves",
+        "A patch of grass or a tray of grass",
+        "Magnifying glasses",
+        "Paper and crayons"
+      ],
+      "starter": "Hold up a leaf and say \"This is a leaf. It is green.\" Ask \"What colour is it?\"",
+      "teacherActivities": [
+        "Pass leaves round and let children touch them.",
+        "Look closely at a leaf with a magnifying glass and point out the lines.",
+        "Touch the grass and say \"The grass is green and soft.\"",
+        "Make a leaf rubbing with paper and a crayon."
+      ],
+      "learnerActivities": [
+        "Children touch and say leaf.",
+        "Children look and point.",
+        "Children touch the grass and say green.",
+        "Child rubs a crayon over a leaf under paper."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pass leaves round and let children touch them. Children: Children touch and say leaf.",
+        "Step 2. Teacher: Look closely at a leaf with a magnifying glass and point out the lines. Children: Children look and point.",
+        "Step 3. Teacher: Touch the grass and say \"The grass is green and soft.\" Children: Children touch the grass and say green.",
+        "Step 4. Teacher: Make a leaf rubbing with paper and a crayon. Children: Child rubs a crayon over a leaf under paper."
+      ],
+      "practical": {
+        "title": "Leaf rubbing",
+        "steps": [
+          "Put a leaf under a sheet of paper.",
+          "Rub a crayon gently over it.",
+          "Look at the leaf pattern."
+        ],
+        "safety": "Use leaves from safe plants only and wash hands afterwards. Do not allow leaves to go in mouths."
+      },
+      "differentiation": {
+        "support": "Rub the crayon together and look at the pattern.",
+        "extension": "Ask the child to make three rubbings and compare the shapes."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What colour is the leaf?",
+            "expected": "Green."
+          },
+          {
+            "question": "What is this?",
+            "expected": "Grass or a leaf."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Describes leaves and grass",
+        "Makes a leaf rubbing"
+      ],
+      "conclusion": "Put the leaves back in the basket and wash hands.",
+      "homeConnection": "Collect safe leaves with your child and look at their shapes.",
+      "teacherReflection": [
+        "Which children could show \"look closely at leaves and grass and describe them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LEAF",
+          "GRASS",
+          "GREEN"
+        ],
+        "pictures": [
+          "A leaf",
+          "Grass"
+        ]
+      },
+      "activities": [
+        "Leaf rubbing"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W05-D03",
+      "title": "Our school garden",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 5,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Plants",
+      "subtopic": "The school garden",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will explore the school garden using their senses."
+      ],
+      "successCriteria": [
+        "Looks, touches or smells a plant safely",
+        "Says one thing about the garden"
+      ],
+      "previousKnowledge": "Children can name animals, babies and small creatures and have been in the garden.",
+      "vocabulary": [
+        "tree",
+        "flower",
+        "leaf",
+        "grass",
+        "plant",
+        "green"
+      ],
+      "resources": [
+        "The school garden",
+        "Magnifying glasses",
+        "Gloves",
+        "A clipboard with picture cards"
+      ],
+      "starter": "Say \"Today we visit our garden. We use our eyes, nose and hands gently.\"",
+      "teacherActivities": [
+        "Walk to the garden in a line and sit together.",
+        "Ask \"What do you see?\" and \"What do you smell?\"",
+        "Touch leaves gently and smell flowers safely.",
+        "Talk about what plants need: water, sun and soil."
+      ],
+      "learnerActivities": [
+        "Children sit and look.",
+        "Child says a word or points.",
+        "Child touches and smells.",
+        "Children say water, sun or soil."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Walk to the garden in a line and sit together. Children: Children sit and look.",
+        "Step 2. Teacher: Ask \"What do you see?\" and \"What do you smell?\" Children: Child says a word or points.",
+        "Step 3. Teacher: Touch leaves gently and smell flowers safely. Children: Child touches and smells.",
+        "Step 4. Teacher: Talk about what plants need: water, sun and soil. Children: Children say water, sun or soil."
+      ],
+      "practical": {
+        "title": "Garden senses",
+        "steps": [
+          "Walk to the garden in a line.",
+          "Use eyes, nose and hands to explore.",
+          "Name what you find."
+        ],
+        "safety": "Check the garden for thorns, ants and poisonous plants beforehand. Do not allow children to pick or eat plants and wash hands afterwards."
+      },
+      "differentiation": {
+        "support": "Explore beside the child and name what they touch.",
+        "extension": "Ask the child to tell a friend what plants need."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do plants need?",
+            "expected": "Water, sun and soil."
+          },
+          {
+            "question": "What do you see?",
+            "expected": "A plant, flower or leaf."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Explores a garden using senses",
+        "Says what plants need"
+      ],
+      "conclusion": "Wave goodbye to the garden and wash hands.",
+      "homeConnection": "Visit a garden or a farm with your child and talk about what you see.",
+      "teacherReflection": [
+        "Which children could show \"explore the school garden using their senses\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GARDEN",
+          "SUN",
+          "WATER"
+        ],
+        "pictures": [
+          "A school garden"
+        ]
+      },
+      "activities": [
+        "Garden senses"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W05-D04",
+      "title": "Plant parts",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 5,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Plants",
+      "subtopic": "Trees and flowers",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will name parts of a plant: leaf, flower, stem and root."
+      ],
+      "successCriteria": [
+        "Points to the leaf, the flower and the stem",
+        "Names at least two plant parts"
+      ],
+      "previousKnowledge": "Children can name animals, babies and small creatures and have been in the garden.",
+      "vocabulary": [
+        "tree",
+        "flower",
+        "leaf",
+        "grass",
+        "plant",
+        "green"
+      ],
+      "resources": [
+        "A real plant with roots washed clean",
+        "A plant picture with parts",
+        "Cards: leaf, flower, stem, root"
+      ],
+      "starter": "Hold a plant and say \"A plant has parts. Here is a leaf. Here is a flower.\"",
+      "teacherActivities": [
+        "Point to each part on the plant and say its name.",
+        "Show the root and say \"The root is under the soil.\"",
+        "Say a part and ask children to find it on the plant.",
+        "Match the part cards to the plant picture."
+      ],
+      "learnerActivities": [
+        "Children point to the same part.",
+        "Children look and point down.",
+        "Child points to the part.",
+        "Child places a card on the picture."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Point to each part on the plant and say its name. Children: Children point to the same part.",
+        "Step 2. Teacher: Show the root and say \"The root is under the soil.\" Children: Children look and point down.",
+        "Step 3. Teacher: Say a part and ask children to find it on the plant. Children: Child points to the part.",
+        "Step 4. Teacher: Match the part cards to the plant picture. Children: Child places a card on the picture."
+      ],
+      "practical": {
+        "title": "Plant parts",
+        "steps": [
+          "Look at a real plant.",
+          "Name each part.",
+          "Match the part cards to the picture."
+        ],
+        "safety": "Wash roots clean before handling and wash hands afterwards. Do not allow plant parts in mouths."
+      },
+      "differentiation": {
+        "support": "Point to the part together and say its name.",
+        "extension": "Ask the child to say what each part does."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is the leaf?",
+            "expected": "Child points to the leaf."
+          },
+          {
+            "question": "What is under the soil?",
+            "expected": "The root."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names plant parts with support",
+        "Points to leaf, flower and stem"
+      ],
+      "conclusion": "Put the plant back and say \"Thank you, plant.\"",
+      "homeConnection": "Look at a plant at home and name its parts.",
+      "teacherReflection": [
+        "Which children could show \"name parts of a plant: leaf, flower, stem and root\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LEAF",
+          "FLOWER",
+          "STEM",
+          "ROOT"
+        ],
+        "pictures": [
+          "A plant with parts labelled"
+        ]
+      },
+      "activities": [
+        "Plant parts"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W05-D05",
+      "title": "Week 5 plants check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 5,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Plants",
+      "subtopic": "Leaves and grass",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child names plants and plant parts."
+      ],
+      "successCriteria": [
+        "Names a tree, a flower and a leaf",
+        "Says that plants grow"
+      ],
+      "previousKnowledge": "Children can name animals, babies and small creatures and have been in the garden.",
+      "vocabulary": [
+        "tree",
+        "flower",
+        "leaf",
+        "grass",
+        "plant",
+        "green"
+      ],
+      "resources": [
+        "Real plants",
+        "Pictures",
+        "Class record sheet"
+      ],
+      "starter": "Sing the plant song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: leaves, flowers and plant parts.",
+        "At each station ask \"What is this?\" and \"Does it grow?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or gesture.",
+        "Children wash hands and tidy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: leaves, flowers and plant parts. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What is this?\" and \"Does it grow?\" Children: Child answers with a word or gesture.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy."
+      ],
+      "practical": {
+        "title": "Plant stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use safe plants and wash hands after."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two plants.",
+        "extension": "Ask a confident child to name three plant parts."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names a tree, a flower and a leaf; says that plants grow; names plant parts.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "A leaf, flower or tree."
+          },
+          {
+            "question": "Do plants grow?",
+            "expected": "Yes, they grow."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Names plants and parts"
+      ],
+      "conclusion": "Wash hands and wave goodbye.",
+      "homeConnection": "Talk about plants during walks and at mealtimes.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child names plants and plant parts\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Plants"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Plant stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

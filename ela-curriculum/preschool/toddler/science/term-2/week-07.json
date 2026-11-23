@@ -1,0 +1,607 @@
+{
+  "id": "ELA-PS-TOD-SCI-T2-W07",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 2,
+  "week": 7,
+  "title": "Leaves, flowers and fruit",
+  "topic": "Plants",
+  "subtopics": [
+    "Leaves of different shapes",
+    "Flowers and their colours",
+    "Fruits we eat"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will sort leaves by size and shape with support.",
+    "Children will name fruits and say they come from plants."
+  ],
+  "vocabulary": [
+    "leaf",
+    "flower",
+    "petal",
+    "fruit",
+    "mango",
+    "big"
+  ],
+  "content": "Leaves of different shapes and sizes, flowers and their colours, and fruits that grow on plants.",
+  "teachingActivities": "Use real leaves, flowers and fruits from the area; let children touch and sort; name colours and shapes; ask \"Where does this fruit come from?\"; check allergies before any tasting.",
+  "learnerActivities": "Sort leaves by size and shape, name flower colours and name fruits that come from plants.",
+  "resources": [
+    "Leaves of different sizes and shapes",
+    "Fresh flowers or pictures",
+    "Mango, orange, banana and pawpaw",
+    "Baskets",
+    "A tray of paint colours"
+  ],
+  "assessment": "Observe whether each child sorts leaves into big and small and names two fruits that grow on trees.",
+  "expectedOutcomes": [
+    "Sorts leaves into big and small.",
+    "Names two fruits that grow on trees."
+  ],
+  "crossCurricular": [
+    "Numeracy: sorting by size",
+    "Creative Development: flower painting",
+    "Literacy: colour words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W07-D01",
+      "title": "Big and small leaves",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 7,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Plants",
+      "subtopic": "Leaves of different shapes",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will sort leaves into big and small."
+      ],
+      "successCriteria": [
+        "Sorts leaves into big and small",
+        "Says big or small"
+      ],
+      "previousKnowledge": "Children have planted seeds and know that plants need water, soil and sun.",
+      "vocabulary": [
+        "leaf",
+        "flower",
+        "petal",
+        "fruit",
+        "mango",
+        "big"
+      ],
+      "resources": [
+        "Big and small leaves",
+        "Two baskets labelled big and small",
+        "A tray"
+      ],
+      "starter": "Hold up a big leaf and a small leaf and say \"This is big. This is small.\"",
+      "teacherActivities": [
+        "Pass the leaves round and ask \"Is it big or small?\"",
+        "Put one leaf in each basket to show.",
+        "Let each child pick a leaf and choose a basket.",
+        "Look at the shapes of the leaves and talk about round and long."
+      ],
+      "learnerActivities": [
+        "Children touch and say big or small.",
+        "Children watch and say the word.",
+        "Child sorts the leaf.",
+        "Child says round or long."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pass the leaves round and ask \"Is it big or small?\" Children: Children touch and say big or small.",
+        "Step 2. Teacher: Put one leaf in each basket to show. Children: Children watch and say the word.",
+        "Step 3. Teacher: Let each child pick a leaf and choose a basket. Children: Child sorts the leaf.",
+        "Step 4. Teacher: Look at the shapes of the leaves and talk about round and long. Children: Child says round or long."
+      ],
+      "practical": {
+        "title": "Leaf sort",
+        "steps": [
+          "Put leaves on a tray.",
+          "Each child picks one.",
+          "Put it in the big or small basket."
+        ],
+        "safety": "Use leaves from safe plants and wash hands afterwards. Do not allow leaves in mouths."
+      },
+      "differentiation": {
+        "support": "Compare two leaves together and say big or small.",
+        "extension": "Ask the child to find a leaf that is long and thin."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is this leaf big or small?",
+            "expected": "Big or small."
+          },
+          {
+            "question": "What shape is it?",
+            "expected": "Round or long."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts leaves by size",
+        "Describes leaf shapes with support"
+      ],
+      "conclusion": "Put the leaves back and wash hands.",
+      "homeConnection": "Collect two safe leaves and compare their size.",
+      "teacherReflection": [
+        "Which children could show \"sort leaves into big and small\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BIG",
+          "SMALL",
+          "LEAF"
+        ],
+        "pictures": [
+          "A big leaf",
+          "A small leaf"
+        ]
+      },
+      "activities": [
+        "Leaf sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W07-D02",
+      "title": "Flower colours",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 7,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Plants",
+      "subtopic": "Flowers and their colours",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name the colours of flowers."
+      ],
+      "successCriteria": [
+        "Names at least three flower colours",
+        "Matches a flower to a colour card"
+      ],
+      "previousKnowledge": "Children have planted seeds and know that plants need water, soil and sun.",
+      "vocabulary": [
+        "leaf",
+        "flower",
+        "petal",
+        "fruit",
+        "mango",
+        "big"
+      ],
+      "resources": [
+        "Fresh flowers or large flower pictures in red, yellow, pink and white",
+        "Colour cards",
+        "A basket"
+      ],
+      "starter": "Show a red hibiscus and say \"This flower is red. What colour is it?\"",
+      "teacherActivities": [
+        "Show each flower and name its colour.",
+        "Say \"Find the yellow flower\" and wait.",
+        "Match the flowers to the colour cards.",
+        "Smell the flowers gently."
+      ],
+      "learnerActivities": [
+        "Children look and say the colour.",
+        "Child points to the yellow flower.",
+        "Child places a flower on a colour card.",
+        "Child smells a flower and says nice."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each flower and name its colour. Children: Children look and say the colour.",
+        "Step 2. Teacher: Say \"Find the yellow flower\" and wait. Children: Child points to the yellow flower.",
+        "Step 3. Teacher: Match the flowers to the colour cards. Children: Child places a flower on a colour card.",
+        "Step 4. Teacher: Smell the flowers gently. Children: Child smells a flower and says nice."
+      ],
+      "practical": {
+        "title": "Flower colours",
+        "steps": [
+          "Put flowers on a tray.",
+          "Match each to a colour card.",
+          "Smell gently."
+        ],
+        "safety": "Check for allergies and pollen sensitivity first. Do not allow children to eat petals and wash hands after."
+      },
+      "differentiation": {
+        "support": "Offer two flowers and say the colour first.",
+        "extension": "Ask the child to find a flower with two colours."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What colour is this flower?",
+            "expected": "Red, yellow, pink or white."
+          },
+          {
+            "question": "Does it smell nice?",
+            "expected": "Yes or no."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names flower colours",
+        "Matches flowers to colours"
+      ],
+      "conclusion": "Put the flowers in a vase and say \"Thank you, flowers.\"",
+      "homeConnection": "Look at flowers outside with your child and say their colours.",
+      "teacherReflection": [
+        "Which children could show \"name the colours of flowers\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RED",
+          "YELLOW",
+          "PINK"
+        ],
+        "pictures": [
+          "A red flower",
+          "A yellow flower",
+          "A pink flower"
+        ]
+      },
+      "activities": [
+        "Flower colours"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W07-D03",
+      "title": "Fruits from trees",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 7,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Plants",
+      "subtopic": "Fruits we eat",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name fruits and say they grow on trees and plants."
+      ],
+      "successCriteria": [
+        "Names at least three fruits",
+        "Says that fruits grow on plants"
+      ],
+      "previousKnowledge": "Children have planted seeds and know that plants need water, soil and sun.",
+      "vocabulary": [
+        "leaf",
+        "flower",
+        "petal",
+        "fruit",
+        "mango",
+        "big"
+      ],
+      "resources": [
+        "A mango, an orange, a banana and a pawpaw",
+        "A picture of each tree",
+        "A basket"
+      ],
+      "starter": "Hold up a mango and say \"A mango grows on a mango tree. It comes from a plant.\"",
+      "teacherActivities": [
+        "Show each fruit and its tree picture.",
+        "Ask \"Where does the mango come from?\"",
+        "Cut a fruit safely in half to show the seed inside.",
+        "Let each child pick a fruit and match it to its tree."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Child points to the tree picture.",
+        "Children look at the seed.",
+        "Child matches the fruit to a tree."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each fruit and its tree picture. Children: Children look and say the names.",
+        "Step 2. Teacher: Ask \"Where does the mango come from?\" Children: Child points to the tree picture.",
+        "Step 3. Teacher: Cut a fruit safely in half to show the seed inside. Children: Children look at the seed.",
+        "Step 4. Teacher: Let each child pick a fruit and match it to its tree. Children: Child matches the fruit to a tree."
+      ],
+      "practical": {
+        "title": "Fruit and tree",
+        "steps": [
+          "Put fruit and tree pictures on the mat.",
+          "Each child picks a fruit.",
+          "Match it to its tree."
+        ],
+        "safety": "An adult cuts all fruit; check allergies first. Wash fruit and hands. Do not let children taste unless allergies are cleared."
+      },
+      "differentiation": {
+        "support": "Offer two fruits and show the tree first.",
+        "extension": "Ask the child to find the seed inside a fruit."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this fruit?",
+            "expected": "Mango, orange, banana or pawpaw."
+          },
+          {
+            "question": "Where does it grow?",
+            "expected": "On a tree or plant."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names fruits that grow on plants",
+        "Matches fruits to trees"
+      ],
+      "conclusion": "Wash hands and say \"Thank you, trees.\"",
+      "homeConnection": "Talk about where fruits come from when you eat them.",
+      "teacherReflection": [
+        "Which children could show \"name fruits and say they grow on trees and plants\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MANGO",
+          "ORANGE",
+          "BANANA"
+        ],
+        "pictures": [
+          "A mango",
+          "An orange",
+          "A banana"
+        ]
+      },
+      "activities": [
+        "Fruit and tree"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W07-D04",
+      "title": "Fruit salad",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 7,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Plants",
+      "subtopic": "Fruits we eat",
+      "dayType": "apply",
+      "objectives": [
+        "Children will make a fruit salad and say what each fruit is."
+      ],
+      "successCriteria": [
+        "Names the fruits in the salad",
+        "Shares with friends"
+      ],
+      "previousKnowledge": "Children have planted seeds and know that plants need water, soil and sun.",
+      "vocabulary": [
+        "leaf",
+        "flower",
+        "petal",
+        "fruit",
+        "mango",
+        "big"
+      ],
+      "resources": [
+        "Washed fruit pieces",
+        "A bowl",
+        "Spoons",
+        "Small cups"
+      ],
+      "starter": "Say \"Today we make a fruit salad.\" Show the fruits and ask \"Which fruit is this?\"",
+      "teacherActivities": [
+        "Wash hands together and say why.",
+        "Show how to put pieces of fruit into the bowl.",
+        "Stir the fruit together gently.",
+        "Share the fruit salad in small cups."
+      ],
+      "learnerActivities": [
+        "Children wash hands with soap.",
+        "Children add fruit pieces to the bowl.",
+        "Child stirs and says the names.",
+        "Child says thank you and tastes."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Wash hands together and say why. Children: Children wash hands with soap.",
+        "Step 2. Teacher: Show how to put pieces of fruit into the bowl. Children: Children add fruit pieces to the bowl.",
+        "Step 3. Teacher: Stir the fruit together gently. Children: Child stirs and says the names.",
+        "Step 4. Teacher: Share the fruit salad in small cups. Children: Child says thank you and tastes."
+      ],
+      "practical": {
+        "title": "Fruit salad",
+        "steps": [
+          "Wash hands.",
+          "Add fruit pieces to a bowl.",
+          "Share in small cups."
+        ],
+        "safety": "An adult cuts fruit into very small pieces. Check allergies first and supervise closely for choking. Use clean spoons and bowls."
+      },
+      "differentiation": {
+        "support": "Hold the bowl together and add the fruit.",
+        "extension": "Ask the child to name each fruit in the salad."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is in the fruit salad?",
+            "expected": "Mango, banana, orange or pawpaw."
+          },
+          {
+            "question": "Does fruit grow on plants?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes a fruit salad",
+        "Names fruits from plants"
+      ],
+      "conclusion": "Wash hands and say \"Thank you for the fruit.\"",
+      "homeConnection": "Make a simple fruit salad at home with your child.",
+      "teacherReflection": [
+        "Which children could show \"make a fruit salad and say what each fruit is\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FRUIT",
+          "SALAD"
+        ],
+        "pictures": [
+          "A bowl of fruit salad"
+        ]
+      },
+      "activities": [
+        "Fruit salad"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W07-D05",
+      "title": "Week 7 plants check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 7,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Plants",
+      "subtopic": "Fruits we eat",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child sorts leaves and names fruits and flowers."
+      ],
+      "successCriteria": [
+        "Sorts leaves by size",
+        "Names two fruits that grow on trees"
+      ],
+      "previousKnowledge": "Children have planted seeds and know that plants need water, soil and sun.",
+      "vocabulary": [
+        "leaf",
+        "flower",
+        "petal",
+        "fruit",
+        "mango",
+        "big"
+      ],
+      "resources": [
+        "Leaves",
+        "Flowers",
+        "Fruits",
+        "Class record sheet"
+      ],
+      "starter": "Sing the plant song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: leaves, flowers and fruits.",
+        "At each station ask \"What is this?\" and \"What colour or size?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or gesture.",
+        "Children wash hands and tidy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: leaves, flowers and fruits. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What is this?\" and \"What colour or size?\" Children: Child answers with a word or gesture.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy."
+      ],
+      "practical": {
+        "title": "Plant stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use safe plants and wash hands after."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two items.",
+        "extension": "Ask a confident child to teach a friend the fruit names."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: sorts leaves by size; names flower colours; names fruits that grow on trees.",
+        "questions": [
+          {
+            "question": "Is this leaf big or small?",
+            "expected": "Big or small."
+          },
+          {
+            "question": "Where does a mango grow?",
+            "expected": "On a tree."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Sorts leaves and names fruits"
+      ],
+      "conclusion": "Wash hands and wave goodbye.",
+      "homeConnection": "Talk about leaves, flowers and fruits on walks.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child sorts leaves and names fruits and flowers\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Plants"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Plant stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

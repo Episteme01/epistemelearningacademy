@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-TOD-SCI-T2-W10",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 2,
+  "week": 10,
+  "title": "Show what we know again",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising animals and homes",
+    "Revising plants and seeds",
+    "Revising caring and food"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Term 2 learning through play stations.",
+    "Teachers will gather evidence for every child’s Term 2 record."
+  ],
+  "vocabulary": [
+    "animal",
+    "plant",
+    "seed",
+    "home",
+    "baby",
+    "care"
+  ],
+  "content": "Revising animals and homes, plants and seeds, and caring and food through play stations and gathering Term 2 evidence.",
+  "teachingActivities": "Keep every activity familiar and playful; observe quietly and record without interrupting; offer help only when a child is stuck; celebrate what each child can do.",
+  "learnerActivities": "Show what they know about animals, plants, seeds, food and caring through play.",
+  "resources": [
+    "Animal and home cards",
+    "Baby animal pairs",
+    "Plants and seeds",
+    "Food pictures",
+    "Class record sheets"
+  ],
+  "assessment": "Observe and record each child’s Term 2 science learning using the four-level scale.",
+  "expectedOutcomes": [
+    "Completes familiar tasks with growing independence.",
+    "Each child has an observation record for Term 2."
+  ],
+  "crossCurricular": [
+    "Literacy: songs and describing words",
+    "Numeracy: matching and sorting",
+    "Social Habits: kindness"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W10-D01",
+      "title": "Revising animals and homes",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 10,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising animals and homes",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit animals, their homes and their babies through games."
+      ],
+      "successCriteria": [
+        "Names animals",
+        "Matches animals to homes and babies"
+      ],
+      "previousKnowledge": "Children have learnt about animals, their homes and babies, plants and seeds, food and caring this term.",
+      "vocabulary": [
+        "animal",
+        "plant",
+        "seed",
+        "home",
+        "baby",
+        "care"
+      ],
+      "resources": [
+        "Animal cards",
+        "Home cards",
+        "Baby and mother pairs"
+      ],
+      "starter": "Sing the animal song and say \"Today we play our favourite animal games.\"",
+      "teacherActivities": [
+        "Play the home matching game.",
+        "Play find your mother with baby cards.",
+        "Move like animals to the drum.",
+        "Let each child choose a favourite game."
+      ],
+      "learnerActivities": [
+        "Children match animals to homes.",
+        "Children match babies to mothers.",
+        "Children move like animals.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the home matching game. Children: Children match animals to homes.",
+        "Step 2. Teacher: Play find your mother with baby cards. Children: Children match babies to mothers.",
+        "Step 3. Teacher: Move like animals to the drum. Children: Children move like animals.",
+        "Step 4. Teacher: Let each child choose a favourite game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Animal games",
+        "steps": [
+          "Set up three game spaces.",
+          "Children play each for four minutes.",
+          "The teacher notes who names animals and homes."
+        ],
+        "safety": "Keep the floor clear and supervise movement. Use soft toys and large cards."
+      },
+      "differentiation": {
+        "support": "Play with the child and use three animals.",
+        "extension": "Ask the child to lead a game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does the hen live?",
+            "expected": "In a nest."
+          },
+          {
+            "question": "What is the baby of a cow?",
+            "expected": "A calf."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows knowledge of animals",
+        "Matches animals to homes and babies"
+      ],
+      "conclusion": "Wave goodbye to the animals.",
+      "homeConnection": "Play animal games at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit animals, their homes and their babies through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ANIMALS",
+          "HOMES",
+          "BABIES"
+        ],
+        "pictures": [
+          "Animal cards",
+          "Home cards"
+        ]
+      },
+      "activities": [
+        "Animal games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W10-D02",
+      "title": "Revising plants and seeds",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 10,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising plants and seeds",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit plants, seeds, leaves, flowers and fruits."
+      ],
+      "successCriteria": [
+        "Names plants and plant parts",
+        "Says what a seed needs"
+      ],
+      "previousKnowledge": "Children have learnt about animals, their homes and babies, plants and seeds, food and caring this term.",
+      "vocabulary": [
+        "animal",
+        "plant",
+        "seed",
+        "home",
+        "baby",
+        "care"
+      ],
+      "resources": [
+        "Planted seeds",
+        "Leaves, flowers and fruits",
+        "Plant part cards"
+      ],
+      "starter": "Look at the seeds we planted and say \"Let us see what has grown.\"",
+      "teacherActivities": [
+        "Look at the growing seeds and talk about changes.",
+        "Sort leaves into big and small.",
+        "Match fruits to trees.",
+        "Water the plants together."
+      ],
+      "learnerActivities": [
+        "Children look and say grow.",
+        "Child sorts the leaves.",
+        "Child matches fruit to tree.",
+        "Child waters a plant."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Look at the growing seeds and talk about changes. Children: Children look and say grow.",
+        "Step 2. Teacher: Sort leaves into big and small. Children: Child sorts the leaves.",
+        "Step 3. Teacher: Match fruits to trees. Children: Child matches fruit to tree.",
+        "Step 4. Teacher: Water the plants together. Children: Child waters a plant."
+      ],
+      "practical": {
+        "title": "Plants and seeds",
+        "steps": [
+          "Set up three plant stations.",
+          "Children rotate every five minutes.",
+          "The teacher notes names and care."
+        ],
+        "safety": "Wash hands after touching plants and soil. Keep floors dry."
+      },
+      "differentiation": {
+        "support": "Look together and name each plant.",
+        "extension": "Ask the child to explain how a seed grows."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does a seed need?",
+            "expected": "Water, soil and sun."
+          },
+          {
+            "question": "What grows from a seed?",
+            "expected": "A plant."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows knowledge of plants",
+        "Says what a seed needs"
+      ],
+      "conclusion": "Wash hands and say thank you.",
+      "homeConnection": "Keep watching plants grow at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit plants, seeds, leaves, flowers and fruits\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SEED",
+          "LEAF",
+          "FRUIT"
+        ],
+        "pictures": [
+          "A growing plant",
+          "A bowl of fruit"
+        ]
+      },
+      "activities": [
+        "Plants and seeds"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W10-D03",
+      "title": "Revising caring and food",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 10,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising caring and food",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit caring for living things and foods from plants and animals."
+      ],
+      "successCriteria": [
+        "Sorts foods into plant and animal",
+        "Shows gentle caring"
+      ],
+      "previousKnowledge": "Children have learnt about animals, their homes and babies, plants and seeds, food and caring this term.",
+      "vocabulary": [
+        "animal",
+        "plant",
+        "seed",
+        "home",
+        "baby",
+        "care"
+      ],
+      "resources": [
+        "Food pictures",
+        "Soft toys",
+        "Plants and a watering can"
+      ],
+      "starter": "Say \"Today we care for living things and talk about food.\"",
+      "teacherActivities": [
+        "Sort food pictures into plant and animal foods.",
+        "Water a plant and care for a toy pet.",
+        "Choose foods for a healthy plate.",
+        "Say how we are kind to animals."
+      ],
+      "learnerActivities": [
+        "Child sorts the foods.",
+        "Child waters and cares gently.",
+        "Child chooses healthy foods.",
+        "Child says kind or gentle."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sort food pictures into plant and animal foods. Children: Child sorts the foods.",
+        "Step 2. Teacher: Water a plant and care for a toy pet. Children: Child waters and cares gently.",
+        "Step 3. Teacher: Choose foods for a healthy plate. Children: Child chooses healthy foods.",
+        "Step 4. Teacher: Say how we are kind to animals. Children: Child says kind or gentle."
+      ],
+      "practical": {
+        "title": "Care and food",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate every five minutes.",
+          "The teacher notes sorting and gentle care."
+        ],
+        "safety": "Supervise each station and keep floors dry. Use soft toys and pictures."
+      },
+      "differentiation": {
+        "support": "Offer two choices at each station.",
+        "extension": "Ask the child to tell a friend how to look after a plant."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What helps us grow strong?",
+            "expected": "Healthy food."
+          },
+          {
+            "question": "How do we touch animals?",
+            "expected": "Gently."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows caring behaviour",
+        "Sorts foods by where they come from"
+      ],
+      "conclusion": "Wave goodbye and say \"We care.\"",
+      "homeConnection": "Care for plants and pets at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit caring for living things and foods from plants and animals\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CARE",
+          "FOOD"
+        ],
+        "pictures": [
+          "A child watering a plant",
+          "Food pictures"
+        ]
+      },
+      "activities": [
+        "Care and food"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W10-D04",
+      "title": "Living things play stations",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 10,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising animals and homes",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s Term 2 science learning at play stations."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with growing independence",
+        "Shows animal, plant, food and caring knowledge"
+      ],
+      "previousKnowledge": "Children have learnt about animals, their homes and babies, plants and seeds, food and caring this term.",
+      "vocabulary": [
+        "animal",
+        "plant",
+        "seed",
+        "home",
+        "baby",
+        "care"
+      ],
+      "resources": [
+        "Six station sets",
+        "Class record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Sing a favourite song and show six stations to the class.",
+      "teacherActivities": [
+        "Set up six stations: animals, homes, babies, seeds, food and caring.",
+        "Observe each child at two stations and record what they can do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every three minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: animals, homes, babies, seeds, food and caring. Children: Children rotate every three minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they can do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Six stations",
+        "steps": [
+          "Set up six stations with familiar materials.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep floors dry and clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names animals; matches animals to homes; names plants; waters a plant; sorts foods; handles animals gently.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite game.",
+            "expected": "Child chooses a station."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a Term 2 observation record",
+        "Shows familiar skills at stations"
+      ],
+      "conclusion": "Say well done and wave goodbye.",
+      "homeConnection": "Play a favourite game from this term at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s Term 2 science learning at play stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Six stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W10-D05",
+      "title": "Term 2 science celebration",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 10,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising caring and food",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate Term 2 with songs, plants and games, and teachers will complete their records."
+      ],
+      "successCriteria": [
+        "Joins in songs and games",
+        "Shows what they enjoy"
+      ],
+      "previousKnowledge": "Children have learnt about animals, their homes and babies, plants and seeds, food and caring this term.",
+      "vocabulary": [
+        "animal",
+        "plant",
+        "seed",
+        "home",
+        "baby",
+        "care"
+      ],
+      "resources": [
+        "Favourite songs",
+        "The grown seeds",
+        "Stickers or a certificate",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate. Let us look at our plants and sing our favourite songs.\"",
+      "teacherActivities": [
+        "Sing favourite songs with actions.",
+        "Look at the plants we grew and talk about how they changed.",
+        "Give each child a sticker or praise and say their name."
+      ],
+      "learnerActivities": [
+        "Children join in and choose a song.",
+        "Children look and say grow.",
+        "Child waves and says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite songs with actions. Children: Children join in and choose a song.",
+        "Step 2. Teacher: Look at the plants we grew and talk about how they changed. Children: Children look and say grow.",
+        "Step 3. Teacher: Give each child a sticker or praise and say their name. Children: Child waves and says thank you."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle.",
+          "Sing and look at the plants.",
+          "Hand out stickers or certificates."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and sing along.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s Term 2 science record using today’s observations and the week’s notes. Record a next step for Term 3.",
+        "questions": [
+          {
+            "question": "What is your favourite plant or animal?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Did you like our plants?",
+            "expected": "Yes with a smile or word."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed Term 2 record",
+        "Enjoys science and nature"
+      ],
+      "conclusion": "Wave goodbye and say \"See you in Term 3.\"",
+      "homeConnection": "Keep exploring plants and animals during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"celebrate Term 2 with songs, plants and games, and teachers will complete their records\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

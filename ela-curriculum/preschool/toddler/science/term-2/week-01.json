@@ -1,0 +1,611 @@
+{
+  "id": "ELA-PS-TOD-SCI-T2-W01",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 2,
+  "week": 1,
+  "title": "Animals I know",
+  "topic": "Animals",
+  "subtopics": [
+    "Pets and farm animals",
+    "Wild animals in pictures",
+    "Animal movements"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will name familiar animals and say where they see them.",
+    "Children will move like different animals."
+  ],
+  "vocabulary": [
+    "dog",
+    "cat",
+    "goat",
+    "hen",
+    "cow",
+    "lion"
+  ],
+  "content": "Naming familiar animals, learning where we see them, and moving like animals.",
+  "teachingActivities": "Use real animals where safe and large pictures or toys otherwise; make the sound and name each animal; link animals to what children see at home and in the compound; never force a child to touch an animal.",
+  "learnerActivities": "Name familiar animals, say where we see them and move like different animals.",
+  "resources": [
+    "Large animal pictures: dog, cat, goat, hen, cow, lion",
+    "Soft toy animals",
+    "A basket",
+    "A recording of animal sounds if available"
+  ],
+  "assessment": "Observe whether each child names at least six animals and moves like an animal on request.",
+  "expectedOutcomes": [
+    "Names at least six animals.",
+    "Moves like an animal on request."
+  ],
+  "crossCurricular": [
+    "Literacy: animal songs and sounds",
+    "Physical Development: moving like animals",
+    "Social Habits: kindness to animals"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W01-D01",
+      "title": "Pets and farm animals",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 1,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Pets and farm animals",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name a dog, a cat, a goat, a hen and a cow."
+      ],
+      "successCriteria": [
+        "Names or points to at least three animals",
+        "Makes the sound of an animal"
+      ],
+      "previousKnowledge": "Children can explore with their senses, play with water, sand and soil and name the weather.",
+      "vocabulary": [
+        "dog",
+        "cat",
+        "goat",
+        "hen",
+        "cow",
+        "lion"
+      ],
+      "resources": [
+        "Large pictures of a dog, cat, goat, hen and cow",
+        "Soft toy animals",
+        "A basket"
+      ],
+      "starter": "Take the dog picture from the basket and say \"Woof, woof. This is a dog. Where do we see dogs?\"",
+      "teacherActivities": [
+        "Show each picture, say the animal name and make its sound.",
+        "Say a name and ask \"Where is the goat?\"",
+        "Say \"Which animal lives at home with us?\" and show the pictures.",
+        "Let each child hold a toy animal and say its name."
+      ],
+      "learnerActivities": [
+        "Children look, point and copy the sound.",
+        "Child points to the goat.",
+        "Child points to a pet such as a dog or cat.",
+        "Child holds the toy and names it."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture, say the animal name and make its sound. Children: Children look, point and copy the sound.",
+        "Step 2. Teacher: Say a name and ask \"Where is the goat?\" Children: Child points to the goat.",
+        "Step 3. Teacher: Say \"Which animal lives at home with us?\" and show the pictures. Children: Child points to a pet such as a dog or cat.",
+        "Step 4. Teacher: Let each child hold a toy animal and say its name. Children: Child holds the toy and names it."
+      ],
+      "practical": {
+        "title": "Animal basket",
+        "steps": [
+          "Put toy animals in a basket.",
+          "Each child takes one out and names it.",
+          "The group makes its sound together."
+        ],
+        "safety": "Use clean soft toys and wash hands after real animal contact. Never put animals near children’s faces."
+      },
+      "differentiation": {
+        "support": "Offer two animals and say the name with the child.",
+        "extension": "Ask the child to say where they see the animal."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this animal?",
+            "expected": "Dog, cat, goat, hen or cow."
+          },
+          {
+            "question": "What does the cow say?",
+            "expected": "Moo."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names at least three animals",
+        "Makes an animal sound"
+      ],
+      "conclusion": "Put the animals back in the basket and say each name.",
+      "homeConnection": "Name the animals you see at home or on the street with your child.",
+      "teacherReflection": [
+        "Which children could show \"name a dog, a cat, a goat, a hen and a cow\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DOG",
+          "CAT",
+          "GOAT",
+          "HEN",
+          "COW"
+        ],
+        "pictures": [
+          "A dog",
+          "A cat",
+          "A goat",
+          "A hen",
+          "A cow"
+        ],
+        "songOrRhyme": "The dog says woof, the cat says meow, the goat says meh."
+      },
+      "activities": [
+        "Animal basket"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W01-D02",
+      "title": "Wild animals",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 1,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Wild animals in pictures",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name wild animals in pictures and say they live outside."
+      ],
+      "successCriteria": [
+        "Names or points to a lion, an elephant and a monkey",
+        "Says that wild animals live outside"
+      ],
+      "previousKnowledge": "Children can explore with their senses, play with water, sand and soil and name the weather.",
+      "vocabulary": [
+        "dog",
+        "cat",
+        "goat",
+        "hen",
+        "cow",
+        "lion"
+      ],
+      "resources": [
+        "Large pictures of a lion, an elephant, a monkey and a giraffe",
+        "A basket",
+        "A big book of animals"
+      ],
+      "starter": "Show the lion picture and say \"Roar! This is a lion. It lives in the wild.\"",
+      "teacherActivities": [
+        "Show each picture and say the name and what it looks like.",
+        "Ask \"Which animal is big?\" and \"Which animal has a long neck?\"",
+        "Say \"Lions and elephants live in the wild. Dogs and goats live with people.\"",
+        "Let each child pick a picture and say a word about it."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Child points to the elephant or giraffe.",
+        "Children listen and nod.",
+        "Child shows the picture and says a word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture and say the name and what it looks like. Children: Children look and say the names.",
+        "Step 2. Teacher: Ask \"Which animal is big?\" and \"Which animal has a long neck?\" Children: Child points to the elephant or giraffe.",
+        "Step 3. Teacher: Say \"Lions and elephants live in the wild. Dogs and goats live with people.\" Children: Children listen and nod.",
+        "Step 4. Teacher: Let each child pick a picture and say a word about it. Children: Child shows the picture and says a word."
+      ],
+      "practical": {
+        "title": "Wild animal pictures",
+        "steps": [
+          "Put pictures on the mat.",
+          "Each child picks a picture and names it.",
+          "Make the animal’s sound or movement."
+        ],
+        "safety": "Use pictures or soft toys only. Explain that wild animals are not to be touched and that we look from far away."
+      },
+      "differentiation": {
+        "support": "Point to the animal and say the name for the child to copy.",
+        "extension": "Ask the child to tell a friend which animal is the biggest."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What animal is this?",
+            "expected": "Lion, elephant, monkey or giraffe."
+          },
+          {
+            "question": "Where do wild animals live?",
+            "expected": "Outside, in the wild."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names at least three wild animals",
+        "Says that wild animals live outside"
+      ],
+      "conclusion": "Put the pictures away and say \"Goodbye, wild animals.\"",
+      "homeConnection": "Look at pictures of wild animals with your child and say their names.",
+      "teacherReflection": [
+        "Which children could show \"name wild animals in pictures and say they live outside\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LION",
+          "ELEPHANT",
+          "MONKEY"
+        ],
+        "pictures": [
+          "A lion",
+          "An elephant",
+          "A monkey"
+        ]
+      },
+      "activities": [
+        "Wild animal pictures"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W01-D03",
+      "title": "Moving like animals",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 1,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Animal movements",
+      "dayType": "explore",
+      "objectives": [
+        "Children will move like different animals."
+      ],
+      "successCriteria": [
+        "Moves like at least two animals",
+        "Names the animal they are being"
+      ],
+      "previousKnowledge": "Children can explore with their senses, play with water, sand and soil and name the weather.",
+      "vocabulary": [
+        "dog",
+        "cat",
+        "goat",
+        "hen",
+        "cow",
+        "lion"
+      ],
+      "resources": [
+        "A clear space",
+        "Animal picture cards",
+        "A drum"
+      ],
+      "starter": "Show the frog picture and say \"Hop like a frog.\" Hop gently on the spot.",
+      "teacherActivities": [
+        "Show each animal card and demonstrate its movement: hop, crawl, fly, stomp.",
+        "Call an animal name and let children move like it.",
+        "Play the drum for each animal and stop it for freeze.",
+        "Let each child choose an animal card and lead the group."
+      ],
+      "learnerActivities": [
+        "Children copy each movement.",
+        "Children move like the animal named.",
+        "Children move and freeze on the signal.",
+        "Child leads and friends copy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each animal card and demonstrate its movement: hop, crawl, fly, stomp. Children: Children copy each movement.",
+        "Step 2. Teacher: Call an animal name and let children move like it. Children: Children move like the animal named.",
+        "Step 3. Teacher: Play the drum for each animal and stop it for freeze. Children: Children move and freeze on the signal.",
+        "Step 4. Teacher: Let each child choose an animal card and lead the group. Children: Child leads and friends copy."
+      ],
+      "practical": {
+        "title": "Animal moves",
+        "steps": [
+          "Clear a space on the mat.",
+          "Call out an animal and move like it.",
+          "Freeze when the drum stops."
+        ],
+        "safety": "Clear the floor and keep children apart. Keep movements gentle and stop if children are tired."
+      },
+      "differentiation": {
+        "support": "Move beside the child and copy together.",
+        "extension": "Ask the child to guess which animal a friend is."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How does a frog move?",
+            "expected": "It hops."
+          },
+          {
+            "question": "How does a bird move?",
+            "expected": "It flies."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Moves like animals on request",
+        "Names the animal they are being"
+      ],
+      "conclusion": "Settle down like a sleeping animal.",
+      "homeConnection": "Play animal moves at home and guess each other’s animals.",
+      "teacherReflection": [
+        "Which children could show \"move like different animals\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HOP",
+          "FLY",
+          "CRAWL"
+        ],
+        "pictures": [
+          "A frog hopping",
+          "A bird flying",
+          "A snail crawling"
+        ]
+      },
+      "activities": [
+        "Animal moves"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W01-D04",
+      "title": "Animal sort",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 1,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Pets and farm animals",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort animals into pets and wild animals."
+      ],
+      "successCriteria": [
+        "Puts an animal in the correct group",
+        "Says pet or wild with support"
+      ],
+      "previousKnowledge": "Children can explore with their senses, play with water, sand and soil and name the weather.",
+      "vocabulary": [
+        "dog",
+        "cat",
+        "goat",
+        "hen",
+        "cow",
+        "lion"
+      ],
+      "resources": [
+        "Two hoops labelled pets and wild",
+        "Eight animal pictures",
+        "A basket"
+      ],
+      "starter": "Show two hoops and say \"One is for animals that live with us. One is for animals that live in the wild.\"",
+      "teacherActivities": [
+        "Pick up a dog picture and put it in the pets hoop.",
+        "Pick up a lion picture and put it in the wild hoop.",
+        "Let each child pick a picture and choose a hoop.",
+        "Check each hoop together."
+      ],
+      "learnerActivities": [
+        "Children watch and say pet.",
+        "Children watch and say wild.",
+        "Child places the picture.",
+        "Children name the animals in each hoop."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pick up a dog picture and put it in the pets hoop. Children: Children watch and say pet.",
+        "Step 2. Teacher: Pick up a lion picture and put it in the wild hoop. Children: Children watch and say wild.",
+        "Step 3. Teacher: Let each child pick a picture and choose a hoop. Children: Child places the picture.",
+        "Step 4. Teacher: Check each hoop together. Children: Children name the animals in each hoop."
+      ],
+      "practical": {
+        "title": "Animal hoops",
+        "steps": [
+          "Put two hoops on the floor.",
+          "Each child picks a picture.",
+          "Place it in the pet or wild hoop."
+        ],
+        "safety": "Use large pictures. Keep the floor clear and supervise turns."
+      },
+      "differentiation": {
+        "support": "Offer two pictures and say whether they live with us.",
+        "extension": "Ask the child to find another animal for each hoop."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is a dog a pet?",
+            "expected": "Yes, a pet."
+          },
+          {
+            "question": "Is a lion a pet?",
+            "expected": "No, it is wild."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts animals into pets and wild animals",
+        "Says pet or wild with support"
+      ],
+      "conclusion": "Put the pictures away and say \"Pets and wild animals.\"",
+      "homeConnection": "Talk about pets and wild animals when you see pictures at home.",
+      "teacherReflection": [
+        "Which children could show \"sort animals into pets and wild animals\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PETS",
+          "WILD"
+        ],
+        "pictures": [
+          "A dog",
+          "A lion"
+        ]
+      },
+      "activities": [
+        "Animal hoops"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W01-D05",
+      "title": "Week 1 animals check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 1,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Pets and farm animals",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child names animals and moves like them."
+      ],
+      "successCriteria": [
+        "Names at least six animals",
+        "Moves like an animal"
+      ],
+      "previousKnowledge": "Children can explore with their senses, play with water, sand and soil and name the weather.",
+      "vocabulary": [
+        "dog",
+        "cat",
+        "goat",
+        "hen",
+        "cow",
+        "lion"
+      ],
+      "resources": [
+        "Animal pictures",
+        "Soft toys",
+        "Class record sheet"
+      ],
+      "starter": "Sing the animal song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: naming, sorting and moving.",
+        "At each station ask \"What animal is this?\" and \"How does it move?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child names the animal or moves.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: naming, sorting and moving. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What animal is this?\" and \"How does it move?\" Children: Child names the animal or moves.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Animal stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use soft toys and large pictures."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use three animals.",
+        "extension": "Ask a confident child to name all the animals."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names animals; says where animals live; moves like an animal.",
+        "questions": [
+          {
+            "question": "What animal is this?",
+            "expected": "The animal’s name."
+          },
+          {
+            "question": "How does it move?",
+            "expected": "Hop, fly, crawl or walk."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 1",
+        "Names at least six animals"
+      ],
+      "conclusion": "Wave goodbye to the animals.",
+      "homeConnection": "Name animals together at home or on a walk.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child names animals and moves like them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Animals"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Animal stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

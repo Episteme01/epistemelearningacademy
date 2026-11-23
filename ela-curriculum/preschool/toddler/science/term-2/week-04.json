@@ -1,0 +1,604 @@
+{
+  "id": "ELA-PS-TOD-SCI-T2-W04",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 2,
+  "week": 4,
+  "title": "Small creatures",
+  "topic": "Animals",
+  "subtopics": [
+    "Ants and beetles",
+    "Butterflies and bees",
+    "Looking carefully and not touching"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will look closely at small creatures with a magnifying glass.",
+    "Children will say that small creatures are looked at and not hurt."
+  ],
+  "vocabulary": [
+    "ant",
+    "bee",
+    "butterfly",
+    "beetle",
+    "look",
+    "tiny"
+  ],
+  "content": "Looking closely at ants, beetles, butterflies and bees, and learning to look without touching or hurting.",
+  "teachingActivities": "Use magnifying glasses and a clear bug box with a lid; keep creatures only for a short time and return them; avoid stinging insects; always say \"we look, we do not hurt\"; wash hands after.",
+  "learnerActivities": "Name small creatures, look at them carefully and be kind to them.",
+  "resources": [
+    "A magnifying glass",
+    "A clear bug box with a lid",
+    "Pictures of an ant, a bee, a butterfly and a beetle",
+    "A garden or school yard area",
+    "Soap and water"
+  ],
+  "assessment": "Observe whether each child names two small creatures and looks gently without touching.",
+  "expectedOutcomes": [
+    "Names two small creatures.",
+    "Looks at a small creature gently without touching."
+  ],
+  "crossCurricular": [
+    "Literacy: song about bees and ants",
+    "Numeracy: counting legs and wings",
+    "Social Habits: being gentle"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W04-D01",
+      "title": "Ants and beetles",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 4,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Ants and beetles",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name ants and beetles and look at them with a magnifying glass."
+      ],
+      "successCriteria": [
+        "Names an ant and a beetle",
+        "Looks closely without touching"
+      ],
+      "previousKnowledge": "Children can name animals, their homes and babies and handle toys gently.",
+      "vocabulary": [
+        "ant",
+        "bee",
+        "butterfly",
+        "beetle",
+        "look",
+        "tiny"
+      ],
+      "resources": [
+        "A magnifying glass",
+        "Pictures of an ant and a beetle",
+        "A clear bug box with a lid"
+      ],
+      "starter": "Show the ant picture and say \"This is an ant. It is very small. Let us look carefully.\"",
+      "teacherActivities": [
+        "Show the pictures and say how many legs and what colour they are.",
+        "Show how to hold the magnifying glass and look closely.",
+        "Go outside and find a small creature in the garden with an adult.",
+        "Say \"We look and we do not hurt\" and wave goodbye to the creature."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children look at a picture through the glass.",
+        "Children look from a safe distance.",
+        "Children say \"bye bye\" and wave."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the pictures and say how many legs and what colour they are. Children: Children look and say the names.",
+        "Step 2. Teacher: Show how to hold the magnifying glass and look closely. Children: Children look at a picture through the glass.",
+        "Step 3. Teacher: Go outside and find a small creature in the garden with an adult. Children: Children look from a safe distance.",
+        "Step 4. Teacher: Say \"We look and we do not hurt\" and wave goodbye to the creature. Children: Children say \"bye bye\" and wave."
+      ],
+      "practical": {
+        "title": "Look with a magnifier",
+        "steps": [
+          "Give each child a turn to look through the glass.",
+          "Look at an ant or beetle without touching.",
+          "Say what you see."
+        ],
+        "safety": "Never allow children to touch or squash creatures. Avoid stinging insects, and wash hands after looking. An adult leads the search."
+      },
+      "differentiation": {
+        "support": "Hold the magnifying glass together and point to what you see.",
+        "extension": "Ask the child to count the legs on a picture of an ant."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this?",
+            "expected": "An ant or a beetle."
+          },
+          {
+            "question": "Do we hurt small creatures?",
+            "expected": "No, we look gently."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names ants and beetles",
+        "Looks at creatures gently"
+      ],
+      "conclusion": "Wash hands and say \"We are kind to small creatures.\"",
+      "homeConnection": "Look for ants or beetles with your child and watch without touching.",
+      "teacherReflection": [
+        "Which children could show \"name ants and beetles and look at them with a magnifying glass\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ANT",
+          "BEETLE",
+          "LOOK"
+        ],
+        "pictures": [
+          "An ant",
+          "A beetle",
+          "A magnifying glass"
+        ]
+      },
+      "activities": [
+        "Look with a magnifier"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W04-D02",
+      "title": "Butterflies and bees",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 4,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Butterflies and bees",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name a butterfly and a bee and say what they do."
+      ],
+      "successCriteria": [
+        "Names a butterfly and a bee",
+        "Says that they fly"
+      ],
+      "previousKnowledge": "Children can name animals, their homes and babies and handle toys gently.",
+      "vocabulary": [
+        "ant",
+        "bee",
+        "butterfly",
+        "beetle",
+        "look",
+        "tiny"
+      ],
+      "resources": [
+        "Pictures of a butterfly and a bee",
+        "A paper butterfly on a stick",
+        "A flower picture",
+        "A scarf"
+      ],
+      "starter": "Fly a paper butterfly in the air and say \"Flutter, flutter. This is a butterfly.\"",
+      "teacherActivities": [
+        "Show the butterfly and bee pictures and say the names and colours.",
+        "Say \"Butterflies and bees visit flowers.\"",
+        "Move the scarf like a butterfly and like a bee.",
+        "Let each child be a butterfly or a bee and visit a flower."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children point to the flower.",
+        "Children flutter and buzz.",
+        "Child moves to the flower and back."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the butterfly and bee pictures and say the names and colours. Children: Children look and say the names.",
+        "Step 2. Teacher: Say \"Butterflies and bees visit flowers.\" Children: Children point to the flower.",
+        "Step 3. Teacher: Move the scarf like a butterfly and like a bee. Children: Children flutter and buzz.",
+        "Step 4. Teacher: Let each child be a butterfly or a bee and visit a flower. Children: Child moves to the flower and back."
+      ],
+      "practical": {
+        "title": "Butterflies and bees",
+        "steps": [
+          "Put a flower picture on the floor.",
+          "Children fly like butterflies and bees to the flower.",
+          "Say flutter and buzz."
+        ],
+        "safety": "Clear the floor so children can move safely. Do not touch real bees and stay away from hives."
+      },
+      "differentiation": {
+        "support": "Fly together and say flutter or buzz.",
+        "extension": "Ask the child to say why bees visit flowers."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does a butterfly do?",
+            "expected": "Flies or flutters."
+          },
+          {
+            "question": "What does a bee say?",
+            "expected": "Buzz."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names a butterfly and a bee",
+        "Says that they fly"
+      ],
+      "conclusion": "Settle like a butterfly on a flower.",
+      "homeConnection": "Look for butterflies on flowers with your child and stay still to watch.",
+      "teacherReflection": [
+        "Which children could show \"name a butterfly and a bee and say what they do\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BUTTERFLY",
+          "BEE",
+          "FLOWER"
+        ],
+        "pictures": [
+          "A butterfly",
+          "A bee",
+          "A flower"
+        ]
+      },
+      "activities": [
+        "Butterflies and bees"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W04-D03",
+      "title": "Garden hunt",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 4,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Looking carefully and not touching",
+      "dayType": "explore",
+      "objectives": [
+        "Children will go on a garden hunt for small creatures and look without touching."
+      ],
+      "successCriteria": [
+        "Finds a small creature or its home",
+        "Says \"look, not touch\""
+      ],
+      "previousKnowledge": "Children can name animals, their homes and babies and handle toys gently.",
+      "vocabulary": [
+        "ant",
+        "bee",
+        "butterfly",
+        "beetle",
+        "look",
+        "tiny"
+      ],
+      "resources": [
+        "Magnifying glasses",
+        "A clipboard with creature pictures",
+        "A school garden area"
+      ],
+      "starter": "Say \"Today we go on a creature hunt. We have kind eyes. We look but we do not touch.\"",
+      "teacherActivities": [
+        "Walk to the garden in a line with an adult at each end.",
+        "Search near plants, stones and leaves for small creatures.",
+        "When a creature is found, ask \"What is it?\"",
+        "Come back and talk about what we saw."
+      ],
+      "learnerActivities": [
+        "Children walk in a line.",
+        "Children look closely with magnifiers.",
+        "Child names the creature or says small.",
+        "Child tells one thing they saw."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Walk to the garden in a line with an adult at each end. Children: Children walk in a line.",
+        "Step 2. Teacher: Search near plants, stones and leaves for small creatures. Children: Children look closely with magnifiers.",
+        "Step 3. Teacher: When a creature is found, ask \"What is it?\" Children: Child names the creature or says small.",
+        "Step 4. Teacher: Come back and talk about what we saw. Children: Child tells one thing they saw."
+      ],
+      "practical": {
+        "title": "Creature hunt",
+        "steps": [
+          "Go to the garden in a line.",
+          "Search quietly for small creatures.",
+          "Look without touching and tell what you see."
+        ],
+        "safety": "Check the area for stinging insects, sharp objects and snakes before the hunt. Keep children together and wash hands after."
+      },
+      "differentiation": {
+        "support": "Walk with the child and point to creatures.",
+        "extension": "Ask the child to count how many different creatures they saw."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you find?",
+            "expected": "An ant, a beetle or a leaf."
+          },
+          {
+            "question": "Did you touch it?",
+            "expected": "No, we looked."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds small creatures in the garden",
+        "Looks without touching"
+      ],
+      "conclusion": "Wash hands and say \"We were kind.\"",
+      "homeConnection": "Look in your garden or compound for small creatures with your child.",
+      "teacherReflection": [
+        "Which children could show \"go on a garden hunt for small creatures and look without touching\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HUNT",
+          "LOOK"
+        ],
+        "pictures": [
+          "Children searching a garden"
+        ]
+      },
+      "activities": [
+        "Creature hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W04-D04",
+      "title": "Be kind to small creatures",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 4,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Looking carefully and not touching",
+      "dayType": "practise",
+      "objectives": [
+        "Children will say and show how to be kind to small creatures."
+      ],
+      "successCriteria": [
+        "Says one way to be kind",
+        "Shows gentle hands"
+      ],
+      "previousKnowledge": "Children can name animals, their homes and babies and handle toys gently.",
+      "vocabulary": [
+        "ant",
+        "bee",
+        "butterfly",
+        "beetle",
+        "look",
+        "tiny"
+      ],
+      "resources": [
+        "Pictures of kind and unkind actions",
+        "A toy ant",
+        "A leaf"
+      ],
+      "starter": "Hold a toy ant and say \"Little ant. How can we be kind to him?\"",
+      "teacherActivities": [
+        "Show pictures of gentle hands and ask \"Is it kind?\"",
+        "Show pictures of squashing or throwing and ask \"Is it kind?\"",
+        "Show how to move a toy ant gently on a leaf.",
+        "Say \"We look and we are gentle.\""
+      ],
+      "learnerActivities": [
+        "Children say yes or no.",
+        "Children shake their heads and say no.",
+        "Children move the ant gently.",
+        "Children say the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show pictures of gentle hands and ask \"Is it kind?\" Children: Children say yes or no.",
+        "Step 2. Teacher: Show pictures of squashing or throwing and ask \"Is it kind?\" Children: Children shake their heads and say no.",
+        "Step 3. Teacher: Show how to move a toy ant gently on a leaf. Children: Children move the ant gently.",
+        "Step 4. Teacher: Say \"We look and we are gentle.\" Children: Children say the sentence."
+      ],
+      "practical": {
+        "title": "Kind hands",
+        "steps": [
+          "Give each child a toy creature and a leaf.",
+          "Move the creature gently.",
+          "Say \"gentle\"."
+        ],
+        "safety": "Use soft toy creatures and remind children never to squash real creatures. Supervise sharing."
+      },
+      "differentiation": {
+        "support": "Move the toy together with gentle hands.",
+        "extension": "Ask the child to tell a friend why we are kind to small creatures."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is it kind to squash an ant?",
+            "expected": "No."
+          },
+          {
+            "question": "What can we do?",
+            "expected": "Look gently."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says and shows how to be kind to creatures",
+        "Uses gentle hands"
+      ],
+      "conclusion": "Put the toys away and say \"We are kind.\"",
+      "homeConnection": "Show your child how to watch small creatures gently.",
+      "teacherReflection": [
+        "Which children could show \"say and show how to be kind to small creatures\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "KIND",
+          "GENTLE"
+        ],
+        "pictures": [
+          "A child with gentle hands"
+        ]
+      },
+      "activities": [
+        "Kind hands"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W04-D05",
+      "title": "Week 4 creatures check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 4,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Ants and beetles",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child names small creatures and looks gently."
+      ],
+      "successCriteria": [
+        "Names two small creatures",
+        "Looks without touching"
+      ],
+      "previousKnowledge": "Children can name animals, their homes and babies and handle toys gently.",
+      "vocabulary": [
+        "ant",
+        "bee",
+        "butterfly",
+        "beetle",
+        "look",
+        "tiny"
+      ],
+      "resources": [
+        "Creature pictures",
+        "Magnifiers",
+        "Class record sheet"
+      ],
+      "starter": "Sing the creature song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: pictures, magnifiers and kind hands.",
+        "At each station ask \"What is this?\" and \"Are we kind?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or gesture.",
+        "Children wash hands and tidy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: pictures, magnifiers and kind hands. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What is this?\" and \"Are we kind?\" Children: Child answers with a word or gesture.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy."
+      ],
+      "practical": {
+        "title": "Creature stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Wash hands after each activity."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two pictures.",
+        "extension": "Ask a confident child to tell a friend how to look at creatures."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names small creatures; looks closely; says we do not hurt creatures.",
+        "questions": [
+          {
+            "question": "What is this creature?",
+            "expected": "Ant, bee, beetle or butterfly."
+          },
+          {
+            "question": "Do we hurt it?",
+            "expected": "No, we look gently."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Names small creatures"
+      ],
+      "conclusion": "Wash hands and say goodbye.",
+      "homeConnection": "Talk about being kind to small creatures.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child names small creatures and looks gently\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Creatures"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Creature stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

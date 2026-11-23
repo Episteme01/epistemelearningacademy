@@ -1,0 +1,601 @@
+{
+  "id": "ELA-PS-TOD-SCI-T2-W02",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 2,
+  "week": 2,
+  "title": "Where animals live",
+  "topic": "Animals",
+  "subtopics": [
+    "Homes on the farm",
+    "Homes in the wild",
+    "Matching animals to homes"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will match animals to their homes.",
+    "Children will say simple words for animal homes."
+  ],
+  "vocabulary": [
+    "nest",
+    "pen",
+    "kennel",
+    "hole",
+    "water",
+    "tree"
+  ],
+  "content": "Homes of farm animals, homes of wild animals, and matching animals to their homes.",
+  "teachingActivities": "Show the home picture first, then the animal; use words nest, pen, kennel and hole; build a small farm with boxes; link to what children see near the school.",
+  "learnerActivities": "Match animals to their homes and say a word for each home.",
+  "resources": [
+    "Pictures of a nest, a pen, a kennel, a hole and a tree",
+    "Animal pictures: hen, goat, dog, rabbit, monkey",
+    "Boxes for homes",
+    "Toy animals"
+  ],
+  "assessment": "Observe whether each child matches at least three animals to homes and names one animal home.",
+  "expectedOutcomes": [
+    "Matches at least three animals to their homes.",
+    "Names one animal home."
+  ],
+  "crossCurricular": [
+    "Literacy: where questions",
+    "Numeracy: matching",
+    "Social Habits: caring for animals"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W02-D01",
+      "title": "Homes on the farm",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 2,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Homes on the farm",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will match farm animals to their homes."
+      ],
+      "successCriteria": [
+        "Matches the hen to the nest and the dog to the kennel",
+        "Says the name of one home"
+      ],
+      "previousKnowledge": "Children can name familiar animals and say if they are pets or wild.",
+      "vocabulary": [
+        "nest",
+        "pen",
+        "kennel",
+        "hole",
+        "water",
+        "tree"
+      ],
+      "resources": [
+        "Pictures of a nest, pen and kennel",
+        "Pictures of a hen, a goat and a dog",
+        "Boxes for homes"
+      ],
+      "starter": "Show a kennel picture and say \"This is a kennel. A dog sleeps here.\" Ask \"Where does the dog live?\"",
+      "teacherActivities": [
+        "Show each home picture and say its name.",
+        "Show an animal picture and ask \"Where does it live?\"",
+        "Put each animal in its home box.",
+        "Ask \"Who lives in the nest?\""
+      ],
+      "learnerActivities": [
+        "Children look and say the name.",
+        "Child points to the home.",
+        "Child places the animal in the right box.",
+        "Child says hen or bird."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each home picture and say its name. Children: Children look and say the name.",
+        "Step 2. Teacher: Show an animal picture and ask \"Where does it live?\" Children: Child points to the home.",
+        "Step 3. Teacher: Put each animal in its home box. Children: Child places the animal in the right box.",
+        "Step 4. Teacher: Ask \"Who lives in the nest?\" Children: Child says hen or bird."
+      ],
+      "practical": {
+        "title": "Farm homes",
+        "steps": [
+          "Put three home boxes on the mat.",
+          "Each child picks an animal toy.",
+          "Put it in its home."
+        ],
+        "safety": "Use clean soft toys and large boxes. Keep the floor clear and supervise sharing."
+      },
+      "differentiation": {
+        "support": "Offer two homes and show the animal first.",
+        "extension": "Ask the child to say what the animal does at home."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does the hen live?",
+            "expected": "In a nest or coop."
+          },
+          {
+            "question": "Where does the dog live?",
+            "expected": "In a kennel."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches farm animals to their homes",
+        "Names one animal home"
+      ],
+      "conclusion": "Put the animals in their homes and say goodnight.",
+      "homeConnection": "Look at where animals live near your home and name the homes.",
+      "teacherReflection": [
+        "Which children could show \"match farm animals to their homes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "NEST",
+          "PEN",
+          "KENNEL"
+        ],
+        "pictures": [
+          "A nest",
+          "A pen",
+          "A kennel"
+        ]
+      },
+      "activities": [
+        "Farm homes"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W02-D02",
+      "title": "Homes in the wild",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 2,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Homes in the wild",
+      "dayType": "explore",
+      "objectives": [
+        "Children will match wild animals to their homes."
+      ],
+      "successCriteria": [
+        "Matches a monkey to a tree and a rabbit to a hole",
+        "Says the name of one wild home"
+      ],
+      "previousKnowledge": "Children can name familiar animals and say if they are pets or wild.",
+      "vocabulary": [
+        "nest",
+        "pen",
+        "kennel",
+        "hole",
+        "water",
+        "tree"
+      ],
+      "resources": [
+        "Pictures of a tree, a hole, water and a cave",
+        "Pictures of a monkey, a rabbit, a fish and a bat"
+      ],
+      "starter": "Show a tree picture and say \"A monkey lives in a tree.\" Ask \"Who lives in a tree?\"",
+      "teacherActivities": [
+        "Show each home picture and say its name.",
+        "Show an animal and ask \"Where does it live?\"",
+        "Talk about how animals find food and water in their homes.",
+        "Let each child match one animal to its home."
+      ],
+      "learnerActivities": [
+        "Children look and say the name.",
+        "Child points to the home.",
+        "Children listen and point to food and water pictures.",
+        "Child places an animal on its home."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each home picture and say its name. Children: Children look and say the name.",
+        "Step 2. Teacher: Show an animal and ask \"Where does it live?\" Children: Child points to the home.",
+        "Step 3. Teacher: Talk about how animals find food and water in their homes. Children: Children listen and point to food and water pictures.",
+        "Step 4. Teacher: Let each child match one animal to its home. Children: Child places an animal on its home."
+      ],
+      "practical": {
+        "title": "Wild homes",
+        "steps": [
+          "Put home pictures on the floor.",
+          "Each child takes an animal card.",
+          "Stand the animal on its home."
+        ],
+        "safety": "Use large cards on a clear floor. Supervise movement and turns."
+      },
+      "differentiation": {
+        "support": "Offer two homes and say the animal first.",
+        "extension": "Ask the child to find where fish live and say why."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does the monkey live?",
+            "expected": "In a tree."
+          },
+          {
+            "question": "Where do fish live?",
+            "expected": "In water."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches wild animals to homes",
+        "Names one wild home"
+      ],
+      "conclusion": "Put all the animals back in their homes.",
+      "homeConnection": "Look for animal homes outside, such as nests and holes.",
+      "teacherReflection": [
+        "Which children could show \"match wild animals to their homes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TREE",
+          "WATER",
+          "HOLE"
+        ],
+        "pictures": [
+          "A tree",
+          "Water",
+          "A hole"
+        ]
+      },
+      "activities": [
+        "Wild homes"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W02-D03",
+      "title": "Matching homes game",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 2,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Matching animals to homes",
+      "dayType": "practise",
+      "objectives": [
+        "Children will play a matching game with animals and homes."
+      ],
+      "successCriteria": [
+        "Matches at least three animals to homes",
+        "Says the home name"
+      ],
+      "previousKnowledge": "Children can name familiar animals and say if they are pets or wild.",
+      "vocabulary": [
+        "nest",
+        "pen",
+        "kennel",
+        "hole",
+        "water",
+        "tree"
+      ],
+      "resources": [
+        "Six animal cards",
+        "Six home cards",
+        "A bag"
+      ],
+      "starter": "Say \"Let us help the animals find their homes. Who is missing a home?\"",
+      "teacherActivities": [
+        "Spread out the home cards. Pick an animal and ask \"Where does it live?\"",
+        "Match the card and say the animal and the home.",
+        "Let each child pick an animal from the bag and match it.",
+        "Check all the pairs together."
+      ],
+      "learnerActivities": [
+        "Child points to the home.",
+        "Children say both words.",
+        "Child picks and matches.",
+        "Children name the pairs."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Spread out the home cards. Pick an animal and ask \"Where does it live?\" Children: Child points to the home.",
+        "Step 2. Teacher: Match the card and say the animal and the home. Children: Children say both words.",
+        "Step 3. Teacher: Let each child pick an animal from the bag and match it. Children: Child picks and matches.",
+        "Step 4. Teacher: Check all the pairs together. Children: Children name the pairs."
+      ],
+      "practical": {
+        "title": "Home match",
+        "steps": [
+          "Put six home cards on the mat.",
+          "Each child picks an animal card.",
+          "Match it to a home."
+        ],
+        "safety": "Use large soft cards. Supervise turns and keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Use three pairs only and say the home first.",
+        "extension": "Ask the child to match all six pairs alone."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does the rabbit live?",
+            "expected": "In a hole."
+          },
+          {
+            "question": "Where does the goat live?",
+            "expected": "In a pen."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Matches animals to homes",
+        "Names the animal and home"
+      ],
+      "conclusion": "Put the cards away and say \"All the animals are home.\"",
+      "homeConnection": "Play animal home matching with pictures at home.",
+      "teacherReflection": [
+        "Which children could show \"play a matching game with animals and homes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MATCH",
+          "HOME"
+        ],
+        "pictures": [
+          "Animal and home cards"
+        ]
+      },
+      "activities": [
+        "Home match"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W02-D04",
+      "title": "Building a farm",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 2,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Homes on the farm",
+      "dayType": "apply",
+      "objectives": [
+        "Children will build a model farm with homes for animals."
+      ],
+      "successCriteria": [
+        "Builds a home for an animal",
+        "Says what they made"
+      ],
+      "previousKnowledge": "Children can name familiar animals and say if they are pets or wild.",
+      "vocabulary": [
+        "nest",
+        "pen",
+        "kennel",
+        "hole",
+        "water",
+        "tree"
+      ],
+      "resources": [
+        "Boxes, blocks and cloth",
+        "Toy farm animals",
+        "Green paper for grass"
+      ],
+      "starter": "Show the toy animals and say \"The animals need homes. Let us build a farm.\"",
+      "teacherActivities": [
+        "Show how to build a pen with blocks and a nest with cloth.",
+        "Let each child build a home for an animal.",
+        "Put the animals in their new homes.",
+        "Walk round and ask \"What did you build?\""
+      ],
+      "learnerActivities": [
+        "Children watch and choose a block.",
+        "Child builds a home with blocks or boxes.",
+        "Child places an animal in a home.",
+        "Child says the name of the home."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to build a pen with blocks and a nest with cloth. Children: Children watch and choose a block.",
+        "Step 2. Teacher: Let each child build a home for an animal. Children: Child builds a home with blocks or boxes.",
+        "Step 3. Teacher: Put the animals in their new homes. Children: Child places an animal in a home.",
+        "Step 4. Teacher: Walk round and ask \"What did you build?\" Children: Child says the name of the home."
+      ],
+      "practical": {
+        "title": "Farm building",
+        "steps": [
+          "Set out blocks, boxes and cloth.",
+          "Build homes for the animals.",
+          "Put the animals inside."
+        ],
+        "safety": "Use soft blocks and keep towers low. Clear the floor and supervise sharing."
+      },
+      "differentiation": {
+        "support": "Build beside the child and name each part.",
+        "extension": "Ask the child to build a home with a roof and a door."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What did you build?",
+            "expected": "A pen, nest or house."
+          },
+          {
+            "question": "Who lives there?",
+            "expected": "An animal’s name."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Builds a home for an animal",
+        "Says what they built"
+      ],
+      "conclusion": "Look at the farm together and say \"Well done.\"",
+      "homeConnection": "Build a home for a toy animal at home with boxes.",
+      "teacherReflection": [
+        "Which children could show \"build a model farm with homes for animals\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BUILD",
+          "FARM"
+        ],
+        "pictures": [
+          "A model farm"
+        ]
+      },
+      "activities": [
+        "Farm building"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W02-D05",
+      "title": "Week 2 homes check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 2,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Animals",
+      "subtopic": "Matching animals to homes",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child matches animals to homes."
+      ],
+      "successCriteria": [
+        "Matches at least three animals to homes",
+        "Names one animal home"
+      ],
+      "previousKnowledge": "Children can name familiar animals and say if they are pets or wild.",
+      "vocabulary": [
+        "nest",
+        "pen",
+        "kennel",
+        "hole",
+        "water",
+        "tree"
+      ],
+      "resources": [
+        "Animal and home cards",
+        "Toy animals",
+        "Class record sheet"
+      ],
+      "starter": "Say \"Where do animals live?\" and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: farm homes, wild homes and building.",
+        "At each station ask \"Where does the animal live?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child points to or names the home.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: farm homes, wild homes and building. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"Where does the animal live?\" Children: Child points to or names the home.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Home stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use soft toys and large cards."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two homes.",
+        "extension": "Ask a confident child to tell a friend where animals live."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: matches animals to homes; names one home; builds a home.",
+        "questions": [
+          {
+            "question": "Where does the hen live?",
+            "expected": "In a nest."
+          },
+          {
+            "question": "Where do fish live?",
+            "expected": "In water."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Matches animals to homes"
+      ],
+      "conclusion": "Say goodnight to the animals in their homes.",
+      "homeConnection": "Talk about animal homes whenever you see animals.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child matches animals to homes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Homes"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Home stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

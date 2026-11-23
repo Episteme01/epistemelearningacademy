@@ -1,0 +1,601 @@
+{
+  "id": "ELA-PS-TOD-SCI-T2-W08",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 2,
+  "week": 8,
+  "title": "Food from plants and animals",
+  "topic": "Food",
+  "subtopics": [
+    "Foods from plants",
+    "Foods from animals",
+    "Healthy foods"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say which foods come from plants and which from animals.",
+    "Children will name foods that help them grow."
+  ],
+  "vocabulary": [
+    "yam",
+    "rice",
+    "egg",
+    "milk",
+    "fish",
+    "healthy"
+  ],
+  "content": "Foods that come from plants, foods that come from animals, and healthy foods that help us grow.",
+  "teachingActivities": "Use real foods or large pictures; sort into two groups; speak positively about all foods; check family diets and allergies; link to the market and the kitchen.",
+  "learnerActivities": "Sort foods into those from plants and those from animals and name healthy foods.",
+  "resources": [
+    "Pictures or toy foods: yam, rice, beans, tomato, egg, milk, fish, meat",
+    "Two baskets",
+    "Plate pictures of a healthy meal"
+  ],
+  "assessment": "Observe whether each child names two plant foods and two animal foods and says healthy food helps us grow.",
+  "expectedOutcomes": [
+    "Names two plant foods and two animal foods.",
+    "Says that healthy food helps us grow."
+  ],
+  "crossCurricular": [
+    "Social Habits: table manners",
+    "Literacy: food words",
+    "Numeracy: sorting"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W08-D01",
+      "title": "Foods from plants",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 8,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Food",
+      "subtopic": "Foods from plants",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name foods that come from plants."
+      ],
+      "successCriteria": [
+        "Names at least three plant foods",
+        "Says that these foods grow"
+      ],
+      "previousKnowledge": "Children can name fruits and know that plants grow from seeds.",
+      "vocabulary": [
+        "yam",
+        "rice",
+        "egg",
+        "milk",
+        "fish",
+        "healthy"
+      ],
+      "resources": [
+        "Toy or real yam, rice, beans and tomato",
+        "A basket",
+        "A picture of a farm"
+      ],
+      "starter": "Hold up a yam and say \"A yam grows in the ground. It comes from a plant.\"",
+      "teacherActivities": [
+        "Show each food and name it.",
+        "Say \"Yams grow under the soil. Tomatoes grow on plants.\"",
+        "Ask \"Which food comes from a plant?\"",
+        "Let each child pick a food and say where it grows."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children listen and point to the pictures.",
+        "Child points to a plant food.",
+        "Child shows the food and says a word."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each food and name it. Children: Children look and say the names.",
+        "Step 2. Teacher: Say \"Yams grow under the soil. Tomatoes grow on plants.\" Children: Children listen and point to the pictures.",
+        "Step 3. Teacher: Ask \"Which food comes from a plant?\" Children: Child points to a plant food.",
+        "Step 4. Teacher: Let each child pick a food and say where it grows. Children: Child shows the food and says a word."
+      ],
+      "practical": {
+        "title": "Plant foods",
+        "steps": [
+          "Put plant foods on a tray.",
+          "Each child picks one and names it.",
+          "Say where it grows."
+        ],
+        "safety": "If real foods are used, wash them and check allergies. Keep food for looking unless tasting is planned and cleared."
+      },
+      "differentiation": {
+        "support": "Offer two foods and say the name first.",
+        "extension": "Ask the child to name a plant food they eat at home."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where does yam grow?",
+            "expected": "Under the soil."
+          },
+          {
+            "question": "Does rice come from a plant?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names foods from plants",
+        "Says that plant foods grow"
+      ],
+      "conclusion": "Put the foods in the basket and say \"Thank you, plants.\"",
+      "homeConnection": "Talk about plant foods when you cook, such as yam and beans.",
+      "teacherReflection": [
+        "Which children could show \"name foods that come from plants\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "YAM",
+          "RICE",
+          "BEANS"
+        ],
+        "pictures": [
+          "A yam",
+          "A plate of rice",
+          "Beans"
+        ]
+      },
+      "activities": [
+        "Plant foods"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W08-D02",
+      "title": "Foods from animals",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 8,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Food",
+      "subtopic": "Foods from animals",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name foods that come from animals."
+      ],
+      "successCriteria": [
+        "Names at least three animal foods",
+        "Says which animal gives each food"
+      ],
+      "previousKnowledge": "Children can name fruits and know that plants grow from seeds.",
+      "vocabulary": [
+        "yam",
+        "rice",
+        "egg",
+        "milk",
+        "fish",
+        "healthy"
+      ],
+      "resources": [
+        "Pictures or toys of an egg, milk, fish and meat",
+        "Animal pictures: hen, cow, fish, goat",
+        "A basket"
+      ],
+      "starter": "Show an egg and say \"An egg comes from a hen.\" Show milk and say \"Milk comes from a cow.\"",
+      "teacherActivities": [
+        "Show each food and the animal it comes from.",
+        "Say a food and ask \"Which animal gives us this?\"",
+        "Match the foods to the animals.",
+        "Talk about how animals give us food and need our care."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Child points to the animal.",
+        "Child places the food next to its animal.",
+        "Children listen and nod."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each food and the animal it comes from. Children: Children look and say the names.",
+        "Step 2. Teacher: Say a food and ask \"Which animal gives us this?\" Children: Child points to the animal.",
+        "Step 3. Teacher: Match the foods to the animals. Children: Child places the food next to its animal.",
+        "Step 4. Teacher: Talk about how animals give us food and need our care. Children: Children listen and nod."
+      ],
+      "practical": {
+        "title": "Animal foods",
+        "steps": [
+          "Put foods and animal pictures on the mat.",
+          "Each child picks a food.",
+          "Match it to the animal."
+        ],
+        "safety": "Use pictures or toy foods and be sensitive to families who do not eat certain foods. Check allergies before any tasting."
+      },
+      "differentiation": {
+        "support": "Offer two pictures and say the food first.",
+        "extension": "Ask the child to say which animal gives us eggs."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where do eggs come from?",
+            "expected": "A hen."
+          },
+          {
+            "question": "Where does milk come from?",
+            "expected": "A cow."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names foods from animals",
+        "Matches foods to animals"
+      ],
+      "conclusion": "Put the cards away and say \"Thank you, animals.\"",
+      "homeConnection": "Talk about foods from animals at mealtimes.",
+      "teacherReflection": [
+        "Which children could show \"name foods that come from animals\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "EGG",
+          "MILK",
+          "FISH"
+        ],
+        "pictures": [
+          "An egg",
+          "A glass of milk",
+          "A fish"
+        ]
+      },
+      "activities": [
+        "Animal foods"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W08-D03",
+      "title": "Plant or animal food?",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 8,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Food",
+      "subtopic": "Foods from plants",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort foods into plant foods and animal foods."
+      ],
+      "successCriteria": [
+        "Sorts a food into the right basket",
+        "Says plant or animal"
+      ],
+      "previousKnowledge": "Children can name fruits and know that plants grow from seeds.",
+      "vocabulary": [
+        "yam",
+        "rice",
+        "egg",
+        "milk",
+        "fish",
+        "healthy"
+      ],
+      "resources": [
+        "Two baskets labelled plant and animal",
+        "Eight food pictures",
+        "A mat"
+      ],
+      "starter": "Show two baskets and say \"One is for foods from plants. One is for foods from animals.\"",
+      "teacherActivities": [
+        "Pick up a rice picture and put it in the plant basket.",
+        "Pick up an egg picture and put it in the animal basket.",
+        "Let each child pick a picture and choose a basket.",
+        "Check each basket together."
+      ],
+      "learnerActivities": [
+        "Children watch and say plant.",
+        "Children watch and say animal.",
+        "Child sorts the picture.",
+        "Children name the foods."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pick up a rice picture and put it in the plant basket. Children: Children watch and say plant.",
+        "Step 2. Teacher: Pick up an egg picture and put it in the animal basket. Children: Children watch and say animal.",
+        "Step 3. Teacher: Let each child pick a picture and choose a basket. Children: Child sorts the picture.",
+        "Step 4. Teacher: Check each basket together. Children: Children name the foods."
+      ],
+      "practical": {
+        "title": "Food sort",
+        "steps": [
+          "Put two baskets on the mat.",
+          "Each child picks a food picture.",
+          "Put it in the plant or animal basket."
+        ],
+        "safety": "Use large pictures. Keep the floor clear and supervise turns."
+      },
+      "differentiation": {
+        "support": "Offer two pictures and say where the food comes from.",
+        "extension": "Ask the child to find another food for each basket."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is rice a plant food?",
+            "expected": "Yes."
+          },
+          {
+            "question": "Is egg a plant food?",
+            "expected": "No, it is from an animal."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts foods into plant and animal",
+        "Says plant or animal with support"
+      ],
+      "conclusion": "Put the pictures away and say \"Plants and animals give us food.\"",
+      "homeConnection": "Sort foods in the kitchen into plant and animal foods.",
+      "teacherReflection": [
+        "Which children could show \"sort foods into plant foods and animal foods\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PLANT",
+          "ANIMAL"
+        ],
+        "pictures": [
+          "Two baskets"
+        ]
+      },
+      "activities": [
+        "Food sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W08-D04",
+      "title": "Healthy food helps me grow",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 8,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Food",
+      "subtopic": "Healthy foods",
+      "dayType": "apply",
+      "objectives": [
+        "Children will name healthy foods and say they help us grow."
+      ],
+      "successCriteria": [
+        "Names two healthy foods",
+        "Says that healthy food helps us grow"
+      ],
+      "previousKnowledge": "Children can name fruits and know that plants grow from seeds.",
+      "vocabulary": [
+        "yam",
+        "rice",
+        "egg",
+        "milk",
+        "fish",
+        "healthy"
+      ],
+      "resources": [
+        "Pictures of fruit, vegetables, beans, rice, fish and water",
+        "A plate picture",
+        "A doll"
+      ],
+      "starter": "Show a plate with healthy foods and say \"These foods help us grow strong.\"",
+      "teacherActivities": [
+        "Show each healthy food and say its name.",
+        "Say \"We eat these to grow tall and strong.\" Stretch up tall.",
+        "Show foods that we only have sometimes, such as sweets.",
+        "Let each child choose foods for a healthy plate."
+      ],
+      "learnerActivities": [
+        "Children look and say the names.",
+        "Children stretch up and say strong.",
+        "Children listen and nod.",
+        "Child puts pictures on a plate."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each healthy food and say its name. Children: Children look and say the names.",
+        "Step 2. Teacher: Say \"We eat these to grow tall and strong.\" Stretch up tall. Children: Children stretch up and say strong.",
+        "Step 3. Teacher: Show foods that we only have sometimes, such as sweets. Children: Children listen and nod.",
+        "Step 4. Teacher: Let each child choose foods for a healthy plate. Children: Child puts pictures on a plate."
+      ],
+      "practical": {
+        "title": "Healthy plate",
+        "steps": [
+          "Put food pictures on the mat.",
+          "Each child picks foods for a plate.",
+          "Say \"healthy\"."
+        ],
+        "safety": "Be sensitive to family circumstances and food availability. Focus on foods children know and never shame any child."
+      },
+      "differentiation": {
+        "support": "Offer two foods and choose the healthy one together.",
+        "extension": "Ask the child to say what they eat to grow strong."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What helps us grow strong?",
+            "expected": "Healthy food and water."
+          },
+          {
+            "question": "Name a healthy food.",
+            "expected": "Fruit, beans or rice."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names healthy foods",
+        "Says healthy food helps us grow"
+      ],
+      "conclusion": "Stretch up tall and say \"I will grow strong.\"",
+      "homeConnection": "Talk about healthy foods at mealtimes.",
+      "teacherReflection": [
+        "Which children could show \"name healthy foods and say they help us grow\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HEALTHY",
+          "STRONG"
+        ],
+        "pictures": [
+          "A healthy plate"
+        ]
+      },
+      "activities": [
+        "Healthy plate"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W08-D05",
+      "title": "Week 8 food check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 8,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Food",
+      "subtopic": "Healthy foods",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child names and sorts foods."
+      ],
+      "successCriteria": [
+        "Names two plant foods and two animal foods",
+        "Says that healthy food helps us grow"
+      ],
+      "previousKnowledge": "Children can name fruits and know that plants grow from seeds.",
+      "vocabulary": [
+        "yam",
+        "rice",
+        "egg",
+        "milk",
+        "fish",
+        "healthy"
+      ],
+      "resources": [
+        "Food pictures",
+        "Baskets",
+        "Class record sheet"
+      ],
+      "starter": "Sing the food song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: plant foods, animal foods and the healthy plate.",
+        "At each station ask \"What is this food?\" and \"Where does it come from?\"",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or gesture.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: plant foods, animal foods and the healthy plate. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What is this food?\" and \"Where does it come from?\" Children: Child answers with a word or gesture.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Food stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use pictures or toy foods."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two foods.",
+        "extension": "Ask a confident child to tell a friend about healthy food."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names plant foods; names animal foods; sorts foods; says healthy food helps us grow.",
+        "questions": [
+          {
+            "question": "Where does rice come from?",
+            "expected": "A plant."
+          },
+          {
+            "question": "Where do eggs come from?",
+            "expected": "A hen."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Sorts foods and names healthy foods"
+      ],
+      "conclusion": "Wave goodbye to the food pictures.",
+      "homeConnection": "Talk about food sources at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child names and sorts foods\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Food"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Food stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "id": "ELA-PS-TOD-SCI-T2-W09",
+  "class": "Toddler",
+  "subject": "Science",
+  "term": 2,
+  "week": 9,
+  "title": "Caring for living things",
+  "topic": "Caring",
+  "subtopics": [
+    "Watering plants",
+    "Feeding and caring for pets",
+    "Being kind to animals"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will water plants and say that plants need water.",
+    "Children will show kind and gentle handling of animals."
+  ],
+  "vocabulary": [
+    "water",
+    "feed",
+    "kind",
+    "gentle",
+    "care",
+    "pet"
+  ],
+  "content": "Watering plants, feeding and caring for pets, and being kind and gentle to animals.",
+  "teachingActivities": "Give each child a real job such as watering; talk about what each living thing needs; model gentle voices and hands; never leave children alone with real animals.",
+  "learnerActivities": "Water plants, say what pets need and handle toy animals gently.",
+  "resources": [
+    "Potted plants",
+    "A watering can",
+    "A toy pet with a bowl",
+    "Pictures of caring actions",
+    "A pet visit if possible"
+  ],
+  "assessment": "Observe whether each child waters a plant with support and handles a toy animal gently.",
+  "expectedOutcomes": [
+    "Waters a plant with support.",
+    "Handles a toy animal gently."
+  ],
+  "crossCurricular": [
+    "Social Habits: kindness and responsibility",
+    "Literacy: caring words",
+    "Numeracy: counting scoops of food"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W09-D01",
+      "title": "Watering plants",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 9,
+      "day": 1,
+      "durationMin": 20,
+      "topic": "Caring",
+      "subtopic": "Watering plants",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will water plants and say that plants need water."
+      ],
+      "successCriteria": [
+        "Waters a plant gently",
+        "Says plants need water"
+      ],
+      "previousKnowledge": "Children know that plants and animals are alive and need food, water and care.",
+      "vocabulary": [
+        "water",
+        "feed",
+        "kind",
+        "gentle",
+        "care",
+        "pet"
+      ],
+      "resources": [
+        "Two potted plants, one dry and one watered",
+        "A small watering can",
+        "A tray"
+      ],
+      "starter": "Show a droopy plant and say \"This plant is thirsty. It needs a drink.\"",
+      "teacherActivities": [
+        "Water the droopy plant slowly and say \"Drink, plant.\"",
+        "Let each child water a small plant with the can.",
+        "Compare the two plants and ask \"Which one is happy?\"",
+        "Say \"We look after plants.\""
+      ],
+      "learnerActivities": [
+        "Children watch and say water.",
+        "Child waters the plant gently.",
+        "Child points to the watered plant.",
+        "Children say the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Water the droopy plant slowly and say \"Drink, plant.\" Children: Children watch and say water.",
+        "Step 2. Teacher: Let each child water a small plant with the can. Children: Child waters the plant gently.",
+        "Step 3. Teacher: Compare the two plants and ask \"Which one is happy?\" Children: Child points to the watered plant.",
+        "Step 4. Teacher: Say \"We look after plants.\" Children: Children say the sentence."
+      ],
+      "practical": {
+        "title": "Water the plants",
+        "steps": [
+          "Give each child a turn with the can.",
+          "Water a plant gently.",
+          "Wipe up spills."
+        ],
+        "safety": "Use small watering cans and shallow trays. Wipe spills straight away so no one slips."
+      },
+      "differentiation": {
+        "support": "Hold the can together and pour slowly.",
+        "extension": "Ask the child to water two plants and say which needs more."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do plants need?",
+            "expected": "Water."
+          },
+          {
+            "question": "Is the plant happy?",
+            "expected": "Yes, after a drink."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Waters a plant gently",
+        "Says plants need water"
+      ],
+      "conclusion": "Put the plants in the sun and say \"Grow, plants.\"",
+      "homeConnection": "Help to water a plant at home every day.",
+      "teacherReflection": [
+        "Which children could show \"water plants and say that plants need water\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WATER",
+          "PLANT"
+        ],
+        "pictures": [
+          "A child watering a plant",
+          "A droopy plant"
+        ]
+      },
+      "activities": [
+        "Water the plants"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W09-D02",
+      "title": "Looking after a pet",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 9,
+      "day": 2,
+      "durationMin": 20,
+      "topic": "Caring",
+      "subtopic": "Feeding and caring for pets",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say what a pet needs and pretend to care for it."
+      ],
+      "successCriteria": [
+        "Names two things a pet needs",
+        "Feeds a toy pet gently"
+      ],
+      "previousKnowledge": "Children know that plants and animals are alive and need food, water and care.",
+      "vocabulary": [
+        "water",
+        "feed",
+        "kind",
+        "gentle",
+        "care",
+        "pet"
+      ],
+      "resources": [
+        "A toy dog or cat",
+        "A bowl, a water dish and a blanket",
+        "Pictures of food, water, a bed and a walk"
+      ],
+      "starter": "Hold a toy dog and say \"This is Rex. He is hungry and thirsty. What does he need?\"",
+      "teacherActivities": [
+        "Show the pictures and say what a pet needs: food, water, a bed.",
+        "Feed the toy pet and give it water.",
+        "Put the pet to bed with a blanket.",
+        "Ask \"How do we look after a pet?\""
+      ],
+      "learnerActivities": [
+        "Children look and say the words.",
+        "Child feeds and gives water to the toy.",
+        "Child tucks the pet in.",
+        "Child says or shows one way."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the pictures and say what a pet needs: food, water, a bed. Children: Children look and say the words.",
+        "Step 2. Teacher: Feed the toy pet and give it water. Children: Child feeds and gives water to the toy.",
+        "Step 3. Teacher: Put the pet to bed with a blanket. Children: Child tucks the pet in.",
+        "Step 4. Teacher: Ask \"How do we look after a pet?\" Children: Child says or shows one way."
+      ],
+      "practical": {
+        "title": "Pet care play",
+        "steps": [
+          "Set up a bowl, water dish and bed.",
+          "Care for the toy pet.",
+          "Say what the pet needs."
+        ],
+        "safety": "Use soft toys only and wash hands after any real animal contact. Never leave children alone with a real pet."
+      },
+      "differentiation": {
+        "support": "Feed the toy together and name each need.",
+        "extension": "Ask the child to say what a pet needs every day."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What does a pet need?",
+            "expected": "Food, water and a bed."
+          },
+          {
+            "question": "Who looks after the pet?",
+            "expected": "We do."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names what pets need",
+        "Cares for a toy pet gently"
+      ],
+      "conclusion": "Put the pet to bed and say \"Goodnight, Rex.\"",
+      "homeConnection": "Talk about how your family cares for a pet or an animal.",
+      "teacherReflection": [
+        "Which children could show \"say what a pet needs and pretend to care for it\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FOOD",
+          "WATER",
+          "BED"
+        ],
+        "pictures": [
+          "A dog eating",
+          "A water bowl",
+          "A pet bed"
+        ]
+      },
+      "activities": [
+        "Pet care play"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W09-D03",
+      "title": "Kind and gentle",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 9,
+      "day": 3,
+      "durationMin": 20,
+      "topic": "Caring",
+      "subtopic": "Being kind to animals",
+      "dayType": "explore",
+      "objectives": [
+        "Children will show kind and gentle handling of animals."
+      ],
+      "successCriteria": [
+        "Strokes a toy gently",
+        "Says kind or gentle"
+      ],
+      "previousKnowledge": "Children know that plants and animals are alive and need food, water and care.",
+      "vocabulary": [
+        "water",
+        "feed",
+        "kind",
+        "gentle",
+        "care",
+        "pet"
+      ],
+      "resources": [
+        "Soft toy animals",
+        "Pictures of kind and unkind actions",
+        "A basket"
+      ],
+      "starter": "Stroke a soft toy slowly and say \"Gentle hands. Be kind.\"",
+      "teacherActivities": [
+        "Show kind actions: stroke, feed, speak softly.",
+        "Show pictures and ask \"Is it kind?\"",
+        "Practise holding a toy with two hands.",
+        "Say \"We are kind to animals\" together."
+      ],
+      "learnerActivities": [
+        "Children copy with a toy.",
+        "Child says yes or no.",
+        "Child holds the toy gently.",
+        "Children say the sentence."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show kind actions: stroke, feed, speak softly. Children: Children copy with a toy.",
+        "Step 2. Teacher: Show pictures and ask \"Is it kind?\" Children: Child says yes or no.",
+        "Step 3. Teacher: Practise holding a toy with two hands. Children: Child holds the toy gently.",
+        "Step 4. Teacher: Say \"We are kind to animals\" together. Children: Children say the sentence."
+      ],
+      "practical": {
+        "title": "Gentle hands",
+        "steps": [
+          "Give each child a soft toy.",
+          "Stroke and hold it gently.",
+          "Say \"kind\"."
+        ],
+        "safety": "Use soft toys and remind children never to pull tails or ears. Supervise sharing."
+      },
+      "differentiation": {
+        "support": "Stroke the toy together with a gentle hand.",
+        "extension": "Ask the child to teach a friend how to be gentle."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is it kind to pull a tail?",
+            "expected": "No."
+          },
+          {
+            "question": "How do we touch animals?",
+            "expected": "Gently."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Handles toy animals gently",
+        "Says kind and gentle"
+      ],
+      "conclusion": "Put the toys away and say \"We are kind.\"",
+      "homeConnection": "Show gentle hands with pets or toys at home.",
+      "teacherReflection": [
+        "Which children could show \"show kind and gentle handling of animals\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "KIND",
+          "GENTLE"
+        ],
+        "pictures": [
+          "A child stroking a toy",
+          "Gentle hands"
+        ]
+      },
+      "activities": [
+        "Gentle hands"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W09-D04",
+      "title": "Our caring chart",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 9,
+      "day": 4,
+      "durationMin": 20,
+      "topic": "Caring",
+      "subtopic": "Watering plants",
+      "dayType": "practise",
+      "objectives": [
+        "Children will use a caring chart for the class plants and toy pet."
+      ],
+      "successCriteria": [
+        "Does a caring job",
+        "Marks the chart"
+      ],
+      "previousKnowledge": "Children know that plants and animals are alive and need food, water and care.",
+      "vocabulary": [
+        "water",
+        "feed",
+        "kind",
+        "gentle",
+        "care",
+        "pet"
+      ],
+      "resources": [
+        "A caring chart with jobs: water, feed, tidy",
+        "Stickers",
+        "The class plants"
+      ],
+      "starter": "Show the chart and say \"Every day we care for our plants. Today it is your turn.\"",
+      "teacherActivities": [
+        "Show the chart and say each job.",
+        "Give each child a job for the day.",
+        "Let them do their job.",
+        "Put a sticker on the chart."
+      ],
+      "learnerActivities": [
+        "Children look and say the jobs.",
+        "Child chooses a job.",
+        "Child waters or tidies.",
+        "Child puts a sticker on the chart."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the chart and say each job. Children: Children look and say the jobs.",
+        "Step 2. Teacher: Give each child a job for the day. Children: Child chooses a job.",
+        "Step 3. Teacher: Let them do their job. Children: Child waters or tidies.",
+        "Step 4. Teacher: Put a sticker on the chart. Children: Child puts a sticker on the chart."
+      ],
+      "practical": {
+        "title": "Caring jobs",
+        "steps": [
+          "Choose a job on the chart.",
+          "Do the job.",
+          "Put a sticker on the chart."
+        ],
+        "safety": "Supervise jobs closely and wipe spills. Use child-safe tools only."
+      },
+      "differentiation": {
+        "support": "Do the job together and point to the chart.",
+        "extension": "Ask the child to remind a friend of their job."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is your job today?",
+            "expected": "Water the plants or tidy."
+          },
+          {
+            "question": "Did you do it?",
+            "expected": "Yes, with a smile."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Does a caring job",
+        "Uses a chart with support"
+      ],
+      "conclusion": "Look at the chart and say \"Well done.\"",
+      "homeConnection": "Give your child a small caring job at home.",
+      "teacherReflection": [
+        "Which children could show \"use a caring chart for the class plants and toy pet\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "JOBS",
+          "CARE"
+        ],
+        "pictures": [
+          "A caring chart"
+        ]
+      },
+      "activities": [
+        "Caring jobs"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-TOD-SCI-T2-W09-D05",
+      "title": "Week 9 caring check",
+      "class": "Toddler",
+      "subject": "Science",
+      "term": 2,
+      "week": 9,
+      "day": 5,
+      "durationMin": 20,
+      "topic": "Caring",
+      "subtopic": "Being kind to animals",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child cares for living things."
+      ],
+      "successCriteria": [
+        "Waters a plant with support",
+        "Handles a toy animal gently"
+      ],
+      "previousKnowledge": "Children know that plants and animals are alive and need food, water and care.",
+      "vocabulary": [
+        "water",
+        "feed",
+        "kind",
+        "gentle",
+        "care",
+        "pet"
+      ],
+      "resources": [
+        "Plants",
+        "Toy animals",
+        "Class record sheet"
+      ],
+      "starter": "Sing the caring song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: plants, pets and kind hands.",
+        "At each station ask \"What does it need?\" and watch how the child cares.",
+        "Record each child’s level and take photographs."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Child answers with a word or action.",
+        "Children wash hands and tidy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: plants, pets and kind hands. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: At each station ask \"What does it need?\" and watch how the child cares. Children: Child answers with a word or action.",
+        "Step 3. Teacher: Record each child’s level and take photographs. Children: Children wash hands and tidy."
+      ],
+      "practical": {
+        "title": "Caring stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors dry. Use soft toys only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to tell a friend how to care."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: waters a plant; names what a pet needs; handles toys gently; does a caring job.",
+        "questions": [
+          {
+            "question": "What does a plant need?",
+            "expected": "Water."
+          },
+          {
+            "question": "How do we touch animals?",
+            "expected": "Gently."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Cares for living things gently"
+      ],
+      "conclusion": "Wash hands and wave goodbye.",
+      "homeConnection": "Keep caring for plants and pets at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child cares for living things\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Caring"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Caring stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
