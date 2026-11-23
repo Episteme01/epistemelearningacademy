@@ -1,0 +1,924 @@
+{
+  "id": "ELA-PS-TOD-SOC",
+  "title": "Toddler Social Habits",
+  "class": "Toddler",
+  "subject": "Social Habits",
+  "level": "Early Years",
+  "philosophy": "Social Habits is where ELA’s motto, \"Where Learning Meets Morality\", begins. Toddlers learn to belong: to greet, to share, to say please and thank you, to name how they feel, to tell the truth, to help and to stay safe. These habits are not taught by talking. They are taught by daily routine, by gentle adult modelling, by songs, stories and play, and by warm repetition until kind behaviour becomes natural.",
+  "rationale": "The earliest years set the pattern for how a child relates to others. Toddlers who feel secure, who have words for their feelings and who practise kindness and good manners in small, repeated moments are ready to learn everything else. This programme draws on values families in Ilorin and across Nigeria already hold, such as respect for elders, greeting properly, honesty, sharing food and helping at home, and it makes them visible and practised in the classroom. Teachers should respect the different ways families greet and show respect, and never shame a child.",
+  "aims": [
+    "To help each child feel safe, happy and a valued member of the class.",
+    "To teach simple good manners: greetings, please, thank you and sorry.",
+    "To help children name and manage basic feelings with adult support.",
+    "To practise sharing, taking turns, kindness and helping others.",
+    "To build independence and responsibility in daily routines, toileting, hygiene and tidying.",
+    "To introduce honesty, respect, gratitude and care for others and for belongings.",
+    "To teach simple safety habits at school, at the road and with people."
+  ],
+  "learningOutcomes": [
+    "Separates from a parent with support and joins class routines happily.",
+    "Greets people and says please, thank you and sorry with prompting.",
+    "Names basic feelings (happy, sad, angry, scared) and uses a calming strategy with an adult.",
+    "Shares and takes turns with support.",
+    "Uses the toilet and washes hands with growing independence.",
+    "Follows simple instructions and classroom routines.",
+    "Shows kindness, helps others and says what is true with support.",
+    "Tidies up belongings and shows care for toys and books.",
+    "Follows basic safety rules at school and near roads."
+  ],
+  "developmentalExpectations": [
+    "Toddlers are self-centred by nature; sharing and turn-taking are learnt slowly and need many gentle repetitions.",
+    "Feelings are big and sudden; children need words and an adult nearby, not punishment.",
+    "Behaviour improves through modelling, routine and praise for what is done well.",
+    "Toddlers often cannot yet explain why; they do the right thing because a trusted adult shows and expects it.",
+    "Separation anxiety, toileting accidents and conflict over toys are normal and are handled calmly."
+  ],
+  "keyCompetencies": [
+    "Self-confidence and independence.",
+    "Managing feelings and behaviour.",
+    "Making relationships and cooperating.",
+    "Showing good manners and respect.",
+    "Keeping safe and healthy."
+  ],
+  "strands": [
+    {
+      "id": "SF",
+      "title": "Me and my feelings",
+      "description": "Belonging, naming feelings and calming down."
+    },
+    {
+      "id": "RL",
+      "title": "Relationships and kindness",
+      "description": "Family, friends, sharing, turn-taking and kindness."
+    },
+    {
+      "id": "MN",
+      "title": "Manners and respect",
+      "description": "Greetings, please, thank you, sorry and respect for others."
+    },
+    {
+      "id": "RT",
+      "title": "Routines and responsibility",
+      "description": "Classroom routines, tidying, helping and independence."
+    },
+    {
+      "id": "VL",
+      "title": "Values",
+      "description": "Honesty, gratitude, generosity and caring for others."
+    },
+    {
+      "id": "SH",
+      "title": "Safety and health habits",
+      "description": "Hygiene, toileting, eating well and keeping safe."
+    }
+  ],
+  "priorKnowledge": "None assumed. Children arrive with very different home experiences. Use the first two weeks to learn about each child, their family words for greeting and toileting, and any separation worries.",
+  "yearProgression": [
+    "Term 1 focuses on belonging and basic habits: settling in, greetings, please and thank you, feelings, routines, sharing, kindness, toileting and safety.",
+    "Term 2 focuses on relationships and responsibility: family, friends, listening, saying sorry, helping, honesty, looking after things, eating manners and respect.",
+    "Term 3 focuses on confidence and community: bravery, calming big feelings, teamwork, helpers, road safety, body safety, gratitude, culture and independence."
+  ],
+  "assessmentPrinciples": [
+    "Assessment is by watching and recording behaviour during real routines and play. There are no written tests and no child is ever labelled as naughty.",
+    "Levels Emerging, Developing, Secure and Exceeding follow the lesson success criteria (see ASSESSMENT_FRAMEWORK.md).",
+    "Record what a child does in familiar situations, with a strength, a next step and a home idea for parents.",
+    "Share concerns about a child’s behaviour or wellbeing privately and kindly with parents and the school lead, following the school’s safeguarding policy."
+  ],
+  "inclusion": [
+    "Every lesson has a support and an extension version.",
+    "Expect and welcome different ways of greeting and showing respect from different families and cultures.",
+    "For children who find groups hard, offer a quiet corner and a short, adult-led version of the activity.",
+    "Never force hugging, kissing or touch. Offer a wave, a smile or a high five as a choice.",
+    "Accept home-language words for feelings and manners and repeat them in English."
+  ],
+  "crossCurricular": [
+    "Literacy: stories, songs and rhymes about manners and feelings.",
+    "Numeracy: turn-taking and sharing equally, counting helpers and objects.",
+    "Science: hygiene, caring for living things and keeping the environment clean.",
+    "EYFS mapping: Personal, Social and Emotional Development, with Communication and Language (see STANDARDS_ALIGNMENT.md)."
+  ],
+  "parentConnection": [
+    "Every lesson ends with a short home idea so that manners and routines are practised in the same way at home.",
+    "Parents are invited to share how their family greets and shows respect and to use the same words with their child.",
+    "Teachers and parents agree gentle, consistent expectations and share successes with a short note."
+  ],
+  "scopeAndSequence": [
+    {
+      "term": 1,
+      "week": 1,
+      "weekId": "ELA-PS-TOD-SOC-T1-W01",
+      "topic": "Belonging",
+      "subtopics": [
+        "My name and my friends",
+        "My teacher and my classroom",
+        "Saying goodbye and hello again"
+      ],
+      "objectives": [
+        "Children will say or show their name and recognise their teacher.",
+        "Children will separate from a parent with support and return happily."
+      ],
+      "vocabulary": [
+        "name",
+        "teacher",
+        "friend",
+        "school",
+        "class",
+        "goodbye"
+      ],
+      "expectedOutcomes": [
+        "Responds to their name.",
+        "Settles in the classroom with adult support."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 2,
+      "weekId": "ELA-PS-TOD-SOC-T1-W02",
+      "topic": "Greetings",
+      "subtopics": [
+        "Saying good morning",
+        "Greeting my teacher and friends",
+        "Saying goodbye and waving"
+      ],
+      "objectives": [
+        "Children will greet people with words or a wave.",
+        "Children will say goodbye politely."
+      ],
+      "vocabulary": [
+        "hello",
+        "good morning",
+        "goodbye",
+        "wave",
+        "smile",
+        "friend"
+      ],
+      "expectedOutcomes": [
+        "Greets the teacher with a word or gesture.",
+        "Waves goodbye."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 3,
+      "weekId": "ELA-PS-TOD-SOC-T1-W03",
+      "topic": "Good manners",
+      "subtopics": [
+        "Saying please",
+        "Saying thank you",
+        "Polite asking and taking"
+      ],
+      "objectives": [
+        "Children will say please when asking for something.",
+        "Children will say thank you when they receive something."
+      ],
+      "vocabulary": [
+        "please",
+        "thank you",
+        "give",
+        "take",
+        "ask",
+        "kind"
+      ],
+      "expectedOutcomes": [
+        "Says please with a prompt.",
+        "Says thank you with a prompt."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 4,
+      "weekId": "ELA-PS-TOD-SOC-T1-W04",
+      "topic": "Feelings",
+      "subtopics": [
+        "Happy and sad",
+        "Angry and scared",
+        "Showing feelings with faces"
+      ],
+      "objectives": [
+        "Children will name happy, sad, angry and scared.",
+        "Children will show feelings with their faces and bodies."
+      ],
+      "vocabulary": [
+        "happy",
+        "sad",
+        "angry",
+        "scared",
+        "face",
+        "feel"
+      ],
+      "expectedOutcomes": [
+        "Names two or more feelings.",
+        "Shows a feeling with the face."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 5,
+      "weekId": "ELA-PS-TOD-SOC-T1-W05",
+      "topic": "Routines",
+      "subtopics": [
+        "Circle time and listening",
+        "Lining up and walking",
+        "Tidy-up time"
+      ],
+      "objectives": [
+        "Children will follow simple classroom routines.",
+        "Children will help to tidy up when asked."
+      ],
+      "vocabulary": [
+        "line",
+        "sit",
+        "listen",
+        "tidy",
+        "circle",
+        "walk"
+      ],
+      "expectedOutcomes": [
+        "Sits in the circle and joins a line with support.",
+        "Helps to tidy toys."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 6,
+      "weekId": "ELA-PS-TOD-SOC-T1-W06",
+      "topic": "Sharing",
+      "subtopics": [
+        "Sharing toys",
+        "Taking turns",
+        "Waiting for my turn"
+      ],
+      "objectives": [
+        "Children will share a toy with a friend with support.",
+        "Children will take turns in a simple game."
+      ],
+      "vocabulary": [
+        "share",
+        "turn",
+        "wait",
+        "my turn",
+        "your turn",
+        "toy"
+      ],
+      "expectedOutcomes": [
+        "Shares a toy with adult support.",
+        "Waits for a turn for a short time."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 7,
+      "weekId": "ELA-PS-TOD-SOC-T1-W07",
+      "topic": "Kindness",
+      "subtopics": [
+        "Kind hands",
+        "Kind words",
+        "Helping a friend"
+      ],
+      "objectives": [
+        "Children will use gentle hands with friends and toys.",
+        "Children will say a kind word or help a friend."
+      ],
+      "vocabulary": [
+        "kind",
+        "gentle",
+        "help",
+        "hug",
+        "nice",
+        "friend"
+      ],
+      "expectedOutcomes": [
+        "Uses gentle hands with a friend.",
+        "Says or does a kind thing with support."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 8,
+      "weekId": "ELA-PS-TOD-SOC-T1-W08",
+      "topic": "Health habits",
+      "subtopics": [
+        "Telling the teacher I need the toilet",
+        "Washing my hands",
+        "Wiping and flushing with help"
+      ],
+      "objectives": [
+        "Children will tell an adult when they need the toilet.",
+        "Children will wash their hands after using the toilet."
+      ],
+      "vocabulary": [
+        "toilet",
+        "wash",
+        "soap",
+        "flush",
+        "clean",
+        "towel"
+      ],
+      "expectedOutcomes": [
+        "Tells an adult they need the toilet with a word or sign.",
+        "Washes hands with support."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 9,
+      "weekId": "ELA-PS-TOD-SOC-T1-W09",
+      "topic": "Safety",
+      "subtopics": [
+        "Staying with my teacher",
+        "Hot, sharp and dirty things",
+        "Safe play"
+      ],
+      "objectives": [
+        "Children will stay with their group and an adult.",
+        "Children will say stop or hot for dangerous things."
+      ],
+      "vocabulary": [
+        "safe",
+        "stop",
+        "hot",
+        "danger",
+        "together",
+        "walk"
+      ],
+      "expectedOutcomes": [
+        "Stays with the teacher in the compound.",
+        "Stops when told \"stop\"."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 10,
+      "weekId": "ELA-PS-TOD-SOC-T1-W10",
+      "topic": "Revision and assessment",
+      "subtopics": [
+        "Revising greetings and manners",
+        "Revising feelings and routines",
+        "Revising sharing and safety"
+      ],
+      "objectives": [
+        "Children will show Term 1 learning through play stations.",
+        "Teachers will gather evidence for every child’s Term 1 record."
+      ],
+      "vocabulary": [
+        "hello",
+        "please",
+        "thank you",
+        "share",
+        "happy",
+        "safe"
+      ],
+      "expectedOutcomes": [
+        "Completes familiar routines with growing confidence.",
+        "Each child has an observation record for Term 1."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 1,
+      "weekId": "ELA-PS-TOD-SOC-T2-W01",
+      "topic": "Family",
+      "subtopics": [
+        "Who is in my family",
+        "What my family does for me",
+        "Showing love to my family"
+      ],
+      "objectives": [
+        "Children will name people in their family.",
+        "Children will say one way they show love to their family."
+      ],
+      "vocabulary": [
+        "mother",
+        "father",
+        "baby",
+        "grandma",
+        "family",
+        "love"
+      ],
+      "expectedOutcomes": [
+        "Names at least two family members.",
+        "Shows or says love to a family member."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 2,
+      "weekId": "ELA-PS-TOD-SOC-T2-W02",
+      "topic": "Friends",
+      "subtopics": [
+        "Playing with friends",
+        "Being a good friend",
+        "Making friends"
+      ],
+      "objectives": [
+        "Children will play beside and with friends.",
+        "Children will say what a good friend does."
+      ],
+      "vocabulary": [
+        "friend",
+        "play",
+        "together",
+        "kind",
+        "share",
+        "help"
+      ],
+      "expectedOutcomes": [
+        "Plays with a friend for a short time.",
+        "Says one thing a good friend does."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 3,
+      "weekId": "ELA-PS-TOD-SOC-T2-W03",
+      "topic": "Listening",
+      "subtopics": [
+        "Listening ears",
+        "Following one instruction",
+        "Following two instructions"
+      ],
+      "objectives": [
+        "Children will stop and listen when an adult speaks.",
+        "Children will follow simple one-step and two-step instructions."
+      ],
+      "vocabulary": [
+        "listen",
+        "ears",
+        "look",
+        "do",
+        "stop",
+        "quiet"
+      ],
+      "expectedOutcomes": [
+        "Stops and looks at the teacher when called.",
+        "Follows a one-step instruction."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 4,
+      "weekId": "ELA-PS-TOD-SOC-T2-W04",
+      "topic": "Good manners",
+      "subtopics": [
+        "Saying sorry",
+        "Saying \"it is okay\"",
+        "Making things better"
+      ],
+      "objectives": [
+        "Children will say sorry when they have hurt someone, with support.",
+        "Children will say \"it is okay\" and help to make things better."
+      ],
+      "vocabulary": [
+        "sorry",
+        "hurt",
+        "okay",
+        "forgive",
+        "help",
+        "kind"
+      ],
+      "expectedOutcomes": [
+        "Says sorry with a prompt.",
+        "Helps a friend who is upset."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 5,
+      "weekId": "ELA-PS-TOD-SOC-T2-W05",
+      "topic": "Responsibility",
+      "subtopics": [
+        "Helping my teacher",
+        "Helping at home",
+        "Our class helpers"
+      ],
+      "objectives": [
+        "Children will do small helping jobs.",
+        "Children will say how they helped."
+      ],
+      "vocabulary": [
+        "help",
+        "job",
+        "carry",
+        "clean",
+        "tidy",
+        "helper"
+      ],
+      "expectedOutcomes": [
+        "Does a small job with support.",
+        "Says \"I helped\"."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 6,
+      "weekId": "ELA-PS-TOD-SOC-T2-W06",
+      "topic": "Honesty",
+      "subtopics": [
+        "What is true",
+        "Telling the truth when something goes wrong",
+        "Being brave to say the truth"
+      ],
+      "objectives": [
+        "Children will say what is true about simple pictures and events.",
+        "Children will tell an adult the truth about a small accident with support."
+      ],
+      "vocabulary": [
+        "true",
+        "truth",
+        "honest",
+        "oops",
+        "brave",
+        "tell"
+      ],
+      "expectedOutcomes": [
+        "Says what is true about a simple event.",
+        "Tells an adult about a spill or mistake."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 7,
+      "weekId": "ELA-PS-TOD-SOC-T2-W07",
+      "topic": "Responsibility",
+      "subtopics": [
+        "My bag and my things",
+        "Caring for toys and books",
+        "Putting things back"
+      ],
+      "objectives": [
+        "Children will care for toys, books and their own belongings.",
+        "Children will put things back in the right place."
+      ],
+      "vocabulary": [
+        "bag",
+        "book",
+        "toy",
+        "gentle",
+        "back",
+        "place"
+      ],
+      "expectedOutcomes": [
+        "Puts a toy back where it belongs.",
+        "Handles a book gently."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 8,
+      "weekId": "ELA-PS-TOD-SOC-T2-W08",
+      "topic": "Good manners",
+      "subtopics": [
+        "Washing hands before eating",
+        "Sitting and eating nicely",
+        "Not wasting food"
+      ],
+      "objectives": [
+        "Children will wash hands before eating and sit to eat.",
+        "Children will say please and thank you at mealtimes."
+      ],
+      "vocabulary": [
+        "eat",
+        "plate",
+        "cup",
+        "wash",
+        "sit",
+        "thank you"
+      ],
+      "expectedOutcomes": [
+        "Washes hands before eating with support.",
+        "Sits to eat and says thank you."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 9,
+      "weekId": "ELA-PS-TOD-SOC-T2-W09",
+      "topic": "Respect",
+      "subtopics": [
+        "Respecting elders and teachers",
+        "Respecting helpers",
+        "Respecting different people"
+      ],
+      "objectives": [
+        "Children will greet and speak kindly to elders and helpers.",
+        "Children will accept that people are different and treat them kindly."
+      ],
+      "vocabulary": [
+        "respect",
+        "elder",
+        "helper",
+        "different",
+        "kind",
+        "greet"
+      ],
+      "expectedOutcomes": [
+        "Greets an elder or helper in a family-appropriate way.",
+        "Uses kind words with a child who looks different."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 10,
+      "weekId": "ELA-PS-TOD-SOC-T2-W10",
+      "topic": "Revision and assessment",
+      "subtopics": [
+        "Revising family and friends",
+        "Revising manners and honesty",
+        "Revising helping and respect"
+      ],
+      "objectives": [
+        "Children will show Term 2 learning through play stations.",
+        "Teachers will gather evidence for every child’s Term 2 record."
+      ],
+      "vocabulary": [
+        "family",
+        "friend",
+        "sorry",
+        "truth",
+        "help",
+        "respect"
+      ],
+      "expectedOutcomes": [
+        "Completes familiar social tasks with growing independence.",
+        "Each child has an observation record for Term 2."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 1,
+      "weekId": "ELA-PS-TOD-SOC-T3-W01",
+      "topic": "Confidence",
+      "subtopics": [
+        "Trying something new",
+        "Saying \"I can try\"",
+        "Keeping going"
+      ],
+      "objectives": [
+        "Children will try a new activity with encouragement.",
+        "Children will say \"I can try\" and keep going for a short time."
+      ],
+      "vocabulary": [
+        "try",
+        "brave",
+        "new",
+        "again",
+        "can",
+        "proud"
+      ],
+      "expectedOutcomes": [
+        "Tries a new activity with encouragement.",
+        "Says \"I can try\" with a prompt."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 2,
+      "weekId": "ELA-PS-TOD-SOC-T3-W02",
+      "topic": "Feelings",
+      "subtopics": [
+        "Big feelings in my body",
+        "Breathing and calming",
+        "Asking for help"
+      ],
+      "objectives": [
+        "Children will notice big feelings in their bodies.",
+        "Children will use slow breathing or a calm place with an adult."
+      ],
+      "vocabulary": [
+        "calm",
+        "breathe",
+        "cross",
+        "upset",
+        "help",
+        "quiet"
+      ],
+      "expectedOutcomes": [
+        "Uses a calming strategy with adult support.",
+        "Asks an adult for help when upset."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 3,
+      "weekId": "ELA-PS-TOD-SOC-T3-W03",
+      "topic": "Cooperation",
+      "subtopics": [
+        "Building together",
+        "Carrying together",
+        "Group games"
+      ],
+      "objectives": [
+        "Children will work with a friend or a small group on a simple task.",
+        "Children will say \"we did it\"."
+      ],
+      "vocabulary": [
+        "together",
+        "team",
+        "build",
+        "carry",
+        "help",
+        "we"
+      ],
+      "expectedOutcomes": [
+        "Works with a friend on a simple task.",
+        "Joins a group game."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 4,
+      "weekId": "ELA-PS-TOD-SOC-T3-W04",
+      "topic": "Community",
+      "subtopics": [
+        "Teachers and nurses",
+        "Drivers, farmers and market sellers",
+        "Thanking helpers"
+      ],
+      "objectives": [
+        "Children will name community helpers and what they do.",
+        "Children will thank a helper."
+      ],
+      "vocabulary": [
+        "nurse",
+        "teacher",
+        "driver",
+        "farmer",
+        "helper",
+        "thank you"
+      ],
+      "expectedOutcomes": [
+        "Names two or more community helpers.",
+        "Says thank you to a helper."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 5,
+      "weekId": "ELA-PS-TOD-SOC-T3-W05",
+      "topic": "Safety",
+      "subtopics": [
+        "Holding hands near roads",
+        "Stop, look and listen",
+        "Safe walking"
+      ],
+      "objectives": [
+        "Children will hold an adult’s hand near roads.",
+        "Children will stop at a pretend kerb and look and listen."
+      ],
+      "vocabulary": [
+        "road",
+        "car",
+        "stop",
+        "look",
+        "listen",
+        "hand"
+      ],
+      "expectedOutcomes": [
+        "Holds an adult’s hand to walk.",
+        "Stops at a pretend kerb on request."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 6,
+      "weekId": "ELA-PS-TOD-SOC-T3-W06",
+      "topic": "Safety",
+      "subtopics": [
+        "My body is mine",
+        "Saying no and telling a trusted adult",
+        "My safe grown-ups"
+      ],
+      "objectives": [
+        "Children will say \"my body is mine\" and say \"stop\" to touch they do not like.",
+        "Children will name trusted adults they can tell."
+      ],
+      "vocabulary": [
+        "body",
+        "mine",
+        "stop",
+        "no",
+        "tell",
+        "safe"
+      ],
+      "expectedOutcomes": [
+        "Says stop to touch they do not like.",
+        "Names a trusted adult."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 7,
+      "weekId": "ELA-PS-TOD-SOC-T3-W07",
+      "topic": "Values",
+      "subtopics": [
+        "Saying thank you for gifts and help",
+        "Giving to others",
+        "Sharing food and toys"
+      ],
+      "objectives": [
+        "Children will say thank you and say what they are thankful for.",
+        "Children will give or share with others."
+      ],
+      "vocabulary": [
+        "thank you",
+        "give",
+        "gift",
+        "thankful",
+        "share",
+        "kind"
+      ],
+      "expectedOutcomes": [
+        "Says what they are thankful for.",
+        "Gives or shares an item with a friend."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 8,
+      "weekId": "ELA-PS-TOD-SOC-T3-W08",
+      "topic": "Community",
+      "subtopics": [
+        "Our clothes and food",
+        "Songs and dances",
+        "Festivals and special days"
+      ],
+      "objectives": [
+        "Children will enjoy and name familiar cultural clothes, foods, songs and dances.",
+        "Children will say that families celebrate in different ways."
+      ],
+      "vocabulary": [
+        "dance",
+        "song",
+        "food",
+        "clothes",
+        "party",
+        "celebrate"
+      ],
+      "expectedOutcomes": [
+        "Joins in a song or dance.",
+        "Names a food or clothing from home."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 9,
+      "weekId": "ELA-PS-TOD-SOC-T3-W09",
+      "topic": "Independence",
+      "subtopics": [
+        "Putting on shoes and bag",
+        "Washing and drying hands",
+        "Packing away and helping"
+      ],
+      "objectives": [
+        "Children will do simple self-help tasks with less help.",
+        "Children will say \"I can do it\"."
+      ],
+      "vocabulary": [
+        "shoes",
+        "bag",
+        "myself",
+        "dress",
+        "help",
+        "proud"
+      ],
+      "expectedOutcomes": [
+        "Does one self-help task with little support.",
+        "Says \"I can do it\"."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 10,
+      "weekId": "ELA-PS-TOD-SOC-T3-W10",
+      "topic": "Revision and assessment",
+      "subtopics": [
+        "Revising feelings and bravery",
+        "Revising safety and helping",
+        "Celebration and end-of-year record"
+      ],
+      "objectives": [
+        "Children will show Year learning through games and a class celebration.",
+        "Teachers will complete every child’s end-of-year record and transition note."
+      ],
+      "vocabulary": [
+        "brave",
+        "calm",
+        "team",
+        "helper",
+        "safe",
+        "thank you"
+      ],
+      "expectedOutcomes": [
+        "Takes part confidently in familiar routines and games.",
+        "Each child has an end-of-year observation record."
+      ]
+    }
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft"
+}
