@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-N1-NUM-T2-W06",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 6,
+  "title": "Joining groups",
+  "topic": "Adding",
+  "subtopics": [
+    "Putting two groups together",
+    "Counting all",
+    "Joining stories"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will join two small groups and count all.",
+    "Children will tell a simple joining story."
+  ],
+  "vocabulary": [
+    "join",
+    "together",
+    "altogether",
+    "add",
+    "plus",
+    "total"
+  ],
+  "content": "Putting two groups together, counting all, and joining stories.",
+  "teachingActivities": "Use real objects and stories first; model \"two and three make five\" in words; let children push two groups together and count all; do not introduce the plus sign until children are secure with the idea; keep totals to 5 at first and to 10 for confident children.",
+  "learnerActivities": "Join two small groups and count all, and tell a simple joining story.",
+  "resources": [
+    "Counters",
+    "Toy animals and a farm",
+    "Two baskets",
+    "Fruit pictures",
+    "A puppet"
+  ],
+  "assessment": "Observe whether each child joins two groups and counts all correctly to 5.",
+  "expectedOutcomes": [
+    "Joins two groups and counts all to 5.",
+    "Tells a joining story with objects."
+  ],
+  "crossCurricular": [
+    "Literacy: story words",
+    "Social Habits: working with a partner",
+    "Science: counting animals and plants"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T2-W06-D01",
+      "title": "Putting groups together",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 6,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Adding",
+      "subtopic": "Putting two groups together",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will put two small groups together and count all."
+      ],
+      "successCriteria": [
+        "Joins two groups",
+        "Counts all the objects"
+      ],
+      "previousKnowledge": "Children can make five in different ways, count beyond ten and find one more.",
+      "vocabulary": [
+        "join",
+        "together",
+        "altogether",
+        "add",
+        "plus",
+        "total"
+      ],
+      "resources": [
+        "Counters in two colours",
+        "Two plates",
+        "A basket"
+      ],
+      "starter": "Show two on one plate and one on another and say \"Let us put them together and count all.\"",
+      "teacherActivities": [
+        "Push two counters and one counter together and count all.",
+        "Say \"Two and one make three.\"",
+        "Give each child two small groups to join.",
+        "Ask \"How many altogether?\""
+      ],
+      "learnerActivities": [
+        "Children count all the counters.",
+        "Children repeat the sentence.",
+        "Child joins and counts all.",
+        "Child says the number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Push two counters and one counter together and count all. Children: Children count all the counters.",
+        "Step 2. Teacher: Say \"Two and one make three.\" Children: Children repeat the sentence.",
+        "Step 3. Teacher: Give each child two small groups to join. Children: Child joins and counts all.",
+        "Step 4. Teacher: Ask \"How many altogether?\" Children: Child says the number."
+      ],
+      "practical": {
+        "title": "Join and count",
+        "steps": [
+          "Take two groups.",
+          "Push them together.",
+          "Count all the counters."
+        ],
+        "safety": "Use large counters and supervise closely. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Join groups of one and two and count together.",
+        "extension": "Ask the child to join groups to make eight."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many altogether?",
+            "expected": "The total."
+          },
+          {
+            "question": "What did we do?",
+            "expected": "We joined the groups."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Joins two groups",
+        "Counts all the objects"
+      ],
+      "conclusion": "Put the counters away and say altogether.",
+      "homeConnection": "Join two small groups of fruit and count all.",
+      "teacherReflection": [
+        "Which children could show \"put two small groups together and count all\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "JOIN",
+          "ALTOGETHER"
+        ],
+        "pictures": [
+          "Two small groups of counters"
+        ]
+      },
+      "activities": [
+        "Join and count"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W06-D02",
+      "title": "Counting all",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 6,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Adding",
+      "subtopic": "Counting all",
+      "dayType": "explore",
+      "objectives": [
+        "Children will count all the objects after two groups have been joined."
+      ],
+      "successCriteria": [
+        "Counts all after joining",
+        "Says the total"
+      ],
+      "previousKnowledge": "Children can make five in different ways, count beyond ten and find one more.",
+      "vocabulary": [
+        "join",
+        "together",
+        "altogether",
+        "add",
+        "plus",
+        "total"
+      ],
+      "resources": [
+        "Toy animals",
+        "A farm picture",
+        "Number cards"
+      ],
+      "starter": "Put two cows and three sheep in a field and say \"How many animals altogether?\"",
+      "teacherActivities": [
+        "Show two groups of animals and count each group.",
+        "Put the groups together and count all.",
+        "Say \"Two and three make five altogether.\"",
+        "Let children make their own groups to join."
+      ],
+      "learnerActivities": [
+        "Children count each group.",
+        "Children count all the animals.",
+        "Children repeat the sentence.",
+        "Child joins and counts."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show two groups of animals and count each group. Children: Children count each group.",
+        "Step 2. Teacher: Put the groups together and count all. Children: Children count all the animals.",
+        "Step 3. Teacher: Say \"Two and three make five altogether.\" Children: Children repeat the sentence.",
+        "Step 4. Teacher: Let children make their own groups to join. Children: Child joins and counts."
+      ],
+      "practical": {
+        "title": "Farm joining",
+        "steps": [
+          "Put animals in two groups.",
+          "Join the groups in a field.",
+          "Count all."
+        ],
+        "safety": "Use large toy animals and supervise closely so animals are not thrown. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Join groups of one and one then one and two.",
+        "extension": "Ask the child to find three groups to join."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many animals altogether?",
+            "expected": "The total."
+          },
+          {
+            "question": "How many cows?",
+            "expected": "The number of cows."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts all after joining",
+        "Says the total"
+      ],
+      "conclusion": "Put the animals away and say altogether.",
+      "homeConnection": "Join groups of toys and count all.",
+      "teacherReflection": [
+        "Which children could show \"count all the objects after two groups have been joined\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TOTAL",
+          "ALL"
+        ],
+        "pictures": [
+          "Toy animals in a field"
+        ]
+      },
+      "activities": [
+        "Farm joining"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W06-D03",
+      "title": "Joining stories",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 6,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Adding",
+      "subtopic": "Joining stories",
+      "dayType": "practise",
+      "objectives": [
+        "Children will act out and tell short joining stories."
+      ],
+      "successCriteria": [
+        "Acts out a joining story",
+        "Says how many now"
+      ],
+      "previousKnowledge": "Children can make five in different ways, count beyond ten and find one more.",
+      "vocabulary": [
+        "join",
+        "together",
+        "altogether",
+        "add",
+        "plus",
+        "total"
+      ],
+      "resources": [
+        "A puppet",
+        "Counters",
+        "A bus made of chairs"
+      ],
+      "starter": "Tell a story: \"Two children are at the gate. Two more come. How many children now?\"",
+      "teacherActivities": [
+        "Act out the story with toys or children.",
+        "Ask \"How many now?\"",
+        "Tell a new story and let children act it.",
+        "Let a child tell a story for a friend to solve."
+      ],
+      "learnerActivities": [
+        "Children watch and count.",
+        "Child says the number.",
+        "Child acts out the story.",
+        "Child tells a story."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Act out the story with toys or children. Children: Children watch and count.",
+        "Step 2. Teacher: Ask \"How many now?\" Children: Child says the number.",
+        "Step 3. Teacher: Tell a new story and let children act it. Children: Child acts out the story.",
+        "Step 4. Teacher: Let a child tell a story for a friend to solve. Children: Child tells a story."
+      ],
+      "practical": {
+        "title": "Story acting",
+        "steps": [
+          "Listen to a story.",
+          "Act it out with objects.",
+          "Say how many now."
+        ],
+        "safety": "Use large safe objects and keep children seated on chairs for bus stories. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Act the story with one to three objects.",
+        "extension": "Ask the child to tell a story with totals to ten."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many now?",
+            "expected": "The total."
+          },
+          {
+            "question": "Did we join or take away?",
+            "expected": "Join."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Acts out a joining story",
+        "Says how many now"
+      ],
+      "conclusion": "Tidy the props and say well done.",
+      "homeConnection": "Tell a story about adding at bedtime.",
+      "teacherReflection": [
+        "Which children could show \"act out and tell short joining stories\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "STORY",
+          "NOW"
+        ],
+        "pictures": [
+          "Children at a gate"
+        ]
+      },
+      "activities": [
+        "Story acting"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W06-D04",
+      "title": "Making our own stories",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 6,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Adding",
+      "subtopic": "Joining stories",
+      "dayType": "apply",
+      "objectives": [
+        "Children will make up their own joining stories with toys."
+      ],
+      "successCriteria": [
+        "Makes up a joining story",
+        "Solves a friend’s story"
+      ],
+      "previousKnowledge": "Children can make five in different ways, count beyond ten and find one more.",
+      "vocabulary": [
+        "join",
+        "together",
+        "altogether",
+        "add",
+        "plus",
+        "total"
+      ],
+      "resources": [
+        "Toys and counters",
+        "Story cards with pictures",
+        "A bag"
+      ],
+      "starter": "Say \"Today you are story makers. Choose some toys and tell a joining story.\"",
+      "teacherActivities": [
+        "Show a story card and tell the story together.",
+        "Let each pair choose toys and make a story.",
+        "Let pairs tell their story to the class.",
+        "Ask the class \"How many altogether?\""
+      ],
+      "learnerActivities": [
+        "Children listen and count.",
+        "Pairs make a story.",
+        "Child tells the story.",
+        "Class says the number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a story card and tell the story together. Children: Children listen and count.",
+        "Step 2. Teacher: Let each pair choose toys and make a story. Children: Pairs make a story.",
+        "Step 3. Teacher: Let pairs tell their story to the class. Children: Child tells the story.",
+        "Step 4. Teacher: Ask the class \"How many altogether?\" Children: Class says the number."
+      ],
+      "practical": {
+        "title": "Story makers",
+        "steps": [
+          "Choose some toys.",
+          "Make a joining story.",
+          "Tell it to a friend."
+        ],
+        "safety": "Use large toys only and supervise sharing. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Make a story together with one or two toys.",
+        "extension": "Ask the child to write the story with a drawing."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is your story?",
+            "expected": "A joining story."
+          },
+          {
+            "question": "How many altogether?",
+            "expected": "The total."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes up a joining story",
+        "Solves a friend’s story"
+      ],
+      "conclusion": "Put the toys away and say well done.",
+      "homeConnection": "Make up a joining story with your child.",
+      "teacherReflection": [
+        "Which children could show \"make up their own joining stories with toys\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MAKE",
+          "STORY"
+        ],
+        "pictures": [
+          "Toys and story cards"
+        ]
+      },
+      "activities": [
+        "Story makers"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W06-D05",
+      "title": "Week 6 joining check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 6,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Adding",
+      "subtopic": "Counting all",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child joins groups and counts all."
+      ],
+      "successCriteria": [
+        "Joins two groups and counts all",
+        "Tells a joining story"
+      ],
+      "previousKnowledge": "Children can make five in different ways, count beyond ten and find one more.",
+      "vocabulary": [
+        "join",
+        "together",
+        "altogether",
+        "add",
+        "plus",
+        "total"
+      ],
+      "resources": [
+        "Counters",
+        "Toy animals",
+        "Class record sheet"
+      ],
+      "starter": "Sing the counting song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: counters, farm and story.",
+        "At each station ask \"How many altogether?\"",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child joins and answers.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: counters, farm and story. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"How many altogether?\" Children: Child joins and answers.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Joining stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use large objects. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use totals to three.",
+        "extension": "Ask a confident child to join groups to make ten."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: joins two groups; counts all; acts a joining story; says the total.",
+        "questions": [
+          {
+            "question": "What is two and three?",
+            "expected": "Five."
+          },
+          {
+            "question": "How many altogether?",
+            "expected": "The total."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Joins groups with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep joining groups at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child joins groups and counts all\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Joining"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Joining stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

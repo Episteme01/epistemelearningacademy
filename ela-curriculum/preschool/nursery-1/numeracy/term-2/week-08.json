@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-N1-NUM-T2-W08",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 8,
+  "title": "Rectangles and ovals",
+  "topic": "Shape",
+  "subtopics": [
+    "Rectangles",
+    "Ovals",
+    "Shape sorting"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will name rectangle and oval.",
+    "Children will sort shapes by name."
+  ],
+  "vocabulary": [
+    "rectangle",
+    "oval",
+    "long",
+    "round",
+    "side",
+    "corner"
+  ],
+  "content": "Rectangles, ovals, and shape sorting.",
+  "teachingActivities": "Compare a rectangle with a square (two long and two short sides) and an oval with a circle (an egg shape); use real objects such as books, doors, eggs and mirrors; trace shapes with fingers; sort and name all five shapes.",
+  "learnerActivities": "Name rectangle and oval and sort shapes by name.",
+  "resources": [
+    "Card shapes: circle, square, triangle, rectangle, oval",
+    "Books, doors and plates",
+    "Eggs (pictures)",
+    "A feely bag",
+    "Sorting hoops"
+  ],
+  "assessment": "Observe whether each child names rectangle and oval and sorts five shapes by name.",
+  "expectedOutcomes": [
+    "Names rectangle and oval.",
+    "Sorts five shapes by name."
+  ],
+  "crossCurricular": [
+    "Creative Development: shape pictures",
+    "Science: shapes in nature",
+    "Literacy: shape words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T2-W08-D01",
+      "title": "Rectangles",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 8,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Shape",
+      "subtopic": "Rectangles",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name a rectangle and say it has two long and two short sides."
+      ],
+      "successCriteria": [
+        "Names a rectangle",
+        "Counts four sides and four corners"
+      ],
+      "previousKnowledge": "Children can name circle, square and triangle and count and join groups.",
+      "vocabulary": [
+        "rectangle",
+        "oval",
+        "long",
+        "round",
+        "side",
+        "corner"
+      ],
+      "resources": [
+        "Card rectangles",
+        "A book",
+        "A door picture",
+        "A square card"
+      ],
+      "starter": "Hold up a book and say \"This book is a rectangle. It has two long sides and two short sides.\"",
+      "teacherActivities": [
+        "Show a rectangle and trace its sides.",
+        "Count four sides and four corners.",
+        "Compare a rectangle with a square.",
+        "Find rectangles in the room."
+      ],
+      "learnerActivities": [
+        "Children trace the shape.",
+        "Children count with the teacher.",
+        "Child points to the long sides.",
+        "Child finds a rectangle."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a rectangle and trace its sides. Children: Children trace the shape.",
+        "Step 2. Teacher: Count four sides and four corners. Children: Children count with the teacher.",
+        "Step 3. Teacher: Compare a rectangle with a square. Children: Child points to the long sides.",
+        "Step 4. Teacher: Find rectangles in the room. Children: Child finds a rectangle."
+      ],
+      "practical": {
+        "title": "Find rectangles",
+        "steps": [
+          "Look at the shape.",
+          "Trace the sides.",
+          "Find one in the room."
+        ],
+        "safety": "Use smooth card shapes and supervise the walk. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Compare a rectangle and a square side by side.",
+        "extension": "Ask the child to make a rectangle with straws."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What shape is the book?",
+            "expected": "A rectangle."
+          },
+          {
+            "question": "How many long sides?",
+            "expected": "Two."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names a rectangle",
+        "Says it has four sides"
+      ],
+      "conclusion": "Put the shapes away and say rectangle.",
+      "homeConnection": "Find rectangles at home such as doors and books.",
+      "teacherReflection": [
+        "Which children could show \"name a rectangle and say it has two long and two short sides\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RECTANGLE",
+          "SIDES"
+        ],
+        "pictures": [
+          "A book as a rectangle"
+        ]
+      },
+      "activities": [
+        "Find rectangles"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W08-D02",
+      "title": "Ovals",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 8,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Shape",
+      "subtopic": "Ovals",
+      "dayType": "explore",
+      "objectives": [
+        "Children will name an oval and say that it is like a stretched circle."
+      ],
+      "successCriteria": [
+        "Names an oval",
+        "Says an oval has no corners"
+      ],
+      "previousKnowledge": "Children can name circle, square and triangle and count and join groups.",
+      "vocabulary": [
+        "rectangle",
+        "oval",
+        "long",
+        "round",
+        "side",
+        "corner"
+      ],
+      "resources": [
+        "Card ovals",
+        "A mirror",
+        "Egg pictures",
+        "A circle card"
+      ],
+      "starter": "Show a picture of an egg and say \"An egg is an oval. It is like a stretched circle.\"",
+      "teacherActivities": [
+        "Show an oval and trace its edge.",
+        "Say \"An oval has no corners.\"",
+        "Compare an oval with a circle.",
+        "Find ovals in pictures."
+      ],
+      "learnerActivities": [
+        "Children trace the shape.",
+        "Children touch the edge.",
+        "Child says which is longer.",
+        "Child finds an oval."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show an oval and trace its edge. Children: Children trace the shape.",
+        "Step 2. Teacher: Say \"An oval has no corners.\" Children: Children touch the edge.",
+        "Step 3. Teacher: Compare an oval with a circle. Children: Child says which is longer.",
+        "Step 4. Teacher: Find ovals in pictures. Children: Child finds an oval."
+      ],
+      "practical": {
+        "title": "Find ovals",
+        "steps": [
+          "Look at the shape.",
+          "Trace the edge.",
+          "Find an oval in a picture."
+        ],
+        "safety": "Use smooth card shapes and an unbreakable mirror. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Compare an oval and a circle side by side.",
+        "extension": "Ask the child to draw an oval in the sand."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What shape is an egg?",
+            "expected": "An oval."
+          },
+          {
+            "question": "Has an oval got corners?",
+            "expected": "No."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names an oval",
+        "Says an oval has no corners"
+      ],
+      "conclusion": "Put the shapes away and say oval.",
+      "homeConnection": "Look for ovals such as eggs and mirrors at home.",
+      "teacherReflection": [
+        "Which children could show \"name an oval and say that it is like a stretched circle\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "OVAL",
+          "EGG"
+        ],
+        "pictures": [
+          "An egg as an oval"
+        ]
+      },
+      "activities": [
+        "Find ovals"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W08-D03",
+      "title": "Sorting five shapes",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 8,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Shape",
+      "subtopic": "Shape sorting",
+      "dayType": "practise",
+      "objectives": [
+        "Children will sort shapes into groups by name."
+      ],
+      "successCriteria": [
+        "Sorts shapes by name",
+        "Names each shape"
+      ],
+      "previousKnowledge": "Children can name circle, square and triangle and count and join groups.",
+      "vocabulary": [
+        "rectangle",
+        "oval",
+        "long",
+        "round",
+        "side",
+        "corner"
+      ],
+      "resources": [
+        "Card shapes in five kinds",
+        "Sorting hoops",
+        "A feely bag"
+      ],
+      "starter": "Show a mixed pile of shapes and say \"Let us sort them into groups.\"",
+      "teacherActivities": [
+        "Sort a few shapes and name each group.",
+        "Let each child take a shape from the bag and name it.",
+        "Put each shape in the correct hoop.",
+        "Count each group."
+      ],
+      "learnerActivities": [
+        "Children say the shape names.",
+        "Child names the shape.",
+        "Child sorts the shape.",
+        "Children count the shapes."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sort a few shapes and name each group. Children: Children say the shape names.",
+        "Step 2. Teacher: Let each child take a shape from the bag and name it. Children: Child names the shape.",
+        "Step 3. Teacher: Put each shape in the correct hoop. Children: Child sorts the shape.",
+        "Step 4. Teacher: Count each group. Children: Children count the shapes."
+      ],
+      "practical": {
+        "title": "Sort the shapes",
+        "steps": [
+          "Take a shape.",
+          "Name the shape.",
+          "Put it in the right hoop."
+        ],
+        "safety": "Use smooth shapes with no sharp edges and keep them out of mouths. Supervise sorting."
+      },
+      "differentiation": {
+        "support": "Sort three kinds of shapes.",
+        "extension": "Ask the child to sort the shapes by size as well as kind."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What shape is this?",
+            "expected": "The shape name."
+          },
+          {
+            "question": "Which hoop has most?",
+            "expected": "The hoop with most."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts shapes by name",
+        "Names five shapes"
+      ],
+      "conclusion": "Put the shapes away and say their names.",
+      "homeConnection": "Sort shapes cut from paper at home.",
+      "teacherReflection": [
+        "Which children could show \"sort shapes into groups by name\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SORT",
+          "SHAPES"
+        ],
+        "pictures": [
+          "Five kinds of card shapes"
+        ]
+      },
+      "activities": [
+        "Sort the shapes"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W08-D04",
+      "title": "Shape train",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 8,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Shape",
+      "subtopic": "Shape sorting",
+      "dayType": "apply",
+      "objectives": [
+        "Children will make a train from shapes and describe it."
+      ],
+      "successCriteria": [
+        "Makes a train from shapes",
+        "Names the shapes used"
+      ],
+      "previousKnowledge": "Children can name circle, square and triangle and count and join groups.",
+      "vocabulary": [
+        "rectangle",
+        "oval",
+        "long",
+        "round",
+        "side",
+        "corner"
+      ],
+      "resources": [
+        "Rectangles, circles and triangles",
+        "Glue sticks",
+        "Paper",
+        "A sample picture"
+      ],
+      "starter": "Show a train made of rectangles with circle wheels and say \"Today we make a shape train.\"",
+      "teacherActivities": [
+        "Show the sample train and name the shapes.",
+        "Help children choose shapes for the train.",
+        "Stick the shapes on paper.",
+        "Ask \"Which shapes did you use?\""
+      ],
+      "learnerActivities": [
+        "Children name the shapes.",
+        "Child chooses shapes.",
+        "Child sticks the shapes.",
+        "Child names the shapes."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the sample train and name the shapes. Children: Children name the shapes.",
+        "Step 2. Teacher: Help children choose shapes for the train. Children: Child chooses shapes.",
+        "Step 3. Teacher: Stick the shapes on paper. Children: Child sticks the shapes.",
+        "Step 4. Teacher: Ask \"Which shapes did you use?\" Children: Child names the shapes."
+      ],
+      "practical": {
+        "title": "Shape train",
+        "steps": [
+          "Choose shapes.",
+          "Arrange them as a train.",
+          "Stick them down."
+        ],
+        "safety": "Use non-toxic glue sticks and supervise so that no glue goes in mouths. Wash hands afterwards."
+      },
+      "differentiation": {
+        "support": "Arrange the shapes together with the child.",
+        "extension": "Ask the child to count the wheels and windows."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which shapes did you use?",
+            "expected": "Rectangles and circles."
+          },
+          {
+            "question": "How many wheels?",
+            "expected": "The number of wheels."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes a train from shapes",
+        "Names the shapes used"
+      ],
+      "conclusion": "Hang the trains and say well done.",
+      "homeConnection": "Make a shape picture with paper at home.",
+      "teacherReflection": [
+        "Which children could show \"make a train from shapes and describe it\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TRAIN",
+          "SHAPES"
+        ],
+        "pictures": [
+          "A train made of shapes"
+        ]
+      },
+      "activities": [
+        "Shape train"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W08-D05",
+      "title": "Week 8 shapes check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 8,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Shape",
+      "subtopic": "Shape sorting",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child names and sorts five shapes."
+      ],
+      "successCriteria": [
+        "Names rectangle and oval",
+        "Sorts five shapes"
+      ],
+      "previousKnowledge": "Children can name circle, square and triangle and count and join groups.",
+      "vocabulary": [
+        "rectangle",
+        "oval",
+        "long",
+        "round",
+        "side",
+        "corner"
+      ],
+      "resources": [
+        "Shapes",
+        "Hoops",
+        "Class record sheet"
+      ],
+      "starter": "Sing the shape song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: feely bag, sorting and shape train.",
+        "At each station ask \"What shape is this?\"",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child names the shape.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: feely bag, sorting and shape train. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"What shape is this?\" Children: Child names the shape.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Shape stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use smooth shapes only. Keep glue and small items away from mouths."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use three shapes.",
+        "extension": "Ask a confident child to describe the sides and corners."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names rectangle; names oval; sorts five shapes; describes sides and corners.",
+        "questions": [
+          {
+            "question": "What shape is this?",
+            "expected": "The shape name."
+          },
+          {
+            "question": "How many sides has a rectangle?",
+            "expected": "Four."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Names and sorts shapes with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep spotting shapes at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child names and sorts five shapes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Shapes"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Shape stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

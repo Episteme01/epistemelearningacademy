@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-N1-NUM-T2-W07",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 7,
+  "title": "Taking away",
+  "topic": "Subtracting",
+  "subtopics": [
+    "Taking some away",
+    "How many are left",
+    "Taking away stories"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will take objects away from a group and say how many are left.",
+    "Children will tell a simple taking away story."
+  ],
+  "vocabulary": [
+    "take away",
+    "left",
+    "fewer",
+    "gone",
+    "remove",
+    "minus"
+  ],
+  "content": "Taking some away, how many are left, and taking away stories.",
+  "teachingActivities": "Use objects that can really be removed, such as sweets pictures, counters and children leaving a line; say \"five take away two leaves three\"; use stories children enjoy; start with totals to 5 and take one or two away.",
+  "learnerActivities": "Take objects away from a group of up to 5 and say how many are left.",
+  "resources": [
+    "Counters",
+    "Toy ducks",
+    "A pond made from a blue cloth",
+    "A bus of chairs",
+    "Number cards"
+  ],
+  "assessment": "Observe whether each child takes away from a group and says how many are left.",
+  "expectedOutcomes": [
+    "Takes away from a group of up to 5.",
+    "Says how many are left."
+  ],
+  "crossCurricular": [
+    "Literacy: story language",
+    "Social Habits: sharing",
+    "Science: counting animals leaving a pond"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T2-W07-D01",
+      "title": "Taking some away",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 7,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Subtracting",
+      "subtopic": "Taking some away",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will take some objects away from a group."
+      ],
+      "successCriteria": [
+        "Takes objects away",
+        "Says gone"
+      ],
+      "previousKnowledge": "Children can join groups and count all.",
+      "vocabulary": [
+        "take away",
+        "left",
+        "fewer",
+        "gone",
+        "remove",
+        "minus"
+      ],
+      "resources": [
+        "Five counters",
+        "A plate",
+        "A cup"
+      ],
+      "starter": "Show five counters and say \"I will take some away. They are gone.\"",
+      "teacherActivities": [
+        "Put five counters on a plate and take two away.",
+        "Say \"Five take away two.\"",
+        "Let each child take away from their own group.",
+        "Ask \"How many did you take away?\""
+      ],
+      "learnerActivities": [
+        "Children watch what is gone.",
+        "Children repeat the words.",
+        "Child takes away counters.",
+        "Child says the number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put five counters on a plate and take two away. Children: Children watch what is gone.",
+        "Step 2. Teacher: Say \"Five take away two.\" Children: Children repeat the words.",
+        "Step 3. Teacher: Let each child take away from their own group. Children: Child takes away counters.",
+        "Step 4. Teacher: Ask \"How many did you take away?\" Children: Child says the number."
+      ],
+      "practical": {
+        "title": "Take away",
+        "steps": [
+          "Count five counters.",
+          "Take some away.",
+          "Say how many you took."
+        ],
+        "safety": "Use large counters and supervise closely. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Start with three counters and take one away.",
+        "extension": "Ask the child to start with eight and take three away."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many did you take away?",
+            "expected": "The number taken."
+          },
+          {
+            "question": "What do we say?",
+            "expected": "Take away."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Takes objects away from a group",
+        "Says take away"
+      ],
+      "conclusion": "Put the counters away and say take away.",
+      "homeConnection": "Take away spoons from a group and say how many.",
+      "teacherReflection": [
+        "Which children could show \"take some objects away from a group\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TAKE AWAY",
+          "GONE"
+        ],
+        "pictures": [
+          "Counters on a plate"
+        ]
+      },
+      "activities": [
+        "Take away"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W07-D02",
+      "title": "How many are left?",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 7,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Subtracting",
+      "subtopic": "How many are left",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say how many are left after some are taken away."
+      ],
+      "successCriteria": [
+        "Counts what is left",
+        "Says left"
+      ],
+      "previousKnowledge": "Children can join groups and count all.",
+      "vocabulary": [
+        "take away",
+        "left",
+        "fewer",
+        "gone",
+        "remove",
+        "minus"
+      ],
+      "resources": [
+        "Counters",
+        "Toy ducks",
+        "A blue cloth pond"
+      ],
+      "starter": "Put five ducks in the pond, take two out and say \"How many ducks are left?\"",
+      "teacherActivities": [
+        "Take two ducks out of a group of five.",
+        "Say \"Five take away two leaves three.\"",
+        "Try different starting numbers.",
+        "Check by adding back."
+      ],
+      "learnerActivities": [
+        "Children count the ducks left.",
+        "Children repeat the sentence.",
+        "Child counts what is left.",
+        "Child counts all again."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Take two ducks out of a group of five. Children: Children count the ducks left.",
+        "Step 2. Teacher: Say \"Five take away two leaves three.\" Children: Children repeat the sentence.",
+        "Step 3. Teacher: Try different starting numbers. Children: Child counts what is left.",
+        "Step 4. Teacher: Check by adding back. Children: Child counts all again."
+      ],
+      "practical": {
+        "title": "Ducks in the pond",
+        "steps": [
+          "Put ducks in the pond.",
+          "Take some out.",
+          "Count how many are left."
+        ],
+        "safety": "Use large toy ducks and supervise closely. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Start with three ducks and take one away.",
+        "extension": "Ask the child to find two take-aways that leave two."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many are left?",
+            "expected": "The number left."
+          },
+          {
+            "question": "How do you check?",
+            "expected": "Count again."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts what is left",
+        "Says left after taking away"
+      ],
+      "conclusion": "Put the ducks away and say left.",
+      "homeConnection": "Take away some objects and count what is left.",
+      "teacherReflection": [
+        "Which children could show \"say how many are left after some are taken away\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LEFT",
+          "DUCKS"
+        ],
+        "pictures": [
+          "Ducks in a pond"
+        ]
+      },
+      "activities": [
+        "Ducks in the pond"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W07-D03",
+      "title": "Bus stories",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 7,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Subtracting",
+      "subtopic": "Taking away stories",
+      "dayType": "practise",
+      "objectives": [
+        "Children will act out taking away stories on a pretend bus."
+      ],
+      "successCriteria": [
+        "Acts out a taking away story",
+        "Says how many are left"
+      ],
+      "previousKnowledge": "Children can join groups and count all.",
+      "vocabulary": [
+        "take away",
+        "left",
+        "fewer",
+        "gone",
+        "remove",
+        "minus"
+      ],
+      "resources": [
+        "Chairs as a bus",
+        "A puppet driver",
+        "Counters"
+      ],
+      "starter": "Say \"Five children are on the bus. Two get off at the market. How many are left?\"",
+      "teacherActivities": [
+        "Act out the story with children or toys on chairs.",
+        "Ask \"How many are left on the bus?\"",
+        "Tell new stories and let children act them out.",
+        "Let a child be the driver and tell a story."
+      ],
+      "learnerActivities": [
+        "Children watch and count.",
+        "Child says the number.",
+        "Child acts the story.",
+        "Child tells a story."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Act out the story with children or toys on chairs. Children: Children watch and count.",
+        "Step 2. Teacher: Ask \"How many are left on the bus?\" Children: Child says the number.",
+        "Step 3. Teacher: Tell new stories and let children act them out. Children: Child acts the story.",
+        "Step 4. Teacher: Let a child be the driver and tell a story. Children: Child tells a story."
+      ],
+      "practical": {
+        "title": "Bus stories",
+        "steps": [
+          "Sit on the bus.",
+          "Some children get off.",
+          "Count who is left."
+        ],
+        "safety": "Keep children seated and move slowly. Supervise the bus carefully and keep chairs steady."
+      },
+      "differentiation": {
+        "support": "Act the story with three toys on the bus.",
+        "extension": "Ask the child to tell a story with eight children."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many are left?",
+            "expected": "The number left."
+          },
+          {
+            "question": "Who got off?",
+            "expected": "The children who left."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Acts out a taking away story",
+        "Says how many are left"
+      ],
+      "conclusion": "Put the chairs away and say left.",
+      "homeConnection": "Tell a bus story at bedtime.",
+      "teacherReflection": [
+        "Which children could show \"act out taking away stories on a pretend bus\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BUS",
+          "OFF"
+        ],
+        "pictures": [
+          "A bus with children"
+        ]
+      },
+      "activities": [
+        "Bus stories"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W07-D04",
+      "title": "Eating the sweets",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 7,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Subtracting",
+      "subtopic": "Taking away stories",
+      "dayType": "apply",
+      "objectives": [
+        "Children will solve a taking away story about picture sweets."
+      ],
+      "successCriteria": [
+        "Solves a taking away story",
+        "Tells their own story"
+      ],
+      "previousKnowledge": "Children can join groups and count all.",
+      "vocabulary": [
+        "take away",
+        "left",
+        "fewer",
+        "gone",
+        "remove",
+        "minus"
+      ],
+      "resources": [
+        "Picture cards of fruits",
+        "A plate",
+        "Counters"
+      ],
+      "starter": "Tell a story: \"There are four oranges. We eat one. How many are left?\"",
+      "teacherActivities": [
+        "Act out the story with picture oranges.",
+        "Tell another story with different fruit.",
+        "Let each child tell their own story.",
+        "Draw the story with pictures."
+      ],
+      "learnerActivities": [
+        "Children count what is left.",
+        "Children solve it.",
+        "Child tells a story.",
+        "Child draws the story."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Act out the story with picture oranges. Children: Children count what is left.",
+        "Step 2. Teacher: Tell another story with different fruit. Children: Children solve it.",
+        "Step 3. Teacher: Let each child tell their own story. Children: Child tells a story.",
+        "Step 4. Teacher: Draw the story with pictures. Children: Child draws the story."
+      ],
+      "practical": {
+        "title": "Fruit stories",
+        "steps": [
+          "Put pictures on a plate.",
+          "Take some away.",
+          "Say how many are left."
+        ],
+        "safety": "Use only picture cards or toy fruit. If real fruit is used, check allergies and supervise eating."
+      },
+      "differentiation": {
+        "support": "Use two or three picture fruits.",
+        "extension": "Ask the child to write a number sentence in words."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many oranges are left?",
+            "expected": "The number left."
+          },
+          {
+            "question": "What happened?",
+            "expected": "We ate some."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Solves a taking away story",
+        "Tells their own story"
+      ],
+      "conclusion": "Put the pictures away and say well done.",
+      "homeConnection": "Tell a fruit story and solve it together.",
+      "teacherReflection": [
+        "Which children could show \"solve a taking away story about picture sweets\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FRUIT",
+          "EAT"
+        ],
+        "pictures": [
+          "Picture oranges on a plate"
+        ]
+      },
+      "activities": [
+        "Fruit stories"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W07-D05",
+      "title": "Week 7 taking away check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 7,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Subtracting",
+      "subtopic": "How many are left",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child takes away and says how many are left."
+      ],
+      "successCriteria": [
+        "Takes away from a group to 5",
+        "Says how many are left"
+      ],
+      "previousKnowledge": "Children can join groups and count all.",
+      "vocabulary": [
+        "take away",
+        "left",
+        "fewer",
+        "gone",
+        "remove",
+        "minus"
+      ],
+      "resources": [
+        "Counters",
+        "Toy ducks",
+        "Class record sheet"
+      ],
+      "starter": "Sing the counting song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: counters, ducks and bus stories.",
+        "At each station ask \"How many are left?\"",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child takes away and answers.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: counters, ducks and bus stories. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"How many are left?\" Children: Child takes away and answers.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Take away stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use large objects. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use groups of three.",
+        "extension": "Ask a confident child to take away from ten."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: takes away from a group; says how many are left; acts a taking away story; checks by counting.",
+        "questions": [
+          {
+            "question": "What is five take away two?",
+            "expected": "Three."
+          },
+          {
+            "question": "How many are left?",
+            "expected": "The number left."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Takes away with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep taking away at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child takes away and says how many are left\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Take away"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Take away stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

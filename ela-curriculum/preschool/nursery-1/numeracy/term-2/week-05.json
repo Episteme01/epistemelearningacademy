@@ -1,0 +1,598 @@
+{
+  "id": "ELA-PS-N1-NUM-T2-W05",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 5,
+  "title": "Making 5",
+  "topic": "Consolidation",
+  "subtopics": [
+    "Fingers and parts of 5",
+    "Two groups that make 5",
+    "Number bond games"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will show 5 in different ways with fingers and objects.",
+    "Children will find two groups that make 5."
+  ],
+  "vocabulary": [
+    "five",
+    "parts",
+    "whole",
+    "make",
+    "fingers",
+    "together"
+  ],
+  "content": "Fingers and parts of 5, two groups that make 5, and number bond games.",
+  "teachingActivities": "Use fingers, two-colour counters and five frames to show that five can be split into two parts; always say the whole and the parts; accept all finger patterns; keep language simple: \"two and three make five\".",
+  "learnerActivities": "Show 5 in different ways and find two groups that make 5.",
+  "resources": [
+    "Two-colour counters",
+    "Five frames",
+    "Bead strings",
+    "Cups for hiding counters",
+    "Number cards"
+  ],
+  "assessment": "Observe whether each child shows 5 in two different ways and says how many more to make 5.",
+  "expectedOutcomes": [
+    "Shows 5 in two different ways.",
+    "Says how many more to make 5 with support."
+  ],
+  "crossCurricular": [
+    "Literacy: number sentences in words",
+    "Physical Development: finger movement",
+    "Social Habits: sharing five sweets"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T2-W05-D01",
+      "title": "Five fingers",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 5,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Fingers and parts of 5",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will show five in different ways with their fingers."
+      ],
+      "successCriteria": [
+        "Shows five with fingers in two ways",
+        "Says the two parts"
+      ],
+      "previousKnowledge": "Children can order numbers and find one more and one less.",
+      "vocabulary": [
+        "five",
+        "parts",
+        "whole",
+        "make",
+        "fingers",
+        "together"
+      ],
+      "resources": [
+        "Number cards",
+        "A puppet",
+        "A rhyme about five fingers"
+      ],
+      "starter": "Hold up one hand and say \"Five fingers. Can you show me three on this hand and two on that?\"",
+      "teacherActivities": [
+        "Show five fingers as 5 and 0, then 3 and 2.",
+        "Say \"Three and two make five.\"",
+        "Let children find other ways to show five.",
+        "Ask \"How many fingers are down?\""
+      ],
+      "learnerActivities": [
+        "Children copy the finger patterns.",
+        "Children repeat the sentence.",
+        "Child shows five another way.",
+        "Child says how many."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show five fingers as 5 and 0, then 3 and 2. Children: Children copy the finger patterns.",
+        "Step 2. Teacher: Say \"Three and two make five.\" Children: Children repeat the sentence.",
+        "Step 3. Teacher: Let children find other ways to show five. Children: Child shows five another way.",
+        "Step 4. Teacher: Ask \"How many fingers are down?\" Children: Child says how many."
+      ],
+      "practical": {
+        "title": "Finger partners",
+        "steps": [
+          "Show five fingers.",
+          "Fold some down.",
+          "Say the two parts."
+        ],
+        "safety": "Keep the game gentle and seated. Accept every correct finger pattern."
+      },
+      "differentiation": {
+        "support": "Show and count the fingers together.",
+        "extension": "Ask the child to show five in four different ways."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many fingers are up?",
+            "expected": "The number up."
+          },
+          {
+            "question": "How many are down?",
+            "expected": "The number down."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows five in different ways",
+        "Says the two parts of five"
+      ],
+      "conclusion": "Wave five fingers goodbye.",
+      "homeConnection": "Show five fingers in different ways at home.",
+      "teacherReflection": [
+        "Which children could show \"show five in different ways with their fingers\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIVE",
+          "PARTS"
+        ],
+        "pictures": [
+          "A hand showing five"
+        ]
+      },
+      "activities": [
+        "Finger partners"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W05-D02",
+      "title": "Two colour counters",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 5,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Two groups that make 5",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will split five counters into two groups."
+      ],
+      "successCriteria": [
+        "Makes five with two colours",
+        "Says the two parts"
+      ],
+      "previousKnowledge": "Children can order numbers and find one more and one less.",
+      "vocabulary": [
+        "five",
+        "parts",
+        "whole",
+        "make",
+        "fingers",
+        "together"
+      ],
+      "resources": [
+        "Two-colour counters",
+        "A five frame",
+        "Number cards"
+      ],
+      "starter": "Show five red-and-yellow counters and say \"Let us see how many red and how many yellow.\"",
+      "teacherActivities": [
+        "Shake five counters and drop them on the mat.",
+        "Say \"Two red and three yellow make five.\"",
+        "Let each child shake and say the parts.",
+        "Record the parts with counters."
+      ],
+      "learnerActivities": [
+        "Children count red and yellow.",
+        "Children repeat the sentence.",
+        "Child shakes and says the parts.",
+        "Child puts counters in a five frame."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Shake five counters and drop them on the mat. Children: Children count red and yellow.",
+        "Step 2. Teacher: Say \"Two red and three yellow make five.\" Children: Children repeat the sentence.",
+        "Step 3. Teacher: Let each child shake and say the parts. Children: Child shakes and says the parts.",
+        "Step 4. Teacher: Record the parts with counters. Children: Child puts counters in a five frame."
+      ],
+      "practical": {
+        "title": "Shake and spill",
+        "steps": [
+          "Shake five counters.",
+          "Count red and yellow.",
+          "Say the two parts."
+        ],
+        "safety": "Use large two-colour counters and drop them over a tray. Keep floors clear of loose counters."
+      },
+      "differentiation": {
+        "support": "Use counters of three and four with clear colours.",
+        "extension": "Ask the child to find all the ways to make five."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many red?",
+            "expected": "The number red."
+          },
+          {
+            "question": "How many in all?",
+            "expected": "Five."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Splits five into two groups",
+        "Says the two parts"
+      ],
+      "conclusion": "Put the counters away and say five.",
+      "homeConnection": "Split five objects into two groups.",
+      "teacherReflection": [
+        "Which children could show \"split five counters into two groups\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RED",
+          "YELLOW",
+          "MAKE"
+        ],
+        "pictures": [
+          "Red and yellow counters"
+        ]
+      },
+      "activities": [
+        "Shake and spill"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W05-D03",
+      "title": "How many more to make five?",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 5,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Number bond games",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will find how many more are needed to make five."
+      ],
+      "successCriteria": [
+        "Says how many more make five",
+        "Checks by counting"
+      ],
+      "previousKnowledge": "Children can order numbers and find one more and one less.",
+      "vocabulary": [
+        "five",
+        "parts",
+        "whole",
+        "make",
+        "fingers",
+        "together"
+      ],
+      "resources": [
+        "Counters",
+        "A five frame",
+        "Cups"
+      ],
+      "starter": "Show three counters in a five frame and say \"How many more do we need to make five?\"",
+      "teacherActivities": [
+        "Show counters in a five frame and ask how many more.",
+        "Check by adding counters.",
+        "Try other starting numbers.",
+        "Play the game with partners."
+      ],
+      "learnerActivities": [
+        "Children say the number.",
+        "Children count to five.",
+        "Child says how many more.",
+        "Pairs ask each other."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show counters in a five frame and ask how many more. Children: Children say the number.",
+        "Step 2. Teacher: Check by adding counters. Children: Children count to five.",
+        "Step 3. Teacher: Try other starting numbers. Children: Child says how many more.",
+        "Step 4. Teacher: Play the game with partners. Children: Pairs ask each other."
+      ],
+      "practical": {
+        "title": "Fill the five frame",
+        "steps": [
+          "Put counters in the frame.",
+          "Say how many more.",
+          "Check by counting."
+        ],
+        "safety": "Use large counters and supervise closely. Keep frames on the mat."
+      },
+      "differentiation": {
+        "support": "Use counters of three or four in the frame.",
+        "extension": "Ask the child to try making ten."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many more make five?",
+            "expected": "The number needed."
+          },
+          {
+            "question": "How do you check?",
+            "expected": "Count to five."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says how many more to make five",
+        "Checks by counting"
+      ],
+      "conclusion": "Put the frames away and say five.",
+      "homeConnection": "Ask how many more to make five at home.",
+      "teacherReflection": [
+        "Which children could show \"find how many more are needed to make five\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MORE",
+          "FRAME"
+        ],
+        "pictures": [
+          "A five frame with counters"
+        ]
+      },
+      "activities": [
+        "Fill the five frame"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W05-D04",
+      "title": "Hidden counters",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 5,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Number bond games",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will play a hiding game that finds the hidden part of five."
+      ],
+      "successCriteria": [
+        "Finds how many are hidden",
+        "Says the two parts"
+      ],
+      "previousKnowledge": "Children can order numbers and find one more and one less.",
+      "vocabulary": [
+        "five",
+        "parts",
+        "whole",
+        "make",
+        "fingers",
+        "together"
+      ],
+      "resources": [
+        "Five counters",
+        "A cup",
+        "A mat"
+      ],
+      "starter": "Show five counters and say \"I will hide some. How many are hidden?\"",
+      "teacherActivities": [
+        "Show five counters then hide some under a cup.",
+        "Ask \"How many are hiding?\"",
+        "Lift the cup to check.",
+        "Let children hide counters for a friend."
+      ],
+      "learnerActivities": [
+        "Children count what is left.",
+        "Child says the number.",
+        "Children cheer.",
+        "Child hides some counters."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show five counters then hide some under a cup. Children: Children count what is left.",
+        "Step 2. Teacher: Ask \"How many are hiding?\" Children: Child says the number.",
+        "Step 3. Teacher: Lift the cup to check. Children: Children cheer.",
+        "Step 4. Teacher: Let children hide counters for a friend. Children: Child hides some counters."
+      ],
+      "practical": {
+        "title": "Hide and find",
+        "steps": [
+          "Count five counters.",
+          "Hide some under a cup.",
+          "Say how many are hidden."
+        ],
+        "safety": "Use large counters and keep the game seated and gentle. Supervise sharing."
+      },
+      "differentiation": {
+        "support": "Use three counters instead of five.",
+        "extension": "Ask the child to play with six or seven counters."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many are hiding?",
+            "expected": "The number hidden."
+          },
+          {
+            "question": "How many can you see?",
+            "expected": "The number seen."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds how many are hidden",
+        "Says the two parts of five"
+      ],
+      "conclusion": "Put the counters away and say five.",
+      "homeConnection": "Play a hiding game with five objects.",
+      "teacherReflection": [
+        "Which children could show \"play a hiding game that finds the hidden part of five\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HIDE",
+          "FIVE"
+        ],
+        "pictures": [
+          "Counters and a cup"
+        ]
+      },
+      "activities": [
+        "Hide and find"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W05-D05",
+      "title": "Week 5 making five check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 5,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Number bond games",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child makes and splits five."
+      ],
+      "successCriteria": [
+        "Shows five in two ways",
+        "Says how many more to make five"
+      ],
+      "previousKnowledge": "Children can order numbers and find one more and one less.",
+      "vocabulary": [
+        "five",
+        "parts",
+        "whole",
+        "make",
+        "fingers",
+        "together"
+      ],
+      "resources": [
+        "Counters",
+        "Five frames",
+        "Class record sheet"
+      ],
+      "starter": "Sing the five song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: fingers, counters and hidden counters.",
+        "At each station ask \"How many more make five?\"",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers with a number.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: fingers, counters and hidden counters. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"How many more make five?\" Children: Child answers with a number.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Making five stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use large counters. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use numbers to four.",
+        "extension": "Ask a confident child to make six in different ways."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: shows five in different ways; splits five into two parts; says how many more to make five; finds hidden parts.",
+        "questions": [
+          {
+            "question": "How many more to make five from two?",
+            "expected": "Three."
+          },
+          {
+            "question": "What two parts make five?",
+            "expected": "Two and three."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Makes five with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep playing making five games at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child makes and splits five\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Five"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Making five stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

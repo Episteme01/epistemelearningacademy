@@ -1,0 +1,598 @@
+{
+  "id": "ELA-PS-N1-NUM-T2-W03",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 3,
+  "title": "Counting beyond 10",
+  "topic": "Counting",
+  "subtopics": [
+    "Saying numbers 11 to 15",
+    "Counting groups of 11 to 15",
+    "Counting in twos"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say numbers to 15 in order.",
+    "Children will count groups of up to 15 objects."
+  ],
+  "vocabulary": [
+    "eleven",
+    "twelve",
+    "thirteen",
+    "fourteen",
+    "fifteen",
+    "twos"
+  ],
+  "content": "Saying numbers 11 to 15, counting groups of 11 to 15, and counting in twos.",
+  "teachingActivities": "Use a ten frame or two rows of five to show that eleven is ten and one more; say teen numbers slowly; count out groups of 11 to 15 in tens and ones with ten frames; count in twos with pairs such as shoes and gloves.",
+  "learnerActivities": "Say numbers to 15 in order, count groups of up to 15 objects and count in twos.",
+  "resources": [
+    "Ten frames",
+    "Counters",
+    "A number line to 15",
+    "Pairs of shoes and gloves",
+    "Egg boxes"
+  ],
+  "assessment": "Observe whether each child says numbers to 15 and counts groups beyond 10.",
+  "expectedOutcomes": [
+    "Says numbers to 15 in order.",
+    "Counts up to 12 objects accurately."
+  ],
+  "crossCurricular": [
+    "Literacy: number rhymes",
+    "Physical Development: hopping in twos",
+    "Science: counting natural objects"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T2-W03-D01",
+      "title": "Saying 11 to 15",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 3,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Saying numbers 11 to 15",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say the numbers 11, 12, 13, 14 and 15 in order."
+      ],
+      "successCriteria": [
+        "Says numbers 11 to 15 in order",
+        "Says what comes after ten"
+      ],
+      "previousKnowledge": "Children can count to 10 and say one more and one less.",
+      "vocabulary": [
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "twos"
+      ],
+      "resources": [
+        "A number line to 15",
+        "Numeral cards 11 to 15",
+        "A drum"
+      ],
+      "starter": "Walk along a number line saying \"nine, ten, eleven, twelve.\"",
+      "teacherActivities": [
+        "Say the new numbers slowly with the drum beat.",
+        "Show numeral cards 11 to 15 and say each name.",
+        "Walk along the number line from 10 to 15.",
+        "Ask \"What comes after twelve?\""
+      ],
+      "learnerActivities": [
+        "Children say them with the beat.",
+        "Children repeat each name.",
+        "Children walk and count.",
+        "Child says thirteen."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Say the new numbers slowly with the drum beat. Children: Children say them with the beat.",
+        "Step 2. Teacher: Show numeral cards 11 to 15 and say each name. Children: Children repeat each name.",
+        "Step 3. Teacher: Walk along the number line from 10 to 15. Children: Children walk and count.",
+        "Step 4. Teacher: Ask \"What comes after twelve?\" Children: Child says thirteen."
+      ],
+      "practical": {
+        "title": "Walk to fifteen",
+        "steps": [
+          "Stand at ten.",
+          "Walk along the line.",
+          "Say each number."
+        ],
+        "safety": "Keep the number line flat and secured. Walk slowly and one at a time."
+      },
+      "differentiation": {
+        "support": "Count from nine to thirteen only.",
+        "extension": "Ask the child to count to twenty."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes after ten?",
+            "expected": "Eleven."
+          },
+          {
+            "question": "What comes before fifteen?",
+            "expected": "Fourteen."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says numbers 11 to 15 in order",
+        "Says what comes next"
+      ],
+      "conclusion": "Count from one to fifteen together.",
+      "homeConnection": "Count up to fifteen steps with your child.",
+      "teacherReflection": [
+        "Which children could show \"say the numbers 11, 12, 13, 14 and 15 in order\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ELEVEN",
+          "TWELVE",
+          "THIRTEEN"
+        ],
+        "pictures": [
+          "A number line to 15"
+        ]
+      },
+      "activities": [
+        "Walk to fifteen"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W03-D02",
+      "title": "Ten and some more",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 3,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Counting groups of 11 to 15",
+      "dayType": "explore",
+      "objectives": [
+        "Children will show numbers 11 to 15 as ten and some more on a ten frame."
+      ],
+      "successCriteria": [
+        "Fills a ten frame",
+        "Counts the extra counters"
+      ],
+      "previousKnowledge": "Children can count to 10 and say one more and one less.",
+      "vocabulary": [
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "twos"
+      ],
+      "resources": [
+        "Ten frames",
+        "Counters",
+        "Numeral cards 11 to 15"
+      ],
+      "starter": "Show a full ten frame and say \"This is ten. Eleven is ten and one more.\"",
+      "teacherActivities": [
+        "Fill a ten frame and put one counter beside it.",
+        "Add one more and say twelve.",
+        "Let children make 11 to 15 on a ten frame and extras.",
+        "Ask \"How many in all?\""
+      ],
+      "learnerActivities": [
+        "Children count eleven.",
+        "Children count twelve.",
+        "Child fills and adds counters.",
+        "Child says the number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Fill a ten frame and put one counter beside it. Children: Children count eleven.",
+        "Step 2. Teacher: Add one more and say twelve. Children: Children count twelve.",
+        "Step 3. Teacher: Let children make 11 to 15 on a ten frame and extras. Children: Child fills and adds counters.",
+        "Step 4. Teacher: Ask \"How many in all?\" Children: Child says the number."
+      ],
+      "practical": {
+        "title": "Ten frame numbers",
+        "steps": [
+          "Fill a ten frame.",
+          "Add some more counters.",
+          "Say how many in all."
+        ],
+        "safety": "Use large flat counters and supervise placing. Keep ten frames on a mat."
+      },
+      "differentiation": {
+        "support": "Fill the ten frame together and add up to three.",
+        "extension": "Ask the child to make a number beyond fifteen."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many counters in all?",
+            "expected": "The number counted."
+          },
+          {
+            "question": "How many in the ten frame?",
+            "expected": "Ten."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows numbers 11 to 15 on a ten frame",
+        "Counts ten and more"
+      ],
+      "conclusion": "Put the frames away and say the numbers.",
+      "homeConnection": "Count out ten and then a few more objects.",
+      "teacherReflection": [
+        "Which children could show \"show numbers 11 to 15 as ten and some more on a ten frame\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TEN",
+          "FRAME"
+        ],
+        "pictures": [
+          "A full ten frame with extras"
+        ]
+      },
+      "activities": [
+        "Ten frame numbers"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W03-D03",
+      "title": "Counting groups to fifteen",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 3,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Counting groups of 11 to 15",
+      "dayType": "practise",
+      "objectives": [
+        "Children will count groups of 11 to 15 objects."
+      ],
+      "successCriteria": [
+        "Counts up to 15 objects accurately",
+        "Moves objects as counted"
+      ],
+      "previousKnowledge": "Children can count to 10 and say one more and one less.",
+      "vocabulary": [
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "twos"
+      ],
+      "resources": [
+        "Baskets of objects",
+        "Two trays",
+        "Number cards 11 to 15"
+      ],
+      "starter": "Show a basket and say \"How many are in this basket? Let us count carefully.\"",
+      "teacherActivities": [
+        "Count a group of twelve moving each into a tray.",
+        "Say how many and show the numeral.",
+        "Give each pair a basket to count.",
+        "Match baskets to numeral cards."
+      ],
+      "learnerActivities": [
+        "Children count aloud.",
+        "Children say twelve.",
+        "Pairs count and agree.",
+        "Child matches a card."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Count a group of twelve moving each into a tray. Children: Children count aloud.",
+        "Step 2. Teacher: Say how many and show the numeral. Children: Children say twelve.",
+        "Step 3. Teacher: Give each pair a basket to count. Children: Pairs count and agree.",
+        "Step 4. Teacher: Match baskets to numeral cards. Children: Child matches a card."
+      ],
+      "practical": {
+        "title": "Count the basket",
+        "steps": [
+          "Take a basket.",
+          "Move each object as you count.",
+          "Put the matching card."
+        ],
+        "safety": "Use large safe objects only and supervise closely. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Use a basket of eleven or twelve and count in two steps.",
+        "extension": "Ask the child to count a group of twenty."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many are there?",
+            "expected": "The number counted."
+          },
+          {
+            "question": "How did you not lose count?",
+            "expected": "Move each one."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts groups to fifteen",
+        "Moves objects as counted"
+      ],
+      "conclusion": "Put the baskets away and say the numbers.",
+      "homeConnection": "Count up to fifteen objects at home.",
+      "teacherReflection": [
+        "Which children could show \"count groups of 11 to 15 objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "COUNT",
+          "FIFTEEN"
+        ],
+        "pictures": [
+          "A basket of objects"
+        ]
+      },
+      "activities": [
+        "Count the basket"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W03-D04",
+      "title": "Counting in twos",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 3,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Counting in twos",
+      "dayType": "apply",
+      "objectives": [
+        "Children will count pairs of objects in twos."
+      ],
+      "successCriteria": [
+        "Counts pairs in twos",
+        "Says two, four, six"
+      ],
+      "previousKnowledge": "Children can count to 10 and say one more and one less.",
+      "vocabulary": [
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "twos"
+      ],
+      "resources": [
+        "Pairs of shoes",
+        "Pairs of gloves",
+        "Egg boxes"
+      ],
+      "starter": "Show a pair of shoes and say \"One pair is two shoes. Two pairs are four shoes.\"",
+      "teacherActivities": [
+        "Put shoes in pairs and count in twos.",
+        "Use gloves or cups to count in twos.",
+        "Let children make pairs and count them.",
+        "Say \"Two, four, six, eight, ten.\""
+      ],
+      "learnerActivities": [
+        "Children count two, four, six.",
+        "Children count with the teacher.",
+        "Child makes pairs and counts.",
+        "Children chant in twos."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put shoes in pairs and count in twos. Children: Children count two, four, six.",
+        "Step 2. Teacher: Use gloves or cups to count in twos. Children: Children count with the teacher.",
+        "Step 3. Teacher: Let children make pairs and count them. Children: Child makes pairs and counts.",
+        "Step 4. Teacher: Say \"Two, four, six, eight, ten.\" Children: Children chant in twos."
+      ],
+      "practical": {
+        "title": "Count the pairs",
+        "steps": [
+          "Put things in pairs.",
+          "Touch each pair.",
+          "Count in twos."
+        ],
+        "safety": "Use clean shoes and wash hands after. Keep walkways clear."
+      },
+      "differentiation": {
+        "support": "Count two pairs first and say the numbers together.",
+        "extension": "Ask the child to count to twenty in twos."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many shoes in two pairs?",
+            "expected": "Four."
+          },
+          {
+            "question": "What comes after six in twos?",
+            "expected": "Eight."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts pairs in twos",
+        "Says two, four, six"
+      ],
+      "conclusion": "Put the pairs away and count in twos.",
+      "homeConnection": "Count socks and shoes in twos at home.",
+      "teacherReflection": [
+        "Which children could show \"count pairs of objects in twos\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PAIRS",
+          "TWOS"
+        ],
+        "pictures": [
+          "Pairs of shoes"
+        ]
+      },
+      "activities": [
+        "Count the pairs"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W03-D05",
+      "title": "Week 3 counting beyond ten check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 3,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Saying numbers 11 to 15",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child counts beyond ten."
+      ],
+      "successCriteria": [
+        "Says numbers to 15",
+        "Counts groups beyond 10"
+      ],
+      "previousKnowledge": "Children can count to 10 and say one more and one less.",
+      "vocabulary": [
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "twos"
+      ],
+      "resources": [
+        "Ten frames",
+        "Counters",
+        "Class record sheet"
+      ],
+      "starter": "Sing the counting song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: number line, ten frame and counting baskets.",
+        "At each station ask \"How many?\" and watch.",
+        "Record each child’s level and highest number counted."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child counts and answers.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: number line, ten frame and counting baskets. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"How many?\" and watch. Children: Child counts and answers.",
+        "Step 3. Teacher: Record each child’s level and highest number counted. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Beyond ten stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use large counters. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and count to twelve.",
+        "extension": "Ask a confident child to count to thirty."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says numbers to 15; counts groups beyond 10; uses a ten frame; counts in twos.",
+        "questions": [
+          {
+            "question": "What comes after twelve?",
+            "expected": "Thirteen."
+          },
+          {
+            "question": "Count these.",
+            "expected": "The number counted."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Counts beyond ten with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep counting beyond ten at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child counts beyond ten\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Beyond ten"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Beyond ten stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

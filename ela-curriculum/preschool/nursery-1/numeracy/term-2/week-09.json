@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-N1-NUM-T2-W09",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 9,
+  "title": "Making patterns",
+  "topic": "Patterns",
+  "subtopics": [
+    "AB patterns",
+    "AAB and ABB patterns",
+    "Making my own pattern"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will continue AB and AAB patterns.",
+    "Children will make their own pattern."
+  ],
+  "vocabulary": [
+    "pattern",
+    "repeat",
+    "next",
+    "colour",
+    "shape",
+    "continue"
+  ],
+  "content": "AB patterns, AAB and ABB patterns, and making my own pattern.",
+  "teachingActivities": "Start with body patterns (clap, stamp) and sound patterns before objects; say the pattern aloud as you build it; use colour, shape and size; ask \"What comes next?\"; let children make their own and explain them.",
+  "learnerActivities": "Continue AB and AAB patterns and make their own pattern.",
+  "resources": [
+    "Coloured cubes and bottle tops",
+    "Beads and string",
+    "Shapes",
+    "A drum",
+    "Leaves and stones"
+  ],
+  "assessment": "Observe whether each child continues an AB pattern and makes a pattern of their own.",
+  "expectedOutcomes": [
+    "Continues an AB pattern.",
+    "Makes an AB or AAB pattern."
+  ],
+  "crossCurricular": [
+    "Creative Development: beads and printing",
+    "Literacy: rhythm and rhyme",
+    "Science: patterns in nature"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T2-W09-D01",
+      "title": "Body and sound patterns",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 9,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Patterns",
+      "subtopic": "AB patterns",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will copy and continue simple AB patterns with their bodies and sounds."
+      ],
+      "successCriteria": [
+        "Copies an AB pattern",
+        "Continues the pattern"
+      ],
+      "previousKnowledge": "Children can name five shapes, sort and order things.",
+      "vocabulary": [
+        "pattern",
+        "repeat",
+        "next",
+        "colour",
+        "shape",
+        "continue"
+      ],
+      "resources": [
+        "A drum",
+        "Clapping and stamping",
+        "A puppet"
+      ],
+      "starter": "Clap, stamp, clap, stamp and say \"This is a pattern. It repeats.\"",
+      "teacherActivities": [
+        "Do a clap-stamp pattern and ask children to join.",
+        "Stop and ask \"What comes next?\"",
+        "Use the drum for a loud-soft pattern.",
+        "Let a child lead a pattern."
+      ],
+      "learnerActivities": [
+        "Children copy the pattern.",
+        "Child says or does the next action.",
+        "Children copy the sounds.",
+        "Child leads and friends copy."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Do a clap-stamp pattern and ask children to join. Children: Children copy the pattern.",
+        "Step 2. Teacher: Stop and ask \"What comes next?\" Children: Child says or does the next action.",
+        "Step 3. Teacher: Use the drum for a loud-soft pattern. Children: Children copy the sounds.",
+        "Step 4. Teacher: Let a child lead a pattern. Children: Child leads and friends copy."
+      ],
+      "practical": {
+        "title": "Clap and stamp",
+        "steps": [
+          "Listen to the pattern.",
+          "Copy the pattern.",
+          "Say what comes next."
+        ],
+        "safety": "Keep the floor clear and the volume gentle. Make space for stamping."
+      },
+      "differentiation": {
+        "support": "Do the pattern slowly and say each action.",
+        "extension": "Ask the child to make a three-part pattern."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes next?",
+            "expected": "The next action."
+          },
+          {
+            "question": "Does it repeat?",
+            "expected": "Yes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Copies an AB pattern",
+        "Continues the pattern"
+      ],
+      "conclusion": "Do a last pattern and wave.",
+      "homeConnection": "Make clapping patterns with your child.",
+      "teacherReflection": [
+        "Which children could show \"copy and continue simple AB patterns with their bodies and sounds\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PATTERN",
+          "REPEAT"
+        ],
+        "pictures": [
+          "Children clapping and stamping"
+        ]
+      },
+      "activities": [
+        "Clap and stamp"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W09-D02",
+      "title": "Colour patterns",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 9,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Patterns",
+      "subtopic": "AB patterns",
+      "dayType": "explore",
+      "objectives": [
+        "Children will make and continue AB patterns with coloured objects."
+      ],
+      "successCriteria": [
+        "Makes an AB pattern",
+        "Says the colours in order"
+      ],
+      "previousKnowledge": "Children can name five shapes, sort and order things.",
+      "vocabulary": [
+        "pattern",
+        "repeat",
+        "next",
+        "colour",
+        "shape",
+        "continue"
+      ],
+      "resources": [
+        "Red and blue cubes",
+        "Bottle tops",
+        "A mat"
+      ],
+      "starter": "Put red, blue, red, blue in a row and say \"What comes next?\"",
+      "teacherActivities": [
+        "Make an AB pattern and say it aloud.",
+        "Ask \"What comes next?\"",
+        "Let children make their own AB pattern.",
+        "Check by saying the pattern."
+      ],
+      "learnerActivities": [
+        "Children say red, blue, red, blue.",
+        "Child places the next cube.",
+        "Child makes a pattern.",
+        "Child says the pattern."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Make an AB pattern and say it aloud. Children: Children say red, blue, red, blue.",
+        "Step 2. Teacher: Ask \"What comes next?\" Children: Child places the next cube.",
+        "Step 3. Teacher: Let children make their own AB pattern. Children: Child makes a pattern.",
+        "Step 4. Teacher: Check by saying the pattern. Children: Child says the pattern."
+      ],
+      "practical": {
+        "title": "Cube patterns",
+        "steps": [
+          "Take two colours.",
+          "Make a repeating pattern.",
+          "Say it aloud."
+        ],
+        "safety": "Use cubes larger than a fist or too big to swallow and supervise closely. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Continue a pattern that is already started.",
+        "extension": "Ask the child to make a pattern with three colours."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes next?",
+            "expected": "The next colour."
+          },
+          {
+            "question": "What is your pattern?",
+            "expected": "Colours that repeat."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes an AB pattern",
+        "Says the colours in order"
+      ],
+      "conclusion": "Put the cubes away and say the pattern.",
+      "homeConnection": "Make a pattern with socks or spoons at home.",
+      "teacherReflection": [
+        "Which children could show \"make and continue AB patterns with coloured objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RED",
+          "BLUE"
+        ],
+        "pictures": [
+          "A red and blue pattern"
+        ]
+      },
+      "activities": [
+        "Cube patterns"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W09-D03",
+      "title": "Longer patterns",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 9,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Patterns",
+      "subtopic": "AAB and ABB patterns",
+      "dayType": "practise",
+      "objectives": [
+        "Children will continue AAB and ABB patterns."
+      ],
+      "successCriteria": [
+        "Continues an AAB pattern",
+        "Says the pattern in order"
+      ],
+      "previousKnowledge": "Children can name five shapes, sort and order things.",
+      "vocabulary": [
+        "pattern",
+        "repeat",
+        "next",
+        "colour",
+        "shape",
+        "continue"
+      ],
+      "resources": [
+        "Beads or cubes in two colours",
+        "A string",
+        "A pattern card"
+      ],
+      "starter": "Put red, red, blue, red, red, blue and say \"This pattern has two reds and one blue.\"",
+      "teacherActivities": [
+        "Make an AAB pattern and say it aloud.",
+        "Ask \"What comes next?\"",
+        "Let children continue patterns started by the teacher.",
+        "Introduce ABB with a new pattern."
+      ],
+      "learnerActivities": [
+        "Children say red, red, blue.",
+        "Child says the next colour.",
+        "Child continues a pattern.",
+        "Child says the pattern."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Make an AAB pattern and say it aloud. Children: Children say red, red, blue.",
+        "Step 2. Teacher: Ask \"What comes next?\" Children: Child says the next colour.",
+        "Step 3. Teacher: Let children continue patterns started by the teacher. Children: Child continues a pattern.",
+        "Step 4. Teacher: Introduce ABB with a new pattern. Children: Child says the pattern."
+      ],
+      "practical": {
+        "title": "Bead patterns",
+        "steps": [
+          "Look at the pattern.",
+          "Thread beads to continue it.",
+          "Say it aloud."
+        ],
+        "safety": "Use large wooden beads and supervise stringing so beads are not put in mouths. Keep strings short."
+      },
+      "differentiation": {
+        "support": "Continue an AB pattern before trying AAB.",
+        "extension": "Ask the child to make an ABC pattern."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes next?",
+            "expected": "The next colour."
+          },
+          {
+            "question": "How many reds in a row?",
+            "expected": "Two."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Continues an AAB pattern",
+        "Says the pattern in order"
+      ],
+      "conclusion": "Put the beads away and say the pattern.",
+      "homeConnection": "Make a bead pattern at home with safe large beads.",
+      "teacherReflection": [
+        "Which children could show \"continue AAB and ABB patterns\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "AAB",
+          "BEADS"
+        ],
+        "pictures": [
+          "A bead pattern"
+        ]
+      },
+      "activities": [
+        "Bead patterns"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W09-D04",
+      "title": "My own pattern",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 9,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Patterns",
+      "subtopic": "Making my own pattern",
+      "dayType": "apply",
+      "objectives": [
+        "Children will make their own pattern and explain it to a friend."
+      ],
+      "successCriteria": [
+        "Makes their own pattern",
+        "Explains the pattern"
+      ],
+      "previousKnowledge": "Children can name five shapes, sort and order things.",
+      "vocabulary": [
+        "pattern",
+        "repeat",
+        "next",
+        "colour",
+        "shape",
+        "continue"
+      ],
+      "resources": [
+        "Shapes, leaves and stones",
+        "Paper",
+        "Crayons"
+      ],
+      "starter": "Say \"Today you are pattern makers. You can use shapes, leaves or colours.\"",
+      "teacherActivities": [
+        "Show examples of patterns made with different objects.",
+        "Let each child choose objects and make a pattern.",
+        "Ask each child to explain their pattern.",
+        "Draw or stick the pattern on paper."
+      ],
+      "learnerActivities": [
+        "Children look and talk.",
+        "Child makes a pattern.",
+        "Child says their pattern.",
+        "Child draws the pattern."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show examples of patterns made with different objects. Children: Children look and talk.",
+        "Step 2. Teacher: Let each child choose objects and make a pattern. Children: Child makes a pattern.",
+        "Step 3. Teacher: Ask each child to explain their pattern. Children: Child says their pattern.",
+        "Step 4. Teacher: Draw or stick the pattern on paper. Children: Child draws the pattern."
+      ],
+      "practical": {
+        "title": "Pattern makers",
+        "steps": [
+          "Choose objects.",
+          "Make a repeating pattern.",
+          "Tell a friend."
+        ],
+        "safety": "Use clean leaves and smooth stones and wash hands afterwards. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Make the pattern together and name each object.",
+        "extension": "Ask the child to make a pattern with two changes."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is your pattern?",
+            "expected": "The repeating objects."
+          },
+          {
+            "question": "What comes next?",
+            "expected": "The next object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes their own pattern",
+        "Explains the pattern"
+      ],
+      "conclusion": "Display the patterns and say well done.",
+      "homeConnection": "Look for patterns at home such as on cloth or tiles.",
+      "teacherReflection": [
+        "Which children could show \"make their own pattern and explain it to a friend\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MY PATTERN"
+        ],
+        "pictures": [
+          "Children making patterns"
+        ]
+      },
+      "activities": [
+        "Pattern makers"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W09-D05",
+      "title": "Week 9 patterns check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 9,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Patterns",
+      "subtopic": "Making my own pattern",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child makes and continues patterns."
+      ],
+      "successCriteria": [
+        "Continues an AB pattern",
+        "Makes their own pattern"
+      ],
+      "previousKnowledge": "Children can name five shapes, sort and order things.",
+      "vocabulary": [
+        "pattern",
+        "repeat",
+        "next",
+        "colour",
+        "shape",
+        "continue"
+      ],
+      "resources": [
+        "Cubes",
+        "Beads",
+        "Shapes",
+        "Class record sheet"
+      ],
+      "starter": "Sing the pattern song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: cubes, beads and shapes.",
+        "At each station ask \"What comes next?\"",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child continues a pattern.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: cubes, beads and shapes. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"What comes next?\" Children: Child continues a pattern.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Pattern stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use large beads and cubes. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use AB patterns.",
+        "extension": "Ask a confident child to make an ABC pattern."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: copies a pattern; continues an AB pattern; continues an AAB pattern; makes their own pattern.",
+        "questions": [
+          {
+            "question": "What comes next?",
+            "expected": "The next item."
+          },
+          {
+            "question": "What is your pattern?",
+            "expected": "The repeating items."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Makes and continues patterns with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep spotting patterns at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child makes and continues patterns\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Patterns"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Pattern stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

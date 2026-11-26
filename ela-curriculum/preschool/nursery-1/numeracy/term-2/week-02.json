@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-N1-NUM-T2-W02",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 2,
+  "title": "One more and one less",
+  "topic": "Counting",
+  "subtopics": [
+    "One more",
+    "One less",
+    "Number lines to 10"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will find one more and one less than a number to 5.",
+    "Children will use a number line to 10."
+  ],
+  "vocabulary": [
+    "one more",
+    "one less",
+    "add one",
+    "take one",
+    "number line",
+    "next"
+  ],
+  "content": "One more, one less, and number lines to 10.",
+  "teachingActivities": "Act out one more and one less with real objects and children themselves; use a number line to show that one more is the next number and one less is the number before; use stories such as one more child comes to the door; keep numbers to 5 at first.",
+  "learnerActivities": "Say one more and one less than a number up to 5 and use a number line to 10.",
+  "resources": [
+    "Counters",
+    "A floor number line 0 to 10",
+    "A bus made of chairs",
+    "Numeral cards",
+    "A puppet"
+  ],
+  "assessment": "Observe whether each child says one more and one less than numbers up to 5.",
+  "expectedOutcomes": [
+    "Says one more than a number to 5.",
+    "Says one less than a number to 5."
+  ],
+  "crossCurricular": [
+    "Literacy: number stories",
+    "Physical Development: moving along a line",
+    "Social Habits: counting children"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T2-W02-D01",
+      "title": "One more",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 2,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "One more",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will find one more than a number up to five."
+      ],
+      "successCriteria": [
+        "Adds one more object",
+        "Says the next number"
+      ],
+      "previousKnowledge": "Children can say which group has more or fewer and match one to one.",
+      "vocabulary": [
+        "one more",
+        "one less",
+        "add one",
+        "take one",
+        "number line",
+        "next"
+      ],
+      "resources": [
+        "Counters",
+        "Number cards 1 to 6",
+        "A puppet"
+      ],
+      "starter": "Say \"Three children are in the line. One more child joins. How many now?\"",
+      "teacherActivities": [
+        "Put three counters down and add one more.",
+        "Say \"Three and one more is four.\"",
+        "Try different starting numbers.",
+        "Act out with children in a line."
+      ],
+      "learnerActivities": [
+        "Children count the new group.",
+        "Children repeat the sentence.",
+        "Child adds one and says the number.",
+        "Children join the line one at a time."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put three counters down and add one more. Children: Children count the new group.",
+        "Step 2. Teacher: Say \"Three and one more is four.\" Children: Children repeat the sentence.",
+        "Step 3. Teacher: Try different starting numbers. Children: Child adds one and says the number.",
+        "Step 4. Teacher: Act out with children in a line. Children: Children join the line one at a time."
+      ],
+      "practical": {
+        "title": "One more game",
+        "steps": [
+          "Take a group of counters.",
+          "Add one more.",
+          "Say the new number."
+        ],
+        "safety": "Use large counters and supervise closely. Keep the line of children safe and orderly."
+      },
+      "differentiation": {
+        "support": "Use groups of one to three and count each time.",
+        "extension": "Ask the child to say one more than seven."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is one more than three?",
+            "expected": "Four."
+          },
+          {
+            "question": "What is one more than five?",
+            "expected": "Six."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds one more than a number",
+        "Says the next number"
+      ],
+      "conclusion": "Put the counters away and say one more.",
+      "homeConnection": "Add one more spoon to the table and say the number.",
+      "teacherReflection": [
+        "Which children could show \"find one more than a number up to five\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ONE MORE",
+          "NEXT"
+        ],
+        "pictures": [
+          "A group of counters plus one"
+        ]
+      },
+      "activities": [
+        "One more game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W02-D02",
+      "title": "One less",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 2,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "One less",
+      "dayType": "explore",
+      "objectives": [
+        "Children will find one less than a number up to five."
+      ],
+      "successCriteria": [
+        "Takes one away",
+        "Says the number before"
+      ],
+      "previousKnowledge": "Children can say which group has more or fewer and match one to one.",
+      "vocabulary": [
+        "one more",
+        "one less",
+        "add one",
+        "take one",
+        "number line",
+        "next"
+      ],
+      "resources": [
+        "Counters",
+        "Number cards 1 to 6",
+        "A puppet"
+      ],
+      "starter": "Say \"Four children are on the bus. One child gets off. How many now?\"",
+      "teacherActivities": [
+        "Put four counters down and take one away.",
+        "Say \"Four and one less is three.\"",
+        "Try different starting numbers.",
+        "Act out with children on a bus of chairs."
+      ],
+      "learnerActivities": [
+        "Children count what is left.",
+        "Children repeat the sentence.",
+        "Child takes one away and says the number.",
+        "Children get off the bus one at a time."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put four counters down and take one away. Children: Children count what is left.",
+        "Step 2. Teacher: Say \"Four and one less is three.\" Children: Children repeat the sentence.",
+        "Step 3. Teacher: Try different starting numbers. Children: Child takes one away and says the number.",
+        "Step 4. Teacher: Act out with children on a bus of chairs. Children: Children get off the bus one at a time."
+      ],
+      "practical": {
+        "title": "One less game",
+        "steps": [
+          "Take a group of counters.",
+          "Take one away.",
+          "Say the new number."
+        ],
+        "safety": "Use large counters and chairs placed safely. Supervise the bus game closely."
+      },
+      "differentiation": {
+        "support": "Use groups of two to four and count each time.",
+        "extension": "Ask the child to say one less than ten."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is one less than four?",
+            "expected": "Three."
+          },
+          {
+            "question": "What is one less than two?",
+            "expected": "One."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds one less than a number",
+        "Says the number before"
+      ],
+      "conclusion": "Put the counters away and say one less.",
+      "homeConnection": "Take one spoon away and say the number.",
+      "teacherReflection": [
+        "Which children could show \"find one less than a number up to five\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ONE LESS",
+          "BEFORE"
+        ],
+        "pictures": [
+          "A group of counters minus one"
+        ]
+      },
+      "activities": [
+        "One less game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W02-D03",
+      "title": "The number line",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 2,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Number lines to 10",
+      "dayType": "explore",
+      "objectives": [
+        "Children will use a number line to find one more and one less."
+      ],
+      "successCriteria": [
+        "Moves forward one for one more",
+        "Moves back one for one less"
+      ],
+      "previousKnowledge": "Children can say which group has more or fewer and match one to one.",
+      "vocabulary": [
+        "one more",
+        "one less",
+        "add one",
+        "take one",
+        "number line",
+        "next"
+      ],
+      "resources": [
+        "A floor number line 0 to 10",
+        "A beanbag",
+        "Numeral cards"
+      ],
+      "starter": "Show a number line on the floor and say \"We can walk forward for more and back for less.\"",
+      "teacherActivities": [
+        "Stand on three and step forward to four.",
+        "Step back to two and say \"One less.\"",
+        "Let each child stand on a number and step.",
+        "Ask \"Where are you now?\""
+      ],
+      "learnerActivities": [
+        "Children watch and say four.",
+        "Children say one less.",
+        "Child steps forward or back.",
+        "Child says the number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Stand on three and step forward to four. Children: Children watch and say four.",
+        "Step 2. Teacher: Step back to two and say \"One less.\" Children: Children say one less.",
+        "Step 3. Teacher: Let each child stand on a number and step. Children: Child steps forward or back.",
+        "Step 4. Teacher: Ask \"Where are you now?\" Children: Child says the number."
+      ],
+      "practical": {
+        "title": "Walk the number line",
+        "steps": [
+          "Stand on a number.",
+          "Step forward for one more.",
+          "Step back for one less."
+        ],
+        "safety": "Keep the number line flat and secured so children do not trip. Move one at a time."
+      },
+      "differentiation": {
+        "support": "Walk the line holding the child’s hand.",
+        "extension": "Ask the child to take two steps forward and say the number."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is one more than six?",
+            "expected": "Seven."
+          },
+          {
+            "question": "What is one less than six?",
+            "expected": "Five."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses a number line for one more and less",
+        "Says the number after a step"
+      ],
+      "conclusion": "Walk to ten and back to zero together.",
+      "homeConnection": "Draw a number line with chalk and step on it.",
+      "teacherReflection": [
+        "Which children could show \"use a number line to find one more and one less\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FORWARD",
+          "BACK"
+        ],
+        "pictures": [
+          "A floor number line"
+        ]
+      },
+      "activities": [
+        "Walk the number line"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W02-D04",
+      "title": "More and less stories",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 2,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "One more",
+      "dayType": "apply",
+      "objectives": [
+        "Children will solve small stories about one more and one less."
+      ],
+      "successCriteria": [
+        "Solves a one more or one less story",
+        "Tells their own story"
+      ],
+      "previousKnowledge": "Children can say which group has more or fewer and match one to one.",
+      "vocabulary": [
+        "one more",
+        "one less",
+        "add one",
+        "take one",
+        "number line",
+        "next"
+      ],
+      "resources": [
+        "Toy animals",
+        "A farm picture",
+        "Counters"
+      ],
+      "starter": "Tell a story: \"Three ducks are in the pond. One more duck comes. How many ducks?\"",
+      "teacherActivities": [
+        "Act out the story with toy ducks.",
+        "Tell a one less story: \"One duck goes away.\"",
+        "Let children tell their own story.",
+        "Ask \"How many now?\""
+      ],
+      "learnerActivities": [
+        "Children count the ducks.",
+        "Children count what is left.",
+        "Child tells a story with toys.",
+        "Child says the number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Act out the story with toy ducks. Children: Children count the ducks.",
+        "Step 2. Teacher: Tell a one less story: \"One duck goes away.\" Children: Children count what is left.",
+        "Step 3. Teacher: Let children tell their own story. Children: Child tells a story with toys.",
+        "Step 4. Teacher: Ask \"How many now?\" Children: Child says the number."
+      ],
+      "practical": {
+        "title": "Duck stories",
+        "steps": [
+          "Put toy ducks in a pond.",
+          "Add or take one.",
+          "Say how many now."
+        ],
+        "safety": "Use large toy animals only and supervise play. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Tell the story with one to three toys.",
+        "extension": "Ask the child to tell a story with more than five."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many ducks now?",
+            "expected": "The number now."
+          },
+          {
+            "question": "Did we add or take away?",
+            "expected": "Add or take away."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Solves a one more or one less story",
+        "Tells a story with toys"
+      ],
+      "conclusion": "Put the animals away and say the numbers.",
+      "homeConnection": "Tell a number story with toys at bedtime.",
+      "teacherReflection": [
+        "Which children could show \"solve small stories about one more and one less\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "STORY",
+          "DUCKS"
+        ],
+        "pictures": [
+          "Toy ducks in a pond"
+        ]
+      },
+      "activities": [
+        "Duck stories"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W02-D05",
+      "title": "Week 2 one more and one less check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 2,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "One less",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child finds one more and one less."
+      ],
+      "successCriteria": [
+        "Says one more than a number to 5",
+        "Says one less than a number to 5"
+      ],
+      "previousKnowledge": "Children can say which group has more or fewer and match one to one.",
+      "vocabulary": [
+        "one more",
+        "one less",
+        "add one",
+        "take one",
+        "number line",
+        "next"
+      ],
+      "resources": [
+        "Counters",
+        "Number line",
+        "Class record sheet"
+      ],
+      "starter": "Sing the number song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: one more, one less and number line.",
+        "At each station ask \"What is one more?\" and watch.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers with a number.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: one more, one less and number line. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"What is one more?\" and watch. Children: Child answers with a number.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "One more and less stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep the floor line flat. Use large counters."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use numbers to three.",
+        "extension": "Ask a confident child to say one more and one less than ten."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says one more; says one less; uses a number line; solves a story.",
+        "questions": [
+          {
+            "question": "What is one more than four?",
+            "expected": "Five."
+          },
+          {
+            "question": "What is one less than four?",
+            "expected": "Three."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Finds one more and one less with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep practising one more and one less at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child finds one more and one less\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "One more"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "One more and less stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

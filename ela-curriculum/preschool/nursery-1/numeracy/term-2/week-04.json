@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-N1-NUM-T2-W04",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 2,
+  "week": 4,
+  "title": "Numbers in order",
+  "topic": "Numerals",
+  "subtopics": [
+    "Putting numerals 1 to 10 in order",
+    "Missing numbers",
+    "Before and after"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will put numeral cards 1 to 10 in order.",
+    "Children will find a missing number."
+  ],
+  "vocabulary": [
+    "order",
+    "before",
+    "after",
+    "missing",
+    "next",
+    "between"
+  ],
+  "content": "Putting numerals 1 to 10 in order, missing numbers, and before and after.",
+  "teachingActivities": "Use number cards that can be moved; ask \"What comes before?\" and \"What comes after?\"; hide one card and ask which is missing; link order to the number line; use songs that count forward and backward.",
+  "learnerActivities": "Put numeral cards 1 to 10 in order and find a missing number.",
+  "resources": [
+    "Large numeral cards 1 to 10",
+    "A washing line and pegs",
+    "A floor number line",
+    "Number jigsaws",
+    "A blanket to hide cards"
+  ],
+  "assessment": "Observe whether each child puts numerals in order and finds a missing number.",
+  "expectedOutcomes": [
+    "Orders numerals 1 to 10.",
+    "Finds a missing number from 1 to 5."
+  ],
+  "crossCurricular": [
+    "Literacy: before and after words",
+    "Physical Development: pegging",
+    "Creative Development: number songs"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T2-W04-D01",
+      "title": "Putting numbers in order",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 4,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Numerals",
+      "subtopic": "Putting numerals 1 to 10 in order",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will put the numeral cards 1 to 10 in order."
+      ],
+      "successCriteria": [
+        "Puts numerals in order",
+        "Says the numbers as they place them"
+      ],
+      "previousKnowledge": "Children can count to 15 and find one more and one less.",
+      "vocabulary": [
+        "order",
+        "before",
+        "after",
+        "missing",
+        "next",
+        "between"
+      ],
+      "resources": [
+        "Numeral cards 1 to 10",
+        "A washing line and pegs",
+        "A mat"
+      ],
+      "starter": "Show mixed numeral cards and say \"These are in a muddle. Let us put them in order.\"",
+      "teacherActivities": [
+        "Put the cards in order on the line one at a time.",
+        "Mix them up and let children order them.",
+        "Peg the cards on a washing line.",
+        "Check by counting along the line."
+      ],
+      "learnerActivities": [
+        "Children say each number.",
+        "Child places cards in order.",
+        "Child pegs numerals in order.",
+        "Children count and check."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put the cards in order on the line one at a time. Children: Children say each number.",
+        "Step 2. Teacher: Mix them up and let children order them. Children: Child places cards in order.",
+        "Step 3. Teacher: Peg the cards on a washing line. Children: Child pegs numerals in order.",
+        "Step 4. Teacher: Check by counting along the line. Children: Children count and check."
+      ],
+      "practical": {
+        "title": "Washing line numbers",
+        "steps": [
+          "Take a card.",
+          "Peg it in the right place.",
+          "Count along the line."
+        ],
+        "safety": "Hang the line at child height and supervise pegging. Keep pegs away from mouths."
+      },
+      "differentiation": {
+        "support": "Order cards 1 to 5 first.",
+        "extension": "Ask the child to order cards 1 to 15."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes after four?",
+            "expected": "Five."
+          },
+          {
+            "question": "What is the first number?",
+            "expected": "One."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Puts numerals 1 to 10 in order",
+        "Says the numbers as they place them"
+      ],
+      "conclusion": "Count along the line and wave.",
+      "homeConnection": "Make a number line at home with cards on string.",
+      "teacherReflection": [
+        "Which children could show \"put the numeral cards 1 to 10 in order\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ORDER",
+          "NEXT"
+        ],
+        "pictures": [
+          "A washing line of numerals"
+        ]
+      },
+      "activities": [
+        "Washing line numbers"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W04-D02",
+      "title": "Missing numbers",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 4,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Numerals",
+      "subtopic": "Missing numbers",
+      "dayType": "explore",
+      "objectives": [
+        "Children will find which number is missing from a line."
+      ],
+      "successCriteria": [
+        "Finds a missing number",
+        "Says what is missing"
+      ],
+      "previousKnowledge": "Children can count to 15 and find one more and one less.",
+      "vocabulary": [
+        "order",
+        "before",
+        "after",
+        "missing",
+        "next",
+        "between"
+      ],
+      "resources": [
+        "Numeral cards 1 to 10 in a row",
+        "A cloth to hide a card",
+        "A puppet"
+      ],
+      "starter": "Put cards 1 to 5 in a row, hide one and say \"Which number is missing?\"",
+      "teacherActivities": [
+        "Show cards in order, hide one with a cloth and ask which is missing.",
+        "Show the hidden card to check.",
+        "Let children hide a card for a friend.",
+        "Try longer rows with one missing."
+      ],
+      "learnerActivities": [
+        "Children say the missing number.",
+        "Children cheer.",
+        "Child hides a card.",
+        "Child finds the missing card."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show cards in order, hide one with a cloth and ask which is missing. Children: Children say the missing number.",
+        "Step 2. Teacher: Show the hidden card to check. Children: Children cheer.",
+        "Step 3. Teacher: Let children hide a card for a friend. Children: Child hides a card.",
+        "Step 4. Teacher: Try longer rows with one missing. Children: Child finds the missing card."
+      ],
+      "practical": {
+        "title": "What is missing?",
+        "steps": [
+          "Look at the cards.",
+          "Close your eyes.",
+          "Say which is missing."
+        ],
+        "safety": "Keep play gentle and seated. Do not allow children to peek in a way that leads to arguments."
+      },
+      "differentiation": {
+        "support": "Use rows of three or four with one missing.",
+        "extension": "Ask the child to find two missing numbers."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which number is missing?",
+            "expected": "The missing number."
+          },
+          {
+            "question": "How do you know?",
+            "expected": "Count along the line."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds a missing number",
+        "Says what is missing"
+      ],
+      "conclusion": "Put the cards away and say the numbers.",
+      "homeConnection": "Play what is missing with numeral cards.",
+      "teacherReflection": [
+        "Which children could show \"find which number is missing from a line\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MISSING",
+          "WHICH"
+        ],
+        "pictures": [
+          "A row of numerals with one hidden"
+        ]
+      },
+      "activities": [
+        "What is missing?"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W04-D03",
+      "title": "Before and after",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 4,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Numerals",
+      "subtopic": "Before and after",
+      "dayType": "practise",
+      "objectives": [
+        "Children will say the number before and after a given number."
+      ],
+      "successCriteria": [
+        "Says the number before",
+        "Says the number after"
+      ],
+      "previousKnowledge": "Children can count to 15 and find one more and one less.",
+      "vocabulary": [
+        "order",
+        "before",
+        "after",
+        "missing",
+        "next",
+        "between"
+      ],
+      "resources": [
+        "Numeral cards",
+        "A floor number line",
+        "A bell"
+      ],
+      "starter": "Stand on number five and say \"What number is before? What number is after?\"",
+      "teacherActivities": [
+        "Stand on a number and step back one to say before.",
+        "Step forward one to say after.",
+        "Call out a number and let children say before and after.",
+        "Play the game with partners."
+      ],
+      "learnerActivities": [
+        "Children say the number before.",
+        "Children say the number after.",
+        "Child says before and after.",
+        "Pairs ask each other."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Stand on a number and step back one to say before. Children: Children say the number before.",
+        "Step 2. Teacher: Step forward one to say after. Children: Children say the number after.",
+        "Step 3. Teacher: Call out a number and let children say before and after. Children: Child says before and after.",
+        "Step 4. Teacher: Play the game with partners. Children: Pairs ask each other."
+      ],
+      "practical": {
+        "title": "Before and after",
+        "steps": [
+          "Stand on a number.",
+          "Step back for before.",
+          "Step forward for after."
+        ],
+        "safety": "Keep the number line flat and supervise movement. Move one at a time."
+      },
+      "differentiation": {
+        "support": "Stand with the child and say numbers 1 to 5 only.",
+        "extension": "Ask the child to say before and after for numbers up to fifteen."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes before six?",
+            "expected": "Five."
+          },
+          {
+            "question": "What comes after six?",
+            "expected": "Seven."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says the number before and after",
+        "Uses before and after correctly"
+      ],
+      "conclusion": "Walk the line and say the numbers.",
+      "homeConnection": "Ask your child what comes before and after a number.",
+      "teacherReflection": [
+        "Which children could show \"say the number before and after a given number\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BEFORE",
+          "AFTER"
+        ],
+        "pictures": [
+          "A number line with arrows"
+        ]
+      },
+      "activities": [
+        "Before and after"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W04-D04",
+      "title": "Number jigsaws",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 4,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Numerals",
+      "subtopic": "Putting numerals 1 to 10 in order",
+      "dayType": "apply",
+      "objectives": [
+        "Children will complete number jigsaws and ordering games."
+      ],
+      "successCriteria": [
+        "Completes a number jigsaw",
+        "Says the numbers in order"
+      ],
+      "previousKnowledge": "Children can count to 15 and find one more and one less.",
+      "vocabulary": [
+        "order",
+        "before",
+        "after",
+        "missing",
+        "next",
+        "between"
+      ],
+      "resources": [
+        "Number jigsaws 1 to 10",
+        "A tray",
+        "A timer or song"
+      ],
+      "starter": "Show a number jigsaw and say \"The pieces go in order from one to ten.\"",
+      "teacherActivities": [
+        "Show how to fit the first pieces and count.",
+        "Let each child complete a jigsaw.",
+        "Count along the finished jigsaw.",
+        "Swap jigsaws with a friend."
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child fits the pieces in order.",
+        "Child counts along.",
+        "Child tries a new jigsaw."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to fit the first pieces and count. Children: Children watch.",
+        "Step 2. Teacher: Let each child complete a jigsaw. Children: Child fits the pieces in order.",
+        "Step 3. Teacher: Count along the finished jigsaw. Children: Child counts along.",
+        "Step 4. Teacher: Swap jigsaws with a friend. Children: Child tries a new jigsaw."
+      ],
+      "practical": {
+        "title": "Number jigsaws",
+        "steps": [
+          "Take a jigsaw.",
+          "Fit the pieces in order.",
+          "Count along."
+        ],
+        "safety": "Use large pieces with no small parts that can be swallowed. Supervise sharing."
+      },
+      "differentiation": {
+        "support": "Use a jigsaw of five pieces.",
+        "extension": "Ask the child to make a jigsaw with missing pieces for a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is the first piece?",
+            "expected": "One."
+          },
+          {
+            "question": "What is the last piece?",
+            "expected": "Ten."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Completes a number jigsaw",
+        "Says the numbers in order"
+      ],
+      "conclusion": "Put the jigsaws away and count to ten.",
+      "homeConnection": "Make a number jigsaw from card at home.",
+      "teacherReflection": [
+        "Which children could show \"complete number jigsaws and ordering games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "JIGSAW",
+          "ORDER"
+        ],
+        "pictures": [
+          "A number jigsaw"
+        ]
+      },
+      "activities": [
+        "Number jigsaws"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T2-W04-D05",
+      "title": "Week 4 numbers in order check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 2,
+      "week": 4,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Numerals",
+      "subtopic": "Missing numbers",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child orders numbers and finds missing ones."
+      ],
+      "successCriteria": [
+        "Puts numerals 1 to 10 in order",
+        "Finds a missing number"
+      ],
+      "previousKnowledge": "Children can count to 15 and find one more and one less.",
+      "vocabulary": [
+        "order",
+        "before",
+        "after",
+        "missing",
+        "next",
+        "between"
+      ],
+      "resources": [
+        "Numeral cards",
+        "Number jigsaws",
+        "Class record sheet"
+      ],
+      "starter": "Sing the number song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: ordering, missing number and jigsaw.",
+        "At each station ask \"What comes next?\" and watch.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers and places cards.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: ordering, missing number and jigsaw. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"What comes next?\" and watch. Children: Child answers and places cards.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Number order stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use large pieces. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use numbers up to five.",
+        "extension": "Ask a confident child to order numbers to fifteen."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: orders numerals 1 to 10; finds a missing number; says before and after; completes a number jigsaw.",
+        "questions": [
+          {
+            "question": "What comes before eight?",
+            "expected": "Seven."
+          },
+          {
+            "question": "Which is missing?",
+            "expected": "The missing number."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Orders numerals with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep playing number order games at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child orders numbers and finds missing ones\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Order"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Number order stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
