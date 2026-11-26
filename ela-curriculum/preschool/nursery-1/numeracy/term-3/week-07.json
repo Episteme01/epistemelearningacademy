@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-N1-NUM-T3-W07",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 7,
+  "title": "Money in the market",
+  "topic": "Money",
+  "subtopics": [
+    "Coins and notes",
+    "Buying with play money",
+    "Giving change with objects"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will recognise Nigerian coins and notes in play.",
+    "Children will buy items with play money."
+  ],
+  "vocabulary": [
+    "naira",
+    "coin",
+    "note",
+    "buy",
+    "sell",
+    "pay"
+  ],
+  "content": "Coins and notes, buying with play money, and giving change with objects.",
+  "teachingActivities": "Use play coins and notes or school-made tokens that look like Nigerian naira; never use real money with children at this age; keep prices to small numbers (1 to 10 play naira); link to market and tuck-shop experiences; respect that families have different incomes and never ask about money at home.",
+  "learnerActivities": "Name coins and notes used in play and buy one item with play money.",
+  "resources": [
+    "Play coins and notes",
+    "A play market stall with toy goods",
+    "Price labels",
+    "Baskets",
+    "A till or box"
+  ],
+  "assessment": "Observe whether each child names play coins and notes and buys one item with play money.",
+  "expectedOutcomes": [
+    "Names coins and notes used in play.",
+    "Buys one item with play money."
+  ],
+  "crossCurricular": [
+    "Social Habits: manners at the market",
+    "Literacy: market words",
+    "Understanding the World: shops and markets"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T3-W07-D01",
+      "title": "Coins and notes",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 7,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Money",
+      "subtopic": "Coins and notes",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will look at play coins and notes and say that we use money to buy things."
+      ],
+      "successCriteria": [
+        "Names a coin and a note",
+        "Says money buys things"
+      ],
+      "previousKnowledge": "Children can count to 20, add and take away to 5 and read a simple graph.",
+      "vocabulary": [
+        "naira",
+        "coin",
+        "note",
+        "buy",
+        "sell",
+        "pay"
+      ],
+      "resources": [
+        "Play coins and notes",
+        "A purse",
+        "Pictures of a market"
+      ],
+      "starter": "Show a play coin and say \"This is a coin. We use money to buy things at the market.\"",
+      "teacherActivities": [
+        "Show a coin and a note and say their names.",
+        "Let children hold and feel the play money.",
+        "Say \"Coins are round and notes are flat.\"",
+        "Sort the play money into coins and notes."
+      ],
+      "learnerActivities": [
+        "Children look and repeat the names.",
+        "Children touch coins and notes.",
+        "Children repeat the sentence.",
+        "Child sorts coins and notes."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a coin and a note and say their names. Children: Children look and repeat the names.",
+        "Step 2. Teacher: Let children hold and feel the play money. Children: Children touch coins and notes.",
+        "Step 3. Teacher: Say \"Coins are round and notes are flat.\" Children: Children repeat the sentence.",
+        "Step 4. Teacher: Sort the play money into coins and notes. Children: Child sorts coins and notes."
+      ],
+      "practical": {
+        "title": "Sort the money",
+        "steps": [
+          "Look at the play money.",
+          "Feel each piece.",
+          "Put coins and notes in separate piles."
+        ],
+        "safety": "Use large play coins that cannot be swallowed and never use real money. Supervise closely and keep coins out of mouths."
+      },
+      "differentiation": {
+        "support": "Sort two kinds of play money.",
+        "extension": "Ask the child to say what the money can buy."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we use to buy things?",
+            "expected": "Money."
+          },
+          {
+            "question": "Is this a coin or a note?",
+            "expected": "A coin or a note."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names a coin and a note",
+        "Says money buys things"
+      ],
+      "conclusion": "Put the money away and say coin and note.",
+      "homeConnection": "Talk about why we use money when you shop.",
+      "teacherReflection": [
+        "Which children could show \"look at play coins and notes and say that we use money to buy things\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "COIN",
+          "NOTE",
+          "MONEY"
+        ],
+        "pictures": [
+          "Play coins",
+          "A play note"
+        ]
+      },
+      "activities": [
+        "Sort the money"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W07-D02",
+      "title": "Buying with play money",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 7,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Money",
+      "subtopic": "Buying with play money",
+      "dayType": "explore",
+      "objectives": [
+        "Children will buy one item at a play market using play money."
+      ],
+      "successCriteria": [
+        "Chooses an item and pays",
+        "Says please and thank you"
+      ],
+      "previousKnowledge": "Children can count to 20, add and take away to 5 and read a simple graph.",
+      "vocabulary": [
+        "naira",
+        "coin",
+        "note",
+        "buy",
+        "sell",
+        "pay"
+      ],
+      "resources": [
+        "A play market stall",
+        "Toy fruit with price labels of 1 to 5",
+        "Play coins"
+      ],
+      "starter": "Set up a market stall and say \"We are going shopping. Each thing costs some money.\"",
+      "teacherActivities": [
+        "Show how to choose an item and read its price.",
+        "Show how to count out the coins to pay.",
+        "Let each child buy an item.",
+        "Remind children to say please and thank you."
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Children count along.",
+        "Child pays and takes the item.",
+        "Child says please and thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to choose an item and read its price. Children: Children watch.",
+        "Step 2. Teacher: Show how to count out the coins to pay. Children: Children count along.",
+        "Step 3. Teacher: Let each child buy an item. Children: Child pays and takes the item.",
+        "Step 4. Teacher: Remind children to say please and thank you. Children: Child says please and thank you."
+      ],
+      "practical": {
+        "title": "Play market",
+        "steps": [
+          "Choose an item.",
+          "Count out the coins.",
+          "Pay the seller."
+        ],
+        "safety": "Use only play money and toy goods and supervise closely. Keep the stall area clear."
+      },
+      "differentiation": {
+        "support": "Buy items that cost one or two.",
+        "extension": "Ask the child to buy two items and count the cost."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How much does it cost?",
+            "expected": "The price."
+          },
+          {
+            "question": "What do you say?",
+            "expected": "Please and thank you."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Buys an item with play money",
+        "Uses manners when buying"
+      ],
+      "conclusion": "Tidy the stall and say thank you.",
+      "homeConnection": "Play a market game with play money at home.",
+      "teacherReflection": [
+        "Which children could show \"buy one item at a play market using play money\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BUY",
+          "PRICE"
+        ],
+        "pictures": [
+          "A play market stall"
+        ]
+      },
+      "activities": [
+        "Play market"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W07-D03",
+      "title": "Being the seller",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 7,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Money",
+      "subtopic": "Buying with play money",
+      "dayType": "practise",
+      "objectives": [
+        "Children will act as the seller and take payment and give an item."
+      ],
+      "successCriteria": [
+        "Takes payment as seller",
+        "Counts the coins received"
+      ],
+      "previousKnowledge": "Children can count to 20, add and take away to 5 and read a simple graph.",
+      "vocabulary": [
+        "naira",
+        "coin",
+        "note",
+        "buy",
+        "sell",
+        "pay"
+      ],
+      "resources": [
+        "A market stall",
+        "Toy goods and price labels",
+        "A till box"
+      ],
+      "starter": "Say \"Now some of you are sellers. The seller says the price and takes the money.\"",
+      "teacherActivities": [
+        "Show how the seller says the price.",
+        "Let seller children count the coins they receive.",
+        "Give the item to the buyer.",
+        "Swap the buyer and seller roles."
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Seller counts the coins.",
+        "Seller hands over the item.",
+        "Child swaps and buys."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how the seller says the price. Children: Children watch.",
+        "Step 2. Teacher: Let seller children count the coins they receive. Children: Seller counts the coins.",
+        "Step 3. Teacher: Give the item to the buyer. Children: Seller hands over the item.",
+        "Step 4. Teacher: Swap the buyer and seller roles. Children: Child swaps and buys."
+      ],
+      "practical": {
+        "title": "Market sellers",
+        "steps": [
+          "Stand at the stall.",
+          "Say the price.",
+          "Count the coins."
+        ],
+        "safety": "Use only play money and keep the area orderly. Supervise swapping of roles."
+      },
+      "differentiation": {
+        "support": "Sell items that cost one.",
+        "extension": "Ask the seller to give change with objects."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How much did you get?",
+            "expected": "The number of coins."
+          },
+          {
+            "question": "What did you give?",
+            "expected": "The item."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Acts as a seller",
+        "Counts the coins received"
+      ],
+      "conclusion": "Tidy the stall and say thank you.",
+      "homeConnection": "Play shopkeeper at home with a friend.",
+      "teacherReflection": [
+        "Which children could show \"act as the seller and take payment and give an item\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SELLER",
+          "BUYER"
+        ],
+        "pictures": [
+          "A seller at a stall"
+        ]
+      },
+      "activities": [
+        "Market sellers"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W07-D04",
+      "title": "Giving change",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 7,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Money",
+      "subtopic": "Giving change with objects",
+      "dayType": "apply",
+      "objectives": [
+        "Children will use counters to show how change is given."
+      ],
+      "successCriteria": [
+        "Shows change with counters",
+        "Says how many are left"
+      ],
+      "previousKnowledge": "Children can count to 20, add and take away to 5 and read a simple graph.",
+      "vocabulary": [
+        "naira",
+        "coin",
+        "note",
+        "buy",
+        "sell",
+        "pay"
+      ],
+      "resources": [
+        "Play coins as counters",
+        "A stall",
+        "Items costing 2, 3 and 4"
+      ],
+      "starter": "Say \"I have five coins. The apple costs three. How many do I have left?\"",
+      "teacherActivities": [
+        "Pay three coins from five and count what is left.",
+        "Say \"That is the change.\"",
+        "Let children pay with more coins and find the change.",
+        "Check by counting all."
+      ],
+      "learnerActivities": [
+        "Children count the change.",
+        "Children repeat change.",
+        "Child pays and counts change.",
+        "Child counts all the coins."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pay three coins from five and count what is left. Children: Children count the change.",
+        "Step 2. Teacher: Say \"That is the change.\" Children: Children repeat change.",
+        "Step 3. Teacher: Let children pay with more coins and find the change. Children: Child pays and counts change.",
+        "Step 4. Teacher: Check by counting all. Children: Child counts all the coins."
+      ],
+      "practical": {
+        "title": "Change with counters",
+        "steps": [
+          "Count your coins.",
+          "Pay for the item.",
+          "Count the change."
+        ],
+        "safety": "Use large play coins only and keep totals small. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Use totals to three and pay with two coins.",
+        "extension": "Ask the child to pay with five and get change from items costing up to four."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many coins are left?",
+            "expected": "The change."
+          },
+          {
+            "question": "What is change?",
+            "expected": "What is left after paying."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows change with counters",
+        "Says how many are left"
+      ],
+      "conclusion": "Put the coins away and say well done.",
+      "homeConnection": "Play a pretend shop with coins and change.",
+      "teacherReflection": [
+        "Which children could show \"use counters to show how change is given\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CHANGE",
+          "LEFT"
+        ],
+        "pictures": [
+          "Coins and an apple"
+        ]
+      },
+      "activities": [
+        "Change with counters"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W07-D05",
+      "title": "Week 7 money check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 7,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Money",
+      "subtopic": "Buying with play money",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child uses play money."
+      ],
+      "successCriteria": [
+        "Names coins and notes",
+        "Buys an item with play money"
+      ],
+      "previousKnowledge": "Children can count to 20, add and take away to 5 and read a simple graph.",
+      "vocabulary": [
+        "naira",
+        "coin",
+        "note",
+        "buy",
+        "sell",
+        "pay"
+      ],
+      "resources": [
+        "Play money",
+        "Market stall",
+        "Class record sheet"
+      ],
+      "starter": "Sing the market song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: sorting money, buying and selling.",
+        "At each station ask \"How much?\" and watch.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers and counts.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: sorting money, buying and selling. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"How much?\" and watch. Children: Child answers and counts.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Money stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use play money only. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one coin items.",
+        "extension": "Ask a confident child to buy two items and find the change."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names coins and notes; pays for an item; acts as seller; finds change with counters.",
+        "questions": [
+          {
+            "question": "What do we use to buy?",
+            "expected": "Money."
+          },
+          {
+            "question": "How much is it?",
+            "expected": "The price."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Uses play money with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep playing shop at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child uses play money\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Money"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Money stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-N1-NUM-T3-W10",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 10,
+  "title": "Our maths celebration",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising number and counting",
+    "Revising shape and measures",
+    "Celebration and end-of-year record"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show year learning through games and a maths fair.",
+    "Teachers will complete every child’s end-of-year record and transition note."
+  ],
+  "vocabulary": [
+    "count",
+    "shape",
+    "pattern",
+    "measure",
+    "add",
+    "money"
+  ],
+  "content": "Revising number and counting, shape and measures, and celebrating the year with end-of-year records and a transition note.",
+  "teachingActivities": "Keep every activity familiar and joyful; observe quietly; record how far each child counts and how well they solve small problems; invite parents to the celebration; complete the transition note honestly for the Nursery 2 teacher.",
+  "learnerActivities": "Show learning from the year through games and a small maths fair.",
+  "resources": [
+    "Counters and number lines",
+    "Shapes, patterns and beads",
+    "Balance and cups",
+    "Play market",
+    "Graph",
+    "Certificates or stickers",
+    "End-of-year record sheets"
+  ],
+  "assessment": "Observe and record each child’s end-of-year numeracy learning and complete the transition note.",
+  "expectedOutcomes": [
+    "Takes part confidently in familiar maths games.",
+    "Each child has an end-of-year observation record."
+  ],
+  "crossCurricular": [
+    "Literacy: songs and stories",
+    "Social Habits: celebration and thanks",
+    "Creative Development: shapes and patterns"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T3-W10-D01",
+      "title": "Revising number and counting",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 10,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising number and counting",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit counting, numerals, more and fewer, joining and taking away through games."
+      ],
+      "successCriteria": [
+        "Counts and names numerals",
+        "Joins and takes away to 5"
+      ],
+      "previousKnowledge": "Children have learnt number, shape, measure, time, data, money, position and number stories this year.",
+      "vocabulary": [
+        "count",
+        "shape",
+        "pattern",
+        "measure",
+        "add",
+        "money"
+      ],
+      "resources": [
+        "Counters",
+        "Numeral cards",
+        "Number lines",
+        "Dice"
+      ],
+      "starter": "Sing the counting song and say \"Today we play our favourite number games.\"",
+      "teacherActivities": [
+        "Play the dice and counters game.",
+        "Play one more and one less on the number line.",
+        "Play join and take away stories.",
+        "Let each child choose a favourite game."
+      ],
+      "learnerActivities": [
+        "Child throws and counts.",
+        "Child steps forward and back.",
+        "Child solves with objects.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the dice and counters game. Children: Child throws and counts.",
+        "Step 2. Teacher: Play one more and one less on the number line. Children: Child steps forward and back.",
+        "Step 3. Teacher: Play join and take away stories. Children: Child solves with objects.",
+        "Step 4. Teacher: Let each child choose a favourite game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Number games",
+        "steps": [
+          "Set up three game areas.",
+          "Children play each for five minutes.",
+          "The teacher notes counting."
+        ],
+        "safety": "Supervise each area and use large counters. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Play beside the child with numbers up to five.",
+        "extension": "Ask the child to lead a game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes after nine?",
+            "expected": "Ten."
+          },
+          {
+            "question": "What is two and three?",
+            "expected": "Five."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows counting and number knowledge",
+        "Joins and takes away with confidence"
+      ],
+      "conclusion": "Count to twenty and wave goodbye.",
+      "homeConnection": "Keep playing number games over the holiday.",
+      "teacherReflection": [
+        "Which children could show \"revisit counting, numerals, more and fewer, joining and taking away through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "COUNT",
+          "NUMBERS",
+          "STORIES"
+        ],
+        "pictures": [
+          "Counters",
+          "A number line"
+        ]
+      },
+      "activities": [
+        "Number games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W10-D02",
+      "title": "Revising shape and measures",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 10,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising shape and measures",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit shapes, patterns, size, weight, capacity and time through games."
+      ],
+      "successCriteria": [
+        "Names five shapes and makes a pattern",
+        "Compares size, weight or capacity"
+      ],
+      "previousKnowledge": "Children have learnt number, shape, measure, time, data, money, position and number stories this year.",
+      "vocabulary": [
+        "count",
+        "shape",
+        "pattern",
+        "measure",
+        "add",
+        "money"
+      ],
+      "resources": [
+        "Shapes",
+        "Beads",
+        "A balance",
+        "Cups and water tray",
+        "A daily timetable"
+      ],
+      "starter": "Say \"Today we play shape and measuring games.\"",
+      "teacherActivities": [
+        "Play the feely bag with five shapes.",
+        "Make a bead pattern.",
+        "Use the balance to compare two objects.",
+        "Pour water and say full or empty."
+      ],
+      "learnerActivities": [
+        "Child feels and names a shape.",
+        "Child threads a pattern.",
+        "Child says which is heavier.",
+        "Child pours and says full or empty."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the feely bag with five shapes. Children: Child feels and names a shape.",
+        "Step 2. Teacher: Make a bead pattern. Children: Child threads a pattern.",
+        "Step 3. Teacher: Use the balance to compare two objects. Children: Child says which is heavier.",
+        "Step 4. Teacher: Pour water and say full or empty. Children: Child pours and says full or empty."
+      ],
+      "practical": {
+        "title": "Shape and measure games",
+        "steps": [
+          "Set up four areas.",
+          "Children play each for four minutes.",
+          "The teacher notes responses."
+        ],
+        "safety": "Supervise each area and wipe spills at once. Use large smooth shapes and beads and shallow water."
+      },
+      "differentiation": {
+        "support": "Play beside the child with two objects.",
+        "extension": "Ask the child to make a pattern and compare weights."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What shape is this?",
+            "expected": "The shape name."
+          },
+          {
+            "question": "Which is heavier?",
+            "expected": "The heavier object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names shapes and makes patterns",
+        "Compares measures with confidence"
+      ],
+      "conclusion": "Put the materials away and wave goodbye.",
+      "homeConnection": "Keep looking for shapes and measuring at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit shapes, patterns, size, weight, capacity and time through games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SHAPES",
+          "MEASURE"
+        ],
+        "pictures": [
+          "Shapes",
+          "A balance"
+        ]
+      },
+      "activities": [
+        "Shape and measure games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W10-D03",
+      "title": "Maths fair stations",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 10,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising number and counting",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s end-of-year numeracy at a small maths fair."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with confidence",
+        "Shows number, shape, measure, time and money knowledge"
+      ],
+      "previousKnowledge": "Children have learnt number, shape, measure, time, data, money, position and number stories this year.",
+      "vocabulary": [
+        "count",
+        "shape",
+        "pattern",
+        "measure",
+        "add",
+        "money"
+      ],
+      "resources": [
+        "Six maths stations",
+        "Class record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Say \"Today is our maths fair. We visit six stations and show what we know.\"",
+      "teacherActivities": [
+        "Set up six stations: counting, numerals, shapes, measures, money and stories.",
+        "Observe each child at two stations and record what they do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: counting, numerals, shapes, measures, money and stories. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Maths fair",
+        "steps": [
+          "Set up six stations with familiar materials.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep water shallow, play money large and floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: counts to 20 and counts objects; names numerals; names five shapes; compares measures; uses play money; solves number stories.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite station.",
+            "expected": "Child chooses a station."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an end-of-year observation record",
+        "Shows familiar skills at stations"
+      ],
+      "conclusion": "Say well done to everyone and wave goodbye.",
+      "homeConnection": "Play a favourite maths game at home during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s end-of-year numeracy at a small maths fair\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Maths fair"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W10-D04",
+      "title": "Maths celebration",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 10,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Revision and assessment",
+      "subtopic": "Celebration and end-of-year record",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate the year with number songs and games and show their work to visitors."
+      ],
+      "successCriteria": [
+        "Joins in songs and games",
+        "Shows something they enjoyed to an adult"
+      ],
+      "previousKnowledge": "Children have learnt number, shape, measure, time, data, money, position and number stories this year.",
+      "vocabulary": [
+        "count",
+        "shape",
+        "pattern",
+        "measure",
+        "add",
+        "money"
+      ],
+      "resources": [
+        "Favourite number songs",
+        "Children’s graphs, shape pictures and patterns",
+        "Certificates or stickers",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate everything we counted, measured and made. Let us sing our favourite number songs.\"",
+      "teacherActivities": [
+        "Sing favourite number rhymes with actions.",
+        "Invite children to show their work to a visitor or parent.",
+        "Give each child a sticker or certificate and say their name."
+      ],
+      "learnerActivities": [
+        "Children sing and do actions.",
+        "Child shows their work.",
+        "Child waves and says thank you."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite number rhymes with actions. Children: Children sing and do actions.",
+        "Step 2. Teacher: Invite children to show their work to a visitor or parent. Children: Child shows their work.",
+        "Step 3. Teacher: Give each child a sticker or certificate and say their name. Children: Child waves and says thank you."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle with visitors.",
+          "Sing and share work.",
+          "Hand out certificates or stickers."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Supervise visitors and keep floors clear."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and share their work together.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s end-of-year numeracy record from the year’s observations. Note the highest number counted accurately, a strength and a next step for Nursery 2.",
+        "questions": [
+          {
+            "question": "What is your favourite thing?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "What can you count to?",
+            "expected": "The highest number."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed end-of-year record",
+        "Enjoys the celebration"
+      ],
+      "conclusion": "Wave goodbye and say \"See you in Nursery 2.\"",
+      "homeConnection": "Keep counting, measuring and noticing shapes over the holiday.",
+      "teacherReflection": [
+        "Which children could show \"celebrate the year with number songs and games and show their work to visitors\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE",
+          "THANK YOU"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W10-D05",
+      "title": "Transition note and records",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 10,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Revision and assessment",
+      "subtopic": "Celebration and end-of-year record",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will complete a transition note for each child for the Nursery 2 teacher."
+      ],
+      "successCriteria": [
+        "Records what each child can do",
+        "Records a next step"
+      ],
+      "previousKnowledge": "Children have learnt number, shape, measure, time, data, money, position and number stories this year.",
+      "vocabulary": [
+        "count",
+        "shape",
+        "pattern",
+        "measure",
+        "add",
+        "money"
+      ],
+      "resources": [
+        "Transition note template",
+        "Term records",
+        "Children’s portfolios",
+        "A quiet table"
+      ],
+      "starter": "Today the children enjoy free play with familiar materials while the teacher completes the transition notes.",
+      "teacherActivities": [
+        "Set out free play with blocks, shapes, a play market and number games.",
+        "Review each child’s three term records and portfolio.",
+        "Complete the note: strengths, counting range, shapes, measures, problem solving and next steps."
+      ],
+      "learnerActivities": [
+        "Children play freely and happily.",
+        "Children play while the teacher reviews.",
+        "Children play and talk with the helper."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set out free play with blocks, shapes, a play market and number games. Children: Children play freely and happily.",
+        "Step 2. Teacher: Review each child’s three term records and portfolio. Children: Children play while the teacher reviews.",
+        "Step 3. Teacher: Complete the note: strengths, counting range, shapes, measures, problem solving and next steps. Children: Children play and talk with the helper."
+      ],
+      "practical": {
+        "title": "Free play and records",
+        "steps": [
+          "Set out four play areas with a helper.",
+          "The teacher reviews records at a quiet table.",
+          "The teacher completes each transition note."
+        ],
+        "safety": "A second adult must supervise play while the teacher completes the notes. Keep all areas safe and tidy."
+      },
+      "differentiation": {
+        "support": "Offer familiar toys and a helper nearby.",
+        "extension": "Ask a confident child to help a friend tidy up."
+      },
+      "assessment": {
+        "method": "Write for each child: how far they count; numeral recognition; use of more, fewer, one more and one less; joining and taking away; shapes and patterns; measures; interests; any support needed; and a next step. Use the four-level scale and facts you have seen.",
+        "questions": [
+          {
+            "question": "What do you like to play?",
+            "expected": "A favourite game or toy."
+          },
+          {
+            "question": "What did you enjoy this year?",
+            "expected": "A game, number or song."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a transition note for each child",
+        "Plays happily in familiar activities"
+      ],
+      "conclusion": "Tidy up together and say goodbye to the year.",
+      "homeConnection": "Share the end-of-year report with your child and keep counting together.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will complete a transition note for each child for the Nursery 2 teacher\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "THANK YOU"
+        ],
+        "pictures": [
+          "Children playing happily"
+        ]
+      },
+      "activities": [
+        "Free play and records"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

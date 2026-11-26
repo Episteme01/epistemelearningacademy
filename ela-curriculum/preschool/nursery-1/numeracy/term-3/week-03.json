@@ -1,0 +1,602 @@
+{
+  "id": "ELA-PS-N1-NUM-T3-W03",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 3,
+  "title": "Days and time",
+  "topic": "Time",
+  "subtopics": [
+    "Morning, afternoon and night",
+    "Days of the week",
+    "Yesterday, today and tomorrow"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will name parts of the day and days of the week.",
+    "Children will use yesterday, today and tomorrow."
+  ],
+  "vocabulary": [
+    "morning",
+    "afternoon",
+    "night",
+    "today",
+    "yesterday",
+    "tomorrow"
+  ],
+  "content": "Morning, afternoon and night, days of the week, and yesterday, today and tomorrow.",
+  "teachingActivities": "Link time words to the school day and family routines; use a daily timetable with pictures; sing the days of the week song; use a calendar and turn a page each day; keep each idea concrete (what we did yesterday).",
+  "learnerActivities": "Name parts of the day and days of the week and say yesterday, today and tomorrow.",
+  "resources": [
+    "A daily picture timetable",
+    "Days of the week cards",
+    "A calendar",
+    "A sun and moon picture",
+    "Pictures of morning, afternoon and night routines"
+  ],
+  "assessment": "Observe whether each child names parts of the day and says today and tomorrow correctly with support.",
+  "expectedOutcomes": [
+    "Names parts of the day.",
+    "Says today and tomorrow correctly with support."
+  ],
+  "crossCurricular": [
+    "Literacy: the days song",
+    "Science: day and night",
+    "Social Habits: routines"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T3-W03-D01",
+      "title": "Morning, afternoon and night",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 3,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Time",
+      "subtopic": "Morning, afternoon and night",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will name morning, afternoon and night and say what we do in each."
+      ],
+      "successCriteria": [
+        "Names parts of the day",
+        "Matches activities to the time of day"
+      ],
+      "previousKnowledge": "Children can compare weight and capacity.",
+      "vocabulary": [
+        "morning",
+        "afternoon",
+        "night",
+        "today",
+        "yesterday",
+        "tomorrow"
+      ],
+      "resources": [
+        "Pictures: waking up, school, lunch, sleeping",
+        "A sun and a moon",
+        "A timetable"
+      ],
+      "starter": "Show a sun picture and say \"In the morning we wake up. In the afternoon we play. At night we sleep.\"",
+      "teacherActivities": [
+        "Show each picture and say the time of day.",
+        "Ask \"What do we do in the morning?\"",
+        "Put activity pictures under the right time.",
+        "Sing a song about the day."
+      ],
+      "learnerActivities": [
+        "Children repeat morning, afternoon or night.",
+        "Child says wake up or go to school.",
+        "Child places a picture.",
+        "Children sing with actions."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each picture and say the time of day. Children: Children repeat morning, afternoon or night.",
+        "Step 2. Teacher: Ask \"What do we do in the morning?\" Children: Child says wake up or go to school.",
+        "Step 3. Teacher: Put activity pictures under the right time. Children: Child places a picture.",
+        "Step 4. Teacher: Sing a song about the day. Children: Children sing with actions."
+      ],
+      "practical": {
+        "title": "Day pictures",
+        "steps": [
+          "Look at the picture.",
+          "Say the time of day.",
+          "Put it in the right place."
+        ],
+        "safety": "Use gentle pictures and keep the floor clear. Accept different home routines."
+      },
+      "differentiation": {
+        "support": "Sort two times of day only.",
+        "extension": "Ask the child to say what they do in each part of the day."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do at night?",
+            "expected": "We sleep."
+          },
+          {
+            "question": "When do we go to school?",
+            "expected": "In the morning."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names parts of the day",
+        "Matches activities to the time of day"
+      ],
+      "conclusion": "Wave goodbye and say good morning.",
+      "homeConnection": "Talk about your family routine through the day.",
+      "teacherReflection": [
+        "Which children could show \"name morning, afternoon and night and say what we do in each\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MORNING",
+          "AFTERNOON",
+          "NIGHT"
+        ],
+        "pictures": [
+          "A rising sun",
+          "A moon"
+        ]
+      },
+      "activities": [
+        "Day pictures"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W03-D02",
+      "title": "Days of the week",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 3,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Time",
+      "subtopic": "Days of the week",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say the days of the week in order."
+      ],
+      "successCriteria": [
+        "Says the days of the week with support",
+        "Names today"
+      ],
+      "previousKnowledge": "Children can compare weight and capacity.",
+      "vocabulary": [
+        "morning",
+        "afternoon",
+        "night",
+        "today",
+        "yesterday",
+        "tomorrow"
+      ],
+      "resources": [
+        "Days of the week cards",
+        "A calendar",
+        "A days song"
+      ],
+      "starter": "Sing the days of the week song with a clap for each day.",
+      "teacherActivities": [
+        "Teach the song and show each day card.",
+        "Say \"Seven days make a week.\"",
+        "Put the day cards in order.",
+        "Ask \"What day is it today?\""
+      ],
+      "learnerActivities": [
+        "Children sing and point.",
+        "Children count seven days.",
+        "Child places a card.",
+        "Child says the day."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Teach the song and show each day card. Children: Children sing and point.",
+        "Step 2. Teacher: Say \"Seven days make a week.\" Children: Children count seven days.",
+        "Step 3. Teacher: Put the day cards in order. Children: Child places a card.",
+        "Step 4. Teacher: Ask \"What day is it today?\" Children: Child says the day."
+      ],
+      "practical": {
+        "title": "Days in order",
+        "steps": [
+          "Look at the day cards.",
+          "Put them in order.",
+          "Say the days."
+        ],
+        "safety": "Keep cards on a mat and supervise sharing. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Use three days and say them together.",
+        "extension": "Ask the child to say the days of a whole week without cards."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What day is it today?",
+            "expected": "Today’s day."
+          },
+          {
+            "question": "How many days in a week?",
+            "expected": "Seven."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says the days of the week with support",
+        "Names today"
+      ],
+      "conclusion": "Sing the song once more and wave.",
+      "homeConnection": "Say the days of the week at the start of each day.",
+      "teacherReflection": [
+        "Which children could show \"say the days of the week in order\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MONDAY",
+          "FRIDAY",
+          "SUNDAY"
+        ],
+        "pictures": [
+          "A calendar"
+        ],
+        "songOrRhyme": "Seven days in a week, Monday, Tuesday, Wednesday."
+      },
+      "activities": [
+        "Days in order"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W03-D03",
+      "title": "Yesterday, today and tomorrow",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 3,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Time",
+      "subtopic": "Yesterday, today and tomorrow",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say what happened yesterday, what happens today and what will happen tomorrow."
+      ],
+      "successCriteria": [
+        "Says yesterday, today and tomorrow",
+        "Matches an activity to the right word"
+      ],
+      "previousKnowledge": "Children can compare weight and capacity.",
+      "vocabulary": [
+        "morning",
+        "afternoon",
+        "night",
+        "today",
+        "yesterday",
+        "tomorrow"
+      ],
+      "resources": [
+        "A calendar",
+        "Pictures of class activities",
+        "Three baskets: yesterday, today, tomorrow"
+      ],
+      "starter": "Say \"Yesterday we sang. Today we count. Tomorrow we play.\"",
+      "teacherActivities": [
+        "Show the calendar and point to yesterday, today and tomorrow.",
+        "Talk about what we did yesterday.",
+        "Talk about what we will do tomorrow.",
+        "Sort pictures into the three baskets."
+      ],
+      "learnerActivities": [
+        "Children look and say the words.",
+        "Child says something from yesterday.",
+        "Child says something for tomorrow.",
+        "Child sorts a picture."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the calendar and point to yesterday, today and tomorrow. Children: Children look and say the words.",
+        "Step 2. Teacher: Talk about what we did yesterday. Children: Child says something from yesterday.",
+        "Step 3. Teacher: Talk about what we will do tomorrow. Children: Child says something for tomorrow.",
+        "Step 4. Teacher: Sort pictures into the three baskets. Children: Child sorts a picture."
+      ],
+      "practical": {
+        "title": "Three days",
+        "steps": [
+          "Look at the calendar.",
+          "Say what we did yesterday.",
+          "Say what we will do tomorrow."
+        ],
+        "safety": "Keep the sorting seated and gentle. Accept every child’s idea."
+      },
+      "differentiation": {
+        "support": "Talk about today and tomorrow only.",
+        "extension": "Ask the child to say what day it was yesterday."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What day is tomorrow?",
+            "expected": "The next day."
+          },
+          {
+            "question": "What did we do yesterday?",
+            "expected": "An activity from yesterday."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says yesterday, today and tomorrow",
+        "Matches activities to the right word"
+      ],
+      "conclusion": "Say \"See you tomorrow\" and wave.",
+      "homeConnection": "Talk about yesterday, today and tomorrow at bedtime.",
+      "teacherReflection": [
+        "Which children could show \"say what happened yesterday, what happens today and what will happen tomorrow\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "YESTERDAY",
+          "TODAY",
+          "TOMORROW"
+        ],
+        "pictures": [
+          "A calendar with three days marked"
+        ]
+      },
+      "activities": [
+        "Three days"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W03-D04",
+      "title": "Our week",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 3,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Time",
+      "subtopic": "Days of the week",
+      "dayType": "apply",
+      "objectives": [
+        "Children will make a picture week showing what happens on each day."
+      ],
+      "successCriteria": [
+        "Places activities on days",
+        "Says what happens on a day"
+      ],
+      "previousKnowledge": "Children can compare weight and capacity.",
+      "vocabulary": [
+        "morning",
+        "afternoon",
+        "night",
+        "today",
+        "yesterday",
+        "tomorrow"
+      ],
+      "resources": [
+        "A large week chart with seven boxes",
+        "Activity pictures",
+        "Glue or sticky tack"
+      ],
+      "starter": "Show a blank week chart and say \"Let us fill in what we do each day.\"",
+      "teacherActivities": [
+        "Name each day and talk about what we do.",
+        "Place picture cards in the day boxes.",
+        "Read the chart together.",
+        "Ask \"What do we do on Friday?\""
+      ],
+      "learnerActivities": [
+        "Children say an activity.",
+        "Child places a picture.",
+        "Children say the days and activities.",
+        "Child says the activity."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Name each day and talk about what we do. Children: Children say an activity.",
+        "Step 2. Teacher: Place picture cards in the day boxes. Children: Child places a picture.",
+        "Step 3. Teacher: Read the chart together. Children: Children say the days and activities.",
+        "Step 4. Teacher: Ask \"What do we do on Friday?\" Children: Child says the activity."
+      ],
+      "practical": {
+        "title": "Week chart",
+        "steps": [
+          "Look at the chart.",
+          "Choose a picture.",
+          "Place it on a day."
+        ],
+        "safety": "Use sticky tack that is safe and keep it away from mouths. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Fill in three days with the child.",
+        "extension": "Ask the child to say what comes after Wednesday."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What do we do on Friday?",
+            "expected": "A Friday activity."
+          },
+          {
+            "question": "What day comes after Monday?",
+            "expected": "Tuesday."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Places activities on days",
+        "Says what happens on a day"
+      ],
+      "conclusion": "Hang the chart and say the days.",
+      "homeConnection": "Make a picture week at home.",
+      "teacherReflection": [
+        "Which children could show \"make a picture week showing what happens on each day\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WEEK",
+          "CHART"
+        ],
+        "pictures": [
+          "A picture week chart"
+        ]
+      },
+      "activities": [
+        "Week chart"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W03-D05",
+      "title": "Week 3 time check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 3,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Time",
+      "subtopic": "Yesterday, today and tomorrow",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child uses time words."
+      ],
+      "successCriteria": [
+        "Names parts of the day",
+        "Says today and tomorrow correctly"
+      ],
+      "previousKnowledge": "Children can compare weight and capacity.",
+      "vocabulary": [
+        "morning",
+        "afternoon",
+        "night",
+        "today",
+        "yesterday",
+        "tomorrow"
+      ],
+      "resources": [
+        "Timetable",
+        "Calendar",
+        "Class record sheet"
+      ],
+      "starter": "Sing the days song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: parts of the day, days and yesterday today tomorrow.",
+        "At each station ask a time question and watch.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers with a word.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: parts of the day, days and yesterday today tomorrow. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask a time question and watch. Children: Child answers with a word.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Time stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Accept different home routines."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use morning and night.",
+        "extension": "Ask a confident child to say the days in order."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: names parts of the day; says days of the week; says yesterday, today and tomorrow; matches activities to times.",
+        "questions": [
+          {
+            "question": "What day is it today?",
+            "expected": "Today’s day."
+          },
+          {
+            "question": "When do we sleep?",
+            "expected": "At night."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Uses time words with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep using time words at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child uses time words\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Time"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Time stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

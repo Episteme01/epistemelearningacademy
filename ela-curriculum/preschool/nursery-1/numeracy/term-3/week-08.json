@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-N1-NUM-T3-W08",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 8,
+  "title": "Where is it?",
+  "topic": "Position",
+  "subtopics": [
+    "Over, under and next to",
+    "Left and right",
+    "Giving directions"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will use position words.",
+    "Children will follow and give simple directions."
+  ],
+  "vocabulary": [
+    "over",
+    "under",
+    "next to",
+    "left",
+    "right",
+    "between"
+  ],
+  "content": "Over, under and next to, left and right, and giving directions.",
+  "teachingActivities": "Use the children’s own bodies and real objects; play games such as hide the toy; teach left and right with a wristband on the right hand and a song; keep directions to two steps; let children give directions to friends.",
+  "learnerActivities": "Use position words and follow and give simple directions.",
+  "resources": [
+    "A teddy and a box",
+    "A bench and a chair",
+    "A wristband or ribbon",
+    "Cones",
+    "A treasure map picture"
+  ],
+  "assessment": "Observe whether each child places an object on, under and next to something and follows a two-step direction.",
+  "expectedOutcomes": [
+    "Places an object on, under and next to.",
+    "Follows a two-step direction."
+  ],
+  "crossCurricular": [
+    "Physical Development: movement and balance",
+    "Literacy: position words",
+    "Social Habits: giving and following directions"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T3-W08-D01",
+      "title": "Over, under and next to",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 8,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Position",
+      "subtopic": "Over, under and next to",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will use the words over, under, next to, on and in."
+      ],
+      "successCriteria": [
+        "Places a toy over, under and next to a box",
+        "Says the position word"
+      ],
+      "previousKnowledge": "Children have learnt counting, comparing, shapes, time, graphs and money.",
+      "vocabulary": [
+        "over",
+        "under",
+        "next to",
+        "left",
+        "right",
+        "between"
+      ],
+      "resources": [
+        "A teddy",
+        "A box and a chair",
+        "A bench"
+      ],
+      "starter": "Put a teddy under a chair and say \"The teddy is under the chair.\"",
+      "teacherActivities": [
+        "Move the teddy over, under, in and next to a box.",
+        "Ask \"Where is the teddy?\"",
+        "Let children place the teddy where you say.",
+        "Move their own bodies over and under the bench."
+      ],
+      "learnerActivities": [
+        "Children say each position word.",
+        "Child says where it is.",
+        "Child places the teddy.",
+        "Children crawl under and step over."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Move the teddy over, under, in and next to a box. Children: Children say each position word.",
+        "Step 2. Teacher: Ask \"Where is the teddy?\" Children: Child says where it is.",
+        "Step 3. Teacher: Let children place the teddy where you say. Children: Child places the teddy.",
+        "Step 4. Teacher: Move their own bodies over and under the bench. Children: Children crawl under and step over."
+      ],
+      "practical": {
+        "title": "Where is the teddy?",
+        "steps": [
+          "Take the teddy.",
+          "Put it where the teacher says.",
+          "Say where it is."
+        ],
+        "safety": "Keep benches low and crawling areas clear and soft. Supervise closely and never let children climb on furniture."
+      },
+      "differentiation": {
+        "support": "Use two position words and move together.",
+        "extension": "Ask the child to give position directions to a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where is the teddy?",
+            "expected": "Under the chair."
+          },
+          {
+            "question": "Is it on the box or in the box?",
+            "expected": "On or in."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses position words",
+        "Places an object where told"
+      ],
+      "conclusion": "Put the teddy in a box and say goodnight.",
+      "homeConnection": "Play hide the toy at home and say where it is.",
+      "teacherReflection": [
+        "Which children could show \"use the words over, under, next to, on and in\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "OVER",
+          "UNDER",
+          "NEXT TO"
+        ],
+        "pictures": [
+          "A teddy and a box"
+        ]
+      },
+      "activities": [
+        "Where is the teddy?"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W08-D02",
+      "title": "Left and right",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 8,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Position",
+      "subtopic": "Left and right",
+      "dayType": "explore",
+      "objectives": [
+        "Children will learn left and right using their own hands."
+      ],
+      "successCriteria": [
+        "Shows their left and right hands",
+        "Follows a left or right instruction"
+      ],
+      "previousKnowledge": "Children have learnt counting, comparing, shapes, time, graphs and money.",
+      "vocabulary": [
+        "over",
+        "under",
+        "next to",
+        "left",
+        "right",
+        "between"
+      ],
+      "resources": [
+        "A ribbon for the right hand",
+        "Cones",
+        "A left and right song"
+      ],
+      "starter": "Put a ribbon on each child’s right hand and say \"This is your right hand. The other is your left.\"",
+      "teacherActivities": [
+        "Show right and left hands and say the words.",
+        "Sing a left and right song with actions.",
+        "Say \"Step to the left\" or \"Step to the right\".",
+        "Remove the ribbons and try again."
+      ],
+      "learnerActivities": [
+        "Children raise the right and left hand.",
+        "Children sing and move.",
+        "Children step left or right.",
+        "Child tries without ribbons."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show right and left hands and say the words. Children: Children raise the right and left hand.",
+        "Step 2. Teacher: Sing a left and right song with actions. Children: Children sing and move.",
+        "Step 3. Teacher: Say \"Step to the left\" or \"Step to the right\". Children: Children step left or right.",
+        "Step 4. Teacher: Remove the ribbons and try again. Children: Child tries without ribbons."
+      ],
+      "practical": {
+        "title": "Left and right moves",
+        "steps": [
+          "Hold up your right hand.",
+          "Step left.",
+          "Step right."
+        ],
+        "safety": "Leave plenty of space between children and keep the floor clear. Accept that left and right take time to learn."
+      },
+      "differentiation": {
+        "support": "Use the ribbon on the right hand throughout.",
+        "extension": "Ask the child to point to something on their left."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which is your right hand?",
+            "expected": "The right hand."
+          },
+          {
+            "question": "Step to the left.",
+            "expected": "The child steps left."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows left and right hands",
+        "Follows left and right instructions"
+      ],
+      "conclusion": "Wave with your right hand and then your left.",
+      "homeConnection": "Play left and right games at home.",
+      "teacherReflection": [
+        "Which children could show \"learn left and right using their own hands\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "pictures": [
+          "A child with a ribbon on the right hand"
+        ],
+        "songOrRhyme": "Left foot, right foot, step along."
+      },
+      "activities": [
+        "Left and right moves"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W08-D03",
+      "title": "Giving directions",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 8,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Position",
+      "subtopic": "Giving directions",
+      "dayType": "practise",
+      "objectives": [
+        "Children will follow and give simple directions around the classroom."
+      ],
+      "successCriteria": [
+        "Follows a two-step direction",
+        "Gives a direction to a friend"
+      ],
+      "previousKnowledge": "Children have learnt counting, comparing, shapes, time, graphs and money.",
+      "vocabulary": [
+        "over",
+        "under",
+        "next to",
+        "left",
+        "right",
+        "between"
+      ],
+      "resources": [
+        "Cones",
+        "A toy to find",
+        "A simple map picture"
+      ],
+      "starter": "Say \"Walk forward two steps and turn right. What do you find?\"",
+      "teacherActivities": [
+        "Give a two-step direction and let a child follow it.",
+        "Let the child find the hidden toy.",
+        "Let children give directions to friends.",
+        "Show a simple map and follow the arrows."
+      ],
+      "learnerActivities": [
+        "Child follows the direction.",
+        "Child finds the toy.",
+        "Child gives a direction.",
+        "Child follows arrows."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Give a two-step direction and let a child follow it. Children: Child follows the direction.",
+        "Step 2. Teacher: Let the child find the hidden toy. Children: Child finds the toy.",
+        "Step 3. Teacher: Let children give directions to friends. Children: Child gives a direction.",
+        "Step 4. Teacher: Show a simple map and follow the arrows. Children: Child follows arrows."
+      ],
+      "practical": {
+        "title": "Treasure hunt",
+        "steps": [
+          "Listen to the directions.",
+          "Walk and turn.",
+          "Find the toy."
+        ],
+        "safety": "Keep the route clear and supervised. Check for hazards and use a safe indoor or outdoor space."
+      },
+      "differentiation": {
+        "support": "Give one-step directions and walk together.",
+        "extension": "Ask the child to give three-step directions."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where did you go first?",
+            "expected": "Forward."
+          },
+          {
+            "question": "Where did you find the toy?",
+            "expected": "Where the map said."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Follows two-step directions",
+        "Gives a direction to a friend"
+      ],
+      "conclusion": "Put the cones away and say well done.",
+      "homeConnection": "Give simple directions at home to find a hidden toy.",
+      "teacherReflection": [
+        "Which children could show \"follow and give simple directions around the classroom\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FORWARD",
+          "TURN"
+        ],
+        "pictures": [
+          "A treasure map"
+        ]
+      },
+      "activities": [
+        "Treasure hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W08-D04",
+      "title": "Position stories",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 8,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Position",
+      "subtopic": "Over, under and next to",
+      "dayType": "apply",
+      "objectives": [
+        "Children will use position words in a simple story and in play."
+      ],
+      "successCriteria": [
+        "Uses position words in play",
+        "Retells where things were"
+      ],
+      "previousKnowledge": "Children have learnt counting, comparing, shapes, time, graphs and money.",
+      "vocabulary": [
+        "over",
+        "under",
+        "next to",
+        "left",
+        "right",
+        "between"
+      ],
+      "resources": [
+        "A toy house, toy animals and furniture",
+        "A story with position words",
+        "A puppet"
+      ],
+      "starter": "Tell a story about a mouse that goes under the table, over the box and next to the cat.",
+      "teacherActivities": [
+        "Act out the story with toys.",
+        "Ask \"Where did the mouse go?\"",
+        "Let children make their own story with toys.",
+        "Retell the story together."
+      ],
+      "learnerActivities": [
+        "Children watch and say the position words.",
+        "Child says where.",
+        "Child plays and tells.",
+        "Children retell with position words."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Act out the story with toys. Children: Children watch and say the position words.",
+        "Step 2. Teacher: Ask \"Where did the mouse go?\" Children: Child says where.",
+        "Step 3. Teacher: Let children make their own story with toys. Children: Child plays and tells.",
+        "Step 4. Teacher: Retell the story together. Children: Children retell with position words."
+      ],
+      "practical": {
+        "title": "Toy story",
+        "steps": [
+          "Choose toys.",
+          "Make them move.",
+          "Say where they go."
+        ],
+        "safety": "Use large toys only and supervise sharing. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Use two or three position words only.",
+        "extension": "Ask the child to tell a story with four position words."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where did the mouse go?",
+            "expected": "Under the table."
+          },
+          {
+            "question": "What was next to the cat?",
+            "expected": "The mouse."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses position words in play",
+        "Retells where things were"
+      ],
+      "conclusion": "Put the toys away and say well done.",
+      "homeConnection": "Tell position stories with toys at bedtime.",
+      "teacherReflection": [
+        "Which children could show \"use position words in a simple story and in play\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "STORY",
+          "WHERE"
+        ],
+        "pictures": [
+          "A toy house with animals"
+        ]
+      },
+      "activities": [
+        "Toy story"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W08-D05",
+      "title": "Week 8 position check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 8,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Position",
+      "subtopic": "Giving directions",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child uses position words and directions."
+      ],
+      "successCriteria": [
+        "Uses over, under and next to",
+        "Follows a two-step direction"
+      ],
+      "previousKnowledge": "Children have learnt counting, comparing, shapes, time, graphs and money.",
+      "vocabulary": [
+        "over",
+        "under",
+        "next to",
+        "left",
+        "right",
+        "between"
+      ],
+      "resources": [
+        "Toys",
+        "Cones",
+        "Class record sheet"
+      ],
+      "starter": "Sing the left and right song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: position words, left and right and directions.",
+        "At each station ask \"Where is it?\" and watch.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers and moves.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: position words, left and right and directions. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"Where is it?\" and watch. Children: Child answers and moves.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Position stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use soft and low equipment only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use one station.",
+        "extension": "Ask a confident child to give directions to a friend."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: uses position words; shows left and right; follows directions; gives directions.",
+        "questions": [
+          {
+            "question": "Where is the toy?",
+            "expected": "Under or next to something."
+          },
+          {
+            "question": "Which is your left hand?",
+            "expected": "The left hand."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Uses position words and directions with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep using position words at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child uses position words and directions\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Position"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Position stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

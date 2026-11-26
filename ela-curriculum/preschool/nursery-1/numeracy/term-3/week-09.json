@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-N1-NUM-T3-W09",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 9,
+  "title": "Number stories",
+  "topic": "Consolidation",
+  "subtopics": [
+    "Adding story problems",
+    "Taking away story problems",
+    "Making up our own story"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will solve simple number stories with objects.",
+    "Children will make up a number story."
+  ],
+  "vocabulary": [
+    "story",
+    "join",
+    "left",
+    "altogether",
+    "how many",
+    "problem"
+  ],
+  "content": "Adding story problems, taking away story problems, and making up our own story.",
+  "teachingActivities": "Use stories with real objects and children’s own lives (market, school, farm); read each story twice; let children act it out before solving; ask \"Do we join or take away?\"; keep totals to 5 and extend to 10 for confident children; celebrate different ways of solving.",
+  "learnerActivities": "Solve simple number stories with objects and make up a number story.",
+  "resources": [
+    "Counters and toy animals",
+    "Story cards with pictures",
+    "A puppet",
+    "A farm, market and school set",
+    "A number line"
+  ],
+  "assessment": "Observe whether each child solves a story problem to 5 with objects and tells a simple story.",
+  "expectedOutcomes": [
+    "Solves a story problem to 5 with objects.",
+    "Tells a simple number story."
+  ],
+  "crossCurricular": [
+    "Literacy: story language",
+    "Social Habits: working with a partner",
+    "Science: animals and plants"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T3-W09-D01",
+      "title": "Adding stories",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 9,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Adding story problems",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will solve stories where two groups join together."
+      ],
+      "successCriteria": [
+        "Solves an adding story with objects",
+        "Says how many altogether"
+      ],
+      "previousKnowledge": "Children can join and take away to 5, count to 20 and use money and position words.",
+      "vocabulary": [
+        "story",
+        "join",
+        "left",
+        "altogether",
+        "how many",
+        "problem"
+      ],
+      "resources": [
+        "Toy animals",
+        "A farm picture",
+        "Counters"
+      ],
+      "starter": "Tell a story: \"Three goats are in the field. Two more goats come. How many goats now?\"",
+      "teacherActivities": [
+        "Act out the story with toy goats.",
+        "Join the goats and count all.",
+        "Say \"Three and two make five.\"",
+        "Tell a new story for children to solve."
+      ],
+      "learnerActivities": [
+        "Children watch and count.",
+        "Children count all the goats.",
+        "Children repeat the sentence.",
+        "Child solves with objects."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Act out the story with toy goats. Children: Children watch and count.",
+        "Step 2. Teacher: Join the goats and count all. Children: Children count all the goats.",
+        "Step 3. Teacher: Say \"Three and two make five.\" Children: Children repeat the sentence.",
+        "Step 4. Teacher: Tell a new story for children to solve. Children: Child solves with objects."
+      ],
+      "practical": {
+        "title": "Farm adding stories",
+        "steps": [
+          "Listen to the story.",
+          "Act it with toys.",
+          "Count all."
+        ],
+        "safety": "Use large toy animals and supervise sharing. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Use groups of one, two and three.",
+        "extension": "Ask the child to solve a story with a total of ten."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many goats now?",
+            "expected": "The total."
+          },
+          {
+            "question": "Did we join or take away?",
+            "expected": "Join."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Solves an adding story",
+        "Says how many altogether"
+      ],
+      "conclusion": "Put the animals away and say altogether.",
+      "homeConnection": "Tell an adding story with toys at home.",
+      "teacherReflection": [
+        "Which children could show \"solve stories where two groups join together\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GOATS",
+          "JOIN"
+        ],
+        "pictures": [
+          "Toy goats on a farm"
+        ]
+      },
+      "activities": [
+        "Farm adding stories"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W09-D02",
+      "title": "Taking away stories",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 9,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Taking away story problems",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will solve stories where some are taken away."
+      ],
+      "successCriteria": [
+        "Solves a taking away story with objects",
+        "Says how many are left"
+      ],
+      "previousKnowledge": "Children can join and take away to 5, count to 20 and use money and position words.",
+      "vocabulary": [
+        "story",
+        "join",
+        "left",
+        "altogether",
+        "how many",
+        "problem"
+      ],
+      "resources": [
+        "Toy birds",
+        "A tree made of card",
+        "Counters"
+      ],
+      "starter": "Tell a story: \"Five birds are in the tree. Two fly away. How many birds are left?\"",
+      "teacherActivities": [
+        "Act out the story with toy birds.",
+        "Take two birds away and count what is left.",
+        "Say \"Five take away two leaves three.\"",
+        "Tell a new story for children to solve."
+      ],
+      "learnerActivities": [
+        "Children watch and count.",
+        "Children count the birds left.",
+        "Children repeat the sentence.",
+        "Child solves with objects."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Act out the story with toy birds. Children: Children watch and count.",
+        "Step 2. Teacher: Take two birds away and count what is left. Children: Children count the birds left.",
+        "Step 3. Teacher: Say \"Five take away two leaves three.\" Children: Children repeat the sentence.",
+        "Step 4. Teacher: Tell a new story for children to solve. Children: Child solves with objects."
+      ],
+      "practical": {
+        "title": "Bird stories",
+        "steps": [
+          "Listen to the story.",
+          "Act it with toys.",
+          "Count what is left."
+        ],
+        "safety": "Use large toys only and supervise closely. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Use groups of two, three and four.",
+        "extension": "Ask the child to solve a story that starts with eight."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many birds are left?",
+            "expected": "The number left."
+          },
+          {
+            "question": "Did we join or take away?",
+            "expected": "Take away."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Solves a taking away story",
+        "Says how many are left"
+      ],
+      "conclusion": "Put the birds away and say left.",
+      "homeConnection": "Tell a taking away story with toys at home.",
+      "teacherReflection": [
+        "Which children could show \"solve stories where some are taken away\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BIRDS",
+          "LEFT"
+        ],
+        "pictures": [
+          "Toy birds in a tree"
+        ]
+      },
+      "activities": [
+        "Bird stories"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W09-D03",
+      "title": "Join or take away?",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 9,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Adding story problems",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will decide whether a story is about joining or taking away."
+      ],
+      "successCriteria": [
+        "Says join or take away",
+        "Solves the story"
+      ],
+      "previousKnowledge": "Children can join and take away to 5, count to 20 and use money and position words.",
+      "vocabulary": [
+        "story",
+        "join",
+        "left",
+        "altogether",
+        "how many",
+        "problem"
+      ],
+      "resources": [
+        "Story cards",
+        "Counters",
+        "Two baskets: join and take away"
+      ],
+      "starter": "Read two stories and ask \"Which story is about joining? Which is about taking away?\"",
+      "teacherActivities": [
+        "Read a story and ask whether we join or take away.",
+        "Solve the story with counters.",
+        "Sort story cards into the two baskets.",
+        "Check the answers together."
+      ],
+      "learnerActivities": [
+        "Children say join or take away.",
+        "Child solves the story.",
+        "Child sorts a story card.",
+        "Children check by counting."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Read a story and ask whether we join or take away. Children: Children say join or take away.",
+        "Step 2. Teacher: Solve the story with counters. Children: Child solves the story.",
+        "Step 3. Teacher: Sort story cards into the two baskets. Children: Child sorts a story card.",
+        "Step 4. Teacher: Check the answers together. Children: Children check by counting."
+      ],
+      "practical": {
+        "title": "Join or take away sort",
+        "steps": [
+          "Read a story card.",
+          "Decide join or take away.",
+          "Solve it with counters."
+        ],
+        "safety": "Use large counters and supervise closely. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Use stories with picture clues.",
+        "extension": "Ask the child to make a story card for a friend."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is this a joining story?",
+            "expected": "Yes or no."
+          },
+          {
+            "question": "What is the answer?",
+            "expected": "The number."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Decides join or take away",
+        "Solves the story with counters"
+      ],
+      "conclusion": "Put the cards away and say well done.",
+      "homeConnection": "Make up join and take away stories at home.",
+      "teacherReflection": [
+        "Which children could show \"decide whether a story is about joining or taking away\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "JOIN",
+          "TAKE AWAY"
+        ],
+        "pictures": [
+          "Story cards"
+        ]
+      },
+      "activities": [
+        "Join or take away sort"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W09-D04",
+      "title": "Our own number stories",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 9,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Making up our own story",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will make up their own number story and solve a friend’s story."
+      ],
+      "successCriteria": [
+        "Makes up a number story",
+        "Solves a friend’s story"
+      ],
+      "previousKnowledge": "Children can join and take away to 5, count to 20 and use money and position words.",
+      "vocabulary": [
+        "story",
+        "join",
+        "left",
+        "altogether",
+        "how many",
+        "problem"
+      ],
+      "resources": [
+        "Toys and counters",
+        "A puppet",
+        "Paper and crayons"
+      ],
+      "starter": "Say \"Today you are story makers. Make a number story for your friend.\"",
+      "teacherActivities": [
+        "Show how to make up a story with toys.",
+        "Let pairs make a story together.",
+        "Let pairs tell their story and ask friends to solve it.",
+        "Draw a picture of the story."
+      ],
+      "learnerActivities": [
+        "Children watch and listen.",
+        "Pairs make a story.",
+        "Class solves the story.",
+        "Child draws the story."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to make up a story with toys. Children: Children watch and listen.",
+        "Step 2. Teacher: Let pairs make a story together. Children: Pairs make a story.",
+        "Step 3. Teacher: Let pairs tell their story and ask friends to solve it. Children: Class solves the story.",
+        "Step 4. Teacher: Draw a picture of the story. Children: Child draws the story."
+      ],
+      "practical": {
+        "title": "Story makers",
+        "steps": [
+          "Choose toys.",
+          "Make a number story.",
+          "Ask a friend to solve it."
+        ],
+        "safety": "Use large toys only and supervise sharing. Keep crayons away from mouths."
+      },
+      "differentiation": {
+        "support": "Make a story together with two toys.",
+        "extension": "Ask the child to write the story with numerals."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is your story?",
+            "expected": "A number story."
+          },
+          {
+            "question": "What is the answer?",
+            "expected": "The number."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes up a number story",
+        "Solves a friend’s story"
+      ],
+      "conclusion": "Display the pictures and say well done.",
+      "homeConnection": "Make up number stories with your child.",
+      "teacherReflection": [
+        "Which children could show \"make up their own number story and solve a friend’s story\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MY STORY",
+          "SOLVE"
+        ],
+        "pictures": [
+          "Children making stories"
+        ]
+      },
+      "activities": [
+        "Story makers"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W09-D05",
+      "title": "Week 9 number stories check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 9,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Making up our own story",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child solves and tells number stories."
+      ],
+      "successCriteria": [
+        "Solves a story problem to 5",
+        "Tells a simple number story"
+      ],
+      "previousKnowledge": "Children can join and take away to 5, count to 20 and use money and position words.",
+      "vocabulary": [
+        "story",
+        "join",
+        "left",
+        "altogether",
+        "how many",
+        "problem"
+      ],
+      "resources": [
+        "Toys",
+        "Counters",
+        "Class record sheet"
+      ],
+      "starter": "Sing the counting song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: adding, taking away and making a story.",
+        "At each station tell a story and watch.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child solves with objects.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: adding, taking away and making a story. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station tell a story and watch. Children: Child solves with objects.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Story stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use large toys. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use totals to three.",
+        "extension": "Ask a confident child to solve a story with totals to ten."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: solves adding stories; solves taking away stories; says join or take away; makes up a story.",
+        "questions": [
+          {
+            "question": "What is three and two?",
+            "expected": "Five."
+          },
+          {
+            "question": "What is five take away one?",
+            "expected": "Four."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 9",
+        "Solves number stories with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep telling number stories at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child solves and tells number stories\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Stories"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Story stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

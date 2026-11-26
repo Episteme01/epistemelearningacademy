@@ -1,0 +1,598 @@
+{
+  "id": "ELA-PS-N1-NUM-T3-W05",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 5,
+  "title": "Counting and tallying",
+  "topic": "Consolidation",
+  "subtopics": [
+    "Tally marks",
+    "Counting in fives and tens",
+    "Counting games"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will make tally marks and count them.",
+    "Children will count to 20 with support."
+  ],
+  "vocabulary": [
+    "tally",
+    "mark",
+    "five",
+    "ten",
+    "twenty",
+    "count"
+  ],
+  "content": "Tally marks, counting in fives and tens, and counting games.",
+  "teachingActivities": "Introduce tally marks through a real need such as counting votes or visitors; draw four lines and a cross-line for five; count in fives along tally groups; use a hundred-square or number line for counting to 20; play counting games to build fluency.",
+  "learnerActivities": "Make tally marks for up to 5 and count to 20 with support.",
+  "resources": [
+    "Chalk and boards",
+    "Sticks or lollipop sticks",
+    "A number line to 20",
+    "Counters in tens",
+    "Counting game cards"
+  ],
+  "assessment": "Observe whether each child makes tally marks for up to 5 and counts to 20 with support.",
+  "expectedOutcomes": [
+    "Makes tally marks for up to 5.",
+    "Counts to 20 with support."
+  ],
+  "crossCurricular": [
+    "Literacy: marks and symbols",
+    "Social Habits: voting and fairness",
+    "Physical Development: drawing lines"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T3-W05-D01",
+      "title": "Tally marks",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 5,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Tally marks",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will make tally marks to count things."
+      ],
+      "successCriteria": [
+        "Makes tally marks for up to 5",
+        "Counts the marks"
+      ],
+      "previousKnowledge": "Children can count to 15, order numbers and use ordinal words.",
+      "vocabulary": [
+        "tally",
+        "mark",
+        "five",
+        "ten",
+        "twenty",
+        "count"
+      ],
+      "resources": [
+        "Chalk and boards",
+        "Sticks",
+        "A bucket of balls"
+      ],
+      "starter": "Drop balls into a basket one at a time and say \"Let us make a mark each time. These are tally marks.\"",
+      "teacherActivities": [
+        "Show how to draw one line for each ball.",
+        "Show the fifth line crossing the four.",
+        "Count the marks in fives.",
+        "Let children tally another action such as jumps."
+      ],
+      "learnerActivities": [
+        "Children watch and draw a line.",
+        "Children copy the cross-line.",
+        "Children count the marks.",
+        "Child tallies jumps."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to draw one line for each ball. Children: Children watch and draw a line.",
+        "Step 2. Teacher: Show the fifth line crossing the four. Children: Children copy the cross-line.",
+        "Step 3. Teacher: Count the marks in fives. Children: Children count the marks.",
+        "Step 4. Teacher: Let children tally another action such as jumps. Children: Child tallies jumps."
+      ],
+      "practical": {
+        "title": "Mark and count",
+        "steps": [
+          "Do an action.",
+          "Make a tally mark.",
+          "Count the marks."
+        ],
+        "safety": "Use chalk outdoors or on boards and wash hands afterwards. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Tally to three and count the marks together.",
+        "extension": "Ask the child to tally to ten."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many marks?",
+            "expected": "The number of marks."
+          },
+          {
+            "question": "What is the fifth mark?",
+            "expected": "It crosses the four."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Makes tally marks for up to five",
+        "Counts the marks"
+      ],
+      "conclusion": "Wash hands and say tally.",
+      "homeConnection": "Tally how many cars you see on a walk.",
+      "teacherReflection": [
+        "Which children could show \"make tally marks to count things\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TALLY",
+          "MARKS"
+        ],
+        "pictures": [
+          "Tally marks on a board"
+        ]
+      },
+      "activities": [
+        "Mark and count"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W05-D02",
+      "title": "Counting in fives",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 5,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Counting in fives and tens",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will count groups of five using tally marks and fingers."
+      ],
+      "successCriteria": [
+        "Counts in fives",
+        "Says five, ten, fifteen"
+      ],
+      "previousKnowledge": "Children can count to 15, order numbers and use ordinal words.",
+      "vocabulary": [
+        "tally",
+        "mark",
+        "five",
+        "ten",
+        "twenty",
+        "count"
+      ],
+      "resources": [
+        "Tally boards",
+        "Counters in fives",
+        "A number line to 20"
+      ],
+      "starter": "Show a hand and say \"One hand is five. Two hands are ten.\"",
+      "teacherActivities": [
+        "Count five counters in a group and say five.",
+        "Put another five and say ten.",
+        "Count tally groups in fives.",
+        "Check by counting one by one."
+      ],
+      "learnerActivities": [
+        "Children say five.",
+        "Children say ten.",
+        "Children count five, ten, fifteen.",
+        "Child counts one by one."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Count five counters in a group and say five. Children: Children say five.",
+        "Step 2. Teacher: Put another five and say ten. Children: Children say ten.",
+        "Step 3. Teacher: Count tally groups in fives. Children: Children count five, ten, fifteen.",
+        "Step 4. Teacher: Check by counting one by one. Children: Child counts one by one."
+      ],
+      "practical": {
+        "title": "Fives and tens",
+        "steps": [
+          "Make groups of five.",
+          "Count them in fives.",
+          "Check one by one."
+        ],
+        "safety": "Use large counters and supervise closely. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Count five and ten only.",
+        "extension": "Ask the child to count to fifty in fives."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many in two groups of five?",
+            "expected": "Ten."
+          },
+          {
+            "question": "What comes after ten in fives?",
+            "expected": "Fifteen."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts in fives",
+        "Says five, ten and fifteen"
+      ],
+      "conclusion": "Put the counters away and say fives.",
+      "homeConnection": "Count your fingers and toes in fives.",
+      "teacherReflection": [
+        "Which children could show \"count groups of five using tally marks and fingers\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIVES",
+          "TENS"
+        ],
+        "pictures": [
+          "Groups of five counters"
+        ]
+      },
+      "activities": [
+        "Fives and tens"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W05-D03",
+      "title": "Counting to twenty",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 5,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Counting games",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will say the numbers from 1 to 20 in order with support."
+      ],
+      "successCriteria": [
+        "Says numbers to 20 with support",
+        "Counts objects to 20"
+      ],
+      "previousKnowledge": "Children can count to 15, order numbers and use ordinal words.",
+      "vocabulary": [
+        "tally",
+        "mark",
+        "five",
+        "ten",
+        "twenty",
+        "count"
+      ],
+      "resources": [
+        "A number line to 20",
+        "Counters",
+        "A drum"
+      ],
+      "starter": "Walk along a number line to 20 and say \"Let us count to twenty together.\"",
+      "teacherActivities": [
+        "Count to 20 with a drum beat.",
+        "Count 20 counters in two tens.",
+        "Let children count in pairs.",
+        "Say \"Well done, you can count to twenty.\""
+      ],
+      "learnerActivities": [
+        "Children count with the beat.",
+        "Children count ten then ten more.",
+        "Pairs count to twenty.",
+        "Children clap and cheer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Count to 20 with a drum beat. Children: Children count with the beat.",
+        "Step 2. Teacher: Count 20 counters in two tens. Children: Children count ten then ten more.",
+        "Step 3. Teacher: Let children count in pairs. Children: Pairs count to twenty.",
+        "Step 4. Teacher: Say \"Well done, you can count to twenty.\" Children: Children clap and cheer."
+      ],
+      "practical": {
+        "title": "Walk to twenty",
+        "steps": [
+          "Stand at the start.",
+          "Walk along the number line.",
+          "Say each number."
+        ],
+        "safety": "Keep the number line flat and secured. Walk slowly and one at a time."
+      },
+      "differentiation": {
+        "support": "Count to fifteen with the number line.",
+        "extension": "Ask the child to count backwards from ten."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes after nineteen?",
+            "expected": "Twenty."
+          },
+          {
+            "question": "Count to twenty.",
+            "expected": "The child counts."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts to twenty with support",
+        "Counts objects to twenty"
+      ],
+      "conclusion": "Count to twenty together and wave.",
+      "homeConnection": "Count up to twenty during daily routines.",
+      "teacherReflection": [
+        "Which children could show \"say the numbers from 1 to 20 in order with support\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TWENTY",
+          "COUNT"
+        ],
+        "pictures": [
+          "A number line to 20"
+        ]
+      },
+      "activities": [
+        "Walk to twenty"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W05-D04",
+      "title": "Counting games",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 5,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Counting games",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will play games that practise counting, tallying and numerals."
+      ],
+      "successCriteria": [
+        "Plays a counting game",
+        "Takes turns and counts correctly"
+      ],
+      "previousKnowledge": "Children can count to 15, order numbers and use ordinal words.",
+      "vocabulary": [
+        "tally",
+        "mark",
+        "five",
+        "ten",
+        "twenty",
+        "count"
+      ],
+      "resources": [
+        "Dice with dots",
+        "Counters",
+        "Number cards",
+        "A game board"
+      ],
+      "starter": "Show a dice and say \"We will throw the dice and count the dots.\"",
+      "teacherActivities": [
+        "Show how to throw the dice and count the dots.",
+        "Let each child throw the dice and collect counters.",
+        "Make a tally of the dice throws.",
+        "Count the counters at the end."
+      ],
+      "learnerActivities": [
+        "Children watch and count.",
+        "Child throws and counts.",
+        "Child makes a tally mark.",
+        "Child counts the counters."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to throw the dice and count the dots. Children: Children watch and count.",
+        "Step 2. Teacher: Let each child throw the dice and collect counters. Children: Child throws and counts.",
+        "Step 3. Teacher: Make a tally of the dice throws. Children: Child makes a tally mark.",
+        "Step 4. Teacher: Count the counters at the end. Children: Child counts the counters."
+      ],
+      "practical": {
+        "title": "Dice and count",
+        "steps": [
+          "Throw the dice.",
+          "Count the dots.",
+          "Collect that many counters."
+        ],
+        "safety": "Use large foam dice and keep play on a mat so that nothing rolls away. Supervise turns closely."
+      },
+      "differentiation": {
+        "support": "Use a dice with up to three dots.",
+        "extension": "Ask the child to add two dice."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many dots?",
+            "expected": "The number of dots."
+          },
+          {
+            "question": "How many counters now?",
+            "expected": "The total."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Plays a counting game",
+        "Takes turns and counts correctly"
+      ],
+      "conclusion": "Put the games away and say well done.",
+      "homeConnection": "Play a dice game at home and count the dots.",
+      "teacherReflection": [
+        "Which children could show \"play games that practise counting, tallying and numerals\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "DICE",
+          "DOTS"
+        ],
+        "pictures": [
+          "A foam dice"
+        ]
+      },
+      "activities": [
+        "Dice and count"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W05-D05",
+      "title": "Week 5 tally check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 5,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Counting games",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child tallies and counts to twenty."
+      ],
+      "successCriteria": [
+        "Makes tally marks for up to 5",
+        "Counts to 20 with support"
+      ],
+      "previousKnowledge": "Children can count to 15, order numbers and use ordinal words.",
+      "vocabulary": [
+        "tally",
+        "mark",
+        "five",
+        "ten",
+        "twenty",
+        "count"
+      ],
+      "resources": [
+        "Tally boards",
+        "Counters",
+        "Class record sheet"
+      ],
+      "starter": "Sing the counting song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: tally, fives and dice game.",
+        "At each station ask \"How many?\" and watch.",
+        "Record each child’s level and highest number counted."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child counts and answers.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: tally, fives and dice game. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"How many?\" and watch. Children: Child counts and answers.",
+        "Step 3. Teacher: Record each child’s level and highest number counted. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Tally stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use large counters and foam dice."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use numbers to ten.",
+        "extension": "Ask a confident child to count to thirty."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: makes tally marks; counts in fives; counts to 20; plays counting games.",
+        "questions": [
+          {
+            "question": "How many tally marks?",
+            "expected": "The number of marks."
+          },
+          {
+            "question": "What comes after fifteen?",
+            "expected": "Sixteen."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Tallies and counts with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep counting and tallying at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child tallies and counts to twenty\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Tally"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Tally stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

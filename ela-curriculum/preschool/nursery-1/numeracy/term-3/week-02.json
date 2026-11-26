@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-N1-NUM-T3-W02",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 2,
+  "title": "Full, half and empty",
+  "topic": "Capacity",
+  "subtopics": [
+    "Full and empty",
+    "Half full",
+    "Pouring and filling"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say full, half full and empty.",
+    "Children will fill and pour with cups and jugs."
+  ],
+  "vocabulary": [
+    "full",
+    "empty",
+    "half",
+    "pour",
+    "fill",
+    "cup"
+  ],
+  "content": "Full and empty, half full, and pouring and filling.",
+  "teachingActivities": "Use water, sand and rice outdoors or over a tray; mark half with a line or a sticker; compare tall and wide containers; let children pour, fill and empty at will; say \"full\", \"half full\" and \"empty\"; talk about which holds more.",
+  "learnerActivities": "Say full, half full and empty and fill and pour with cups and jugs.",
+  "resources": [
+    "Clear plastic cups and jugs",
+    "Water tray",
+    "Sand and rice",
+    "Funnels and spoons",
+    "Stickers or tape to mark half"
+  ],
+  "assessment": "Observe whether each child says full or empty and finds a half-full container.",
+  "expectedOutcomes": [
+    "Says full or empty for a container.",
+    "Finds a half-full container."
+  ],
+  "crossCurricular": [
+    "Science: water and materials",
+    "Physical Development: pouring",
+    "Literacy: comparing words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T3-W02-D01",
+      "title": "Full and empty",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 2,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Capacity",
+      "subtopic": "Full and empty",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say full and empty for containers."
+      ],
+      "successCriteria": [
+        "Says full or empty correctly",
+        "Fills a cup"
+      ],
+      "previousKnowledge": "Children can compare weights and use a balance.",
+      "vocabulary": [
+        "full",
+        "empty",
+        "half",
+        "pour",
+        "fill",
+        "cup"
+      ],
+      "resources": [
+        "Clear plastic cups",
+        "A water tray",
+        "A jug of water"
+      ],
+      "starter": "Show a full cup and an empty cup and say \"This cup is full. This cup is empty.\"",
+      "teacherActivities": [
+        "Pour water into a cup until it is full.",
+        "Pour the water out and say empty.",
+        "Let each child fill and empty a cup.",
+        "Ask \"Is it full or empty?\""
+      ],
+      "learnerActivities": [
+        "Children watch and say full.",
+        "Children say empty.",
+        "Child fills and empties a cup.",
+        "Child says full or empty."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pour water into a cup until it is full. Children: Children watch and say full.",
+        "Step 2. Teacher: Pour the water out and say empty. Children: Children say empty.",
+        "Step 3. Teacher: Let each child fill and empty a cup. Children: Child fills and empties a cup.",
+        "Step 4. Teacher: Ask \"Is it full or empty?\" Children: Child says full or empty."
+      ],
+      "practical": {
+        "title": "Fill and empty",
+        "steps": [
+          "Take a cup.",
+          "Fill it with water.",
+          "Pour it out."
+        ],
+        "safety": "Use shallow water in a tray and wipe spills at once. Supervise closely and use a towel on the floor to prevent slipping."
+      },
+      "differentiation": {
+        "support": "Fill the cup together and say full.",
+        "extension": "Ask the child to fill three cups to full."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is this cup full?",
+            "expected": "Yes or no."
+          },
+          {
+            "question": "Is it empty?",
+            "expected": "Yes or no."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says full and empty correctly",
+        "Fills and empties a cup"
+      ],
+      "conclusion": "Dry the tray and say full and empty.",
+      "homeConnection": "Fill and empty cups in the bath or sink.",
+      "teacherReflection": [
+        "Which children could show \"say full and empty for containers\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FULL",
+          "EMPTY"
+        ],
+        "pictures": [
+          "A full cup",
+          "An empty cup"
+        ]
+      },
+      "activities": [
+        "Fill and empty"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W02-D02",
+      "title": "Half full",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 2,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Capacity",
+      "subtopic": "Half full",
+      "dayType": "explore",
+      "objectives": [
+        "Children will find containers that are half full."
+      ],
+      "successCriteria": [
+        "Says half full",
+        "Fills a cup to a line"
+      ],
+      "previousKnowledge": "Children can compare weights and use a balance.",
+      "vocabulary": [
+        "full",
+        "empty",
+        "half",
+        "pour",
+        "fill",
+        "cup"
+      ],
+      "resources": [
+        "Cups marked with a line at half",
+        "A water tray",
+        "A jug"
+      ],
+      "starter": "Show a cup filled to the line and say \"This cup is half full. It is not full and not empty.\"",
+      "teacherActivities": [
+        "Pour water to the line and say half full.",
+        "Compare full, half full and empty cups.",
+        "Let each child fill a cup to the line.",
+        "Ask \"Is it half full?\""
+      ],
+      "learnerActivities": [
+        "Children say half full.",
+        "Children point to each.",
+        "Child fills to the line.",
+        "Child says yes or no."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pour water to the line and say half full. Children: Children say half full.",
+        "Step 2. Teacher: Compare full, half full and empty cups. Children: Children point to each.",
+        "Step 3. Teacher: Let each child fill a cup to the line. Children: Child fills to the line.",
+        "Step 4. Teacher: Ask \"Is it half full?\" Children: Child says yes or no."
+      ],
+      "practical": {
+        "title": "Fill to the line",
+        "steps": [
+          "Take a marked cup.",
+          "Pour water to the line.",
+          "Say half full."
+        ],
+        "safety": "Use shallow water in a tray and wipe spills at once. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Fill to the line together.",
+        "extension": "Ask the child to find half full without a line."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the cup full or half full?",
+            "expected": "Full or half full."
+          },
+          {
+            "question": "What does half mean?",
+            "expected": "In the middle."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says half full",
+        "Fills a cup to a line"
+      ],
+      "conclusion": "Dry the tray and say half full.",
+      "homeConnection": "Fill a cup half full at home.",
+      "teacherReflection": [
+        "Which children could show \"find containers that are half full\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HALF",
+          "FULL"
+        ],
+        "pictures": [
+          "A half full cup"
+        ]
+      },
+      "activities": [
+        "Fill to the line"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W02-D03",
+      "title": "Pouring and filling",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 2,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Capacity",
+      "subtopic": "Pouring and filling",
+      "dayType": "practise",
+      "objectives": [
+        "Children will pour from one container to another and say which holds more."
+      ],
+      "successCriteria": [
+        "Pours without spilling much",
+        "Says which holds more"
+      ],
+      "previousKnowledge": "Children can compare weights and use a balance.",
+      "vocabulary": [
+        "full",
+        "empty",
+        "half",
+        "pour",
+        "fill",
+        "cup"
+      ],
+      "resources": [
+        "Tall and wide containers",
+        "A tray of rice or water",
+        "Funnels and spoons"
+      ],
+      "starter": "Show two containers and say \"Which holds more? Let us pour and find out.\"",
+      "teacherActivities": [
+        "Pour from a small cup into a big jug and count the cups.",
+        "Compare how many cups fill each container.",
+        "Let children pour rice or water between containers.",
+        "Ask \"Which holds more?\""
+      ],
+      "learnerActivities": [
+        "Children count the cups.",
+        "Child says which holds more.",
+        "Child pours carefully.",
+        "Child points to the container."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pour from a small cup into a big jug and count the cups. Children: Children count the cups.",
+        "Step 2. Teacher: Compare how many cups fill each container. Children: Child says which holds more.",
+        "Step 3. Teacher: Let children pour rice or water between containers. Children: Child pours carefully.",
+        "Step 4. Teacher: Ask \"Which holds more?\" Children: Child points to the container."
+      ],
+      "practical": {
+        "title": "Pour and compare",
+        "steps": [
+          "Pour from a cup into a jug.",
+          "Count the cups.",
+          "Say which holds more."
+        ],
+        "safety": "Use a tray for spills and wipe up at once. Keep rice away from mouths and supervise closely."
+      },
+      "differentiation": {
+        "support": "Pour with a funnel and count together.",
+        "extension": "Ask the child to predict before pouring."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which holds more?",
+            "expected": "The bigger container."
+          },
+          {
+            "question": "How many cups fill the jug?",
+            "expected": "The number of cups."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Pours and compares containers",
+        "Says which holds more"
+      ],
+      "conclusion": "Dry the tray and say holds more.",
+      "homeConnection": "Pour water between containers at bath time.",
+      "teacherReflection": [
+        "Which children could show \"pour from one container to another and say which holds more\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "POUR",
+          "HOLDS"
+        ],
+        "pictures": [
+          "A jug and a cup"
+        ]
+      },
+      "activities": [
+        "Pour and compare"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W02-D04",
+      "title": "Water play measuring",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 2,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Capacity",
+      "subtopic": "Pouring and filling",
+      "dayType": "apply",
+      "objectives": [
+        "Children will use cups to fill a bucket and count how many cups it takes."
+      ],
+      "successCriteria": [
+        "Counts cups poured",
+        "Says how many"
+      ],
+      "previousKnowledge": "Children can compare weights and use a balance.",
+      "vocabulary": [
+        "full",
+        "empty",
+        "half",
+        "pour",
+        "fill",
+        "cup"
+      ],
+      "resources": [
+        "A bucket",
+        "A cup",
+        "A tray",
+        "Number cards"
+      ],
+      "starter": "Say \"How many cups of water will fill the bucket? Let us count as we pour.\"",
+      "teacherActivities": [
+        "Pour one cup at a time into the bucket and count.",
+        "Stop when the bucket is full.",
+        "Compare with a smaller bucket.",
+        "Say \"It took ten cups.\""
+      ],
+      "learnerActivities": [
+        "Children count the cups.",
+        "Children say full.",
+        "Child says which needs more.",
+        "Children repeat the number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Pour one cup at a time into the bucket and count. Children: Children count the cups.",
+        "Step 2. Teacher: Stop when the bucket is full. Children: Children say full.",
+        "Step 3. Teacher: Compare with a smaller bucket. Children: Child says which needs more.",
+        "Step 4. Teacher: Say \"It took ten cups.\" Children: Children repeat the number."
+      ],
+      "practical": {
+        "title": "Fill the bucket",
+        "steps": [
+          "Take a cup.",
+          "Pour into the bucket and count.",
+          "Stop when full."
+        ],
+        "safety": "Use a shallow bucket outdoors or on a tray and wipe spills. Supervise closely near water."
+      },
+      "differentiation": {
+        "support": "Pour with the child and count together.",
+        "extension": "Ask the child to find which bucket needs fewer cups."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many cups did it take?",
+            "expected": "The number counted."
+          },
+          {
+            "question": "Which bucket needed more?",
+            "expected": "The bigger one."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts cups to fill a bucket",
+        "Says how many"
+      ],
+      "conclusion": "Empty the bucket outside and say well done.",
+      "homeConnection": "Count cups of water to fill a bowl.",
+      "teacherReflection": [
+        "Which children could show \"use cups to fill a bucket and count how many cups it takes\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BUCKET",
+          "CUPS"
+        ],
+        "pictures": [
+          "A bucket and cups"
+        ]
+      },
+      "activities": [
+        "Fill the bucket"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W02-D05",
+      "title": "Week 2 capacity check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 2,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Capacity",
+      "subtopic": "Half full",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child talks about full, half and empty."
+      ],
+      "successCriteria": [
+        "Says full, half full and empty",
+        "Pours and compares"
+      ],
+      "previousKnowledge": "Children can compare weights and use a balance.",
+      "vocabulary": [
+        "full",
+        "empty",
+        "half",
+        "pour",
+        "fill",
+        "cup"
+      ],
+      "resources": [
+        "Cups",
+        "Water tray",
+        "Class record sheet"
+      ],
+      "starter": "Sing the full and empty song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: full and empty, half full and pouring.",
+        "At each station ask \"Is it full?\" and watch.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers and pours.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: full and empty, half full and pouring. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"Is it full?\" and watch. Children: Child answers and pours.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Capacity stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and wipe spills at once. Use shallow water and towels on the floor."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two cups.",
+        "extension": "Ask a confident child to order three containers by capacity."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says full and empty; finds half full; pours carefully; says which holds more.",
+        "questions": [
+          {
+            "question": "Is it full?",
+            "expected": "Yes or no."
+          },
+          {
+            "question": "Which holds more?",
+            "expected": "The bigger container."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Talks about capacity with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep playing with water and containers at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child talks about full, half and empty\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Capacity"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Capacity stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

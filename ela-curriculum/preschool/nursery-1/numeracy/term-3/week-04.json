@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-N1-NUM-T3-W04",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 3,
+  "week": 4,
+  "title": "First, second and third",
+  "topic": "Ordinal numbers",
+  "subtopics": [
+    "First and last",
+    "Second and third",
+    "Race and queue games"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say first, second, third and last.",
+    "Children will describe the order of a line."
+  ],
+  "vocabulary": [
+    "first",
+    "second",
+    "third",
+    "last",
+    "next",
+    "order"
+  ],
+  "content": "First and last, second and third, and race and queue games.",
+  "teachingActivities": "Use real lines and races where children can see who is first; say \"first, second, third\" aloud; distinguish counting numbers (one, two) from ordinal numbers (first, second); make sure every child gets a turn to be first.",
+  "learnerActivities": "Say first, second, third and last and describe the order of a line.",
+  "resources": [
+    "Toy cars for a race",
+    "A line of children",
+    "Ordinal cards: 1st, 2nd, 3rd",
+    "Ribbons or medals made of card",
+    "A start and finish line"
+  ],
+  "assessment": "Observe whether each child says first and last and second and third with support.",
+  "expectedOutcomes": [
+    "Says first and last in a line.",
+    "Says second and third with support."
+  ],
+  "crossCurricular": [
+    "Physical Development: running and queueing",
+    "Social Habits: taking turns",
+    "Literacy: ordinal words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T3-W04-D01",
+      "title": "First and last",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 4,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Ordinal numbers",
+      "subtopic": "First and last",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say who is first and who is last in a line."
+      ],
+      "successCriteria": [
+        "Says first and last",
+        "Points to the first and last child"
+      ],
+      "previousKnowledge": "Children can use time words and order numbers.",
+      "vocabulary": [
+        "first",
+        "second",
+        "third",
+        "last",
+        "next",
+        "order"
+      ],
+      "resources": [
+        "A line of children",
+        "Cards: first and last",
+        "A puppet"
+      ],
+      "starter": "Make a line of children and say \"Who is first? Who is last?\"",
+      "teacherActivities": [
+        "Show the first and last child in the line.",
+        "Change the order and ask again.",
+        "Let each child be first once.",
+        "Ask \"Who is last?\""
+      ],
+      "learnerActivities": [
+        "Children look and say first and last.",
+        "Child points to first and last.",
+        "Child stands at the front.",
+        "Child points to the last child."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the first and last child in the line. Children: Children look and say first and last.",
+        "Step 2. Teacher: Change the order and ask again. Children: Child points to first and last.",
+        "Step 3. Teacher: Let each child be first once. Children: Child stands at the front.",
+        "Step 4. Teacher: Ask \"Who is last?\" Children: Child points to the last child."
+      ],
+      "practical": {
+        "title": "Line up",
+        "steps": [
+          "Make a line.",
+          "Name the first.",
+          "Name the last."
+        ],
+        "safety": "Keep the line safe and orderly and supervise movement. Make sure every child has a turn at the front."
+      },
+      "differentiation": {
+        "support": "Make a line of three children.",
+        "extension": "Ask the child to organise a line of five."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is first?",
+            "expected": "The child at the front."
+          },
+          {
+            "question": "Who is last?",
+            "expected": "The child at the end."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says first and last",
+        "Points to the first and last child"
+      ],
+      "conclusion": "Walk in a line and wave goodbye.",
+      "homeConnection": "Talk about who is first and last in family queues.",
+      "teacherReflection": [
+        "Which children could show \"say who is first and who is last in a line\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIRST",
+          "LAST"
+        ],
+        "pictures": [
+          "A line of children"
+        ]
+      },
+      "activities": [
+        "Line up"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W04-D02",
+      "title": "Second and third",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 4,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Ordinal numbers",
+      "subtopic": "Second and third",
+      "dayType": "explore",
+      "objectives": [
+        "Children will say second and third and describe where someone is in a line."
+      ],
+      "successCriteria": [
+        "Says second and third",
+        "Places an object in the correct position"
+      ],
+      "previousKnowledge": "Children can use time words and order numbers.",
+      "vocabulary": [
+        "first",
+        "second",
+        "third",
+        "last",
+        "next",
+        "order"
+      ],
+      "resources": [
+        "Ordinal cards",
+        "Toy cars",
+        "A line on the mat"
+      ],
+      "starter": "Put three toy cars in a row and say \"The red car is first. The blue car is second. The green car is third.\"",
+      "teacherActivities": [
+        "Name the position of each car in the row.",
+        "Ask \"Which car is second?\"",
+        "Let children place cars in order.",
+        "Match ordinal cards to cars."
+      ],
+      "learnerActivities": [
+        "Children say first, second, third.",
+        "Child points to the second car.",
+        "Child places cars.",
+        "Child matches a card."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Name the position of each car in the row. Children: Children say first, second, third.",
+        "Step 2. Teacher: Ask \"Which car is second?\" Children: Child points to the second car.",
+        "Step 3. Teacher: Let children place cars in order. Children: Child places cars.",
+        "Step 4. Teacher: Match ordinal cards to cars. Children: Child matches a card."
+      ],
+      "practical": {
+        "title": "Car order",
+        "steps": [
+          "Put cars in a row.",
+          "Say first, second, third.",
+          "Match the cards."
+        ],
+        "safety": "Use large toy cars and keep them off the floor after use. Supervise closely."
+      },
+      "differentiation": {
+        "support": "Use two cars first.",
+        "extension": "Ask the child to put five cars in order and name fourth and fifth."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which car is second?",
+            "expected": "The middle car."
+          },
+          {
+            "question": "Which car is third?",
+            "expected": "The last car in the row."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says second and third",
+        "Places objects in the correct position"
+      ],
+      "conclusion": "Put the cars away and say first, second, third.",
+      "homeConnection": "Say first, second and third when queueing at home.",
+      "teacherReflection": [
+        "Which children could show \"say second and third and describe where someone is in a line\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SECOND",
+          "THIRD"
+        ],
+        "pictures": [
+          "Three toy cars in a row"
+        ]
+      },
+      "activities": [
+        "Car order"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W04-D03",
+      "title": "Race game",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 4,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Ordinal numbers",
+      "subtopic": "Race and queue games",
+      "dayType": "practise",
+      "objectives": [
+        "Children will take part in a race and say the finishing order."
+      ],
+      "successCriteria": [
+        "Takes part in a race",
+        "Says who was first, second and third"
+      ],
+      "previousKnowledge": "Children can use time words and order numbers.",
+      "vocabulary": [
+        "first",
+        "second",
+        "third",
+        "last",
+        "next",
+        "order"
+      ],
+      "resources": [
+        "A start and finish line",
+        "Card medals 1st, 2nd and 3rd",
+        "A bell"
+      ],
+      "starter": "Say \"Today we have a walking race. We will see who is first, second and third.\"",
+      "teacherActivities": [
+        "Explain the rules: walk, do not push.",
+        "Ring the bell and let small groups race.",
+        "Name the first, second and third.",
+        "Give each racer a medal or sticker."
+      ],
+      "learnerActivities": [
+        "Children repeat walk.",
+        "Children walk to the finish line.",
+        "Children say the order.",
+        "Child receives a medal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Explain the rules: walk, do not push. Children: Children repeat walk.",
+        "Step 2. Teacher: Ring the bell and let small groups race. Children: Children walk to the finish line.",
+        "Step 3. Teacher: Name the first, second and third. Children: Children say the order.",
+        "Step 4. Teacher: Give each racer a medal or sticker. Children: Child receives a medal."
+      ],
+      "practical": {
+        "title": "Walking race",
+        "steps": [
+          "Stand at the start line.",
+          "Walk to the finish line.",
+          "Say who was first."
+        ],
+        "safety": "Make it a walking race with a clear track and no pushing. Supervise closely and make sure every child is celebrated."
+      },
+      "differentiation": {
+        "support": "Walk beside the child.",
+        "extension": "Ask the child to be the race judge."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who was first?",
+            "expected": "The child who finished first."
+          },
+          {
+            "question": "Who was second?",
+            "expected": "The next child."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Takes part in a race",
+        "Says the finishing order"
+      ],
+      "conclusion": "Cheer for everyone and wave goodbye.",
+      "homeConnection": "Have a walking race at home and say who is first.",
+      "teacherReflection": [
+        "Which children could show \"take part in a race and say the finishing order\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "RACE",
+          "MEDAL"
+        ],
+        "pictures": [
+          "A start and finish line"
+        ]
+      },
+      "activities": [
+        "Walking race"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W04-D04",
+      "title": "Queue and order",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 4,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Ordinal numbers",
+      "subtopic": "Race and queue games",
+      "dayType": "apply",
+      "objectives": [
+        "Children will describe the order of a queue and take turns in it."
+      ],
+      "successCriteria": [
+        "Describes position in a queue",
+        "Waits in order"
+      ],
+      "previousKnowledge": "Children can use time words and order numbers.",
+      "vocabulary": [
+        "first",
+        "second",
+        "third",
+        "last",
+        "next",
+        "order"
+      ],
+      "resources": [
+        "A pretend shop or bus stop",
+        "Ordinal cards",
+        "A bell"
+      ],
+      "starter": "Say \"We are waiting at the shop. Who is first in the queue?\"",
+      "teacherActivities": [
+        "Make a queue at the pretend shop.",
+        "Say who is first, second and third.",
+        "Serve the first customer.",
+        "Say who is first now."
+      ],
+      "learnerActivities": [
+        "Children line up in order.",
+        "Children say the order.",
+        "Child buys and moves away.",
+        "Child says the new first."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Make a queue at the pretend shop. Children: Children line up in order.",
+        "Step 2. Teacher: Say who is first, second and third. Children: Children say the order.",
+        "Step 3. Teacher: Serve the first customer. Children: Child buys and moves away.",
+        "Step 4. Teacher: Say who is first now. Children: Child says the new first."
+      ],
+      "practical": {
+        "title": "Shop queue",
+        "steps": [
+          "Make a queue.",
+          "Say the order.",
+          "Serve the first."
+        ],
+        "safety": "Supervise the queue closely and keep the area clear. Ensure every child gets a turn."
+      },
+      "differentiation": {
+        "support": "Use a queue of three.",
+        "extension": "Ask the child to say where they are in the queue."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Who is first?",
+            "expected": "The child at the front."
+          },
+          {
+            "question": "Who is third?",
+            "expected": "The third child."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Describes position in a queue",
+        "Waits in order"
+      ],
+      "conclusion": "Tidy the shop and say well done.",
+      "homeConnection": "Talk about queues when you go out.",
+      "teacherReflection": [
+        "Which children could show \"describe the order of a queue and take turns in it\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "QUEUE",
+          "SHOP"
+        ],
+        "pictures": [
+          "A queue at a shop"
+        ]
+      },
+      "activities": [
+        "Shop queue"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T3-W04-D05",
+      "title": "Week 4 order check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 3,
+      "week": 4,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Ordinal numbers",
+      "subtopic": "First and last",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child uses first, second, third and last."
+      ],
+      "successCriteria": [
+        "Says first and last",
+        "Says second and third with support"
+      ],
+      "previousKnowledge": "Children can use time words and order numbers.",
+      "vocabulary": [
+        "first",
+        "second",
+        "third",
+        "last",
+        "next",
+        "order"
+      ],
+      "resources": [
+        "Toy cars",
+        "Ordinal cards",
+        "Class record sheet"
+      ],
+      "starter": "Sing the first second third song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: cars, queue and race.",
+        "At each station ask \"Who is second?\"",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers and points.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: cars, queue and race. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"Who is second?\" Children: Child answers and points.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Order stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use large cars only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use first and last only.",
+        "extension": "Ask a confident child to use fourth and fifth."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says first and last; says second and third; describes a queue; takes turns in order.",
+        "questions": [
+          {
+            "question": "Who is first?",
+            "expected": "The first child."
+          },
+          {
+            "question": "Which car is third?",
+            "expected": "The third car."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 4",
+        "Uses ordinal words with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep using first, second and third at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child uses first, second, third and last\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Order"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Order stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
