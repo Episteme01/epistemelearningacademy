@@ -1,0 +1,917 @@
+{
+  "id": "ELA-PS-N1-NUM",
+  "title": "Nursery 1 Numeracy",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "level": "Early Years",
+  "philosophy": "Numeracy in Nursery 1 is learnt by handling, counting, comparing and talking about real things: stones, seeds, bottle tops, fruit, blocks and the children themselves. Every idea starts with objects, moves to pictures and songs, and only then to written numerals. ELA’s Nursery 1 Numeracy keeps lessons short, active and playful, and builds a firm, confident feel for numbers to 10 before children meet formal sums.",
+  "rationale": "Children who arrive in Nursery 1 can usually count to about five. This programme takes them to counting 10 objects accurately, recognising and forming numerals 1 to 10, comparing sizes, lengths, weights and amounts, naming common shapes, making patterns and solving small real-life problems by joining and taking away. It uses everyday Nigerian contexts such as the market, naira coins, fruit, school bags and games so that mathematics makes sense to children.",
+  "aims": [
+    "To count objects to 10 accurately and say the number names in order.",
+    "To recognise and begin to write the numerals 1 to 10.",
+    "To compare and order objects by size, length, weight and capacity using everyday words.",
+    "To sort, match, make patterns and name common shapes.",
+    "To understand more, fewer, one more and one less, and to join and take away small groups.",
+    "To talk about time, position, money and simple data in daily life."
+  ],
+  "learningOutcomes": [
+    "Counts to 10 and counts up to 10 objects, touching each once.",
+    "Recognises numerals 1 to 10 and matches them to quantities.",
+    "Sorts and matches objects by one or two features such as colour and size.",
+    "Compares size, length, weight and capacity with words such as bigger, longer, heavier and fuller.",
+    "Names circles, squares, triangles, rectangles and ovals and finds them around the class.",
+    "Says which group has more or fewer and finds one more and one less.",
+    "Joins two small groups and takes away from a group with objects, up to 5.",
+    "Continues and makes simple repeating patterns.",
+    "Uses everyday words for time, position and money."
+  ],
+  "developmentalExpectations": [
+    "Children learn to count by moving objects as they say each number, not just by saying the number names.",
+    "Counting a group of more than five accurately is a major milestone and needs plenty of practice.",
+    "Children grasp \"how many in all\" after they can count each object once; do not rush.",
+    "Writing numerals is hard for small hands; use sand, air tracing, large pencils and clay before paper.",
+    "Concentration is short; each lesson has several short activities and plenty of movement."
+  ],
+  "keyCompetencies": [
+    "Counting with one-to-one correspondence.",
+    "Recognising and writing numerals.",
+    "Comparing and ordering.",
+    "Naming and sorting shapes.",
+    "Solving simple practical problems."
+  ],
+  "strands": [
+    {
+      "id": "NC",
+      "title": "Number and counting",
+      "description": "Counting, numerals, more and fewer to 10 and beyond."
+    },
+    {
+      "id": "OP",
+      "title": "Early operations",
+      "description": "Joining, taking away and number stories with objects."
+    },
+    {
+      "id": "SH",
+      "title": "Shape and pattern",
+      "description": "Shapes, sorting, matching and patterns."
+    },
+    {
+      "id": "MS",
+      "title": "Measures",
+      "description": "Size, length, weight, capacity, time and money."
+    },
+    {
+      "id": "PS",
+      "title": "Position and data",
+      "description": "Position words and simple picture graphs."
+    }
+  ],
+  "priorKnowledge": "Children are expected to count to about five with objects, recognise a few shapes and use words such as big and small. Observe in the first two weeks how far each child counts and record it as the baseline.",
+  "yearProgression": [
+    "Term 1 builds counting and numerals to 10, sorting and matching, size and length comparisons, and the shapes circle, square and triangle.",
+    "Term 2 builds more and fewer, one more and one less, counting beyond 10, numeral order, making 5, joining and taking away, rectangles and ovals, and patterns.",
+    "Term 3 builds weight and capacity, time and ordinal numbers, tallying, picture graphs, money, position, and number stories."
+  ],
+  "assessmentPrinciples": [
+    "Assessment is by watching, listening and recording what children do and say with real objects. There are no written tests.",
+    "Levels Emerging, Developing, Secure and Exceeding follow the lesson success criteria (see ASSESSMENT_FRAMEWORK.md).",
+    "Check counting by asking a child to count out a number of objects, not only to recite numbers.",
+    "Share with parents in plain language, always with a strength, a next step and a home idea."
+  ],
+  "inclusion": [
+    "Every lesson has a support and an extension version.",
+    "Use large, tactile objects for children who need them and let children count at their own pace.",
+    "Use home-language number names alongside English and celebrate them.",
+    "Offer movement, song and games for children who find sitting hard."
+  ],
+  "crossCurricular": [
+    "Literacy: number rhymes, stories and vocabulary.",
+    "Science: sorting, measuring and comparing natural materials.",
+    "Social Habits: turn-taking, sharing equally and working in pairs.",
+    "EYFS mapping: Mathematics, with Communication and Language and Physical Development (see STANDARDS_ALIGNMENT.md)."
+  ],
+  "parentConnection": [
+    "Every lesson ends with a short home idea using safe household objects.",
+    "Parents are invited to count with their child in daily life: steps, stairs, fruit and coins.",
+    "Families are invited to share number words in their home language."
+  ],
+  "scopeAndSequence": [
+    {
+      "term": 1,
+      "week": 1,
+      "weekId": "ELA-PS-N1-NUM-T1-W01",
+      "topic": "Counting",
+      "subtopics": [
+        "Counting 1 to 5 with objects",
+        "Counting rhymes",
+        "Numerals 1 to 5"
+      ],
+      "objectives": [
+        "Children will count objects to 5 touching each one once.",
+        "Children will recognise the numerals 1 to 5."
+      ],
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "count"
+      ],
+      "expectedOutcomes": [
+        "Counts up to 5 objects accurately.",
+        "Matches numerals 1 to 5 to quantities."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 2,
+      "weekId": "ELA-PS-N1-NUM-T1-W02",
+      "topic": "Counting",
+      "subtopics": [
+        "Saying numbers to 10",
+        "Number rhymes to 10",
+        "Counting steps and claps"
+      ],
+      "objectives": [
+        "Children will say the number names from 1 to 10 in order.",
+        "Children will count steps, claps and jumps to 10."
+      ],
+      "vocabulary": [
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "number"
+      ],
+      "expectedOutcomes": [
+        "Says numbers to 10 in order.",
+        "Counts actions to 10 with support."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 3,
+      "weekId": "ELA-PS-N1-NUM-T1-W03",
+      "topic": "Counting",
+      "subtopics": [
+        "One touch for each object",
+        "Counting in a line and a circle",
+        "How many are there?"
+      ],
+      "objectives": [
+        "Children will touch each object once as they count to 10.",
+        "Children will say the last number as how many."
+      ],
+      "vocabulary": [
+        "how many",
+        "count",
+        "touch",
+        "all",
+        "line",
+        "group"
+      ],
+      "expectedOutcomes": [
+        "Counts up to 10 objects with one-to-one touch.",
+        "Says how many in a group."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 4,
+      "weekId": "ELA-PS-N1-NUM-T1-W04",
+      "topic": "Numerals",
+      "subtopics": [
+        "Looking at numerals 6 to 10",
+        "Tracing numerals in sand and air",
+        "Matching numerals and groups"
+      ],
+      "objectives": [
+        "Children will recognise the numerals 6 to 10.",
+        "Children will trace numerals in sand and in the air."
+      ],
+      "vocabulary": [
+        "numeral",
+        "trace",
+        "sand",
+        "match",
+        "six",
+        "ten"
+      ],
+      "expectedOutcomes": [
+        "Names numerals 1 to 10 with support.",
+        "Traces three or more numerals."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 5,
+      "weekId": "ELA-PS-N1-NUM-T1-W05",
+      "topic": "Consolidation",
+      "subtopics": [
+        "Number hop and jump",
+        "Number hunt",
+        "Counting bags"
+      ],
+      "objectives": [
+        "Children will play games that practise counting and numerals to 10.",
+        "Children will show how many in a group with fingers or objects."
+      ],
+      "vocabulary": [
+        "hop",
+        "jump",
+        "find",
+        "count",
+        "number",
+        "game"
+      ],
+      "expectedOutcomes": [
+        "Plays counting games with confidence.",
+        "Counts out a number of objects when asked."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 6,
+      "weekId": "ELA-PS-N1-NUM-T1-W06",
+      "topic": "Sorting",
+      "subtopics": [
+        "Sorting by colour and size",
+        "Matching pairs",
+        "Odd one out"
+      ],
+      "objectives": [
+        "Children will sort objects by colour and size.",
+        "Children will find pairs and the odd one out."
+      ],
+      "vocabulary": [
+        "sort",
+        "match",
+        "pair",
+        "same",
+        "different",
+        "odd one out"
+      ],
+      "expectedOutcomes": [
+        "Sorts a set of objects by colour or size.",
+        "Finds the odd one out with support."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 7,
+      "weekId": "ELA-PS-N1-NUM-T1-W07",
+      "topic": "Size",
+      "subtopics": [
+        "Big and small",
+        "Bigger and smaller",
+        "Ordering three things by size"
+      ],
+      "objectives": [
+        "Children will compare two objects by size.",
+        "Children will order three objects from small to big."
+      ],
+      "vocabulary": [
+        "big",
+        "small",
+        "bigger",
+        "smaller",
+        "biggest",
+        "smallest"
+      ],
+      "expectedOutcomes": [
+        "Says which of two is bigger.",
+        "Orders three objects by size with support."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 8,
+      "weekId": "ELA-PS-N1-NUM-T1-W08",
+      "topic": "Length",
+      "subtopics": [
+        "Long and short",
+        "Longer and shorter",
+        "Measuring with hands and steps"
+      ],
+      "objectives": [
+        "Children will compare two objects by length.",
+        "Children will measure with hand spans or steps."
+      ],
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "longest",
+        "measure"
+      ],
+      "expectedOutcomes": [
+        "Says which of two is longer.",
+        "Measures a short object with hands or cubes."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 9,
+      "weekId": "ELA-PS-N1-NUM-T1-W09",
+      "topic": "Shape",
+      "subtopics": [
+        "Circles and squares",
+        "Triangles",
+        "Shapes around us"
+      ],
+      "objectives": [
+        "Children will name circle, square and triangle.",
+        "Children will find these shapes in the classroom."
+      ],
+      "vocabulary": [
+        "circle",
+        "square",
+        "triangle",
+        "round",
+        "corner",
+        "side"
+      ],
+      "expectedOutcomes": [
+        "Names circle, square and triangle.",
+        "Finds each shape in the room."
+      ]
+    },
+    {
+      "term": 1,
+      "week": 10,
+      "weekId": "ELA-PS-N1-NUM-T1-W10",
+      "topic": "Revision and assessment",
+      "subtopics": [
+        "Revising counting and numerals",
+        "Revising sorting and measures",
+        "Revising shapes"
+      ],
+      "objectives": [
+        "Children will show Term 1 learning through play stations.",
+        "Teachers will gather evidence for every child’s Term 1 record."
+      ],
+      "vocabulary": [
+        "count",
+        "numeral",
+        "sort",
+        "long",
+        "circle",
+        "ten"
+      ],
+      "expectedOutcomes": [
+        "Completes familiar tasks with confidence at play stations.",
+        "Each child has an observation record for Term 1."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 1,
+      "weekId": "ELA-PS-N1-NUM-T2-W01",
+      "topic": "Comparing",
+      "subtopics": [
+        "Which group has more",
+        "Which group has fewer",
+        "Matching one to one"
+      ],
+      "objectives": [
+        "Children will say which of two groups has more or fewer.",
+        "Children will match objects one to one to check."
+      ],
+      "vocabulary": [
+        "more",
+        "fewer",
+        "same",
+        "group",
+        "match",
+        "less"
+      ],
+      "expectedOutcomes": [
+        "Says which group has more.",
+        "Matches groups one to one to check."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 2,
+      "weekId": "ELA-PS-N1-NUM-T2-W02",
+      "topic": "Counting",
+      "subtopics": [
+        "One more",
+        "One less",
+        "Number lines to 10"
+      ],
+      "objectives": [
+        "Children will find one more and one less than a number to 5.",
+        "Children will use a number line to 10."
+      ],
+      "vocabulary": [
+        "one more",
+        "one less",
+        "add one",
+        "take one",
+        "number line",
+        "next"
+      ],
+      "expectedOutcomes": [
+        "Says one more than a number to 5.",
+        "Says one less than a number to 5."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 3,
+      "weekId": "ELA-PS-N1-NUM-T2-W03",
+      "topic": "Counting",
+      "subtopics": [
+        "Saying numbers 11 to 15",
+        "Counting groups of 11 to 15",
+        "Counting in twos"
+      ],
+      "objectives": [
+        "Children will say numbers to 15 in order.",
+        "Children will count groups of up to 15 objects."
+      ],
+      "vocabulary": [
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "twos"
+      ],
+      "expectedOutcomes": [
+        "Says numbers to 15 in order.",
+        "Counts up to 12 objects accurately."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 4,
+      "weekId": "ELA-PS-N1-NUM-T2-W04",
+      "topic": "Numerals",
+      "subtopics": [
+        "Putting numerals 1 to 10 in order",
+        "Missing numbers",
+        "Before and after"
+      ],
+      "objectives": [
+        "Children will put numeral cards 1 to 10 in order.",
+        "Children will find a missing number."
+      ],
+      "vocabulary": [
+        "order",
+        "before",
+        "after",
+        "missing",
+        "next",
+        "between"
+      ],
+      "expectedOutcomes": [
+        "Orders numerals 1 to 10.",
+        "Finds a missing number from 1 to 5."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 5,
+      "weekId": "ELA-PS-N1-NUM-T2-W05",
+      "topic": "Consolidation",
+      "subtopics": [
+        "Fingers and parts of 5",
+        "Two groups that make 5",
+        "Number bond games"
+      ],
+      "objectives": [
+        "Children will show 5 in different ways with fingers and objects.",
+        "Children will find two groups that make 5."
+      ],
+      "vocabulary": [
+        "five",
+        "parts",
+        "whole",
+        "make",
+        "fingers",
+        "together"
+      ],
+      "expectedOutcomes": [
+        "Shows 5 in two different ways.",
+        "Says how many more to make 5 with support."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 6,
+      "weekId": "ELA-PS-N1-NUM-T2-W06",
+      "topic": "Adding",
+      "subtopics": [
+        "Putting two groups together",
+        "Counting all",
+        "Joining stories"
+      ],
+      "objectives": [
+        "Children will join two small groups and count all.",
+        "Children will tell a simple joining story."
+      ],
+      "vocabulary": [
+        "join",
+        "together",
+        "altogether",
+        "add",
+        "plus",
+        "total"
+      ],
+      "expectedOutcomes": [
+        "Joins two groups and counts all to 5.",
+        "Tells a joining story with objects."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 7,
+      "weekId": "ELA-PS-N1-NUM-T2-W07",
+      "topic": "Subtracting",
+      "subtopics": [
+        "Taking some away",
+        "How many are left",
+        "Taking away stories"
+      ],
+      "objectives": [
+        "Children will take objects away from a group and say how many are left.",
+        "Children will tell a simple taking away story."
+      ],
+      "vocabulary": [
+        "take away",
+        "left",
+        "fewer",
+        "gone",
+        "remove",
+        "minus"
+      ],
+      "expectedOutcomes": [
+        "Takes away from a group of up to 5.",
+        "Says how many are left."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 8,
+      "weekId": "ELA-PS-N1-NUM-T2-W08",
+      "topic": "Shape",
+      "subtopics": [
+        "Rectangles",
+        "Ovals",
+        "Shape sorting"
+      ],
+      "objectives": [
+        "Children will name rectangle and oval.",
+        "Children will sort shapes by name."
+      ],
+      "vocabulary": [
+        "rectangle",
+        "oval",
+        "long",
+        "round",
+        "side",
+        "corner"
+      ],
+      "expectedOutcomes": [
+        "Names rectangle and oval.",
+        "Sorts five shapes by name."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 9,
+      "weekId": "ELA-PS-N1-NUM-T2-W09",
+      "topic": "Patterns",
+      "subtopics": [
+        "AB patterns",
+        "AAB and ABB patterns",
+        "Making my own pattern"
+      ],
+      "objectives": [
+        "Children will continue AB and AAB patterns.",
+        "Children will make their own pattern."
+      ],
+      "vocabulary": [
+        "pattern",
+        "repeat",
+        "next",
+        "colour",
+        "shape",
+        "continue"
+      ],
+      "expectedOutcomes": [
+        "Continues an AB pattern.",
+        "Makes an AB or AAB pattern."
+      ]
+    },
+    {
+      "term": 2,
+      "week": 10,
+      "weekId": "ELA-PS-N1-NUM-T2-W10",
+      "topic": "Revision and assessment",
+      "subtopics": [
+        "Revising comparing and counting",
+        "Revising joining and taking away",
+        "Revising shapes and patterns"
+      ],
+      "objectives": [
+        "Children will show Term 2 learning through play stations.",
+        "Teachers will gather evidence for every child’s Term 2 record."
+      ],
+      "vocabulary": [
+        "more",
+        "fewer",
+        "join",
+        "take away",
+        "pattern",
+        "rectangle"
+      ],
+      "expectedOutcomes": [
+        "Completes familiar tasks with growing independence.",
+        "Each child has an observation record for Term 2."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 1,
+      "weekId": "ELA-PS-N1-NUM-T3-W01",
+      "topic": "Weight",
+      "subtopics": [
+        "Heavy and light",
+        "Heavier and lighter",
+        "Using a balance"
+      ],
+      "objectives": [
+        "Children will compare two objects by weight.",
+        "Children will use a balance to check."
+      ],
+      "vocabulary": [
+        "heavy",
+        "light",
+        "heavier",
+        "lighter",
+        "balance",
+        "weigh"
+      ],
+      "expectedOutcomes": [
+        "Says which of two is heavier.",
+        "Uses a balance with support."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 2,
+      "weekId": "ELA-PS-N1-NUM-T3-W02",
+      "topic": "Capacity",
+      "subtopics": [
+        "Full and empty",
+        "Half full",
+        "Pouring and filling"
+      ],
+      "objectives": [
+        "Children will say full, half full and empty.",
+        "Children will fill and pour with cups and jugs."
+      ],
+      "vocabulary": [
+        "full",
+        "empty",
+        "half",
+        "pour",
+        "fill",
+        "cup"
+      ],
+      "expectedOutcomes": [
+        "Says full or empty for a container.",
+        "Finds a half-full container."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 3,
+      "weekId": "ELA-PS-N1-NUM-T3-W03",
+      "topic": "Time",
+      "subtopics": [
+        "Morning, afternoon and night",
+        "Days of the week",
+        "Yesterday, today and tomorrow"
+      ],
+      "objectives": [
+        "Children will name parts of the day and days of the week.",
+        "Children will use yesterday, today and tomorrow."
+      ],
+      "vocabulary": [
+        "morning",
+        "afternoon",
+        "night",
+        "today",
+        "yesterday",
+        "tomorrow"
+      ],
+      "expectedOutcomes": [
+        "Names parts of the day.",
+        "Says today and tomorrow correctly with support."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 4,
+      "weekId": "ELA-PS-N1-NUM-T3-W04",
+      "topic": "Ordinal numbers",
+      "subtopics": [
+        "First and last",
+        "Second and third",
+        "Race and queue games"
+      ],
+      "objectives": [
+        "Children will say first, second, third and last.",
+        "Children will describe the order of a line."
+      ],
+      "vocabulary": [
+        "first",
+        "second",
+        "third",
+        "last",
+        "next",
+        "order"
+      ],
+      "expectedOutcomes": [
+        "Says first and last in a line.",
+        "Says second and third with support."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 5,
+      "weekId": "ELA-PS-N1-NUM-T3-W05",
+      "topic": "Consolidation",
+      "subtopics": [
+        "Tally marks",
+        "Counting in fives and tens",
+        "Counting games"
+      ],
+      "objectives": [
+        "Children will make tally marks and count them.",
+        "Children will count to 20 with support."
+      ],
+      "vocabulary": [
+        "tally",
+        "mark",
+        "five",
+        "ten",
+        "twenty",
+        "count"
+      ],
+      "expectedOutcomes": [
+        "Makes tally marks for up to 5.",
+        "Counts to 20 with support."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 6,
+      "weekId": "ELA-PS-N1-NUM-T3-W06",
+      "topic": "Data",
+      "subtopics": [
+        "Collecting information",
+        "Making a picture graph",
+        "Reading the graph"
+      ],
+      "objectives": [
+        "Children will collect information such as favourite fruit.",
+        "Children will make and read a simple picture graph."
+      ],
+      "vocabulary": [
+        "graph",
+        "favourite",
+        "most",
+        "least",
+        "row",
+        "picture"
+      ],
+      "expectedOutcomes": [
+        "Adds a picture to a class graph.",
+        "Says which column has most."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 7,
+      "weekId": "ELA-PS-N1-NUM-T3-W07",
+      "topic": "Money",
+      "subtopics": [
+        "Coins and notes",
+        "Buying with play money",
+        "Giving change with objects"
+      ],
+      "objectives": [
+        "Children will recognise Nigerian coins and notes in play.",
+        "Children will buy items with play money."
+      ],
+      "vocabulary": [
+        "naira",
+        "coin",
+        "note",
+        "buy",
+        "sell",
+        "pay"
+      ],
+      "expectedOutcomes": [
+        "Names coins and notes used in play.",
+        "Buys one item with play money."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 8,
+      "weekId": "ELA-PS-N1-NUM-T3-W08",
+      "topic": "Position",
+      "subtopics": [
+        "Over, under and next to",
+        "Left and right",
+        "Giving directions"
+      ],
+      "objectives": [
+        "Children will use position words.",
+        "Children will follow and give simple directions."
+      ],
+      "vocabulary": [
+        "over",
+        "under",
+        "next to",
+        "left",
+        "right",
+        "between"
+      ],
+      "expectedOutcomes": [
+        "Places an object on, under and next to.",
+        "Follows a two-step direction."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 9,
+      "weekId": "ELA-PS-N1-NUM-T3-W09",
+      "topic": "Consolidation",
+      "subtopics": [
+        "Adding story problems",
+        "Taking away story problems",
+        "Making up our own story"
+      ],
+      "objectives": [
+        "Children will solve simple number stories with objects.",
+        "Children will make up a number story."
+      ],
+      "vocabulary": [
+        "story",
+        "join",
+        "left",
+        "altogether",
+        "how many",
+        "problem"
+      ],
+      "expectedOutcomes": [
+        "Solves a story problem to 5 with objects.",
+        "Tells a simple number story."
+      ]
+    },
+    {
+      "term": 3,
+      "week": 10,
+      "weekId": "ELA-PS-N1-NUM-T3-W10",
+      "topic": "Revision and assessment",
+      "subtopics": [
+        "Revising number and counting",
+        "Revising shape and measures",
+        "Celebration and end-of-year record"
+      ],
+      "objectives": [
+        "Children will show year learning through games and a maths fair.",
+        "Teachers will complete every child’s end-of-year record and transition note."
+      ],
+      "vocabulary": [
+        "count",
+        "shape",
+        "pattern",
+        "measure",
+        "add",
+        "money"
+      ],
+      "expectedOutcomes": [
+        "Takes part confidently in familiar maths games.",
+        "Each child has an end-of-year observation record."
+      ]
+    }
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft"
+}
