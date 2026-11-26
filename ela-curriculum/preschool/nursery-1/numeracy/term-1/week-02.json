@@ -1,0 +1,603 @@
+{
+  "id": "ELA-PS-N1-NUM-T1-W02",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 2,
+  "title": "Counting to 10",
+  "topic": "Counting",
+  "subtopics": [
+    "Saying numbers to 10",
+    "Number rhymes to 10",
+    "Counting steps and claps"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will say the number names from 1 to 10 in order.",
+    "Children will count steps, claps and jumps to 10."
+  ],
+  "vocabulary": [
+    "six",
+    "seven",
+    "eight",
+    "nine",
+    "ten",
+    "number"
+  ],
+  "content": "Saying numbers to 10, number rhymes to 10, and counting steps and claps.",
+  "teachingActivities": "Use rhythm and movement for number names 6 to 10; make a number line on the floor; count actions as well as objects; say numbers slowly and clearly; practise both forwards and, when ready, backwards.",
+  "learnerActivities": "Say the number names from 1 to 10 in order and count actions to 10.",
+  "resources": [
+    "A floor number line 1 to 10",
+    "Counting rhyme chart to 10",
+    "A drum",
+    "Large numeral cards 1 to 10",
+    "Beanbags"
+  ],
+  "assessment": "Observe whether each child says numbers to 10 in order and counts actions to 10.",
+  "expectedOutcomes": [
+    "Says numbers to 10 in order.",
+    "Counts actions to 10 with support."
+  ],
+  "crossCurricular": [
+    "Physical Development: hopping and jumping",
+    "Literacy: rhymes",
+    "Music: drumming and counting"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T1-W02-D01",
+      "title": "Saying numbers to ten",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 2,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Saying numbers to 10",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say the number names from one to ten in order."
+      ],
+      "successCriteria": [
+        "Says numbers 1 to 10 with support",
+        "Points to numerals as they say them"
+      ],
+      "previousKnowledge": "Children can count up to 5 objects and recognise numerals 1 to 5.",
+      "vocabulary": [
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "number"
+      ],
+      "resources": [
+        "A floor number line from 1 to 10",
+        "Numeral cards 1 to 10",
+        "A pointer"
+      ],
+      "starter": "Walk along a number line on the floor and say \"Let us walk the numbers: one, two, three.\"",
+      "teacherActivities": [
+        "Walk along the number line saying each number.",
+        "Point to each numeral and say it slowly.",
+        "Stop at a number and ask \"What comes next?\"",
+        "Walk the line again and count to ten."
+      ],
+      "learnerActivities": [
+        "Children walk and say the numbers.",
+        "Children repeat each number.",
+        "Child says the next number.",
+        "Children walk and count to ten."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Walk along the number line saying each number. Children: Children walk and say the numbers.",
+        "Step 2. Teacher: Point to each numeral and say it slowly. Children: Children repeat each number.",
+        "Step 3. Teacher: Stop at a number and ask \"What comes next?\" Children: Child says the next number.",
+        "Step 4. Teacher: Walk the line again and count to ten. Children: Children walk and count to ten."
+      ],
+      "practical": {
+        "title": "Walk the line",
+        "steps": [
+          "Stand at one.",
+          "Walk to ten saying each number.",
+          "Stop and say what comes next."
+        ],
+        "safety": "Keep the number line flat and secured so children do not trip. Walk slowly and one at a time."
+      },
+      "differentiation": {
+        "support": "Walk the line holding the child’s hand and say the numbers softly.",
+        "extension": "Ask the child to walk backwards from ten."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What comes after five?",
+            "expected": "Six."
+          },
+          {
+            "question": "What is the last number?",
+            "expected": "Ten."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says numbers to ten in order",
+        "Points to numerals while counting"
+      ],
+      "conclusion": "Count to ten together and wave.",
+      "homeConnection": "Count stairs or steps up to ten with your child.",
+      "teacherReflection": [
+        "Which children could show \"say the number names from one to ten in order\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SIX",
+          "SEVEN",
+          "EIGHT",
+          "NINE",
+          "TEN"
+        ],
+        "pictures": [
+          "A number line 1 to 10"
+        ]
+      },
+      "activities": [
+        "Walk the line"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W02-D02",
+      "title": "Number rhymes to ten",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 2,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Number rhymes to 10",
+      "dayType": "explore",
+      "objectives": [
+        "Children will sing and act number rhymes that count to ten."
+      ],
+      "successCriteria": [
+        "Sings a rhyme with number actions",
+        "Shows ten fingers"
+      ],
+      "previousKnowledge": "Children can count up to 5 objects and recognise numerals 1 to 5.",
+      "vocabulary": [
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "number"
+      ],
+      "resources": [
+        "A rhyme chart: ten little fingers",
+        "Finger puppets",
+        "A drum"
+      ],
+      "starter": "Sing \"Ten little fingers\" and show ten fingers.",
+      "teacherActivities": [
+        "Teach the rhyme line by line with finger actions.",
+        "Sing again and count the fingers from one to ten.",
+        "Add a drum beat for each number.",
+        "Let children act the rhyme in a circle."
+      ],
+      "learnerActivities": [
+        "Children copy the actions.",
+        "Children count their fingers.",
+        "Children clap with each beat.",
+        "Children act and count."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Teach the rhyme line by line with finger actions. Children: Children copy the actions.",
+        "Step 2. Teacher: Sing again and count the fingers from one to ten. Children: Children count their fingers.",
+        "Step 3. Teacher: Add a drum beat for each number. Children: Children clap with each beat.",
+        "Step 4. Teacher: Let children act the rhyme in a circle. Children: Children act and count."
+      ],
+      "practical": {
+        "title": "Ten fingers rhyme",
+        "steps": [
+          "Sing the rhyme.",
+          "Count ten fingers.",
+          "Clap the numbers."
+        ],
+        "safety": "Keep the movement seated and gentle. Make sure the drum is not too loud for sensitive children."
+      },
+      "differentiation": {
+        "support": "Sing slowly and count on fingers beside the child.",
+        "extension": "Ask the child to count ten fingers backwards."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many fingers?",
+            "expected": "Ten."
+          },
+          {
+            "question": "What comes before ten?",
+            "expected": "Nine."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sings a ten rhyme",
+        "Counts ten fingers"
+      ],
+      "conclusion": "Sing the rhyme once more and wave.",
+      "homeConnection": "Sing ten little fingers together at home.",
+      "teacherReflection": [
+        "Which children could show \"sing and act number rhymes that count to ten\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TEN",
+          "FINGERS"
+        ],
+        "pictures": [
+          "Ten fingers",
+          "A drum"
+        ],
+        "songOrRhyme": "Ten little fingers, ten little toes."
+      },
+      "activities": [
+        "Ten fingers rhyme"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W02-D03",
+      "title": "Counting steps and claps",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 2,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Counting steps and claps",
+      "dayType": "explore",
+      "objectives": [
+        "Children will count actions such as steps, claps and jumps to ten."
+      ],
+      "successCriteria": [
+        "Counts ten claps",
+        "Counts steps to ten"
+      ],
+      "previousKnowledge": "Children can count up to 5 objects and recognise numerals 1 to 5.",
+      "vocabulary": [
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "number"
+      ],
+      "resources": [
+        "A drum",
+        "A rope line for steps",
+        "Beanbags"
+      ],
+      "starter": "Clap your hands and say \"Let us count my claps. One, two, three.\"",
+      "teacherActivities": [
+        "Clap up to ten times slowly and ask children to count.",
+        "Walk ten steps across the room counting aloud.",
+        "Jump ten times together.",
+        "Ask \"How many jumps did we do?\""
+      ],
+      "learnerActivities": [
+        "Children count the claps.",
+        "Children walk and count steps.",
+        "Children jump and count.",
+        "Child says ten."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Clap up to ten times slowly and ask children to count. Children: Children count the claps.",
+        "Step 2. Teacher: Walk ten steps across the room counting aloud. Children: Children walk and count steps.",
+        "Step 3. Teacher: Jump ten times together. Children: Children jump and count.",
+        "Step 4. Teacher: Ask \"How many jumps did we do?\" Children: Child says ten."
+      ],
+      "practical": {
+        "title": "Count the action",
+        "steps": [
+          "Clap and count.",
+          "Walk and count.",
+          "Jump and count."
+        ],
+        "safety": "Clear the floor of hazards and leave space between children. Jump on a soft mat only."
+      },
+      "differentiation": {
+        "support": "Count to five and then add on with the teacher.",
+        "extension": "Ask the child to choose an action and count to ten."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many claps?",
+            "expected": "Ten."
+          },
+          {
+            "question": "What action did we count?",
+            "expected": "Claps, steps or jumps."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts actions to ten",
+        "Says how many actions"
+      ],
+      "conclusion": "Sit quietly and count slow breaths to five.",
+      "homeConnection": "Count claps, hops or jumps with your child.",
+      "teacherReflection": [
+        "Which children could show \"count actions such as steps, claps and jumps to ten\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CLAP",
+          "JUMP",
+          "STEP"
+        ],
+        "pictures": [
+          "Children jumping"
+        ]
+      },
+      "activities": [
+        "Count the action"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W02-D04",
+      "title": "Number hop",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 2,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Number rhymes to 10",
+      "dayType": "practise",
+      "objectives": [
+        "Children will hop or jump along numerals 1 to 10 saying each number."
+      ],
+      "successCriteria": [
+        "Jumps from number to number in order",
+        "Says each number"
+      ],
+      "previousKnowledge": "Children can count up to 5 objects and recognise numerals 1 to 5.",
+      "vocabulary": [
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "number"
+      ],
+      "resources": [
+        "Large numerals 1 to 10 on the floor",
+        "A bell",
+        "A soft mat"
+      ],
+      "starter": "Put large numerals on the floor and say \"Today we hop along the numbers.\"",
+      "teacherActivities": [
+        "Show how to jump from one to two to three.",
+        "Let children take turns to jump along the numerals.",
+        "Ring the bell and call a number.",
+        "Praise each child for counting."
+      ],
+      "learnerActivities": [
+        "Children watch and copy.",
+        "Child jumps and says each number.",
+        "Child jumps to that number.",
+        "Children clap and cheer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to jump from one to two to three. Children: Children watch and copy.",
+        "Step 2. Teacher: Let children take turns to jump along the numerals. Children: Child jumps and says each number.",
+        "Step 3. Teacher: Ring the bell and call a number. Children: Child jumps to that number.",
+        "Step 4. Teacher: Praise each child for counting. Children: Children clap and cheer."
+      ],
+      "practical": {
+        "title": "Number hop",
+        "steps": [
+          "Stand at the start.",
+          "Hop to each numeral.",
+          "Say each number."
+        ],
+        "safety": "Use a soft non-slip mat and keep the numerals flat. Supervise each hop and let one child go at a time."
+      },
+      "differentiation": {
+        "support": "Walk along the numbers holding hands.",
+        "extension": "Ask the child to hop in twos."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where do you hop first?",
+            "expected": "To number one."
+          },
+          {
+            "question": "Where is ten?",
+            "expected": "At the end."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Jumps along numerals in order",
+        "Says each number"
+      ],
+      "conclusion": "Pick up the numerals and say them aloud.",
+      "homeConnection": "Chalk numbers on the ground and hop along them.",
+      "teacherReflection": [
+        "Which children could show \"hop or jump along numerals 1 to 10 saying each number\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HOP",
+          "NUMBER"
+        ],
+        "pictures": [
+          "Numerals on the floor"
+        ]
+      },
+      "activities": [
+        "Number hop"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W02-D05",
+      "title": "Week 2 counting to ten check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 2,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Saying numbers to 10",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how far each child counts in order."
+      ],
+      "successCriteria": [
+        "Says numbers to 10 in order",
+        "Counts actions to 10"
+      ],
+      "previousKnowledge": "Children can count up to 5 objects and recognise numerals 1 to 5.",
+      "vocabulary": [
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "number"
+      ],
+      "resources": [
+        "Number line",
+        "Drum",
+        "Class record sheet"
+      ],
+      "starter": "Sing the number rhyme and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: walk the line, clap count and numeral order.",
+        "At each station ask the child to count and watch.",
+        "Record each child’s level and highest number counted."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child counts and answers.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: walk the line, clap count and numeral order. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask the child to count and watch. Children: Child counts and answers.",
+        "Step 3. Teacher: Record each child’s level and highest number counted. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Counting stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Keep the drum volume gentle."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and count to five.",
+        "extension": "Ask a confident child to count to fifteen."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says numbers to 10 in order; counts actions; sings number rhymes; says what comes next.",
+        "questions": [
+          {
+            "question": "What comes after eight?",
+            "expected": "Nine."
+          },
+          {
+            "question": "Count to ten.",
+            "expected": "The child counts."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 2",
+        "Counts to ten with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep counting to ten in daily life.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how far each child counts in order\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Counting"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Counting stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

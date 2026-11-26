@@ -1,0 +1,607 @@
+{
+  "id": "ELA-PS-N1-NUM-T1-W01",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 1,
+  "title": "Counting to 5 and back",
+  "topic": "Counting",
+  "subtopics": [
+    "Counting 1 to 5 with objects",
+    "Counting rhymes",
+    "Numerals 1 to 5"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will count objects to 5 touching each one once.",
+    "Children will recognise the numerals 1 to 5."
+  ],
+  "vocabulary": [
+    "one",
+    "two",
+    "three",
+    "four",
+    "five",
+    "count"
+  ],
+  "content": "Counting objects to 5, counting rhymes, and the numerals 1 to 5.",
+  "teachingActivities": "Always count real objects that children can touch and move; model touching each object once and moving it aside; say the last number as how many; link numerals to quantities; use the first week to observe how far each child counts.",
+  "learnerActivities": "Count up to 5 objects touching each once and match numerals 1 to 5 to quantities.",
+  "resources": [
+    "Counters such as bottle tops, stones or seeds",
+    "Number cards 1 to 5",
+    "Counting rhyme pictures",
+    "Baskets and plates",
+    "Chalk or sand tray"
+  ],
+  "assessment": "Observe whether each child counts up to 5 objects accurately and matches a numeral to a group.",
+  "expectedOutcomes": [
+    "Counts up to 5 objects accurately.",
+    "Matches numerals 1 to 5 to quantities."
+  ],
+  "crossCurricular": [
+    "Literacy: number rhymes",
+    "Social Habits: sharing and turns",
+    "Science: counting natural objects"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T1-W01-D01",
+      "title": "Counting to five",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 1,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Counting 1 to 5 with objects",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will count up to five objects touching each once."
+      ],
+      "successCriteria": [
+        "Touches each object once while counting",
+        "Says the last number as how many"
+      ],
+      "previousKnowledge": "Children arrive able to count a little, usually to about five, and to use words such as big and small.",
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "count"
+      ],
+      "resources": [
+        "Counters such as bottle tops",
+        "Five plates",
+        "A basket",
+        "Number cards 1 to 5"
+      ],
+      "starter": "Show five bottle tops in a line and say \"Let us count them together. One, two, three, four, five.\"",
+      "teacherActivities": [
+        "Count five bottle tops slowly, touching and moving each one.",
+        "Say \"How many?\" and point to the last bottle top.",
+        "Give each child a small group of up to five counters.",
+        "Walk around and ask each child \"How many do you have?\""
+      ],
+      "learnerActivities": [
+        "Children count aloud with the teacher.",
+        "Children say five.",
+        "Child counts their counters.",
+        "Child says the number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Count five bottle tops slowly, touching and moving each one. Children: Children count aloud with the teacher.",
+        "Step 2. Teacher: Say \"How many?\" and point to the last bottle top. Children: Children say five.",
+        "Step 3. Teacher: Give each child a small group of up to five counters. Children: Child counts their counters.",
+        "Step 4. Teacher: Walk around and ask each child \"How many do you have?\" Children: Child says the number."
+      ],
+      "practical": {
+        "title": "Count and move",
+        "steps": [
+          "Put counters in a line.",
+          "Touch each one and move it to a plate.",
+          "Say how many."
+        ],
+        "safety": "Use counters larger than a child’s fist so they cannot be swallowed and supervise closely. Do not let children put counters in their mouths."
+      },
+      "differentiation": {
+        "support": "Count one to three objects with the child, guiding the touching hand.",
+        "extension": "Ask the child to count out exactly five and then say one more."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many counters do you have?",
+            "expected": "The number of counters."
+          },
+          {
+            "question": "What do we say last?",
+            "expected": "The last number is how many."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts up to five objects accurately",
+        "Says how many in a group"
+      ],
+      "conclusion": "Hold up five fingers and say \"Five. Well done.\"",
+      "homeConnection": "Count five spoons or five stones with your child at home.",
+      "teacherReflection": [
+        "Which children could show \"count up to five objects touching each once\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ONE",
+          "TWO",
+          "THREE",
+          "FOUR",
+          "FIVE"
+        ],
+        "pictures": [
+          "Five bottle tops",
+          "Five fingers"
+        ]
+      },
+      "activities": [
+        "Count and move"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W01-D02",
+      "title": "Counting rhymes to five",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 1,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Counting rhymes",
+      "dayType": "explore",
+      "objectives": [
+        "Children will sing counting rhymes and show the numbers with fingers."
+      ],
+      "successCriteria": [
+        "Sings a counting rhyme with actions",
+        "Shows the right number of fingers"
+      ],
+      "previousKnowledge": "Children arrive able to count a little, usually to about five, and to use words such as big and small.",
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "count"
+      ],
+      "resources": [
+        "Rhyme pictures: five little monkeys, five fat sausages",
+        "Finger puppets",
+        "A rhyme chart"
+      ],
+      "starter": "Sing \"One, two, three, four, five, once I caught a fish alive\" with finger actions.",
+      "teacherActivities": [
+        "Teach the rhyme line by line with finger actions.",
+        "Sing the rhyme again and count down from five.",
+        "Use finger puppets to act out a rhyme.",
+        "Ask \"How many are left?\" at each verse."
+      ],
+      "learnerActivities": [
+        "Children copy the lines and fingers.",
+        "Children hold up the right number of fingers.",
+        "Child moves puppets and counts.",
+        "Child says the number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Teach the rhyme line by line with finger actions. Children: Children copy the lines and fingers.",
+        "Step 2. Teacher: Sing the rhyme again and count down from five. Children: Children hold up the right number of fingers.",
+        "Step 3. Teacher: Use finger puppets to act out a rhyme. Children: Child moves puppets and counts.",
+        "Step 4. Teacher: Ask \"How many are left?\" at each verse. Children: Child says the number."
+      ],
+      "practical": {
+        "title": "Rhyme and fingers",
+        "steps": [
+          "Sing the rhyme.",
+          "Show fingers for each number.",
+          "Count down together."
+        ],
+        "safety": "Keep the movement small and seated to avoid collisions. Make sure children have space around them."
+      },
+      "differentiation": {
+        "support": "Sing slowly and show the fingers beside the child.",
+        "extension": "Ask the child to lead a verse and say the numbers backwards."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many fingers on one hand?",
+            "expected": "Five."
+          },
+          {
+            "question": "What comes after three?",
+            "expected": "Four."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sings a counting rhyme with actions",
+        "Shows numbers with fingers"
+      ],
+      "conclusion": "Sing the rhyme once more and wave.",
+      "homeConnection": "Sing counting rhymes at bedtime and count fingers.",
+      "teacherReflection": [
+        "Which children could show \"sing counting rhymes and show the numbers with fingers\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "COUNT",
+          "FIVE"
+        ],
+        "pictures": [
+          "A monkey picture",
+          "A hand with five fingers"
+        ],
+        "songOrRhyme": "One, two, three, four, five, once I caught a fish alive."
+      },
+      "activities": [
+        "Rhyme and fingers"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W01-D03",
+      "title": "Numerals 1 to 5",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 1,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Numerals 1 to 5",
+      "dayType": "explore",
+      "objectives": [
+        "Children will recognise and name the numerals 1 to 5."
+      ],
+      "successCriteria": [
+        "Names numerals 1 to 5",
+        "Matches a numeral to a group"
+      ],
+      "previousKnowledge": "Children arrive able to count a little, usually to about five, and to use words such as big and small.",
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "count"
+      ],
+      "resources": [
+        "Large numeral cards 1 to 5",
+        "Counters",
+        "A tray"
+      ],
+      "starter": "Hold up the numeral 3 and say \"This is the numeral three. It tells us how many.\"",
+      "teacherActivities": [
+        "Show each numeral card and say its name.",
+        "Place the matching number of counters under each card.",
+        "Mix the cards and ask children to find a numeral.",
+        "Let each child match a card to a group."
+      ],
+      "learnerActivities": [
+        "Children say each numeral.",
+        "Children count the counters.",
+        "Child points to the numeral.",
+        "Child places the card by a group."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show each numeral card and say its name. Children: Children say each numeral.",
+        "Step 2. Teacher: Place the matching number of counters under each card. Children: Children count the counters.",
+        "Step 3. Teacher: Mix the cards and ask children to find a numeral. Children: Child points to the numeral.",
+        "Step 4. Teacher: Let each child match a card to a group. Children: Child places the card by a group."
+      ],
+      "practical": {
+        "title": "Match numeral and group",
+        "steps": [
+          "Look at a numeral card.",
+          "Count out that many counters.",
+          "Put the card by the group."
+        ],
+        "safety": "Use counters too large to swallow and supervise matching. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Match numerals 1 to 3 only with the child.",
+        "extension": "Ask the child to put the cards in order from 1 to 5."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What is this numeral?",
+            "expected": "The numeral name."
+          },
+          {
+            "question": "How many counters go here?",
+            "expected": "The same number."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names numerals 1 to 5",
+        "Matches numerals to groups"
+      ],
+      "conclusion": "Hold up each numeral and say it together.",
+      "homeConnection": "Look for numerals 1 to 5 on doors, clocks and calendars.",
+      "teacherReflection": [
+        "Which children could show \"recognise and name the numerals 1 to 5\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Number 1",
+          "Number 2",
+          "Number 3",
+          "Number 4",
+          "Number 5"
+        ],
+        "pictures": [
+          "Numeral cards 1 to 5"
+        ]
+      },
+      "activities": [
+        "Match numeral and group"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W01-D04",
+      "title": "Counting out",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 1,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Counting 1 to 5 with objects",
+      "dayType": "practise",
+      "objectives": [
+        "Children will count out a number of objects when asked."
+      ],
+      "successCriteria": [
+        "Counts out the number asked for",
+        "Checks by counting again"
+      ],
+      "previousKnowledge": "Children arrive able to count a little, usually to about five, and to use words such as big and small.",
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "count"
+      ],
+      "resources": [
+        "Baskets of counters",
+        "Plates",
+        "Number cards 1 to 5"
+      ],
+      "starter": "Say \"I will ask you for some counters. Can you give me three?\"",
+      "teacherActivities": [
+        "Ask a child to count out three counters.",
+        "Show a numeral card and ask for that many.",
+        "Check by counting together.",
+        "Let children ask each other for a number."
+      ],
+      "learnerActivities": [
+        "Child counts out three counters.",
+        "Child counts out the number.",
+        "Children count again to check.",
+        "Child asks a friend for a number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Ask a child to count out three counters. Children: Child counts out three counters.",
+        "Step 2. Teacher: Show a numeral card and ask for that many. Children: Child counts out the number.",
+        "Step 3. Teacher: Check by counting together. Children: Children count again to check.",
+        "Step 4. Teacher: Let children ask each other for a number. Children: Child asks a friend for a number."
+      ],
+      "practical": {
+        "title": "Give me counters",
+        "steps": [
+          "Take a card.",
+          "Count out that many counters.",
+          "Check by counting again."
+        ],
+        "safety": "Use large counters and supervise to avoid putting them in mouths. Keep the floor tidy."
+      },
+      "differentiation": {
+        "support": "Count out two or three counters together.",
+        "extension": "Ask the child to count out five and then take one away."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Can you give me four?",
+            "expected": "Counts out four."
+          },
+          {
+            "question": "How do you check?",
+            "expected": "Count again."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts out a number of objects",
+        "Checks by counting again"
+      ],
+      "conclusion": "Put the counters away and say the numbers.",
+      "homeConnection": "Ask your child for four spoons or five plates at mealtimes.",
+      "teacherReflection": [
+        "Which children could show \"count out a number of objects when asked\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "GIVE ME",
+          "COUNT"
+        ],
+        "pictures": [
+          "A basket of counters"
+        ]
+      },
+      "activities": [
+        "Give me counters"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W01-D05",
+      "title": "Week 1 counting check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 1,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Counting 1 to 5 with objects",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how far each child counts and recognises numerals."
+      ],
+      "successCriteria": [
+        "Counts up to 5 objects accurately",
+        "Matches numerals 1 to 5 to groups"
+      ],
+      "previousKnowledge": "Children arrive able to count a little, usually to about five, and to use words such as big and small.",
+      "vocabulary": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "count"
+      ],
+      "resources": [
+        "Counters",
+        "Numeral cards",
+        "Class record sheet"
+      ],
+      "starter": "Sing the counting rhyme and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: counting out, numeral match and rhyme.",
+        "At each station ask \"How many?\" and watch.",
+        "Record each child’s level and how far they count."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child counts and answers.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: counting out, numeral match and rhyme. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"How many?\" and watch. Children: Child counts and answers.",
+        "Step 3. Teacher: Record each child’s level and how far they count. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Counting stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use counters too large to swallow. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use only up to three.",
+        "extension": "Ask a confident child to count to ten."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: counts to 5 with one-to-one touch; matches numerals 1 to 5; sings counting rhymes; says how many.",
+        "questions": [
+          {
+            "question": "How many are there?",
+            "expected": "The number."
+          },
+          {
+            "question": "What numeral is this?",
+            "expected": "A numeral from 1 to 5."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 1",
+        "Counts to 5 with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep counting small groups at home every day.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how far each child counts and recognises numerals\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Counting"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Counting stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

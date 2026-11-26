@@ -1,0 +1,599 @@
+{
+  "id": "ELA-PS-N1-NUM-T1-W07",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 7,
+  "title": "Big, bigger, biggest",
+  "topic": "Size",
+  "subtopics": [
+    "Big and small",
+    "Bigger and smaller",
+    "Ordering three things by size"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will compare two objects by size.",
+    "Children will order three objects from small to big."
+  ],
+  "vocabulary": [
+    "big",
+    "small",
+    "bigger",
+    "smaller",
+    "biggest",
+    "smallest"
+  ],
+  "content": "Big and small, bigger and smaller, and ordering three things by size.",
+  "teachingActivities": "Always compare two objects side by side; use the words bigger and smaller; introduce the -est words with three objects; use everyday objects such as cups, balls, stones and children’s shoes; keep a fair comparison (same starting line).",
+  "learnerActivities": "Compare two objects by size and order three objects from small to big.",
+  "resources": [
+    "Cups in three sizes",
+    "Balls in three sizes",
+    "Stones",
+    "Shoes",
+    "Three bears picture set"
+  ],
+  "assessment": "Observe whether each child compares two objects by size and orders three objects.",
+  "expectedOutcomes": [
+    "Says which of two is bigger.",
+    "Orders three objects by size with support."
+  ],
+  "crossCurricular": [
+    "Science: comparing natural things",
+    "Literacy: comparing words",
+    "Creative Development: drawing big and small"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T1-W07-D01",
+      "title": "Big and small",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 7,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Size",
+      "subtopic": "Big and small",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say big and small for different objects."
+      ],
+      "successCriteria": [
+        "Says big or small correctly",
+        "Finds a big and a small thing"
+      ],
+      "previousKnowledge": "Children can sort by colour and size and find pairs.",
+      "vocabulary": [
+        "big",
+        "small",
+        "bigger",
+        "smaller",
+        "biggest",
+        "smallest"
+      ],
+      "resources": [
+        "A big and a small ball",
+        "A big and a small cup",
+        "Pictures of a big and a small animal"
+      ],
+      "starter": "Hold up a big and a small ball and say \"This is big. This is small.\"",
+      "teacherActivities": [
+        "Show pairs of objects and say big or small.",
+        "Ask \"Which is big?\" for each pair.",
+        "Let children find a big and a small thing in the room.",
+        "Make big and small shapes with arms and bodies."
+      ],
+      "learnerActivities": [
+        "Children repeat the words.",
+        "Children point to the big one.",
+        "Child finds objects.",
+        "Children stretch big and curl small."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show pairs of objects and say big or small. Children: Children repeat the words.",
+        "Step 2. Teacher: Ask \"Which is big?\" for each pair. Children: Children point to the big one.",
+        "Step 3. Teacher: Let children find a big and a small thing in the room. Children: Child finds objects.",
+        "Step 4. Teacher: Make big and small shapes with arms and bodies. Children: Children stretch big and curl small."
+      ],
+      "practical": {
+        "title": "Big and small hunt",
+        "steps": [
+          "Look around the room.",
+          "Find a big thing.",
+          "Find a small thing."
+        ],
+        "safety": "Keep the walk slow and supervised. Do not let children lift heavy objects."
+      },
+      "differentiation": {
+        "support": "Offer two very different sizes first.",
+        "extension": "Ask the child to find something bigger than their hand."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the elephant big or small?",
+            "expected": "Big."
+          },
+          {
+            "question": "Is the ant big or small?",
+            "expected": "Small."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says big and small correctly",
+        "Finds big and small things"
+      ],
+      "conclusion": "Make a big shape and a small shape and wave.",
+      "homeConnection": "Talk about big and small things you see.",
+      "teacherReflection": [
+        "Which children could show \"say big and small for different objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BIG",
+          "SMALL"
+        ],
+        "pictures": [
+          "A big ball",
+          "A small ball"
+        ]
+      },
+      "activities": [
+        "Big and small hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W07-D02",
+      "title": "Bigger and smaller",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 7,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Size",
+      "subtopic": "Bigger and smaller",
+      "dayType": "explore",
+      "objectives": [
+        "Children will compare two objects and say which is bigger or smaller."
+      ],
+      "successCriteria": [
+        "Says bigger or smaller",
+        "Compares side by side"
+      ],
+      "previousKnowledge": "Children can sort by colour and size and find pairs.",
+      "vocabulary": [
+        "big",
+        "small",
+        "bigger",
+        "smaller",
+        "biggest",
+        "smallest"
+      ],
+      "resources": [
+        "Pairs of similar objects in different sizes",
+        "Cups",
+        "Stones",
+        "Shoes"
+      ],
+      "starter": "Put two stones side by side and say \"This one is bigger than that one.\"",
+      "teacherActivities": [
+        "Show how to put two objects side by side to compare.",
+        "Ask \"Which is bigger?\" for different pairs.",
+        "Ask \"Which is smaller?\"",
+        "Let children compare their own shoes."
+      ],
+      "learnerActivities": [
+        "Children watch and say bigger.",
+        "Child points and says bigger.",
+        "Child points and says smaller.",
+        "Child compares two shoes."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to put two objects side by side to compare. Children: Children watch and say bigger.",
+        "Step 2. Teacher: Ask \"Which is bigger?\" for different pairs. Children: Child points and says bigger.",
+        "Step 3. Teacher: Ask \"Which is smaller?\" Children: Child points and says smaller.",
+        "Step 4. Teacher: Let children compare their own shoes. Children: Child compares two shoes."
+      ],
+      "practical": {
+        "title": "Compare two",
+        "steps": [
+          "Pick two objects.",
+          "Put them side by side.",
+          "Say which is bigger."
+        ],
+        "safety": "Use clean objects with no sharp edges and wash hands after. Keep shoes tidy."
+      },
+      "differentiation": {
+        "support": "Compare objects that are very different in size.",
+        "extension": "Ask the child to find something bigger than a stone."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which is bigger?",
+            "expected": "The larger object."
+          },
+          {
+            "question": "Which is smaller?",
+            "expected": "The smaller object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Compares two objects by size",
+        "Says bigger and smaller"
+      ],
+      "conclusion": "Put the objects away and say bigger and smaller.",
+      "homeConnection": "Compare two fruits at home and say which is bigger.",
+      "teacherReflection": [
+        "Which children could show \"compare two objects and say which is bigger or smaller\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BIGGER",
+          "SMALLER"
+        ],
+        "pictures": [
+          "Two stones side by side"
+        ]
+      },
+      "activities": [
+        "Compare two"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W07-D03",
+      "title": "Biggest and smallest",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 7,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Size",
+      "subtopic": "Ordering three things by size",
+      "dayType": "practise",
+      "objectives": [
+        "Children will order three objects from smallest to biggest."
+      ],
+      "successCriteria": [
+        "Puts three objects in order",
+        "Says biggest and smallest"
+      ],
+      "previousKnowledge": "Children can sort by colour and size and find pairs.",
+      "vocabulary": [
+        "big",
+        "small",
+        "bigger",
+        "smaller",
+        "biggest",
+        "smallest"
+      ],
+      "resources": [
+        "Three cups",
+        "Three balls",
+        "Three bears picture set"
+      ],
+      "starter": "Show three bears and say \"Baby Bear, Mummy Bear, Daddy Bear. Which is the biggest?\"",
+      "teacherActivities": [
+        "Put three cups in a row from smallest to biggest.",
+        "Mix them up and ask a child to order them.",
+        "Ask \"Which is smallest? Which is biggest?\"",
+        "Let each child order a set of three."
+      ],
+      "learnerActivities": [
+        "Children watch and say biggest.",
+        "Child orders the cups.",
+        "Child points to each.",
+        "Child orders objects."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put three cups in a row from smallest to biggest. Children: Children watch and say biggest.",
+        "Step 2. Teacher: Mix them up and ask a child to order them. Children: Child orders the cups.",
+        "Step 3. Teacher: Ask \"Which is smallest? Which is biggest?\" Children: Child points to each.",
+        "Step 4. Teacher: Let each child order a set of three. Children: Child orders objects."
+      ],
+      "practical": {
+        "title": "Order three",
+        "steps": [
+          "Take three objects.",
+          "Put them in order.",
+          "Say biggest and smallest."
+        ],
+        "safety": "Use unbreakable cups and supervise closely. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Order two objects first and then add a third.",
+        "extension": "Ask the child to order five objects."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which is the biggest?",
+            "expected": "The largest object."
+          },
+          {
+            "question": "Which is the smallest?",
+            "expected": "The smallest object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Orders three objects by size",
+        "Says biggest and smallest"
+      ],
+      "conclusion": "Put the sets away and say biggest and smallest.",
+      "homeConnection": "Order three spoons or cups from smallest to biggest.",
+      "teacherReflection": [
+        "Which children could show \"order three objects from smallest to biggest\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BIGGEST",
+          "SMALLEST"
+        ],
+        "pictures": [
+          "Three cups in order"
+        ]
+      },
+      "activities": [
+        "Order three"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W07-D04",
+      "title": "Three bears",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 7,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Size",
+      "subtopic": "Ordering three things by size",
+      "dayType": "apply",
+      "objectives": [
+        "Children will use size words to retell part of the story of the three bears."
+      ],
+      "successCriteria": [
+        "Uses big, middle and small",
+        "Matches objects to the bears"
+      ],
+      "previousKnowledge": "Children can sort by colour and size and find pairs.",
+      "vocabulary": [
+        "big",
+        "small",
+        "bigger",
+        "smaller",
+        "biggest",
+        "smallest"
+      ],
+      "resources": [
+        "Three bowls, chairs and beds in three sizes",
+        "Three bear toys",
+        "A short story"
+      ],
+      "starter": "Say \"Today we meet three bears: Daddy Bear, Mummy Bear and Baby Bear.\"",
+      "teacherActivities": [
+        "Tell the story slowly with the three sizes of bowls.",
+        "Ask \"Which bowl is for Daddy Bear?\"",
+        "Match chairs and beds to each bear.",
+        "Retell the story together."
+      ],
+      "learnerActivities": [
+        "Children listen and point.",
+        "Child points to the biggest bowl.",
+        "Child matches objects to bears.",
+        "Children retell with objects."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Tell the story slowly with the three sizes of bowls. Children: Children listen and point.",
+        "Step 2. Teacher: Ask \"Which bowl is for Daddy Bear?\" Children: Child points to the biggest bowl.",
+        "Step 3. Teacher: Match chairs and beds to each bear. Children: Child matches objects to bears.",
+        "Step 4. Teacher: Retell the story together. Children: Children retell with objects."
+      ],
+      "practical": {
+        "title": "The three bears",
+        "steps": [
+          "Look at the three bowls.",
+          "Match each to a bear.",
+          "Say big, middle and small."
+        ],
+        "safety": "Use unbreakable bowls and keep the play gentle. Supervise sharing."
+      },
+      "differentiation": {
+        "support": "Match two bowls to two bears first.",
+        "extension": "Ask the child to add more things in three sizes."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which bowl is for Baby Bear?",
+            "expected": "The smallest bowl."
+          },
+          {
+            "question": "Which is the middle size?",
+            "expected": "Mummy Bear’s bowl."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Uses big, middle and small",
+        "Matches objects to the bears"
+      ],
+      "conclusion": "Put the bears away and say good night.",
+      "homeConnection": "Tell the story of the three bears at bedtime.",
+      "teacherReflection": [
+        "Which children could show \"use size words to retell part of the story of the three bears\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BEAR",
+          "MIDDLE"
+        ],
+        "pictures": [
+          "Three bears and bowls"
+        ]
+      },
+      "activities": [
+        "The three bears"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W07-D05",
+      "title": "Week 7 size check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 7,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Size",
+      "subtopic": "Ordering three things by size",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child compares and orders by size."
+      ],
+      "successCriteria": [
+        "Compares two objects by size",
+        "Orders three objects"
+      ],
+      "previousKnowledge": "Children can sort by colour and size and find pairs.",
+      "vocabulary": [
+        "big",
+        "small",
+        "bigger",
+        "smaller",
+        "biggest",
+        "smallest"
+      ],
+      "resources": [
+        "Cups",
+        "Balls",
+        "Class record sheet"
+      ],
+      "starter": "Sing the big and small song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: compare, order and three bears.",
+        "At each station ask \"Which is bigger?\" and watch.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers with a word.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: compare, order and three bears. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"Which is bigger?\" and watch. Children: Child answers with a word.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Size stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use unbreakable objects. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and compare two objects only.",
+        "extension": "Ask a confident child to order five objects."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says big and small; says bigger and smaller; orders three objects; uses biggest and smallest.",
+        "questions": [
+          {
+            "question": "Which is bigger?",
+            "expected": "The larger object."
+          },
+          {
+            "question": "Which is the smallest?",
+            "expected": "The smallest object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 7",
+        "Compares and orders by size with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep comparing sizes at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child compares and orders by size\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Size"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Size stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "id": "ELA-PS-N1-NUM-T1-W10",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 10,
+  "title": "Show what we know",
+  "topic": "Revision and assessment",
+  "subtopics": [
+    "Revising counting and numerals",
+    "Revising sorting and measures",
+    "Revising shapes"
+  ],
+  "weekType": "revision-assessment",
+  "objectives": [
+    "Children will show Term 1 learning through play stations.",
+    "Teachers will gather evidence for every child’s Term 1 record."
+  ],
+  "vocabulary": [
+    "count",
+    "numeral",
+    "sort",
+    "long",
+    "circle",
+    "ten"
+  ],
+  "content": "Revising counting and numerals, sorting and measures, and shapes, with end-of-term records.",
+  "teachingActivities": "Keep every activity familiar and joyful; observe quietly during play; record what children can do and how far each child counts; share records with parents in plain language with a strength, a next step and a home idea.",
+  "learnerActivities": "Show learning from the term through play stations and a celebration.",
+  "resources": [
+    "Counters",
+    "Numeral cards",
+    "Sorting baskets",
+    "Ropes and cubes",
+    "Shapes",
+    "Stickers",
+    "Class record sheets"
+  ],
+  "assessment": "Observe and record each child’s Term 1 numeracy learning.",
+  "expectedOutcomes": [
+    "Completes familiar tasks with confidence at play stations.",
+    "Each child has an observation record for Term 1."
+  ],
+  "crossCurricular": [
+    "Literacy: songs and rhymes",
+    "Social Habits: celebration",
+    "Creative Development: shape pictures"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T1-W10-D01",
+      "title": "Revising counting and numerals",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 10,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising counting and numerals",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit counting, numerals and number games through play."
+      ],
+      "successCriteria": [
+        "Counts objects accurately",
+        "Names numerals 1 to 10"
+      ],
+      "previousKnowledge": "Children have learnt counting, numerals, sorting, size, length and shapes in Term 1.",
+      "vocabulary": [
+        "count",
+        "numeral",
+        "sort",
+        "long",
+        "circle",
+        "ten"
+      ],
+      "resources": [
+        "Counters",
+        "Numeral cards",
+        "A hopscotch grid",
+        "Counting bags"
+      ],
+      "starter": "Sing the counting rhyme and say \"Today we play our favourite number games.\"",
+      "teacherActivities": [
+        "Play counting bags and numeral hunt.",
+        "Play number hopscotch.",
+        "Show numbers with fingers.",
+        "Let each child choose a favourite game."
+      ],
+      "learnerActivities": [
+        "Child counts and names numerals.",
+        "Child hops and says numbers.",
+        "Child shows numbers with fingers.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play counting bags and numeral hunt. Children: Child counts and names numerals.",
+        "Step 2. Teacher: Play number hopscotch. Children: Child hops and says numbers.",
+        "Step 3. Teacher: Show numbers with fingers. Children: Child shows numbers with fingers.",
+        "Step 4. Teacher: Let each child choose a favourite game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Number games",
+        "steps": [
+          "Set up three game areas.",
+          "Children play each for five minutes.",
+          "The teacher notes counting."
+        ],
+        "safety": "Supervise each area and use counters too large to swallow. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Play beside the child with numbers up to five.",
+        "extension": "Ask the child to lead a counting game."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many are there?",
+            "expected": "The number."
+          },
+          {
+            "question": "What numeral is this?",
+            "expected": "A numeral from 1 to 10."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows counting and numeral knowledge",
+        "Plays counting games confidently"
+      ],
+      "conclusion": "Count to ten and wave goodbye.",
+      "homeConnection": "Keep playing counting games at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit counting, numerals and number games through play\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "COUNT",
+          "NUMBERS"
+        ],
+        "pictures": [
+          "Counters",
+          "Numeral cards"
+        ]
+      },
+      "activities": [
+        "Number games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W10-D02",
+      "title": "Revising sorting and measures",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 10,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising sorting and measures",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit sorting, size and length through play."
+      ],
+      "successCriteria": [
+        "Sorts by colour or size",
+        "Compares length and size"
+      ],
+      "previousKnowledge": "Children have learnt counting, numerals, sorting, size, length and shapes in Term 1.",
+      "vocabulary": [
+        "count",
+        "numeral",
+        "sort",
+        "long",
+        "circle",
+        "ten"
+      ],
+      "resources": [
+        "Sorting baskets",
+        "Cups",
+        "Ropes",
+        "Cubes"
+      ],
+      "starter": "Say \"Today we sort, compare and measure.\"",
+      "teacherActivities": [
+        "Play the colour sorting game.",
+        "Order three cups by size.",
+        "Measure an object with cubes.",
+        "Let each child choose a favourite game."
+      ],
+      "learnerActivities": [
+        "Child sorts by colour.",
+        "Child orders the cups.",
+        "Child measures and counts.",
+        "Child chooses and plays."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the colour sorting game. Children: Child sorts by colour.",
+        "Step 2. Teacher: Order three cups by size. Children: Child orders the cups.",
+        "Step 3. Teacher: Measure an object with cubes. Children: Child measures and counts.",
+        "Step 4. Teacher: Let each child choose a favourite game. Children: Child chooses and plays."
+      ],
+      "practical": {
+        "title": "Sorting and measuring games",
+        "steps": [
+          "Set up three areas.",
+          "Children play each for five minutes.",
+          "The teacher notes responses."
+        ],
+        "safety": "Supervise each area and use large objects only. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Play beside the child and use two objects.",
+        "extension": "Ask the child to sort and then count each group."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How did you sort?",
+            "expected": "By colour or size."
+          },
+          {
+            "question": "Which is longer?",
+            "expected": "The longer object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts and compares with confidence",
+        "Measures with cubes"
+      ],
+      "conclusion": "Put the objects away and wave goodbye.",
+      "homeConnection": "Keep sorting and comparing at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit sorting, size and length through play\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SORT",
+          "MEASURE"
+        ],
+        "pictures": [
+          "Sorting baskets",
+          "Cubes"
+        ]
+      },
+      "activities": [
+        "Sorting and measuring games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W10-D03",
+      "title": "Maths stations",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 10,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising counting and numerals",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will gather evidence of each child’s Term 1 numeracy at play stations."
+      ],
+      "successCriteria": [
+        "Completes familiar tasks with confidence",
+        "Shows counting, sorting, size and shape knowledge"
+      ],
+      "previousKnowledge": "Children have learnt counting, numerals, sorting, size, length and shapes in Term 1.",
+      "vocabulary": [
+        "count",
+        "numeral",
+        "sort",
+        "long",
+        "circle",
+        "ten"
+      ],
+      "resources": [
+        "Six maths stations",
+        "Class record sheets",
+        "A camera or notebook"
+      ],
+      "starter": "Say \"Today we visit six maths stations and show what we know.\"",
+      "teacherActivities": [
+        "Set up six stations: counting, numerals, sorting, size, length and shapes.",
+        "Observe each child at two stations and record what they do.",
+        "Take photographs and make notes."
+      ],
+      "learnerActivities": [
+        "Children rotate every four minutes.",
+        "Children play at stations.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up six stations: counting, numerals, sorting, size, length and shapes. Children: Children rotate every four minutes.",
+        "Step 2. Teacher: Observe each child at two stations and record what they do. Children: Children play at stations.",
+        "Step 3. Teacher: Take photographs and make notes. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Maths stations",
+        "steps": [
+          "Set up six stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station with an adult or helper. Keep floors clear and use large safe materials only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and stay at familiar stations.",
+        "extension": "Ask a confident child to show friends how a station works."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: counts to 10; counts objects; names numerals 1 to 10; sorts; compares size and length; names shapes.",
+        "questions": [
+          {
+            "question": "What do you like?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "Show me your favourite game.",
+            "expected": "Child chooses a game."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a Term 1 observation record",
+        "Shows familiar maths skills at stations"
+      ],
+      "conclusion": "Say well done to everyone and wave goodbye.",
+      "homeConnection": "Play a favourite maths game at home during the holiday.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will gather evidence of each child’s Term 1 numeracy at play stations\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Well done"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Maths stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W10-D04",
+      "title": "Revising shapes",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 10,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising shapes",
+      "dayType": "revision",
+      "objectives": [
+        "Children will revisit circle, square and triangle through play."
+      ],
+      "successCriteria": [
+        "Names circle, square and triangle",
+        "Makes a shape picture"
+      ],
+      "previousKnowledge": "Children have learnt counting, numerals, sorting, size, length and shapes in Term 1.",
+      "vocabulary": [
+        "count",
+        "numeral",
+        "sort",
+        "long",
+        "circle",
+        "ten"
+      ],
+      "resources": [
+        "Shapes",
+        "A feely bag",
+        "Paper and glue",
+        "Straws and playdough"
+      ],
+      "starter": "Say \"Today we play shape games.\"",
+      "teacherActivities": [
+        "Play the feely bag game.",
+        "Build a triangle with straws.",
+        "Make a shape picture.",
+        "Find shapes in the room."
+      ],
+      "learnerActivities": [
+        "Child feels and names a shape.",
+        "Child builds a triangle.",
+        "Child sticks shapes on paper.",
+        "Child finds and names shapes."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Play the feely bag game. Children: Child feels and names a shape.",
+        "Step 2. Teacher: Build a triangle with straws. Children: Child builds a triangle.",
+        "Step 3. Teacher: Make a shape picture. Children: Child sticks shapes on paper.",
+        "Step 4. Teacher: Find shapes in the room. Children: Child finds and names shapes."
+      ],
+      "practical": {
+        "title": "Shape games",
+        "steps": [
+          "Set up three areas.",
+          "Children play each for five minutes.",
+          "The teacher notes shape names."
+        ],
+        "safety": "Supervise each area and use smooth shapes only. Wash hands after glue and playdough."
+      },
+      "differentiation": {
+        "support": "Play beside the child with two shapes.",
+        "extension": "Ask the child to make a repeating shape pattern."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What shape is this?",
+            "expected": "Circle, square or triangle."
+          },
+          {
+            "question": "Where do you see it?",
+            "expected": "In the room."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Names circle, square and triangle",
+        "Makes a shape picture"
+      ],
+      "conclusion": "Wash hands and wave goodbye.",
+      "homeConnection": "Keep looking for shapes at home.",
+      "teacherReflection": [
+        "Which children could show \"revisit circle, square and triangle through play\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SHAPES",
+          "CIRCLE"
+        ],
+        "pictures": [
+          "Shape pictures"
+        ]
+      },
+      "activities": [
+        "Shape games"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W10-D05",
+      "title": "Term celebration and records",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 10,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Revision and assessment",
+      "subtopic": "Revising shapes",
+      "dayType": "review-assess",
+      "objectives": [
+        "Children will celebrate Term 1 with songs and games, and teachers will complete each child’s record."
+      ],
+      "successCriteria": [
+        "Joins in songs and games",
+        "Shows something they enjoyed"
+      ],
+      "previousKnowledge": "Children have learnt counting, numerals, sorting, size, length and shapes in Term 1.",
+      "vocabulary": [
+        "count",
+        "numeral",
+        "sort",
+        "long",
+        "circle",
+        "ten"
+      ],
+      "resources": [
+        "Favourite number songs",
+        "Stickers",
+        "Class record sheets"
+      ],
+      "starter": "Say \"Today we celebrate our term. Let us sing our favourite number songs.\"",
+      "teacherActivities": [
+        "Sing favourite number rhymes with actions.",
+        "Give each child a sticker and say their name.",
+        "Complete each child’s record and next step."
+      ],
+      "learnerActivities": [
+        "Children sing and do actions.",
+        "Child waves and says thank you.",
+        "Children play quietly."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Sing favourite number rhymes with actions. Children: Children sing and do actions.",
+        "Step 2. Teacher: Give each child a sticker and say their name. Children: Child waves and says thank you.",
+        "Step 3. Teacher: Complete each child’s record and next step. Children: Children play quietly."
+      ],
+      "practical": {
+        "title": "Celebration circle",
+        "steps": [
+          "Sit in a circle.",
+          "Sing and clap.",
+          "Give out stickers."
+        ],
+        "safety": "Check for allergies before any snack and use non-toxic stickers. Keep the floor clear and supervise all play."
+      },
+      "differentiation": {
+        "support": "Hold the child’s hand and sing together.",
+        "extension": "Ask the child to choose the last song."
+      },
+      "assessment": {
+        "method": "Complete each child’s Term 1 numeracy record from the term’s observations. Note the highest number counted accurately, a strength, a next step and a home idea for parents.",
+        "questions": [
+          {
+            "question": "What is your favourite number game?",
+            "expected": "Child points or names."
+          },
+          {
+            "question": "What can you count to?",
+            "expected": "The highest number."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has a completed Term 1 record",
+        "Enjoys the celebration"
+      ],
+      "conclusion": "Wave goodbye and say \"See you next term.\"",
+      "homeConnection": "Share the Term 1 record and keep counting over the holiday.",
+      "teacherReflection": [
+        "Which children could show \"celebrate Term 1 with songs and games, and teachers will complete each child’s record\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "WELL DONE"
+        ],
+        "pictures": [
+          "Children celebrating"
+        ]
+      },
+      "activities": [
+        "Celebration circle"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

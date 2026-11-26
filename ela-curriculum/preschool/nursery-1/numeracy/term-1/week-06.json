@@ -1,0 +1,598 @@
+{
+  "id": "ELA-PS-N1-NUM-T1-W06",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 6,
+  "title": "Sorting and matching",
+  "topic": "Sorting",
+  "subtopics": [
+    "Sorting by colour and size",
+    "Matching pairs",
+    "Odd one out"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will sort objects by colour and size.",
+    "Children will find pairs and the odd one out."
+  ],
+  "vocabulary": [
+    "sort",
+    "match",
+    "pair",
+    "same",
+    "different",
+    "odd one out"
+  ],
+  "content": "Sorting by colour and size, matching pairs, and finding the odd one out.",
+  "teachingActivities": "Let children choose their own sorting rule at first; name the rule aloud (\"these are all red\"); use real objects such as bottle tops, leaves and fruit; ask \"How did you sort?\"; accept any sensible rule.",
+  "learnerActivities": "Sort objects by colour and size, find pairs and spot the odd one out.",
+  "resources": [
+    "Mixed bottle tops and buttons",
+    "Sorting hoops or baskets",
+    "Pairs of socks or shoes",
+    "Picture cards for odd one out",
+    "Leaves and stones"
+  ],
+  "assessment": "Observe whether each child sorts by colour or size and says how they sorted.",
+  "expectedOutcomes": [
+    "Sorts a set of objects by colour or size.",
+    "Finds the odd one out with support."
+  ],
+  "crossCurricular": [
+    "Science: grouping natural things",
+    "Literacy: describing words",
+    "Social Habits: sharing materials"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T1-W06-D01",
+      "title": "Sorting by colour",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 6,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Sorting",
+      "subtopic": "Sorting by colour and size",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will sort objects by colour and say how they sorted."
+      ],
+      "successCriteria": [
+        "Puts objects of one colour together",
+        "Says the colour name"
+      ],
+      "previousKnowledge": "Children can count objects to 10, name numerals 1 to 10 and play counting games.",
+      "vocabulary": [
+        "sort",
+        "match",
+        "pair",
+        "same",
+        "different",
+        "odd one out"
+      ],
+      "resources": [
+        "Bottle tops in red, blue, green and yellow",
+        "Four baskets",
+        "Colour cards"
+      ],
+      "starter": "Hold up a red bottle top and say \"This is red. Where do the red ones go?\"",
+      "teacherActivities": [
+        "Show how to put red bottle tops into a red basket.",
+        "Give each child a handful of mixed bottle tops.",
+        "Let children sort them into the baskets.",
+        "Ask \"How did you sort?\""
+      ],
+      "learnerActivities": [
+        "Children watch and name the colour.",
+        "Child looks at the colours.",
+        "Child sorts by colour.",
+        "Child says by colour."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to put red bottle tops into a red basket. Children: Children watch and name the colour.",
+        "Step 2. Teacher: Give each child a handful of mixed bottle tops. Children: Child looks at the colours.",
+        "Step 3. Teacher: Let children sort them into the baskets. Children: Child sorts by colour.",
+        "Step 4. Teacher: Ask \"How did you sort?\" Children: Child says by colour."
+      ],
+      "practical": {
+        "title": "Colour baskets",
+        "steps": [
+          "Put colour cards on the mat.",
+          "Take a bottle top.",
+          "Put it in the matching basket."
+        ],
+        "safety": "Use bottle tops larger than a fist or check they are not small enough to swallow. Supervise closely and keep tops out of mouths."
+      },
+      "differentiation": {
+        "support": "Sort two colours only and name each colour together.",
+        "extension": "Ask the child to sort by colour and then count each group."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What colour is this?",
+            "expected": "The colour name."
+          },
+          {
+            "question": "How did you sort?",
+            "expected": "By colour."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts objects by colour",
+        "Says how they sorted"
+      ],
+      "conclusion": "Look at the full baskets and say the colours.",
+      "homeConnection": "Sort socks or spoons by colour at home.",
+      "teacherReflection": [
+        "Which children could show \"sort objects by colour and say how they sorted\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "SORT",
+          "COLOUR"
+        ],
+        "pictures": [
+          "Baskets of bottle tops"
+        ]
+      },
+      "activities": [
+        "Colour baskets"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W06-D02",
+      "title": "Sorting by size",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 6,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Sorting",
+      "subtopic": "Sorting by colour and size",
+      "dayType": "explore",
+      "objectives": [
+        "Children will sort objects by size into big and small."
+      ],
+      "successCriteria": [
+        "Puts big and small objects in groups",
+        "Says big or small"
+      ],
+      "previousKnowledge": "Children can count objects to 10, name numerals 1 to 10 and play counting games.",
+      "vocabulary": [
+        "sort",
+        "match",
+        "pair",
+        "same",
+        "different",
+        "odd one out"
+      ],
+      "resources": [
+        "Big and small leaves",
+        "Big and small stones",
+        "Two hoops labelled big and small"
+      ],
+      "starter": "Hold up a big and a small leaf and say \"Which one is big? Which one is small?\"",
+      "teacherActivities": [
+        "Show how to sort leaves into big and small hoops.",
+        "Give each pair a bag of mixed leaves and stones.",
+        "Let children sort them into hoops.",
+        "Check the hoops together."
+      ],
+      "learnerActivities": [
+        "Children watch and say big or small.",
+        "Pairs look at the objects.",
+        "Child sorts by size.",
+        "Children say which hoop has more."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to sort leaves into big and small hoops. Children: Children watch and say big or small.",
+        "Step 2. Teacher: Give each pair a bag of mixed leaves and stones. Children: Pairs look at the objects.",
+        "Step 3. Teacher: Let children sort them into hoops. Children: Child sorts by size.",
+        "Step 4. Teacher: Check the hoops together. Children: Children say which hoop has more."
+      ],
+      "practical": {
+        "title": "Big and small hoops",
+        "steps": [
+          "Look at the objects.",
+          "Decide big or small.",
+          "Put them in the hoop."
+        ],
+        "safety": "Check leaves and stones are clean with no sharp edges and wash hands after. Use only large safe objects."
+      },
+      "differentiation": {
+        "support": "Offer one big and one small object at a time.",
+        "extension": "Ask the child to sort three sizes."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is this big or small?",
+            "expected": "Big or small."
+          },
+          {
+            "question": "Which hoop has more?",
+            "expected": "The hoop with more."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Sorts objects by size",
+        "Says big or small"
+      ],
+      "conclusion": "Wash hands and say big and small.",
+      "homeConnection": "Sort spoons or shoes by size at home.",
+      "teacherReflection": [
+        "Which children could show \"sort objects by size into big and small\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BIG",
+          "SMALL"
+        ],
+        "pictures": [
+          "Big and small leaves"
+        ]
+      },
+      "activities": [
+        "Big and small hoops"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W06-D03",
+      "title": "Matching pairs",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 6,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Sorting",
+      "subtopic": "Matching pairs",
+      "dayType": "explore",
+      "objectives": [
+        "Children will find matching pairs of objects."
+      ],
+      "successCriteria": [
+        "Finds a pair",
+        "Says same"
+      ],
+      "previousKnowledge": "Children can count objects to 10, name numerals 1 to 10 and play counting games.",
+      "vocabulary": [
+        "sort",
+        "match",
+        "pair",
+        "same",
+        "different",
+        "odd one out"
+      ],
+      "resources": [
+        "Pairs of socks",
+        "Pairs of shoes",
+        "A matching card game"
+      ],
+      "starter": "Hold up one sock and say \"Where is the other one? It must be the same.\"",
+      "teacherActivities": [
+        "Show a sock and find its pair from a pile.",
+        "Give each child one sock to match.",
+        "Play the matching card game.",
+        "Count the pairs."
+      ],
+      "learnerActivities": [
+        "Children watch and say same.",
+        "Child finds the matching sock.",
+        "Child turns cards to find a pair.",
+        "Children count the pairs."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a sock and find its pair from a pile. Children: Children watch and say same.",
+        "Step 2. Teacher: Give each child one sock to match. Children: Child finds the matching sock.",
+        "Step 3. Teacher: Play the matching card game. Children: Child turns cards to find a pair.",
+        "Step 4. Teacher: Count the pairs. Children: Children count the pairs."
+      ],
+      "practical": {
+        "title": "Find the pair",
+        "steps": [
+          "Take one item.",
+          "Look for its pair.",
+          "Put them together."
+        ],
+        "safety": "Use clean items and wash hands after handling socks and shoes. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Offer three items with one match.",
+        "extension": "Ask the child to find pairs that are almost the same."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is this the same?",
+            "expected": "Yes or no."
+          },
+          {
+            "question": "How many pairs?",
+            "expected": "The number of pairs."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds matching pairs",
+        "Says the word same"
+      ],
+      "conclusion": "Put the pairs away and count them.",
+      "homeConnection": "Match socks and shoes with your child at home.",
+      "teacherReflection": [
+        "Which children could show \"find matching pairs of objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "PAIR",
+          "SAME"
+        ],
+        "pictures": [
+          "Pairs of socks"
+        ]
+      },
+      "activities": [
+        "Find the pair"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W06-D04",
+      "title": "Odd one out",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 6,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Sorting",
+      "subtopic": "Odd one out",
+      "dayType": "practise",
+      "objectives": [
+        "Children will find the odd one out in a group of objects."
+      ],
+      "successCriteria": [
+        "Finds the odd one out",
+        "Says why it is different"
+      ],
+      "previousKnowledge": "Children can count objects to 10, name numerals 1 to 10 and play counting games.",
+      "vocabulary": [
+        "sort",
+        "match",
+        "pair",
+        "same",
+        "different",
+        "odd one out"
+      ],
+      "resources": [
+        "Groups of four objects with one different",
+        "Picture cards",
+        "A tray"
+      ],
+      "starter": "Show three red bottle tops and one blue and say \"One is different. Which one?\"",
+      "teacherActivities": [
+        "Show a group with one different and ask which is odd.",
+        "Say why it is different.",
+        "Let children find the odd one in other groups.",
+        "Let children make an odd one out for a friend."
+      ],
+      "learnerActivities": [
+        "Children point to the odd one.",
+        "Children say different colour.",
+        "Child points and says why.",
+        "Child makes a group."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a group with one different and ask which is odd. Children: Children point to the odd one.",
+        "Step 2. Teacher: Say why it is different. Children: Children say different colour.",
+        "Step 3. Teacher: Let children find the odd one in other groups. Children: Child points and says why.",
+        "Step 4. Teacher: Let children make an odd one out for a friend. Children: Child makes a group."
+      ],
+      "practical": {
+        "title": "Odd one out",
+        "steps": [
+          "Look at four objects.",
+          "Find the odd one.",
+          "Say why it is different."
+        ],
+        "safety": "Use large safe objects and supervise the game. Keep objects away from mouths."
+      },
+      "differentiation": {
+        "support": "Use groups where the difference is a clear colour.",
+        "extension": "Ask the child to find an odd one out by shape."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which is the odd one out?",
+            "expected": "The different object."
+          },
+          {
+            "question": "Why is it different?",
+            "expected": "Colour, size or shape."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds the odd one out",
+        "Says why it is different"
+      ],
+      "conclusion": "Put the objects away and say well done.",
+      "homeConnection": "Make an odd one out game with household objects.",
+      "teacherReflection": [
+        "Which children could show \"find the odd one out in a group of objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "ODD",
+          "DIFFERENT"
+        ],
+        "pictures": [
+          "Three red and one blue bottle top"
+        ]
+      },
+      "activities": [
+        "Odd one out"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W06-D05",
+      "title": "Week 6 sorting check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 6,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Sorting",
+      "subtopic": "Sorting by colour and size",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child sorts and matches."
+      ],
+      "successCriteria": [
+        "Sorts by colour or size",
+        "Finds pairs and odd one out"
+      ],
+      "previousKnowledge": "Children can count objects to 10, name numerals 1 to 10 and play counting games.",
+      "vocabulary": [
+        "sort",
+        "match",
+        "pair",
+        "same",
+        "different",
+        "odd one out"
+      ],
+      "resources": [
+        "Sorting baskets",
+        "Pairs",
+        "Odd one out groups",
+        "Class record sheet"
+      ],
+      "starter": "Sing the sorting song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: colour sort, size sort and odd one out.",
+        "At each station ask \"How did you sort?\"",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers with a word.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: colour sort, size sort and odd one out. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"How did you sort?\" Children: Child answers with a word.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Sorting stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use large objects only. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use two colours.",
+        "extension": "Ask a confident child to sort by two features."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: sorts by colour; sorts by size; finds pairs; finds the odd one out; says the sorting rule.",
+        "questions": [
+          {
+            "question": "How did you sort?",
+            "expected": "By colour or size."
+          },
+          {
+            "question": "Which is the odd one?",
+            "expected": "The different one."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 6",
+        "Sorts and matches with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep sorting things at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child sorts and matches\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Sorting"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Sorting stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

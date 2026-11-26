@@ -1,0 +1,598 @@
+{
+  "id": "ELA-PS-N1-NUM-T1-W05",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 5,
+  "title": "Number games",
+  "topic": "Consolidation",
+  "subtopics": [
+    "Number hop and jump",
+    "Number hunt",
+    "Counting bags"
+  ],
+  "weekType": "consolidation",
+  "objectives": [
+    "Children will play games that practise counting and numerals to 10.",
+    "Children will show how many in a group with fingers or objects."
+  ],
+  "vocabulary": [
+    "hop",
+    "jump",
+    "find",
+    "count",
+    "number",
+    "game"
+  ],
+  "content": "Number hop and jump, number hunt, and counting bags.",
+  "teachingActivities": "Use games to practise rather than teach new ideas; keep rules simple; let children play in pairs; watch for children who guess and not count; note children who need more practice.",
+  "learnerActivities": "Play counting games with confidence and count out a number of objects when asked.",
+  "resources": [
+    "Numeral cards 1 to 10",
+    "Counting bags",
+    "A hopscotch grid",
+    "Beanbags",
+    "Counters"
+  ],
+  "assessment": "Observe whether each child counts out a number of objects when asked and plays games with confidence.",
+  "expectedOutcomes": [
+    "Plays counting games with confidence.",
+    "Counts out a number of objects when asked."
+  ],
+  "crossCurricular": [
+    "Physical Development: hopping and throwing",
+    "Social Habits: taking turns",
+    "Literacy: following instructions"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T1-W05-D01",
+      "title": "Number hopscotch",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 5,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Number hop and jump",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will hop along a number grid and say each number."
+      ],
+      "successCriteria": [
+        "Hops on numbers 1 to 10 in order",
+        "Says each number"
+      ],
+      "previousKnowledge": "Children can count to 10, count objects and name numerals 1 to 10.",
+      "vocabulary": [
+        "hop",
+        "jump",
+        "find",
+        "count",
+        "number",
+        "game"
+      ],
+      "resources": [
+        "A chalk or tape hopscotch grid",
+        "Beanbags",
+        "A bell"
+      ],
+      "starter": "Show a number grid and say \"Let us play hopscotch and count as we hop.\"",
+      "teacherActivities": [
+        "Show how to hop from one number to the next.",
+        "Let children take turns to hop and count.",
+        "Throw a beanbag on a number and say it.",
+        "Cheer for every child who counts."
+      ],
+      "learnerActivities": [
+        "Children watch and count.",
+        "Child hops and says each number.",
+        "Child throws and names the number.",
+        "Children clap and cheer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to hop from one number to the next. Children: Children watch and count.",
+        "Step 2. Teacher: Let children take turns to hop and count. Children: Child hops and says each number.",
+        "Step 3. Teacher: Throw a beanbag on a number and say it. Children: Child throws and names the number.",
+        "Step 4. Teacher: Cheer for every child who counts. Children: Children clap and cheer."
+      ],
+      "practical": {
+        "title": "Hopscotch",
+        "steps": [
+          "Throw a beanbag.",
+          "Hop to the number.",
+          "Say each number."
+        ],
+        "safety": "Use a flat non-slip surface and supervise every hop. Keep beanbag throwing gentle and away from faces."
+      },
+      "differentiation": {
+        "support": "Walk the grid holding hands and say the numbers.",
+        "extension": "Ask the child to hop in twos."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What number did your beanbag land on?",
+            "expected": "The number."
+          },
+          {
+            "question": "What comes next?",
+            "expected": "The next number."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Hops along numerals in order",
+        "Says each number"
+      ],
+      "conclusion": "Count the beanbags back into a basket.",
+      "homeConnection": "Draw a hopscotch grid with chalk and play together.",
+      "teacherReflection": [
+        "Which children could show \"hop along a number grid and say each number\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HOP",
+          "NUMBERS"
+        ],
+        "pictures": [
+          "A hopscotch grid"
+        ]
+      },
+      "activities": [
+        "Hopscotch"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W05-D02",
+      "title": "Number hunt",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 5,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Number hunt",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will find numerals hidden around the room and say them."
+      ],
+      "successCriteria": [
+        "Finds hidden numerals",
+        "Names the numeral and counts that many"
+      ],
+      "previousKnowledge": "Children can count to 10, count objects and name numerals 1 to 10.",
+      "vocabulary": [
+        "hop",
+        "jump",
+        "find",
+        "count",
+        "number",
+        "game"
+      ],
+      "resources": [
+        "Hidden numeral cards 1 to 10",
+        "Baskets",
+        "Counters"
+      ],
+      "starter": "Say \"I have hidden numbers around the room. Can you find them?\"",
+      "teacherActivities": [
+        "Show a sample card and explain the game.",
+        "Let children hunt for numeral cards.",
+        "Ask each child to say the numeral and count out that many counters.",
+        "Put the numerals in order together."
+      ],
+      "learnerActivities": [
+        "Children look and nod.",
+        "Child finds a numeral card.",
+        "Child names the numeral and counts.",
+        "Children place cards in order."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show a sample card and explain the game. Children: Children look and nod.",
+        "Step 2. Teacher: Let children hunt for numeral cards. Children: Child finds a numeral card.",
+        "Step 3. Teacher: Ask each child to say the numeral and count out that many counters. Children: Child names the numeral and counts.",
+        "Step 4. Teacher: Put the numerals in order together. Children: Children place cards in order."
+      ],
+      "practical": {
+        "title": "Numeral hunt",
+        "steps": [
+          "Search for a numeral card.",
+          "Name the numeral.",
+          "Count out that many counters."
+        ],
+        "safety": "Hide cards at child height away from hazards and supervise the hunt. Keep the room tidy."
+      },
+      "differentiation": {
+        "support": "Hunt in a small area with the child and find numerals 1 to 5.",
+        "extension": "Ask the child to find a numeral and write it."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "What numeral did you find?",
+            "expected": "The numeral name."
+          },
+          {
+            "question": "How many counters?",
+            "expected": "The same number."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Finds and names numerals",
+        "Counts out that many objects"
+      ],
+      "conclusion": "Put the numerals in order and say them aloud.",
+      "homeConnection": "Hide numeral cards at home and hunt for them.",
+      "teacherReflection": [
+        "Which children could show \"find numerals hidden around the room and say them\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FIND",
+          "HUNT"
+        ],
+        "pictures": [
+          "Numeral cards hidden around the room"
+        ]
+      },
+      "activities": [
+        "Numeral hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W05-D03",
+      "title": "Counting bags",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 5,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Counting bags",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will fill a bag with the number of objects on a card."
+      ],
+      "successCriteria": [
+        "Counts the right number into a bag",
+        "Checks by counting out again"
+      ],
+      "previousKnowledge": "Children can count to 10, count objects and name numerals 1 to 10.",
+      "vocabulary": [
+        "hop",
+        "jump",
+        "find",
+        "count",
+        "number",
+        "game"
+      ],
+      "resources": [
+        "Small bags with numeral labels",
+        "Counters",
+        "A tray"
+      ],
+      "starter": "Show a bag labelled 6 and say \"Put six counters inside this bag.\"",
+      "teacherActivities": [
+        "Show how to count six into a bag.",
+        "Let each child fill a bag to match the label.",
+        "Tip out the bag and check.",
+        "Swap bags with a friend and check."
+      ],
+      "learnerActivities": [
+        "Children watch and count.",
+        "Child counts into a bag.",
+        "Child counts again to check.",
+        "Child checks a friend’s bag."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to count six into a bag. Children: Children watch and count.",
+        "Step 2. Teacher: Let each child fill a bag to match the label. Children: Child counts into a bag.",
+        "Step 3. Teacher: Tip out the bag and check. Children: Child counts again to check.",
+        "Step 4. Teacher: Swap bags with a friend and check. Children: Child checks a friend’s bag."
+      ],
+      "practical": {
+        "title": "Fill the bag",
+        "steps": [
+          "Read the label.",
+          "Count counters into the bag.",
+          "Check by counting out."
+        ],
+        "safety": "Use large counters and supervise tipping. Keep bags away from faces."
+      },
+      "differentiation": {
+        "support": "Use bags labelled 1 to 5 only.",
+        "extension": "Ask the child to make a bag labelled 12."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many are in the bag?",
+            "expected": "The number on the label."
+          },
+          {
+            "question": "How do we check?",
+            "expected": "Count again."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts the right number into a bag",
+        "Checks by counting again"
+      ],
+      "conclusion": "Put the bags away and say the numbers.",
+      "homeConnection": "Fill a small bag with the number of objects on a card.",
+      "teacherReflection": [
+        "Which children could show \"fill a bag with the number of objects on a card\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "BAG",
+          "FILL"
+        ],
+        "pictures": [
+          "A labelled counting bag"
+        ]
+      },
+      "activities": [
+        "Fill the bag"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W05-D04",
+      "title": "Show me with fingers",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 5,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Number hop and jump",
+      "dayType": "consolidate",
+      "objectives": [
+        "Children will show numbers to ten with their fingers."
+      ],
+      "successCriteria": [
+        "Shows a number to 10 with fingers",
+        "Says the number"
+      ],
+      "previousKnowledge": "Children can count to 10, count objects and name numerals 1 to 10.",
+      "vocabulary": [
+        "hop",
+        "jump",
+        "find",
+        "count",
+        "number",
+        "game"
+      ],
+      "resources": [
+        "Numeral cards",
+        "A bell",
+        "A puppet"
+      ],
+      "starter": "Hold up a numeral card and say \"Show me with your fingers.\"",
+      "teacherActivities": [
+        "Show the numeral 3 and make three with fingers.",
+        "Call out numbers and let children show them.",
+        "Use two hands to show numbers over five.",
+        "Ask \"How many fingers?\""
+      ],
+      "learnerActivities": [
+        "Children copy with their fingers.",
+        "Children show the number with fingers.",
+        "Child shows six to ten.",
+        "Child says the number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show the numeral 3 and make three with fingers. Children: Children copy with their fingers.",
+        "Step 2. Teacher: Call out numbers and let children show them. Children: Children show the number with fingers.",
+        "Step 3. Teacher: Use two hands to show numbers over five. Children: Child shows six to ten.",
+        "Step 4. Teacher: Ask \"How many fingers?\" Children: Child says the number."
+      ],
+      "practical": {
+        "title": "Fingers game",
+        "steps": [
+          "Look at the numeral.",
+          "Show it with your fingers.",
+          "Say the number."
+        ],
+        "safety": "Keep the game seated and gentle so that no child is hit. Accept different finger patterns for the same number."
+      },
+      "differentiation": {
+        "support": "Show the finger pattern beside the child.",
+        "extension": "Ask the child to show a number in two different ways."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many fingers is this?",
+            "expected": "The number shown."
+          },
+          {
+            "question": "Show me seven.",
+            "expected": "The child shows seven."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Shows numbers with fingers",
+        "Says the number shown"
+      ],
+      "conclusion": "Put your hands in your lap and wave.",
+      "homeConnection": "Show numbers with fingers while counting at home.",
+      "teacherReflection": [
+        "Which children could show \"show numbers to ten with their fingers\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "FINGERS",
+          "SHOW"
+        ],
+        "pictures": [
+          "Hands showing numbers"
+        ]
+      },
+      "activities": [
+        "Fingers game"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W05-D05",
+      "title": "Week 5 number games check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 5,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Consolidation",
+      "subtopic": "Counting bags",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how confidently each child plays counting games."
+      ],
+      "successCriteria": [
+        "Counts out the number asked",
+        "Plays games with confidence"
+      ],
+      "previousKnowledge": "Children can count to 10, count objects and name numerals 1 to 10.",
+      "vocabulary": [
+        "hop",
+        "jump",
+        "find",
+        "count",
+        "number",
+        "game"
+      ],
+      "resources": [
+        "Counting bags",
+        "Numeral cards",
+        "Hopscotch grid",
+        "Class record sheet"
+      ],
+      "starter": "Sing the number song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: hopscotch, counting bags and numeral hunt.",
+        "At each station watch how the child counts.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child counts with confidence.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: hopscotch, counting bags and numeral hunt. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station watch how the child counts. Children: Child counts with confidence.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Game stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and keep floors clear. Use large counters only."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use numbers up to five.",
+        "extension": "Ask a confident child to lead a game."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: counts out a number; names numerals; plays counting games; takes turns.",
+        "questions": [
+          {
+            "question": "Can you count out seven?",
+            "expected": "Counts out seven."
+          },
+          {
+            "question": "What numeral is this?",
+            "expected": "A numeral from 1 to 10."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 5",
+        "Plays counting games confidently"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep playing number games at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how confidently each child plays counting games\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Games"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Game stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

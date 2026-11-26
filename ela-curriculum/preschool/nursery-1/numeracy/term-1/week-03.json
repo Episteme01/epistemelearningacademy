@@ -1,0 +1,597 @@
+{
+  "id": "ELA-PS-N1-NUM-T1-W03",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 3,
+  "title": "Counting objects to 10",
+  "topic": "Counting",
+  "subtopics": [
+    "One touch for each object",
+    "Counting in a line and a circle",
+    "How many are there?"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will touch each object once as they count to 10.",
+    "Children will say the last number as how many."
+  ],
+  "vocabulary": [
+    "how many",
+    "count",
+    "touch",
+    "all",
+    "line",
+    "group"
+  ],
+  "content": "Touching each object once, counting in a line and a circle, and saying how many there are.",
+  "teachingActivities": "Teach the one-to-one rule: touch, move and say; arrange objects in a line first, then a circle, then a scatter; always ask \"How many are there?\" after counting; use tricks such as moving counted items into a box.",
+  "learnerActivities": "Count up to 10 objects with one-to-one touch and say how many.",
+  "resources": [
+    "Counters",
+    "Egg boxes or ten frames",
+    "Pegs and a line",
+    "Stones, seeds and bottle tops",
+    "Baskets"
+  ],
+  "assessment": "Observe whether each child counts up to 10 objects accurately and says how many.",
+  "expectedOutcomes": [
+    "Counts up to 10 objects with one-to-one touch.",
+    "Says how many in a group."
+  ],
+  "crossCurricular": [
+    "Science: counting natural objects",
+    "Social Habits: sharing equally",
+    "Literacy: how many words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T1-W03-D01",
+      "title": "Touch each one",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 3,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "One touch for each object",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will touch each object once while counting to ten."
+      ],
+      "successCriteria": [
+        "Touches each object once",
+        "Does not miss or repeat objects"
+      ],
+      "previousKnowledge": "Children can say numbers to 10 and count up to 5 objects.",
+      "vocabulary": [
+        "how many",
+        "count",
+        "touch",
+        "all",
+        "line",
+        "group"
+      ],
+      "resources": [
+        "Ten counters in a line",
+        "A plate",
+        "A basket"
+      ],
+      "starter": "Show ten counters in a line and say \"We touch each one once. We do not miss any.\"",
+      "teacherActivities": [
+        "Touch each counter and move it to a plate as you count.",
+        "Show what happens if you count one twice.",
+        "Let each child count a line of counters.",
+        "Ask \"How many?\" after each count."
+      ],
+      "learnerActivities": [
+        "Children count aloud with you.",
+        "Children say oops and laugh.",
+        "Child touches and counts.",
+        "Child says the last number."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Touch each counter and move it to a plate as you count. Children: Children count aloud with you.",
+        "Step 2. Teacher: Show what happens if you count one twice. Children: Children say oops and laugh.",
+        "Step 3. Teacher: Let each child count a line of counters. Children: Child touches and counts.",
+        "Step 4. Teacher: Ask \"How many?\" after each count. Children: Child says the last number."
+      ],
+      "practical": {
+        "title": "Touch and move",
+        "steps": [
+          "Put counters in a line.",
+          "Touch and move each one.",
+          "Say how many."
+        ],
+        "safety": "Use counters too large to swallow. Keep children seated and supervise closely."
+      },
+      "differentiation": {
+        "support": "Count up to five with the child touching and moving.",
+        "extension": "Ask the child to count ten counters and then fifteen."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many counters?",
+            "expected": "The number counted."
+          },
+          {
+            "question": "What do we do to each one?",
+            "expected": "Touch it once."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Touches each object once",
+        "Counts up to ten objects"
+      ],
+      "conclusion": "Put the counters away and say \"Ten.\"",
+      "homeConnection": "Count ten pegs or spoons together, touching each once.",
+      "teacherReflection": [
+        "Which children could show \"touch each object once while counting to ten\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "TOUCH",
+          "COUNT"
+        ],
+        "pictures": [
+          "Ten counters in a line"
+        ]
+      },
+      "activities": [
+        "Touch and move"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W03-D02",
+      "title": "Counting in a circle",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 3,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "Counting in a line and a circle",
+      "dayType": "explore",
+      "objectives": [
+        "Children will count objects arranged in a circle."
+      ],
+      "successCriteria": [
+        "Counts objects in a circle",
+        "Starts and stops at the same place"
+      ],
+      "previousKnowledge": "Children can say numbers to 10 and count up to 5 objects.",
+      "vocabulary": [
+        "how many",
+        "count",
+        "touch",
+        "all",
+        "line",
+        "group"
+      ],
+      "resources": [
+        "Ten counters in a circle",
+        "A coloured marker",
+        "A string circle"
+      ],
+      "starter": "Make a circle of counters and say \"In a circle, where do we start? We need a marker.\"",
+      "teacherActivities": [
+        "Put a coloured counter as a marker and count from there.",
+        "Show how to stop at the marker.",
+        "Let each child count a circle of counters.",
+        "Compare a circle count and a line count."
+      ],
+      "learnerActivities": [
+        "Children count with the teacher.",
+        "Children watch and say stop.",
+        "Child counts and stops at the marker.",
+        "Child says the numbers are the same."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Put a coloured counter as a marker and count from there. Children: Children count with the teacher.",
+        "Step 2. Teacher: Show how to stop at the marker. Children: Children watch and say stop.",
+        "Step 3. Teacher: Let each child count a circle of counters. Children: Child counts and stops at the marker.",
+        "Step 4. Teacher: Compare a circle count and a line count. Children: Child says the numbers are the same."
+      ],
+      "practical": {
+        "title": "Circle count",
+        "steps": [
+          "Put a marker counter.",
+          "Count round the circle.",
+          "Stop at the marker."
+        ],
+        "safety": "Use large counters and supervise counting. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Count a circle of five with the child.",
+        "extension": "Ask the child to count a circle of twelve."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Where do we start?",
+            "expected": "At the marker."
+          },
+          {
+            "question": "How many in the circle?",
+            "expected": "The number counted."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts in a circle",
+        "Starts and stops at the marker"
+      ],
+      "conclusion": "Put the counters away and say the numbers.",
+      "homeConnection": "Count items arranged in a circle at home.",
+      "teacherReflection": [
+        "Which children could show \"count objects arranged in a circle\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "CIRCLE",
+          "START"
+        ],
+        "pictures": [
+          "A circle of counters"
+        ]
+      },
+      "activities": [
+        "Circle count"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W03-D03",
+      "title": "How many are there?",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 3,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "How many are there?",
+      "dayType": "practise",
+      "objectives": [
+        "Children will count groups and say how many are there."
+      ],
+      "successCriteria": [
+        "Says how many in a group",
+        "Checks by recounting"
+      ],
+      "previousKnowledge": "Children can say numbers to 10 and count up to 5 objects.",
+      "vocabulary": [
+        "how many",
+        "count",
+        "touch",
+        "all",
+        "line",
+        "group"
+      ],
+      "resources": [
+        "Baskets of mixed objects",
+        "Numeral cards",
+        "A sorting tray"
+      ],
+      "starter": "Show a basket of objects and say \"How many are there? Let us find out.\"",
+      "teacherActivities": [
+        "Count the objects together and say how many.",
+        "Put a numeral card by the group.",
+        "Give each child a basket to count.",
+        "Swap baskets and count again."
+      ],
+      "learnerActivities": [
+        "Children count aloud.",
+        "Child matches a card.",
+        "Child counts the basket.",
+        "Child counts a new basket."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Count the objects together and say how many. Children: Children count aloud.",
+        "Step 2. Teacher: Put a numeral card by the group. Children: Child matches a card.",
+        "Step 3. Teacher: Give each child a basket to count. Children: Child counts the basket.",
+        "Step 4. Teacher: Swap baskets and count again. Children: Child counts a new basket."
+      ],
+      "practical": {
+        "title": "Count the basket",
+        "steps": [
+          "Take a basket.",
+          "Count the objects.",
+          "Put the matching numeral card."
+        ],
+        "safety": "Use only large objects and keep small items out of reach. Supervise baskets."
+      },
+      "differentiation": {
+        "support": "Use a basket of five or fewer objects.",
+        "extension": "Ask the child to find a basket with more than ten."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many are there?",
+            "expected": "The number counted."
+          },
+          {
+            "question": "How do you check?",
+            "expected": "Count again."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says how many in a group",
+        "Checks by recounting"
+      ],
+      "conclusion": "Return the baskets and say the numbers.",
+      "homeConnection": "Count a group of objects and say how many.",
+      "teacherReflection": [
+        "Which children could show \"count groups and say how many are there\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "HOW MANY",
+          "COUNT"
+        ],
+        "pictures": [
+          "A basket of objects"
+        ]
+      },
+      "activities": [
+        "Count the basket"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W03-D04",
+      "title": "Counting scattered things",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 3,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "One touch for each object",
+      "dayType": "apply",
+      "objectives": [
+        "Children will count scattered objects by moving them as they count."
+      ],
+      "successCriteria": [
+        "Moves each object as counted",
+        "Says how many"
+      ],
+      "previousKnowledge": "Children can say numbers to 10 and count up to 5 objects.",
+      "vocabulary": [
+        "how many",
+        "count",
+        "touch",
+        "all",
+        "line",
+        "group"
+      ],
+      "resources": [
+        "Scattered stones or seeds",
+        "Two baskets",
+        "A tray"
+      ],
+      "starter": "Scatter stones on the mat and say \"Now they are everywhere. How can we count them?\"",
+      "teacherActivities": [
+        "Show how to move each stone into a basket as you count.",
+        "Let children count the scattered stones.",
+        "Ask \"How many?\" and compare.",
+        "Count again to check."
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Child moves and counts each stone.",
+        "Child says the number.",
+        "Child counts again."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to move each stone into a basket as you count. Children: Children watch.",
+        "Step 2. Teacher: Let children count the scattered stones. Children: Child moves and counts each stone.",
+        "Step 3. Teacher: Ask \"How many?\" and compare. Children: Child says the number.",
+        "Step 4. Teacher: Count again to check. Children: Child counts again."
+      ],
+      "practical": {
+        "title": "Scatter and count",
+        "steps": [
+          "Look at the scattered stones.",
+          "Move each one to a basket.",
+          "Say how many."
+        ],
+        "safety": "Use stones larger than a child’s fist and wash hands afterwards. Check for sharp edges first."
+      },
+      "differentiation": {
+        "support": "Count five stones together.",
+        "extension": "Ask the child to count two baskets and say the total."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many stones?",
+            "expected": "The number counted."
+          },
+          {
+            "question": "How do you not lose count?",
+            "expected": "Move each stone."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Counts scattered objects",
+        "Moves objects as they are counted"
+      ],
+      "conclusion": "Put the stones away and wash hands.",
+      "homeConnection": "Scatter small safe objects and count them.",
+      "teacherReflection": [
+        "Which children could show \"count scattered objects by moving them as they count\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MOVE",
+          "COUNT"
+        ],
+        "pictures": [
+          "Scattered stones"
+        ]
+      },
+      "activities": [
+        "Scatter and count"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W03-D05",
+      "title": "Week 3 counting objects check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 3,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Counting",
+      "subtopic": "How many are there?",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how accurately each child counts objects."
+      ],
+      "successCriteria": [
+        "Counts up to 10 objects accurately",
+        "Says how many"
+      ],
+      "previousKnowledge": "Children can say numbers to 10 and count up to 5 objects.",
+      "vocabulary": [
+        "how many",
+        "count",
+        "touch",
+        "all",
+        "line",
+        "group"
+      ],
+      "resources": [
+        "Counters",
+        "Baskets",
+        "Class record sheet"
+      ],
+      "starter": "Sing the counting rhyme and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: line, circle and scatter.",
+        "At each station ask \"How many?\" and watch.",
+        "Record each child’s level and highest accurate count."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child counts and answers.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: line, circle and scatter. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"How many?\" and watch. Children: Child counts and answers.",
+        "Step 3. Teacher: Record each child’s level and highest accurate count. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Counting stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use large counters. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and use groups up to five.",
+        "extension": "Ask a confident child to count to twenty."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: touches each object once; counts in a line; counts in a circle; counts scattered objects; says how many.",
+        "questions": [
+          {
+            "question": "How many are there?",
+            "expected": "The number counted."
+          },
+          {
+            "question": "How do you check?",
+            "expected": "Count again."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 3",
+        "Counts objects with one-to-one touch"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep counting objects at home every day.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how accurately each child counts objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Counting"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Counting stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}

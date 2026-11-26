@@ -1,0 +1,598 @@
+{
+  "id": "ELA-PS-N1-NUM-T1-W08",
+  "class": "Nursery 1",
+  "subject": "Numeracy",
+  "term": 1,
+  "week": 8,
+  "title": "Long, longer, longest",
+  "topic": "Length",
+  "subtopics": [
+    "Long and short",
+    "Longer and shorter",
+    "Measuring with hands and steps"
+  ],
+  "weekType": "new-learning",
+  "objectives": [
+    "Children will compare two objects by length.",
+    "Children will measure with hand spans or steps."
+  ],
+  "vocabulary": [
+    "long",
+    "short",
+    "longer",
+    "shorter",
+    "longest",
+    "measure"
+  ],
+  "content": "Long and short, longer and shorter, and measuring with hands and steps.",
+  "teachingActivities": "Compare lengths by lining objects up at the same starting point; use ropes, ribbons, pencils and children’s own bodies; introduce non-standard units such as hand spans and cubes; stress that we start at the same line and count the units without gaps.",
+  "learnerActivities": "Compare two objects by length and measure a short object with hands or cubes.",
+  "resources": [
+    "Ropes and ribbons of different lengths",
+    "Pencils",
+    "Cubes or paper clips",
+    "String",
+    "Pictures of long and short animals"
+  ],
+  "assessment": "Observe whether each child says which of two objects is longer and measures with cubes or hands.",
+  "expectedOutcomes": [
+    "Says which of two is longer.",
+    "Measures a short object with hands or cubes."
+  ],
+  "crossCurricular": [
+    "Science: comparing things",
+    "Physical Development: stretching",
+    "Literacy: describing words"
+  ],
+  "references": [
+    "SRC-ELA-DESIGN",
+    "SRC-EYFS-2026",
+    "SRC-NERDC-ECC05"
+  ],
+  "version": "1.0.0",
+  "status": "draft",
+  "lessons": [
+    {
+      "id": "ELA-PS-N1-NUM-T1-W08-D01",
+      "title": "Long and short",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 8,
+      "day": 1,
+      "durationMin": 25,
+      "topic": "Length",
+      "subtopic": "Long and short",
+      "dayType": "introduce",
+      "objectives": [
+        "Children will say long and short for different objects."
+      ],
+      "successCriteria": [
+        "Says long or short correctly",
+        "Finds a long and a short object"
+      ],
+      "previousKnowledge": "Children can compare and order objects by size.",
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "longest",
+        "measure"
+      ],
+      "resources": [
+        "A long rope and a short rope",
+        "A long and a short pencil",
+        "Pictures of a snake and a worm"
+      ],
+      "starter": "Hold up a long rope and a short rope and say \"This is long. This is short.\"",
+      "teacherActivities": [
+        "Show pairs of objects and say long or short.",
+        "Ask \"Which is long?\" for each pair.",
+        "Let children find long and short things in the room.",
+        "Stretch long and curl short with bodies."
+      ],
+      "learnerActivities": [
+        "Children repeat the words.",
+        "Children point to the long one.",
+        "Child finds objects.",
+        "Children stretch and curl."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show pairs of objects and say long or short. Children: Children repeat the words.",
+        "Step 2. Teacher: Ask \"Which is long?\" for each pair. Children: Children point to the long one.",
+        "Step 3. Teacher: Let children find long and short things in the room. Children: Child finds objects.",
+        "Step 4. Teacher: Stretch long and curl short with bodies. Children: Children stretch and curl."
+      ],
+      "practical": {
+        "title": "Long and short hunt",
+        "steps": [
+          "Look around the room.",
+          "Find a long thing.",
+          "Find a short thing."
+        ],
+        "safety": "Keep ropes short enough that they are not a strangling risk and supervise closely. Do not let children wrap ropes around necks."
+      },
+      "differentiation": {
+        "support": "Offer two very different lengths first.",
+        "extension": "Ask the child to find something as long as their arm."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Is the snake long or short?",
+            "expected": "Long."
+          },
+          {
+            "question": "Is the worm long or short?",
+            "expected": "Short."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Says long and short correctly",
+        "Finds long and short things"
+      ],
+      "conclusion": "Stretch long and curl short and wave.",
+      "homeConnection": "Talk about long and short things you see.",
+      "teacherReflection": [
+        "Which children could show \"say long and short for different objects\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LONG",
+          "SHORT"
+        ],
+        "pictures": [
+          "A long rope",
+          "A short rope"
+        ]
+      },
+      "activities": [
+        "Long and short hunt"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W08-D02",
+      "title": "Longer and shorter",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 8,
+      "day": 2,
+      "durationMin": 25,
+      "topic": "Length",
+      "subtopic": "Longer and shorter",
+      "dayType": "explore",
+      "objectives": [
+        "Children will compare two objects and say which is longer or shorter."
+      ],
+      "successCriteria": [
+        "Says longer or shorter",
+        "Lines up objects at the same start"
+      ],
+      "previousKnowledge": "Children can compare and order objects by size.",
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "longest",
+        "measure"
+      ],
+      "resources": [
+        "Pairs of ropes and ribbons",
+        "Pencils",
+        "A line on the table"
+      ],
+      "starter": "Line up two ribbons at the same place and say \"This one is longer. This one is shorter.\"",
+      "teacherActivities": [
+        "Show how to line up two objects at the same start.",
+        "Ask \"Which is longer?\"",
+        "Ask \"Which is shorter?\"",
+        "Let children compare pairs of objects."
+      ],
+      "learnerActivities": [
+        "Children watch and say start.",
+        "Child points to the longer one.",
+        "Child points to the shorter one.",
+        "Child compares and says longer."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to line up two objects at the same start. Children: Children watch and say start.",
+        "Step 2. Teacher: Ask \"Which is longer?\" Children: Child points to the longer one.",
+        "Step 3. Teacher: Ask \"Which is shorter?\" Children: Child points to the shorter one.",
+        "Step 4. Teacher: Let children compare pairs of objects. Children: Child compares and says longer."
+      ],
+      "practical": {
+        "title": "Line up and compare",
+        "steps": [
+          "Put two objects at the same start.",
+          "Look at the ends.",
+          "Say which is longer."
+        ],
+        "safety": "Keep ribbons short and supervise closely. Never let children tie ropes round themselves or friends."
+      },
+      "differentiation": {
+        "support": "Compare objects that are very different in length.",
+        "extension": "Ask the child to find something longer than a pencil."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which is longer?",
+            "expected": "The longer object."
+          },
+          {
+            "question": "Which is shorter?",
+            "expected": "The shorter object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Compares two objects by length",
+        "Lines up objects at the same start"
+      ],
+      "conclusion": "Put the ribbons away and say longer and shorter.",
+      "homeConnection": "Compare two pencils or spoons at home.",
+      "teacherReflection": [
+        "Which children could show \"compare two objects and say which is longer or shorter\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LONGER",
+          "SHORTER"
+        ],
+        "pictures": [
+          "Two ribbons lined up"
+        ]
+      },
+      "activities": [
+        "Line up and compare"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W08-D03",
+      "title": "Longest and shortest",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 8,
+      "day": 3,
+      "durationMin": 25,
+      "topic": "Length",
+      "subtopic": "Longer and shorter",
+      "dayType": "practise",
+      "objectives": [
+        "Children will order three objects by length."
+      ],
+      "successCriteria": [
+        "Puts three objects in order by length",
+        "Says longest and shortest"
+      ],
+      "previousKnowledge": "Children can compare and order objects by size.",
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "longest",
+        "measure"
+      ],
+      "resources": [
+        "Three ropes",
+        "Three pencils",
+        "A line on the floor"
+      ],
+      "starter": "Show three ropes and say \"Which is the longest? Which is the shortest?\"",
+      "teacherActivities": [
+        "Line three ropes at the same start and order them.",
+        "Mix them up and ask a child to order them.",
+        "Ask \"Which is the shortest?\"",
+        "Let each child order a set of three."
+      ],
+      "learnerActivities": [
+        "Children watch and say longest.",
+        "Child orders the ropes.",
+        "Child points to the shortest.",
+        "Child orders objects."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Line three ropes at the same start and order them. Children: Children watch and say longest.",
+        "Step 2. Teacher: Mix them up and ask a child to order them. Children: Child orders the ropes.",
+        "Step 3. Teacher: Ask \"Which is the shortest?\" Children: Child points to the shortest.",
+        "Step 4. Teacher: Let each child order a set of three. Children: Child orders objects."
+      ],
+      "practical": {
+        "title": "Order by length",
+        "steps": [
+          "Take three objects.",
+          "Line them up at the same start.",
+          "Say longest and shortest."
+        ],
+        "safety": "Use short pieces of soft rope and supervise closely. Keep the floor clear."
+      },
+      "differentiation": {
+        "support": "Order two objects first and then add a third.",
+        "extension": "Ask the child to order five objects."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "Which is the longest?",
+            "expected": "The longest object."
+          },
+          {
+            "question": "Which is the shortest?",
+            "expected": "The shortest object."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Orders three objects by length",
+        "Says longest and shortest"
+      ],
+      "conclusion": "Put the sets away and say longest and shortest.",
+      "homeConnection": "Order three spoons by length at home.",
+      "teacherReflection": [
+        "Which children could show \"order three objects by length\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "LONGEST",
+          "SHORTEST"
+        ],
+        "pictures": [
+          "Three ropes in order"
+        ]
+      },
+      "activities": [
+        "Order by length"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W08-D04",
+      "title": "Measuring with cubes and hands",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 8,
+      "day": 4,
+      "durationMin": 25,
+      "topic": "Length",
+      "subtopic": "Measuring with hands and steps",
+      "dayType": "apply",
+      "objectives": [
+        "Children will measure an object with cubes or hand spans and say how many."
+      ],
+      "successCriteria": [
+        "Measures with cubes or hands",
+        "Says how many"
+      ],
+      "previousKnowledge": "Children can compare and order objects by size.",
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "longest",
+        "measure"
+      ],
+      "resources": [
+        "Cubes or paper clips",
+        "Objects to measure such as a book or a table",
+        "Number cards"
+      ],
+      "starter": "Say \"How long is our book? Let us measure it with cubes.\"",
+      "teacherActivities": [
+        "Show how to line cubes along the book with no gaps.",
+        "Count the cubes together.",
+        "Let children measure other objects.",
+        "Compare: \"Which is longer, the book or the shoe?\""
+      ],
+      "learnerActivities": [
+        "Children watch.",
+        "Children count the cubes.",
+        "Child measures and counts.",
+        "Child compares the counts."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Show how to line cubes along the book with no gaps. Children: Children watch.",
+        "Step 2. Teacher: Count the cubes together. Children: Children count the cubes.",
+        "Step 3. Teacher: Let children measure other objects. Children: Child measures and counts.",
+        "Step 4. Teacher: Compare: \"Which is longer, the book or the shoe?\" Children: Child compares the counts."
+      ],
+      "practical": {
+        "title": "Measure with cubes",
+        "steps": [
+          "Line cubes along the object.",
+          "Leave no gaps.",
+          "Count the cubes."
+        ],
+        "safety": "Use cubes too big to swallow and supervise closely. Keep the floor clear of cubes after."
+      },
+      "differentiation": {
+        "support": "Measure with hand spans and count together.",
+        "extension": "Ask the child to measure with two different units."
+      },
+      "assessment": {
+        "method": "Observe each child during the practical activity and note Emerging, Developing, Secure or Exceeding on the class record. Ask the questions below one to one or in a small group.",
+        "questions": [
+          {
+            "question": "How many cubes long?",
+            "expected": "The number of cubes."
+          },
+          {
+            "question": "Which is longer?",
+            "expected": "The one with more cubes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Measures with cubes or hands",
+        "Says how many"
+      ],
+      "conclusion": "Put the cubes away and count them.",
+      "homeConnection": "Measure a spoon or a shoe with your hand.",
+      "teacherReflection": [
+        "Which children could show \"measure an object with cubes or hand spans and say how many\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "MEASURE",
+          "CUBES"
+        ],
+        "pictures": [
+          "Cubes along a book"
+        ]
+      },
+      "activities": [
+        "Measure with cubes"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    },
+    {
+      "id": "ELA-PS-N1-NUM-T1-W08-D05",
+      "title": "Week 8 length check",
+      "class": "Nursery 1",
+      "subject": "Numeracy",
+      "term": 1,
+      "week": 8,
+      "day": 5,
+      "durationMin": 25,
+      "topic": "Length",
+      "subtopic": "Long and short",
+      "dayType": "review-assess",
+      "objectives": [
+        "Teachers will observe how each child compares and measures lengths."
+      ],
+      "successCriteria": [
+        "Says which is longer",
+        "Measures with cubes or hands"
+      ],
+      "previousKnowledge": "Children can compare and order objects by size.",
+      "vocabulary": [
+        "long",
+        "short",
+        "longer",
+        "shorter",
+        "longest",
+        "measure"
+      ],
+      "resources": [
+        "Ropes",
+        "Cubes",
+        "Class record sheet"
+      ],
+      "starter": "Sing the long and short song and show three stations.",
+      "teacherActivities": [
+        "Set up three stations: compare, order and measure.",
+        "At each station ask \"Which is longer?\" and watch.",
+        "Record each child’s level."
+      ],
+      "learnerActivities": [
+        "Children rotate every five minutes.",
+        "Child answers and measures.",
+        "Children tidy at the signal."
+      ],
+      "presentation": [
+        "Step 1. Teacher: Set up three stations: compare, order and measure. Children: Children rotate every five minutes.",
+        "Step 2. Teacher: At each station ask \"Which is longer?\" and watch. Children: Child answers and measures.",
+        "Step 3. Teacher: Record each child’s level. Children: Children tidy at the signal."
+      ],
+      "practical": {
+        "title": "Length stations",
+        "steps": [
+          "Set up three stations.",
+          "Children rotate on the signal.",
+          "The teacher observes and records."
+        ],
+        "safety": "Supervise each station and use soft short ropes and large cubes. Keep floors clear."
+      },
+      "differentiation": {
+        "support": "Provide an adult partner and compare two objects.",
+        "extension": "Ask a confident child to measure and compare three objects."
+      },
+      "assessment": {
+        "method": "Observe and record Emerging, Developing, Secure or Exceeding for: says long and short; says longer and shorter; orders three by length; measures with cubes or hands.",
+        "questions": [
+          {
+            "question": "Which is longer?",
+            "expected": "The longer object."
+          },
+          {
+            "question": "How many cubes long?",
+            "expected": "The number of cubes."
+          }
+        ]
+      },
+      "expectedOutcomes": [
+        "Has an observation record for Week 8",
+        "Compares and measures length with support"
+      ],
+      "conclusion": "Wave goodbye and say well done.",
+      "homeConnection": "Keep comparing lengths at home.",
+      "teacherReflection": [
+        "Which children could show \"Teachers will observe how each child compares and measures lengths\" without help, and who needs another turn tomorrow?",
+        "What did the children say or do that I did not expect, and how will I use it in the next lesson?",
+        "Which resource or instruction worked best, and what would I change before I teach this again?"
+      ],
+      "learnerFacing": {
+        "boardContent": [
+          "Length"
+        ],
+        "pictures": [
+          "Photos of stations"
+        ]
+      },
+      "activities": [
+        "Length stations"
+      ],
+      "references": [
+        "SRC-ELA-DESIGN",
+        "SRC-EYFS-2026",
+        "SRC-NERDC-ECC05"
+      ],
+      "version": "1.0.0",
+      "status": "draft"
+    }
+  ]
+}
